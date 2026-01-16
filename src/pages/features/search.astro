@@ -71,6 +71,22 @@ const searchIndex = allFeatures.map(f => ({
   </script>
 
   <script>
+    // Type declaration for search index on window
+    interface SearchFeature {
+      id: number;
+      interp: string;
+      rc: number;
+      rnc: number;
+      vs: string;
+      pl: string;
+      hd: boolean;
+    }
+    declare global {
+      interface Window {
+        searchIndex: SearchFeature[];
+      }
+    }
+
     const searchInput = document.getElementById('search-input') as HTMLInputElement;
     const clearBtn = document.getElementById('clear-btn') as HTMLButtonElement;
     const resultsContainer = document.getElementById('results') as HTMLDivElement;
@@ -78,7 +94,7 @@ const searchIndex = allFeatures.map(f => ({
     const loadMoreContainer = document.getElementById('load-more-container') as HTMLDivElement;
     const loadMoreBtn = document.getElementById('load-more-btn') as HTMLButtonElement;
 
-    let currentResults: typeof window.searchIndex = [];
+    let currentResults: SearchFeature[] = [];
     let displayedCount = 0;
     const RESULTS_PER_PAGE = 50;
 
@@ -95,7 +111,7 @@ const searchIndex = allFeatures.map(f => ({
       return escaped.replace(regex, '<mark class="bg-yellow-200">$1</mark>');
     }
 
-    function renderFeature(feature: typeof window.searchIndex[0], query: string): string {
+    function renderFeature(feature: SearchFeature, query: string): string {
       const statusBadge = feature.vs ? `
         <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
           feature.vs === 'PASS' ? 'bg-green-100 text-green-800' :
@@ -147,12 +163,12 @@ const searchIndex = allFeatures.map(f => ({
       clearBtn.classList.remove('hidden');
 
       // Filter features
-      currentResults = window.searchIndex.filter((f: typeof window.searchIndex[0]) =>
+      currentResults = window.searchIndex.filter((f: SearchFeature) =>
         f.interp.toLowerCase().includes(trimmedQuery)
       );
 
       // Sort by rank_control
-      currentResults.sort((a: typeof window.searchIndex[0], b: typeof window.searchIndex[0]) => a.rc - b.rc);
+      currentResults.sort((a: SearchFeature, b: SearchFeature) => a.rc - b.rc);
 
       displayedCount = 0;
       resultsContainer.innerHTML = '';
@@ -172,7 +188,7 @@ const searchIndex = allFeatures.map(f => ({
       const trimmedQuery = query.trim();
       const nextBatch = currentResults.slice(displayedCount, displayedCount + RESULTS_PER_PAGE);
 
-      nextBatch.forEach((feature: typeof window.searchIndex[0]) => {
+      nextBatch.forEach((feature: SearchFeature) => {
         const div = document.createElement('div');
         div.innerHTML = renderFeature(feature, trimmedQuery);
         resultsContainer.appendChild(div.firstElementChild!);
