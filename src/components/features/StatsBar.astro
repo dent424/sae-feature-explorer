@@ -11,72 +11,28 @@ const { activationRate, meanWhenActive, maxActivation, stdWhenActive } = Astro.p
 // Format as percentage or decimal
 const formatPercent = (val: number) => (val * 100).toFixed(4) + '%';
 const formatDecimal = (val: number) => val.toFixed(4);
-
-// Calculate gauge percentages
-// Activation rate: use log scale for better visualization (rates are typically very small)
-const activationRatePercent = Math.min(100, Math.max(0, -Math.log10(activationRate) * 10));
-// Mean relative to max
-const meanPercent = maxActivation > 0 ? (meanWhenActive / maxActivation) * 100 : 0;
-// Std relative to mean (coefficient of variation visualization)
-const stdPercent = stdWhenActive && meanWhenActive > 0 ? Math.min(100, (stdWhenActive / meanWhenActive) * 100) : 0;
 ---
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-50 rounded-lg p-4">
   <div>
-    <div class="flex items-baseline justify-between mb-1">
-      <span class="text-sm text-gray-500">Activation Rate</span>
-      <span class="text-lg font-bold text-blue-600">{formatPercent(activationRate)}</span>
-    </div>
-    <div class="w-full bg-gray-200 rounded-full h-2">
-      <div
-        class="bg-blue-500 h-2 rounded-full transition-all"
-        style={`width: ${Math.min(100, activationRate * 10000)}%`}
-        title={`${formatPercent(activationRate)} activation rate`}
-      ></div>
-    </div>
+    <span class="text-sm text-gray-500 block">Activation Rate</span>
+    <span class="text-lg font-bold text-gray-900">{formatPercent(activationRate)}</span>
   </div>
 
   <div>
-    <div class="flex items-baseline justify-between mb-1">
-      <span class="text-sm text-gray-500">Mean (active)</span>
-      <span class="text-lg font-bold text-green-600">{formatDecimal(meanWhenActive)}</span>
-    </div>
-    <div class="w-full bg-gray-200 rounded-full h-2">
-      <div
-        class="bg-green-500 h-2 rounded-full transition-all"
-        style={`width: ${meanPercent}%`}
-        title={`${formatDecimal(meanWhenActive)} mean activation (${meanPercent.toFixed(0)}% of max)`}
-      ></div>
-    </div>
+    <span class="text-sm text-gray-500 block">Mean (active)</span>
+    <span class="text-lg font-bold text-gray-900">{formatDecimal(meanWhenActive)}</span>
   </div>
 
   <div>
-    <div class="flex items-baseline justify-between mb-1">
-      <span class="text-sm text-gray-500">Max Activation</span>
-      <span class="text-lg font-bold text-orange-600">{formatDecimal(maxActivation)}</span>
-    </div>
-    <div class="w-full bg-gray-200 rounded-full h-2">
-      <div
-        class="bg-orange-500 h-2 rounded-full transition-all"
-        style="width: 100%"
-        title={`${formatDecimal(maxActivation)} max activation`}
-      ></div>
-    </div>
+    <span class="text-sm text-gray-500 block">Max Activation</span>
+    <span class="text-lg font-bold text-gray-900">{formatDecimal(maxActivation)}</span>
   </div>
 
   {stdWhenActive !== undefined && (
     <div>
-      <div class="flex items-baseline justify-between mb-1">
-        <span class="text-sm text-gray-500">Std Dev</span>
-        <span class="text-lg font-bold text-purple-600">{formatDecimal(stdWhenActive)}</span>
-      </div>
-      <div class="w-full bg-gray-200 rounded-full h-2">
-        <div
-          class="bg-purple-500 h-2 rounded-full transition-all"
-          style={`width: ${stdPercent}%`}
-          title={`${formatDecimal(stdWhenActive)} std dev (${stdPercent.toFixed(0)}% of mean)`}
-        ></div>
-      </div>
+      <span class="text-sm text-gray-500 block">Std Dev</span>
+      <span class="text-lg font-bold text-gray-900">{formatDecimal(stdWhenActive)}</span>
     </div>
   )}
 </div>
