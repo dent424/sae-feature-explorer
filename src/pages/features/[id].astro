@@ -26,6 +26,12 @@ if (!featureData) {
   return Astro.redirect('/features');
 }
 
+// Get prev/next feature IDs (from features that have data)
+const featureIds = loadFeaturesWithData().sort((a, b) => a - b);
+const currentIndex = featureIds.indexOf(featureId);
+const prevFeatureId = currentIndex > 0 ? featureIds[currentIndex - 1] : null;
+const nextFeatureId = currentIndex < featureIds.length - 1 ? featureIds[currentIndex + 1] : null;
+
 // Build interpretations lookup for coactivated features
 const allFeatures = loadFeaturesIndex();
 const coactivatedIds = new Set((featureData.coactivation?.coactivated_features || []).map(c => c.feature_idx));
@@ -75,12 +81,67 @@ const verifyStatusColor = indexEntry?.verify_status
   </div>
 
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-4 text-sm" aria-label="Breadcrumb">
+      <ol class="flex items-center space-x-2">
+        <li>
+          <a href="/" class="text-gray-500 hover:text-gray-700">Home</a>
+        </li>
+        <li class="text-gray-400">/</li>
+        <li>
+          <a href="/features" class="text-gray-500 hover:text-gray-700" id="back-link">Features</a>
+        </li>
+        <li class="text-gray-400">/</li>
+        <li class="text-gray-900 font-medium">Feature {featureId}</li>
+      </ol>
+    </nav>
+
     <!-- Header -->
     <div class="mb-6" id="main-header">
-      <div class="flex items-center space-x-4 mb-2">
-        <a href="/features" class="text-blue-600 hover:text-blue-800 text-sm">
-          &larr; Back to Features
-        </a>
+      <div class="flex items-center justify-between mb-2">
+        <span></span> <!-- Spacer for flex justify-between -->
+        <!-- Prev/Next Navigation -->
+        <div class="flex items-center space-x-2">
+          {prevFeatureId !== null ? (
+            <a
+              href={`/features/${prevFeatureId}`}
+              class="inline-flex items-center px-3 py-1 text-sm font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+              title={`Previous: Feature ${prevFeatureId}`}
+            >
+              <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              Prev
+            </a>
+          ) : (
+            <span class="inline-flex items-center px-3 py-1 text-sm font-medium text-gray-400 bg-gray-50 rounded cursor-not-allowed">
+              <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              Prev
+            </span>
+          )}
+          <span class="text-xs text-gray-400">{currentIndex + 1} of {featureIds.length}</span>
+          {nextFeatureId !== null ? (
+            <a
+              href={`/features/${nextFeatureId}`}
+              class="inline-flex items-center px-3 py-1 text-sm font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+              title={`Next: Feature ${nextFeatureId}`}
+            >
+              Next
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          ) : (
+            <span class="inline-flex items-center px-3 py-1 text-sm font-medium text-gray-400 bg-gray-50 rounded cursor-not-allowed">
+              Next
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          )}
+        </div>
       </div>
       <div class="flex items-center justify-between">
         <h1 class="text-3xl font-bold text-gray-900">
@@ -168,9 +229,17 @@ const verifyStatusColor = indexEntry?.verify_status
         </div>
       </div>
     )}
+
+    <!-- Keyboard Shortcuts Hint -->
+    <div class="mt-6 text-center text-xs text-gray-400 space-x-4">
+      <span><kbd class="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-gray-600">←</kbd> / <kbd class="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-gray-600">K</kbd> Previous</span>
+      <span><kbd class="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-gray-600">→</kbd> / <kbd class="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-gray-600">J</kbd> Next</span>
+      <span><kbd class="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-gray-600">/</kbd> Search</span>
+      <span><kbd class="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-gray-600">Esc</kbd> Back to list</span>
+    </div>
   </div>
 
-  <script define:vars={{ featureId }}>
+  <script define:vars={{ featureId, prevFeatureId, nextFeatureId }}>
     // Show sticky header when scrolled past the main header
     const stickyHeader = document.getElementById('sticky-header');
     const mainHeader = document.getElementById('main-header');
@@ -193,27 +262,28 @@ const verifyStatusColor = indexEntry?.verify_status
       observer.observe(mainHeader);
     }
 
-    // Keyboard shortcuts: j/k for previous/next feature, / for search
+    // Keyboard shortcuts: j/k/arrows for previous/next feature, / for search
     document.addEventListener('keydown', (e) => {
       // Ignore if typing in an input
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
-      const currentId = featureId;
-
-      if (e.key === 'j' || e.key === 'J') {
-        // Next feature (higher ID)
-        const nextId = Math.min(24575, currentId + 1);
-        window.location.href = `/features/${nextId}`;
-      } else if (e.key === 'k' || e.key === 'K') {
-        // Previous feature (lower ID)
-        const prevId = Math.max(0, currentId - 1);
-        window.location.href = `/features/${prevId}`;
+      if ((e.key === 'j' || e.key === 'J' || e.key === 'ArrowRight') && nextFeatureId !== null) {
+        // Next feature
+        window.location.href = `/features/${nextFeatureId}`;
+      } else if ((e.key === 'k' || e.key === 'K' || e.key === 'ArrowLeft') && prevFeatureId !== null) {
+        // Previous feature
+        window.location.href = `/features/${prevFeatureId}`;
       } else if (e.key === '/') {
         e.preventDefault();
         window.location.href = '/features/search';
       } else if (e.key === 'Escape') {
-        // Go back to features list
-        window.location.href = '/features';
+        // Go back to features list (restore scroll position)
+        const backLink = document.getElementById('back-link');
+        if (backLink) {
+          window.location.href = backLink.getAttribute('href') || '/features';
+        } else {
+          window.location.href = '/features';
+        }
       }
     });
   </script>

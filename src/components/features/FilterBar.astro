@@ -1,0 +1,154 @@
+---
+/**
+ * Client-side filter bar for feature list.
+ * Filters cards by verify_status and interpretation presence.
+ */
+---
+
+<div class="flex flex-wrap items-center gap-4 mb-4 p-4 bg-gray-50 rounded-lg">
+  <!-- Status filter -->
+  <div class="flex items-center gap-2">
+    <span class="text-sm text-gray-600 font-medium">Status:</span>
+    <div class="inline-flex rounded-md shadow-sm" role="group">
+      <button
+        type="button"
+        data-filter-status="all"
+        class="filter-status-btn px-3 py-1.5 text-sm font-medium rounded-l-md border border-gray-300 bg-blue-600 text-white"
+      >
+        All
+      </button>
+      <button
+        type="button"
+        data-filter-status="PASS"
+        class="filter-status-btn px-3 py-1.5 text-sm font-medium border-t border-b border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+      >
+        <span class="inline-flex items-center gap-1">
+          <span class="w-2 h-2 rounded-full bg-green-500"></span>
+          PASS
+        </span>
+      </button>
+      <button
+        type="button"
+        data-filter-status="WARN"
+        class="filter-status-btn px-3 py-1.5 text-sm font-medium border-t border-b border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+      >
+        <span class="inline-flex items-center gap-1">
+          <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+          WARN
+        </span>
+      </button>
+      <button
+        type="button"
+        data-filter-status="FAIL"
+        class="filter-status-btn px-3 py-1.5 text-sm font-medium rounded-r-md border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+      >
+        <span class="inline-flex items-center gap-1">
+          <span class="w-2 h-2 rounded-full bg-red-500"></span>
+          FAIL
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Has interpretation toggle -->
+  <div class="flex items-center gap-2">
+    <label class="flex items-center gap-2 cursor-pointer">
+      <input
+        type="checkbox"
+        id="filter-has-interp"
+        class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500"
+      />
+      <span class="text-sm text-gray-600">Has interpretation</span>
+    </label>
+  </div>
+
+  <!-- Filter count -->
+  <div class="text-sm text-gray-500">
+    Showing <span id="filter-visible-count" class="font-medium">0</span> of <span id="filter-total-count" class="font-medium">0</span>
+  </div>
+</div>
+
+<script>
+  // Filter state
+  let currentStatusFilter: string = 'all';
+  let requireInterpretation: boolean = false;
+
+  // Elements
+  const statusButtons = document.querySelectorAll('.filter-status-btn');
+  const interpCheckbox = document.getElementById('filter-has-interp') as HTMLInputElement;
+  const visibleCountEl = document.getElementById('filter-visible-count');
+  const totalCountEl = document.getElementById('filter-total-count');
+
+  // Get all feature cards
+  function getFeatureCards(): HTMLElement[] {
+    return Array.from(document.querySelectorAll('[data-feature-card]'));
+  }
+
+  // Apply filters
+  function applyFilters() {
+    const cards = getFeatureCards();
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const status = card.dataset.verifyStatus || '';
+      const hasInterp = card.dataset.hasInterpretation === 'true';
+
+      let visible = true;
+
+      // Status filter
+      if (currentStatusFilter !== 'all' && status !== currentStatusFilter) {
+        visible = false;
+      }
+
+      // Interpretation filter
+      if (requireInterpretation && !hasInterp) {
+        visible = false;
+      }
+
+      // Apply visibility
+      if (visible) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Update counts
+    if (visibleCountEl) visibleCountEl.textContent = String(visibleCount);
+    if (totalCountEl) totalCountEl.textContent = String(cards.length);
+  }
+
+  // Status button click handlers
+  statusButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const status = (btn as HTMLElement).dataset.filterStatus || 'all';
+      currentStatusFilter = status;
+
+      // Update button styles
+      statusButtons.forEach((b) => {
+        const el = b as HTMLElement;
+        if (el.dataset.filterStatus === status) {
+          el.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-50');
+          el.classList.add('bg-blue-600', 'text-white');
+        } else {
+          el.classList.remove('bg-blue-600', 'text-white');
+          el.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-50');
+        }
+      });
+
+      applyFilters();
+    });
+  });
+
+  // Interpretation checkbox handler
+  if (interpCheckbox) {
+    interpCheckbox.addEventListener('change', () => {
+      requireInterpretation = interpCheckbox.checked;
+      applyFilters();
+    });
+  }
+
+  // Initial count
+  applyFilters();
+</script>

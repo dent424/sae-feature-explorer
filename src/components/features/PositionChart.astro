@@ -16,7 +16,13 @@ const { bins } = Astro.props;
 const maxPercent = Math.max(...bins.map(b => b.percent), 1);
 ---
 
-<div class="space-y-3">
+<div class="space-y-4">
+  <!-- Legend -->
+  <div class="text-xs text-gray-500 bg-gray-100 rounded px-3 py-2">
+    <span class="font-medium text-gray-600">Position in review:</span> Shows where this feature activates within review text. "Early" means near the beginning, "Late" means near the end.
+  </div>
+
+  <div class="space-y-3">
   {bins.map((bin) => (
     <div class="flex items-center space-x-4">
       <div class="w-24 text-sm text-gray-600 text-right">
@@ -37,4 +43,5 @@ const maxPercent = Math.max(...bins.map(b => b.percent), 1);
   {bins.length === 0 && (
     <p class="text-gray-400 text-sm">No position distribution data available</p>
   )}
+  </div>
 </div>

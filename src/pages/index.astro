@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../components/layout/BaseLayout.astro';
-import { loadFeaturesIndex, loadFeaturesWithData } from '../lib/data';
+import { loadFeaturesIndex, loadFeaturesWithData, sortFeatures } from '../lib/data';
 
 const features = loadFeaturesIndex();
 const featuresWithData = loadFeaturesWithData();
@@ -8,6 +8,14 @@ const featuresWithData = loadFeaturesWithData();
 const totalFeatures = features.length;
 const featuresWithJsonData = featuresWithData.length;
 const featuresWithInterpretation = features.filter(f => f.interpretation && f.interpretation.trim()).length;
+
+// Get top-ranked features with interpretations for the "Interesting Features" section
+const topFeatures = sortFeatures(features, 'rank-ctrl')
+  .filter(f => f.interpretation && f.interpretation.trim() && f.hasData)
+  .slice(0, 6);
+
+// For random feature button - features with data
+const featuresWithDataList = featuresWithData;
 ---
 
 <BaseLayout title="SAE Feature Explorer - Home">
@@ -91,8 +99,31 @@ const featuresWithInterpretation = features.filter(f => f.interpretation && f.in
       </div>
     </div>
 
+    <!-- Interesting Features Section -->
+    <div class="mb-12">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-6">Interesting Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {topFeatures.map((feature) => (
+          <a
+            href={`/features/${feature.feature_index}`}
+            class="block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all"
+          >
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-sm font-semibold text-gray-900">Feature {feature.feature_index}</span>
+              <span class="text-xs text-gray-400">#{feature.rank_control.toFixed(0)}</span>
+            </div>
+            <p class="text-sm text-gray-600 line-clamp-3">
+              {feature.interpretation.length > 100
+                ? feature.interpretation.slice(0, 100) + '...'
+                : feature.interpretation}
+            </p>
+          </a>
+        ))}
+      </div>
+    </div>
+
     <!-- CTA -->
-    <div class="text-center">
+    <div class="text-center space-x-4">
       <a
         href="/features"
         class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
@@ -102,6 +133,27 @@ const featuresWithInterpretation = features.filter(f => f.interpretation && f.in
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
         </svg>
       </a>
+      <button
+        id="random-feature-btn"
+        class="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors"
+      >
+        <svg class="mr-2 -ml-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+        </svg>
+        Random Feature
+      </button>
     </div>
   </div>
+
+  <script define:vars={{ featuresWithDataList }}>
+    // Random feature button
+    const randomBtn = document.getElementById('random-feature-btn');
+    if (randomBtn) {
+      randomBtn.addEventListener('click', () => {
+        const randomIndex = Math.floor(Math.random() * featuresWithDataList.length);
+        const randomFeatureId = featuresWithDataList[randomIndex];
+        window.location.href = `/features/${randomFeatureId}`;
+      });
+    }
+  </script>
 </BaseLayout>

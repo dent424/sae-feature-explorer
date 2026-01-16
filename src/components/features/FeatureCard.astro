@@ -37,11 +37,19 @@ const borderAccentColors: Record<string, string> = {
 const borderAccent = feature.verify_status
   ? borderAccentColors[feature.verify_status] || ''
   : '';
+
+// Determine if feature has a meaningful interpretation
+const hasInterpretation = feature.interpretation &&
+  feature.interpretation.trim() !== '' &&
+  feature.interpretation !== 'No interpretation available';
 ---
 
 <a
   href={`/features/${feature.feature_index}`}
   class={`block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all ${borderAccent}`}
+  data-feature-card
+  data-verify-status={feature.verify_status || ''}
+  data-has-interpretation={hasInterpretation ? 'true' : 'false'}
 >
   <div class="flex items-start justify-between mb-2">
     <div class="flex items-center space-x-3">
@@ -72,9 +80,15 @@ const borderAccent = feature.verify_status
     </div>
   </div>
 
-  <p class="text-gray-600 text-sm mb-3">
-    {truncatedInterpretation}
-  </p>
+  {hasInterpretation ? (
+    <p class="text-gray-600 text-sm mb-3">
+      {truncatedInterpretation}
+    </p>
+  ) : (
+    <p class="text-gray-400 text-sm mb-3 italic">
+      No interpretation available
+    </p>
+  )}
 
   <div class="flex items-center justify-between text-xs text-gray-400">
     <div class="flex items-center space-x-4">

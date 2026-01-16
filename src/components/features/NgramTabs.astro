@@ -16,22 +16,33 @@ interface Props {
 const { ngrams } = Astro.props;
 
 // Format ngram string to show special characters
-// GPT-2 uses byte-level BPE where certain bytes map to Unicode characters:
+// GPT-2 uses byte-level BPE where certain bytes map to Unicode characters.
+// The actual characters depend on how the data was encoded:
+// Standard GPT-2 BPE:
 // - Ċ (U+010A) = newline \n
 // - Ġ (U+0120) = space
 // - ĉ (U+0109) = tab \t
 // - č (U+010D) = carriage return \r
+// Some data uses:
+// - Ä (U+00C4) with Ĭ (U+012C) = newline pattern
 function formatNgram(str: string): string {
   return str
-    // GPT-2 BPE unicode representations
+    // Data-specific character patterns (our data uses these)
+    .replace(/ÄĬ/g, '[NL]')  // Common 2-char newline pattern
+    .replace(/ĬÄ/g, '[NL]')  // Reverse pattern
+    .replace(/Ä/g, '[NL]')    // Single newline marker
+    .replace(/Ĭ/g, '')        // Remove lone Ĭ (usually paired with Ä)
+    // Standard GPT-2 BPE unicode representations
     .replace(/Ċ/g, '[NL]')
     .replace(/Ġ/g, '[SP]')
     .replace(/ĉ/g, '[TAB]')
     .replace(/č/g, '[CR]')
-    // Also handle escaped string representations (from JSON)
+    // Handle escaped string representations (from JSON)
     .replace(/\\n/g, '[NL]')
     .replace(/\\t/g, '[TAB]')
-    .replace(/\\r/g, '[CR]');
+    .replace(/\\r/g, '[CR]')
+    // Clean up any double markers
+    .replace(/\[NL\]\[NL\]/g, '[NL][NL]');
 }
 ---
 

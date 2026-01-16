@@ -3,6 +3,7 @@ import BaseLayout from '../../../../components/layout/BaseLayout.astro';
 import FeatureCard from '../../../../components/features/FeatureCard.astro';
 import SortDropdown from '../../../../components/features/SortDropdown.astro';
 import FeatureJumpInput from '../../../../components/features/FeatureJumpInput.astro';
+import FilterBar from '../../../../components/features/FilterBar.astro';
 import { loadFeaturesIndex, paginateFeatures, sortFeatures, getSortLabel, SORT_OPTIONS, type SortOption } from '../../../../lib/data';
 
 export function getStaticPaths() {
@@ -67,6 +68,8 @@ if (pageNum < 1 || pageNum > totalPages) {
         </div>
       </div>
     </div>
+
+    <FilterBar />
 
     <div class="grid gap-4">
       {features.map((feature) => (
@@ -146,5 +149,22 @@ if (pageNum < 1 || pageNum > totalPages) {
         window.location.href = '/features/search';
       }
     });
+
+    // Save scroll position before navigating to feature detail
+    document.querySelectorAll('[data-feature-card]').forEach(card => {
+      card.addEventListener('click', () => {
+        sessionStorage.setItem('featureListScroll', String(window.scrollY));
+        sessionStorage.setItem('featureListUrl', window.location.href);
+      });
+    });
+
+    // Restore scroll position if returning from feature detail
+    const savedScroll = sessionStorage.getItem('featureListScroll');
+    const savedUrl = sessionStorage.getItem('featureListUrl');
+    if (savedScroll && savedUrl === window.location.href) {
+      window.scrollTo(0, parseInt(savedScroll, 10));
+      sessionStorage.removeItem('featureListScroll');
+      sessionStorage.removeItem('featureListUrl');
+    }
   </script>
 </BaseLayout>
