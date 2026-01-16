@@ -52,6 +52,19 @@ function formatNgram(str: string): string {
 
   <!-- Tab Content -->
   <div class="p-4">
+    <!-- Column headers -->
+    <div class="flex items-center justify-between pb-2 mb-2 border-b border-gray-200 text-xs text-gray-500">
+      <span>Pattern</span>
+      <div class="flex items-center space-x-4">
+        <span>Count</span>
+        <span class="group relative cursor-help">
+          % of contexts
+          <span class="invisible group-hover:visible absolute right-0 top-6 w-64 p-2 bg-gray-800 text-white text-xs rounded shadow-lg z-10">
+            Average occurrences per activation context, as a percentage. Values over 100% mean the pattern appears multiple times per context on average.
+          </span>
+        </span>
+      </div>
+    </div>
     {['2grams', '3grams', '4grams'].map((key) => (
       <div x-show={`activeTab === '${key}'`} class="space-y-2">
         {(ngrams[key as keyof typeof ngrams] || []).slice(0, 15).map((ng) => (
@@ -61,7 +74,7 @@ function formatNgram(str: string): string {
             </span>
             <div class="flex items-center space-x-4 text-sm text-gray-600">
               <span>{ng.count.toLocaleString()}</span>
-              <span class="text-gray-400">({ng.percent.toFixed(1)}%)</span>
+              <span class="text-gray-400">{ng.percent.toFixed(1)}%</span>
             </div>
           </div>
         ))}
