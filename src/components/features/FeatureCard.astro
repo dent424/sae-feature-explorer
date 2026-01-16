@@ -19,21 +19,38 @@ const verifyStatusColors: Record<string, string> = {
   'PASS': 'bg-green-100 text-green-800',
   'FAIL': 'bg-red-100 text-red-800',
   'PARTIAL': 'bg-yellow-100 text-yellow-800',
+  'WARN': 'bg-yellow-100 text-yellow-800',
 };
 
 const verifyStatusColor = feature.verify_status
   ? verifyStatusColors[feature.verify_status] || 'bg-gray-100 text-gray-800'
   : null;
+
+// Border accent colors for visual scanning
+const borderAccentColors: Record<string, string> = {
+  'PASS': 'border-l-4 border-l-green-500',
+  'FAIL': 'border-l-4 border-l-red-500',
+  'PARTIAL': 'border-l-4 border-l-yellow-500',
+  'WARN': 'border-l-4 border-l-yellow-500',
+};
+
+const borderAccent = feature.verify_status
+  ? borderAccentColors[feature.verify_status] || ''
+  : '';
 ---
 
 <a
   href={`/features/${feature.feature_index}`}
-  class="block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all"
+  class={`block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all ${borderAccent}`}
 >
   <div class="flex items-start justify-between mb-2">
-    <div class="flex items-center space-x-2">
+    <div class="flex items-center space-x-3">
       <span class="text-lg font-semibold text-gray-900">
         Feature {feature.feature_index}
+      </span>
+      <!-- Rank badge - more prominent -->
+      <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-700">
+        #{feature.rank_control.toFixed(0)}
       </span>
       {feature.hasData && (
         <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">
@@ -59,7 +76,13 @@ const verifyStatusColor = feature.verify_status
     {truncatedInterpretation}
   </p>
 
-  <div class="flex items-center text-xs text-gray-400 space-x-4">
-    <span>Rank: {feature.rank_control.toFixed(0)}</span>
+  <div class="flex items-center justify-between text-xs text-gray-400">
+    <div class="flex items-center space-x-4">
+      <span title="Rank with control metric">Rank (ctrl): {feature.rank_control.toFixed(0)}</span>
+      <span title="Rank without control metric">Rank (no-ctrl): {feature.rank_nocontrol.toFixed(0)}</span>
+    </div>
+    {feature.hasData && (
+      <span class="text-blue-500">View analysis &rarr;</span>
+    )}
   </div>
 </a>

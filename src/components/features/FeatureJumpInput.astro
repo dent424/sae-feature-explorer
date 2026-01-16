@@ -1,0 +1,41 @@
+---
+// Component for jumping directly to a feature by ID
+---
+
+<div class="flex items-center gap-2">
+  <label for="feature-jump" class="text-sm text-gray-600 whitespace-nowrap">Jump to #</label>
+  <input
+    type="number"
+    id="feature-jump"
+    min="0"
+    max="24575"
+    placeholder="ID"
+    class="w-20 px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+  />
+  <button
+    id="feature-jump-btn"
+    class="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+  >
+    Go
+  </button>
+</div>
+
+<script>
+  const input = document.getElementById('feature-jump') as HTMLInputElement;
+  const btn = document.getElementById('feature-jump-btn');
+
+  function navigateToFeature() {
+    const id = input.value.trim();
+    if (id && !isNaN(Number(id))) {
+      const featureId = Math.max(0, Math.min(24575, Number(id)));
+      window.location.href = `/features/${featureId}`;
+    }
+  }
+
+  btn?.addEventListener('click', navigateToFeature);
+  input?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      navigateToFeature();
+    }
+  });
+</script>

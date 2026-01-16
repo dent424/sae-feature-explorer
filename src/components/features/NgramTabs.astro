@@ -16,8 +16,19 @@ interface Props {
 const { ngrams } = Astro.props;
 
 // Format ngram string to show special characters
+// GPT-2 uses byte-level BPE where certain bytes map to Unicode characters:
+// - Ċ (U+010A) = newline \n
+// - Ġ (U+0120) = space
+// - ĉ (U+0109) = tab \t
+// - č (U+010D) = carriage return \r
 function formatNgram(str: string): string {
   return str
+    // GPT-2 BPE unicode representations
+    .replace(/Ċ/g, '[NL]')
+    .replace(/Ġ/g, '[SP]')
+    .replace(/ĉ/g, '[TAB]')
+    .replace(/č/g, '[CR]')
+    // Also handle escaped string representations (from JSON)
     .replace(/\\n/g, '[NL]')
     .replace(/\\t/g, '[TAB]')
     .replace(/\\r/g, '[CR]');

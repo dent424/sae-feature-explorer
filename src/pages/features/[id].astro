@@ -6,7 +6,7 @@ import ActivationsDisplay from '../../components/features/ActivationsDisplay.ast
 import NgramTabs from '../../components/features/NgramTabs.astro';
 import CoactivationList from '../../components/features/CoactivationList.astro';
 import PositionChart from '../../components/features/PositionChart.astro';
-import { loadFeaturesWithData, loadFeatureData, getFeatureFromIndex } from '../../lib/data';
+import { loadFeaturesWithData, loadFeatureData, getFeatureFromIndex, loadFeaturesIndex } from '../../lib/data';
 
 export function getStaticPaths() {
   const featureIds = loadFeaturesWithData();
@@ -26,6 +26,16 @@ if (!featureData) {
   return Astro.redirect('/features');
 }
 
+// Build interpretations lookup for coactivated features
+const allFeatures = loadFeaturesIndex();
+const coactivatedIds = new Set((featureData.coactivation?.coactivated_features || []).map(c => c.feature_idx));
+const interpretations: Record<number, string> = {};
+for (const feature of allFeatures) {
+  if (coactivatedIds.has(feature.feature_index) && feature.interpretation) {
+    interpretations[feature.feature_index] = feature.interpretation;
+  }
+}
+
 // Badge colors
 const verifyStatusColors: Record<string, string> = {
   'PASS': 'bg-green-100 text-green-800',
@@ -40,9 +50,33 @@ const verifyStatusColor = indexEntry?.verify_status
 ---
 
 <BaseLayout title={`Feature ${featureId} - SAE Feature Explorer`}>
+  <!-- Sticky Header (appears on scroll) -->
+  <div id="sticky-header" class="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 shadow-sm z-50 transform -translate-y-full transition-transform duration-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <a href="/features" class="text-blue-600 hover:text-blue-800 text-sm">
+          &larr; Back
+        </a>
+        <h2 class="text-lg font-bold text-gray-900">Feature {featureId}</h2>
+      </div>
+      <div class="flex items-center space-x-2">
+        {indexEntry?.verify_status && verifyStatusColor && (
+          <span class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${verifyStatusColor}`}>
+            {indexEntry.verify_status}
+          </span>
+        )}
+        {indexEntry?.paralinguistic === 'TRUE' && (
+          <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
+            Paralinguistic
+          </span>
+        )}
+      </div>
+    </div>
+  </div>
+
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Header -->
-    <div class="mb-6">
+    <div class="mb-6" id="main-header">
       <div class="flex items-center space-x-4 mb-2">
         <a href="/features" class="text-blue-600 hover:text-blue-800 text-sm">
           &larr; Back to Features
@@ -120,7 +154,7 @@ const verifyStatusColor = indexEntry?.verify_status
       <section>
         <h2 class="text-lg font-semibold text-gray-900 mb-4">Frequently Coactivated Features</h2>
         <div class="bg-white border border-gray-200 rounded-lg p-4">
-          <CoactivationList coactivations={featureData.coactivation?.coactivated_features || []} />
+          <CoactivationList coactivations={featureData.coactivation?.coactivated_features || []} interpretations={interpretations} />
         </div>
       </section>
     </div>
@@ -135,4 +169,52 @@ const verifyStatusColor = indexEntry?.verify_status
       </div>
     )}
   </div>
+
+  <script define:vars={{ featureId }}>
+    // Show sticky header when scrolled past the main header
+    const stickyHeader = document.getElementById('sticky-header');
+    const mainHeader = document.getElementById('main-header');
+
+    if (stickyHeader && mainHeader) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Main header is visible, hide sticky header
+              stickyHeader.classList.add('-translate-y-full');
+            } else {
+              // Main header is not visible, show sticky header
+              stickyHeader.classList.remove('-translate-y-full');
+            }
+          });
+        },
+        { threshold: 0, rootMargin: '-80px 0px 0px 0px' }
+      );
+      observer.observe(mainHeader);
+    }
+
+    // Keyboard shortcuts: j/k for previous/next feature, / for search
+    document.addEventListener('keydown', (e) => {
+      // Ignore if typing in an input
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      const currentId = featureId;
+
+      if (e.key === 'j' || e.key === 'J') {
+        // Next feature (higher ID)
+        const nextId = Math.min(24575, currentId + 1);
+        window.location.href = `/features/${nextId}`;
+      } else if (e.key === 'k' || e.key === 'K') {
+        // Previous feature (lower ID)
+        const prevId = Math.max(0, currentId - 1);
+        window.location.href = `/features/${prevId}`;
+      } else if (e.key === '/') {
+        e.preventDefault();
+        window.location.href = '/features/search';
+      } else if (e.key === 'Escape') {
+        // Go back to features list
+        window.location.href = '/features';
+      }
+    });
+  </script>
 </BaseLayout>

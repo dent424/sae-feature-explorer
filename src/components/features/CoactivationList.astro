@@ -7,28 +7,46 @@ interface CoactivationData {
 
 interface Props {
   coactivations: CoactivationData[];
+  interpretations?: Record<number, string>;
 }
 
-const { coactivations } = Astro.props;
+const { coactivations, interpretations = {} } = Astro.props;
+
+// Truncate interpretation for tooltip
+function truncateInterpretation(text: string, maxLength: number = 150): string {
+  if (text.length <= maxLength) return text;
+  return text.slice(0, maxLength).trim() + '...';
+}
 ---
 
 <div class="space-y-2">
-  {coactivations.slice(0, 15).map((co) => (
-    <div class="flex items-center justify-between py-2 border-b border-gray-100 last:border-0">
-      <a
-        href={`/features/${co.feature_idx}`}
-        class="text-blue-600 hover:text-blue-800 font-medium"
-      >
-        Feature {co.feature_idx}
-      </a>
-      <div class="flex items-center space-x-4 text-sm">
-        <span class="text-gray-600">{co.count.toLocaleString()} times</span>
-        <span class="bg-gray-100 px-2 py-0.5 rounded text-gray-500">
-          {co.percent.toFixed(2)}%
-        </span>
+  {coactivations.slice(0, 15).map((co) => {
+    const interpretation = interpretations[co.feature_idx];
+    return (
+      <div class="flex items-center justify-between py-2 border-b border-gray-100 last:border-0 group relative">
+        <div class="flex-1 min-w-0">
+          <a
+            href={`/features/${co.feature_idx}`}
+            class="text-blue-600 hover:text-blue-800 font-medium"
+          >
+            Feature {co.feature_idx}
+          </a>
+          {interpretation && (
+            <div class="hidden group-hover:block absolute left-0 top-full mt-1 z-10 w-80 max-w-md p-3 bg-gray-800 text-white text-sm rounded-lg shadow-xl">
+              <div class="font-medium mb-1 text-gray-200">Feature {co.feature_idx}</div>
+              <div class="text-gray-100">{truncateInterpretation(interpretation)}</div>
+            </div>
+          )}
+        </div>
+        <div class="flex items-center space-x-4 text-sm flex-shrink-0">
+          <span class="text-gray-600">{co.count.toLocaleString()} times</span>
+          <span class="bg-gray-100 px-2 py-0.5 rounded text-gray-500">
+            {co.percent.toFixed(2)}%
+          </span>
+        </div>
       </div>
-    </div>
-  ))}
+    );
+  })}
   {coactivations.length === 0 && (
     <p class="text-gray-400 text-sm">No coactivation data available</p>
   )}

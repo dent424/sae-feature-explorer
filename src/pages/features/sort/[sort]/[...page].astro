@@ -2,6 +2,7 @@
 import BaseLayout from '../../../../components/layout/BaseLayout.astro';
 import FeatureCard from '../../../../components/features/FeatureCard.astro';
 import SortDropdown from '../../../../components/features/SortDropdown.astro';
+import FeatureJumpInput from '../../../../components/features/FeatureJumpInput.astro';
 import { loadFeaturesIndex, paginateFeatures, sortFeatures, getSortLabel, SORT_OPTIONS, type SortOption } from '../../../../lib/data';
 
 export function getStaticPaths() {
@@ -51,7 +52,8 @@ if (pageNum < 1 || pageNum > totalPages) {
             Page {pageNum} of {totalPages}.
           </p>
         </div>
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-4 flex-wrap">
+          <FeatureJumpInput />
           <a
             href="/features/search"
             class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
@@ -128,5 +130,21 @@ if (pageNum < 1 || pageNum > totalPages) {
         </span>
       )}
     </div>
+
+    <!-- Keyboard shortcuts hint -->
+    <div class="mt-4 text-center text-xs text-gray-400">
+      Press <kbd class="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-gray-600">/</kbd> to search
+    </div>
   </div>
+
+  <script>
+    // Keyboard shortcut: / to search
+    document.addEventListener('keydown', (e) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (e.key === '/') {
+        e.preventDefault();
+        window.location.href = '/features/search';
+      }
+    });
+  </script>
 </BaseLayout>

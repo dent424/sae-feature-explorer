@@ -177,16 +177,31 @@ export function searchFeatures(features: FeatureIndexEntry[], query: string): Fe
 }
 
 // Format token for display (handle special characters)
+// GPT-2 uses byte-level BPE where certain bytes map to Unicode characters:
+// - Ċ (U+010A) = newline \n
+// - Ġ (U+0120) = space (leading space in tokens)
+// - ĉ (U+0109) = tab \t
+// - č (U+010D) = carriage return \r
 export function formatToken(token: string): { display: string; isSpecial: boolean } {
-  if (token === '\n') return { display: '[NEWLINE]', isSpecial: true };
+  // Handle pure special characters
+  if (token === '\n' || token === 'Ċ') return { display: '[NEWLINE]', isSpecial: true };
   if (token === ' ') return { display: '[SPACE]', isSpecial: true };
-  if (token === '\t') return { display: '[TAB]', isSpecial: true };
-  if (token === '\r') return { display: '[CR]', isSpecial: true };
+  if (token === '\t' || token === 'ĉ') return { display: '[TAB]', isSpecial: true };
+  if (token === '\r' || token === 'č') return { display: '[CR]', isSpecial: true };
   if (token === '') return { display: '[EMPTY]', isSpecial: true };
-  // Leading space tokens are common in GPT-2
+
+  // Handle GPT-2 BPE leading space character (Ġ)
+  if (token.startsWith('Ġ') && token.length > 1) {
+    return { display: `[SP]${token.slice(1)}`, isSpecial: false };
+  }
+  // Handle regular leading space tokens
   if (token.startsWith(' ') && token.length > 1) {
     return { display: `[SP]${token.slice(1)}`, isSpecial: false };
   }
+
+  // Handle tokens that are purely the space marker
+  if (token === 'Ġ') return { display: '[SPACE]', isSpecial: true };
+
   return { display: token, isSpecial: false };
 }
 
