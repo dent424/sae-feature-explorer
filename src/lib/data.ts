@@ -124,11 +124,13 @@ export function paginateFeatures(
 }
 
 // Sort options
-export type SortOption = 'rank' | 'rank-desc' | 'id' | 'id-desc' | 'has-data';
+export type SortOption = 'rank-ctrl' | 'rank-ctrl-desc' | 'rank-noctrl' | 'rank-noctrl-desc' | 'id' | 'id-desc' | 'has-data';
 
 export const SORT_OPTIONS: { value: SortOption; label: string }[] = [
-  { value: 'rank', label: 'Rank (Best First)' },
-  { value: 'rank-desc', label: 'Rank (Worst First)' },
+  { value: 'rank-ctrl', label: 'Rank Control (Best)' },
+  { value: 'rank-ctrl-desc', label: 'Rank Control (Worst)' },
+  { value: 'rank-noctrl', label: 'Rank No-Control (Best)' },
+  { value: 'rank-noctrl-desc', label: 'Rank No-Control (Worst)' },
   { value: 'id', label: 'Feature ID (Ascending)' },
   { value: 'id-desc', label: 'Feature ID (Descending)' },
   { value: 'has-data', label: 'Has Analysis Data' },
@@ -138,10 +140,14 @@ export const SORT_OPTIONS: { value: SortOption; label: string }[] = [
 export function sortFeatures(features: FeatureIndexEntry[], sort: SortOption): FeatureIndexEntry[] {
   const sorted = [...features];
   switch (sort) {
-    case 'rank':
+    case 'rank-ctrl':
       return sorted.sort((a, b) => a.rank_control - b.rank_control);
-    case 'rank-desc':
+    case 'rank-ctrl-desc':
       return sorted.sort((a, b) => b.rank_control - a.rank_control);
+    case 'rank-noctrl':
+      return sorted.sort((a, b) => a.rank_nocontrol - b.rank_nocontrol);
+    case 'rank-noctrl-desc':
+      return sorted.sort((a, b) => b.rank_nocontrol - a.rank_nocontrol);
     case 'id':
       return sorted.sort((a, b) => a.feature_index - b.feature_index);
     case 'id-desc':
@@ -158,7 +164,16 @@ export function sortFeatures(features: FeatureIndexEntry[], sort: SortOption): F
 
 // Get sort label
 export function getSortLabel(sort: SortOption): string {
-  return SORT_OPTIONS.find(o => o.value === sort)?.label || 'Rank (Best First)';
+  return SORT_OPTIONS.find(o => o.value === sort)?.label || 'Rank Control (Best)';
+}
+
+// Search features by interpretation text
+export function searchFeatures(features: FeatureIndexEntry[], query: string): FeatureIndexEntry[] {
+  if (!query.trim()) return features;
+  const lowerQuery = query.toLowerCase();
+  return features.filter(f =>
+    f.interpretation.toLowerCase().includes(lowerQuery)
+  );
 }
 
 // Format token for display (handle special characters)

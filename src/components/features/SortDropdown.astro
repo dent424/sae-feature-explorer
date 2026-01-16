@@ -9,7 +9,7 @@ interface Props {
 const { currentSort, basePath = '/features' } = Astro.props;
 
 function getSortUrl(sort: SortOption): string {
-  if (sort === 'rank') {
+  if (sort === 'rank-ctrl') {
     return basePath;
   }
   return `${basePath}/sort/${sort}`;
