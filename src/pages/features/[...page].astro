@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../components/layout/BaseLayout.astro';
 import FeatureCard from '../../components/features/FeatureCard.astro';
-import { loadFeaturesIndex, paginateFeatures } from '../../lib/data';
+import SortDropdown from '../../components/features/SortDropdown.astro';
+import { loadFeaturesIndex, paginateFeatures, sortFeatures, type SortOption } from '../../lib/data';
 
 export function getStaticPaths() {
   const allFeatures = loadFeaturesIndex();
@@ -21,7 +22,8 @@ export function getStaticPaths() {
 const { page } = Astro.params;
 const currentPage = parseInt(page as string, 10);
 
-const allFeatures = loadFeaturesIndex();
+const currentSort: SortOption = 'rank';
+const allFeatures = sortFeatures(loadFeaturesIndex(), currentSort);
 const perPage = 100;
 const { data: features, totalPages, hasNext, hasPrev } = paginateFeatures(allFeatures, currentPage, perPage);
 
@@ -50,11 +52,16 @@ const pageNumbers = getPageNumbers(currentPage, totalPages);
 <BaseLayout title={`Features - Page ${currentPage} - SAE Feature Explorer`}>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <div class="mb-8">
-      <h1 class="text-3xl font-bold text-gray-900">Features</h1>
-      <p class="text-gray-600 mt-2">
-        Browsing {allFeatures.length.toLocaleString()} features, sorted by rank (most interesting first).
-        Page {currentPage} of {totalPages}.
-      </p>
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900">Features</h1>
+          <p class="text-gray-600 mt-2">
+            Browsing {allFeatures.length.toLocaleString()} features.
+            Page {currentPage} of {totalPages}.
+          </p>
+        </div>
+        <SortDropdown currentSort={currentSort} />
+      </div>
     </div>
 
     <div class="grid gap-4">

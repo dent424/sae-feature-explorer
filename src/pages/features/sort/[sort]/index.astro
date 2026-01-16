@@ -1,17 +1,28 @@
 ---
-import BaseLayout from '../../components/layout/BaseLayout.astro';
-import FeatureCard from '../../components/features/FeatureCard.astro';
-import SortDropdown from '../../components/features/SortDropdown.astro';
-import { loadFeaturesIndex, paginateFeatures, sortFeatures, getSortLabel, type SortOption } from '../../lib/data';
+import BaseLayout from '../../../../components/layout/BaseLayout.astro';
+import FeatureCard from '../../../../components/features/FeatureCard.astro';
+import SortDropdown from '../../../../components/features/SortDropdown.astro';
+import { loadFeaturesIndex, paginateFeatures, sortFeatures, getSortLabel, SORT_OPTIONS, type SortOption } from '../../../../lib/data';
 
-const currentSort: SortOption = 'rank';
+export function getStaticPaths() {
+  // Generate paths for all sort options except 'rank' (which is the default at /features)
+  return SORT_OPTIONS
+    .filter(opt => opt.value !== 'rank')
+    .map(opt => ({
+      params: { sort: opt.value }
+    }));
+}
+
+const { sort } = Astro.params;
+const currentSort = sort as SortOption;
 const allFeatures = sortFeatures(loadFeaturesIndex(), currentSort);
 const perPage = 100;
 const { data: features, totalPages, hasNext } = paginateFeatures(allFeatures, 1, perPage);
 const sortLabel = getSortLabel(currentSort);
+const basePath = `/features/sort/${currentSort}`;
 ---
 
-<BaseLayout title="Features - SAE Feature Explorer">
+<BaseLayout title={`Features (${sortLabel}) - SAE Feature Explorer`}>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <div class="mb-8">
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
@@ -41,20 +52,20 @@ const sortLabel = getSortLabel(currentSort);
         1
       </span>
       {hasNext && (
-        <a href="/features/2" class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
+        <a href={`${basePath}/2`} class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
           2
         </a>
       )}
       {totalPages > 2 && (
         <>
           <span class="px-4 py-2 text-gray-400">...</span>
-          <a href={`/features/${totalPages}`} class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
+          <a href={`${basePath}/${totalPages}`} class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
             {totalPages}
           </a>
         </>
       )}
       {hasNext && (
-        <a href="/features/2" class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
+        <a href={`${basePath}/2`} class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
           Next
         </a>
       )}

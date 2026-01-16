@@ -123,6 +123,44 @@ export function paginateFeatures(
   };
 }
 
+// Sort options
+export type SortOption = 'rank' | 'rank-desc' | 'id' | 'id-desc' | 'has-data';
+
+export const SORT_OPTIONS: { value: SortOption; label: string }[] = [
+  { value: 'rank', label: 'Rank (Best First)' },
+  { value: 'rank-desc', label: 'Rank (Worst First)' },
+  { value: 'id', label: 'Feature ID (Ascending)' },
+  { value: 'id-desc', label: 'Feature ID (Descending)' },
+  { value: 'has-data', label: 'Has Analysis Data' },
+];
+
+// Sort features by given option
+export function sortFeatures(features: FeatureIndexEntry[], sort: SortOption): FeatureIndexEntry[] {
+  const sorted = [...features];
+  switch (sort) {
+    case 'rank':
+      return sorted.sort((a, b) => a.rank_control - b.rank_control);
+    case 'rank-desc':
+      return sorted.sort((a, b) => b.rank_control - a.rank_control);
+    case 'id':
+      return sorted.sort((a, b) => a.feature_index - b.feature_index);
+    case 'id-desc':
+      return sorted.sort((a, b) => b.feature_index - a.feature_index);
+    case 'has-data':
+      return sorted.sort((a, b) => {
+        if (a.hasData === b.hasData) return a.rank_control - b.rank_control;
+        return a.hasData ? -1 : 1;
+      });
+    default:
+      return sorted;
+  }
+}
+
+// Get sort label
+export function getSortLabel(sort: SortOption): string {
+  return SORT_OPTIONS.find(o => o.value === sort)?.label || 'Rank (Best First)';
+}
+
 // Format token for display (handle special characters)
 export function formatToken(token: string): { display: string; isSpecial: boolean } {
   if (token === '\n') return { display: '[NEWLINE]', isSpecial: true };
