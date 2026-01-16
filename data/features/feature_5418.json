@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5418,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 42,
+    "mean_when_active": 0.0633713858468192,
+    "max_activation": 0.242919921875,
+    "std_when_active": 0.059132353191258466,
+    "activation_rate": 0.00042
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 22050,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " for",
+        "count": 1856,
+        "mean_activation": 0.0524400020467824
+      },
+      {
+        "token": " in",
+        "count": 1713,
+        "mean_activation": 0.10805275422122419
+      },
+      {
+        "token": " of",
+        "count": 1643,
+        "mean_activation": 0.05972736751024707
+      },
+      {
+        "token": " to",
+        "count": 1544,
+        "mean_activation": 0.04742541832009745
+      },
+      {
+        "token": " about",
+        "count": 993,
+        "mean_activation": 0.03701617806579651
+      },
+      {
+        "token": " pride",
+        "count": 826,
+        "mean_activation": 0.13294454579203238
+      },
+      {
+        "token": " the",
+        "count": 704,
+        "mean_activation": 0.046300281177867546
+      },
+      {
+        "token": " on",
+        "count": 695,
+        "mean_activation": 0.0717879700146133
+      },
+      {
+        "token": " it",
+        "count": 644,
+        "mean_activation": 0.03129531433863669
+      },
+      {
+        "token": " their",
+        "count": 644,
+        "mean_activation": 0.06432603160787073
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 22050,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... obviously take pride** in** flavor and character....",
+        "active_token": " in",
+        "activation": 0.2880859375,
+        "review_id": "ExbwSSWrLCoejndOL6HmCQ",
+        "position": 405
+      },
+      {
+        "context": "... tell they take pride** in** their food! Can't wai...",
+        "active_token": " in",
+        "activation": 0.2841796875,
+        "review_id": "vaygiB5zu69-bY0y7wREYw",
+        "position": 159
+      },
+      {
+        "context": "..., and they take pride** in** making good food for ...",
+        "active_token": " in",
+        "activation": 0.282470703125,
+        "review_id": "SpAWJmLRo3eqZNfiHkJVpQ",
+        "position": 111
+      },
+      {
+        "context": "... lot. (I pride myself** in** the fact that I've be...",
+        "active_token": " in",
+        "activation": 0.281005859375,
+        "review_id": "BGF6AahrJIkyk7hQGlFM-w",
+        "position": 26
+      },
+      {
+        "context": "... obviously take pride** in** the food they serve. ...",
+        "active_token": " in",
+        "activation": 0.279296875,
+        "review_id": "U9p9dKgByJLXiRXZAKEsvg",
+        "position": 14
+      },
+      {
+        "context": "...rant. They take pride** in** the presentation and ...",
+        "active_token": " in",
+        "activation": 0.2783203125,
+        "review_id": "5LyMMDlgYy0marc9FMCgfg",
+        "position": 149
+      },
+      {
+        "context": "...cause they take pride** in** their work!",
+        "active_token": " in",
+        "activation": 0.2783203125,
+        "review_id": "mG9zEYlh4gxAJC7dp_zgJw",
+        "position": 81
+      },
+      {
+        "context": "... Zeppelin takes pride** in** the quality of their ...",
+        "active_token": " in",
+        "activation": 0.278076171875,
+        "review_id": "SyqQeF_mS0kWOYpQDeXKYQ",
+        "position": 292
+      },
+      {
+        "context": "... had! They take pride** in** their cooking here an...",
+        "active_token": " in",
+        "activation": 0.27783203125,
+        "review_id": "KNeb14fYn-D5mJvKt_ENgw",
+        "position": 13
+      },
+      {
+        "context": "... tell they take pride** in** what they put out. I ...",
+        "active_token": " in",
+        "activation": 0.277587890625,
+        "review_id": "OzMQ4OhOfy2XkXk9AsRmTg",
+        "position": 110
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5418,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2294,
+        "max": 0.2881,
+        "mean": 0.2499
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " pride",
+            " in"
+          ],
+          "ngram_str": " pride in",
+          "count": 357,
+          "percent": 71.4
+        },
+        {
+          "ngram": [
+            " take",
+            " pride"
+          ],
+          "ngram_str": " take pride",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " in",
+            " their"
+          ],
+          "ngram_str": " in their",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " takes",
+            " pride"
+          ],
+          "ngram_str": " takes pride",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " pride",
+            " themselves"
+          ],
+          "ngram_str": " pride themselves",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " in",
+            " what"
+          ],
+          "ngram_str": " in what",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " in",
+            " his"
+          ],
+          "ngram_str": " in his",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " themselves",
+            " on"
+          ],
+          "ngram_str": " themselves on",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " pr",
+            "ides"
+          ],
+          "ngram_str": " prides",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " what",
+            " they"
+          ],
+          "ngram_str": " what they",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " they",
+            " take"
+          ],
+          "ngram_str": " they take",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " great",
+            " pride"
+          ],
+          "ngram_str": " great pride",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            ".",
+            " They"
+          ],
+          "ngram_str": ". They",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " take",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " take pride in",
+          "count": 143,
+          "percent": 28.6
+        },
+        {
+          "ngram": [
+            " pride",
+            " in",
+            " their"
+          ],
+          "ngram_str": " pride in their",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            " takes",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " takes pride in",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " pride",
+            " in",
+            " what"
+          ],
+          "ngram_str": " pride in what",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " pride",
+            " in",
+            " his"
+          ],
+          "ngram_str": " pride in his",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " pride",
+            " in",
+            " the"
+          ],
+          "ngram_str": " pride in the",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " in",
+            " what",
+            " they"
+          ],
+          "ngram_str": " in what they",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " great",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " great pride in",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " pride",
+            " themselves",
+            " on"
+          ],
+          "ngram_str": " pride themselves on",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " they",
+            " take",
+            " pride"
+          ],
+          "ngram_str": " they take pride",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " in",
+            " their",
+            " food"
+          ],
+          "ngram_str": " in their food",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " that",
+            " pr",
+            "ides"
+          ],
+          "ngram_str": " that prides",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " of",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " of pride in",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " what",
+            " they",
+            " do"
+          ],
+          "ngram_str": " what they do",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " pr",
+            "ides",
+            " itself"
+          ],
+          "ngram_str": " prides itself",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " take",
+            " pride",
+            " in",
+            " their"
+          ],
+          "ngram_str": " take pride in their",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " pride",
+            " in",
+            " what",
+            " they"
+          ],
+          "ngram_str": " pride in what they",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " they",
+            " take",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " they take pride in",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " takes",
+            " pride",
+            " in",
+            " his"
+          ],
+          "ngram_str": " takes pride in his",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " pride",
+            " in",
+            " their",
+            " food"
+          ],
+          "ngram_str": " pride in their food",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " take",
+            " pride",
+            " in",
+            " what"
+          ],
+          "ngram_str": " take pride in what",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " in",
+            " what",
+            " they",
+            " do"
+          ],
+          "ngram_str": " in what they do",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " pride",
+            " in",
+            " their",
+            " work"
+          ],
+          "ngram_str": " pride in their work",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " lot",
+            " of",
+            " pride"
+          ],
+          "ngram_str": " a lot of pride",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " lot",
+            " of",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " lot of pride in",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " takes",
+            " great",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " takes great pride in",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " that",
+            " pr",
+            "ides",
+            " itself"
+          ],
+          "ngram_str": " that prides itself",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " pr",
+            "ides",
+            " itself",
+            " on"
+          ],
+          "ngram_str": " prides itself on",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " and",
+            " take",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " and take pride in",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " take",
+            " great",
+            " pride",
+            " in"
+          ],
+          "ngram_str": " take great pride in",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23700000,
+      "corpus_coverage": 0.4584
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5188,
+        "percent": 51.88
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2935,
+        "percent": 29.35
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2607,
+        "percent": 26.07
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2580,
+        "percent": 25.8
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2555,
+        "percent": 25.55
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2548,
+        "percent": 25.48
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2278,
+        "percent": 22.78
+      },
+      {
+        "feature_idx": 5165,
+        "count": 2264,
+        "percent": 22.64
+      },
+      {
+        "feature_idx": 20375,
+        "count": 2169,
+        "percent": 21.69
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2041,
+        "percent": 20.41
+      },
+      {
+        "feature_idx": 18144,
+        "count": 1733,
+        "percent": 17.33
+      },
+      {
+        "feature_idx": 14525,
+        "count": 1709,
+        "percent": 17.09
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1577,
+        "percent": 15.77
+      },
+      {
+        "feature_idx": 19114,
+        "count": 1523,
+        "percent": 15.23
+      },
+      {
+        "feature_idx": 3792,
+        "count": 1493,
+        "percent": 14.93
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1436,
+        "percent": 14.36
+      },
+      {
+        "feature_idx": 17430,
+        "count": 1392,
+        "percent": 13.92
+      },
+      {
+        "feature_idx": 17687,
+        "count": 1291,
+        "percent": 12.91
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1279,
+        "percent": 12.79
+      },
+      {
+        "feature_idx": 23470,
+        "count": 1279,
+        "percent": 12.79
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23700000,
+      "corpus_coverage": 0.4584
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2438,
+        "percent": 24.38
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1796,
+        "percent": 17.96
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1610,
+        "percent": 16.1
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1772,
+        "percent": 17.72
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2384,
+        "percent": 23.84
+      }
+    ],
+    "mean_position": 0.4973,
+    "std_position": 0.3116
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 42,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0231,
+      "p25": 0.0265,
+      "p50": 0.0352,
+      "p75": 0.0699,
+      "p90": 0.1594,
+      "p95": 0.1991,
+      "p99": 0.2416
+    },
+    "skewness": 1.8116,
+    "kurtosis": 2.2983,
+    "min": 0.0142,
+    "max": 0.2429,
+    "mean": 0.0634,
+    "std": 0.0591
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 42,
+      "unique_tokens_found": 20
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 6,
+        "mean_activation": 0.0412
+      },
+      {
+        "token": " about",
+        "count": 4,
+        "mean_activation": 0.0399
+      },
+      {
+        "token": " of",
+        "count": 4,
+        "mean_activation": 0.0582
+      },
+      {
+        "token": " pride",
+        "count": 3,
+        "mean_activation": 0.1431
+      },
+      {
+        "token": " in",
+        "count": 3,
+        "mean_activation": 0.2276
+      },
+      {
+        "token": " their",
+        "count": 3,
+        "mean_activation": 0.0822
+      },
+      {
+        "token": " for",
+        "count": 2,
+        "mean_activation": 0.0283
+      },
+      {
+        "token": " it",
+        "count": 2,
+        "mean_activation": 0.0233
+      },
+      {
+        "token": " the",
+        "count": 2,
+        "mean_activation": 0.0259
+      },
+      {
+        "token": " make",
+        "count": 2,
+        "mean_activation": 0.0417
+      }
+    ]
+  }
+}

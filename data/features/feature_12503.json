@@ -1,0 +1,836 @@
+{
+  "feature_idx": 12503,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 8,
+    "mean_when_active": 0.16845703125,
+    "max_activation": 0.2435302734375,
+    "std_when_active": 0.0626080517758742,
+    "activation_rate": 8e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5482,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Delicious",
+        "count": 3494,
+        "mean_activation": 0.23187332721048584
+      },
+      {
+        "token": "e",
+        "count": 1316,
+        "mean_activation": 0.07972921354067725
+      },
+      {
+        "token": " delicious",
+        "count": 210,
+        "mean_activation": 0.0195494878859747
+      },
+      {
+        "token": " Tiny",
+        "count": 70,
+        "mean_activation": 0.03202165876116071
+      },
+      {
+        "token": " Surprise",
+        "count": 44,
+        "mean_activation": 0.03421610051935369
+      },
+      {
+        "token": " Fancy",
+        "count": 41,
+        "mean_activation": 0.045663228849085365
+      },
+      {
+        "token": " Woo",
+        "count": 23,
+        "mean_activation": 0.040078868036684784
+      },
+      {
+        "token": " Emb",
+        "count": 20,
+        "mean_activation": 0.04763641357421875
+      },
+      {
+        "token": " Awesome",
+        "count": 16,
+        "mean_activation": 0.018795490264892578
+      },
+      {
+        "token": " Epic",
+        "count": 15,
+        "mean_activation": 0.037882486979166664
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5482,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...le. Great service.** Delicious** drinks! Food was ...",
+        "active_token": " Delicious",
+        "activation": 0.314697265625,
+        "review_id": "woQ87Y6KqCWrdQ_aIWwgFw",
+        "position": 13
+      },
+      {
+        "context": "...ng here for years!** Delicious** food, bottomless ...",
+        "active_token": " Delicious",
+        "activation": 0.285888671875,
+        "review_id": "TLNDHBNuu2Yv8J69W967MQ",
+        "position": 7
+      },
+      {
+        "context": "... who ate the rest?** Delicious**! What got my atte...",
+        "active_token": " Delicious",
+        "activation": 0.28271484375,
+        "review_id": "rUKi039PluuWHs4b2nvkWg",
+        "position": 97
+      },
+      {
+        "context": "... Saint Petersburg!** Delicious** and consistent ex...",
+        "active_token": " Delicious",
+        "activation": 0.28271484375,
+        "review_id": "AAZbgUKh7iynNUEaUMmJjA",
+        "position": 8
+      },
+      {
+        "context": "... an outdoor event!** Delicious** corn salad, & chu...",
+        "active_token": " Delicious",
+        "activation": 0.28173828125,
+        "review_id": "YlPjt_DWWwrqxmI9q-QrCA",
+        "position": 12
+      },
+      {
+        "context": "...try their mimosas!** Delicious**!",
+        "active_token": " Delicious",
+        "activation": 0.28173828125,
+        "review_id": "p0aB-oLFxRZWwjBY09mDiQ",
+        "position": 111
+      },
+      {
+        "context": "First time here !** Delicious** delicious delicio...",
+        "active_token": " Delicious",
+        "activation": 0.2783203125,
+        "review_id": "FrGZwugFQxbOgcjLRiEjeA",
+        "position": 4
+      },
+      {
+        "context": "...place is AWESOME!!** Delicious**, fast, tasty, cou...",
+        "active_token": " Delicious",
+        "activation": 0.27783203125,
+        "review_id": "z3eTXcFd8-y8fAGtBss74Q",
+        "position": 7
+      },
+      {
+        "context": "...t I can go again. ** Delicious** local, seasonal f...",
+        "active_token": " Delicious",
+        "activation": 0.27783203125,
+        "review_id": "_dKofbSb1rpy86PYDXcHxA",
+        "position": 40
+      },
+      {
+        "context": "...so on the nachos. ** Delicious**.\\nIf only the wait...",
+        "active_token": " Delicious",
+        "activation": 0.276611328125,
+        "review_id": "8XfP9wzCvg_qhJHu-Odbjw",
+        "position": 218
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 12503,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.25,
+        "max": 0.3147,
+        "mean": 0.2588
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 318,
+          "percent": 63.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious"
+          ],
+          "ngram_str": "  Delicious",
+          "count": 312,
+          "percent": 62.4
+        },
+        {
+          "ngram": [
+            " Delicious",
+            "!"
+          ],
+          "ngram_str": " Delicious!",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Delicious"
+          ],
+          "ngram_str": ". Delicious",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " Delicious",
+            "."
+          ],
+          "ngram_str": " Delicious.",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            "!",
+            " "
+          ],
+          "ngram_str": "! ",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            "!",
+            " Delicious"
+          ],
+          "ngram_str": "! Delicious",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " Delicious",
+            " food"
+          ],
+          "ngram_str": " Delicious food",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " Delicious",
+            " and"
+          ],
+          "ngram_str": " Delicious and",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " ",
+            " "
+          ],
+          "ngram_str": "  ",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " Delicious",
+            ","
+          ],
+          "ngram_str": " Delicious,",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " food",
+            ","
+          ],
+          "ngram_str": " food,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Delicious"
+          ],
+          "ngram_str": ".  Delicious",
+          "count": 237,
+          "percent": 47.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            "!"
+          ],
+          "ngram_str": "  Delicious!",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            "."
+          ],
+          "ngram_str": "  Delicious.",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " Delicious",
+            ".",
+            " "
+          ],
+          "ngram_str": " Delicious. ",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " Delicious",
+            "!",
+            " "
+          ],
+          "ngram_str": " Delicious! ",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "!",
+            " ",
+            " Delicious"
+          ],
+          "ngram_str": "!  Delicious",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            ","
+          ],
+          "ngram_str": "  Delicious,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Delicious",
+            "."
+          ],
+          "ngram_str": ". Delicious.",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Delicious",
+            " food",
+            ","
+          ],
+          "ngram_str": " Delicious food,",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " ",
+            " ",
+            " Delicious"
+          ],
+          "ngram_str": "   Delicious",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            " and"
+          ],
+          "ngram_str": "  Delicious and",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            " food"
+          ],
+          "ngram_str": "  Delicious food",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " "
+          ],
+          "ngram_str": ".  ",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Delicious",
+            "."
+          ],
+          "ngram_str": ".  Delicious.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Delicious",
+            "!"
+          ],
+          "ngram_str": ".  Delicious!",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            "!",
+            " "
+          ],
+          "ngram_str": "  Delicious! ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            ".",
+            " "
+          ],
+          "ngram_str": "  Delicious. ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Delicious",
+            ","
+          ],
+          "ngram_str": ".  Delicious,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Delicious",
+            " and"
+          ],
+          "ngram_str": ".  Delicious and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Delicious",
+            " food"
+          ],
+          "ngram_str": ".  Delicious food",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " ",
+            " Delicious"
+          ],
+          "ngram_str": ".   Delicious",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Delicious",
+            "!",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " Delicious!\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "!",
+            " ",
+            " Delicious",
+            "!"
+          ],
+          "ngram_str": "!  Delicious!",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " Delicious",
+            "!",
+            " ",
+            " I"
+          ],
+          "ngram_str": " Delicious!  I",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "!",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "!\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            " food",
+            ","
+          ],
+          "ngram_str": "  Delicious food,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Delicious",
+            "!",
+            "\u00c4"
+          ],
+          "ngram_str": "  Delicious!\u00c4",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5482,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 3838,
+        "percent": 70.01
+      },
+      {
+        "feature_idx": 17639,
+        "count": 3721,
+        "percent": 67.88
+      },
+      {
+        "feature_idx": 16141,
+        "count": 3714,
+        "percent": 67.75
+      },
+      {
+        "feature_idx": 22982,
+        "count": 3684,
+        "percent": 67.2
+      },
+      {
+        "feature_idx": 16712,
+        "count": 3670,
+        "percent": 66.95
+      },
+      {
+        "feature_idx": 19889,
+        "count": 3657,
+        "percent": 66.71
+      },
+      {
+        "feature_idx": 20542,
+        "count": 3543,
+        "percent": 64.63
+      },
+      {
+        "feature_idx": 15691,
+        "count": 3512,
+        "percent": 64.06
+      },
+      {
+        "feature_idx": 3962,
+        "count": 3506,
+        "percent": 63.95
+      },
+      {
+        "feature_idx": 2813,
+        "count": 3503,
+        "percent": 63.9
+      },
+      {
+        "feature_idx": 1854,
+        "count": 3499,
+        "percent": 63.83
+      },
+      {
+        "feature_idx": 12210,
+        "count": 3411,
+        "percent": 62.22
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3029,
+        "percent": 55.25
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2638,
+        "percent": 48.12
+      },
+      {
+        "feature_idx": 14766,
+        "count": 2638,
+        "percent": 48.12
+      },
+      {
+        "feature_idx": 22912,
+        "count": 2604,
+        "percent": 47.5
+      },
+      {
+        "feature_idx": 24106,
+        "count": 2592,
+        "percent": 47.28
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2520,
+        "percent": 45.97
+      },
+      {
+        "feature_idx": 6329,
+        "count": 2097,
+        "percent": 38.25
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2074,
+        "percent": 37.83
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5482,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1000,
+        "percent": 18.24
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1267,
+        "percent": 23.11
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1227,
+        "percent": 22.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 995,
+        "percent": 18.15
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 993,
+        "percent": 18.11
+      }
+    ],
+    "mean_position": 0.4921,
+    "std_position": 0.2793
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 8,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.104,
+      "p25": 0.1119,
+      "p50": 0.1651,
+      "p75": 0.23,
+      "p90": 0.2361,
+      "p95": 0.2398,
+      "p99": 0.2428
+    },
+    "skewness": -0.0032,
+    "kurtosis": -1.8919,
+    "min": 0.0894,
+    "max": 0.2435,
+    "mean": 0.1685,
+    "std": 0.0626
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 8,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": "e",
+        "count": 4,
+        "mean_activation": 0.1067
+      },
+      {
+        "token": " Delicious",
+        "count": 4,
+        "mean_activation": 0.2303
+      }
+    ]
+  }
+}

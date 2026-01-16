@@ -1,0 +1,876 @@
+{
+  "feature_idx": 21023,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 51,
+    "mean_when_active": 0.06490984150007659,
+    "max_activation": 0.184814453125,
+    "std_when_active": 0.05248421835919313,
+    "activation_rate": 0.00051
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 23543,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " red",
+        "count": 4335,
+        "mean_activation": 0.06508020491198548
+      },
+      {
+        "token": " green",
+        "count": 4247,
+        "mean_activation": 0.086607965155436
+      },
+      {
+        "token": " black",
+        "count": 1750,
+        "mean_activation": 0.034918978009905136
+      },
+      {
+        "token": " white",
+        "count": 1377,
+        "mean_activation": 0.05997812773926845
+      },
+      {
+        "token": " sour",
+        "count": 813,
+        "mean_activation": 0.03911418844413053
+      },
+      {
+        "token": " large",
+        "count": 597,
+        "mean_activation": 0.04740531320747618
+      },
+      {
+        "token": " blue",
+        "count": 533,
+        "mean_activation": 0.05210852130939992
+      },
+      {
+        "token": " small",
+        "count": 437,
+        "mean_activation": 0.039049231487771736
+      },
+      {
+        "token": " bad",
+        "count": 381,
+        "mean_activation": 0.05302297036478838
+      },
+      {
+        "token": " brown",
+        "count": 348,
+        "mean_activation": 0.048856976388514724
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 23543,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...em by color: red and** green**. The green sauce se...",
+        "active_token": " green",
+        "activation": 0.217529296875,
+        "review_id": "EsMVILguzL1ZOCStSHOmvg",
+        "position": 94
+      },
+      {
+        "context": "...-color' with red and** green** enchilada sauce as ...",
+        "active_token": " green",
+        "activation": 0.2159423828125,
+        "review_id": "D-YHAm14xQljya4FtLdagw",
+        "position": 329
+      },
+      {
+        "context": "... two salsas, red and** green**. Both are moderatel...",
+        "active_token": " green",
+        "activation": 0.21337890625,
+        "review_id": "Ba1wsGsspg5z9dGG7Gwx_g",
+        "position": 123
+      },
+      {
+        "context": "...avored with green and** red** achiote which made f...",
+        "active_token": " red",
+        "activation": 0.2132568359375,
+        "review_id": "X99T1kEkRK9PSlF0TZc75g",
+        "position": 314
+      },
+      {
+        "context": "...ations, like red and** green** sauce ladled over o...",
+        "active_token": " green",
+        "activation": 0.2120361328125,
+        "review_id": "w9CsCNuIwQDZ2WZcFklOxQ",
+        "position": 308
+      },
+      {
+        "context": "...sed on their red and** green** chile dishes.  It's...",
+        "active_token": " green",
+        "activation": 0.2120361328125,
+        "review_id": "pqKwAV41ndKUYdXeqsyCKg",
+        "position": 9
+      },
+      {
+        "context": "... served with red and** green** salsa\\n\\nI started wi...",
+        "active_token": " green",
+        "activation": 0.2113037109375,
+        "review_id": "PA0k98VVYkUibwpJbXf0pQ",
+        "position": 58
+      },
+      {
+        "context": "... and mix the red and** green**, more red though. A...",
+        "active_token": " green",
+        "activation": 0.2095947265625,
+        "review_id": "3WX5TWxWeSuYTZ_NSXYCkw",
+        "position": 143
+      },
+      {
+        "context": "...get both the red and** green** chili this way. It'...",
+        "active_token": " green",
+        "activation": 0.20947265625,
+        "review_id": "Bka-W1LjRsUl0PZAVsl9iw",
+        "position": 89
+      },
+      {
+        "context": "... You get the red and** green** spicy sauce with yo...",
+        "active_token": " green",
+        "activation": 0.209228515625,
+        "review_id": "bfF58Ytzo23P0qlJrWFv7g",
+        "position": 77
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 21023,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1807,
+        "max": 0.2175,
+        "mean": 0.1898
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " and",
+            " green"
+          ],
+          "ngram_str": " and green",
+          "count": 340,
+          "percent": 68.0
+        },
+        {
+          "ngram": [
+            " red",
+            " and"
+          ],
+          "ngram_str": " red and",
+          "count": 331,
+          "percent": 66.2
+        },
+        {
+          "ngram": [
+            "als",
+            "as"
+          ],
+          "ngram_str": "alsas",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " green",
+            " salsa"
+          ],
+          "ngram_str": " green salsa",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " and",
+            " red"
+          ],
+          "ngram_str": " and red",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " s",
+            "als"
+          ],
+          "ngram_str": " sals",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " green",
+            " and"
+          ],
+          "ngram_str": " green and",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " green",
+            " s"
+          ],
+          "ngram_str": " green s",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " the",
+            " red"
+          ],
+          "ngram_str": " the red",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " with",
+            " red"
+          ],
+          "ngram_str": " with red",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " green",
+            " sauce"
+          ],
+          "ngram_str": " green sauce",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " red",
+            ","
+          ],
+          "ngram_str": " red,",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " red"
+          ],
+          "ngram_str": ", red",
+          "count": 35,
+          "percent": 7.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " red",
+            " and",
+            " green"
+          ],
+          "ngram_str": " red and green",
+          "count": 323,
+          "percent": 64.6
+        },
+        {
+          "ngram": [
+            " and",
+            " green",
+            " salsa"
+          ],
+          "ngram_str": " and green salsa",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " s",
+            "als",
+            "as"
+          ],
+          "ngram_str": " salsas",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " green",
+            " s",
+            "als"
+          ],
+          "ngram_str": " green sals",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " and",
+            " green",
+            " s"
+          ],
+          "ngram_str": " and green s",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " green",
+            " and",
+            " red"
+          ],
+          "ngram_str": " green and red",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " the",
+            " red",
+            " and"
+          ],
+          "ngram_str": " the red and",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " with",
+            " red",
+            " and"
+          ],
+          "ngram_str": " with red and",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " and",
+            " green",
+            " sauce"
+          ],
+          "ngram_str": " and green sauce",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " and",
+            " green",
+            " sauces"
+          ],
+          "ngram_str": " and green sauces",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " green",
+            " salsa",
+            "."
+          ],
+          "ngram_str": " green salsa.",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " red",
+            ",",
+            " green"
+          ],
+          "ngram_str": " red, green",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " a",
+            " red",
+            " and"
+          ],
+          "ngram_str": " a red and",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " and",
+            " green",
+            "."
+          ],
+          "ngram_str": " and green.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " red",
+            " and"
+          ],
+          "ngram_str": ", red and",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " red",
+            " and",
+            " green",
+            " salsa"
+          ],
+          "ngram_str": " red and green salsa",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " green",
+            " s",
+            "als",
+            "as"
+          ],
+          "ngram_str": " green salsas",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " red",
+            " and",
+            " green",
+            " s"
+          ],
+          "ngram_str": " red and green s",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " and",
+            " green",
+            " s",
+            "als"
+          ],
+          "ngram_str": " and green sals",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " the",
+            " red",
+            " and",
+            " green"
+          ],
+          "ngram_str": " the red and green",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " with",
+            " red",
+            " and",
+            " green"
+          ],
+          "ngram_str": " with red and green",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " red",
+            " and",
+            " green",
+            " sauce"
+          ],
+          "ngram_str": " red and green sauce",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " red",
+            " and",
+            " green",
+            " sauces"
+          ],
+          "ngram_str": " red and green sauces",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " their",
+            " red",
+            " and",
+            " green"
+          ],
+          "ngram_str": " their red and green",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " red",
+            " and",
+            " green",
+            "."
+          ],
+          "ngram_str": " red and green.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " red",
+            " and",
+            " green"
+          ],
+          "ngram_str": ", red and green",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " green",
+            " salsa",
+            "."
+          ],
+          "ngram_str": " and green salsa.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " both",
+            " red",
+            " and",
+            " green"
+          ],
+          "ngram_str": " both red and green",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " red",
+            " and",
+            " green"
+          ],
+          "ngram_str": " a red and green",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " the",
+            " green",
+            " and",
+            " red"
+          ],
+          "ngram_str": " the green and red",
+          "count": 19,
+          "percent": 3.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 21900000,
+      "corpus_coverage": 0.4236
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 7097,
+        "percent": 70.97
+      },
+      {
+        "feature_idx": 22583,
+        "count": 6167,
+        "percent": 61.67
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5077,
+        "percent": 50.77
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4933,
+        "percent": 49.33
+      },
+      {
+        "feature_idx": 585,
+        "count": 4903,
+        "percent": 49.03
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4516,
+        "percent": 45.16
+      },
+      {
+        "feature_idx": 4985,
+        "count": 4296,
+        "percent": 42.96
+      },
+      {
+        "feature_idx": 8142,
+        "count": 4137,
+        "percent": 41.37
+      },
+      {
+        "feature_idx": 9756,
+        "count": 3632,
+        "percent": 36.32
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3449,
+        "percent": 34.49
+      },
+      {
+        "feature_idx": 4780,
+        "count": 3359,
+        "percent": 33.59
+      },
+      {
+        "feature_idx": 4106,
+        "count": 3337,
+        "percent": 33.37
+      },
+      {
+        "feature_idx": 17068,
+        "count": 3313,
+        "percent": 33.13
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2825,
+        "percent": 28.25
+      },
+      {
+        "feature_idx": 9709,
+        "count": 2779,
+        "percent": 27.79
+      },
+      {
+        "feature_idx": 19191,
+        "count": 2704,
+        "percent": 27.04
+      },
+      {
+        "feature_idx": 8649,
+        "count": 2657,
+        "percent": 26.57
+      },
+      {
+        "feature_idx": 14132,
+        "count": 2564,
+        "percent": 25.64
+      },
+      {
+        "feature_idx": 7384,
+        "count": 2480,
+        "percent": 24.8
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2429,
+        "percent": 24.29
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 21900000,
+      "corpus_coverage": 0.4236
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 955,
+        "percent": 9.55
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2341,
+        "percent": 23.41
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2839,
+        "percent": 28.39
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2509,
+        "percent": 25.09
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1356,
+        "percent": 13.56
+      }
+    ],
+    "mean_position": 0.5196,
+    "std_position": 0.2334
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 51,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0209,
+      "p25": 0.0267,
+      "p50": 0.0404,
+      "p75": 0.0814,
+      "p90": 0.1613,
+      "p95": 0.171,
+      "p99": 0.1796
+    },
+    "skewness": 1.0823,
+    "kurtosis": -0.3052,
+    "min": 0.0145,
+    "max": 0.1848,
+    "mean": 0.0649,
+    "std": 0.0525
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 51,
+      "unique_tokens_found": 22
+    },
+    "tokens": [
+      {
+        "token": " red",
+        "count": 13,
+        "mean_activation": 0.0612
+      },
+      {
+        "token": " green",
+        "count": 11,
+        "mean_activation": 0.0869
+      },
+      {
+        "token": " white",
+        "count": 6,
+        "mean_activation": 0.1146
+      },
+      {
+        "token": " mediocre",
+        "count": 2,
+        "mean_activation": 0.033
+      },
+      {
+        "token": " black",
+        "count": 2,
+        "mean_activation": 0.0474
+      },
+      {
+        "token": "black",
+        "count": 1,
+        "mean_activation": 0.0707
+      },
+      {
+        "token": " big",
+        "count": 1,
+        "mean_activation": 0.0305
+      },
+      {
+        "token": " traditional",
+        "count": 1,
+        "mean_activation": 0.0285
+      },
+      {
+        "token": " mild",
+        "count": 1,
+        "mean_activation": 0.0481
+      },
+      {
+        "token": " good",
+        "count": 1,
+        "mean_activation": 0.0404
+      }
+    ]
+  }
+}

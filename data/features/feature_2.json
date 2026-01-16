@@ -1,0 +1,831 @@
+{
+  "feature_idx": 2,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 10,
+    "mean_when_active": 0.03628692626953125,
+    "max_activation": 0.04827880859375,
+    "std_when_active": 0.008538828311938907,
+    "activation_rate": 0.0001
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5183,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " go",
+        "count": 4848,
+        "mean_activation": 0.035158953650949815
+      },
+      {
+        "token": " be",
+        "count": 69,
+        "mean_activation": 0.019459268321161686
+      },
+      {
+        "token": " would",
+        "count": 59,
+        "mean_activation": 0.00913005764201536
+      },
+      {
+        "token": " eat",
+        "count": 55,
+        "mean_activation": 0.017387251420454546
+      },
+      {
+        "token": " visit",
+        "count": 33,
+        "mean_activation": 0.019083427660392994
+      },
+      {
+        "token": "'d",
+        "count": 16,
+        "mean_activation": 0.009615182876586914
+      },
+      {
+        "token": " Go",
+        "count": 16,
+        "mean_activation": 0.014324188232421875
+      },
+      {
+        "token": " do",
+        "count": 15,
+        "mean_activation": 0.0253753662109375
+      },
+      {
+        "token": " have",
+        "count": 12,
+        "mean_activation": 0.015892664591471355
+      },
+      {
+        "token": " put",
+        "count": 12,
+        "mean_activation": 0.024876912434895832
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5183,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ff, and the food. I'd** go** back again!",
+        "active_token": " go",
+        "activation": 0.08038330078125,
+        "review_id": "EZ8a3INdxwmecDgeh716-w",
+        "position": 311
+      },
+      {
+        "context": "...ck and attentive. I'd** go** there again next time...",
+        "active_token": " go",
+        "activation": 0.07952880859375,
+        "review_id": "K7BaA28LlRAT9tP-EyzUpw",
+        "position": 60
+      },
+      {
+        "context": "...t very flavorful. I'd** go** back for them.... but...",
+        "active_token": " go",
+        "activation": 0.07781982421875,
+        "review_id": "2e7i6PXefr7WU2NJij7_kw",
+        "position": 118
+      },
+      {
+        "context": "...t not excellent.  I'd** go** back if I'm in the ar...",
+        "active_token": " go",
+        "activation": 0.07763671875,
+        "review_id": "0TJ1gcZg6LfXM1CML91VJQ",
+        "position": 29
+      },
+      {
+        "context": "...iews are amazing..I'd** go** back for more Mexican...",
+        "active_token": " go",
+        "activation": 0.07733154296875,
+        "review_id": "Kll3MZqN-Uz4jdy3NAEIrQ",
+        "position": 13
+      },
+      {
+        "context": "...nsistently good.  I'd** go** back in a heartbeat f...",
+        "active_token": " go",
+        "activation": 0.07733154296875,
+        "review_id": "kteEJ3Awsqf1fJ-xvTLtAg",
+        "position": 23
+      },
+      {
+        "context": "...l Vez or El Rey.  I'd** go** back (and have more o...",
+        "active_token": " go",
+        "activation": 0.07696533203125,
+        "review_id": "7BU49qCjoIH8iVZClNakGg",
+        "position": 187
+      },
+      {
+        "context": "...riety imaginable. I'd** go** back tomorrow if I th...",
+        "active_token": " go",
+        "activation": 0.07684326171875,
+        "review_id": "KRdbK2yKRjFJlc7gY3Cjvw",
+        "position": 177
+      },
+      {
+        "context": "... but very tasty.  I'd** go** back for those.  Mayb...",
+        "active_token": " go",
+        "activation": 0.0760498046875,
+        "review_id": "AB3Wve4oR5fJMF0cZbxqAg",
+        "position": 319
+      },
+      {
+        "context": "...sh is amazing and I'd** go** daily if I lived here...",
+        "active_token": " go",
+        "activation": 0.07562255859375,
+        "review_id": "aqkxLc45p9rNsNycDeQJdw",
+        "position": 78
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 2,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0587,
+        "max": 0.0804,
+        "mean": 0.0651
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "'d",
+            " go"
+          ],
+          "ngram_str": "'d go",
+          "count": 380,
+          "percent": 76.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'d"
+          ],
+          "ngram_str": " I'd",
+          "count": 342,
+          "percent": 68.4
+        },
+        {
+          "ngram": [
+            " go",
+            " back"
+          ],
+          "ngram_str": " go back",
+          "count": 320,
+          "percent": 64.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 245,
+          "percent": 49.0
+        },
+        {
+          "ngram": [
+            " I",
+            " would"
+          ],
+          "ngram_str": " I would",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " would",
+            " go"
+          ],
+          "ngram_str": " would go",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " go",
+            " again"
+          ],
+          "ngram_str": " go again",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " back",
+            " for"
+          ],
+          "ngram_str": " back for",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " back",
+            "."
+          ],
+          "ngram_str": " back.",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " again",
+            "."
+          ],
+          "ngram_str": " again.",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " back",
+            " just"
+          ],
+          "ngram_str": " back just",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "I",
+            "'d"
+          ],
+          "ngram_str": "I'd",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " go"
+          ],
+          "ngram_str": " I'd go",
+          "count": 335,
+          "percent": 67.0
+        },
+        {
+          "ngram": [
+            "'d",
+            " go",
+            " back"
+          ],
+          "ngram_str": "'d go back",
+          "count": 241,
+          "percent": 48.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'d"
+          ],
+          "ngram_str": ". I'd",
+          "count": 175,
+          "percent": 35.0
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " go"
+          ],
+          "ngram_str": " I would go",
+          "count": 118,
+          "percent": 23.6
+        },
+        {
+          "ngram": [
+            " would",
+            " go",
+            " back"
+          ],
+          "ngram_str": " would go back",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would"
+          ],
+          "ngram_str": ". I would",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " go",
+            " back",
+            " for"
+          ],
+          "ngram_str": " go back for",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            "'d"
+          ],
+          "ngram_str": "  I'd",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "'d",
+            " go",
+            " again"
+          ],
+          "ngram_str": "'d go again",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " go",
+            " back",
+            "."
+          ],
+          "ngram_str": " go back.",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " go",
+            " back",
+            " just"
+          ],
+          "ngram_str": " go back just",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "I",
+            "'d",
+            " go"
+          ],
+          "ngram_str": "I'd go",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " go",
+            " back",
+            " again"
+          ],
+          "ngram_str": " go back again",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            "'d"
+          ],
+          "ngram_str": "\u012cI'd",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " go",
+            " back"
+          ],
+          "ngram_str": " I'd go back",
+          "count": 211,
+          "percent": 42.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'d",
+            " go"
+          ],
+          "ngram_str": ". I'd go",
+          "count": 175,
+          "percent": 35.0
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " go",
+            " back"
+          ],
+          "ngram_str": " I would go back",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would",
+            " go"
+          ],
+          "ngram_str": ". I would go",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            "'d",
+            " go"
+          ],
+          "ngram_str": "  I'd go",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            "'d"
+          ],
+          "ngram_str": ".  I'd",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "'d",
+            " go",
+            " back",
+            " for"
+          ],
+          "ngram_str": "'d go back for",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " go",
+            " again"
+          ],
+          "ngram_str": " I'd go again",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "'d",
+            " go",
+            " back",
+            "."
+          ],
+          "ngram_str": "'d go back.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            "'d",
+            " go"
+          ],
+          "ngram_str": "\u012cI'd go",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "!",
+            " I",
+            "'d",
+            " go"
+          ],
+          "ngram_str": "! I'd go",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            "'d",
+            " go"
+          ],
+          "ngram_str": ", I'd go",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "I",
+            "'d",
+            " go",
+            " back"
+          ],
+          "ngram_str": "I'd go back",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " go",
+            " back",
+            " just",
+            " for"
+          ],
+          "ngram_str": " go back just for",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "'d",
+            " go",
+            " back",
+            " again"
+          ],
+          "ngram_str": "'d go back again",
+          "count": 23,
+          "percent": 4.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5183,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17430,
+        "count": 4980,
+        "percent": 96.08
+      },
+      {
+        "feature_idx": 23664,
+        "count": 4895,
+        "percent": 94.44
+      },
+      {
+        "feature_idx": 3600,
+        "count": 4869,
+        "percent": 93.94
+      },
+      {
+        "feature_idx": 15149,
+        "count": 4868,
+        "percent": 93.92
+      },
+      {
+        "feature_idx": 31,
+        "count": 4868,
+        "percent": 93.92
+      },
+      {
+        "feature_idx": 8366,
+        "count": 4807,
+        "percent": 92.75
+      },
+      {
+        "feature_idx": 11171,
+        "count": 4694,
+        "percent": 90.57
+      },
+      {
+        "feature_idx": 3999,
+        "count": 4613,
+        "percent": 89.0
+      },
+      {
+        "feature_idx": 8836,
+        "count": 4569,
+        "percent": 88.15
+      },
+      {
+        "feature_idx": 20616,
+        "count": 3900,
+        "percent": 75.25
+      },
+      {
+        "feature_idx": 14884,
+        "count": 3822,
+        "percent": 73.74
+      },
+      {
+        "feature_idx": 8401,
+        "count": 3809,
+        "percent": 73.49
+      },
+      {
+        "feature_idx": 9444,
+        "count": 3755,
+        "percent": 72.45
+      },
+      {
+        "feature_idx": 6022,
+        "count": 3599,
+        "percent": 69.44
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3545,
+        "percent": 68.4
+      },
+      {
+        "feature_idx": 14534,
+        "count": 3154,
+        "percent": 60.85
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3151,
+        "percent": 60.79
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2972,
+        "percent": 57.34
+      },
+      {
+        "feature_idx": 4543,
+        "count": 2885,
+        "percent": 55.66
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2264,
+        "percent": 43.68
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5183,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 230,
+        "percent": 4.44
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 308,
+        "percent": 5.94
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 454,
+        "percent": 8.76
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 935,
+        "percent": 18.04
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3256,
+        "percent": 62.82
+      }
+    ],
+    "mean_position": 0.7735,
+    "std_position": 0.2346
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 10,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0253,
+      "p25": 0.0324,
+      "p50": 0.0351,
+      "p75": 0.0442,
+      "p90": 0.0475,
+      "p95": 0.0479,
+      "p99": 0.0482
+    },
+    "skewness": -0.0708,
+    "kurtosis": -1.035,
+    "min": 0.0216,
+    "max": 0.0483,
+    "mean": 0.0363,
+    "std": 0.0085
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 10,
+      "unique_tokens_found": 1
+    },
+    "tokens": [
+      {
+        "token": " go",
+        "count": 10,
+        "mean_activation": 0.0363
+      }
+    ]
+  }
+}

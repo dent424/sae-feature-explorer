@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import StatsBar from '../../components/features/StatsBar.astro';
+import TopTokensTable from '../../components/features/TopTokensTable.astro';
+import ActivationsDisplay from '../../components/features/ActivationsDisplay.astro';
+import NgramTabs from '../../components/features/NgramTabs.astro';
+import CoactivationList from '../../components/features/CoactivationList.astro';
+import PositionChart from '../../components/features/PositionChart.astro';
+import { loadFeaturesWithData, loadFeatureData, getFeatureFromIndex } from '../../lib/data';
+
+export function getStaticPaths() {
+  const featureIds = loadFeaturesWithData();
+  return featureIds.map(id => ({
+    params: { id: String(id) }
+  }));
+}
+
+const { id } = Astro.params;
+const featureId = parseInt(id as string, 10);
+
+// Load feature data
+const featureData = loadFeatureData(featureId);
+const indexEntry = getFeatureFromIndex(featureId);
+
+if (!featureData) {
+  return Astro.redirect('/features');
+}
+
+// Badge colors
+const verifyStatusColors: Record<string, string> = {
+  'PASS': 'bg-green-100 text-green-800',
+  'FAIL': 'bg-red-100 text-red-800',
+  'PARTIAL': 'bg-yellow-100 text-yellow-800',
+  'WARN': 'bg-yellow-100 text-yellow-800',
+};
+
+const verifyStatusColor = indexEntry?.verify_status
+  ? verifyStatusColors[indexEntry.verify_status] || 'bg-gray-100 text-gray-800'
+  : null;
+---
+
+<BaseLayout title={`Feature ${featureId} - SAE Feature Explorer`}>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Header -->
+    <div class="mb-6">
+      <div class="flex items-center space-x-4 mb-2">
+        <a href="/features" class="text-blue-600 hover:text-blue-800 text-sm">
+          &larr; Back to Features
+        </a>
+      </div>
+      <div class="flex items-center justify-between">
+        <h1 class="text-3xl font-bold text-gray-900">
+          Feature {featureId}
+        </h1>
+        <div class="flex items-center space-x-2">
+          {indexEntry?.verify_status && verifyStatusColor && (
+            <span class={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${verifyStatusColor}`}>
+              {indexEntry.verify_status}
+            </span>
+          )}
+          {indexEntry?.paralinguistic === 'TRUE' && (
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+              Paralinguistic
+            </span>
+          )}
+        </div>
+      </div>
+    </div>
+
+    <!-- Interpretation (Hero) -->
+    {indexEntry?.interpretation && (
+      <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+        <h2 class="text-lg font-semibold text-blue-900 mb-2">Interpretation</h2>
+        <p class="text-blue-800 text-lg leading-relaxed">
+          {indexEntry.interpretation}
+        </p>
+      </div>
+    )}
+
+    <!-- Stats Bar -->
+    <div class="mb-8">
+      <h2 class="text-lg font-semibold text-gray-900 mb-4">Statistics</h2>
+      <StatsBar
+        activationRate={featureData.stats.activation_rate}
+        meanWhenActive={featureData.stats.mean_when_active}
+        maxActivation={featureData.stats.max_activation}
+        stdWhenActive={featureData.stats.std_when_active}
+      />
+    </div>
+
+    <!-- Tabs Section -->
+    <div class="space-y-8">
+      <!-- Top Activations -->
+      <section>
+        <h2 class="text-lg font-semibold text-gray-900 mb-4">Top Activations</h2>
+        <ActivationsDisplay activations={featureData.top_activations?.activations || []} />
+      </section>
+
+      <!-- Top Tokens -->
+      <section>
+        <h2 class="text-lg font-semibold text-gray-900 mb-4">Top Tokens</h2>
+        <TopTokensTable tokens={featureData.top_tokens?.top_tokens || []} />
+      </section>
+
+      <!-- N-gram Analysis -->
+      <section>
+        <h2 class="text-lg font-semibold text-gray-900 mb-4">N-gram Analysis</h2>
+        <NgramTabs ngrams={featureData.ngram_analysis?.ngrams || { '2grams': [], '3grams': [], '4grams': [] }} />
+      </section>
+
+      <!-- Position Distribution -->
+      <section>
+        <h2 class="text-lg font-semibold text-gray-900 mb-4">Position Distribution</h2>
+        <div class="bg-gray-50 rounded-lg p-6">
+          <PositionChart bins={featureData.position_distribution?.bins || []} />
+        </div>
+      </section>
+
+      <!-- Coactivation -->
+      <section>
+        <h2 class="text-lg font-semibold text-gray-900 mb-4">Frequently Coactivated Features</h2>
+        <div class="bg-white border border-gray-200 rounded-lg p-4">
+          <CoactivationList coactivations={featureData.coactivation?.coactivated_features || []} />
+        </div>
+      </section>
+    </div>
+
+    <!-- Rank Info -->
+    {indexEntry && (
+      <div class="mt-8 pt-6 border-t border-gray-200 text-sm text-gray-500">
+        <div class="flex space-x-6">
+          <span>Rank (control): {indexEntry.rank_control.toFixed(0)}</span>
+          <span>Rank (no control): {indexEntry.rank_nocontrol.toFixed(0)}</span>
+        </div>
+      </div>
+    )}
+  </div>
+</BaseLayout>

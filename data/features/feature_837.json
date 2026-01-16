@@ -1,0 +1,876 @@
+{
+  "feature_idx": 837,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 263,
+    "mean_when_active": 0.05418103004136466,
+    "max_activation": 0.142822265625,
+    "std_when_active": 0.03427759305994599,
+    "activation_rate": 0.00263
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 21600000,
+      "corpus_coverage": 0.4178
+    },
+    "top_tokens": [
+      {
+        "token": " love",
+        "count": 16085,
+        "mean_activation": 0.08028160050154695
+      },
+      {
+        "token": " like",
+        "count": 6180,
+        "mean_activation": 0.046900844882607075
+      },
+      {
+        "token": " loved",
+        "count": 3317,
+        "mean_activation": 0.03882760343186497
+      },
+      {
+        "token": " the",
+        "count": 2773,
+        "mean_activation": 0.02511268585458199
+      },
+      {
+        "token": " enjoyed",
+        "count": 2034,
+        "mean_activation": 0.042535573683657124
+      },
+      {
+        "token": " with",
+        "count": 1648,
+        "mean_activation": 0.03273457462347827
+      },
+      {
+        "token": " liked",
+        "count": 1639,
+        "mean_activation": 0.04651855040498446
+      },
+      {
+        "token": " this",
+        "count": 1310,
+        "mean_activation": 0.012549719191689528
+      },
+      {
+        "token": " Love",
+        "count": 1162,
+        "mean_activation": 0.027390970830868114
+      },
+      {
+        "token": " enjoy",
+        "count": 1024,
+        "mean_activation": 0.04696939140558243
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 21600000,
+      "corpus_coverage": 0.4178
+    },
+    "activations": [
+      {
+        "context": "...tle (sheesh I really** love** Chipotle) tacos. \\n\\nT...",
+        "active_token": " love",
+        "activation": 0.2015380859375,
+        "review_id": "PnYP1KyvYeK-yBjhvVBYkQ",
+        "position": 27
+      },
+      {
+        "context": "... so cheesy (I really** love** cheese, and I would ...",
+        "active_token": " love",
+        "activation": 0.1929931640625,
+        "review_id": "lbb_hOW1Bme21aNDCEC2vw",
+        "position": 608
+      },
+      {
+        "context": "...e was). I absolutely** love** going out to eat and...",
+        "active_token": " love",
+        "activation": 0.186279296875,
+        "review_id": "NQ_AiBnn5ZvE7VZdu41OvQ",
+        "position": 814
+      },
+      {
+        "context": "...e my heart. I really** love** fruity, lemony, lime...",
+        "active_token": " love",
+        "activation": 0.183837890625,
+        "review_id": "aLTyHul8hRtVuyALT9nD4g",
+        "position": 316
+      },
+      {
+        "context": "... ---   ---\\n\\nI really** love** Oxford Exchange.\\n\\nAn...",
+        "active_token": " love",
+        "activation": 0.1815185546875,
+        "review_id": "DjBlHUy5bYEssYX7m3KvRA",
+        "position": 27
+      },
+      {
+        "context": "...with lard.  I really** love** their red salsa.  I ...",
+        "active_token": " love",
+        "activation": 0.1800537109375,
+        "review_id": "upOk1NfaTB9vBKO7aCdeig",
+        "position": 27
+      },
+      {
+        "context": "...the chorizo.  Damn I** love** pork products.\\n\\nOh, ...",
+        "active_token": " love",
+        "activation": 0.17919921875,
+        "review_id": "pHjbtttyEjp0oVjCpFogFw",
+        "position": 177
+      },
+      {
+        "context": "....  (I really, really** love** the beans!)\\n\\nThe own...",
+        "active_token": " love",
+        "activation": 0.17822265625,
+        "review_id": "a-F0PGqpWBHlROOF5z1emw",
+        "position": 50
+      },
+      {
+        "context": "...s of food!\\n\\nI really** love** their bacon egg and ...",
+        "active_token": " love",
+        "activation": 0.174072265625,
+        "review_id": "WSSY9-OvTrtiy9-yTSeWTw",
+        "position": 59
+      },
+      {
+        "context": "...Fashioned.  I really** love** having a place like ...",
+        "active_token": " love",
+        "activation": 0.1724853515625,
+        "review_id": "tY5kngLcIepT2vIjTN_7gA",
+        "position": 243
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 837,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 42700000,
+      "corpus_coverage": 0.8259,
+      "activation_range": {
+        "min": 0.1429,
+        "max": 0.2015,
+        "mean": 0.1529
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " I",
+            " love"
+          ],
+          "ngram_str": " I love",
+          "count": 190,
+          "percent": 38.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 182,
+          "percent": 36.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            " I",
+            " really"
+          ],
+          "ngram_str": " I really",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " really",
+            " love"
+          ],
+          "ngram_str": " really love",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            " love",
+            " the"
+          ],
+          "ngram_str": " love the",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012cI",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " really",
+            " like"
+          ],
+          "ngram_str": " really like",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " love",
+            " this"
+          ],
+          "ngram_str": " love this",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "I",
+            " really"
+          ],
+          "ngram_str": "I really",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 45,
+          "percent": 9.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " really",
+            " love"
+          ],
+          "ngram_str": " I really love",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " love"
+          ],
+          "ngram_str": ". I love",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " really"
+          ],
+          "ngram_str": ". I really",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " really",
+            " love",
+            " the"
+          ],
+          "ngram_str": " really love the",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " love",
+            " this",
+            " place"
+          ],
+          "ngram_str": " love this place",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " really"
+          ],
+          "ngram_str": "\u012cI really",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " I",
+            " really",
+            " like"
+          ],
+          "ngram_str": " I really like",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " really",
+            " love",
+            " this"
+          ],
+          "ngram_str": " really love this",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " really"
+          ],
+          "ngram_str": "  I really",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " really",
+            " like",
+            " the"
+          ],
+          "ngram_str": " really like the",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " really",
+            " love"
+          ],
+          "ngram_str": ". I really love",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " really"
+          ],
+          "ngram_str": "\u00c4\u012cI really",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " I",
+            " really",
+            " love",
+            " the"
+          ],
+          "ngram_str": " I really love the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " really",
+            " love",
+            " this",
+            " place"
+          ],
+          "ngram_str": " really love this place",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " really"
+          ],
+          "ngram_str": ".  I really",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " really",
+            " like"
+          ],
+          "ngram_str": ". I really like",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " love"
+          ],
+          "ngram_str": ".  I love",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " love"
+          ],
+          "ngram_str": "\u00c4\u012cI love",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " really",
+            " like"
+          ],
+          "ngram_str": "\u012cI really like",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " I",
+            " really",
+            " love",
+            " this"
+          ],
+          "ngram_str": " I really love this",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " really",
+            " love"
+          ],
+          "ngram_str": "\u012cI really love",
+          "count": 18,
+          "percent": 3.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4200000,
+      "corpus_coverage": 0.0812
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17430,
+        "count": 7721,
+        "percent": 77.21
+      },
+      {
+        "feature_idx": 18519,
+        "count": 7284,
+        "percent": 72.84
+      },
+      {
+        "feature_idx": 984,
+        "count": 7208,
+        "percent": 72.08
+      },
+      {
+        "feature_idx": 10769,
+        "count": 6919,
+        "percent": 69.19
+      },
+      {
+        "feature_idx": 24543,
+        "count": 6000,
+        "percent": 60.0
+      },
+      {
+        "feature_idx": 19310,
+        "count": 5963,
+        "percent": 59.63
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5487,
+        "percent": 54.87
+      },
+      {
+        "feature_idx": 11299,
+        "count": 5372,
+        "percent": 53.72
+      },
+      {
+        "feature_idx": 7812,
+        "count": 5371,
+        "percent": 53.71
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5256,
+        "percent": 52.56
+      },
+      {
+        "feature_idx": 2226,
+        "count": 4923,
+        "percent": 49.23
+      },
+      {
+        "feature_idx": 12537,
+        "count": 4828,
+        "percent": 48.28
+      },
+      {
+        "feature_idx": 9357,
+        "count": 4401,
+        "percent": 44.01
+      },
+      {
+        "feature_idx": 23225,
+        "count": 4257,
+        "percent": 42.57
+      },
+      {
+        "feature_idx": 17608,
+        "count": 4245,
+        "percent": 42.45
+      },
+      {
+        "feature_idx": 1982,
+        "count": 4187,
+        "percent": 41.87
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4130,
+        "percent": 41.3
+      },
+      {
+        "feature_idx": 8003,
+        "count": 3947,
+        "percent": 39.47
+      },
+      {
+        "feature_idx": 5165,
+        "count": 3802,
+        "percent": 38.02
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3693,
+        "percent": 36.93
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4200000,
+      "corpus_coverage": 0.0812
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3146,
+        "percent": 31.46
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1583,
+        "percent": 15.83
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1666,
+        "percent": 16.66
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1712,
+        "percent": 17.12
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1893,
+        "percent": 18.93
+      }
+    ],
+    "mean_position": 0.4399,
+    "std_position": 0.321
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 263,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0187,
+      "p25": 0.0256,
+      "p50": 0.044,
+      "p75": 0.0858,
+      "p90": 0.1039,
+      "p95": 0.1191,
+      "p99": 0.1389
+    },
+    "skewness": 0.7184,
+    "kurtosis": -0.6156,
+    "min": 0.0085,
+    "max": 0.1428,
+    "mean": 0.0542,
+    "std": 0.0343
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 263,
+      "unique_tokens_found": 34
+    },
+    "tokens": [
+      {
+        "token": " love",
+        "count": 97,
+        "mean_activation": 0.0802
+      },
+      {
+        "token": " like",
+        "count": 31,
+        "mean_activation": 0.0469
+      },
+      {
+        "token": " loved",
+        "count": 17,
+        "mean_activation": 0.0351
+      },
+      {
+        "token": " the",
+        "count": 15,
+        "mean_activation": 0.0253
+      },
+      {
+        "token": " enjoyed",
+        "count": 14,
+        "mean_activation": 0.0427
+      },
+      {
+        "token": " liked",
+        "count": 12,
+        "mean_activation": 0.0425
+      },
+      {
+        "token": " this",
+        "count": 10,
+        "mean_activation": 0.0114
+      },
+      {
+        "token": " hate",
+        "count": 7,
+        "mean_activation": 0.0658
+      },
+      {
+        "token": " Love",
+        "count": 6,
+        "mean_activation": 0.025
+      },
+      {
+        "token": " enjoy",
+        "count": 6,
+        "mean_activation": 0.048
+      }
+    ]
+  }
+}

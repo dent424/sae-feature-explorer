@@ -1,0 +1,866 @@
+{
+  "feature_idx": 916,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 213,
+    "mean_when_active": 0.08243464080380722,
+    "max_activation": 0.1845703125,
+    "std_when_active": 0.051349053251237405,
+    "activation_rate": 0.00213
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 25800000,
+      "corpus_coverage": 0.499
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 47967,
+        "mean_activation": 0.08235565760690007
+      },
+      {
+        "token": " their",
+        "count": 394,
+        "mean_activation": 0.037857752766100886
+      },
+      {
+        "token": " it",
+        "count": 264,
+        "mean_activation": 0.03265487786495325
+      },
+      {
+        "token": " The",
+        "count": 132,
+        "mean_activation": 0.024554165926846592
+      },
+      {
+        "token": " our",
+        "count": 110,
+        "mean_activation": 0.027317671342329545
+      },
+      {
+        "token": " THE",
+        "count": 89,
+        "mean_activation": 0.045028000735165025
+      },
+      {
+        "token": " them",
+        "count": 76,
+        "mean_activation": 0.026514956825657895
+      },
+      {
+        "token": " my",
+        "count": 69,
+        "mean_activation": 0.025092857471410778
+      },
+      {
+        "token": " pleasure",
+        "count": 66,
+        "mean_activation": 0.03328542998342803
+      },
+      {
+        "token": " was",
+        "count": 63,
+        "mean_activation": 0.017372736855158732
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 25800000,
+      "corpus_coverage": 0.499
+    },
+    "activations": [
+      {
+        "context": "...s to thank us. We had** the** nachos, guacamole an...",
+        "active_token": " the",
+        "activation": 0.2177734375,
+        "review_id": "ap4374gT4lLYt9q_L0AhMQ",
+        "position": 110
+      },
+      {
+        "context": "...lsas on offer, we had** the** medium and a sweet, ...",
+        "active_token": " the",
+        "activation": 0.2161865234375,
+        "review_id": "tzKFjb_9Qzz-VyxybmTe-g",
+        "position": 97
+      },
+      {
+        "context": "...et us right. \\n\\nWe had** the** seafood chimichangas...",
+        "active_token": " the",
+        "activation": 0.2149658203125,
+        "review_id": "nZUzf9y5uQROO03aoa2A3Q",
+        "position": 83
+      },
+      {
+        "context": "...ght letdown).\\n\\nWe had** the** Cauliflower appetize...",
+        "active_token": " the",
+        "activation": 0.2127685546875,
+        "review_id": "eAoe5p0xXQdgmWVFjfeqEA",
+        "position": 91
+      },
+      {
+        "context": "...rty at Besito, we had** the** best time. Their hap...",
+        "active_token": " the",
+        "activation": 0.211669921875,
+        "review_id": "Yh4CyvnDTaMUyK-XF5hW-w",
+        "position": 15
+      },
+      {
+        "context": "...aking action.\\n\\nWe had** the** mex'orean fried chic...",
+        "active_token": " the",
+        "activation": 0.2110595703125,
+        "review_id": "hFZBSTourPOd3w6OmzBw8Q",
+        "position": 45
+      },
+      {
+        "context": "...eaded on over. We had** the** fish spread ap, alon...",
+        "active_token": " the",
+        "activation": 0.2099609375,
+        "review_id": "8cXCuG0xYV52kbu1YqiZKQ",
+        "position": 102
+      },
+      {
+        "context": "...ho knows what. We had** the** queso (yum), fish ta...",
+        "active_token": " the",
+        "activation": 0.209228515625,
+        "review_id": "vG10md9O_O4xzsLgEJqw8g",
+        "position": 100
+      },
+      {
+        "context": ".... \\n\\nThis visit, I had** the** fried fish tacos, an...",
+        "active_token": " the",
+        "activation": 0.208984375,
+        "review_id": "GSngM7jVGnLqVGSMPmIZrQ",
+        "position": 168
+      },
+      {
+        "context": "...d a great time. I had** the** brisket enchiladas w...",
+        "active_token": " the",
+        "activation": 0.208984375,
+        "review_id": "KLb5xkZY-SFuV2tzdxk-ZQ",
+        "position": 20
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 916,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1901,
+        "max": 0.225,
+        "mean": 0.1963
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " had",
+            " the"
+          ],
+          "ngram_str": " had the",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            " I",
+            " had"
+          ],
+          "ngram_str": " I had",
+          "count": 200,
+          "percent": 40.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 152,
+          "percent": 30.4
+        },
+        {
+          "ngram": [
+            " We",
+            " had"
+          ],
+          "ngram_str": " We had",
+          "count": 149,
+          "percent": 29.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We"
+          ],
+          "ngram_str": ". We",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            "We",
+            " had"
+          ],
+          "ngram_str": "We had",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "I",
+            " had"
+          ],
+          "ngram_str": "I had",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "We"
+          ],
+          "ngram_str": "\u012cWe",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012cI",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " we",
+            " had"
+          ],
+          "ngram_str": " we had",
+          "count": 41,
+          "percent": 8.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " had",
+            " the"
+          ],
+          "ngram_str": " I had the",
+          "count": 199,
+          "percent": 39.8
+        },
+        {
+          "ngram": [
+            " We",
+            " had",
+            " the"
+          ],
+          "ngram_str": " We had the",
+          "count": 149,
+          "percent": 29.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " had"
+          ],
+          "ngram_str": ". We had",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " had"
+          ],
+          "ngram_str": ". I had",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            "We",
+            " had",
+            " the"
+          ],
+          "ngram_str": "We had the",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "I",
+            " had",
+            " the"
+          ],
+          "ngram_str": "I had the",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "We",
+            " had"
+          ],
+          "ngram_str": "\u012cWe had",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " had"
+          ],
+          "ngram_str": "\u012cI had",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "We"
+          ],
+          "ngram_str": "\u00c4\u012cWe",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " we",
+            " had",
+            " the"
+          ],
+          "ngram_str": " we had the",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " We",
+            " had",
+            " the"
+          ],
+          "ngram_str": ". We had the",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " had",
+            " the"
+          ],
+          "ngram_str": ". I had the",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "We",
+            " had",
+            " the"
+          ],
+          "ngram_str": "\u012cWe had the",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " had",
+            " the"
+          ],
+          "ngram_str": "\u012cI had the",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " had"
+          ],
+          "ngram_str": "\u00c4\u012cI had",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "We",
+            " had"
+          ],
+          "ngram_str": "\u00c4\u012cWe had",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "We"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cWe",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " had",
+            " the"
+          ],
+          "ngram_str": "  I had the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " had",
+            " the"
+          ],
+          "ngram_str": ", I had the",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " had"
+          ],
+          "ngram_str": ".  I had",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " ",
+            " We",
+            " had",
+            " the"
+          ],
+          "ngram_str": "  We had the",
+          "count": 25,
+          "percent": 5.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22187,
+        "count": 9666,
+        "percent": 96.66
+      },
+      {
+        "feature_idx": 10638,
+        "count": 9660,
+        "percent": 96.6
+      },
+      {
+        "feature_idx": 4066,
+        "count": 8277,
+        "percent": 82.77
+      },
+      {
+        "feature_idx": 20403,
+        "count": 7545,
+        "percent": 75.45
+      },
+      {
+        "feature_idx": 1390,
+        "count": 7208,
+        "percent": 72.08
+      },
+      {
+        "feature_idx": 14476,
+        "count": 6675,
+        "percent": 66.75
+      },
+      {
+        "feature_idx": 18485,
+        "count": 6169,
+        "percent": 61.69
+      },
+      {
+        "feature_idx": 21726,
+        "count": 5206,
+        "percent": 52.06
+      },
+      {
+        "feature_idx": 8528,
+        "count": 5049,
+        "percent": 50.49
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4964,
+        "percent": 49.64
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4948,
+        "percent": 49.48
+      },
+      {
+        "feature_idx": 15605,
+        "count": 4683,
+        "percent": 46.83
+      },
+      {
+        "feature_idx": 9307,
+        "count": 4187,
+        "percent": 41.87
+      },
+      {
+        "feature_idx": 17430,
+        "count": 4022,
+        "percent": 40.22
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3842,
+        "percent": 38.42
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3720,
+        "percent": 37.2
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3715,
+        "percent": 37.15
+      },
+      {
+        "feature_idx": 7563,
+        "count": 3614,
+        "percent": 36.14
+      },
+      {
+        "feature_idx": 462,
+        "count": 3436,
+        "percent": 34.36
+      },
+      {
+        "feature_idx": 18379,
+        "count": 3126,
+        "percent": 31.26
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2196,
+        "percent": 21.96
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2669,
+        "percent": 26.69
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2627,
+        "percent": 26.27
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1795,
+        "percent": 17.95
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 713,
+        "percent": 7.13
+      }
+    ],
+    "mean_position": 0.4201,
+    "std_position": 0.2418
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 213,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0254,
+      "p25": 0.0332,
+      "p50": 0.0729,
+      "p75": 0.127,
+      "p90": 0.1635,
+      "p95": 0.1712,
+      "p99": 0.1793
+    },
+    "skewness": 0.4474,
+    "kurtosis": -1.1564,
+    "min": 0.0111,
+    "max": 0.1846,
+    "mean": 0.0824,
+    "std": 0.0513
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 213,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 204,
+        "mean_activation": 0.0847
+      },
+      {
+        "token": " their",
+        "count": 3,
+        "mean_activation": 0.0405
+      },
+      {
+        "token": " to",
+        "count": 1,
+        "mean_activation": 0.0156
+      },
+      {
+        "token": " this",
+        "count": 1,
+        "mean_activation": 0.0332
+      },
+      {
+        "token": " coconut",
+        "count": 1,
+        "mean_activation": 0.0293
+      },
+      {
+        "token": " pleasure",
+        "count": 1,
+        "mean_activation": 0.0268
+      },
+      {
+        "token": " didn",
+        "count": 1,
+        "mean_activation": 0.0127
+      },
+      {
+        "token": " it",
+        "count": 1,
+        "mean_activation": 0.0314
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 67,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 319,
+    "mean_when_active": 0.03877672057914136,
+    "max_activation": 0.171875,
+    "std_when_active": 0.02592184448510447,
+    "activation_rate": 0.00319
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 18200000,
+      "corpus_coverage": 0.352
+    },
+    "top_tokens": [
+      {
+        "token": ".",
+        "count": 9851,
+        "mean_activation": 0.04104785030474579
+      },
+      {
+        "token": " ",
+        "count": 3466,
+        "mean_activation": 0.038280317567361964
+      },
+      {
+        "token": "!",
+        "count": 1713,
+        "mean_activation": 0.03911456070792515
+      },
+      {
+        "token": ",",
+        "count": 1575,
+        "mean_activation": 0.03297489226810516
+      },
+      {
+        "token": ")",
+        "count": 910,
+        "mean_activation": 0.0644988762153374
+      },
+      {
+        "token": " and",
+        "count": 861,
+        "mean_activation": 0.027401931886750507
+      },
+      {
+        "token": ":",
+        "count": 657,
+        "mean_activation": 0.04621145170028895
+      },
+      {
+        "token": "\\n",
+        "count": 493,
+        "mean_activation": 0.03996456370634191
+      },
+      {
+        "token": " (",
+        "count": 400,
+        "mean_activation": 0.03396406173706055
+      },
+      {
+        "token": " -",
+        "count": 393,
+        "mean_activation": 0.04171494733892931
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 18200000,
+      "corpus_coverage": 0.352
+    },
+    "activations": [
+      {
+        "context": "...eck\\n\\nAuthentic food?** Check**\\n\\nTex Mex? Check\\n\\nI'...",
+        "active_token": " Check",
+        "activation": 0.24072265625,
+        "review_id": "kSHE83oQCT7ccYhDCuqDhQ",
+        "position": 45
+      },
+      {
+        "context": "...eck\\nBudget friendly,** check**",
+        "active_token": " check",
+        "activation": 0.2386474609375,
+        "review_id": "eypwKM2RJeIAXtl1q-FbDg",
+        "position": 26
+      },
+      {
+        "context": "...\\nGino's, NYC\\nLeopard,** NYC** \\n\\nThey're all wonder...",
+        "active_token": " NYC",
+        "activation": 0.234619140625,
+        "review_id": "eOfNprjcCqjT8mehN_tTOg",
+        "position": 122
+      },
+      {
+        "context": "... 5 stars\\nService - 4** stars**\\n\\nTotal - 4 stars\\n\\nB...",
+        "active_token": " stars",
+        "activation": 0.230712890625,
+        "review_id": "46d6SlNsgGZ0X5sbVubK6w",
+        "position": 31
+      },
+      {
+        "context": "...-5 stars\\nService - 4** stars**\\n\\nBackground - Long ...",
+        "active_token": " stars",
+        "activation": 0.2275390625,
+        "review_id": "Ikbd1Hi0LmzOtaksRm0Ivw",
+        "position": 31
+      },
+      {
+        "context": "... 4 stars\\nService - 4** stars**\\n\\nBackground - Headi...",
+        "active_token": " stars",
+        "activation": 0.2257080078125,
+        "review_id": "1sow7NADuLy61qvwFV87lw",
+        "position": 31
+      },
+      {
+        "context": "...ary Fiber 9g\\nSugars 10**g**\\nProtein 54g.\\n\\n \\n\\n",
+        "active_token": "g",
+        "activation": 0.2252197265625,
+        "review_id": "LDGtUhy9OJBj3J1czwN57w",
+        "position": 213
+      },
+      {
+        "context": "... 5 stars\\nService - 4** stars**\\n\\nBackground - Visit...",
+        "active_token": " stars",
+        "activation": 0.2249755859375,
+        "review_id": "Cv33NeE4en-Kjk5FTuj5NQ",
+        "position": 31
+      },
+      {
+        "context": "... 5 stars\\nService - 5** stars** \\n\\nBackground - Goin...",
+        "active_token": " stars",
+        "activation": 0.2249755859375,
+        "review_id": "ROijFbAT_jv53pGM_CGUlw",
+        "position": 31
+      },
+      {
+        "context": "... 5 stars\\nService - 4** stars**\\n\\nBackground - Had a...",
+        "active_token": " stars",
+        "activation": 0.2230224609375,
+        "review_id": "RoEUBmWhEJeKvBPBaW5KtQ",
+        "position": 29
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 67,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 36800000,
+      "corpus_coverage": 0.7118,
+      "activation_range": {
+        "min": 0.174,
+        "max": 0.2512,
+        "mean": 0.1946
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 875,
+          "percent": 175.0
+        },
+        {
+          "ngram": [
+            " stars",
+            "\u00c4"
+          ],
+          "ngram_str": " stars\u00c4",
+          "count": 263,
+          "percent": 52.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 165,
+          "percent": 33.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Service"
+          ],
+          "ngram_str": "\u012cService",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            "Service",
+            " -"
+          ],
+          "ngram_str": "Service -",
+          "count": 124,
+          "percent": 24.8
+        },
+        {
+          "ngram": [
+            " 5",
+            " stars"
+          ],
+          "ngram_str": " 5 stars",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " -",
+            " 5"
+          ],
+          "ngram_str": " - 5",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Food"
+          ],
+          "ngram_str": "\u012cFood",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " 4",
+            " stars"
+          ],
+          "ngram_str": " 4 stars",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Background"
+          ],
+          "ngram_str": "\u012cBackground",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " -",
+            " 4"
+          ],
+          "ngram_str": " - 4",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "Background",
+            " -"
+          ],
+          "ngram_str": "Background -",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            ")",
+            "\u00c4"
+          ],
+          "ngram_str": ")\u00c4",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            "Food",
+            " -"
+          ],
+          "ngram_str": "Food -",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 46,
+          "percent": 9.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " stars",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " stars\u00c4\u012c",
+          "count": 263,
+          "percent": 52.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 165,
+          "percent": 33.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Service"
+          ],
+          "ngram_str": "\u00c4\u012cService",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Service",
+            " -"
+          ],
+          "ngram_str": "\u012cService -",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " -",
+            " 5",
+            " stars"
+          ],
+          "ngram_str": " - 5 stars",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Food"
+          ],
+          "ngram_str": "\u00c4\u012cFood",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " 5",
+            " stars",
+            "\u00c4"
+          ],
+          "ngram_str": " 5 stars\u00c4",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "Service",
+            " -",
+            " 5"
+          ],
+          "ngram_str": "Service - 5",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Background"
+          ],
+          "ngram_str": "\u00c4\u012cBackground",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Background",
+            " -"
+          ],
+          "ngram_str": "\u012cBackground -",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " -",
+            " 4",
+            " stars"
+          ],
+          "ngram_str": " - 4 stars",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            ")",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ")\u00c4\u012c",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Food",
+            " -"
+          ],
+          "ngram_str": "\u012cFood -",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 46,
+          "percent": 9.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " stars",
+            "\u00c4",
+            "\u012c",
+            "Service"
+          ],
+          "ngram_str": " stars\u00c4\u012cService",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Service",
+            " -"
+          ],
+          "ngram_str": "\u00c4\u012cService -",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " 5",
+            " stars",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " 5 stars\u00c4\u012c",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Service",
+            " -",
+            " 5"
+          ],
+          "ngram_str": "\u012cService - 5",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "Service",
+            " -",
+            " 5",
+            " stars"
+          ],
+          "ngram_str": "Service - 5 stars",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Background"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cBackground",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Background",
+            " -"
+          ],
+          "ngram_str": "\u00c4\u012cBackground -",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " stars",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " stars\u00c4\u012c\u00c4",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Food",
+            " -"
+          ],
+          "ngram_str": "\u00c4\u012cFood -",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " stars",
+            "\u00c4",
+            "\u012c",
+            "Food"
+          ],
+          "ngram_str": " stars\u00c4\u012cFood",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " -",
+            " 5",
+            " stars",
+            "\u00c4"
+          ],
+          "ngram_str": " - 5 stars\u00c4",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " 4",
+            " stars",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " 4 stars\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Service",
+            " -",
+            " 4"
+          ],
+          "ngram_str": "\u012cService - 4",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "Service",
+            " -",
+            " 4",
+            " stars"
+          ],
+          "ngram_str": "Service - 4 stars",
+          "count": 38,
+          "percent": 7.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3800000,
+      "corpus_coverage": 0.0735
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 5541,
+        "percent": 55.41
+      },
+      {
+        "feature_idx": 17948,
+        "count": 4025,
+        "percent": 40.25
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3501,
+        "percent": 35.01
+      },
+      {
+        "feature_idx": 20647,
+        "count": 3358,
+        "percent": 33.58
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3277,
+        "percent": 32.77
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3219,
+        "percent": 32.19
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3143,
+        "percent": 31.43
+      },
+      {
+        "feature_idx": 3573,
+        "count": 2733,
+        "percent": 27.33
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2631,
+        "percent": 26.31
+      },
+      {
+        "feature_idx": 17874,
+        "count": 2394,
+        "percent": 23.94
+      },
+      {
+        "feature_idx": 20464,
+        "count": 2212,
+        "percent": 22.12
+      },
+      {
+        "feature_idx": 65,
+        "count": 2190,
+        "percent": 21.9
+      },
+      {
+        "feature_idx": 10019,
+        "count": 2082,
+        "percent": 20.82
+      },
+      {
+        "feature_idx": 11105,
+        "count": 2078,
+        "percent": 20.78
+      },
+      {
+        "feature_idx": 8917,
+        "count": 1895,
+        "percent": 18.95
+      },
+      {
+        "feature_idx": 13901,
+        "count": 1820,
+        "percent": 18.2
+      },
+      {
+        "feature_idx": 7551,
+        "count": 1788,
+        "percent": 17.88
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1507,
+        "percent": 15.07
+      },
+      {
+        "feature_idx": 14132,
+        "count": 1473,
+        "percent": 14.73
+      },
+      {
+        "feature_idx": 11476,
+        "count": 1434,
+        "percent": 14.34
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3800000,
+      "corpus_coverage": 0.0735
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1270,
+        "percent": 12.7
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1965,
+        "percent": 19.65
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2229,
+        "percent": 22.29
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1918,
+        "percent": 19.18
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2618,
+        "percent": 26.18
+      }
+    ],
+    "mean_position": 0.5607,
+    "std_position": 0.2822
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 319,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0186,
+      "p25": 0.0239,
+      "p50": 0.0316,
+      "p75": 0.0433,
+      "p90": 0.0668,
+      "p95": 0.0924,
+      "p99": 0.1467
+    },
+    "skewness": 2.578,
+    "kurtosis": 7.7514,
+    "min": 0.0093,
+    "max": 0.1719,
+    "mean": 0.0388,
+    "std": 0.0259
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 319,
+      "unique_tokens_found": 150
+    },
+    "tokens": [
+      {
+        "token": ".",
+        "count": 79,
+        "mean_activation": 0.0473
+      },
+      {
+        "token": " ",
+        "count": 19,
+        "mean_activation": 0.0401
+      },
+      {
+        "token": ",",
+        "count": 11,
+        "mean_activation": 0.0332
+      },
+      {
+        "token": "!",
+        "count": 10,
+        "mean_activation": 0.0316
+      },
+      {
+        "token": ")",
+        "count": 5,
+        "mean_activation": 0.0502
+      },
+      {
+        "token": " and",
+        "count": 5,
+        "mean_activation": 0.0214
+      },
+      {
+        "token": " good",
+        "count": 4,
+        "mean_activation": 0.0544
+      },
+      {
+        "token": " prices",
+        "count": 3,
+        "mean_activation": 0.0166
+      },
+      {
+        "token": " -",
+        "count": 3,
+        "mean_activation": 0.0397
+      },
+      {
+        "token": "VE",
+        "count": 3,
+        "mean_activation": 0.074
+      }
+    ]
+  }
+}

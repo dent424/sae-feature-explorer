@@ -1,0 +1,856 @@
+{
+  "feature_idx": 3431,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 9,
+    "mean_when_active": 0.05613369411892361,
+    "max_activation": 0.10589599609375,
+    "std_when_active": 0.03508354381995823,
+    "activation_rate": 9e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6105,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " t",
+        "count": 1251,
+        "mean_activation": 0.0326961880202869
+      },
+      {
+        "token": " dist",
+        "count": 1102,
+        "mean_activation": 0.07246234153013696
+      },
+      {
+        "token": " pat",
+        "count": 951,
+        "mean_activation": 0.08114112188136666
+      },
+      {
+        "token": "t",
+        "count": 508,
+        "mean_activation": 0.059031403909518027
+      },
+      {
+        "token": " T",
+        "count": 382,
+        "mean_activation": 0.02655920058644879
+      },
+      {
+        "token": " ac",
+        "count": 289,
+        "mean_activation": 0.09926982734442583
+      },
+      {
+        "token": " unt",
+        "count": 207,
+        "mean_activation": 0.10372261379076086
+      },
+      {
+        "token": " r",
+        "count": 200,
+        "mean_activation": 0.027507591247558593
+      },
+      {
+        "token": "pt",
+        "count": 168,
+        "mean_activation": 0.08573695591517858
+      },
+      {
+        "token": " p",
+        "count": 165,
+        "mean_activation": 0.024036153157552084
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6105,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... night with a stomach** ac**he.,",
+        "active_token": " ac",
+        "activation": 0.13818359375,
+        "review_id": "mVuGOsUjIJ2qaIHpZoXOMQ",
+        "position": 53
+      },
+      {
+        "context": "...ded up with a stomach** ac**he almost immediately ...",
+        "active_token": " ac",
+        "activation": 0.1375732421875,
+        "review_id": "eve8mXVoQhjyyahtk7DZZw",
+        "position": 37
+      },
+      {
+        "context": "...nd I both had stomach** ac**hes. The highlight of ...",
+        "active_token": " ac",
+        "activation": 0.1370849609375,
+        "review_id": "Fq-z8ytoXWcAPdcCHxEGjg",
+        "position": 35
+      },
+      {
+        "context": "...I left with a stomach** ac**he and some mild nause...",
+        "active_token": " ac",
+        "activation": 0.1370849609375,
+        "review_id": "Mu3fIDlShr--vWDjExnAMw",
+        "position": 102
+      },
+      {
+        "context": "... It gave me a stomach** ac**he. I really wanted to...",
+        "active_token": " ac",
+        "activation": 0.136962890625,
+        "review_id": "8-bV-7l428PWp1IIu3eVkw",
+        "position": 173
+      },
+      {
+        "context": "...eft me with a stomach** ac**he. I think next time ...",
+        "active_token": " ac",
+        "activation": 0.1368408203125,
+        "review_id": "QMqbVUTsOERh1C4MuLyQIQ",
+        "position": 234
+      },
+      {
+        "context": "...left with was stomach** ac**hes for the next 12-14...",
+        "active_token": " ac",
+        "activation": 0.1363525390625,
+        "review_id": "A4W2ptMihmiGIVxC_8oMsA",
+        "position": 57
+      },
+      {
+        "context": "...morning had a stomach** ac**he. I did like the wat...",
+        "active_token": " ac",
+        "activation": 0.13623046875,
+        "review_id": "-SCM7sDLnTRBrqCtBSS89w",
+        "position": 104
+      },
+      {
+        "context": "...lso gave me a stomach** ac**he. \\n\\nThis is not a go...",
+        "active_token": " ac",
+        "activation": 0.1361083984375,
+        "review_id": "-hSY-oC72gClvB7V0vHW-w",
+        "position": 91
+      },
+      {
+        "context": "...ood . I had a stomach** ac**he all night and then ...",
+        "active_token": " ac",
+        "activation": 0.1358642578125,
+        "review_id": "XK_7wLWYBNh6bKvcwGO2NQ",
+        "position": 18
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3431,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1016,
+        "max": 0.1382,
+        "mean": 0.1133
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " stomach",
+            " ac"
+          ],
+          "ngram_str": " stomach ac",
+          "count": 171,
+          "percent": 34.2
+        },
+        {
+          "ngram": [
+            " ac",
+            "he"
+          ],
+          "ngram_str": " ache",
+          "count": 143,
+          "percent": 28.6
+        },
+        {
+          "ngram": [
+            " pat",
+            "ty"
+          ],
+          "ngram_str": " patty",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            " a",
+            " stomach"
+          ],
+          "ngram_str": " a stomach",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " after",
+            "t"
+          ],
+          "ngram_str": " aftert",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "t",
+            "aste"
+          ],
+          "ngram_str": "taste",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "he",
+            "."
+          ],
+          "ngram_str": "he.",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " ac",
+            "hes"
+          ],
+          "ngram_str": " aches",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " beef",
+            " pat"
+          ],
+          "ngram_str": " beef pat",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " unt",
+            "rained"
+          ],
+          "ngram_str": " untrained",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " had",
+            " a"
+          ],
+          "ngram_str": " had a",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "aste",
+            "."
+          ],
+          "ngram_str": "aste.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " stomach",
+            " ac",
+            "he"
+          ],
+          "ngram_str": " stomach ache",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            " a",
+            " stomach",
+            " ac"
+          ],
+          "ngram_str": " a stomach ac",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " after",
+            "t",
+            "aste"
+          ],
+          "ngram_str": " aftertaste",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " ac",
+            "he",
+            "."
+          ],
+          "ngram_str": " ache.",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " beef",
+            " pat",
+            "ty"
+          ],
+          "ngram_str": " beef patty",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " stomach",
+            " ac",
+            "hes"
+          ],
+          "ngram_str": " stomach aches",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "t",
+            "aste",
+            "."
+          ],
+          "ngram_str": "taste.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " hamb",
+            "urger",
+            " pat"
+          ],
+          "ngram_str": " hamburger pat",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "urger",
+            " pat",
+            "ty"
+          ],
+          "ngram_str": "urger patty",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " pat",
+            "ty",
+            ","
+          ],
+          "ngram_str": " patty,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " pat",
+            "ty",
+            "."
+          ],
+          "ngram_str": " patty.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " stomach"
+          ],
+          "ngram_str": " with a stomach",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " ac",
+            "he",
+            " and"
+          ],
+          "ngram_str": " ache and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " me",
+            " a",
+            " stomach"
+          ],
+          "ngram_str": " me a stomach",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " a",
+            " stomach",
+            " ac",
+            "he"
+          ],
+          "ngram_str": " a stomach ache",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " stomach",
+            " ac",
+            "he",
+            "."
+          ],
+          "ngram_str": " stomach ache.",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " after",
+            "t",
+            "aste",
+            "."
+          ],
+          "ngram_str": " aftertaste.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " hamb",
+            "urger",
+            " pat",
+            "ty"
+          ],
+          "ngram_str": " hamburger patty",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " stomach",
+            " ac"
+          ],
+          "ngram_str": " with a stomach ac",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " me",
+            " a",
+            " stomach",
+            " ac"
+          ],
+          "ngram_str": " me a stomach ac",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " stomach",
+            " ac",
+            "he",
+            " and"
+          ],
+          "ngram_str": " stomach ache and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " weird",
+            " after",
+            "t",
+            "aste"
+          ],
+          "ngram_str": " weird aftertaste",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " stomach",
+            " ac",
+            "hes",
+            "."
+          ],
+          "ngram_str": " stomach aches.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " hamb",
+            "urger",
+            " pat"
+          ],
+          "ngram_str": " a hamburger pat",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " weird",
+            " after",
+            "t"
+          ],
+          "ngram_str": " a weird aftert",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " gave",
+            " me",
+            " a",
+            " stomach"
+          ],
+          "ngram_str": " gave me a stomach",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " stomach",
+            " ac",
+            "he",
+            " after"
+          ],
+          "ngram_str": " stomach ache after",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6105,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11763,
+        "count": 3774,
+        "percent": 61.82
+      },
+      {
+        "feature_idx": 12087,
+        "count": 3665,
+        "percent": 60.03
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3260,
+        "percent": 53.4
+      },
+      {
+        "feature_idx": 8513,
+        "count": 2820,
+        "percent": 46.19
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2613,
+        "percent": 42.8
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2539,
+        "percent": 41.59
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2469,
+        "percent": 40.44
+      },
+      {
+        "feature_idx": 8591,
+        "count": 2415,
+        "percent": 39.56
+      },
+      {
+        "feature_idx": 19926,
+        "count": 2174,
+        "percent": 35.61
+      },
+      {
+        "feature_idx": 20749,
+        "count": 2156,
+        "percent": 35.32
+      },
+      {
+        "feature_idx": 15346,
+        "count": 2151,
+        "percent": 35.23
+      },
+      {
+        "feature_idx": 856,
+        "count": 2058,
+        "percent": 33.71
+      },
+      {
+        "feature_idx": 8649,
+        "count": 1970,
+        "percent": 32.27
+      },
+      {
+        "feature_idx": 6556,
+        "count": 1895,
+        "percent": 31.04
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1816,
+        "percent": 29.75
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1781,
+        "percent": 29.17
+      },
+      {
+        "feature_idx": 2714,
+        "count": 1690,
+        "percent": 27.68
+      },
+      {
+        "feature_idx": 13121,
+        "count": 1658,
+        "percent": 27.16
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1647,
+        "percent": 26.98
+      },
+      {
+        "feature_idx": 12988,
+        "count": 1543,
+        "percent": 25.27
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6105,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 978,
+        "percent": 16.02
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1318,
+        "percent": 21.59
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1489,
+        "percent": 24.39
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1275,
+        "percent": 20.88
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1045,
+        "percent": 17.12
+      }
+    ],
+    "mean_position": 0.5028,
+    "std_position": 0.2657
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 9,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0157,
+      "p25": 0.0201,
+      "p50": 0.0752,
+      "p75": 0.0847,
+      "p90": 0.0912,
+      "p95": 0.0986,
+      "p99": 0.1044
+    },
+    "skewness": -0.0755,
+    "kurtosis": -1.7461,
+    "min": 0.0134,
+    "max": 0.1059,
+    "mean": 0.0561,
+    "std": 0.0351
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 9,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " pat",
+        "count": 3,
+        "mean_activation": 0.0841
+      },
+      {
+        "token": " p",
+        "count": 2,
+        "mean_activation": 0.0168
+      },
+      {
+        "token": " cr",
+        "count": 1,
+        "mean_activation": 0.0752
+      },
+      {
+        "token": " unt",
+        "count": 1,
+        "mean_activation": 0.1059
+      },
+      {
+        "token": " r",
+        "count": 1,
+        "mean_activation": 0.0221
+      },
+      {
+        "token": " t",
+        "count": 1,
+        "mean_activation": 0.0163
+      }
+    ]
+  }
+}

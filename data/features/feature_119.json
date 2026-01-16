@@ -1,0 +1,841 @@
+{
+  "feature_idx": 119,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 92,
+    "mean_when_active": 0.09309917947520381,
+    "max_activation": 0.181640625,
+    "std_when_active": 0.05287791847795208,
+    "activation_rate": 0.00092
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 37402,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " here",
+        "count": 36206,
+        "mean_activation": 0.09185914751482835
+      },
+      {
+        "token": " there",
+        "count": 578,
+        "mean_activation": 0.035711717440595266
+      },
+      {
+        "token": " home",
+        "count": 101,
+        "mean_activation": 0.029812199054378093
+      },
+      {
+        "token": " to",
+        "count": 92,
+        "mean_activation": 0.025365248970363453
+      },
+      {
+        "token": " us",
+        "count": 52,
+        "mean_activation": 0.023321885329026442
+      },
+      {
+        "token": " HERE",
+        "count": 46,
+        "mean_activation": 0.03444339918053668
+      },
+      {
+        "token": " arrived",
+        "count": 42,
+        "mean_activation": 0.019205184209914433
+      },
+      {
+        "token": " in",
+        "count": 42,
+        "mean_activation": 0.0230255126953125
+      },
+      {
+        "token": "ada",
+        "count": 27,
+        "mean_activation": 0.01697681568287037
+      },
+      {
+        "token": " hungry",
+        "count": 23,
+        "mean_activation": 0.026054050611413044
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 37402,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...sehold in Cali, came** here** and wasted my money....",
+        "active_token": " here",
+        "activation": 0.2159423828125,
+        "review_id": "mLIyWGrRnfPq0yQPrSjoRA",
+        "position": 89
+      },
+      {
+        "context": "... my whole life, came** here** with my boyfriend to...",
+        "active_token": " here",
+        "activation": 0.2147216796875,
+        "review_id": "4sSIkajIamGEzTW9jyV5IQ",
+        "position": 9
+      },
+      {
+        "context": "...d out of state. Came** here** tonight to celebrate...",
+        "active_token": " here",
+        "activation": 0.1971435546875,
+        "review_id": "9AsMmumEg4R76TOFN9rlyQ",
+        "position": 16
+      },
+      {
+        "context": "...the critics. We came** here** for the view on our ...",
+        "active_token": " here",
+        "activation": 0.194580078125,
+        "review_id": "SIKa34nG8oddZcacRkx_HQ",
+        "position": 31
+      },
+      {
+        "context": "...er in law and I came** here** while visiting Santa...",
+        "active_token": " here",
+        "activation": 0.1942138671875,
+        "review_id": "UrpjnNFKFQdYnKweEfJQrA",
+        "position": 7
+      },
+      {
+        "context": "...too long ago. I came** here** again in May with my...",
+        "active_token": " here",
+        "activation": 0.194091796875,
+        "review_id": "fdcNNYy5LKrkyeGUTvNgYw",
+        "position": 21
+      },
+      {
+        "context": "Family of 5 came** here** for dinner during ou...",
+        "active_token": " here",
+        "activation": 0.1932373046875,
+        "review_id": "i9bDZt6GnmoAgIc_Mylcsw",
+        "position": 4
+      },
+      {
+        "context": "...years ago would come** here** and he said it was d...",
+        "active_token": " here",
+        "activation": 0.1927490234375,
+        "review_id": "PMqxxBvOrFqskov0TQCj5g",
+        "position": 6
+      },
+      {
+        "context": "...ere for us all, came** here** for lunch and stayed...",
+        "active_token": " here",
+        "activation": 0.1922607421875,
+        "review_id": "kDSd1iVolFsozvtHPW5meA",
+        "position": 20
+      },
+      {
+        "context": "...Louis, we would come** here** once a week for lunc...",
+        "active_token": " here",
+        "activation": 0.19189453125,
+        "review_id": "udmYv2HzW431uLrrWXErGw",
+        "position": 25
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 119,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1732,
+        "max": 0.2159,
+        "mean": 0.1791
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " came",
+            " here"
+          ],
+          "ngram_str": " came here",
+          "count": 366,
+          "percent": 73.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 234,
+          "percent": 46.8
+        },
+        {
+          "ngram": [
+            " I",
+            " came"
+          ],
+          "ngram_str": " I came",
+          "count": 232,
+          "percent": 46.4
+        },
+        {
+          "ngram": [
+            " here",
+            " for"
+          ],
+          "ngram_str": " here for",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            " come",
+            " here"
+          ],
+          "ngram_str": " come here",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " husband",
+            " and"
+          ],
+          "ngram_str": " husband and",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            "My",
+            " husband"
+          ],
+          "ngram_str": "My husband",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " here",
+            " on"
+          ],
+          "ngram_str": " here on",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " to",
+            " come"
+          ],
+          "ngram_str": " to come",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " on",
+            " a"
+          ],
+          "ngram_str": " on a",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " for",
+            " lunch"
+          ],
+          "ngram_str": " for lunch",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " here",
+            " with"
+          ],
+          "ngram_str": " here with",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " wife",
+            " and"
+          ],
+          "ngram_str": " wife and",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " We"
+          ],
+          "ngram_str": ". We",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " came",
+            " here"
+          ],
+          "ngram_str": " I came here",
+          "count": 232,
+          "percent": 46.4
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " came"
+          ],
+          "ngram_str": " and I came",
+          "count": 215,
+          "percent": 43.0
+        },
+        {
+          "ngram": [
+            " came",
+            " here",
+            " for"
+          ],
+          "ngram_str": " came here for",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " husband",
+            " and",
+            " I"
+          ],
+          "ngram_str": " husband and I",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "My",
+            " husband",
+            " and"
+          ],
+          "ngram_str": "My husband and",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " to",
+            " come",
+            " here"
+          ],
+          "ngram_str": " to come here",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " came",
+            " here",
+            " on"
+          ],
+          "ngram_str": " came here on",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " wife",
+            " and",
+            " I"
+          ],
+          "ngram_str": " wife and I",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "My",
+            " wife",
+            " and"
+          ],
+          "ngram_str": "My wife and",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " here",
+            " for",
+            " dinner"
+          ],
+          "ngram_str": " here for dinner",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " here",
+            " for",
+            " lunch"
+          ],
+          "ngram_str": " here for lunch",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " come"
+          ],
+          "ngram_str": " decided to come",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " and",
+            " came",
+            " here"
+          ],
+          "ngram_str": " and came here",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " came",
+            " here",
+            " with"
+          ],
+          "ngram_str": " came here with",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " we",
+            " came",
+            " here"
+          ],
+          "ngram_str": " we came here",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " and",
+            " I",
+            " came",
+            " here"
+          ],
+          "ngram_str": " and I came here",
+          "count": 215,
+          "percent": 43.0
+        },
+        {
+          "ngram": [
+            " I",
+            " came",
+            " here",
+            " for"
+          ],
+          "ngram_str": " I came here for",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " husband",
+            " and",
+            " I",
+            " came"
+          ],
+          "ngram_str": " husband and I came",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            "My",
+            " husband",
+            " and",
+            " I"
+          ],
+          "ngram_str": "My husband and I",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " wife",
+            " and",
+            " I",
+            " came"
+          ],
+          "ngram_str": " wife and I came",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "My",
+            " wife",
+            " and",
+            " I"
+          ],
+          "ngram_str": "My wife and I",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " come",
+            " here"
+          ],
+          "ngram_str": " decided to come here",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " I",
+            " came",
+            " here",
+            " on"
+          ],
+          "ngram_str": " I came here on",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " came",
+            " here",
+            " for",
+            " dinner"
+          ],
+          "ngram_str": " came here for dinner",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " came",
+            " here",
+            " for",
+            " lunch"
+          ],
+          "ngram_str": " came here for lunch",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " friends",
+            " and",
+            " I",
+            " came"
+          ],
+          "ngram_str": " friends and I came",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " family",
+            " and",
+            " I",
+            " came"
+          ],
+          "ngram_str": " family and I came",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "My",
+            " friends",
+            " and",
+            " I"
+          ],
+          "ngram_str": "My friends and I",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " came",
+            " here",
+            " on",
+            " a"
+          ],
+          "ngram_str": " came here on a",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "My",
+            " family",
+            " and",
+            " I"
+          ],
+          "ngram_str": "My family and I",
+          "count": 20,
+          "percent": 4.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13700000,
+      "corpus_coverage": 0.265
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 12289,
+        "count": 9860,
+        "percent": 98.6
+      },
+      {
+        "feature_idx": 23437,
+        "count": 9846,
+        "percent": 98.46
+      },
+      {
+        "feature_idx": 21756,
+        "count": 9720,
+        "percent": 97.2
+      },
+      {
+        "feature_idx": 807,
+        "count": 9691,
+        "percent": 96.91
+      },
+      {
+        "feature_idx": 17175,
+        "count": 7952,
+        "percent": 79.52
+      },
+      {
+        "feature_idx": 15705,
+        "count": 7637,
+        "percent": 76.37
+      },
+      {
+        "feature_idx": 16011,
+        "count": 7120,
+        "percent": 71.2
+      },
+      {
+        "feature_idx": 17427,
+        "count": 7035,
+        "percent": 70.35
+      },
+      {
+        "feature_idx": 10586,
+        "count": 7000,
+        "percent": 70.0
+      },
+      {
+        "feature_idx": 24372,
+        "count": 6963,
+        "percent": 69.63
+      },
+      {
+        "feature_idx": 2014,
+        "count": 6922,
+        "percent": 69.22
+      },
+      {
+        "feature_idx": 347,
+        "count": 5371,
+        "percent": 53.71
+      },
+      {
+        "feature_idx": 12916,
+        "count": 5201,
+        "percent": 52.01
+      },
+      {
+        "feature_idx": 24308,
+        "count": 4620,
+        "percent": 46.2
+      },
+      {
+        "feature_idx": 5924,
+        "count": 4124,
+        "percent": 41.24
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3801,
+        "percent": 38.01
+      },
+      {
+        "feature_idx": 10722,
+        "count": 3666,
+        "percent": 36.66
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3662,
+        "percent": 36.62
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3627,
+        "percent": 36.27
+      },
+      {
+        "feature_idx": 4535,
+        "count": 3294,
+        "percent": 32.94
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13700000,
+      "corpus_coverage": 0.265
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 5499,
+        "percent": 54.99
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1116,
+        "percent": 11.16
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 638,
+        "percent": 6.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 814,
+        "percent": 8.14
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1933,
+        "percent": 19.33
+      }
+    ],
+    "mean_position": 0.3327,
+    "std_position": 0.3529
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 92,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0244,
+      "p25": 0.0305,
+      "p50": 0.1076,
+      "p75": 0.1392,
+      "p90": 0.1594,
+      "p95": 0.1618,
+      "p99": 0.1715
+    },
+    "skewness": -0.1526,
+    "kurtosis": -1.5145,
+    "min": 0.0137,
+    "max": 0.1816,
+    "mean": 0.0931,
+    "std": 0.0529
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 92,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " here",
+        "count": 88,
+        "mean_activation": 0.095
+      },
+      {
+        "token": " there",
+        "count": 3,
+        "mean_activation": 0.0566
+      },
+      {
+        "token": " us",
+        "count": 1,
+        "mean_activation": 0.031
+      }
+    ]
+  }
+}

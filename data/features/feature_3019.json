@@ -1,0 +1,836 @@
+{
+  "feature_idx": 3019,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 10,
+    "mean_when_active": 0.1850830078125,
+    "max_activation": 0.277587890625,
+    "std_when_active": 0.037078394757433686,
+    "activation_rate": 0.0001
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8206,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Santa",
+        "count": 6979,
+        "mean_activation": 0.19745598927082586
+      },
+      {
+        "token": " Dor",
+        "count": 379,
+        "mean_activation": 0.09545914541762862
+      },
+      {
+        "token": "anta",
+        "count": 195,
+        "mean_activation": 0.1048530774238782
+      },
+      {
+        "token": " gift",
+        "count": 104,
+        "mean_activation": 0.030594458946814902
+      },
+      {
+        "token": "Santa",
+        "count": 86,
+        "mean_activation": 0.1757046011991279
+      },
+      {
+        "token": " waiter",
+        "count": 48,
+        "mean_activation": 0.01728677749633789
+      },
+      {
+        "token": " Wa",
+        "count": 38,
+        "mean_activation": 0.038125690660978616
+      },
+      {
+        "token": ".",
+        "count": 25,
+        "mean_activation": 0.02343231201171875
+      },
+      {
+        "token": " Dai",
+        "count": 24,
+        "mean_activation": 0.056598663330078125
+      },
+      {
+        "token": " Christmas",
+        "count": 22,
+        "mean_activation": 0.024871132590553978
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8206,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...y must stops when in** Santa** Barbara. The family...",
+        "active_token": " Santa",
+        "activation": 0.322265625,
+        "review_id": "CUwPwBi3mxqFqA7fQHNJ6Q",
+        "position": 9
+      },
+      {
+        "context": "...was my first time in** Santa** Barbara so I really...",
+        "active_token": " Santa",
+        "activation": 0.322265625,
+        "review_id": "TfuW866BU54-y4KvvgylRw",
+        "position": 6
+      },
+      {
+        "context": "...is my second time in** Santa** Barbara we didn't k...",
+        "active_token": " Santa",
+        "activation": 0.322265625,
+        "review_id": "N6JvUHLO5At2egIOiJJgHA",
+        "position": 6
+      },
+      {
+        "context": "...for my first time in** Santa** Barbara. With there...",
+        "active_token": " Santa",
+        "activation": 0.319091796875,
+        "review_id": "s2gyPmxEBZ32JSHFZ3d16Q",
+        "position": 23
+      },
+      {
+        "context": "... go to place when in** Santa** Barbara.  I got ste...",
+        "active_token": " Santa",
+        "activation": 0.318359375,
+        "review_id": "Q9ZoLKVGsXqkb44ixBQ2kw",
+        "position": 8
+      },
+      {
+        "context": "... mother and I are in** Santa** Barbara, we will tr...",
+        "active_token": " Santa",
+        "activation": 0.31787109375,
+        "review_id": "zdtr89OH01ci85AiaVCzlg",
+        "position": 78
+      },
+      {
+        "context": "...spots of all time in** Santa** Barbara County! If ...",
+        "active_token": " Santa",
+        "activation": 0.31689453125,
+        "review_id": "ll1oWoBJEUcRb0H4zkJ04A",
+        "position": 10
+      },
+      {
+        "context": "...fe! Next time I'm in** Santa** Barbara I will defi...",
+        "active_token": " Santa",
+        "activation": 0.31640625,
+        "review_id": "QwGtH1m3mv2IN981cDDMlw",
+        "position": 91
+      },
+      {
+        "context": "...first time eating in** Santa** Barbara but I was p...",
+        "active_token": " Santa",
+        "activation": 0.31591796875,
+        "review_id": "enIPl-P0kzNmaASQKXExfg",
+        "position": 12
+      },
+      {
+        "context": "...ute favorite spot in** Santa** Barbara. The tacos ...",
+        "active_token": " Santa",
+        "activation": 0.31591796875,
+        "review_id": "bmFgCgDtwQpOJcxYjFQdAw",
+        "position": 7
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3019,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2729,
+        "max": 0.3223,
+        "mean": 0.2898
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " Santa Barbara",
+          "count": 475,
+          "percent": 95.0
+        },
+        {
+          "ngram": [
+            " in",
+            " Santa"
+          ],
+          "ngram_str": " in Santa",
+          "count": 339,
+          "percent": 67.8
+        },
+        {
+          "ngram": [
+            " Barbara",
+            "."
+          ],
+          "ngram_str": " Barbara.",
+          "count": 172,
+          "percent": 34.4
+        },
+        {
+          "ngram": [
+            " to",
+            " Santa"
+          ],
+          "ngram_str": " to Santa",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'m"
+          ],
+          "ngram_str": " I'm",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            "'m",
+            " in"
+          ],
+          "ngram_str": "'m in",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " time",
+            " I"
+          ],
+          "ngram_str": " time I",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " my",
+            " favorite"
+          ],
+          "ngram_str": " my favorite",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " Barbara",
+            "!"
+          ],
+          "ngram_str": " Barbara!",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " Barbara",
+            ","
+          ],
+          "ngram_str": " Barbara,",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " next",
+            " time"
+          ],
+          "ngram_str": " next time",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " Barbara",
+            " and"
+          ],
+          "ngram_str": " Barbara and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " on",
+            " my"
+          ],
+          "ngram_str": " on my",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " of",
+            " my"
+          ],
+          "ngram_str": " of my",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " in Santa Barbara",
+          "count": 328,
+          "percent": 65.6
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            "."
+          ],
+          "ngram_str": " Santa Barbara.",
+          "count": 172,
+          "percent": 34.4
+        },
+        {
+          "ngram": [
+            " to",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " to Santa Barbara",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " in"
+          ],
+          "ngram_str": " I'm in",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            "'m",
+            " in",
+            " Santa"
+          ],
+          "ngram_str": "'m in Santa",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            "!"
+          ],
+          "ngram_str": " Santa Barbara!",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            ","
+          ],
+          "ngram_str": " Santa Barbara,",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " time",
+            " I",
+            "'m"
+          ],
+          "ngram_str": " time I'm",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            " and"
+          ],
+          "ngram_str": " Santa Barbara and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            " I"
+          ],
+          "ngram_str": " next time I",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " trip",
+            " to",
+            " Santa"
+          ],
+          "ngram_str": " trip to Santa",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " Barbara",
+            ".",
+            " "
+          ],
+          "ngram_str": " Barbara. ",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Barbara",
+            ".",
+            " The"
+          ],
+          "ngram_str": " Barbara. The",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Barbara",
+            ".",
+            " I"
+          ],
+          "ngram_str": " Barbara. I",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " of",
+            " my",
+            " favorite"
+          ],
+          "ngram_str": " of my favorite",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " Santa",
+            " Barbara",
+            "."
+          ],
+          "ngram_str": " in Santa Barbara.",
+          "count": 131,
+          "percent": 26.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " in",
+            " Santa"
+          ],
+          "ngram_str": " I'm in Santa",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "'m",
+            " in",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": "'m in Santa Barbara",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " in",
+            " Santa",
+            " Barbara",
+            "!"
+          ],
+          "ngram_str": " in Santa Barbara!",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " time",
+            " I",
+            "'m",
+            " in"
+          ],
+          "ngram_str": " time I'm in",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " in",
+            " Santa",
+            " Barbara",
+            ","
+          ],
+          "ngram_str": " in Santa Barbara,",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " to",
+            " Santa",
+            " Barbara",
+            "."
+          ],
+          "ngram_str": " to Santa Barbara.",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            " I",
+            "'m"
+          ],
+          "ngram_str": " next time I'm",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " in",
+            " Santa",
+            " Barbara",
+            " and"
+          ],
+          "ngram_str": " in Santa Barbara and",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " trip",
+            " to",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " trip to Santa Barbara",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            ".",
+            " "
+          ],
+          "ngram_str": " Santa Barbara. ",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            ".",
+            " The"
+          ],
+          "ngram_str": " Santa Barbara. The",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            ".",
+            " I"
+          ],
+          "ngram_str": " Santa Barbara. I",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " place",
+            " in",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " place in Santa Barbara",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " time",
+            " in",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " time in Santa Barbara",
+          "count": 14,
+          "percent": 2.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8206,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 5886,
+        "count": 7323,
+        "percent": 89.24
+      },
+      {
+        "feature_idx": 7871,
+        "count": 7299,
+        "percent": 88.95
+      },
+      {
+        "feature_idx": 7303,
+        "count": 7272,
+        "percent": 88.62
+      },
+      {
+        "feature_idx": 2701,
+        "count": 7262,
+        "percent": 88.5
+      },
+      {
+        "feature_idx": 21369,
+        "count": 7110,
+        "percent": 86.64
+      },
+      {
+        "feature_idx": 18704,
+        "count": 7103,
+        "percent": 86.56
+      },
+      {
+        "feature_idx": 16788,
+        "count": 7082,
+        "percent": 86.3
+      },
+      {
+        "feature_idx": 8620,
+        "count": 7069,
+        "percent": 86.14
+      },
+      {
+        "feature_idx": 10403,
+        "count": 6977,
+        "percent": 85.02
+      },
+      {
+        "feature_idx": 19715,
+        "count": 6845,
+        "percent": 83.41
+      },
+      {
+        "feature_idx": 19167,
+        "count": 6088,
+        "percent": 74.19
+      },
+      {
+        "feature_idx": 9879,
+        "count": 6004,
+        "percent": 73.17
+      },
+      {
+        "feature_idx": 1385,
+        "count": 5905,
+        "percent": 71.96
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5329,
+        "percent": 64.94
+      },
+      {
+        "feature_idx": 8285,
+        "count": 5328,
+        "percent": 64.93
+      },
+      {
+        "feature_idx": 22299,
+        "count": 4934,
+        "percent": 60.13
+      },
+      {
+        "feature_idx": 3952,
+        "count": 4878,
+        "percent": 59.44
+      },
+      {
+        "feature_idx": 21472,
+        "count": 4448,
+        "percent": 54.2
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4044,
+        "percent": 49.28
+      },
+      {
+        "feature_idx": 14002,
+        "count": 3524,
+        "percent": 42.94
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8206,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3316,
+        "percent": 40.41
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1214,
+        "percent": 14.79
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 854,
+        "percent": 10.41
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 844,
+        "percent": 10.29
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1978,
+        "percent": 24.1
+      }
+    ],
+    "mean_position": 0.4235,
+    "std_position": 0.3467
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 10,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.1442,
+      "p25": 0.1596,
+      "p50": 0.1832,
+      "p75": 0.1984,
+      "p90": 0.2088,
+      "p95": 0.2432,
+      "p99": 0.2707
+    },
+    "skewness": 1.2134,
+    "kurtosis": 1.269,
+    "min": 0.141,
+    "max": 0.2776,
+    "mean": 0.1851,
+    "std": 0.0371
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 10,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " Santa",
+        "count": 9,
+        "mean_activation": 0.19
+      },
+      {
+        "token": "Santa",
+        "count": 1,
+        "mean_activation": 0.141
+      }
+    ]
+  }
+}

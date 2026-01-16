@@ -1,0 +1,876 @@
+{
+  "feature_idx": 15209,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 292,
+    "mean_when_active": 0.04750988581409193,
+    "max_activation": 0.1942138671875,
+    "std_when_active": 0.030112119543956695,
+    "activation_rate": 0.00292
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 16600000,
+      "corpus_coverage": 0.3211
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 17628,
+        "mean_activation": 0.06793650364643164
+      },
+      {
+        "token": " want",
+        "count": 3558,
+        "mean_activation": 0.06439059956010772
+      },
+      {
+        "token": " wanted",
+        "count": 3116,
+        "mean_activation": 0.055847371190748105
+      },
+      {
+        "token": " be",
+        "count": 1711,
+        "mean_activation": 0.04060662078411519
+      },
+      {
+        "token": " like",
+        "count": 1477,
+        "mean_activation": 0.041082151047507086
+      },
+      {
+        "token": " for",
+        "count": 1265,
+        "mean_activation": 0.04270988735756855
+      },
+      {
+        "token": " love",
+        "count": 1070,
+        "mean_activation": 0.054089287731135
+      },
+      {
+        "token": " have",
+        "count": 817,
+        "mean_activation": 0.03784997722947904
+      },
+      {
+        "token": " wish",
+        "count": 779,
+        "mean_activation": 0.026156566262398206
+      },
+      {
+        "token": " about",
+        "count": 772,
+        "mean_activation": 0.07055774748016516
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 16600000,
+      "corpus_coverage": 0.3211
+    },
+    "activations": [
+      {
+        "context": "...azing too and I dream** of** the seasonal sangria ...",
+        "active_token": " of",
+        "activation": 0.2421875,
+        "review_id": "_1-fesi1v_8lvItGEOUy4g",
+        "position": 33
+      },
+      {
+        "context": "...ome!  I want so badly** to** give it 5 stars but I...",
+        "active_token": " to",
+        "activation": 0.2381591796875,
+        "review_id": "HXVZeEgTswx5ZZtczVxHsQ",
+        "position": 10
+      },
+      {
+        "context": "...s blown away. I dream** of** those things. I need ...",
+        "active_token": " of",
+        "activation": 0.2362060546875,
+        "review_id": "9vUDtzk8OA_K0o-VetME1w",
+        "position": 40
+      },
+      {
+        "context": "...y and fresh.  I dream** of** the fish tacos and dr...",
+        "active_token": " of",
+        "activation": 0.2332763671875,
+        "review_id": "_jrpPqbqq7LlnwUZ1SeiQw",
+        "position": 44
+      },
+      {
+        "context": "...o good. I still dream** of** these tacos at night,...",
+        "active_token": " of",
+        "activation": 0.22705078125,
+        "review_id": "8TD2MwULhMbzcpDT8jKJWA",
+        "position": 166
+      },
+      {
+        "context": "... crazy good. I'd love** to** know where it came fr...",
+        "active_token": " to",
+        "activation": 0.223876953125,
+        "review_id": "_PfDFtiSD8TxJDd5jebD9A",
+        "position": 167
+      },
+      {
+        "context": ".... I would really love** to** try this place out at...",
+        "active_token": " to",
+        "activation": 0.2230224609375,
+        "review_id": "5zEwaNkSmGcV_nFdxx2JPA",
+        "position": 33
+      },
+      {
+        "context": "...otential and I'd love** to** see it come together.",
+        "active_token": " to",
+        "activation": 0.2218017578125,
+        "review_id": "e4EOeEHBYRAHU4XwJ4UYJg",
+        "position": 231
+      },
+      {
+        "context": "...in Canada but I dream** of** those tacos and sopes...",
+        "active_token": " of",
+        "activation": 0.221435546875,
+        "review_id": "OSD9x3haqBG6xlcSO19lwQ",
+        "position": 15
+      },
+      {
+        "context": "...ing.  I want so badly** to** be able to go back so...",
+        "active_token": " to",
+        "activation": 0.2197265625,
+        "review_id": "52TXfc0SC4EllofwzHxiTQ",
+        "position": 438
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15209,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 33700000,
+      "corpus_coverage": 0.6518,
+      "activation_range": {
+        "min": 0.1864,
+        "max": 0.2422,
+        "mean": 0.1981
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " love",
+            " to"
+          ],
+          "ngram_str": " love to",
+          "count": 335,
+          "percent": 67.0
+        },
+        {
+          "ngram": [
+            " would",
+            " love"
+          ],
+          "ngram_str": " would love",
+          "count": 185,
+          "percent": 37.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 169,
+          "percent": 33.8
+        },
+        {
+          "ngram": [
+            " I",
+            " would"
+          ],
+          "ngram_str": " I would",
+          "count": 160,
+          "percent": 32.0
+        },
+        {
+          "ngram": [
+            "'d",
+            " love"
+          ],
+          "ngram_str": "'d love",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            " I",
+            "'d"
+          ],
+          "ngram_str": " I'd",
+          "count": 110,
+          "percent": 22.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " to",
+            " go"
+          ],
+          "ngram_str": " to go",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " to",
+            " come"
+          ],
+          "ngram_str": " to come",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " go",
+            " back"
+          ],
+          "ngram_str": " go back",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " to",
+            " see"
+          ],
+          "ngram_str": " to see",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012cI",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " come",
+            " back"
+          ],
+          "ngram_str": " come back",
+          "count": 48,
+          "percent": 9.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " would",
+            " love",
+            " to"
+          ],
+          "ngram_str": " would love to",
+          "count": 185,
+          "percent": 37.0
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " love"
+          ],
+          "ngram_str": " I would love",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            "'d",
+            " love",
+            " to"
+          ],
+          "ngram_str": "'d love to",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " love"
+          ],
+          "ngram_str": " I'd love",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would"
+          ],
+          "ngram_str": ". I would",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " back"
+          ],
+          "ngram_str": " to go back",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " love",
+            " to",
+            " come"
+          ],
+          "ngram_str": " love to come",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " love",
+            " to",
+            " go"
+          ],
+          "ngram_str": " love to go",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " love",
+            " to",
+            " see"
+          ],
+          "ngram_str": " love to see",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " to",
+            " come",
+            " back"
+          ],
+          "ngram_str": " to come back",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'d"
+          ],
+          "ngram_str": ". I'd",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " love",
+            " to",
+            " try"
+          ],
+          "ngram_str": " love to try",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            " would",
+            " love",
+            " to"
+          ],
+          "ngram_str": " I would love to",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " love",
+            " to"
+          ],
+          "ngram_str": " I'd love to",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would",
+            " love"
+          ],
+          "ngram_str": ". I would love",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " love",
+            " to",
+            " come",
+            " back"
+          ],
+          "ngram_str": " love to come back",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " love",
+            " to",
+            " go",
+            " back"
+          ],
+          "ngram_str": " love to go back",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'d",
+            " love"
+          ],
+          "ngram_str": ". I'd love",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " would",
+            " love",
+            " to",
+            " come"
+          ],
+          "ngram_str": " would love to come",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " would",
+            " love",
+            " to",
+            " go"
+          ],
+          "ngram_str": " would love to go",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " back",
+            " and"
+          ],
+          "ngram_str": " to go back and",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " would",
+            " love",
+            " to",
+            " see"
+          ],
+          "ngram_str": " would love to see",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " I",
+            " really",
+            " want",
+            " to"
+          ],
+          "ngram_str": " I really want to",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "'d",
+            " love",
+            " to",
+            " see"
+          ],
+          "ngram_str": "'d love to see",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " would",
+            " love"
+          ],
+          "ngram_str": " and I would love",
+          "count": 24,
+          "percent": 4.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3400000,
+      "corpus_coverage": 0.0658
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17430,
+        "count": 6724,
+        "percent": 67.24
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4496,
+        "percent": 44.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4241,
+        "percent": 42.41
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4016,
+        "percent": 40.16
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3638,
+        "percent": 36.38
+      },
+      {
+        "feature_idx": 16339,
+        "count": 3568,
+        "percent": 35.68
+      },
+      {
+        "feature_idx": 23664,
+        "count": 3497,
+        "percent": 34.97
+      },
+      {
+        "feature_idx": 10548,
+        "count": 3209,
+        "percent": 32.09
+      },
+      {
+        "feature_idx": 11950,
+        "count": 3119,
+        "percent": 31.19
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2954,
+        "percent": 29.54
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2675,
+        "percent": 26.75
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2513,
+        "percent": 25.13
+      },
+      {
+        "feature_idx": 14534,
+        "count": 2507,
+        "percent": 25.07
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2499,
+        "percent": 24.99
+      },
+      {
+        "feature_idx": 2354,
+        "count": 2423,
+        "percent": 24.23
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2376,
+        "percent": 23.76
+      },
+      {
+        "feature_idx": 9235,
+        "count": 1857,
+        "percent": 18.57
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1843,
+        "percent": 18.43
+      },
+      {
+        "feature_idx": 22115,
+        "count": 1813,
+        "percent": 18.13
+      },
+      {
+        "feature_idx": 24379,
+        "count": 1687,
+        "percent": 16.87
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3400000,
+      "corpus_coverage": 0.0658
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2542,
+        "percent": 25.42
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1221,
+        "percent": 12.21
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1310,
+        "percent": 13.1
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1716,
+        "percent": 17.16
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3211,
+        "percent": 32.11
+      }
+    ],
+    "mean_position": 0.5354,
+    "std_position": 0.3388
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 292,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0205,
+      "p25": 0.0265,
+      "p50": 0.0369,
+      "p75": 0.0623,
+      "p90": 0.0904,
+      "p95": 0.1038,
+      "p99": 0.1335
+    },
+    "skewness": 1.4223,
+    "kurtosis": 2.1057,
+    "min": 0.0099,
+    "max": 0.1942,
+    "mean": 0.0475,
+    "std": 0.0301
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 292,
+      "unique_tokens_found": 63
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 107,
+        "mean_activation": 0.0603
+      },
+      {
+        "token": " wanted",
+        "count": 18,
+        "mean_activation": 0.0507
+      },
+      {
+        "token": " want",
+        "count": 18,
+        "mean_activation": 0.0662
+      },
+      {
+        "token": " like",
+        "count": 13,
+        "mean_activation": 0.041
+      },
+      {
+        "token": " be",
+        "count": 13,
+        "mean_activation": 0.0381
+      },
+      {
+        "token": " for",
+        "count": 7,
+        "mean_activation": 0.0382
+      },
+      {
+        "token": " wish",
+        "count": 7,
+        "mean_activation": 0.0184
+      },
+      {
+        "token": " a",
+        "count": 7,
+        "mean_activation": 0.0274
+      },
+      {
+        "token": " of",
+        "count": 5,
+        "mean_activation": 0.0612
+      },
+      {
+        "token": " that",
+        "count": 4,
+        "mean_activation": 0.0416
+      }
+    ]
+  }
+}

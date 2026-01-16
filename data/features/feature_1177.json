@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1177,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 181,
+    "mean_when_active": 0.04088702122809479,
+    "max_activation": 0.10675048828125,
+    "std_when_active": 0.018592502164704247,
+    "activation_rate": 0.00181
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 26800000,
+      "corpus_coverage": 0.5183
+    },
+    "top_tokens": [
+      {
+        "token": " in",
+        "count": 10436,
+        "mean_activation": 0.04222710647085884
+      },
+      {
+        "token": " with",
+        "count": 6761,
+        "mean_activation": 0.03645222244522237
+      },
+      {
+        "token": " on",
+        "count": 5143,
+        "mean_activation": 0.04525086167209602
+      },
+      {
+        "token": " to",
+        "count": 4613,
+        "mean_activation": 0.04590162123823383
+      },
+      {
+        "token": " the",
+        "count": 4066,
+        "mean_activation": 0.027987718933976113
+      },
+      {
+        "token": " at",
+        "count": 2594,
+        "mean_activation": 0.03963503400086438
+      },
+      {
+        "token": " for",
+        "count": 1700,
+        "mean_activation": 0.03927073310403263
+      },
+      {
+        "token": " a",
+        "count": 1458,
+        "mean_activation": 0.02898836070454497
+      },
+      {
+        "token": " by",
+        "count": 1436,
+        "mean_activation": 0.043131995665993864
+      },
+      {
+        "token": " of",
+        "count": 1347,
+        "mean_activation": 0.034352620442708336
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 26800000,
+      "corpus_coverage": 0.5183
+    },
+    "activations": [
+      {
+        "context": "... the weird food given** to** us on cutting boards.",
+        "active_token": " to",
+        "activation": 0.1591796875,
+        "review_id": "4KwKhDJ__yDQi_hxi8iBGw",
+        "position": 120
+      },
+      {
+        "context": "...use of food delivered** to** the table ice cold. T...",
+        "active_token": " to",
+        "activation": 0.1529541015625,
+        "review_id": "89YSVgpbPYqYKFCWEQojmg",
+        "position": 137
+      },
+      {
+        "context": "... love some food given** to** you right away, and w...",
+        "active_token": " to",
+        "activation": 0.152587890625,
+        "review_id": "sJkWniwf4RS5je1yJF07uA",
+        "position": 119
+      },
+      {
+        "context": "...tment of salsas given** to** them. Which made us r...",
+        "active_token": " to",
+        "activation": 0.152099609375,
+        "review_id": "3WkxW71fC3GMqQ8zQhiKkA",
+        "position": 159
+      },
+      {
+        "context": "...e appetizer presented** to** the wait staff when w...",
+        "active_token": " to",
+        "activation": 0.1448974609375,
+        "review_id": "BVn2VlvQaouiSLw-iJGg3A",
+        "position": 158
+      },
+      {
+        "context": "... & activities offered** to** the gratuitous welcom...",
+        "active_token": " to",
+        "activation": 0.1446533203125,
+        "review_id": "7IiBfC6vhCyw0Lwv6tU2JA",
+        "position": 200
+      },
+      {
+        "context": "...ome of the TVs placed** in** strange, view restric...",
+        "active_token": " in",
+        "activation": 0.142578125,
+        "review_id": "FmSWTgRASK7eBl_-CExrAw",
+        "position": 125
+      },
+      {
+        "context": "...e hot chips delivered** to** our table.\\n\\nI ordered...",
+        "active_token": " to",
+        "activation": 0.14013671875,
+        "review_id": "nVaCTVTmI4yejybswCxrUQ",
+        "position": 99
+      },
+      {
+        "context": "...ishes being delivered** to** tables was fascinatin...",
+        "active_token": " to",
+        "activation": 0.138671875,
+        "review_id": "LIsFzwc6OPWzoJEez1FJWA",
+        "position": 47
+      },
+      {
+        "context": "...got the churros given** to** her on the house for ...",
+        "active_token": " to",
+        "activation": 0.137451171875,
+        "review_id": "_TMSpIJDiRXSrfJYf6gj0w",
+        "position": 188
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1177,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1055,
+        "max": 0.1592,
+        "mean": 0.1163
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " given",
+            " to"
+          ],
+          "ngram_str": " given to",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " delivered",
+            " to"
+          ],
+          "ngram_str": " delivered to",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " to",
+            " us"
+          ],
+          "ngram_str": " to us",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " to",
+            " me"
+          ],
+          "ngram_str": " to me",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " served",
+            " to"
+          ],
+          "ngram_str": " served to",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " made",
+            " in"
+          ],
+          "ngram_str": " made in",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " table"
+          ],
+          "ngram_str": " the table",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " assigned",
+            " to"
+          ],
+          "ngram_str": " assigned to",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " table"
+          ],
+          "ngram_str": " to the table",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " given",
+            " to",
+            " us"
+          ],
+          "ngram_str": " given to us",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " to",
+            " us",
+            "."
+          ],
+          "ngram_str": " to us.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " given",
+            " to",
+            " me"
+          ],
+          "ngram_str": " given to me",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " food",
+            " delivered",
+            " to"
+          ],
+          "ngram_str": " food delivered to",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " delivered",
+            " to",
+            " the"
+          ],
+          "ngram_str": " delivered to the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " table",
+            "."
+          ],
+          "ngram_str": " the table.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " in",
+            " front",
+            " of"
+          ],
+          "ngram_str": " in front of",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            " served",
+            " to"
+          ],
+          "ngram_str": " food served to",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " to",
+            " our",
+            " table"
+          ],
+          "ngram_str": " to our table",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " delivered",
+            " to",
+            " our"
+          ],
+          "ngram_str": " delivered to our",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " delivered",
+            " to",
+            " the",
+            " table"
+          ],
+          "ngram_str": " delivered to the table",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " delivered",
+            " to",
+            " our",
+            " table"
+          ],
+          "ngram_str": " delivered to our table",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " table",
+            "."
+          ],
+          "ngram_str": " to the table.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas",
+            " made",
+            " in"
+          ],
+          "ngram_str": " tortillas made in",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " that",
+            " were",
+            " given",
+            " to"
+          ],
+          "ngram_str": " that were given to",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": " guacamole",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " delivered",
+            " to",
+            " your",
+            " table"
+          ],
+          "ngram_str": " delivered to your table",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " placed",
+            " in",
+            " front",
+            " of"
+          ],
+          "ngram_str": " placed in front of",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " in",
+            " front",
+            " of",
+            " me"
+          ],
+          "ngram_str": " in front of me",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " that",
+            " was",
+            " given",
+            " to"
+          ],
+          "ngram_str": " that was given to",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " food",
+            " delivered",
+            " to",
+            " the"
+          ],
+          "ngram_str": " food delivered to the",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5500000,
+      "corpus_coverage": 0.1064
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5545,
+        "percent": 55.45
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4550,
+        "percent": 45.5
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4544,
+        "percent": 45.44
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4066,
+        "percent": 40.66
+      },
+      {
+        "feature_idx": 2002,
+        "count": 3501,
+        "percent": 35.01
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2988,
+        "percent": 29.88
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2973,
+        "percent": 29.73
+      },
+      {
+        "feature_idx": 16549,
+        "count": 2507,
+        "percent": 25.07
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2234,
+        "percent": 22.34
+      },
+      {
+        "feature_idx": 13846,
+        "count": 2200,
+        "percent": 22.0
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2052,
+        "percent": 20.52
+      },
+      {
+        "feature_idx": 23380,
+        "count": 1756,
+        "percent": 17.56
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1727,
+        "percent": 17.27
+      },
+      {
+        "feature_idx": 16098,
+        "count": 1695,
+        "percent": 16.95
+      },
+      {
+        "feature_idx": 3462,
+        "count": 1640,
+        "percent": 16.4
+      },
+      {
+        "feature_idx": 4277,
+        "count": 1609,
+        "percent": 16.09
+      },
+      {
+        "feature_idx": 22930,
+        "count": 1594,
+        "percent": 15.94
+      },
+      {
+        "feature_idx": 19287,
+        "count": 1590,
+        "percent": 15.9
+      },
+      {
+        "feature_idx": 18439,
+        "count": 1574,
+        "percent": 15.74
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1498,
+        "percent": 14.98
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5500000,
+      "corpus_coverage": 0.1064
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1885,
+        "percent": 18.85
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2199,
+        "percent": 21.99
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2288,
+        "percent": 22.88
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2038,
+        "percent": 20.38
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1590,
+        "percent": 15.9
+      }
+    ],
+    "mean_position": 0.4825,
+    "std_position": 0.2712
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 181,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0217,
+      "p25": 0.0274,
+      "p50": 0.0359,
+      "p75": 0.05,
+      "p90": 0.0638,
+      "p95": 0.0748,
+      "p99": 0.106
+    },
+    "skewness": 1.2862,
+    "kurtosis": 1.8433,
+    "min": 0.0146,
+    "max": 0.1068,
+    "mean": 0.0409,
+    "std": 0.0186
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 181,
+      "unique_tokens_found": 37
+    },
+    "tokens": [
+      {
+        "token": " in",
+        "count": 32,
+        "mean_activation": 0.0429
+      },
+      {
+        "token": " on",
+        "count": 24,
+        "mean_activation": 0.0439
+      },
+      {
+        "token": " with",
+        "count": 22,
+        "mean_activation": 0.0391
+      },
+      {
+        "token": " the",
+        "count": 18,
+        "mean_activation": 0.0299
+      },
+      {
+        "token": " to",
+        "count": 13,
+        "mean_activation": 0.0595
+      },
+      {
+        "token": " at",
+        "count": 10,
+        "mean_activation": 0.0423
+      },
+      {
+        "token": " for",
+        "count": 7,
+        "mean_activation": 0.0434
+      },
+      {
+        "token": " of",
+        "count": 6,
+        "mean_activation": 0.034
+      },
+      {
+        "token": " a",
+        "count": 6,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " around",
+        "count": 4,
+        "mean_activation": 0.0342
+      }
+    ]
+  }
+}

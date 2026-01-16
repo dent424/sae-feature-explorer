@@ -1,0 +1,35 @@
+---
+interface Props {
+  activationRate: number;
+  meanWhenActive: number;
+  maxActivation: number;
+  stdWhenActive?: number;
+}
+
+const { activationRate, meanWhenActive, maxActivation, stdWhenActive } = Astro.props;
+
+// Format as percentage or decimal
+const formatPercent = (val: number) => (val * 100).toFixed(4) + '%';
+const formatDecimal = (val: number) => val.toFixed(4);
+---
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-50 rounded-lg p-4">
+  <div class="text-center">
+    <div class="text-2xl font-bold text-blue-600">{formatPercent(activationRate)}</div>
+    <div class="text-sm text-gray-500">Activation Rate</div>
+  </div>
+  <div class="text-center">
+    <div class="text-2xl font-bold text-green-600">{formatDecimal(meanWhenActive)}</div>
+    <div class="text-sm text-gray-500">Mean (when active)</div>
+  </div>
+  <div class="text-center">
+    <div class="text-2xl font-bold text-orange-600">{formatDecimal(maxActivation)}</div>
+    <div class="text-sm text-gray-500">Max Activation</div>
+  </div>
+  {stdWhenActive !== undefined && (
+    <div class="text-center">
+      <div class="text-2xl font-bold text-purple-600">{formatDecimal(stdWhenActive)}</div>
+      <div class="text-sm text-gray-500">Std Dev</div>
+    </div>
+  )}
+</div>

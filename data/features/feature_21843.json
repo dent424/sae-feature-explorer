@@ -1,0 +1,841 @@
+{
+  "feature_idx": 21843,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 24,
+    "mean_when_active": 0.09455108642578125,
+    "max_activation": 0.1441650390625,
+    "std_when_active": 0.029888064220615292,
+    "activation_rate": 0.00024
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 12102,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " ent",
+        "count": 11353,
+        "mean_activation": 0.09902322003571123
+      },
+      {
+        "token": " Ent",
+        "count": 261,
+        "mean_activation": 0.043751040637721506
+      },
+      {
+        "token": "ander",
+        "count": 148,
+        "mean_activation": 0.043088036614495354
+      },
+      {
+        "token": "Ent",
+        "count": 97,
+        "mean_activation": 0.03375550889477287
+      },
+      {
+        "token": " ke",
+        "count": 32,
+        "mean_activation": 0.04258108139038086
+      },
+      {
+        "token": " fried",
+        "count": 30,
+        "mean_activation": 0.019780476888020832
+      },
+      {
+        "token": " ",
+        "count": 21,
+        "mean_activation": 0.020734151204427082
+      },
+      {
+        "token": " nood",
+        "count": 17,
+        "mean_activation": 0.036374260397518385
+      },
+      {
+        "token": "asser",
+        "count": 15,
+        "mean_activation": 0.033976236979166664
+      },
+      {
+        "token": " ve",
+        "count": 14,
+        "mean_activation": 0.020765577043805803
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 12102,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... a chicken and waffle** ent**ree for breakfast. If...",
+        "active_token": " ent",
+        "activation": 0.193359375,
+        "review_id": "XNHeCqawHJMnPKyDzr_kOQ",
+        "position": 105
+      },
+      {
+        "context": "...quesadillas and nacho** ent**rees were huge. The m...",
+        "active_token": " ent",
+        "activation": 0.19287109375,
+        "review_id": "AsVzch18c9wssMILOtFC-g",
+        "position": 255
+      },
+      {
+        "context": "...th a few meat/seafood** ent**rees. \\n\\nThe Oxtail En",
+        "active_token": " ent",
+        "activation": 0.184326171875,
+        "review_id": "tV4NCKhAscIHnzypCGBuYA",
+        "position": 286
+      },
+      {
+        "context": "...rimp and mole poblano** ent**rees were fantastic. ...",
+        "active_token": " ent",
+        "activation": 0.1842041015625,
+        "review_id": "XWJm4mLG5wEqjsrQP1rUTA",
+        "position": 45
+      },
+      {
+        "context": "...rice and chicken/beef** ent**rees. Perfect Mexican...",
+        "active_token": " ent",
+        "activation": 0.1834716796875,
+        "review_id": "wzp7dpY836pzH0d9LJm8Jw",
+        "position": 47
+      },
+      {
+        "context": "...nd the pescado pipian** ent**ree had lima beans, o...",
+        "active_token": " ent",
+        "activation": 0.18212890625,
+        "review_id": "tRrnHlOzxVEu5W2bamBCWQ",
+        "position": 159
+      },
+      {
+        "context": "...egetal and black bass** ent**ree. Both were fantas...",
+        "active_token": " ent",
+        "activation": 0.181396484375,
+        "review_id": "hm2gRUpExx5j4EeyMH9QkQ",
+        "position": 298
+      },
+      {
+        "context": "...burrito or the fajita** ent**re.  They are stingy ...",
+        "active_token": " ent",
+        "activation": 0.18115234375,
+        "review_id": "RSzUC2Jigt2r7xZqZxwPYg",
+        "position": 17
+      },
+      {
+        "context": "...sada, and red snapper** ent**rees all received rav...",
+        "active_token": " ent",
+        "activation": 0.179931640625,
+        "review_id": "UQ2ZjtdfGAJf0CyzIH7mZw",
+        "position": 103
+      },
+      {
+        "context": "...s and chicken goulash** ent**rees are good, but I ...",
+        "active_token": " ent",
+        "activation": 0.1788330078125,
+        "review_id": "q814fqVZ4spKMkn7mBrOkw",
+        "position": 42
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 21843,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1519,
+        "max": 0.1934,
+        "mean": 0.16
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " ent",
+            "ree"
+          ],
+          "ngram_str": " entree",
+          "count": 302,
+          "percent": 60.4
+        },
+        {
+          "ngram": [
+            " ent",
+            "rees"
+          ],
+          "ngram_str": " entrees",
+          "count": 183,
+          "percent": 36.6
+        },
+        {
+          "ngram": [
+            "ree",
+            "."
+          ],
+          "ngram_str": "ree.",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "ree",
+            ","
+          ],
+          "ngram_str": "ree,",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "rees",
+            "."
+          ],
+          "ngram_str": "rees.",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " dinner",
+            " ent"
+          ],
+          "ngram_str": " dinner ent",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " main",
+            " ent"
+          ],
+          "ngram_str": " main ent",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "ree",
+            " was"
+          ],
+          "ngram_str": "ree was",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " chicken",
+            " ent"
+          ],
+          "ngram_str": " chicken ent",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "rees",
+            " were"
+          ],
+          "ngram_str": "rees were",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            "."
+          ],
+          "ngram_str": " entree.",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            ","
+          ],
+          "ngram_str": " entree,",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " ent",
+            "rees",
+            "."
+          ],
+          "ngram_str": " entrees.",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            " was"
+          ],
+          "ngram_str": " entree was",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " ent",
+            "rees",
+            " were"
+          ],
+          "ngram_str": " entrees were",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            " and"
+          ],
+          "ngram_str": " entree and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " ent",
+            "rees",
+            ","
+          ],
+          "ngram_str": " entrees,",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " ent",
+            "rees",
+            " are"
+          ],
+          "ngram_str": " entrees are",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " main",
+            " ent",
+            "ree"
+          ],
+          "ngram_str": " main entree",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "ree",
+            ".",
+            " The"
+          ],
+          "ngram_str": "ree. The",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "ree",
+            ".",
+            " "
+          ],
+          "ngram_str": "ree. ",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " ent",
+            "rees",
+            " and"
+          ],
+          "ngram_str": " entrees and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " taco",
+            " ent",
+            "ree"
+          ],
+          "ngram_str": " taco entree",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            ".",
+            " The"
+          ],
+          "ngram_str": " entree. The",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            ".",
+            " "
+          ],
+          "ngram_str": " entree. ",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            ",",
+            " and"
+          ],
+          "ngram_str": " entree, and",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " ent",
+            "rees",
+            ".",
+            " "
+          ],
+          "ngram_str": " entrees. ",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " ent",
+            "ree",
+            " which",
+            " was"
+          ],
+          "ngram_str": " entree which was",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " a",
+            " dinner",
+            " ent",
+            "ree"
+          ],
+          "ngram_str": " a dinner entree",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "ree",
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": "ree.  The",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " f",
+            "aj",
+            "ita",
+            " ent"
+          ],
+          "ngram_str": " fajita ent",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " and",
+            " shrimp",
+            " ent",
+            "ree"
+          ],
+          "ngram_str": " and shrimp entree",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " main",
+            " ent",
+            "ree",
+            "."
+          ],
+          "ngram_str": " main entree.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " dinner",
+            " ent",
+            "rees",
+            " are"
+          ],
+          "ngram_str": " dinner entrees are",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Both",
+            " ent",
+            "rees"
+          ],
+          "ngram_str": ". Both entrees",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 42800000,
+      "corpus_coverage": 0.8278
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10196,
+        "count": 9694,
+        "percent": 96.94
+      },
+      {
+        "feature_idx": 21056,
+        "count": 9694,
+        "percent": 96.94
+      },
+      {
+        "feature_idx": 12244,
+        "count": 9675,
+        "percent": 96.75
+      },
+      {
+        "feature_idx": 959,
+        "count": 9672,
+        "percent": 96.72
+      },
+      {
+        "feature_idx": 4215,
+        "count": 9672,
+        "percent": 96.72
+      },
+      {
+        "feature_idx": 18603,
+        "count": 9670,
+        "percent": 96.7
+      },
+      {
+        "feature_idx": 649,
+        "count": 9571,
+        "percent": 95.71
+      },
+      {
+        "feature_idx": 5885,
+        "count": 9533,
+        "percent": 95.33
+      },
+      {
+        "feature_idx": 1761,
+        "count": 9508,
+        "percent": 95.08
+      },
+      {
+        "feature_idx": 22118,
+        "count": 9367,
+        "percent": 93.67
+      },
+      {
+        "feature_idx": 1390,
+        "count": 8842,
+        "percent": 88.42
+      },
+      {
+        "feature_idx": 22894,
+        "count": 5606,
+        "percent": 56.06
+      },
+      {
+        "feature_idx": 8285,
+        "count": 4769,
+        "percent": 47.69
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4692,
+        "percent": 46.92
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4571,
+        "percent": 45.71
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4372,
+        "percent": 43.72
+      },
+      {
+        "feature_idx": 7250,
+        "count": 4284,
+        "percent": 42.84
+      },
+      {
+        "feature_idx": 19167,
+        "count": 4101,
+        "percent": 41.01
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3780,
+        "percent": 37.8
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3566,
+        "percent": 35.66
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 42800000,
+      "corpus_coverage": 0.8278
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 842,
+        "percent": 8.42
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2198,
+        "percent": 21.98
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 3038,
+        "percent": 30.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2501,
+        "percent": 25.01
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1421,
+        "percent": 14.21
+      }
+    ],
+    "mean_position": 0.5302,
+    "std_position": 0.2286
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 24,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0521,
+      "p25": 0.0705,
+      "p50": 0.0958,
+      "p75": 0.1165,
+      "p90": 0.1321,
+      "p95": 0.1399,
+      "p99": 0.1434
+    },
+    "skewness": -0.1363,
+    "kurtosis": -1.0794,
+    "min": 0.0438,
+    "max": 0.1442,
+    "mean": 0.0946,
+    "std": 0.0299
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 24,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " ent",
+        "count": 22,
+        "mean_activation": 0.0987
+      },
+      {
+        "token": " Ent",
+        "count": 1,
+        "mean_activation": 0.0527
+      },
+      {
+        "token": "ander",
+        "count": 1,
+        "mean_activation": 0.0442
+      }
+    ]
+  }
+}

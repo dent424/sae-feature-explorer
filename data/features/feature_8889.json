@@ -1,0 +1,861 @@
+{
+  "feature_idx": 8889,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 17,
+    "mean_when_active": 0.0897055233226103,
+    "max_activation": 0.1632080078125,
+    "std_when_active": 0.046466541248955835,
+    "activation_rate": 0.00017
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7196,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " bathroom",
+        "count": 2955,
+        "mean_activation": 0.1270897156897737
+      },
+      {
+        "token": " bathrooms",
+        "count": 1587,
+        "mean_activation": 0.14181374331728497
+      },
+      {
+        "token": "hi",
+        "count": 1417,
+        "mean_activation": 0.0683318079569513
+      },
+      {
+        "token": " restrooms",
+        "count": 292,
+        "mean_activation": 0.03164129387842466
+      },
+      {
+        "token": " prep",
+        "count": 272,
+        "mean_activation": 0.031435798196231615
+      },
+      {
+        "token": " restroom",
+        "count": 182,
+        "mean_activation": 0.02622227092365642
+      },
+      {
+        "token": "ills",
+        "count": 103,
+        "mean_activation": 0.02275337293310073
+      },
+      {
+        "token": " shower",
+        "count": 65,
+        "mean_activation": 0.038342754657451926
+      },
+      {
+        "token": " kitchen",
+        "count": 46,
+        "mean_activation": 0.015552520751953125
+      },
+      {
+        "token": " bath",
+        "count": 44,
+        "mean_activation": 0.042695478959517044
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7196,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... wall, the awesome** bathrooms**, the tiled bar......",
+        "active_token": " bathrooms",
+        "activation": 0.1845703125,
+        "review_id": "NCUMh1S_4JBWv33ELpzm1A",
+        "position": 102
+      },
+      {
+        "context": "...ul interior, clean** bathrooms**, simple and taste...",
+        "active_token": " bathrooms",
+        "activation": 0.181884765625,
+        "review_id": "nPzjhRutgDY_kOxsjraLdQ",
+        "position": 55
+      },
+      {
+        "context": "...is roomy and clean** bathrooms**.",
+        "active_token": " bathrooms",
+        "activation": 0.1807861328125,
+        "review_id": "K5X-179vAVMe-uUzUgafXA",
+        "position": 21
+      },
+      {
+        "context": "...n and out, and the** bathrooms** where you can sme...",
+        "active_token": " bathrooms",
+        "activation": 0.180419921875,
+        "review_id": "KNzgPVFJm_q6s2Iky0Tafg",
+        "position": 107
+      },
+      {
+        "context": "...couches inside and** bathrooms**.  Definitely sugg...",
+        "active_token": " bathrooms",
+        "activation": 0.180419921875,
+        "review_id": "wflO77pvHpS9UYO4sydmIg",
+        "position": 104
+      },
+      {
+        "context": "...ng is spacious and** bathrooms** were clean. \\nWe g...",
+        "active_token": " bathrooms",
+        "activation": 0.179931640625,
+        "review_id": "lGbG5IdUrj13zyvAY_5UQw",
+        "position": 57
+      },
+      {
+        "context": "...cor was welcoming;** bathrooms** were nicely kept....",
+        "active_token": " bathrooms",
+        "activation": 0.1795654296875,
+        "review_id": "FFjeMqVhB8MxOpivsZ-9fg",
+        "position": 127
+      },
+      {
+        "context": "... is authentic, and** bathrooms** are clean.   If y...",
+        "active_token": " bathrooms",
+        "activation": 0.1783447265625,
+        "review_id": "rIQZoShzzCCrwTm9ArmiEQ",
+        "position": 235
+      },
+      {
+        "context": "...n point. Very nice** bathrooms** !",
+        "active_token": " bathrooms",
+        "activation": 0.1781005859375,
+        "review_id": "3EpzgIvhHJ11rW7LEXOJRA",
+        "position": 105
+      },
+      {
+        "context": "...an in dining room,** bathrooms** are always nice. ...",
+        "active_token": " bathrooms",
+        "activation": 0.177001953125,
+        "review_id": "gS600Eh5RqBYlX5bh9ePcw",
+        "position": 112
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8889,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1559,
+        "max": 0.1846,
+        "mean": 0.1625
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " bathrooms"
+          ],
+          "ngram_str": " the bathrooms",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            " bathrooms",
+            " are"
+          ],
+          "ngram_str": " bathrooms are",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " The",
+            " bathrooms"
+          ],
+          "ngram_str": " The bathrooms",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " bathrooms",
+            " were"
+          ],
+          "ngram_str": " bathrooms were",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " bathrooms",
+            "."
+          ],
+          "ngram_str": " bathrooms.",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " the",
+            " bathroom"
+          ],
+          "ngram_str": " the bathroom",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " clean",
+            "."
+          ],
+          "ngram_str": " clean.",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " The",
+            " bathroom"
+          ],
+          "ngram_str": " The bathroom",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " ",
+            " The"
+          ],
+          "ngram_str": "  The",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 33,
+          "percent": 6.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " The",
+            " bathrooms"
+          ],
+          "ngram_str": ". The bathrooms",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " bathrooms"
+          ],
+          "ngram_str": " and the bathrooms",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " bathrooms",
+            " are"
+          ],
+          "ngram_str": " the bathrooms are",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " The",
+            " bathrooms",
+            " are"
+          ],
+          "ngram_str": " The bathrooms are",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " the",
+            " bathrooms",
+            " were"
+          ],
+          "ngram_str": " the bathrooms were",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " The",
+            " bathrooms",
+            " were"
+          ],
+          "ngram_str": " The bathrooms were",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " bathroom"
+          ],
+          "ngram_str": ". The bathroom",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " the"
+          ],
+          "ngram_str": ", and the",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " the",
+            " bathrooms",
+            "."
+          ],
+          "ngram_str": " the bathrooms.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " bathrooms"
+          ],
+          "ngram_str": "  The bathrooms",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " bathrooms",
+            " were",
+            " clean"
+          ],
+          "ngram_str": " bathrooms were clean",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " bathrooms",
+            " are",
+            " clean"
+          ],
+          "ngram_str": " bathrooms are clean",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " the",
+            " bathrooms"
+          ],
+          "ngram_str": ", the bathrooms",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " The",
+            " bathrooms",
+            " are"
+          ],
+          "ngram_str": ". The bathrooms are",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " bathrooms",
+            " are"
+          ],
+          "ngram_str": " and the bathrooms are",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " bathrooms",
+            " were"
+          ],
+          "ngram_str": ". The bathrooms were",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " bathrooms",
+            " were"
+          ],
+          "ngram_str": " and the bathrooms were",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " the",
+            " bathrooms"
+          ],
+          "ngram_str": ", and the bathrooms",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " bathrooms"
+          ],
+          "ngram_str": ".  The bathrooms",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " bathrooms",
+            " are",
+            " clean",
+            "."
+          ],
+          "ngram_str": " bathrooms are clean.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " the",
+            " bathrooms",
+            " were",
+            " clean"
+          ],
+          "ngram_str": " the bathrooms were clean",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " bathroom",
+            " was"
+          ],
+          "ngram_str": ". The bathroom was",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " bathrooms",
+            " are"
+          ],
+          "ngram_str": "  The bathrooms are",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " bathrooms",
+            " were"
+          ],
+          "ngram_str": "  The bathrooms were",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Clean",
+            " bathrooms",
+            "."
+          ],
+          "ngram_str": ". Clean bathrooms.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " bathroom",
+            " is"
+          ],
+          "ngram_str": ". The bathroom is",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7196,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11436,
+        "count": 5184,
+        "percent": 72.04
+      },
+      {
+        "feature_idx": 7404,
+        "count": 5176,
+        "percent": 71.93
+      },
+      {
+        "feature_idx": 7562,
+        "count": 5158,
+        "percent": 71.68
+      },
+      {
+        "feature_idx": 2213,
+        "count": 5091,
+        "percent": 70.75
+      },
+      {
+        "feature_idx": 18648,
+        "count": 5087,
+        "percent": 70.69
+      },
+      {
+        "feature_idx": 9063,
+        "count": 5062,
+        "percent": 70.34
+      },
+      {
+        "feature_idx": 4358,
+        "count": 5060,
+        "percent": 70.32
+      },
+      {
+        "feature_idx": 22001,
+        "count": 4866,
+        "percent": 67.62
+      },
+      {
+        "feature_idx": 15677,
+        "count": 4519,
+        "percent": 62.8
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3266,
+        "percent": 45.39
+      },
+      {
+        "feature_idx": 6913,
+        "count": 3264,
+        "percent": 45.36
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2699,
+        "percent": 37.51
+      },
+      {
+        "feature_idx": 11584,
+        "count": 2620,
+        "percent": 36.41
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2479,
+        "percent": 34.45
+      },
+      {
+        "feature_idx": 19209,
+        "count": 2180,
+        "percent": 30.29
+      },
+      {
+        "feature_idx": 19710,
+        "count": 2168,
+        "percent": 30.13
+      },
+      {
+        "feature_idx": 18503,
+        "count": 2101,
+        "percent": 29.2
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2093,
+        "percent": 29.09
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1983,
+        "percent": 27.56
+      },
+      {
+        "feature_idx": 21898,
+        "count": 1974,
+        "percent": 27.43
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7196,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 757,
+        "percent": 10.52
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1297,
+        "percent": 18.02
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1507,
+        "percent": 20.94
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1733,
+        "percent": 24.08
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1902,
+        "percent": 26.43
+      }
+    ],
+    "mean_position": 0.5792,
+    "std_position": 0.265
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 17,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0293,
+      "p25": 0.0402,
+      "p50": 0.0778,
+      "p75": 0.123,
+      "p90": 0.1545,
+      "p95": 0.1567,
+      "p99": 0.1619
+    },
+    "skewness": -0.0029,
+    "kurtosis": -1.2944,
+    "min": 0.0203,
+    "max": 0.1632,
+    "mean": 0.0897,
+    "std": 0.0465
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 17,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": "hi",
+        "count": 5,
+        "mean_activation": 0.0692
+      },
+      {
+        "token": " bathroom",
+        "count": 5,
+        "mean_activation": 0.1345
+      },
+      {
+        "token": " bathrooms",
+        "count": 3,
+        "mean_activation": 0.1316
+      },
+      {
+        "token": " prep",
+        "count": 1,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " restroom",
+        "count": 1,
+        "mean_activation": 0.0203
+      },
+      {
+        "token": " shower",
+        "count": 1,
+        "mean_activation": 0.0283
+      },
+      {
+        "token": " Bath",
+        "count": 1,
+        "mean_activation": 0.0337
+      }
+    ]
+  }
+}

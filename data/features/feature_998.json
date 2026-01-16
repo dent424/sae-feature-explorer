@@ -1,0 +1,876 @@
+{
+  "feature_idx": 998,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 60,
+    "mean_when_active": 0.11953226725260417,
+    "max_activation": 0.267333984375,
+    "std_when_active": 0.07938015584330414,
+    "activation_rate": 0.0006
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 35608,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " review",
+        "count": 15773,
+        "mean_activation": 0.176568502132179
+      },
+      {
+        "token": " reviews",
+        "count": 11580,
+        "mean_activation": 0.06337155883999893
+      },
+      {
+        "token": " reviewed",
+        "count": 622,
+        "mean_activation": 0.18584106052803456
+      },
+      {
+        "token": " of",
+        "count": 568,
+        "mean_activation": 0.04054813653650418
+      },
+      {
+        "token": " reviewing",
+        "count": 402,
+        "mean_activation": 0.16739255990555038
+      },
+      {
+        "token": " Crunch",
+        "count": 327,
+        "mean_activation": 0.04111613702336583
+      },
+      {
+        "token": " summary",
+        "count": 253,
+        "mean_activation": 0.07767350871572382
+      },
+      {
+        "token": " reviewer",
+        "count": 217,
+        "mean_activation": 0.04161184284544211
+      },
+      {
+        "token": " critique",
+        "count": 211,
+        "mean_activation": 0.05336989271697275
+      },
+      {
+        "token": " Review",
+        "count": 198,
+        "mean_activation": 0.22371573400015782
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 35608,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...male. \\n\\n(And to the** review** that said they are ...",
+        "active_token": " review",
+        "activation": 0.307861328125,
+        "review_id": "5lR2_AoLj_MXzU_N5z6Vaw",
+        "position": 131
+      },
+      {
+        "context": "Taco Tuesday. This** review** is based on my take...",
+        "active_token": " review",
+        "activation": 0.3037109375,
+        "review_id": "51ly_EbGcs_foJaaDsC61w",
+        "position": 5
+      },
+      {
+        "context": "This is** review** of breakfast we had...",
+        "active_token": " review",
+        "activation": 0.302978515625,
+        "review_id": "4rIaQZzu9ELMt7VPPoZiWg",
+        "position": 2
+      },
+      {
+        "context": "This is** review** is based on my seco...",
+        "active_token": " review",
+        "activation": 0.302978515625,
+        "review_id": "ki0HwkwmJnQ7QEK8cYklng",
+        "position": 2
+      },
+      {
+        "context": "Update to previous** review**. I was in the neigh...",
+        "active_token": " review",
+        "activation": 0.30126953125,
+        "review_id": "od0rHgIG76_5rCPEf1lUag",
+        "position": 3
+      },
+      {
+        "context": "...tillos. Ojal\u00c3\u00a1 esta** review** sirva para que el s...",
+        "active_token": " review",
+        "activation": 0.30126953125,
+        "review_id": "n1czgZeENcI87vI314klsQ",
+        "position": 183
+      },
+      {
+        "context": "...ay 2021 - This is a** review** for the Chapala res...",
+        "active_token": " review",
+        "activation": 0.300537109375,
+        "review_id": "VDfmQfeyclQeWRJor8taHw",
+        "position": 6
+      },
+      {
+        "context": "Regarding a** review** below, I can not ev...",
+        "active_token": " review",
+        "activation": 0.30029296875,
+        "review_id": "bYajgmxjyZQF-hFtE5oDQA",
+        "position": 2
+      },
+      {
+        "context": "...you, PBS. \\n\\nEarlier** review**:\\nEasily my new favo...",
+        "active_token": " review",
+        "activation": 0.298828125,
+        "review_id": "uf1n646vwd5OI_DLQGzNTA",
+        "position": 325
+      },
+      {
+        "context": "This a** review** for take out. We go...",
+        "active_token": " review",
+        "activation": 0.298583984375,
+        "review_id": "wKIpFD8EVbEKNSld9pQpBw",
+        "position": 2
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 998,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2634,
+        "max": 0.3079,
+        "mean": 0.2779
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 153,
+          "percent": 30.6
+        },
+        {
+          "ngram": [
+            " a",
+            " review"
+          ],
+          "ngram_str": " a review",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            "This",
+            " is"
+          ],
+          "ngram_str": "This is",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " review",
+            " is"
+          ],
+          "ngram_str": " review is",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " review",
+            "."
+          ],
+          "ngram_str": " review.",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " this",
+            " review"
+          ],
+          "ngram_str": " this review",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " review",
+            " of"
+          ],
+          "ngram_str": " review of",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " review",
+            ":"
+          ],
+          "ngram_str": " review:",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " review",
+            " for"
+          ],
+          "ngram_str": " review for",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " the",
+            " review"
+          ],
+          "ngram_str": " the review",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " This",
+            " review"
+          ],
+          "ngram_str": " This review",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " for",
+            " the"
+          ],
+          "ngram_str": " for the",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " based",
+            " on"
+          ],
+          "ngram_str": " based on",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            "This",
+            " is",
+            " a"
+          ],
+          "ngram_str": "This is a",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " review"
+          ],
+          "ngram_str": " is a review",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " a",
+            " review",
+            " for"
+          ],
+          "ngram_str": " a review for",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " This",
+            " review",
+            " is"
+          ],
+          "ngram_str": " This review is",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " a",
+            " review",
+            " of"
+          ],
+          "ngram_str": " a review of",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " review",
+            " is",
+            " for"
+          ],
+          "ngram_str": " review is for",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ":",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ":\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " this",
+            " review",
+            " is"
+          ],
+          "ngram_str": " this review is",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " review",
+            " is",
+            " based"
+          ],
+          "ngram_str": " review is based",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " review",
+            ":",
+            "\u00c4"
+          ],
+          "ngram_str": " review:\u00c4",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " review",
+            " of",
+            " the"
+          ],
+          "ngram_str": " review of the",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " review"
+          ],
+          "ngram_str": " to the review",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "This",
+            " is",
+            " a",
+            " review"
+          ],
+          "ngram_str": "This is a review",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " review",
+            " for"
+          ],
+          "ngram_str": " is a review for",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " review",
+            " of"
+          ],
+          "ngram_str": " is a review of",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " review",
+            ":",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " review:\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " review",
+            " is",
+            " based",
+            " on"
+          ],
+          "ngram_str": " review is based on",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " review",
+            " is",
+            " for",
+            " the"
+          ],
+          "ngram_str": " review is for the",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ":",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ":\u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ":",
+            " This",
+            " review",
+            " is"
+          ],
+          "ngram_str": ": This review is",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " review",
+            " of",
+            " the"
+          ],
+          "ngram_str": " a review of the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " is",
+            " an",
+            " updated",
+            " review"
+          ],
+          "ngram_str": " is an updated review",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Review"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cReview",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " This",
+            " review",
+            " is"
+          ],
+          "ngram_str": ". This review is",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 14800000,
+      "corpus_coverage": 0.2863
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 19500,
+        "count": 8062,
+        "percent": 80.62
+      },
+      {
+        "feature_idx": 963,
+        "count": 8044,
+        "percent": 80.44
+      },
+      {
+        "feature_idx": 1253,
+        "count": 7644,
+        "percent": 76.44
+      },
+      {
+        "feature_idx": 17175,
+        "count": 7568,
+        "percent": 75.68
+      },
+      {
+        "feature_idx": 2466,
+        "count": 7234,
+        "percent": 72.34
+      },
+      {
+        "feature_idx": 3512,
+        "count": 6106,
+        "percent": 61.06
+      },
+      {
+        "feature_idx": 12254,
+        "count": 5445,
+        "percent": 54.45
+      },
+      {
+        "feature_idx": 11052,
+        "count": 5430,
+        "percent": 54.3
+      },
+      {
+        "feature_idx": 21835,
+        "count": 3716,
+        "percent": 37.16
+      },
+      {
+        "feature_idx": 12256,
+        "count": 3488,
+        "percent": 34.88
+      },
+      {
+        "feature_idx": 18503,
+        "count": 3402,
+        "percent": 34.02
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3397,
+        "percent": 33.97
+      },
+      {
+        "feature_idx": 5337,
+        "count": 3333,
+        "percent": 33.33
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3240,
+        "percent": 32.4
+      },
+      {
+        "feature_idx": 4961,
+        "count": 3034,
+        "percent": 30.34
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2867,
+        "percent": 28.67
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2715,
+        "percent": 27.15
+      },
+      {
+        "feature_idx": 17953,
+        "count": 2452,
+        "percent": 24.52
+      },
+      {
+        "feature_idx": 5023,
+        "count": 2334,
+        "percent": 23.34
+      },
+      {
+        "feature_idx": 11738,
+        "count": 2211,
+        "percent": 22.11
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 14800000,
+      "corpus_coverage": 0.2863
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 5003,
+        "percent": 50.03
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1202,
+        "percent": 12.02
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 866,
+        "percent": 8.66
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1059,
+        "percent": 10.59
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1870,
+        "percent": 18.7
+      }
+    ],
+    "mean_position": 0.3594,
+    "std_position": 0.3414
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 60,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.028,
+      "p25": 0.0399,
+      "p50": 0.1035,
+      "p75": 0.1855,
+      "p90": 0.2241,
+      "p95": 0.2439,
+      "p99": 0.264
+    },
+    "skewness": 0.2412,
+    "kurtosis": -1.4324,
+    "min": 0.0196,
+    "max": 0.2673,
+    "mean": 0.1195,
+    "std": 0.0794
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 60,
+      "unique_tokens_found": 18
+    },
+    "tokens": [
+      {
+        "token": " review",
+        "count": 27,
+        "mean_activation": 0.1934
+      },
+      {
+        "token": " reviews",
+        "count": 15,
+        "mean_activation": 0.0571
+      },
+      {
+        "token": " reviewing",
+        "count": 2,
+        "mean_activation": 0.1603
+      },
+      {
+        "token": " Crunch",
+        "count": 2,
+        "mean_activation": 0.0357
+      },
+      {
+        "token": " disclosure",
+        "count": 1,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " previews",
+        "count": 1,
+        "mean_activation": 0.0439
+      },
+      {
+        "token": " reviewer",
+        "count": 1,
+        "mean_activation": 0.0793
+      },
+      {
+        "token": " revision",
+        "count": 1,
+        "mean_activation": 0.072
+      },
+      {
+        "token": " sample",
+        "count": 1,
+        "mean_activation": 0.0208
+      },
+      {
+        "token": " access",
+        "count": 1,
+        "mean_activation": 0.0372
+      }
+    ]
+  }
+}

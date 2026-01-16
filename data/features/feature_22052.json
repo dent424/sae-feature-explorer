@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22052,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 63,
+    "mean_when_active": 0.10576036241319445,
+    "max_activation": 0.2314453125,
+    "std_when_active": 0.06274894550006484,
+    "activation_rate": 0.00063
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 32161,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " clean",
+        "count": 19741,
+        "mean_activation": 0.15078108180626615
+      },
+      {
+        "token": " and",
+        "count": 1959,
+        "mean_activation": 0.030109111480167657
+      },
+      {
+        "token": " empty",
+        "count": 1533,
+        "mean_activation": 0.03759229128763556
+      },
+      {
+        "token": " dirty",
+        "count": 1516,
+        "mean_activation": 0.03965765316442323
+      },
+      {
+        "token": " Clean",
+        "count": 1130,
+        "mean_activation": 0.08781265663889658
+      },
+      {
+        "token": " fresh",
+        "count": 1021,
+        "mean_activation": 0.01781811093023078
+      },
+      {
+        "token": " cleaned",
+        "count": 751,
+        "mean_activation": 0.04635021753222266
+      },
+      {
+        "token": ",",
+        "count": 641,
+        "mean_activation": 0.03029702792115591
+      },
+      {
+        "token": " open",
+        "count": 293,
+        "mean_activation": 0.027517846013091936
+      },
+      {
+        "token": " warm",
+        "count": 253,
+        "mean_activation": 0.026284138675734932
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 32161,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...nd the restaurant is** clean**.",
+        "active_token": " clean",
+        "activation": 0.26953125,
+        "review_id": "JHmT0fsLO5JzPHtsYzbv1A",
+        "position": 181
+      },
+      {
+        "context": "...d. The restaurant is** clean** and the staff is fr...",
+        "active_token": " clean",
+        "activation": 0.26416015625,
+        "review_id": "kpQ0pRTR0aObPpH9v0fBjg",
+        "position": 122
+      },
+      {
+        "context": "...ly, and the place is** clean**. The menu in my opi...",
+        "active_token": " clean",
+        "activation": 0.26318359375,
+        "review_id": "B7Avd60CoghrfuEPEH82uA",
+        "position": 48
+      },
+      {
+        "context": "...the establishment is** clean** with a great atmosp...",
+        "active_token": " clean",
+        "activation": 0.262939453125,
+        "review_id": "E7_ig6tG1fG4moDqtWjxGg",
+        "position": 28
+      },
+      {
+        "context": "...g. The restaurant is** clean** and the ambiance is...",
+        "active_token": " clean",
+        "activation": 0.2626953125,
+        "review_id": "7MmHv6cPIY45hwaiH7dR8A",
+        "position": 102
+      },
+      {
+        "context": "...od,the restaurant is** clean**. The only downside ...",
+        "active_token": " clean",
+        "activation": 0.261962890625,
+        "review_id": "grFK9jpgwGxhU8KYlcv08w",
+        "position": 99
+      },
+      {
+        "context": "...y. The restaurant is** clean** and attractive. We ...",
+        "active_token": " clean",
+        "activation": 0.260986328125,
+        "review_id": "zjxOHn6Mpm-5rorWmY5XkQ",
+        "position": 46
+      },
+      {
+        "context": "...nd the restaurant is** clean**.\\n\\nBy far better tha...",
+        "active_token": " clean",
+        "activation": 0.26025390625,
+        "review_id": "AInP-DLbKOrtaoTBHXIC2Q",
+        "position": 49
+      },
+      {
+        "context": "...e. The restaurant is** clean** and decorated nicel...",
+        "active_token": " clean",
+        "activation": 0.26025390625,
+        "review_id": "JvBIPpKs-9uK4p9nEMixLg",
+        "position": 54
+      },
+      {
+        "context": "...s.The restaurant was** clean**, the noise level wa...",
+        "active_token": " clean",
+        "activation": 0.26025390625,
+        "review_id": "TMv-CKct9K-Uq6x96dx_Ag",
+        "position": 21
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22052,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2399,
+        "max": 0.2695,
+        "mean": 0.2466
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " is",
+            " clean"
+          ],
+          "ngram_str": " is clean",
+          "count": 293,
+          "percent": 58.6
+        },
+        {
+          "ngram": [
+            " clean",
+            " and"
+          ],
+          "ngram_str": " clean and",
+          "count": 218,
+          "percent": 43.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 190,
+          "percent": 38.0
+        },
+        {
+          "ngram": [
+            " was",
+            " clean"
+          ],
+          "ngram_str": " was clean",
+          "count": 186,
+          "percent": 37.2
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": " restaurant is",
+          "count": 176,
+          "percent": 35.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 167,
+          "percent": 33.4
+        },
+        {
+          "ngram": [
+            " The",
+            " restaurant"
+          ],
+          "ngram_str": " The restaurant",
+          "count": 156,
+          "percent": 31.2
+        },
+        {
+          "ngram": [
+            " clean",
+            "."
+          ],
+          "ngram_str": " clean.",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " was"
+          ],
+          "ngram_str": " restaurant was",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " the",
+            " restaurant"
+          ],
+          "ngram_str": " the restaurant",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " clean",
+            ","
+          ],
+          "ngram_str": " clean,",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " place",
+            " is"
+          ],
+          "ngram_str": " place is",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 63,
+          "percent": 12.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " restaurant",
+            " is",
+            " clean"
+          ],
+          "ngram_str": " restaurant is clean",
+          "count": 163,
+          "percent": 32.6
+        },
+        {
+          "ngram": [
+            " is",
+            " clean",
+            " and"
+          ],
+          "ngram_str": " is clean and",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " was",
+            " clean"
+          ],
+          "ngram_str": " restaurant was clean",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " restaurant"
+          ],
+          "ngram_str": ". The restaurant",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " The",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": " The restaurant is",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " was",
+            " clean",
+            " and"
+          ],
+          "ngram_str": " was clean and",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " is",
+            " clean",
+            "."
+          ],
+          "ngram_str": " is clean.",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " place",
+            " is",
+            " clean"
+          ],
+          "ngram_str": " place is clean",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " restaurant"
+          ],
+          "ngram_str": " and the restaurant",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " the",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": " the restaurant is",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " The",
+            " restaurant",
+            " was"
+          ],
+          "ngram_str": " The restaurant was",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " was",
+            " clean",
+            "."
+          ],
+          "ngram_str": " was clean.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " is",
+            " clean",
+            ","
+          ],
+          "ngram_str": " is clean,",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " clean",
+            " and",
+            " the"
+          ],
+          "ngram_str": " clean and the",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " the",
+            " restaurant",
+            " was"
+          ],
+          "ngram_str": " the restaurant was",
+          "count": 48,
+          "percent": 9.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " The",
+            " restaurant",
+            " is",
+            " clean"
+          ],
+          "ngram_str": " The restaurant is clean",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " is",
+            " clean",
+            " and"
+          ],
+          "ngram_str": " restaurant is clean and",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": ". The restaurant is",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " was",
+            " clean",
+            " and"
+          ],
+          "ngram_str": " restaurant was clean and",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " The",
+            " restaurant",
+            " was",
+            " clean"
+          ],
+          "ngram_str": " The restaurant was clean",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " the",
+            " restaurant",
+            " is",
+            " clean"
+          ],
+          "ngram_str": " the restaurant is clean",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " the",
+            " restaurant",
+            " was",
+            " clean"
+          ],
+          "ngram_str": " the restaurant was clean",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " restaurant",
+            " was"
+          ],
+          "ngram_str": ". The restaurant was",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " was",
+            " clean",
+            "."
+          ],
+          "ngram_str": " restaurant was clean.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " the",
+            " place",
+            " is",
+            " clean"
+          ],
+          "ngram_str": " the place is clean",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": " and the restaurant is",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " is",
+            " clean",
+            ","
+          ],
+          "ngram_str": " restaurant is clean,",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " is",
+            " clean",
+            "."
+          ],
+          "ngram_str": " restaurant is clean.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " restaurant",
+            " was"
+          ],
+          "ngram_str": " and the restaurant was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " is",
+            " clean",
+            " and",
+            " the"
+          ],
+          "ngram_str": " is clean and the",
+          "count": 26,
+          "percent": 5.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15800000,
+      "corpus_coverage": 0.3056
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11567,
+        "count": 7474,
+        "percent": 74.74
+      },
+      {
+        "feature_idx": 13122,
+        "count": 7397,
+        "percent": 73.97
+      },
+      {
+        "feature_idx": 5743,
+        "count": 7094,
+        "percent": 70.94
+      },
+      {
+        "feature_idx": 20656,
+        "count": 6618,
+        "percent": 66.18
+      },
+      {
+        "feature_idx": 6193,
+        "count": 5828,
+        "percent": 58.28
+      },
+      {
+        "feature_idx": 12513,
+        "count": 5155,
+        "percent": 51.55
+      },
+      {
+        "feature_idx": 21423,
+        "count": 5057,
+        "percent": 50.57
+      },
+      {
+        "feature_idx": 22992,
+        "count": 4910,
+        "percent": 49.1
+      },
+      {
+        "feature_idx": 13717,
+        "count": 4850,
+        "percent": 48.5
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4833,
+        "percent": 48.33
+      },
+      {
+        "feature_idx": 19167,
+        "count": 4537,
+        "percent": 45.37
+      },
+      {
+        "feature_idx": 19564,
+        "count": 4091,
+        "percent": 40.91
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3814,
+        "percent": 38.14
+      },
+      {
+        "feature_idx": 6329,
+        "count": 3810,
+        "percent": 38.1
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3809,
+        "percent": 38.09
+      },
+      {
+        "feature_idx": 13566,
+        "count": 3754,
+        "percent": 37.54
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3607,
+        "percent": 36.07
+      },
+      {
+        "feature_idx": 6408,
+        "count": 3377,
+        "percent": 33.77
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3344,
+        "percent": 33.44
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3238,
+        "percent": 32.38
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15800000,
+      "corpus_coverage": 0.3056
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1851,
+        "percent": 18.51
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2021,
+        "percent": 20.21
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1772,
+        "percent": 17.72
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1987,
+        "percent": 19.87
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2369,
+        "percent": 23.69
+      }
+    ],
+    "mean_position": 0.5229,
+    "std_position": 0.2913
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 63,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.023,
+      "p25": 0.0401,
+      "p50": 0.1191,
+      "p75": 0.1535,
+      "p90": 0.1817,
+      "p95": 0.2027,
+      "p99": 0.2294
+    },
+    "skewness": 0.0468,
+    "kurtosis": -1.1573,
+    "min": 0.0127,
+    "max": 0.2314,
+    "mean": 0.1058,
+    "std": 0.0627
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 63,
+      "unique_tokens_found": 12
+    },
+    "tokens": [
+      {
+        "token": " clean",
+        "count": 41,
+        "mean_activation": 0.1434
+      },
+      {
+        "token": " and",
+        "count": 4,
+        "mean_activation": 0.0336
+      },
+      {
+        "token": " dirty",
+        "count": 4,
+        "mean_activation": 0.0337
+      },
+      {
+        "token": " fresh",
+        "count": 3,
+        "mean_activation": 0.0167
+      },
+      {
+        "token": " empty",
+        "count": 2,
+        "mean_activation": 0.0432
+      },
+      {
+        "token": " Clean",
+        "count": 2,
+        "mean_activation": 0.0977
+      },
+      {
+        "token": ",",
+        "count": 2,
+        "mean_activation": 0.0259
+      },
+      {
+        "token": " cold",
+        "count": 1,
+        "mean_activation": 0.0192
+      },
+      {
+        "token": " dry",
+        "count": 1,
+        "mean_activation": 0.0215
+      },
+      {
+        "token": " bright",
+        "count": 1,
+        "mean_activation": 0.0397
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 9246,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 180,
+    "mean_when_active": 0.05630569458007813,
+    "max_activation": 0.2103271484375,
+    "std_when_active": 0.04775846623792938,
+    "activation_rate": 0.0018
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 28700000,
+      "corpus_coverage": 0.5551
+    },
+    "top_tokens": [
+      {
+        "token": ",",
+        "count": 6553,
+        "mean_activation": 0.090665183030211
+      },
+      {
+        "token": " I",
+        "count": 3702,
+        "mean_activation": 0.06739554052285926
+      },
+      {
+        "token": ".",
+        "count": 2394,
+        "mean_activation": 0.04180730375132166
+      },
+      {
+        "token": " it",
+        "count": 1961,
+        "mean_activation": 0.07317469400875669
+      },
+      {
+        "token": " the",
+        "count": 1822,
+        "mean_activation": 0.04477427427122282
+      },
+      {
+        "token": " is",
+        "count": 1756,
+        "mean_activation": 0.04382651379005241
+      },
+      {
+        "token": "'s",
+        "count": 1402,
+        "mean_activation": 0.05780006985521521
+      },
+      {
+        "token": " they",
+        "count": 1200,
+        "mean_activation": 0.059303391774495444
+      },
+      {
+        "token": " was",
+        "count": 1103,
+        "mean_activation": 0.046884261794449086
+      },
+      {
+        "token": " a",
+        "count": 1073,
+        "mean_activation": 0.03962524072766193
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 28700000,
+      "corpus_coverage": 0.5551
+    },
+    "activations": [
+      {
+        "context": "...o at Chili's. Yes, yes** I** know that you're thin...",
+        "active_token": " I",
+        "activation": 0.270263671875,
+        "review_id": "pYJ9X1hSFJGx9FYaMyy4BQ",
+        "position": 24
+      },
+      {
+        "context": "...ish with my sides, yes** I** ate it all, with frie...",
+        "active_token": " I",
+        "activation": 0.263671875,
+        "review_id": "Z9oEY0sw3cYFEpYmfmkLCw",
+        "position": 166
+      },
+      {
+        "context": "...ing anything. Yes, yes** I** did just say a-holes ...",
+        "active_token": " I",
+        "activation": 0.258056640625,
+        "review_id": "UvbzlvmdNiufM98u_z4kvw",
+        "position": 172
+      },
+      {
+        "context": "...ite peach sangria, yes** I** said white. And it wa...",
+        "active_token": " I",
+        "activation": 0.25390625,
+        "review_id": "BVsJqpg3xGvlHrtHU9J-GQ",
+        "position": 40
+      },
+      {
+        "context": "...ut to me was WARM! Yes** I** said it! WARM SALSA! ...",
+        "active_token": " I",
+        "activation": 0.251220703125,
+        "review_id": "adcPzKNY4mITFOOY9nx20Q",
+        "position": 94
+      },
+      {
+        "context": "...ere is FREE FOOD, yes** you** heard me right. The ...",
+        "active_token": " you",
+        "activation": 0.2484130859375,
+        "review_id": "rH67uy9qv3wCfi9YBnpDkA",
+        "position": 24
+      },
+      {
+        "context": "... and pork tamales, yes** I** ordered them both. \\n\\n...",
+        "active_token": " I",
+        "activation": 0.2481689453125,
+        "review_id": "XMMuoxww-8TKNfNDwZdxJQ",
+        "position": 101
+      },
+      {
+        "context": "... get in and out!\\n\\nYes** you** might be out of bean...",
+        "active_token": " you",
+        "activation": 0.247802734375,
+        "review_id": "XO3Dl2kPfBRRUX7cVlCuAA",
+        "position": 99
+      },
+      {
+        "context": "...nd avocado fries. Yes** you** need all three. Righ...",
+        "active_token": " you",
+        "activation": 0.2474365234375,
+        "review_id": "g_ZZ3AtbAyblPYLV3ielUg",
+        "position": 144
+      },
+      {
+        "context": "...ourself a lunch! Yes,** you** can eat for $6-7 + t...",
+        "active_token": " you",
+        "activation": 0.2467041015625,
+        "review_id": "LxBv-QgQ8LYFL8xJVixlTw",
+        "position": 28
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 9246,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2139,
+        "max": 0.2703,
+        "mean": 0.2259
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Yes",
+            ","
+          ],
+          "ngram_str": " Yes,",
+          "count": 197,
+          "percent": 39.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Yes"
+          ],
+          "ngram_str": ". Yes",
+          "count": 194,
+          "percent": 38.8
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            ",",
+            " yes"
+          ],
+          "ngram_str": ", yes",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " yes",
+            " I"
+          ],
+          "ngram_str": " yes I",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " Yes",
+            " I"
+          ],
+          "ngram_str": " Yes I",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Yes"
+          ],
+          "ngram_str": "  Yes",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            ",",
+            " you"
+          ],
+          "ngram_str": ", you",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " I",
+            " know"
+          ],
+          "ngram_str": " I know",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " (",
+            "yes"
+          ],
+          "ngram_str": " (yes",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " I",
+            " said"
+          ],
+          "ngram_str": " I said",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " yes",
+            ","
+          ],
+          "ngram_str": " yes,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "yes",
+            " I"
+          ],
+          "ngram_str": "yes I",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Yes",
+            ","
+          ],
+          "ngram_str": ". Yes,",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " Yes",
+            ",",
+            " I"
+          ],
+          "ngram_str": " Yes, I",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " Yes",
+            ",",
+            " you"
+          ],
+          "ngram_str": " Yes, you",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Yes",
+            " I"
+          ],
+          "ngram_str": ". Yes I",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Yes"
+          ],
+          "ngram_str": ".  Yes",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Yes",
+            ","
+          ],
+          "ngram_str": "  Yes,",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ",",
+            " yes",
+            " I"
+          ],
+          "ngram_str": ", yes I",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " (",
+            "yes",
+            " I"
+          ],
+          "ngram_str": " (yes I",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "!",
+            " Yes",
+            ","
+          ],
+          "ngram_str": "! Yes,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " you",
+            " read",
+            " that"
+          ],
+          "ngram_str": " you read that",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Yes",
+            " you"
+          ],
+          "ngram_str": ". Yes you",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Yes"
+          ],
+          "ngram_str": "\u00c4\u012cYes",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " know"
+          ],
+          "ngram_str": ", I know",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " you",
+            " read"
+          ],
+          "ngram_str": ", you read",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " Yes",
+            ",",
+            " I"
+          ],
+          "ngram_str": ". Yes, I",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Yes",
+            ",",
+            " you"
+          ],
+          "ngram_str": ". Yes, you",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Yes",
+            ","
+          ],
+          "ngram_str": ".  Yes,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Yes",
+            ",",
+            " I"
+          ],
+          "ngram_str": "  Yes, I",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Yes",
+            ",",
+            " you",
+            " read"
+          ],
+          "ngram_str": " Yes, you read",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " you",
+            " read",
+            " that"
+          ],
+          "ngram_str": ", you read that",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Yes"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cYes",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " Yes",
+            ",",
+            " I",
+            " know"
+          ],
+          "ngram_str": " Yes, I know",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Yes",
+            " I"
+          ],
+          "ngram_str": ".  Yes I",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " you",
+            " read",
+            " that",
+            " right"
+          ],
+          "ngram_str": " you read that right",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "!",
+            " ",
+            " Yes",
+            ","
+          ],
+          "ngram_str": "!  Yes,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Yes",
+            ","
+          ],
+          "ngram_str": "\u00c4\u012cYes,",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " you",
+            " read",
+            " that",
+            " correctly"
+          ],
+          "ngram_str": " you read that correctly",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " Yes",
+            ",",
+            " you",
+            " can"
+          ],
+          "ngram_str": " Yes, you can",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5700000,
+      "corpus_coverage": 0.1102
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4898,
+        "percent": 48.98
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3663,
+        "percent": 36.63
+      },
+      {
+        "feature_idx": 20189,
+        "count": 3443,
+        "percent": 34.43
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3314,
+        "percent": 33.14
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2918,
+        "percent": 29.18
+      },
+      {
+        "feature_idx": 7259,
+        "count": 2872,
+        "percent": 28.72
+      },
+      {
+        "feature_idx": 13680,
+        "count": 2814,
+        "percent": 28.14
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2803,
+        "percent": 28.03
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2682,
+        "percent": 26.82
+      },
+      {
+        "feature_idx": 11950,
+        "count": 2591,
+        "percent": 25.91
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1895,
+        "percent": 18.95
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1873,
+        "percent": 18.73
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1703,
+        "percent": 17.03
+      },
+      {
+        "feature_idx": 1390,
+        "count": 1515,
+        "percent": 15.15
+      },
+      {
+        "feature_idx": 20619,
+        "count": 1377,
+        "percent": 13.77
+      },
+      {
+        "feature_idx": 19720,
+        "count": 1344,
+        "percent": 13.44
+      },
+      {
+        "feature_idx": 20850,
+        "count": 1341,
+        "percent": 13.41
+      },
+      {
+        "feature_idx": 20464,
+        "count": 1340,
+        "percent": 13.4
+      },
+      {
+        "feature_idx": 13395,
+        "count": 1334,
+        "percent": 13.34
+      },
+      {
+        "feature_idx": 22911,
+        "count": 1311,
+        "percent": 13.11
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5700000,
+      "corpus_coverage": 0.1102
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2365,
+        "percent": 23.65
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1852,
+        "percent": 18.52
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1890,
+        "percent": 18.9
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1893,
+        "percent": 18.93
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2000,
+        "percent": 20.0
+      }
+    ],
+    "mean_position": 0.4822,
+    "std_position": 0.3014
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 180,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0184,
+      "p25": 0.0249,
+      "p50": 0.0351,
+      "p75": 0.0651,
+      "p90": 0.1418,
+      "p95": 0.1698,
+      "p99": 0.1902
+    },
+    "skewness": 1.5693,
+    "kurtosis": 1.4141,
+    "min": 0.0097,
+    "max": 0.2103,
+    "mean": 0.0563,
+    "std": 0.0478
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 180,
+      "unique_tokens_found": 79
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 25,
+        "mean_activation": 0.0985
+      },
+      {
+        "token": ".",
+        "count": 17,
+        "mean_activation": 0.0357
+      },
+      {
+        "token": " I",
+        "count": 9,
+        "mean_activation": 0.0523
+      },
+      {
+        "token": " the",
+        "count": 7,
+        "mean_activation": 0.0453
+      },
+      {
+        "token": " it",
+        "count": 7,
+        "mean_activation": 0.1059
+      },
+      {
+        "token": "'s",
+        "count": 6,
+        "mean_activation": 0.0368
+      },
+      {
+        "token": " you",
+        "count": 6,
+        "mean_activation": 0.0717
+      },
+      {
+        "token": " they",
+        "count": 5,
+        "mean_activation": 0.0961
+      },
+      {
+        "token": " are",
+        "count": 5,
+        "mean_activation": 0.0335
+      },
+      {
+        "token": " yes",
+        "count": 5,
+        "mean_activation": 0.0344
+      }
+    ]
+  }
+}

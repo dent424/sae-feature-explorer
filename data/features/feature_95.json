@@ -1,0 +1,876 @@
+{
+  "feature_idx": 95,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 378,
+    "mean_when_active": 0.041084410652281744,
+    "max_activation": 0.14794921875,
+    "std_when_active": 0.02261177778126967,
+    "activation_rate": 0.00378
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 14200000,
+      "corpus_coverage": 0.2746
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 6516,
+        "mean_activation": 0.03858979016158243
+      },
+      {
+        "token": " I",
+        "count": 1870,
+        "mean_activation": 0.03893869573419744
+      },
+      {
+        "token": " a",
+        "count": 1760,
+        "mean_activation": 0.03470413468100808
+      },
+      {
+        "token": " by",
+        "count": 1623,
+        "mean_activation": 0.06547655445223448
+      },
+      {
+        "token": " from",
+        "count": 1468,
+        "mean_activation": 0.06334018447418628
+      },
+      {
+        "token": " when",
+        "count": 1403,
+        "mean_activation": 0.046851339632497886
+      },
+      {
+        "token": " because",
+        "count": 1324,
+        "mean_activation": 0.04515869739912788
+      },
+      {
+        "token": " on",
+        "count": 1257,
+        "mean_activation": 0.04181594666547024
+      },
+      {
+        "token": " my",
+        "count": 1203,
+        "mean_activation": 0.035486115085414716
+      },
+      {
+        "token": " you",
+        "count": 1106,
+        "mean_activation": 0.04041815235213819
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 14200000,
+      "corpus_coverage": 0.2746
+    },
+    "activations": [
+      {
+        "context": "...u can definitely tell** by** the taste.  Their pla...",
+        "active_token": " by",
+        "activation": 0.299560546875,
+        "review_id": "QKj56JO7t1JUZaEHaIQoYw",
+        "position": 248
+      },
+      {
+        "context": "...unt. Its easy to tell** by** looking at us that we...",
+        "active_token": " by",
+        "activation": 0.299560546875,
+        "review_id": "5TWwHmgdBuoeFYXrEDtz1w",
+        "position": 240
+      },
+      {
+        "context": "...u can definitely tell** by** the freshness and qua...",
+        "active_token": " by",
+        "activation": 0.2900390625,
+        "review_id": "Vqgm4YkGat6pxcmbpUfSuQ",
+        "position": 77
+      },
+      {
+        "context": "...nk one can tell a lot** by** a restaurant, especia...",
+        "active_token": " by",
+        "activation": 0.288330078125,
+        "review_id": "uGgvcDGRAUwc9wJILL9BlA",
+        "position": 369
+      },
+      {
+        "context": "...d not be able to tell** by** looking around.\\n\\nAll ...",
+        "active_token": " by",
+        "activation": 0.287353515625,
+        "review_id": "45loZgQl8f7Tdr6aMUNc_g",
+        "position": 125
+      },
+      {
+        "context": "...of them. You can tell** by** how fresh things are ...",
+        "active_token": " by",
+        "activation": 0.287353515625,
+        "review_id": "128YngBDRV7OUjC3vEeb2w",
+        "position": 378
+      },
+      {
+        "context": "...but you couldn't tell** by** the way she made the ...",
+        "active_token": " by",
+        "activation": 0.286865234375,
+        "review_id": "UySeDR42R0xcUXsskPKx3Q",
+        "position": 110
+      },
+      {
+        "context": "...resh and you can tell** by** every bite. Highly re...",
+        "active_token": " by",
+        "activation": 0.286376953125,
+        "review_id": "G8cxmXNDteBedYBO29R7iw",
+        "position": 28
+      },
+      {
+        "context": "...edients, you can tell** by** the flavor! Check thi...",
+        "active_token": " by",
+        "activation": 0.281005859375,
+        "review_id": "3eTHAxYyHTcJCb6kGmxL5g",
+        "position": 51
+      },
+      {
+        "context": "...e table. You can tell** by** the population that e...",
+        "active_token": " by",
+        "activation": 0.28076171875,
+        "review_id": "mOOnJMdAoKMmArbzevflAw",
+        "position": 34
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 95,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 28500000,
+      "corpus_coverage": 0.5512,
+      "activation_range": {
+        "min": 0.1626,
+        "max": 0.2996,
+        "mean": 0.2051
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " from",
+            " the"
+          ],
+          "ngram_str": " from the",
+          "count": 117,
+          "percent": 23.4
+        },
+        {
+          "ngram": [
+            " by",
+            " the"
+          ],
+          "ngram_str": " by the",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " can",
+            " tell"
+          ],
+          "ngram_str": " can tell",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " tell",
+            " by"
+          ],
+          "ngram_str": " tell by",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " tell",
+            " from"
+          ],
+          "ngram_str": " tell from",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " know",
+            " it"
+          ],
+          "ngram_str": " know it",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " could",
+            " tell"
+          ],
+          "ngram_str": " could tell",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " You"
+          ],
+          "ngram_str": ". You",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " You",
+            " can"
+          ],
+          "ngram_str": " You can",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " it",
+            " from"
+          ],
+          "ngram_str": " it from",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " and",
+            " you"
+          ],
+          "ngram_str": " and you",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " you",
+            " can",
+            " tell"
+          ],
+          "ngram_str": " you can tell",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " tell",
+            " by",
+            " the"
+          ],
+          "ngram_str": " tell by the",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " can",
+            " tell",
+            " by"
+          ],
+          "ngram_str": " can tell by",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " tell",
+            " from",
+            " the"
+          ],
+          "ngram_str": " tell from the",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " it",
+            " from",
+            " the"
+          ],
+          "ngram_str": " it from the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " and",
+            " you",
+            " can"
+          ],
+          "ngram_str": " and you can",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " wouldn",
+            "'t",
+            " know"
+          ],
+          "ngram_str": " wouldn't know",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " outside"
+          ],
+          "ngram_str": " from the outside",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " can",
+            " tell",
+            " from"
+          ],
+          "ngram_str": " can tell from",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " You",
+            " can",
+            " tell"
+          ],
+          "ngram_str": " You can tell",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " by",
+            " looking",
+            " at"
+          ],
+          "ngram_str": " by looking at",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " can"
+          ],
+          "ngram_str": ". You can",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " as",
+            " you",
+            " can"
+          ],
+          "ngram_str": " as you can",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " see"
+          ],
+          "ngram_str": " you can see",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " know",
+            " it"
+          ],
+          "ngram_str": "'t know it",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " can",
+            " tell",
+            " by",
+            " the"
+          ],
+          "ngram_str": " can tell by the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " tell",
+            " by"
+          ],
+          "ngram_str": " you can tell by",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " and",
+            " you",
+            " can",
+            " tell"
+          ],
+          "ngram_str": " and you can tell",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " tell",
+            " from"
+          ],
+          "ngram_str": " you can tell from",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " can",
+            " tell",
+            " from",
+            " the"
+          ],
+          "ngram_str": " can tell from the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " wouldn",
+            "'t",
+            " know",
+            " it"
+          ],
+          "ngram_str": " wouldn't know it",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " can",
+            " tell"
+          ],
+          "ngram_str": ". You can tell",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " by",
+            " the",
+            " quality",
+            " of"
+          ],
+          "ngram_str": " by the quality of",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " know",
+            " it",
+            " from",
+            " the"
+          ],
+          "ngram_str": " know it from the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " you",
+            " couldn",
+            "'t",
+            " tell"
+          ],
+          "ngram_str": " you couldn't tell",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " know",
+            " it",
+            " from"
+          ],
+          "ngram_str": "'t know it from",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " you",
+            " can",
+            " tell"
+          ],
+          "ngram_str": ", you can tell",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " see",
+            " by"
+          ],
+          "ngram_str": " you can see by",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " as",
+            " you",
+            " can",
+            " see"
+          ],
+          "ngram_str": " as you can see",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " You",
+            " can",
+            " tell",
+            " by"
+          ],
+          "ngram_str": " You can tell by",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2900000,
+      "corpus_coverage": 0.0561
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 4164,
+        "percent": 41.64
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4156,
+        "percent": 41.56
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3611,
+        "percent": 36.11
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3587,
+        "percent": 35.87
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3037,
+        "percent": 30.37
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2799,
+        "percent": 27.99
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2587,
+        "percent": 25.87
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2114,
+        "percent": 21.14
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2098,
+        "percent": 20.98
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1759,
+        "percent": 17.59
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1689,
+        "percent": 16.89
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1485,
+        "percent": 14.85
+      },
+      {
+        "feature_idx": 10638,
+        "count": 1294,
+        "percent": 12.94
+      },
+      {
+        "feature_idx": 22187,
+        "count": 1287,
+        "percent": 12.87
+      },
+      {
+        "feature_idx": 11839,
+        "count": 1144,
+        "percent": 11.44
+      },
+      {
+        "feature_idx": 5540,
+        "count": 1131,
+        "percent": 11.31
+      },
+      {
+        "feature_idx": 17423,
+        "count": 1103,
+        "percent": 11.03
+      },
+      {
+        "feature_idx": 24555,
+        "count": 1004,
+        "percent": 10.04
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1001,
+        "percent": 10.01
+      },
+      {
+        "feature_idx": 17430,
+        "count": 947,
+        "percent": 9.47
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2900000,
+      "corpus_coverage": 0.0561
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2160,
+        "percent": 21.6
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2159,
+        "percent": 21.59
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1938,
+        "percent": 19.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1929,
+        "percent": 19.29
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1814,
+        "percent": 18.14
+      }
+    ],
+    "mean_position": 0.4805,
+    "std_position": 0.2855
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 378,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0231,
+      "p25": 0.0265,
+      "p50": 0.0337,
+      "p75": 0.0453,
+      "p90": 0.0693,
+      "p95": 0.093,
+      "p99": 0.1232
+    },
+    "skewness": 2.0637,
+    "kurtosis": 4.5862,
+    "min": 0.0127,
+    "max": 0.1479,
+    "mean": 0.0411,
+    "std": 0.0226
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 378,
+      "unique_tokens_found": 115
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 46,
+        "mean_activation": 0.0398
+      },
+      {
+        "token": " I",
+        "count": 20,
+        "mean_activation": 0.0351
+      },
+      {
+        "token": " a",
+        "count": 17,
+        "mean_activation": 0.0353
+      },
+      {
+        "token": " in",
+        "count": 16,
+        "mean_activation": 0.0583
+      },
+      {
+        "token": " from",
+        "count": 14,
+        "mean_activation": 0.0594
+      },
+      {
+        "token": " because",
+        "count": 13,
+        "mean_activation": 0.0431
+      },
+      {
+        "token": " when",
+        "count": 11,
+        "mean_activation": 0.0421
+      },
+      {
+        "token": " my",
+        "count": 10,
+        "mean_activation": 0.0447
+      },
+      {
+        "token": " you",
+        "count": 10,
+        "mean_activation": 0.0497
+      },
+      {
+        "token": " of",
+        "count": 9,
+        "mean_activation": 0.041
+      }
+    ]
+  }
+}

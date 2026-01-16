@@ -1,0 +1,876 @@
+{
+  "feature_idx": 4456,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 26,
+    "mean_when_active": 0.07291412353515625,
+    "max_activation": 0.2080078125,
+    "std_when_active": 0.054163545051087905,
+    "activation_rate": 0.00026
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 11488,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " taken",
+        "count": 2475,
+        "mean_activation": 0.09980219060724432
+      },
+      {
+        "token": " private",
+        "count": 1025,
+        "mean_activation": 0.1242504287347561
+      },
+      {
+        "token": " brought",
+        "count": 604,
+        "mean_activation": 0.04118756426880691
+      },
+      {
+        "token": " took",
+        "count": 545,
+        "mean_activation": 0.03384697590399226
+      },
+      {
+        "token": " served",
+        "count": 440,
+        "mean_activation": 0.029418927972966975
+      },
+      {
+        "token": " placed",
+        "count": 346,
+        "mean_activation": 0.04692073226664108
+      },
+      {
+        "token": " changed",
+        "count": 317,
+        "mean_activation": 0.042460324260338626
+      },
+      {
+        "token": " put",
+        "count": 295,
+        "mean_activation": 0.04066226765260858
+      },
+      {
+        "token": " delivered",
+        "count": 233,
+        "mean_activation": 0.03104122309214056
+      },
+      {
+        "token": " removed",
+        "count": 224,
+        "mean_activation": 0.04363410813467843
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 11488,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...d my drink order was** taken** at the same time. T...",
+        "active_token": " taken",
+        "activation": 0.226318359375,
+        "review_id": "c6SxOZuE5yH23tkyEu49Eg",
+        "position": 31
+      },
+      {
+        "context": "... and our drink order** taken**. Drinks arrived qui...",
+        "active_token": " taken",
+        "activation": 0.22314453125,
+        "review_id": "gKll_V7jNlw8LNcjCcRsPg",
+        "position": 43
+      },
+      {
+        "context": "...ted and my order was** taken** immediately.",
+        "active_token": " taken",
+        "activation": 0.2216796875,
+        "review_id": "pGC2V72QnFrC_evMmNsT2Q",
+        "position": 168
+      },
+      {
+        "context": "... our drink order was** taken**.  Upon delivery of ...",
+        "active_token": " taken",
+        "activation": 0.2215576171875,
+        "review_id": "9CvG2N7ixeV8Ixoh66AioQ",
+        "position": 16
+      },
+      {
+        "context": "...y order was promptly** taken**. Since they were a ...",
+        "active_token": " taken",
+        "activation": 0.220947265625,
+        "review_id": "KiX0-SBQww77NkvhhD6Zew",
+        "position": 44
+      },
+      {
+        "context": "...d and had our orders** taken**. Didn't get a chanc...",
+        "active_token": " taken",
+        "activation": 0.219970703125,
+        "review_id": "blawNW9kjezluOSH0P8R7g",
+        "position": 33
+      },
+      {
+        "context": "...tly and my order was** taken** and brought to me i...",
+        "active_token": " taken",
+        "activation": 0.21923828125,
+        "review_id": "Qx3VrMBuiwz4htimH0oD_g",
+        "position": 32
+      },
+      {
+        "context": "...on and our order was** taken**. We ordered a buffa...",
+        "active_token": " taken",
+        "activation": 0.2188720703125,
+        "review_id": "36MVKLGGTyItU-2WHH1IVA",
+        "position": 27
+      },
+      {
+        "context": "...seated our order was** taken** promptly, then the ...",
+        "active_token": " taken",
+        "activation": 0.2181396484375,
+        "review_id": "nN84AZ_4NGr8UlmLFOSDCQ",
+        "position": 27
+      },
+      {
+        "context": "...e our food order was** taken** and he was slow to ...",
+        "active_token": " taken",
+        "activation": 0.217529296875,
+        "review_id": "ex81520MYCIK986P_g0-xg",
+        "position": 175
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 4456,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.158,
+        "max": 0.2263,
+        "mean": 0.1809
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " order",
+            " was"
+          ],
+          "ngram_str": " order was",
+          "count": 187,
+          "percent": 37.4
+        },
+        {
+          "ngram": [
+            " was",
+            " taken"
+          ],
+          "ngram_str": " was taken",
+          "count": 177,
+          "percent": 35.4
+        },
+        {
+          "ngram": [
+            " taken",
+            "."
+          ],
+          "ngram_str": " taken.",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            " our",
+            " order"
+          ],
+          "ngram_str": " our order",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            " order",
+            " taken"
+          ],
+          "ngram_str": " order taken",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " orders",
+            " were"
+          ],
+          "ngram_str": " orders were",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " were",
+            " taken"
+          ],
+          "ngram_str": " were taken",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " our",
+            " drink"
+          ],
+          "ngram_str": " our drink",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " and",
+            " our"
+          ],
+          "ngram_str": " and our",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " taken",
+            " and"
+          ],
+          "ngram_str": " taken and",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " drink",
+            " orders"
+          ],
+          "ngram_str": " drink orders",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " taken",
+            ","
+          ],
+          "ngram_str": " taken,",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " drink",
+            " order"
+          ],
+          "ngram_str": " drink order",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " orders",
+            " taken"
+          ],
+          "ngram_str": " orders taken",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " my",
+            " order"
+          ],
+          "ngram_str": " my order",
+          "count": 47,
+          "percent": 9.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " order",
+            " was",
+            " taken"
+          ],
+          "ngram_str": " order was taken",
+          "count": 168,
+          "percent": 33.6
+        },
+        {
+          "ngram": [
+            " orders",
+            " were",
+            " taken"
+          ],
+          "ngram_str": " orders were taken",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " our",
+            " order",
+            " was"
+          ],
+          "ngram_str": " our order was",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " our",
+            " order",
+            " taken"
+          ],
+          "ngram_str": " our order taken",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " drink",
+            " orders",
+            " were"
+          ],
+          "ngram_str": " drink orders were",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " our",
+            " drink",
+            " orders"
+          ],
+          "ngram_str": " our drink orders",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " was",
+            " taken",
+            "."
+          ],
+          "ngram_str": " was taken.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " and",
+            " our",
+            " drink"
+          ],
+          "ngram_str": " and our drink",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " our",
+            " drink",
+            " order"
+          ],
+          "ngram_str": " our drink order",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " order",
+            " taken",
+            "."
+          ],
+          "ngram_str": " order taken.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " drink",
+            " order",
+            " was"
+          ],
+          "ngram_str": " drink order was",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " were",
+            " taken",
+            "."
+          ],
+          "ngram_str": " were taken.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " to",
+            " be",
+            " taken"
+          ],
+          "ngram_str": " to be taken",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " to",
+            " have",
+            " our"
+          ],
+          "ngram_str": " to have our",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " drink",
+            " order",
+            " taken"
+          ],
+          "ngram_str": " drink order taken",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " our",
+            " order",
+            " was",
+            " taken"
+          ],
+          "ngram_str": " our order was taken",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " drink",
+            " orders",
+            " were",
+            " taken"
+          ],
+          "ngram_str": " drink orders were taken",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " order",
+            " was",
+            " taken",
+            "."
+          ],
+          "ngram_str": " order was taken.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " drink",
+            " order",
+            " was",
+            " taken"
+          ],
+          "ngram_str": " drink order was taken",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " orders",
+            " were",
+            " taken",
+            "."
+          ],
+          "ngram_str": " orders were taken.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " our",
+            " drink",
+            " orders",
+            " were"
+          ],
+          "ngram_str": " our drink orders were",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " order",
+            " to",
+            " be",
+            " taken"
+          ],
+          "ngram_str": " order to be taken",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " and",
+            " our",
+            " drink",
+            " orders"
+          ],
+          "ngram_str": " and our drink orders",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " order",
+            " was",
+            " taken",
+            " and"
+          ],
+          "ngram_str": " order was taken and",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " have",
+            " our",
+            " order",
+            " taken"
+          ],
+          "ngram_str": " have our order taken",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " Our",
+            " order",
+            " was",
+            " taken"
+          ],
+          "ngram_str": " Our order was taken",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " our",
+            " drink",
+            " orders",
+            " taken"
+          ],
+          "ngram_str": " our drink orders taken",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " to",
+            " have",
+            " our",
+            " order"
+          ],
+          "ngram_str": " to have our order",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " our",
+            " drink",
+            " order",
+            " taken"
+          ],
+          "ngram_str": " our drink order taken",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Our",
+            " order",
+            " was"
+          ],
+          "ngram_str": ". Our order was",
+          "count": 18,
+          "percent": 3.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 45500000,
+      "corpus_coverage": 0.88
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 8074,
+        "count": 7434,
+        "percent": 74.34
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4642,
+        "percent": 46.42
+      },
+      {
+        "feature_idx": 20403,
+        "count": 4505,
+        "percent": 45.05
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3874,
+        "percent": 38.74
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3610,
+        "percent": 36.1
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3502,
+        "percent": 35.02
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3447,
+        "percent": 34.47
+      },
+      {
+        "feature_idx": 21034,
+        "count": 3228,
+        "percent": 32.28
+      },
+      {
+        "feature_idx": 15459,
+        "count": 2912,
+        "percent": 29.12
+      },
+      {
+        "feature_idx": 13970,
+        "count": 2777,
+        "percent": 27.77
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2737,
+        "percent": 27.37
+      },
+      {
+        "feature_idx": 13293,
+        "count": 2677,
+        "percent": 26.77
+      },
+      {
+        "feature_idx": 6743,
+        "count": 2646,
+        "percent": 26.46
+      },
+      {
+        "feature_idx": 4933,
+        "count": 2643,
+        "percent": 26.43
+      },
+      {
+        "feature_idx": 7696,
+        "count": 2615,
+        "percent": 26.15
+      },
+      {
+        "feature_idx": 19906,
+        "count": 2528,
+        "percent": 25.28
+      },
+      {
+        "feature_idx": 18642,
+        "count": 2499,
+        "percent": 24.99
+      },
+      {
+        "feature_idx": 18656,
+        "count": 2488,
+        "percent": 24.88
+      },
+      {
+        "feature_idx": 16549,
+        "count": 2374,
+        "percent": 23.74
+      },
+      {
+        "feature_idx": 14388,
+        "count": 2374,
+        "percent": 23.74
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 45500000,
+      "corpus_coverage": 0.88
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1510,
+        "percent": 15.1
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2680,
+        "percent": 26.8
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2442,
+        "percent": 24.42
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1978,
+        "percent": 19.78
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1390,
+        "percent": 13.9
+      }
+    ],
+    "mean_position": 0.4825,
+    "std_position": 0.2517
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 26,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0248,
+      "p25": 0.035,
+      "p50": 0.0395,
+      "p75": 0.113,
+      "p90": 0.1535,
+      "p95": 0.1703,
+      "p99": 0.1991
+    },
+    "skewness": 0.9824,
+    "kurtosis": -0.2937,
+    "min": 0.0157,
+    "max": 0.208,
+    "mean": 0.0729,
+    "std": 0.0542
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 26,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " taken",
+        "count": 8,
+        "mean_activation": 0.1102
+      },
+      {
+        "token": " private",
+        "count": 4,
+        "mean_activation": 0.1329
+      },
+      {
+        "token": " thrown",
+        "count": 2,
+        "mean_activation": 0.0386
+      },
+      {
+        "token": " let",
+        "count": 1,
+        "mean_activation": 0.0367
+      },
+      {
+        "token": " put",
+        "count": 1,
+        "mean_activation": 0.025
+      },
+      {
+        "token": ",",
+        "count": 1,
+        "mean_activation": 0.0234
+      },
+      {
+        "token": " right",
+        "count": 1,
+        "mean_activation": 0.0287
+      },
+      {
+        "token": " away",
+        "count": 1,
+        "mean_activation": 0.0403
+      },
+      {
+        "token": " before",
+        "count": 1,
+        "mean_activation": 0.0355
+      },
+      {
+        "token": " replaced",
+        "count": 1,
+        "mean_activation": 0.0631
+      }
+    ]
+  }
+}

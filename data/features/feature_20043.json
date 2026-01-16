@@ -1,0 +1,876 @@
+{
+  "feature_idx": 20043,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 2140,
+    "mean_when_active": 0.03295443704195112,
+    "max_activation": 0.10308837890625,
+    "std_when_active": 0.01471153484859982,
+    "activation_rate": 0.0214
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 2200000,
+      "corpus_coverage": 0.0426
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 1644,
+        "mean_activation": 0.029939980982573944
+      },
+      {
+        "token": " is",
+        "count": 1299,
+        "mean_activation": 0.031952397652641455
+      },
+      {
+        "token": " they",
+        "count": 1138,
+        "mean_activation": 0.03671186209143989
+      },
+      {
+        "token": " a",
+        "count": 1049,
+        "mean_activation": 0.03184402363998078
+      },
+      {
+        "token": " to",
+        "count": 923,
+        "mean_activation": 0.03760584772343496
+      },
+      {
+        "token": " and",
+        "count": 912,
+        "mean_activation": 0.03663991626940275
+      },
+      {
+        "token": " you",
+        "count": 904,
+        "mean_activation": 0.0379981066273377
+      },
+      {
+        "token": " of",
+        "count": 902,
+        "mean_activation": 0.034513968321806573
+      },
+      {
+        "token": ",",
+        "count": 873,
+        "mean_activation": 0.03334918464581991
+      },
+      {
+        "token": " this",
+        "count": 772,
+        "mean_activation": 0.035101599026220454
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 2200000,
+      "corpus_coverage": 0.0426
+    },
+    "activations": [
+      {
+        "context": "...vertising practice.** Instead** of 4 star rating, ...",
+        "active_token": " Instead",
+        "activation": 0.158203125,
+        "review_id": "uI6ZJAAMPhJIJexwUT0jSA",
+        "position": 341
+      },
+      {
+        "context": "...is a greedy price gou**ger** as if you look at Tac...",
+        "active_token": "ger",
+        "activation": 0.1458740234375,
+        "review_id": "LWzG17aTHgPtf7Exae-eRQ",
+        "position": 23
+      },
+      {
+        "context": "... don't support this** madness**.",
+        "active_token": " madness",
+        "activation": 0.14306640625,
+        "review_id": "7GXh0xEcIU1zQ_aEw9xo4Q",
+        "position": 307
+      },
+      {
+        "context": "...and it is a disgrace** that** I can't get a free c...",
+        "active_token": " that",
+        "activation": 0.1424560546875,
+        "review_id": "Yf6ZIhqBySbfgoKKrHUzVg",
+        "position": 58
+      },
+      {
+        "context": "...e are incompetent and** don**'t care.  We won't be...",
+        "active_token": " don",
+        "activation": 0.1424560546875,
+        "review_id": "6Xw5v4xL0FuYzYaeIKQ9dw",
+        "position": 33
+      },
+      {
+        "context": "... is unacceptable.  Don**'t** go to casino del sol ...",
+        "active_token": "'t",
+        "activation": 0.14111328125,
+        "review_id": "sy8GjGG41P4p3QDjDSMiDw",
+        "position": 57
+      },
+      {
+        "context": "...ng and waste of money** to** get there",
+        "active_token": " to",
+        "activation": 0.140380859375,
+        "review_id": "hDqERkXM556FfucaOibwpw",
+        "position": 49
+      },
+      {
+        "context": "...your management staff** for** not knowing better!!...",
+        "active_token": " for",
+        "activation": 0.1368408203125,
+        "review_id": "ApWGeaJEUBRwk0uXbCbq2Q",
+        "position": 375
+      },
+      {
+        "context": "...ce, simply pathetic!** What** is she being tipped ...",
+        "active_token": " What",
+        "activation": 0.1363525390625,
+        "review_id": "YU8myeMqbJNL2jIyu2T_GQ",
+        "position": 426
+      },
+      {
+        "context": "...oney here any longer,** you**ll only be ripped off...",
+        "active_token": " you",
+        "activation": 0.135009765625,
+        "review_id": "VUpOmululwGEe6Zi3-zGxw",
+        "position": 229
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20043,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 4100000,
+      "corpus_coverage": 0.0793,
+      "activation_range": {
+        "min": 0.0992,
+        "max": 0.1779,
+        "mean": 0.1114
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " don",
+            "'t"
+          ],
+          "ngram_str": " don't",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " this",
+            " is"
+          ],
+          "ngram_str": " this is",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " care"
+          ],
+          "ngram_str": "'t care",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " This",
+            " is"
+          ],
+          "ngram_str": " This is",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " to",
+            " be"
+          ],
+          "ngram_str": " to be",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " rude",
+            " and"
+          ],
+          "ngram_str": " rude and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " they",
+            " don"
+          ],
+          "ngram_str": " they don",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " and",
+            " you"
+          ],
+          "ngram_str": " and you",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " you"
+          ],
+          "ngram_str": ", you",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Instead"
+          ],
+          "ngram_str": ". Instead",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " is",
+            " rude"
+          ],
+          "ngram_str": " is rude",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " care"
+          ],
+          "ngram_str": " don't care",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " they",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " they don't",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " is",
+            " rude",
+            " and"
+          ],
+          "ngram_str": " is rude and",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " and",
+            " doesn",
+            "'t"
+          ],
+          "ngram_str": " and doesn't",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " people",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " people don't",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " rude",
+            " and",
+            " this"
+          ],
+          "ngram_str": " rude and this",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " should",
+            " be",
+            " ashamed"
+          ],
+          "ngram_str": " should be ashamed",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Complete",
+            "ly"
+          ],
+          "ngram_str": ". Completely",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " Complete",
+            "ly",
+            " incompetent"
+          ],
+          "ngram_str": " Completely incompetent",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "ly",
+            " incompetent",
+            " on"
+          ],
+          "ngram_str": "ly incompetent on",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " this",
+            " is",
+            " rude"
+          ],
+          "ngram_str": " this is rude",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " and",
+            " this",
+            " is"
+          ],
+          "ngram_str": " and this is",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " care",
+            " about"
+          ],
+          "ngram_str": "'t care about",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " This",
+            " is"
+          ],
+          "ngram_str": ". This is",
+          "count": 5,
+          "percent": 1.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " is",
+            " rude",
+            " and",
+            " this"
+          ],
+          "ngram_str": " is rude and this",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Complete",
+            "ly",
+            " incompetent"
+          ],
+          "ngram_str": ". Completely incompetent",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " Complete",
+            "ly",
+            " incompetent",
+            " on"
+          ],
+          "ngram_str": " Completely incompetent on",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " this",
+            " is",
+            " rude",
+            " and"
+          ],
+          "ngram_str": " this is rude and",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " rude",
+            " and",
+            " this",
+            " is"
+          ],
+          "ngram_str": " rude and this is",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " care",
+            " about"
+          ],
+          "ngram_str": " don't care about",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " insane",
+            ".",
+            " Complete",
+            "ly"
+          ],
+          "ngram_str": " insane. Completely",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "ly",
+            " incompetent",
+            " on",
+            " the"
+          ],
+          "ngram_str": "ly incompetent on the",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " incompetent",
+            " on",
+            " the",
+            " managers"
+          ],
+          "ngram_str": " incompetent on the managers",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " unacceptable",
+            " this",
+            " is",
+            " rude"
+          ],
+          "ngram_str": " unacceptable this is rude",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " are",
+            " incompetent",
+            " and",
+            " don"
+          ],
+          "ngram_str": " are incompetent and don",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " incompetent",
+            " and",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " incompetent and don't",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " and",
+            " don",
+            "'t",
+            " care"
+          ],
+          "ngram_str": " and don't care",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " care",
+            "."
+          ],
+          "ngram_str": " don't care.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " pathetic",
+            "!",
+            " What",
+            " is"
+          ],
+          "ngram_str": " pathetic! What is",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 500000,
+      "corpus_coverage": 0.0097
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 4246,
+        "percent": 42.46
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4164,
+        "percent": 41.64
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4052,
+        "percent": 40.52
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4005,
+        "percent": 40.05
+      },
+      {
+        "feature_idx": 11476,
+        "count": 3387,
+        "percent": 33.87
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2379,
+        "percent": 23.79
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2251,
+        "percent": 22.51
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2193,
+        "percent": 21.93
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1984,
+        "percent": 19.84
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1952,
+        "percent": 19.52
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1662,
+        "percent": 16.62
+      },
+      {
+        "feature_idx": 11950,
+        "count": 1657,
+        "percent": 16.57
+      },
+      {
+        "feature_idx": 6329,
+        "count": 1439,
+        "percent": 14.39
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1286,
+        "percent": 12.86
+      },
+      {
+        "feature_idx": 14948,
+        "count": 1246,
+        "percent": 12.46
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1211,
+        "percent": 12.11
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1174,
+        "percent": 11.74
+      },
+      {
+        "feature_idx": 12609,
+        "count": 1095,
+        "percent": 10.95
+      },
+      {
+        "feature_idx": 12563,
+        "count": 1071,
+        "percent": 10.71
+      },
+      {
+        "feature_idx": 728,
+        "count": 1048,
+        "percent": 10.48
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 500000,
+      "corpus_coverage": 0.0097
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1690,
+        "percent": 16.9
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1630,
+        "percent": 16.3
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1759,
+        "percent": 17.59
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2000,
+        "percent": 20.0
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2921,
+        "percent": 29.21
+      }
+    ],
+    "mean_position": 0.5595,
+    "std_position": 0.2992
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 2140,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0179,
+      "p25": 0.0229,
+      "p50": 0.0295,
+      "p75": 0.0393,
+      "p90": 0.0527,
+      "p95": 0.0616,
+      "p99": 0.0828
+    },
+    "skewness": 1.3646,
+    "kurtosis": 2.4874,
+    "min": 0.0071,
+    "max": 0.1031,
+    "mean": 0.033,
+    "std": 0.0147
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 2140,
+      "unique_tokens_found": 647
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 66,
+        "mean_activation": 0.0278
+      },
+      {
+        "token": " is",
+        "count": 56,
+        "mean_activation": 0.0294
+      },
+      {
+        "token": ",",
+        "count": 49,
+        "mean_activation": 0.0338
+      },
+      {
+        "token": " they",
+        "count": 45,
+        "mean_activation": 0.037
+      },
+      {
+        "token": " this",
+        "count": 45,
+        "mean_activation": 0.0374
+      },
+      {
+        "token": " and",
+        "count": 44,
+        "mean_activation": 0.037
+      },
+      {
+        "token": " of",
+        "count": 42,
+        "mean_activation": 0.0329
+      },
+      {
+        "token": " a",
+        "count": 37,
+        "mean_activation": 0.0295
+      },
+      {
+        "token": " place",
+        "count": 36,
+        "mean_activation": 0.0233
+      },
+      {
+        "token": " you",
+        "count": 34,
+        "mean_activation": 0.0352
+      }
+    ]
+  }
+}

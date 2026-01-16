@@ -1,0 +1,851 @@
+{
+  "feature_idx": 7143,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 45,
+    "mean_when_active": 0.11064046223958333,
+    "max_activation": 0.3154296875,
+    "std_when_active": 0.08013617073623959,
+    "activation_rate": 0.00045
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 21516,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " of",
+        "count": 17325,
+        "mean_activation": 0.14443316350939642
+      },
+      {
+        "token": " the",
+        "count": 1658,
+        "mean_activation": 0.052055598168091265
+      },
+      {
+        "token": " a",
+        "count": 298,
+        "mean_activation": 0.051090880528392404
+      },
+      {
+        "token": "of",
+        "count": 253,
+        "mean_activation": 0.05826161501435894
+      },
+      {
+        "token": " on",
+        "count": 203,
+        "mean_activation": 0.04125751063154249
+      },
+      {
+        "token": "-",
+        "count": 198,
+        "mean_activation": 0.044016635779178505
+      },
+      {
+        "token": " to",
+        "count": 186,
+        "mean_activation": 0.036952521211357524
+      },
+      {
+        "token": " beyond",
+        "count": 175,
+        "mean_activation": 0.029357474190848214
+      },
+      {
+        "token": " OF",
+        "count": 88,
+        "mean_activation": 0.11609060114080255
+      },
+      {
+        "token": "ta",
+        "count": 79,
+        "mean_activation": 0.09355588502521757
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 21516,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...taurant they were out** of** fresh fish! \\nIf you r...",
+        "active_token": " of",
+        "activation": 0.359375,
+        "review_id": "Y7LWVaQSsZfrVPuBTMQIZQ",
+        "position": 182
+      },
+      {
+        "context": "...en told they were out** of** propane and wouldn't ...",
+        "active_token": " of",
+        "activation": 0.34765625,
+        "review_id": "LRWeZi8HXate9vJRlMZ7Bw",
+        "position": 155
+      },
+      {
+        "context": "...eady and you were out** of** stock!  You've had mo...",
+        "active_token": " of",
+        "activation": 0.345947265625,
+        "review_id": "rS1VJQZwKQlYiuuT0NPZeA",
+        "position": 63
+      },
+      {
+        "context": "... partner they are out** of** his order.  After re-...",
+        "active_token": " of",
+        "activation": 0.345458984375,
+        "review_id": "tLhxlRL-tzR_A3qwWf0K-A",
+        "position": 217
+      },
+      {
+        "context": "...o shut up, he was out** of** line. Anyway,  food i...",
+        "active_token": " of",
+        "activation": 0.34521484375,
+        "review_id": "Q6UNt3eM-brhgrSAl1TYDw",
+        "position": 175
+      },
+      {
+        "context": "...dinner you may be out** of** luck for a seat.",
+        "active_token": " of",
+        "activation": 0.34423828125,
+        "review_id": "pT5mgPG7mEuUQQMACJ1xyA",
+        "position": 169
+      },
+      {
+        "context": "...k day they may be out** of** items since they can ...",
+        "active_token": " of",
+        "activation": 0.343994140625,
+        "review_id": "jiogws4gljIpDthlYxxbjQ",
+        "position": 177
+      },
+      {
+        "context": "... should be, we're out** of** 50% of everything, ac...",
+        "active_token": " of",
+        "activation": 0.343505859375,
+        "review_id": "3v_td0fHd42G7RebYdIz9w",
+        "position": 32
+      },
+      {
+        "context": "...day and they were out** of** almost everything. Ab...",
+        "active_token": " of",
+        "activation": 0.3427734375,
+        "review_id": "3jb5VoKvMf4fLPLZFoA9Ow",
+        "position": 167
+      },
+      {
+        "context": "...dy says....we are out** of** everything!! Really, ...",
+        "active_token": " of",
+        "activation": 0.3427734375,
+        "review_id": "dr3cpeK9kvJGW7ct6o1Hag",
+        "position": 90
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 7143,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3137,
+        "max": 0.3594,
+        "mean": 0.3233
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " out",
+            " of"
+          ],
+          "ngram_str": " out of",
+          "count": 503,
+          "percent": 100.6
+        },
+        {
+          "ngram": [
+            " were",
+            " out"
+          ],
+          "ngram_str": " were out",
+          "count": 313,
+          "percent": 62.6
+        },
+        {
+          "ngram": [
+            " they",
+            " were"
+          ],
+          "ngram_str": " they were",
+          "count": 256,
+          "percent": 51.2
+        },
+        {
+          "ngram": [
+            "'re",
+            " out"
+          ],
+          "ngram_str": "'re out",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " that",
+            " they"
+          ],
+          "ngram_str": " that they",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " are",
+            " out"
+          ],
+          "ngram_str": " are out",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " told",
+            " they"
+          ],
+          "ngram_str": " told they",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " said",
+            " they"
+          ],
+          "ngram_str": " said they",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " they"
+          ],
+          "ngram_str": " and they",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " we",
+            "'re"
+          ],
+          "ngram_str": " we're",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " They",
+            " were"
+          ],
+          "ngram_str": " They were",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " chips"
+          ],
+          "ngram_str": " of chips",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " were",
+            " out",
+            " of"
+          ],
+          "ngram_str": " were out of",
+          "count": 311,
+          "percent": 62.2
+        },
+        {
+          "ngram": [
+            " they",
+            " were",
+            " out"
+          ],
+          "ngram_str": " they were out",
+          "count": 250,
+          "percent": 50.0
+        },
+        {
+          "ngram": [
+            "'re",
+            " out",
+            " of"
+          ],
+          "ngram_str": "'re out of",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " that",
+            " they",
+            " were"
+          ],
+          "ngram_str": " that they were",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " are",
+            " out",
+            " of"
+          ],
+          "ngram_str": " are out of",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " the"
+          ],
+          "ngram_str": " out of the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " told",
+            " they",
+            " were"
+          ],
+          "ngram_str": " told they were",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " we",
+            "'re",
+            " out"
+          ],
+          "ngram_str": " we're out",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " said",
+            " they",
+            " were"
+          ],
+          "ngram_str": " said they were",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " They",
+            " were",
+            " out"
+          ],
+          "ngram_str": " They were out",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " and",
+            " they",
+            " were"
+          ],
+          "ngram_str": " and they were",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " chips"
+          ],
+          "ngram_str": " out of chips",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " we",
+            " are",
+            " out"
+          ],
+          "ngram_str": " we are out",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " us",
+            " they",
+            " were"
+          ],
+          "ngram_str": " us they were",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " they",
+            "'re",
+            " out"
+          ],
+          "ngram_str": " they're out",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " they",
+            " were",
+            " out",
+            " of"
+          ],
+          "ngram_str": " they were out of",
+          "count": 249,
+          "percent": 49.8
+        },
+        {
+          "ngram": [
+            " that",
+            " they",
+            " were",
+            " out"
+          ],
+          "ngram_str": " that they were out",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " told",
+            " they",
+            " were",
+            " out"
+          ],
+          "ngram_str": " told they were out",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " we",
+            "'re",
+            " out",
+            " of"
+          ],
+          "ngram_str": " we're out of",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " said",
+            " they",
+            " were",
+            " out"
+          ],
+          "ngram_str": " said they were out",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " were",
+            " out",
+            " of",
+            " the"
+          ],
+          "ngram_str": " were out of the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " They",
+            " were",
+            " out",
+            " of"
+          ],
+          "ngram_str": " They were out of",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " and",
+            " they",
+            " were",
+            " out"
+          ],
+          "ngram_str": " and they were out",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " we",
+            " are",
+            " out",
+            " of"
+          ],
+          "ngram_str": " we are out of",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " us",
+            " they",
+            " were",
+            " out"
+          ],
+          "ngram_str": " us they were out",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " they",
+            "'re",
+            " out",
+            " of"
+          ],
+          "ngram_str": " they're out of",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " They",
+            " were",
+            " out"
+          ],
+          "ngram_str": ". They were out",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " was",
+            " told",
+            " they",
+            " were"
+          ],
+          "ngram_str": " was told they were",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " they",
+            " are",
+            " out",
+            " of"
+          ],
+          "ngram_str": " they are out of",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " out",
+            " of"
+          ],
+          "ngram_str": " we were out of",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 24000000,
+      "corpus_coverage": 0.4642
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22389,
+        "count": 8897,
+        "percent": 88.97
+      },
+      {
+        "feature_idx": 9127,
+        "count": 8294,
+        "percent": 82.94
+      },
+      {
+        "feature_idx": 6560,
+        "count": 8102,
+        "percent": 81.02
+      },
+      {
+        "feature_idx": 4997,
+        "count": 7037,
+        "percent": 70.37
+      },
+      {
+        "feature_idx": 5196,
+        "count": 6945,
+        "percent": 69.45
+      },
+      {
+        "feature_idx": 11023,
+        "count": 6858,
+        "percent": 68.58
+      },
+      {
+        "feature_idx": 168,
+        "count": 6053,
+        "percent": 60.53
+      },
+      {
+        "feature_idx": 6063,
+        "count": 5680,
+        "percent": 56.8
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5152,
+        "percent": 51.52
+      },
+      {
+        "feature_idx": 22691,
+        "count": 5101,
+        "percent": 51.01
+      },
+      {
+        "feature_idx": 12609,
+        "count": 3925,
+        "percent": 39.25
+      },
+      {
+        "feature_idx": 11199,
+        "count": 3924,
+        "percent": 39.24
+      },
+      {
+        "feature_idx": 7951,
+        "count": 3812,
+        "percent": 38.12
+      },
+      {
+        "feature_idx": 17861,
+        "count": 3717,
+        "percent": 37.17
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3713,
+        "percent": 37.13
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3605,
+        "percent": 36.05
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3589,
+        "percent": 35.89
+      },
+      {
+        "feature_idx": 18540,
+        "count": 3485,
+        "percent": 34.85
+      },
+      {
+        "feature_idx": 12234,
+        "count": 3221,
+        "percent": 32.21
+      },
+      {
+        "feature_idx": 8851,
+        "count": 3082,
+        "percent": 30.82
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 24000000,
+      "corpus_coverage": 0.4642
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1779,
+        "percent": 17.79
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2134,
+        "percent": 21.34
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2000,
+        "percent": 20.0
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1985,
+        "percent": 19.85
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2102,
+        "percent": 21.02
+      }
+    ],
+    "mean_position": 0.5108,
+    "std_position": 0.2839
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 45,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0337,
+      "p25": 0.0438,
+      "p50": 0.0834,
+      "p75": 0.1691,
+      "p90": 0.2243,
+      "p95": 0.252,
+      "p99": 0.3074
+    },
+    "skewness": 0.8422,
+    "kurtosis": -0.3743,
+    "min": 0.0225,
+    "max": 0.3154,
+    "mean": 0.1106,
+    "std": 0.0801
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 45,
+      "unique_tokens_found": 5
+    },
+    "tokens": [
+      {
+        "token": " of",
+        "count": 37,
+        "mean_activation": 0.1257
+      },
+      {
+        "token": " the",
+        "count": 4,
+        "mean_activation": 0.0421
+      },
+      {
+        "token": "of",
+        "count": 2,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " a",
+        "count": 1,
+        "mean_activation": 0.0528
+      },
+      {
+        "token": " to",
+        "count": 1,
+        "mean_activation": 0.0374
+      }
+    ]
+  }
+}

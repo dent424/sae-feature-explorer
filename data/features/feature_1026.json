@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1026,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 28,
+    "mean_when_active": 0.07642310006277901,
+    "max_activation": 0.157958984375,
+    "std_when_active": 0.04463099784556867,
+    "activation_rate": 0.00028
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 15342,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " was",
+        "count": 3575,
+        "mean_activation": 0.08678225857394559
+      },
+      {
+        "token": " is",
+        "count": 2668,
+        "mean_activation": 0.07463708274189321
+      },
+      {
+        "token": " be",
+        "count": 1411,
+        "mean_activation": 0.05081298957894999
+      },
+      {
+        "token": " were",
+        "count": 861,
+        "mean_activation": 0.06971648567368068
+      },
+      {
+        "token": " a",
+        "count": 661,
+        "mean_activation": 0.0393371466609245
+      },
+      {
+        "token": " to",
+        "count": 556,
+        "mean_activation": 0.04403100596915046
+      },
+      {
+        "token": " would",
+        "count": 438,
+        "mean_activation": 0.07812189946980237
+      },
+      {
+        "token": " are",
+        "count": 417,
+        "mean_activation": 0.07235648248978942
+      },
+      {
+        "token": " as",
+        "count": 302,
+        "mean_activation": 0.042229507143134316
+      },
+      {
+        "token": " I",
+        "count": 196,
+        "mean_activation": 0.029708589826311384
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 15342,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...side, which I thought** was** pretty decent. \\n\\nThe...",
+        "active_token": " was",
+        "activation": 0.192138671875,
+        "review_id": "9R_XwXynaqGI83Dtn1bkZg",
+        "position": 93
+      },
+      {
+        "context": "...which we weren't sure** was** for everyone to use,...",
+        "active_token": " was",
+        "activation": 0.1817626953125,
+        "review_id": "3XH9KIjms66vzOowV4g8sw",
+        "position": 24
+      },
+      {
+        "context": "...ght, which he thought** was** awesome, I had the f...",
+        "active_token": " was",
+        "activation": 0.17919921875,
+        "review_id": "LrHgx4HlK1wT372rzQm0oQ",
+        "position": 47
+      },
+      {
+        "context": "...ico (which we thought** was** pretty interesting)....",
+        "active_token": " was",
+        "activation": 0.1781005859375,
+        "review_id": "m1ETFLUxLL2MDDHjX7oWog",
+        "position": 34
+      },
+      {
+        "context": "...t I've always thought** is** so ridiculous since I...",
+        "active_token": " is",
+        "activation": 0.177490234375,
+        "review_id": "bOWOdNn85VrkDd1tjUsBNw",
+        "position": 106
+      },
+      {
+        "context": "...self, which I thought** was** nice.  It took the w...",
+        "active_token": " was",
+        "activation": 0.1766357421875,
+        "review_id": "QEDFxJmMEUb4XMt1_tDrxQ",
+        "position": 633
+      },
+      {
+        "context": "...hich I always thought** was** a hard dish to mess ...",
+        "active_token": " was",
+        "activation": 0.17578125,
+        "review_id": "pbDx1NGgr87-QNxUKyP60g",
+        "position": 220
+      },
+      {
+        "context": "...ng before and thought** was** wicked awesome! \\n\\nTh...",
+        "active_token": " was",
+        "activation": 0.1748046875,
+        "review_id": "Lv7J_ISgyfv2wDqBpTGvLg",
+        "position": 185
+      },
+      {
+        "context": "... which I always think** is** a nice touch.\\n\\nDo not...",
+        "active_token": " is",
+        "activation": 0.1748046875,
+        "review_id": "WuuexBqwPe3zjPm4FRavhw",
+        "position": 278
+      },
+      {
+        "context": "...ch I am now convinced** is** the best place to be ...",
+        "active_token": " is",
+        "activation": 0.1746826171875,
+        "review_id": "1lFY3wMXv1wS9hNkqGY6xg",
+        "position": 184
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1026,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1476,
+        "max": 0.1921,
+        "mean": 0.1561
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " thought",
+            " was"
+          ],
+          "ngram_str": " thought was",
+          "count": 351,
+          "percent": 70.2
+        },
+        {
+          "ngram": [
+            " which",
+            " I"
+          ],
+          "ngram_str": " which I",
+          "count": 330,
+          "percent": 66.0
+        },
+        {
+          "ngram": [
+            " I",
+            " thought"
+          ],
+          "ngram_str": " I thought",
+          "count": 303,
+          "percent": 60.6
+        },
+        {
+          "ngram": [
+            ",",
+            " which"
+          ],
+          "ngram_str": ", which",
+          "count": 159,
+          "percent": 31.8
+        },
+        {
+          "ngram": [
+            " was",
+            " a"
+          ],
+          "ngram_str": " was a",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " think",
+            " is"
+          ],
+          "ngram_str": " think is",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " I",
+            " think"
+          ],
+          "ngram_str": " I think",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " which",
+            " we"
+          ],
+          "ngram_str": " which we",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " was",
+            " very"
+          ],
+          "ngram_str": " was very",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " (",
+            "which"
+          ],
+          "ngram_str": " (which",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "which",
+            " I"
+          ],
+          "ngram_str": "which I",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " was",
+            " really"
+          ],
+          "ngram_str": " was really",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " thought",
+            " was"
+          ],
+          "ngram_str": " I thought was",
+          "count": 289,
+          "percent": 57.8
+        },
+        {
+          "ngram": [
+            " which",
+            " I",
+            " thought"
+          ],
+          "ngram_str": " which I thought",
+          "count": 251,
+          "percent": 50.2
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " I"
+          ],
+          "ngram_str": ", which I",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " thought",
+            " was",
+            " a"
+          ],
+          "ngram_str": " thought was a",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " I",
+            " think",
+            " is"
+          ],
+          "ngram_str": " I think is",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " which",
+            " I",
+            " think"
+          ],
+          "ngram_str": " which I think",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " thought",
+            " was",
+            " very"
+          ],
+          "ngram_str": " thought was very",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " thought",
+            " was",
+            " pretty"
+          ],
+          "ngram_str": " thought was pretty",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " we",
+            " thought",
+            " was"
+          ],
+          "ngram_str": " we thought was",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " thought",
+            " was",
+            " really"
+          ],
+          "ngram_str": " thought was really",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " (",
+            "which",
+            " I"
+          ],
+          "ngram_str": " (which I",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " thought",
+            " was",
+            " odd"
+          ],
+          "ngram_str": " thought was odd",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " nice"
+          ],
+          "ngram_str": " was a nice",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " little"
+          ],
+          "ngram_str": " was a little",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " which",
+            " I",
+            " thought",
+            " was"
+          ],
+          "ngram_str": " which I thought was",
+          "count": 240,
+          "percent": 48.0
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " I",
+            " thought"
+          ],
+          "ngram_str": ", which I thought",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            " I",
+            " thought",
+            " was",
+            " a"
+          ],
+          "ngram_str": " I thought was a",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " which",
+            " I",
+            " think",
+            " is"
+          ],
+          "ngram_str": " which I think is",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " I",
+            " thought",
+            " was",
+            " pretty"
+          ],
+          "ngram_str": " I thought was pretty",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " I",
+            " thought",
+            " was",
+            " very"
+          ],
+          "ngram_str": " I thought was very",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " thought",
+            " was",
+            " a",
+            " nice"
+          ],
+          "ngram_str": " thought was a nice",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " I",
+            " thought",
+            " was",
+            " odd"
+          ],
+          "ngram_str": " I thought was odd",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " I",
+            " thought",
+            " was",
+            " really"
+          ],
+          "ngram_str": " I thought was really",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " which",
+            " we",
+            " thought",
+            " was"
+          ],
+          "ngram_str": " which we thought was",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " thought",
+            " was",
+            " a",
+            " little"
+          ],
+          "ngram_str": " thought was a little",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "which",
+            " I",
+            " thought",
+            " was"
+          ],
+          "ngram_str": "which I thought was",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " (",
+            "which",
+            " I",
+            " thought"
+          ],
+          "ngram_str": " (which I thought",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " which",
+            " I",
+            " thought",
+            " were"
+          ],
+          "ngram_str": " which I thought were",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 33500000,
+      "corpus_coverage": 0.6479
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20619,
+        "count": 6325,
+        "percent": 63.25
+      },
+      {
+        "feature_idx": 20403,
+        "count": 4717,
+        "percent": 47.17
+      },
+      {
+        "feature_idx": 18456,
+        "count": 4476,
+        "percent": 44.76
+      },
+      {
+        "feature_idx": 1935,
+        "count": 4403,
+        "percent": 44.03
+      },
+      {
+        "feature_idx": 6737,
+        "count": 4240,
+        "percent": 42.4
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4151,
+        "percent": 41.51
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4125,
+        "percent": 41.25
+      },
+      {
+        "feature_idx": 4109,
+        "count": 3631,
+        "percent": 36.31
+      },
+      {
+        "feature_idx": 20787,
+        "count": 3602,
+        "percent": 36.02
+      },
+      {
+        "feature_idx": 8162,
+        "count": 3469,
+        "percent": 34.69
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3176,
+        "percent": 31.76
+      },
+      {
+        "feature_idx": 7728,
+        "count": 3120,
+        "percent": 31.2
+      },
+      {
+        "feature_idx": 17816,
+        "count": 3082,
+        "percent": 30.82
+      },
+      {
+        "feature_idx": 8091,
+        "count": 3065,
+        "percent": 30.65
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2975,
+        "percent": 29.75
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2864,
+        "percent": 28.64
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2812,
+        "percent": 28.12
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2514,
+        "percent": 25.14
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2353,
+        "percent": 23.53
+      },
+      {
+        "feature_idx": 23274,
+        "count": 2113,
+        "percent": 21.13
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 33500000,
+      "corpus_coverage": 0.6479
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1290,
+        "percent": 12.9
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2101,
+        "percent": 21.01
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2495,
+        "percent": 24.95
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2407,
+        "percent": 24.07
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1707,
+        "percent": 17.07
+      }
+    ],
+    "mean_position": 0.5237,
+    "std_position": 0.2541
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 28,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0261,
+      "p25": 0.0381,
+      "p50": 0.0582,
+      "p75": 0.1163,
+      "p90": 0.1413,
+      "p95": 0.1517,
+      "p99": 0.1577
+    },
+    "skewness": 0.4068,
+    "kurtosis": -1.2491,
+    "min": 0.019,
+    "max": 0.158,
+    "mean": 0.0764,
+    "std": 0.0446
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 28,
+      "unique_tokens_found": 11
+    },
+    "tokens": [
+      {
+        "token": " was",
+        "count": 8,
+        "mean_activation": 0.099
+      },
+      {
+        "token": " is",
+        "count": 7,
+        "mean_activation": 0.0921
+      },
+      {
+        "token": " a",
+        "count": 3,
+        "mean_activation": 0.0422
+      },
+      {
+        "token": " to",
+        "count": 2,
+        "mean_activation": 0.059
+      },
+      {
+        "token": " be",
+        "count": 2,
+        "mean_activation": 0.0674
+      },
+      {
+        "token": " very",
+        "count": 1,
+        "mean_activation": 0.0533
+      },
+      {
+        "token": " would",
+        "count": 1,
+        "mean_activation": 0.1333
+      },
+      {
+        "token": " I",
+        "count": 1,
+        "mean_activation": 0.0535
+      },
+      {
+        "token": "'ve",
+        "count": 1,
+        "mean_activation": 0.0393
+      },
+      {
+        "token": " apparently",
+        "count": 1,
+        "mean_activation": 0.019
+      }
+    ]
+  }
+}

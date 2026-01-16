@@ -1,0 +1,876 @@
+{
+  "feature_idx": 13246,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 15,
+    "mean_when_active": 0.06573994954427083,
+    "max_activation": 0.2440185546875,
+    "std_when_active": 0.06230657336158928,
+    "activation_rate": 0.00015
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7615,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " choice",
+        "count": 2890,
+        "mean_activation": 0.12577660900498758
+      },
+      {
+        "token": " choose",
+        "count": 800,
+        "mean_activation": 0.04038542747497559
+      },
+      {
+        "token": " pick",
+        "count": 586,
+        "mean_activation": 0.057925110384059036
+      },
+      {
+        "token": " of",
+        "count": 515,
+        "mean_activation": 0.03094349092650182
+      },
+      {
+        "token": " side",
+        "count": 459,
+        "mean_activation": 0.03831127889795241
+      },
+      {
+        "token": " choices",
+        "count": 242,
+        "mean_activation": 0.04017985950816761
+      },
+      {
+        "token": " name",
+        "count": 174,
+        "mean_activation": 0.05105187427038434
+      },
+      {
+        "token": " order",
+        "count": 147,
+        "mean_activation": 0.030740647088913692
+      },
+      {
+        "token": " favorite",
+        "count": 122,
+        "mean_activation": 0.03374181028272285
+      },
+      {
+        "token": " standard",
+        "count": 116,
+        "mean_activation": 0.023623828230233027
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7615,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "..., more cheese, your** choice** of meat, salsa, oni...",
+        "active_token": " choice",
+        "activation": 0.319091796875,
+        "review_id": "-RTuYvsrNS9hImknjJWIxg",
+        "position": 178
+      },
+      {
+        "context": "...azing burgers (your** choice** - turkey, tempeh, w...",
+        "active_token": " choice",
+        "activation": 0.314697265625,
+        "review_id": "eDRW2Kp9nH3HKX8HajkE1g",
+        "position": 74
+      },
+      {
+        "context": "... beans, queso, your** choice** of meat, and as man...",
+        "active_token": " choice",
+        "activation": 0.3134765625,
+        "review_id": "c2ruCqGszXd8tsRpZ7SC2Q",
+        "position": 85
+      },
+      {
+        "context": "... pepper sauce, your** choice** of protein, and a f...",
+        "active_token": " choice",
+        "activation": 0.31298828125,
+        "review_id": "_WncoRDsCb3Hn3iNTEFcdA",
+        "position": 209
+      },
+      {
+        "context": "...d with cheese, your** choice** of egg (egg white s...",
+        "active_token": " choice",
+        "activation": 0.311767578125,
+        "review_id": "DnT7vWzinndHbQtW5j-04g",
+        "position": 417
+      },
+      {
+        "context": "...a ingredients: your** choice** of chicken, pork ca...",
+        "active_token": " choice",
+        "activation": 0.311279296875,
+        "review_id": "N4WN3xkkDtjYsSfhK9MPTw",
+        "position": 208
+      },
+      {
+        "context": "...cos sold here (your** choice** between chicken, be...",
+        "active_token": " choice",
+        "activation": 0.310546875,
+        "review_id": "D34WpDV32lSpe_hwAiti8A",
+        "position": 10
+      },
+      {
+        "context": "...f three tacos (your** choice**). I got the Batter ...",
+        "active_token": " choice",
+        "activation": 0.309814453125,
+        "review_id": "Ub6PoakXLCWqs0lrvX7mRA",
+        "position": 12
+      },
+      {
+        "context": "...d cilantro and your** choice** of green or red sal...",
+        "active_token": " choice",
+        "activation": 0.30859375,
+        "review_id": "eOqRHxeqIdenK_vQtY4OrQ",
+        "position": 180
+      },
+      {
+        "context": "...rice, lettuce, your** choice** of meats grilled wi...",
+        "active_token": " choice",
+        "activation": 0.30859375,
+        "review_id": "bJ0-I9klcwOX-bFBujlwyw",
+        "position": 54
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13246,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2292,
+        "max": 0.3191,
+        "mean": 0.2612
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " choice",
+            " of"
+          ],
+          "ngram_str": " choice of",
+          "count": 467,
+          "percent": 93.4
+        },
+        {
+          "ngram": [
+            " your",
+            " choice"
+          ],
+          "ngram_str": " your choice",
+          "count": 456,
+          "percent": 91.2
+        },
+        {
+          "ngram": [
+            " with",
+            " your"
+          ],
+          "ngram_str": " with your",
+          "count": 189,
+          "percent": 37.8
+        },
+        {
+          "ngram": [
+            " and",
+            " your"
+          ],
+          "ngram_str": " and your",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            " of",
+            " meat"
+          ],
+          "ngram_str": " of meat",
+          "count": 153,
+          "percent": 30.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            ",",
+            " your"
+          ],
+          "ngram_str": ", your",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " meat",
+            ","
+          ],
+          "ngram_str": " meat,",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " meat",
+            "."
+          ],
+          "ngram_str": " meat.",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " tortillas",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " of",
+            " protein"
+          ],
+          "ngram_str": " of protein",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " corn",
+            " tort"
+          ],
+          "ngram_str": " corn tort",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " rice",
+            " and"
+          ],
+          "ngram_str": " rice and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "your",
+            " choice"
+          ],
+          "ngram_str": "your choice",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " your",
+            " choice",
+            " of"
+          ],
+          "ngram_str": " your choice of",
+          "count": 435,
+          "percent": 87.0
+        },
+        {
+          "ngram": [
+            " with",
+            " your",
+            " choice"
+          ],
+          "ngram_str": " with your choice",
+          "count": 189,
+          "percent": 37.8
+        },
+        {
+          "ngram": [
+            " and",
+            " your",
+            " choice"
+          ],
+          "ngram_str": " and your choice",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            " choice",
+            " of",
+            " meat"
+          ],
+          "ngram_str": " choice of meat",
+          "count": 152,
+          "percent": 30.4
+        },
+        {
+          "ngram": [
+            ",",
+            " your",
+            " choice"
+          ],
+          "ngram_str": ", your choice",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " your"
+          ],
+          "ngram_str": ", and your",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " of",
+            " meat",
+            ","
+          ],
+          "ngram_str": " of meat,",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " of",
+            " meat",
+            "."
+          ],
+          "ngram_str": " of meat.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " choice",
+            " of",
+            " protein"
+          ],
+          "ngram_str": " choice of protein",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " of",
+            " meat",
+            " ("
+          ],
+          "ngram_str": " of meat (",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " (",
+            "your",
+            " choice"
+          ],
+          "ngram_str": " (your choice",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " choice",
+            " of",
+            " chicken"
+          ],
+          "ngram_str": " choice of chicken",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " corn",
+            " or",
+            " flour"
+          ],
+          "ngram_str": " corn or flour",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " rice",
+            " and",
+            " your"
+          ],
+          "ngram_str": " rice and your",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " your"
+          ],
+          "ngram_str": " stuffed with your",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " with",
+            " your",
+            " choice",
+            " of"
+          ],
+          "ngram_str": " with your choice of",
+          "count": 189,
+          "percent": 37.8
+        },
+        {
+          "ngram": [
+            " and",
+            " your",
+            " choice",
+            " of"
+          ],
+          "ngram_str": " and your choice of",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            " your",
+            " choice",
+            " of",
+            " meat"
+          ],
+          "ngram_str": " your choice of meat",
+          "count": 146,
+          "percent": 29.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " your",
+            " choice"
+          ],
+          "ngram_str": ", and your choice",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ",",
+            " your",
+            " choice",
+            " of"
+          ],
+          "ngram_str": ", your choice of",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " choice",
+            " of",
+            " meat",
+            ","
+          ],
+          "ngram_str": " choice of meat,",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " choice",
+            " of",
+            " meat",
+            "."
+          ],
+          "ngram_str": " choice of meat.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " your",
+            " choice",
+            " of",
+            " protein"
+          ],
+          "ngram_str": " your choice of protein",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " choice",
+            " of",
+            " meat",
+            " ("
+          ],
+          "ngram_str": " choice of meat (",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " rice",
+            " and",
+            " your",
+            " choice"
+          ],
+          "ngram_str": " rice and your choice",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " your",
+            " choice"
+          ],
+          "ngram_str": " stuffed with your choice",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " cheese",
+            " and",
+            " your",
+            " choice"
+          ],
+          "ngram_str": " cheese and your choice",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " your",
+            " choice",
+            " of",
+            " salsa"
+          ],
+          "ngram_str": " your choice of salsa",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " comes",
+            " with",
+            " your",
+            " choice"
+          ],
+          "ngram_str": " comes with your choice",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " your",
+            " choice",
+            " of",
+            " beans"
+          ],
+          "ngram_str": " your choice of beans",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7615,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14723,
+        "count": 5547,
+        "percent": 72.84
+      },
+      {
+        "feature_idx": 4567,
+        "count": 4864,
+        "percent": 63.87
+      },
+      {
+        "feature_idx": 16391,
+        "count": 4468,
+        "percent": 58.67
+      },
+      {
+        "feature_idx": 17492,
+        "count": 3839,
+        "percent": 50.41
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3712,
+        "percent": 48.75
+      },
+      {
+        "feature_idx": 11865,
+        "count": 3575,
+        "percent": 46.95
+      },
+      {
+        "feature_idx": 14293,
+        "count": 3383,
+        "percent": 44.43
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3358,
+        "percent": 44.1
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3179,
+        "percent": 41.75
+      },
+      {
+        "feature_idx": 7720,
+        "count": 3100,
+        "percent": 40.71
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3083,
+        "percent": 40.49
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2906,
+        "percent": 38.16
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2842,
+        "percent": 37.32
+      },
+      {
+        "feature_idx": 22434,
+        "count": 2834,
+        "percent": 37.22
+      },
+      {
+        "feature_idx": 19907,
+        "count": 2488,
+        "percent": 32.67
+      },
+      {
+        "feature_idx": 5823,
+        "count": 2476,
+        "percent": 32.51
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2378,
+        "percent": 31.23
+      },
+      {
+        "feature_idx": 20730,
+        "count": 2184,
+        "percent": 28.68
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2093,
+        "percent": 27.49
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1938,
+        "percent": 25.45
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7615,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 872,
+        "percent": 11.45
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1836,
+        "percent": 24.11
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2131,
+        "percent": 27.98
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1674,
+        "percent": 21.98
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1102,
+        "percent": 14.47
+      }
+    ],
+    "mean_position": 0.5084,
+    "std_position": 0.2436
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 15,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0195,
+      "p25": 0.0268,
+      "p50": 0.0397,
+      "p75": 0.0735,
+      "p90": 0.1453,
+      "p95": 0.1784,
+      "p99": 0.2309
+    },
+    "skewness": 1.6887,
+    "kurtosis": 1.9152,
+    "min": 0.017,
+    "max": 0.244,
+    "mean": 0.0657,
+    "std": 0.0623
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 15,
+      "unique_tokens_found": 10
+    },
+    "tokens": [
+      {
+        "token": " choice",
+        "count": 4,
+        "mean_activation": 0.1468
+      },
+      {
+        "token": " side",
+        "count": 2,
+        "mean_activation": 0.0226
+      },
+      {
+        "token": " pick",
+        "count": 2,
+        "mean_activation": 0.0671
+      },
+      {
+        "token": " order",
+        "count": 1,
+        "mean_activation": 0.0285
+      },
+      {
+        "token": "ichever",
+        "count": 1,
+        "mean_activation": 0.0397
+      },
+      {
+        "token": " liking",
+        "count": 1,
+        "mean_activation": 0.0319
+      },
+      {
+        "token": " hometown",
+        "count": 1,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": " of",
+        "count": 1,
+        "mean_activation": 0.0191
+      },
+      {
+        "token": " standard",
+        "count": 1,
+        "mean_activation": 0.017
+      },
+      {
+        "token": " choose",
+        "count": 1,
+        "mean_activation": 0.0484
+      }
+    ]
+  }
+}

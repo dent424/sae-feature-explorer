@@ -1,0 +1,851 @@
+{
+  "feature_idx": 11187,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 12,
+    "mean_when_active": 0.1398932139078776,
+    "max_activation": 0.320068359375,
+    "std_when_active": 0.114111958049323,
+    "activation_rate": 0.00012
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7224,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " up",
+        "count": 3019,
+        "mean_activation": 0.19002880186148532
+      },
+      {
+        "token": " out",
+        "count": 369,
+        "mean_activation": 0.08856027494601118
+      },
+      {
+        "token": " of",
+        "count": 254,
+        "mean_activation": 0.03353857806348425
+      },
+      {
+        "token": " the",
+        "count": 189,
+        "mean_activation": 0.05015224880642361
+      },
+      {
+        "token": " off",
+        "count": 142,
+        "mean_activation": 0.04780052077602333
+      },
+      {
+        "token": " into",
+        "count": 131,
+        "mean_activation": 0.03722515542998569
+      },
+      {
+        "token": " topped",
+        "count": 102,
+        "mean_activation": 0.03185212378408395
+      },
+      {
+        "token": " covering",
+        "count": 98,
+        "mean_activation": 0.04537745884486607
+      },
+      {
+        "token": " comprised",
+        "count": 98,
+        "mean_activation": 0.07431980055205677
+      },
+      {
+        "token": " form",
+        "count": 93,
+        "mean_activation": 0.06304783974924395
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7224,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ity of the food makes** up** for everything else. ...",
+        "active_token": " up",
+        "activation": 0.391357421875,
+        "review_id": "jTuIqD-xgJDkwfXf_GtQlw",
+        "position": 78
+      },
+      {
+        "context": "...ity of the food makes** up** for these portions.  ...",
+        "active_token": " up",
+        "activation": 0.390869140625,
+        "review_id": "TudT8-FL3Jd8uzB0bM8SaA",
+        "position": 40
+      },
+      {
+        "context": "...alads and donuts make** up** the highlights of Bet...",
+        "active_token": " up",
+        "activation": 0.390380859375,
+        "review_id": "ALFeeaVwk8xBsrI2ixlhBg",
+        "position": 51
+      },
+      {
+        "context": "...nd drink quality make** up** for it!",
+        "active_token": " up",
+        "activation": 0.38916015625,
+        "review_id": "6ZWDRAVNS8hed0UzaQjggA",
+        "position": 136
+      },
+      {
+        "context": "...d. But the food makes** up** for it--and it's all ...",
+        "active_token": " up",
+        "activation": 0.3876953125,
+        "review_id": "o8k1rIM4SbGaxbDogFGA9w",
+        "position": 22
+      },
+      {
+        "context": "...g, but the food makes** up** for it. A casual, fri...",
+        "active_token": " up",
+        "activation": 0.380615234375,
+        "review_id": "SE-4efBal05elcsFeCPiKg",
+        "position": 32
+      },
+      {
+        "context": "...ervice and food makes** up** for the tacky decorat...",
+        "active_token": " up",
+        "activation": 0.380615234375,
+        "review_id": "502GSo_vdf7M5xrYddz8EA",
+        "position": 5
+      },
+      {
+        "context": "...ervice and food makes** up** for the wait. I highl...",
+        "active_token": " up",
+        "activation": 0.38037109375,
+        "review_id": "gF8EkzGfOCIHuCnHPP-Caw",
+        "position": 17
+      },
+      {
+        "context": "...food, and drinks make** up** for it.  There's a ni...",
+        "active_token": " up",
+        "activation": 0.380126953125,
+        "review_id": "fvnIVLPT8eWDZoADXM5-Ag",
+        "position": 278
+      },
+      {
+        "context": "...ry but the food makes** up** for it.  5 stars :)",
+        "active_token": " up",
+        "activation": 0.380126953125,
+        "review_id": "_hLWpbgw7zHPO8vqwlex7g",
+        "position": 71
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11187,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3171,
+        "max": 0.3914,
+        "mean": 0.3432
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " up",
+            " for"
+          ],
+          "ngram_str": " up for",
+          "count": 447,
+          "percent": 89.4
+        },
+        {
+          "ngram": [
+            " makes",
+            " up"
+          ],
+          "ngram_str": " makes up",
+          "count": 273,
+          "percent": 54.6
+        },
+        {
+          "ngram": [
+            " for",
+            " it"
+          ],
+          "ngram_str": " for it",
+          "count": 270,
+          "percent": 54.0
+        },
+        {
+          "ngram": [
+            " it",
+            "."
+          ],
+          "ngram_str": " it.",
+          "count": 193,
+          "percent": 38.6
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 157,
+          "percent": 31.4
+        },
+        {
+          "ngram": [
+            " make",
+            " up"
+          ],
+          "ngram_str": " make up",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            " food",
+            " makes"
+          ],
+          "ngram_str": " food makes",
+          "count": 131,
+          "percent": 26.2
+        },
+        {
+          "ngram": [
+            " but",
+            " the"
+          ],
+          "ngram_str": " but the",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " made",
+            " up"
+          ],
+          "ngram_str": " made up",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " for",
+            " the"
+          ],
+          "ngram_str": " for the",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " for",
+            " that"
+          ],
+          "ngram_str": " for that",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " food",
+            " and"
+          ],
+          "ngram_str": " food and",
+          "count": 35,
+          "percent": 7.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " up",
+            " for",
+            " it"
+          ],
+          "ngram_str": " up for it",
+          "count": 270,
+          "percent": 54.0
+        },
+        {
+          "ngram": [
+            " makes",
+            " up",
+            " for"
+          ],
+          "ngram_str": " makes up for",
+          "count": 257,
+          "percent": 51.4
+        },
+        {
+          "ngram": [
+            " for",
+            " it",
+            "."
+          ],
+          "ngram_str": " for it.",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " food",
+            " makes",
+            " up"
+          ],
+          "ngram_str": " food makes up",
+          "count": 131,
+          "percent": 26.2
+        },
+        {
+          "ngram": [
+            " make",
+            " up",
+            " for"
+          ],
+          "ngram_str": " make up for",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " makes"
+          ],
+          "ngram_str": " the food makes",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " made",
+            " up",
+            " for"
+          ],
+          "ngram_str": " made up for",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " food"
+          ],
+          "ngram_str": " but the food",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " up",
+            " for",
+            " the"
+          ],
+          "ngram_str": " up for the",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " the"
+          ],
+          "ngram_str": ", but the",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " up",
+            " for",
+            " that"
+          ],
+          "ngram_str": " up for that",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " for",
+            " it",
+            "!"
+          ],
+          "ngram_str": " for it!",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " it",
+            ".",
+            " "
+          ],
+          "ngram_str": " it. ",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " for",
+            " that",
+            "."
+          ],
+          "ngram_str": " for that.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " and"
+          ],
+          "ngram_str": " the food and",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " up",
+            " for",
+            " it",
+            "."
+          ],
+          "ngram_str": " up for it.",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " makes",
+            " up",
+            " for",
+            " it"
+          ],
+          "ngram_str": " makes up for it",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " food",
+            " makes",
+            " up",
+            " for"
+          ],
+          "ngram_str": " food makes up for",
+          "count": 131,
+          "percent": 26.2
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " makes",
+            " up"
+          ],
+          "ngram_str": " the food makes up",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " food",
+            " makes"
+          ],
+          "ngram_str": " but the food makes",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " make",
+            " up",
+            " for",
+            " it"
+          ],
+          "ngram_str": " make up for it",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " made",
+            " up",
+            " for",
+            " it"
+          ],
+          "ngram_str": " made up for it",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " makes",
+            " up",
+            " for",
+            " the"
+          ],
+          "ngram_str": " makes up for the",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " the",
+            " food"
+          ],
+          "ngram_str": ", but the food",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " up",
+            " for",
+            " it",
+            "!"
+          ],
+          "ngram_str": " up for it!",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " for",
+            " it",
+            ".",
+            " "
+          ],
+          "ngram_str": " for it. ",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " up",
+            " for",
+            " that",
+            "."
+          ],
+          "ngram_str": " up for that.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " food",
+            " made",
+            " up",
+            " for"
+          ],
+          "ngram_str": " food made up for",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " make",
+            " up",
+            " for",
+            " that"
+          ],
+          "ngram_str": " make up for that",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " service",
+            " makes",
+            " up",
+            " for"
+          ],
+          "ngram_str": " service makes up for",
+          "count": 17,
+          "percent": 3.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7224,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11763,
+        "count": 4263,
+        "percent": 59.01
+      },
+      {
+        "feature_idx": 23658,
+        "count": 4089,
+        "percent": 56.6
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3270,
+        "percent": 45.27
+      },
+      {
+        "feature_idx": 4431,
+        "count": 3217,
+        "percent": 44.53
+      },
+      {
+        "feature_idx": 2933,
+        "count": 3096,
+        "percent": 42.86
+      },
+      {
+        "feature_idx": 17799,
+        "count": 3050,
+        "percent": 42.22
+      },
+      {
+        "feature_idx": 20826,
+        "count": 2939,
+        "percent": 40.68
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2833,
+        "percent": 39.22
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2760,
+        "percent": 38.21
+      },
+      {
+        "feature_idx": 2471,
+        "count": 2758,
+        "percent": 38.18
+      },
+      {
+        "feature_idx": 4506,
+        "count": 2430,
+        "percent": 33.64
+      },
+      {
+        "feature_idx": 20651,
+        "count": 2247,
+        "percent": 31.1
+      },
+      {
+        "feature_idx": 4392,
+        "count": 2174,
+        "percent": 30.09
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2169,
+        "percent": 30.02
+      },
+      {
+        "feature_idx": 14538,
+        "count": 2151,
+        "percent": 29.78
+      },
+      {
+        "feature_idx": 17504,
+        "count": 2082,
+        "percent": 28.82
+      },
+      {
+        "feature_idx": 17861,
+        "count": 1941,
+        "percent": 26.87
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1879,
+        "percent": 26.01
+      },
+      {
+        "feature_idx": 10822,
+        "count": 1863,
+        "percent": 25.79
+      },
+      {
+        "feature_idx": 7917,
+        "count": 1842,
+        "percent": 25.5
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7224,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 934,
+        "percent": 12.93
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1441,
+        "percent": 19.95
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1516,
+        "percent": 20.99
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1589,
+        "percent": 22.0
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1744,
+        "percent": 24.14
+      }
+    ],
+    "mean_position": 0.5504,
+    "std_position": 0.2746
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 12,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0311,
+      "p25": 0.0429,
+      "p50": 0.0854,
+      "p75": 0.2373,
+      "p90": 0.31,
+      "p95": 0.3151,
+      "p99": 0.3191
+    },
+    "skewness": 0.5181,
+    "kurtosis": -1.3899,
+    "min": 0.0148,
+    "max": 0.3201,
+    "mean": 0.1399,
+    "std": 0.1141
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 12,
+      "unique_tokens_found": 5
+    },
+    "tokens": [
+      {
+        "token": " up",
+        "count": 7,
+        "mean_activation": 0.2143
+      },
+      {
+        "token": " covered",
+        "count": 2,
+        "mean_activation": 0.0332
+      },
+      {
+        "token": " separates",
+        "count": 1,
+        "mean_activation": 0.0522
+      },
+      {
+        "token": " characterized",
+        "count": 1,
+        "mean_activation": 0.0452
+      },
+      {
+        "token": " of",
+        "count": 1,
+        "mean_activation": 0.0148
+      }
+    ]
+  }
+}

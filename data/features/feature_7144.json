@@ -1,0 +1,866 @@
+{
+  "feature_idx": 7144,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 18,
+    "mean_when_active": 0.0654051038953993,
+    "max_activation": 0.0968017578125,
+    "std_when_active": 0.018353480506330087,
+    "activation_rate": 0.00018
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8191,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ros",
+        "count": 4030,
+        "mean_activation": 0.06718729553979916
+      },
+      {
+        "token": "is",
+        "count": 1091,
+        "mean_activation": 0.06906474783921002
+      },
+      {
+        "token": "'s",
+        "count": 483,
+        "mean_activation": 0.051367749832184915
+      },
+      {
+        "token": "ens",
+        "count": 400,
+        "mean_activation": 0.12939064025878907
+      },
+      {
+        "token": " Merc",
+        "count": 356,
+        "mean_activation": 0.21976839558462077
+      },
+      {
+        "token": "iques",
+        "count": 268,
+        "mean_activation": 0.06777908552938433
+      },
+      {
+        "token": "vent",
+        "count": 167,
+        "mean_activation": 0.06981453353059507
+      },
+      {
+        "token": "illes",
+        "count": 86,
+        "mean_activation": 0.06911805618640988
+      },
+      {
+        "token": " merc",
+        "count": 82,
+        "mean_activation": 0.14718181330983232
+      },
+      {
+        "token": "vern",
+        "count": 65,
+        "mean_activation": 0.0563232421875
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8191,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...te and quesadilla de** Merc**ado. First two we're ...",
+        "active_token": " Merc",
+        "activation": 0.250244140625,
+        "review_id": "_ixImVstb9GDn78ok9Qh3Q",
+        "position": 72
+      },
+      {
+        "context": "...ere! \\n\\nQuesadilla de** Merc**ado - Not your averag...",
+        "active_token": " Merc",
+        "activation": 0.2491455078125,
+        "review_id": "D58vIXwHRxJdzvTFv2J2JQ",
+        "position": 272
+      },
+      {
+        "context": "...hop located in a the** Merc**ado San Agustin is th...",
+        "active_token": " Merc",
+        "activation": 0.2469482421875,
+        "review_id": "DtsxzRMMCRT77KoL3wusCg",
+        "position": 7
+      },
+      {
+        "context": "...os and Quesadilla de** Merc**ado, both the dishes ...",
+        "active_token": " Merc",
+        "activation": 0.2469482421875,
+        "review_id": "23yGFOUeVFZZpRQlBdbKYA",
+        "position": 22
+      },
+      {
+        "context": "...ed the Quesadilla de** Merc**ado. It was flavorful...",
+        "active_token": " Merc",
+        "activation": 0.2462158203125,
+        "review_id": "OfwKkEoNCQZD392yFZOJNw",
+        "position": 9
+      },
+      {
+        "context": "...ients\\n\\nQuesadilla De** Merc**ado - so good! \\n\\nThey...",
+        "active_token": " Merc",
+        "activation": 0.245849609375,
+        "review_id": "FAd0VG9V_EWSZUIjJkVUXA",
+        "position": 153
+      },
+      {
+        "context": "The quesadilla de** Merc**ado was 2 die for, th...",
+        "active_token": " Merc",
+        "activation": 0.2452392578125,
+        "review_id": "Be09kq7qazZ8eq4uVeXlUA",
+        "position": 6
+      },
+      {
+        "context": "...s, the Quesadilla de** Merc**ado, and the ginger/c...",
+        "active_token": " Merc",
+        "activation": 0.24462890625,
+        "review_id": "cmEVterTnarh5w1CxyTpng",
+        "position": 30
+      },
+      {
+        "context": "...urant located in the** Merc**ado San Augustin plaz...",
+        "active_token": " Merc",
+        "activation": 0.243896484375,
+        "review_id": "cYd9s7ij_bFv-Wb7L2douA",
+        "position": 6
+      },
+      {
+        "context": "... the Cantina and the** Merc**ado several times but...",
+        "active_token": " Merc",
+        "activation": 0.243896484375,
+        "review_id": "Tu65nkL7jo4VkEEFxONzRw",
+        "position": 12
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 7144,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.146,
+        "max": 0.2502,
+        "mean": 0.2006
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Merc",
+            "ado"
+          ],
+          "ngram_str": " Mercado",
+          "count": 332,
+          "percent": 66.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Merc"
+          ],
+          "ngram_str": " the Merc",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            "ol",
+            "ens"
+          ],
+          "ngram_str": "olens",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            "ens",
+            "ville"
+          ],
+          "ngram_str": "ensville",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " N",
+            "ol"
+          ],
+          "ngram_str": " Nol",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " Mesa",
+            " Merc"
+          ],
+          "ngram_str": " Mesa Merc",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "ado",
+            " San"
+          ],
+          "ngram_str": "ado San",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " Red",
+            " Mesa"
+          ],
+          "ngram_str": " Red Mesa",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "ado",
+            "."
+          ],
+          "ngram_str": "ado.",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " on",
+            " N"
+          ],
+          "ngram_str": " on N",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "ado",
+            " is"
+          ],
+          "ngram_str": "ado is",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " Ag",
+            "ust"
+          ],
+          "ngram_str": " Agust",
+          "count": 39,
+          "percent": 7.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " Merc",
+            "ado"
+          ],
+          "ngram_str": " the Mercado",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            "ol",
+            "ens",
+            "ville"
+          ],
+          "ngram_str": "olensville",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " N",
+            "ol",
+            "ens"
+          ],
+          "ngram_str": " Nolens",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " Mesa",
+            " Merc",
+            "ado"
+          ],
+          "ngram_str": " Mesa Mercado",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " Red",
+            " Mesa",
+            " Merc"
+          ],
+          "ngram_str": " Red Mesa Merc",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " Merc",
+            "ado",
+            " San"
+          ],
+          "ngram_str": " Mercado San",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " Merc",
+            "ado",
+            "."
+          ],
+          "ngram_str": " Mercado.",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " on",
+            " N",
+            "ol"
+          ],
+          "ngram_str": " on Nol",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " San",
+            " Ag",
+            "ust"
+          ],
+          "ngram_str": " San Agust",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " Merc"
+          ],
+          "ngram_str": " at the Merc",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " Merc",
+            "ado",
+            " is"
+          ],
+          "ngram_str": " Mercado is",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "ado",
+            " San",
+            " Ag"
+          ],
+          "ngram_str": "ado San Ag",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " Ag",
+            "ust",
+            "in"
+          ],
+          "ngram_str": " Agustin",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " Merc",
+            "ado",
+            ","
+          ],
+          "ngram_str": " Mercado,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Merc"
+          ],
+          "ngram_str": " in the Merc",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " N",
+            "ol",
+            "ens",
+            "ville"
+          ],
+          "ngram_str": " Nolensville",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " Red",
+            " Mesa",
+            " Merc",
+            "ado"
+          ],
+          "ngram_str": " Red Mesa Mercado",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " on",
+            " N",
+            "ol",
+            "ens"
+          ],
+          "ngram_str": " on Nolens",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "ado",
+            " San",
+            " Ag",
+            "ust"
+          ],
+          "ngram_str": "ado San Agust",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " Merc",
+            "ado"
+          ],
+          "ngram_str": " at the Mercado",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " San",
+            " Ag",
+            "ust",
+            "in"
+          ],
+          "ngram_str": " San Agustin",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " Merc",
+            "ado",
+            " San",
+            " Ag"
+          ],
+          "ngram_str": " Mercado San Ag",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Merc",
+            "ado"
+          ],
+          "ngram_str": " in the Mercado",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " the",
+            " Merc",
+            "ado",
+            " San"
+          ],
+          "ngram_str": " the Mercado San",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " the",
+            " Merc",
+            "ado",
+            "."
+          ],
+          "ngram_str": " the Mercado.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "ol",
+            "ens",
+            "ville",
+            " Pike"
+          ],
+          "ngram_str": "olensville Pike",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "ol",
+            "ens",
+            "ville",
+            " Road"
+          ],
+          "ngram_str": "olensville Road",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " to",
+            " N",
+            "ol",
+            "ens"
+          ],
+          "ngram_str": " to Nolens",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "ad",
+            "illa"
+          ],
+          "ngram_str": " quesadilla",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " Merc",
+            "ado"
+          ],
+          "ngram_str": " to the Mercado",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8191,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 18503,
+        "count": 6337,
+        "percent": 77.37
+      },
+      {
+        "feature_idx": 21958,
+        "count": 5104,
+        "percent": 62.31
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4814,
+        "percent": 58.77
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4520,
+        "percent": 55.18
+      },
+      {
+        "feature_idx": 23122,
+        "count": 4231,
+        "percent": 51.65
+      },
+      {
+        "feature_idx": 15205,
+        "count": 4100,
+        "percent": 50.05
+      },
+      {
+        "feature_idx": 11704,
+        "count": 4046,
+        "percent": 49.4
+      },
+      {
+        "feature_idx": 18031,
+        "count": 4025,
+        "percent": 49.14
+      },
+      {
+        "feature_idx": 19075,
+        "count": 3975,
+        "percent": 48.53
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3762,
+        "percent": 45.93
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3723,
+        "percent": 45.45
+      },
+      {
+        "feature_idx": 9231,
+        "count": 3553,
+        "percent": 43.38
+      },
+      {
+        "feature_idx": 3311,
+        "count": 3306,
+        "percent": 40.36
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2943,
+        "percent": 35.93
+      },
+      {
+        "feature_idx": 912,
+        "count": 2785,
+        "percent": 34.0
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2436,
+        "percent": 29.74
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2232,
+        "percent": 27.25
+      },
+      {
+        "feature_idx": 21600,
+        "count": 2205,
+        "percent": 26.92
+      },
+      {
+        "feature_idx": 23547,
+        "count": 2203,
+        "percent": 26.9
+      },
+      {
+        "feature_idx": 21219,
+        "count": 2197,
+        "percent": 26.82
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8191,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1074,
+        "percent": 13.11
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1180,
+        "percent": 14.41
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1504,
+        "percent": 18.36
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2214,
+        "percent": 27.03
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2219,
+        "percent": 27.09
+      }
+    ],
+    "mean_position": 0.5828,
+    "std_position": 0.2757
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 18,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0431,
+      "p25": 0.0537,
+      "p50": 0.065,
+      "p75": 0.0717,
+      "p90": 0.0917,
+      "p95": 0.0939,
+      "p99": 0.0962
+    },
+    "skewness": 0.0543,
+    "kurtosis": -0.7167,
+    "min": 0.0311,
+    "max": 0.0968,
+    "mean": 0.0654,
+    "std": 0.0184
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 18,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": "ros",
+        "count": 10,
+        "mean_activation": 0.0698
+      },
+      {
+        "token": "illes",
+        "count": 2,
+        "mean_activation": 0.0694
+      },
+      {
+        "token": "'s",
+        "count": 1,
+        "mean_activation": 0.0707
+      },
+      {
+        "token": "vern",
+        "count": 1,
+        "mean_activation": 0.0635
+      },
+      {
+        "token": " saw",
+        "count": 1,
+        "mean_activation": 0.0311
+      },
+      {
+        "token": "is",
+        "count": 1,
+        "mean_activation": 0.0909
+      },
+      {
+        "token": " Mans",
+        "count": 1,
+        "mean_activation": 0.0461
+      },
+      {
+        "token": "res",
+        "count": 1,
+        "mean_activation": 0.0381
+      }
+    ]
+  }
+}

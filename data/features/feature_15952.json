@@ -1,0 +1,861 @@
+{
+  "feature_idx": 15952,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 15,
+    "mean_when_active": 0.09990336100260416,
+    "max_activation": 0.162109375,
+    "std_when_active": 0.057697340732974084,
+    "activation_rate": 0.00015
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7679,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " made",
+        "count": 2833,
+        "mean_activation": 0.10465481505981403
+      },
+      {
+        "token": " prepared",
+        "count": 532,
+        "mean_activation": 0.07864586392739661
+      },
+      {
+        "token": "made",
+        "count": 513,
+        "mean_activation": 0.046058491191901196
+      },
+      {
+        "token": " cooked",
+        "count": 371,
+        "mean_activation": 0.05776325647400396
+      },
+      {
+        "token": " fried",
+        "count": 246,
+        "mean_activation": 0.07793990964811992
+      },
+      {
+        "token": " opened",
+        "count": 186,
+        "mean_activation": 0.045102027154737906
+      },
+      {
+        "token": " baked",
+        "count": 174,
+        "mean_activation": 0.07006730704471983
+      },
+      {
+        "token": " cut",
+        "count": 173,
+        "mean_activation": 0.06887782102375362
+      },
+      {
+        "token": " squeezed",
+        "count": 143,
+        "mean_activation": 0.08253564367761144
+      },
+      {
+        "token": " chopped",
+        "count": 136,
+        "mean_activation": 0.05211342082304113
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7679,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ve been just freshly** made** and needed a chance ...",
+        "active_token": " made",
+        "activation": 0.1868896484375,
+        "review_id": "Ud1_NvQSbF-PyjnlRbCVYg",
+        "position": 292
+      },
+      {
+        "context": "...ve been just freshly** made** and needed a chance ...",
+        "active_token": " made",
+        "activation": 0.1868896484375,
+        "review_id": "_eKYOY0zNgso2VMhlPbyaA",
+        "position": 292
+      },
+      {
+        "context": ".... It was all freshly** made** and absolutely fanta...",
+        "active_token": " made",
+        "activation": 0.1851806640625,
+        "review_id": "WjGz1DXqW9NTNOl25RpKSA",
+        "position": 76
+      },
+      {
+        "context": ".... It was all freshly** made** by Chris' wife Hanna...",
+        "active_token": " made",
+        "activation": 0.18505859375,
+        "review_id": "hY2LcXPx64_UM0a4sGxtQA",
+        "position": 112
+      },
+      {
+        "context": "...ke it wasn't freshly** made**. (You know, the more...",
+        "active_token": " made",
+        "activation": 0.1829833984375,
+        "review_id": "9lLtoWziM1_u0B0usHlpQw",
+        "position": 275
+      },
+      {
+        "context": "... like it was freshly** made**. The empanadas had n...",
+        "active_token": " made",
+        "activation": 0.1827392578125,
+        "review_id": "5VimDI1QVmj1kMloIazKtA",
+        "position": 151
+      },
+      {
+        "context": "...d salsa were freshly** made** and added amazing fl...",
+        "active_token": " made",
+        "activation": 0.1822509765625,
+        "review_id": "A87bkm9WHko-OP7AtzJDeQ",
+        "position": 35
+      },
+      {
+        "context": "...d salsa were freshly** made** in house. Good touch...",
+        "active_token": " made",
+        "activation": 0.1815185546875,
+        "review_id": "MN5tRv98oq8IA_x97x-_Tw",
+        "position": 63
+      },
+      {
+        "context": "...chips tasted freshly** made**. Our water was also ...",
+        "active_token": " made",
+        "activation": 0.181396484375,
+        "review_id": "D1USPgNrBhAGWU0tk-CgJg",
+        "position": 97
+      },
+      {
+        "context": "...uacamole was freshly** made** and delicious. The t...",
+        "active_token": " made",
+        "activation": 0.180908203125,
+        "review_id": "fxA5FZv8p0vW2OKNmHOQYg",
+        "position": 53
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15952,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1548,
+        "max": 0.1869,
+        "mean": 0.1637
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " freshly made",
+          "count": 486,
+          "percent": 97.2
+        },
+        {
+          "ngram": [
+            " made",
+            " and"
+          ],
+          "ngram_str": " made and",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            " made",
+            "."
+          ],
+          "ngram_str": " made.",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " was",
+            " freshly"
+          ],
+          "ngram_str": " was freshly",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " were",
+            " freshly"
+          ],
+          "ngram_str": " were freshly",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " made",
+            ","
+          ],
+          "ngram_str": " made,",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "am",
+            "ole"
+          ],
+          "ngram_str": "amole",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " tortillas",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "ac",
+            "am"
+          ],
+          "ngram_str": "acam",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " are",
+            " freshly"
+          ],
+          "ngram_str": " are freshly",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " is",
+            " freshly"
+          ],
+          "ngram_str": " is freshly",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " and",
+            " freshly"
+          ],
+          "ngram_str": " and freshly",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " freshly",
+            " made",
+            " and"
+          ],
+          "ngram_str": " freshly made and",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            " freshly",
+            " made",
+            "."
+          ],
+          "ngram_str": " freshly made.",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " was",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " was freshly made",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " were",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " were freshly made",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " freshly",
+            " made",
+            ","
+          ],
+          "ngram_str": " freshly made,",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " are",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " are freshly made",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": "acamole",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " is",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " is freshly made",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " and",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " and freshly made",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " tasted",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " tasted freshly made",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " made",
+            ".",
+            " The"
+          ],
+          "ngram_str": " made. The",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": ", freshly made",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "am",
+            "ole",
+            " was"
+          ],
+          "ngram_str": "amole was",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " chips",
+            " were",
+            " freshly"
+          ],
+          "ngram_str": " chips were freshly",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " was",
+            " freshly",
+            " made",
+            " and"
+          ],
+          "ngram_str": " was freshly made and",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " were",
+            " freshly",
+            " made",
+            " and"
+          ],
+          "ngram_str": " were freshly made and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " freshly",
+            " made",
+            ".",
+            " The"
+          ],
+          "ngram_str": " freshly made. The",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " chips",
+            " were",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " chips were freshly made",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " freshly",
+            " made",
+            " and",
+            " delicious"
+          ],
+          "ngram_str": " freshly made and delicious",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " it was freshly made",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " was",
+            " freshly",
+            " made",
+            "."
+          ],
+          "ngram_str": " was freshly made.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " were",
+            " freshly",
+            " made",
+            "."
+          ],
+          "ngram_str": " were freshly made.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " are",
+            " freshly",
+            " made",
+            " and"
+          ],
+          "ngram_str": " are freshly made and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " tasted",
+            " freshly",
+            " made",
+            "."
+          ],
+          "ngram_str": " tasted freshly made.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " freshly",
+            " made",
+            ".",
+            " "
+          ],
+          "ngram_str": " freshly made. ",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole",
+            " was"
+          ],
+          "ngram_str": "acamole was",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "am",
+            "ole",
+            " was",
+            " freshly"
+          ],
+          "ngram_str": "amole was freshly",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "ole",
+            " was",
+            " freshly",
+            " made"
+          ],
+          "ngram_str": "ole was freshly made",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " made",
+            " and",
+            " delicious",
+            "."
+          ],
+          "ngram_str": " made and delicious.",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7679,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 6219,
+        "percent": 80.99
+      },
+      {
+        "feature_idx": 4858,
+        "count": 6150,
+        "percent": 80.09
+      },
+      {
+        "feature_idx": 20829,
+        "count": 4779,
+        "percent": 62.23
+      },
+      {
+        "feature_idx": 13724,
+        "count": 4627,
+        "percent": 60.26
+      },
+      {
+        "feature_idx": 12706,
+        "count": 4480,
+        "percent": 58.34
+      },
+      {
+        "feature_idx": 9519,
+        "count": 4363,
+        "percent": 56.82
+      },
+      {
+        "feature_idx": 8074,
+        "count": 3631,
+        "percent": 47.28
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3428,
+        "percent": 44.64
+      },
+      {
+        "feature_idx": 1209,
+        "count": 3426,
+        "percent": 44.62
+      },
+      {
+        "feature_idx": 8966,
+        "count": 3386,
+        "percent": 44.09
+      },
+      {
+        "feature_idx": 6054,
+        "count": 3307,
+        "percent": 43.07
+      },
+      {
+        "feature_idx": 10025,
+        "count": 3290,
+        "percent": 42.84
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3276,
+        "percent": 42.66
+      },
+      {
+        "feature_idx": 24307,
+        "count": 3151,
+        "percent": 41.03
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3137,
+        "percent": 40.85
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3012,
+        "percent": 39.22
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2996,
+        "percent": 39.02
+      },
+      {
+        "feature_idx": 4239,
+        "count": 2715,
+        "percent": 35.36
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2509,
+        "percent": 32.67
+      },
+      {
+        "feature_idx": 16557,
+        "count": 2297,
+        "percent": 29.91
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7679,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1000,
+        "percent": 13.02
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1757,
+        "percent": 22.88
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2078,
+        "percent": 27.06
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1791,
+        "percent": 23.32
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1053,
+        "percent": 13.71
+      }
+    ],
+    "mean_position": 0.504,
+    "std_position": 0.2467
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 15,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0217,
+      "p25": 0.0383,
+      "p50": 0.1345,
+      "p75": 0.1531,
+      "p90": 0.1599,
+      "p95": 0.1608,
+      "p99": 0.1619
+    },
+    "skewness": -0.3053,
+    "kurtosis": -1.6804,
+    "min": 0.0204,
+    "max": 0.1621,
+    "mean": 0.0999,
+    "std": 0.0577
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 15,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " made",
+        "count": 9,
+        "mean_activation": 0.1444
+      },
+      {
+        "token": " decorated",
+        "count": 1,
+        "mean_activation": 0.0509
+      },
+      {
+        "token": " some",
+        "count": 1,
+        "mean_activation": 0.0257
+      },
+      {
+        "token": "cooked",
+        "count": 1,
+        "mean_activation": 0.0218
+      },
+      {
+        "token": "made",
+        "count": 1,
+        "mean_activation": 0.0216
+      },
+      {
+        "token": " freshly",
+        "count": 1,
+        "mean_activation": 0.0204
+      },
+      {
+        "token": " squeeze",
+        "count": 1,
+        "mean_activation": 0.0586
+      }
+    ]
+  }
+}

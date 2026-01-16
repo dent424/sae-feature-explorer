@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1977,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 28,
+    "mean_when_active": 0.056369236537388394,
+    "max_activation": 0.1346435546875,
+    "std_when_active": 0.036115713279741356,
+    "activation_rate": 0.00028
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 10939,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " seating",
+        "count": 5120,
+        "mean_activation": 0.03448449820280075
+      },
+      {
+        "token": " picnic",
+        "count": 952,
+        "mean_activation": 0.13292617156725972
+      },
+      {
+        "token": " plaza",
+        "count": 811,
+        "mean_activation": 0.08806206530325215
+      },
+      {
+        "token": " concert",
+        "count": 518,
+        "mean_activation": 0.08110399872179658
+      },
+      {
+        "token": " together",
+        "count": 352,
+        "mean_activation": 0.04849811033769087
+      },
+      {
+        "token": " gathering",
+        "count": 291,
+        "mean_activation": 0.1623243613751074
+      },
+      {
+        "token": " tables",
+        "count": 265,
+        "mean_activation": 0.028330331478478774
+      },
+      {
+        "token": " communal",
+        "count": 217,
+        "mean_activation": 0.05018503215455789
+      },
+      {
+        "token": " gather",
+        "count": 164,
+        "mean_activation": 0.1808698700695503
+      },
+      {
+        "token": " collect",
+        "count": 139,
+        "mean_activation": 0.10670745630058454
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 10939,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ard. Great place to** gather** as a family.",
+        "active_token": " gather",
+        "activation": 0.223876953125,
+        "review_id": "IPD3FbThOBkUxokjeG7f8w",
+        "position": 29
+      },
+      {
+        "context": "...ts a great place to** gather** and eat! They have ...",
+        "active_token": " gather",
+        "activation": 0.222412109375,
+        "review_id": "28fzF-wXsI3ozRXSIYKFTg",
+        "position": 44
+      },
+      {
+        "context": "... a perfect place to** gather** with friends! Food ...",
+        "active_token": " gather",
+        "activation": 0.2200927734375,
+        "review_id": "HmsrLY0tP6J3v11acUJ7iQ",
+        "position": 14
+      },
+      {
+        "context": "...'s a great place to** gather** after a long day or...",
+        "active_token": " gather",
+        "activation": 0.2191162109375,
+        "review_id": "Pt3rtzFQpWoa32kv0vF4Vw",
+        "position": 36
+      },
+      {
+        "context": "...but a great spot to** gather** in downtown.",
+        "active_token": " gather",
+        "activation": 0.21875,
+        "review_id": "iiXlNGlewj2cQuiRSJphxg",
+        "position": 118
+      },
+      {
+        "context": "...e versus a place to** gather** for dinner.  And do...",
+        "active_token": " gather",
+        "activation": 0.21875,
+        "review_id": "89Hk4WjCmoNhH-TcT_D7qw",
+        "position": 244
+      },
+      {
+        "context": "...er a fun setting to** gather** with larger groups ...",
+        "active_token": " gather",
+        "activation": 0.2174072265625,
+        "review_id": "5yAvvUdbp90Gc8xMITjTMQ",
+        "position": 60
+      },
+      {
+        "context": "...d be a fun place to** gather** w/ friends or grab ...",
+        "active_token": " gather",
+        "activation": 0.2169189453125,
+        "review_id": "5WRc0dnYmEkTO_WBKDAHpQ",
+        "position": 99
+      },
+      {
+        "context": "...t's a nice place to** gather** with friends.  The ...",
+        "active_token": " gather",
+        "activation": 0.216796875,
+        "review_id": "u5UOo3OGKtKua1NttAM7iw",
+        "position": 32
+      },
+      {
+        "context": "...ly a great place to** gather** with friends.  I wo...",
+        "active_token": " gather",
+        "activation": 0.2164306640625,
+        "review_id": "JSPWlGP0BATyxGJgS5ntpA",
+        "position": 94
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1977,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1479,
+        "max": 0.2239,
+        "mean": 0.1716
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " to",
+            " gather"
+          ],
+          "ngram_str": " to gather",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " picnic",
+            " tables"
+          ],
+          "ngram_str": " picnic tables",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " gathering",
+            "."
+          ],
+          "ngram_str": " gathering.",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " place",
+            " to"
+          ],
+          "ngram_str": " place to",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " a",
+            " gathering"
+          ],
+          "ngram_str": " a gathering",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " with",
+            " friends"
+          ],
+          "ngram_str": " with friends",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " outdoor",
+            " picnic"
+          ],
+          "ngram_str": " outdoor picnic",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " a",
+            " great"
+          ],
+          "ngram_str": " a great",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " gather",
+            " with"
+          ],
+          "ngram_str": " gather with",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " gathering",
+            " place"
+          ],
+          "ngram_str": " gathering place",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " family",
+            " gathering"
+          ],
+          "ngram_str": " family gathering",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " tables",
+            "."
+          ],
+          "ngram_str": " tables.",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " place",
+            " to",
+            " gather"
+          ],
+          "ngram_str": " place to gather",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " to",
+            " gather",
+            " with"
+          ],
+          "ngram_str": " to gather with",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " gather",
+            " with",
+            " friends"
+          ],
+          "ngram_str": " gather with friends",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " picnic",
+            " tables",
+            "."
+          ],
+          "ngram_str": " picnic tables.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " picnic",
+            " tables",
+            " and"
+          ],
+          "ngram_str": " picnic tables and",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " with",
+            " picnic",
+            " tables"
+          ],
+          "ngram_str": " with picnic tables",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " outdoor",
+            " picnic",
+            " tables"
+          ],
+          "ngram_str": " outdoor picnic tables",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " gathering",
+            " place",
+            " for"
+          ],
+          "ngram_str": " gathering place for",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " gathering"
+          ],
+          "ngram_str": " for a gathering",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " great",
+            " place"
+          ],
+          "ngram_str": " a great place",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " great",
+            " place",
+            " to"
+          ],
+          "ngram_str": " great place to",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " with",
+            " friends",
+            "."
+          ],
+          "ngram_str": " with friends.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " to",
+            " gather",
+            "."
+          ],
+          "ngram_str": " to gather.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " group",
+            " gathering",
+            "."
+          ],
+          "ngram_str": " group gathering.",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " place",
+            " to",
+            " gather",
+            " with"
+          ],
+          "ngram_str": " place to gather with",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " to",
+            " gather",
+            " with",
+            " friends"
+          ],
+          "ngram_str": " to gather with friends",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " a",
+            " great",
+            " place",
+            " to"
+          ],
+          "ngram_str": " a great place to",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " great",
+            " place",
+            " to",
+            " gather"
+          ],
+          "ngram_str": " great place to gather",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " gather",
+            " with",
+            " friends",
+            "."
+          ],
+          "ngram_str": " gather with friends.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " group",
+            " gathering"
+          ],
+          "ngram_str": " for a group gathering",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " outdoor",
+            " picnic",
+            " tables",
+            "."
+          ],
+          "ngram_str": " outdoor picnic tables.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " with",
+            " picnic",
+            " tables",
+            " and"
+          ],
+          "ngram_str": " with picnic tables and",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " a",
+            " gathering",
+            " place",
+            " for"
+          ],
+          "ngram_str": " a gathering place for",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " a",
+            " group",
+            " gathering",
+            "."
+          ],
+          "ngram_str": " a group gathering.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " with",
+            " friends",
+            ".",
+            " "
+          ],
+          "ngram_str": " with friends. ",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " place",
+            " to",
+            " gather",
+            "."
+          ],
+          "ngram_str": " place to gather.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " a",
+            " place",
+            " to",
+            " gather"
+          ],
+          "ngram_str": " a place to gather",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 47200000,
+      "corpus_coverage": 0.9129
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14918,
+        "count": 5844,
+        "percent": 58.44
+      },
+      {
+        "feature_idx": 10665,
+        "count": 5359,
+        "percent": 53.59
+      },
+      {
+        "feature_idx": 21898,
+        "count": 5100,
+        "percent": 51.0
+      },
+      {
+        "feature_idx": 19071,
+        "count": 5000,
+        "percent": 50.0
+      },
+      {
+        "feature_idx": 24017,
+        "count": 4913,
+        "percent": 49.13
+      },
+      {
+        "feature_idx": 2713,
+        "count": 4748,
+        "percent": 47.48
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4722,
+        "percent": 47.22
+      },
+      {
+        "feature_idx": 18729,
+        "count": 4680,
+        "percent": 46.8
+      },
+      {
+        "feature_idx": 9863,
+        "count": 4675,
+        "percent": 46.75
+      },
+      {
+        "feature_idx": 646,
+        "count": 4652,
+        "percent": 46.52
+      },
+      {
+        "feature_idx": 16578,
+        "count": 4646,
+        "percent": 46.46
+      },
+      {
+        "feature_idx": 20238,
+        "count": 4489,
+        "percent": 44.89
+      },
+      {
+        "feature_idx": 9212,
+        "count": 4355,
+        "percent": 43.55
+      },
+      {
+        "feature_idx": 5141,
+        "count": 4328,
+        "percent": 43.28
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3602,
+        "percent": 36.02
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3526,
+        "percent": 35.26
+      },
+      {
+        "feature_idx": 3950,
+        "count": 3451,
+        "percent": 34.51
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3439,
+        "percent": 34.39
+      },
+      {
+        "feature_idx": 4204,
+        "count": 3031,
+        "percent": 30.31
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2964,
+        "percent": 29.64
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 47200000,
+      "corpus_coverage": 0.9129
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2588,
+        "percent": 25.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2009,
+        "percent": 20.09
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1447,
+        "percent": 14.47
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1608,
+        "percent": 16.08
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2348,
+        "percent": 23.48
+      }
+    ],
+    "mean_position": 0.4845,
+    "std_position": 0.3097
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 28,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0244,
+      "p25": 0.0298,
+      "p50": 0.0401,
+      "p75": 0.0851,
+      "p90": 0.1128,
+      "p95": 0.1315,
+      "p99": 0.1345
+    },
+    "skewness": 0.9661,
+    "kurtosis": -0.4224,
+    "min": 0.0147,
+    "max": 0.1346,
+    "mean": 0.0564,
+    "std": 0.0361
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 28,
+      "unique_tokens_found": 14
+    },
+    "tokens": [
+      {
+        "token": " seating",
+        "count": 12,
+        "mean_activation": 0.0328
+      },
+      {
+        "token": " picnic",
+        "count": 3,
+        "mean_activation": 0.1318
+      },
+      {
+        "token": " concert",
+        "count": 2,
+        "mean_activation": 0.0958
+      },
+      {
+        "token": " gathered",
+        "count": 1,
+        "mean_activation": 0.1069
+      },
+      {
+        "token": " concerts",
+        "count": 1,
+        "mean_activation": 0.0632
+      },
+      {
+        "token": " collects",
+        "count": 1,
+        "mean_activation": 0.0823
+      },
+      {
+        "token": " together",
+        "count": 1,
+        "mean_activation": 0.0444
+      },
+      {
+        "token": " collecting",
+        "count": 1,
+        "mean_activation": 0.0936
+      },
+      {
+        "token": " stroll",
+        "count": 1,
+        "mean_activation": 0.0412
+      },
+      {
+        "token": " communal",
+        "count": 1,
+        "mean_activation": 0.0614
+      }
+    ]
+  }
+}

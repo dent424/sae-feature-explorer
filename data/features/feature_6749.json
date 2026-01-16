@@ -1,0 +1,846 @@
+{
+  "feature_idx": 6749,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 7,
+    "mean_when_active": 0.05125645228794643,
+    "max_activation": 0.07867431640625,
+    "std_when_active": 0.018313815285796814,
+    "activation_rate": 7e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 10447,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " was",
+        "count": 2518,
+        "mean_activation": 0.06458986629277018
+      },
+      {
+        "token": " is",
+        "count": 2236,
+        "mean_activation": 0.06117478167648179
+      },
+      {
+        "token": " it",
+        "count": 1249,
+        "mean_activation": 0.05805591739016213
+      },
+      {
+        "token": " are",
+        "count": 930,
+        "mean_activation": 0.07217974919144825
+      },
+      {
+        "token": " were",
+        "count": 885,
+        "mean_activation": 0.06917365984728108
+      },
+      {
+        "token": " they",
+        "count": 520,
+        "mean_activation": 0.06526776827298678
+      },
+      {
+        "token": " be",
+        "count": 347,
+        "mean_activation": 0.050687190778660844
+      },
+      {
+        "token": " I",
+        "count": 255,
+        "mean_activation": 0.05302243700214461
+      },
+      {
+        "token": " am",
+        "count": 183,
+        "mean_activation": 0.06599551341572746
+      },
+      {
+        "token": " you",
+        "count": 137,
+        "mean_activation": 0.06368383699960083
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 10447,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...cy, given how busy it** was**. \\n\\nThe guac was so a...",
+        "active_token": " was",
+        "activation": 0.1851806640625,
+        "review_id": "fEr-778AjfpOAvFWwen-Fg",
+        "position": 90
+      },
+      {
+        "context": "...nsidering how busy it** was**. Right in the crush ...",
+        "active_token": " was",
+        "activation": 0.1839599609375,
+        "review_id": "hv-6kc1GuCN_ZBqDj_MNZA",
+        "position": 37
+      },
+      {
+        "context": "...nsidering how busy it** was**. People must love th...",
+        "active_token": " was",
+        "activation": 0.1829833984375,
+        "review_id": "nb3G-r6Ee97_0sf69MpK0Q",
+        "position": 222
+      },
+      {
+        "context": "...f despite how busy it** was**. I loved the fast ca...",
+        "active_token": " was",
+        "activation": 0.182861328125,
+        "review_id": "Fx0yyt22i6tou2XeiKLeTQ",
+        "position": 110
+      },
+      {
+        "context": "... based on how busy it** was**. Maybe they were dow...",
+        "active_token": " was",
+        "activation": 0.1826171875,
+        "review_id": "CCox7oen6tHkLcbii4YxDA",
+        "position": 169
+      },
+      {
+        "context": "...nsidering how busy it** was**. The burger was so h...",
+        "active_token": " was",
+        "activation": 0.18212890625,
+        "review_id": "RRogPqHErFmCDRCzFMvgVA",
+        "position": 110
+      },
+      {
+        "context": "...ending on how busy it** is**, you may get a privat...",
+        "active_token": " is",
+        "activation": 0.181884765625,
+        "review_id": "oPPZxx-cWI12omRw_StA9Q",
+        "position": 48
+      },
+      {
+        "context": "..., despite how busy it** was** that night. Our food...",
+        "active_token": " was",
+        "activation": 0.1817626953125,
+        "review_id": "V2rWJH_3Nb1ZkPF4gHIqjg",
+        "position": 38
+      },
+      {
+        "context": "...nsidering how busy it** was**. Overall, the place ...",
+        "active_token": " was",
+        "activation": 0.181640625,
+        "review_id": "_wFMkF9i-XbpGJ4_1EN39g",
+        "position": 93
+      },
+      {
+        "context": "...ending on how busy it** is**.\\n\\nComplimentary chips...",
+        "active_token": " is",
+        "activation": 0.181640625,
+        "review_id": "vV40FzS7pXyIC59DUWOHdg",
+        "position": 42
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6749,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1315,
+        "max": 0.1852,
+        "mean": 0.1515
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " how",
+            " busy"
+          ],
+          "ngram_str": " how busy",
+          "count": 363,
+          "percent": 72.6
+        },
+        {
+          "ngram": [
+            " busy",
+            " they"
+          ],
+          "ngram_str": " busy they",
+          "count": 171,
+          "percent": 34.2
+        },
+        {
+          "ngram": [
+            " busy",
+            " it"
+          ],
+          "ngram_str": " busy it",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 161,
+          "percent": 32.2
+        },
+        {
+          "ngram": [
+            " they",
+            " were"
+          ],
+          "ngram_str": " they were",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            " was",
+            "."
+          ],
+          "ngram_str": " was.",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " considering",
+            " how"
+          ],
+          "ngram_str": " considering how",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " they",
+            " are"
+          ],
+          "ngram_str": " they are",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " on",
+            " how"
+          ],
+          "ngram_str": " on how",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " it",
+            " is"
+          ],
+          "ngram_str": " it is",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " were",
+            "."
+          ],
+          "ngram_str": " were.",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " are",
+            "."
+          ],
+          "ngram_str": " are.",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " of",
+            " how"
+          ],
+          "ngram_str": " of how",
+          "count": 43,
+          "percent": 8.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " how",
+            " busy",
+            " they"
+          ],
+          "ngram_str": " how busy they",
+          "count": 169,
+          "percent": 33.8
+        },
+        {
+          "ngram": [
+            " how",
+            " busy",
+            " it"
+          ],
+          "ngram_str": " how busy it",
+          "count": 156,
+          "percent": 31.2
+        },
+        {
+          "ngram": [
+            " busy",
+            " it",
+            " was"
+          ],
+          "ngram_str": " busy it was",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " busy",
+            " they",
+            " were"
+          ],
+          "ngram_str": " busy they were",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " considering",
+            " how",
+            " busy"
+          ],
+          "ngram_str": " considering how busy",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " busy",
+            " they",
+            " are"
+          ],
+          "ngram_str": " busy they are",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            "."
+          ],
+          "ngram_str": " it was.",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " they",
+            " were",
+            "."
+          ],
+          "ngram_str": " they were.",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " busy",
+            " it",
+            " is"
+          ],
+          "ngram_str": " busy it is",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " depending",
+            " on",
+            " how"
+          ],
+          "ngram_str": " depending on how",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " on",
+            " how",
+            " hungry"
+          ],
+          "ngram_str": " on how hungry",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " of",
+            " how",
+            " busy"
+          ],
+          "ngram_str": " of how busy",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " matter",
+            " how",
+            " busy"
+          ],
+          "ngram_str": " matter how busy",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " for",
+            " how",
+            " busy"
+          ],
+          "ngram_str": " for how busy",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " how",
+            " busy",
+            " it",
+            " was"
+          ],
+          "ngram_str": " how busy it was",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " how",
+            " busy",
+            " they",
+            " were"
+          ],
+          "ngram_str": " how busy they were",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " how",
+            " busy",
+            " they",
+            " are"
+          ],
+          "ngram_str": " how busy they are",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " busy",
+            " they",
+            " were",
+            "."
+          ],
+          "ngram_str": " busy they were.",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " busy",
+            " it",
+            " was",
+            "."
+          ],
+          "ngram_str": " busy it was.",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " how",
+            " busy",
+            " it",
+            " is"
+          ],
+          "ngram_str": " how busy it is",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " considering",
+            " how",
+            " busy",
+            " they"
+          ],
+          "ngram_str": " considering how busy they",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " considering",
+            " how",
+            " busy",
+            " it"
+          ],
+          "ngram_str": " considering how busy it",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " busy",
+            " they",
+            " are",
+            "."
+          ],
+          "ngram_str": " busy they are.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " how",
+            " hungry",
+            " you",
+            " are"
+          ],
+          "ngram_str": " how hungry you are",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " on",
+            " how",
+            " hungry",
+            " you"
+          ],
+          "ngram_str": " on how hungry you",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " matter",
+            " how",
+            " busy",
+            " they"
+          ],
+          "ngram_str": " matter how busy they",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " depending",
+            " on",
+            " how",
+            " hungry"
+          ],
+          "ngram_str": " depending on how hungry",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " no",
+            " matter",
+            " how",
+            " busy"
+          ],
+          "ngram_str": " no matter how busy",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " on",
+            " how",
+            " busy",
+            " they"
+          ],
+          "ngram_str": " on how busy they",
+          "count": 19,
+          "percent": 3.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 49600000,
+      "corpus_coverage": 0.9593
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 7116,
+        "count": 9562,
+        "percent": 95.62
+      },
+      {
+        "feature_idx": 23369,
+        "count": 8789,
+        "percent": 87.89
+      },
+      {
+        "feature_idx": 24531,
+        "count": 6841,
+        "percent": 68.41
+      },
+      {
+        "feature_idx": 20619,
+        "count": 6655,
+        "percent": 66.55
+      },
+      {
+        "feature_idx": 14549,
+        "count": 6601,
+        "percent": 66.01
+      },
+      {
+        "feature_idx": 13941,
+        "count": 6510,
+        "percent": 65.1
+      },
+      {
+        "feature_idx": 20172,
+        "count": 6136,
+        "percent": 61.36
+      },
+      {
+        "feature_idx": 20678,
+        "count": 5703,
+        "percent": 57.03
+      },
+      {
+        "feature_idx": 3263,
+        "count": 5403,
+        "percent": 54.03
+      },
+      {
+        "feature_idx": 16582,
+        "count": 4225,
+        "percent": 42.25
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4069,
+        "percent": 40.69
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3982,
+        "percent": 39.82
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3637,
+        "percent": 36.37
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3525,
+        "percent": 35.25
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3075,
+        "percent": 30.75
+      },
+      {
+        "feature_idx": 6600,
+        "count": 2891,
+        "percent": 28.91
+      },
+      {
+        "feature_idx": 22244,
+        "count": 2751,
+        "percent": 27.51
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2723,
+        "percent": 27.23
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2459,
+        "percent": 24.59
+      },
+      {
+        "feature_idx": 14523,
+        "count": 2437,
+        "percent": 24.37
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 49600000,
+      "corpus_coverage": 0.9593
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1587,
+        "percent": 15.87
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2036,
+        "percent": 20.36
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1936,
+        "percent": 19.36
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2146,
+        "percent": 21.46
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2295,
+        "percent": 22.95
+      }
+    ],
+    "mean_position": 0.5336,
+    "std_position": 0.2816
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 7,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0322,
+      "p25": 0.0369,
+      "p50": 0.0424,
+      "p75": 0.0667,
+      "p90": 0.0771,
+      "p95": 0.0779,
+      "p99": 0.0785
+    },
+    "skewness": 0.4565,
+    "kurtosis": -1.4078,
+    "min": 0.0306,
+    "max": 0.0787,
+    "mean": 0.0513,
+    "std": 0.0183
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 7,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": " is",
+        "count": 3,
+        "mean_activation": 0.0618
+      },
+      {
+        "token": " was",
+        "count": 2,
+        "mean_activation": 0.0379
+      },
+      {
+        "token": " it",
+        "count": 1,
+        "mean_activation": 0.0572
+      },
+      {
+        "token": " do",
+        "count": 1,
+        "mean_activation": 0.0405
+      }
+    ]
+  }
+}

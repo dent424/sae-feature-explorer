@@ -1,0 +1,876 @@
+{
+  "feature_idx": 489,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 89,
+    "mean_when_active": 0.08823986267775633,
+    "max_activation": 0.2408447265625,
+    "std_when_active": 0.05509070049676838,
+    "activation_rate": 0.00089
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 46216,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " time",
+        "count": 30920,
+        "mean_activation": 0.12222017877931582
+      },
+      {
+        "token": " visit",
+        "count": 4882,
+        "mean_activation": 0.041295845066119004
+      },
+      {
+        "token": " job",
+        "count": 3128,
+        "mean_activation": 0.055432248908235594
+      },
+      {
+        "token": " experience",
+        "count": 1311,
+        "mean_activation": 0.03286165285437822
+      },
+      {
+        "token": " times",
+        "count": 954,
+        "mean_activation": 0.04847930812235898
+      },
+      {
+        "token": " day",
+        "count": 581,
+        "mean_activation": 0.06238494190209499
+      },
+      {
+        "token": " night",
+        "count": 470,
+        "mean_activation": 0.05363685120927526
+      },
+      {
+        "token": " trip",
+        "count": 361,
+        "mean_activation": 0.03565805704639889
+      },
+      {
+        "token": " date",
+        "count": 290,
+        "mean_activation": 0.050748890843884696
+      },
+      {
+        "token": "b",
+        "count": 276,
+        "mean_activation": 0.021438764489215355
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 46216,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...nd I love it.\\n\\nFirst** time** here I went by mysel...",
+        "active_token": " time",
+        "activation": 0.28955078125,
+        "review_id": "s_MAopkfSu1Hbwzwk3MIAg",
+        "position": 17
+      },
+      {
+        "context": "...een let down. \\nFirst** time** they got my food all...",
+        "active_token": " time",
+        "activation": 0.289306640625,
+        "review_id": "OzT0clkSyRygjZafXywG_Q",
+        "position": 82
+      },
+      {
+        "context": "...or two people. First** time** we went inside, toda...",
+        "active_token": " time",
+        "activation": 0.287109375,
+        "review_id": "l-PS_KFWrfXuu-0Q1dxQiA",
+        "position": 59
+      },
+      {
+        "context": "...me co-workers. First** time** we went it was rathe...",
+        "active_token": " time",
+        "activation": 0.28466796875,
+        "review_id": "LOZCDLRH1Sh1ZbuqvlsqcA",
+        "position": 24
+      },
+      {
+        "context": "...day last week. First** time** visiting and live th...",
+        "active_token": " time",
+        "activation": 0.281982421875,
+        "review_id": "G1rHRAGC6m9adfio9D9G4w",
+        "position": 16
+      },
+      {
+        "context": "...a third visit. First** time** I had the tuna bowl....",
+        "active_token": " time",
+        "activation": 0.281005859375,
+        "review_id": "AmBpwX4cMdosTmFClG6D6Q",
+        "position": 38
+      },
+      {
+        "context": "... the changes.  First** time**, sat at a table for ...",
+        "active_token": " time",
+        "activation": 0.281005859375,
+        "review_id": "ZJYriFLuIg-Lx3f3xRAyoQ",
+        "position": 23
+      },
+      {
+        "context": "... a great time. First** time** at the show, not my ...",
+        "active_token": " time",
+        "activation": 0.2802734375,
+        "review_id": "7kPSVS95jeV_tYPRJ8k3uA",
+        "position": 37
+      },
+      {
+        "context": "...th in my life. First** time** I went was Valentine...",
+        "active_token": " time",
+        "activation": 0.27978515625,
+        "review_id": "w66x-fMGjS_E4qZ1XEZphA",
+        "position": 14
+      },
+      {
+        "context": "...it was a flop. First** time** there was 5 stars! \\n...",
+        "active_token": " time",
+        "activation": 0.279296875,
+        "review_id": "4EwpIAx7wr4aqst4LOjVdw",
+        "position": 13
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 489,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2522,
+        "max": 0.2896,
+        "mean": 0.2615
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " First",
+            " time"
+          ],
+          "ngram_str": " First time",
+          "count": 375,
+          "percent": 75.0
+        },
+        {
+          "ngram": [
+            ".",
+            " First"
+          ],
+          "ngram_str": ". First",
+          "count": 264,
+          "percent": 52.8
+        },
+        {
+          "ngram": [
+            " time",
+            " here"
+          ],
+          "ngram_str": " time here",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " time",
+            " I"
+          ],
+          "ngram_str": " time I",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "First"
+          ],
+          "ngram_str": "\u012cFirst",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "First",
+            " time"
+          ],
+          "ngram_str": "First time",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " ",
+            " First"
+          ],
+          "ngram_str": "  First",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " first",
+            " time"
+          ],
+          "ngram_str": " first time",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "!",
+            " First"
+          ],
+          "ngram_str": "! First",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " here",
+            "."
+          ],
+          "ngram_str": " here.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " time",
+            " in"
+          ],
+          "ngram_str": " time in",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " First",
+            " time"
+          ],
+          "ngram_str": ". First time",
+          "count": 264,
+          "percent": 52.8
+        },
+        {
+          "ngram": [
+            " First",
+            " time",
+            " I"
+          ],
+          "ngram_str": " First time I",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " First",
+            " time",
+            " here"
+          ],
+          "ngram_str": " First time here",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "First",
+            " time"
+          ],
+          "ngram_str": "\u012cFirst time",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " ",
+            " First",
+            " time"
+          ],
+          "ngram_str": "  First time",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "First"
+          ],
+          "ngram_str": "\u00c4\u012cFirst",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " First"
+          ],
+          "ngram_str": ".  First",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "!",
+            " First",
+            " time"
+          ],
+          "ngram_str": "! First time",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " First",
+            " time",
+            " in"
+          ],
+          "ngram_str": " First time in",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " time",
+            " here",
+            "."
+          ],
+          "ngram_str": " time here.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " time",
+            " here",
+            " and"
+          ],
+          "ngram_str": " time here and",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " time",
+            " I",
+            " went"
+          ],
+          "ngram_str": " time I went",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " First",
+            " time",
+            " I"
+          ],
+          "ngram_str": ". First time I",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " First",
+            " time",
+            " here"
+          ],
+          "ngram_str": ". First time here",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "First",
+            " time"
+          ],
+          "ngram_str": "\u00c4\u012cFirst time",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " First",
+            " time"
+          ],
+          "ngram_str": ".  First time",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "First"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cFirst",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " First",
+            " time",
+            " in"
+          ],
+          "ngram_str": ". First time in",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " First",
+            " time",
+            " here",
+            "."
+          ],
+          "ngram_str": " First time here.",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " First",
+            " time",
+            " we"
+          ],
+          "ngram_str": ". First time we",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " First",
+            " time",
+            " I",
+            " went"
+          ],
+          "ngram_str": " First time I went",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " First",
+            " time",
+            " here",
+            " and"
+          ],
+          "ngram_str": " First time here and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "First",
+            " time"
+          ],
+          "ngram_str": " \u00c4\u012cFirst time",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1539,
+        "count": 6745,
+        "percent": 67.45
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6336,
+        "percent": 63.36
+      },
+      {
+        "feature_idx": 19463,
+        "count": 6222,
+        "percent": 62.22
+      },
+      {
+        "feature_idx": 18678,
+        "count": 5997,
+        "percent": 59.97
+      },
+      {
+        "feature_idx": 16212,
+        "count": 5425,
+        "percent": 54.25
+      },
+      {
+        "feature_idx": 11763,
+        "count": 5166,
+        "percent": 51.66
+      },
+      {
+        "feature_idx": 3537,
+        "count": 4782,
+        "percent": 47.82
+      },
+      {
+        "feature_idx": 20362,
+        "count": 4687,
+        "percent": 46.87
+      },
+      {
+        "feature_idx": 13855,
+        "count": 4651,
+        "percent": 46.51
+      },
+      {
+        "feature_idx": 23350,
+        "count": 4318,
+        "percent": 43.18
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3795,
+        "percent": 37.95
+      },
+      {
+        "feature_idx": 22745,
+        "count": 3658,
+        "percent": 36.58
+      },
+      {
+        "feature_idx": 11711,
+        "count": 3613,
+        "percent": 36.13
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3000,
+        "percent": 30.0
+      },
+      {
+        "feature_idx": 8956,
+        "count": 2573,
+        "percent": 25.73
+      },
+      {
+        "feature_idx": 17985,
+        "count": 2565,
+        "percent": 25.65
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2508,
+        "percent": 25.08
+      },
+      {
+        "feature_idx": 9296,
+        "count": 2487,
+        "percent": 24.87
+      },
+      {
+        "feature_idx": 14723,
+        "count": 2457,
+        "percent": 24.57
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2449,
+        "percent": 24.49
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4625,
+        "percent": 46.25
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1784,
+        "percent": 17.84
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1247,
+        "percent": 12.47
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1121,
+        "percent": 11.21
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1223,
+        "percent": 12.23
+      }
+    ],
+    "mean_position": 0.3371,
+    "std_position": 0.3058
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 89,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.029,
+      "p25": 0.0438,
+      "p50": 0.072,
+      "p75": 0.1338,
+      "p90": 0.1655,
+      "p95": 0.1912,
+      "p99": 0.2259
+    },
+    "skewness": 0.7689,
+    "kurtosis": -0.3259,
+    "min": 0.0164,
+    "max": 0.2408,
+    "mean": 0.0882,
+    "std": 0.0551
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 89,
+      "unique_tokens_found": 10
+    },
+    "tokens": [
+      {
+        "token": " time",
+        "count": 57,
+        "mean_activation": 0.1119
+      },
+      {
+        "token": " job",
+        "count": 11,
+        "mean_activation": 0.0501
+      },
+      {
+        "token": " visit",
+        "count": 8,
+        "mean_activation": 0.0424
+      },
+      {
+        "token": " day",
+        "count": 4,
+        "mean_activation": 0.0588
+      },
+      {
+        "token": " experience",
+        "count": 4,
+        "mean_activation": 0.0374
+      },
+      {
+        "token": " anniversary",
+        "count": 1,
+        "mean_activation": 0.0309
+      },
+      {
+        "token": " times",
+        "count": 1,
+        "mean_activation": 0.0385
+      },
+      {
+        "token": " weekend",
+        "count": 1,
+        "mean_activation": 0.0435
+      },
+      {
+        "token": " date",
+        "count": 1,
+        "mean_activation": 0.0284
+      },
+      {
+        "token": " moment",
+        "count": 1,
+        "mean_activation": 0.0611
+      }
+    ]
+  }
+}

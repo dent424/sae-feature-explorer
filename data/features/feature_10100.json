@@ -1,0 +1,871 @@
+{
+  "feature_idx": 10100,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 12,
+    "mean_when_active": 0.08704757690429688,
+    "max_activation": 0.262939453125,
+    "std_when_active": 0.06739697823600005,
+    "activation_rate": 0.00012
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6987,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " private",
+        "count": 1025,
+        "mean_activation": 0.1231615020007622
+      },
+      {
+        "token": " public",
+        "count": 656,
+        "mean_activation": 0.3191396201529154
+      },
+      {
+        "token": " officially",
+        "count": 319,
+        "mean_activation": 0.05523605107513715
+      },
+      {
+        "token": " city",
+        "count": 283,
+        "mean_activation": 0.027852870550256734
+      },
+      {
+        "token": " Public",
+        "count": 252,
+        "mean_activation": 0.31229412744915674
+      },
+      {
+        "token": " community",
+        "count": 186,
+        "mean_activation": 0.03523541522282426
+      },
+      {
+        "token": " state",
+        "count": 165,
+        "mean_activation": 0.03459222966974432
+      },
+      {
+        "token": " official",
+        "count": 149,
+        "mean_activation": 0.13489547831900167
+      },
+      {
+        "token": " State",
+        "count": 111,
+        "mean_activation": 0.02672631890924127
+      },
+      {
+        "token": " establishment",
+        "count": 98,
+        "mean_activation": 0.026088403195750957
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6987,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... in Santa Barbara's** public** market. I don't wri...",
+        "active_token": " public",
+        "activation": 0.3955078125,
+        "review_id": "WK5T-97dBPtXQInqdjuMOw",
+        "position": 89
+      },
+      {
+        "context": "..., poorly maintained** public** areas (like ripped ...",
+        "active_token": " public",
+        "activation": 0.39404296875,
+        "review_id": "DlN1fsLmj_ncCHFfg8TJVA",
+        "position": 218
+      },
+      {
+        "context": "...Fiesta are those of** public** drunkenness and lon...",
+        "active_token": " public",
+        "activation": 0.391845703125,
+        "review_id": "YJIJwPiIYKg5kDhdeXsptg",
+        "position": 32
+      },
+      {
+        "context": "...enter City offices,** public** transportation, and...",
+        "active_token": " public",
+        "activation": 0.38525390625,
+        "review_id": "qd8T5ZFZ8TS7KAQKi20wQA",
+        "position": 80
+      },
+      {
+        "context": "...g all the bad press/**public**ity about people get...",
+        "active_token": "public",
+        "activation": 0.384765625,
+        "review_id": "CxfXg6BinlkTakR5VsGf0Q",
+        "position": 15
+      },
+      {
+        "context": "...and I believe other** public** servant discounts a...",
+        "active_token": " public",
+        "activation": 0.383544921875,
+        "review_id": "xPV95EnZsIUNCEOGHEBRKA",
+        "position": 94
+      },
+      {
+        "context": "...airfreshener like a** public** bathroom.  Service ...",
+        "active_token": " public",
+        "activation": 0.380615234375,
+        "review_id": "LjPMLXEfE9xEVU-f-wvNxg",
+        "position": 27
+      },
+      {
+        "context": "...rom most hotels and** public** parking garages. Th...",
+        "active_token": " public",
+        "activation": 0.379150390625,
+        "review_id": "wPWk2gpTTV0KDrEZA_BFNQ",
+        "position": 80
+      },
+      {
+        "context": "...ient place close to** public** parking in Clearwat...",
+        "active_token": " public",
+        "activation": 0.37744140625,
+        "review_id": "k_zhDTmBPCsYCgSJZTaJkg",
+        "position": 19
+      },
+      {
+        "context": "...en you have to have** public** interactions. One w...",
+        "active_token": " public",
+        "activation": 0.373291015625,
+        "review_id": "4GfHdqiSH7MDJ2zGzlAiFg",
+        "position": 48
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10100,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.321,
+        "max": 0.3955,
+        "mean": 0.3412
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Public",
+            " Market"
+          ],
+          "ngram_str": " Public Market",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " the",
+            " public"
+          ],
+          "ngram_str": " the public",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " a",
+            " public"
+          ],
+          "ngram_str": " a public",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " public",
+            " market"
+          ],
+          "ngram_str": " public market",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Public"
+          ],
+          "ngram_str": " the Public",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " Santa Barbara",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " Market",
+            "."
+          ],
+          "ngram_str": " Market.",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " public",
+            " parking"
+          ],
+          "ngram_str": " public parking",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " Barbara",
+            " Public"
+          ],
+          "ngram_str": " Barbara Public",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " the",
+            " Santa"
+          ],
+          "ngram_str": " the Santa",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " Public",
+            " Market"
+          ],
+          "ngram_str": " the Public Market",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " Public",
+            " Market",
+            "."
+          ],
+          "ngram_str": " Public Market.",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " the",
+            " public",
+            " market"
+          ],
+          "ngram_str": " the public market",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " the Santa Barbara",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            " Public"
+          ],
+          "ngram_str": " Santa Barbara Public",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Barbara",
+            " Public",
+            " Market"
+          ],
+          "ngram_str": " Barbara Public Market",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " public"
+          ],
+          "ngram_str": " in a public",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " with",
+            " the",
+            " public"
+          ],
+          "ngram_str": " with the public",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " public"
+          ],
+          "ngram_str": " in the public",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " Public",
+            " Market",
+            ","
+          ],
+          "ngram_str": " Public Market,",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Public"
+          ],
+          "ngram_str": " in the Public",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " public",
+            " market",
+            "."
+          ],
+          "ngram_str": " public market.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " located",
+            " in",
+            " the"
+          ],
+          "ngram_str": " located in the",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " public"
+          ],
+          "ngram_str": " is a public",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " Santa",
+            " Barbara",
+            " Public",
+            " Market"
+          ],
+          "ngram_str": " Santa Barbara Public Market",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Santa",
+            " Barbara",
+            " Public"
+          ],
+          "ngram_str": " the Santa Barbara Public",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Public",
+            " Market"
+          ],
+          "ngram_str": " in the Public Market",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " public",
+            " market"
+          ],
+          "ngram_str": " in the public market",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " in the Santa Barbara",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " Barbara",
+            " Public",
+            " Market",
+            "."
+          ],
+          "ngram_str": " Barbara Public Market.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Public",
+            " Market",
+            "."
+          ],
+          "ngram_str": " the Public Market.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " Public",
+            " Market"
+          ],
+          "ngram_str": " at the Public Market",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " inside",
+            " the",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " inside the Santa Barbara",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " is",
+            " located",
+            " in",
+            " the"
+          ],
+          "ngram_str": " is located in the",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " with",
+            " the",
+            " public",
+            "."
+          ],
+          "ngram_str": " with the public.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Public",
+            " Market",
+            ","
+          ],
+          "ngram_str": " the Public Market,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " public",
+            " market",
+            " and"
+          ],
+          "ngram_str": " the public market and",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6987,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 3765,
+        "percent": 53.89
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2563,
+        "percent": 36.68
+      },
+      {
+        "feature_idx": 18403,
+        "count": 2137,
+        "percent": 30.59
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1888,
+        "percent": 27.02
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1814,
+        "percent": 25.96
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1806,
+        "percent": 25.85
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1605,
+        "percent": 22.97
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1550,
+        "percent": 22.18
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1543,
+        "percent": 22.08
+      },
+      {
+        "feature_idx": 6920,
+        "count": 1307,
+        "percent": 18.71
+      },
+      {
+        "feature_idx": 7066,
+        "count": 1253,
+        "percent": 17.93
+      },
+      {
+        "feature_idx": 6562,
+        "count": 1244,
+        "percent": 17.8
+      },
+      {
+        "feature_idx": 1938,
+        "count": 1227,
+        "percent": 17.56
+      },
+      {
+        "feature_idx": 413,
+        "count": 1222,
+        "percent": 17.49
+      },
+      {
+        "feature_idx": 9204,
+        "count": 1200,
+        "percent": 17.17
+      },
+      {
+        "feature_idx": 1181,
+        "count": 1182,
+        "percent": 16.92
+      },
+      {
+        "feature_idx": 12661,
+        "count": 1181,
+        "percent": 16.9
+      },
+      {
+        "feature_idx": 12724,
+        "count": 1149,
+        "percent": 16.44
+      },
+      {
+        "feature_idx": 4456,
+        "count": 1131,
+        "percent": 16.19
+      },
+      {
+        "feature_idx": 2071,
+        "count": 1109,
+        "percent": 15.87
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6987,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1802,
+        "percent": 25.79
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1229,
+        "percent": 17.59
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1017,
+        "percent": 14.56
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1199,
+        "percent": 17.16
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1740,
+        "percent": 24.9
+      }
+    ],
+    "mean_position": 0.4967,
+    "std_position": 0.3192
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 12,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0222,
+      "p25": 0.0327,
+      "p50": 0.0651,
+      "p75": 0.1218,
+      "p90": 0.1333,
+      "p95": 0.192,
+      "p99": 0.2487
+    },
+    "skewness": 1.2651,
+    "kurtosis": 1.1527,
+    "min": 0.0194,
+    "max": 0.2629,
+    "mean": 0.087,
+    "std": 0.0674
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 12,
+      "unique_tokens_found": 9
+    },
+    "tokens": [
+      {
+        "token": " private",
+        "count": 4,
+        "mean_activation": 0.1245
+      },
+      {
+        "token": " masses",
+        "count": 1,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": " society",
+        "count": 1,
+        "mean_activation": 0.0475
+      },
+      {
+        "token": " are",
+        "count": 1,
+        "mean_activation": 0.0211
+      },
+      {
+        "token": "ially",
+        "count": 1,
+        "mean_activation": 0.079
+      },
+      {
+        "token": " public",
+        "count": 1,
+        "mean_activation": 0.2629
+      },
+      {
+        "token": " eye",
+        "count": 1,
+        "mean_activation": 0.0512
+      },
+      {
+        "token": " State",
+        "count": 1,
+        "mean_activation": 0.0194
+      },
+      {
+        "token": " VIP",
+        "count": 1,
+        "mean_activation": 0.0326
+      }
+    ]
+  }
+}

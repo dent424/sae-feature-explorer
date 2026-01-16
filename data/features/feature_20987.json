@@ -1,0 +1,876 @@
+{
+  "feature_idx": 20987,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 98,
+    "mean_when_active": 0.046495632249481826,
+    "max_activation": 0.1522216796875,
+    "std_when_active": 0.02657787941667753,
+    "activation_rate": 0.00098
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 34714,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " in",
+        "count": 13622,
+        "mean_activation": 0.04668899724319317
+      },
+      {
+        "token": " the",
+        "count": 6966,
+        "mean_activation": 0.037787614592936336
+      },
+      {
+        "token": " on",
+        "count": 6362,
+        "mean_activation": 0.052170031252839734
+      },
+      {
+        "token": " at",
+        "count": 1736,
+        "mean_activation": 0.038082149171609486
+      },
+      {
+        "token": " a",
+        "count": 1716,
+        "mean_activation": 0.03605483350776014
+      },
+      {
+        "token": " with",
+        "count": 658,
+        "mean_activation": 0.03490018989539798
+      },
+      {
+        "token": " for",
+        "count": 619,
+        "mean_activation": 0.03958737522796976
+      },
+      {
+        "token": " from",
+        "count": 476,
+        "mean_activation": 0.039820342504677655
+      },
+      {
+        "token": " my",
+        "count": 258,
+        "mean_activation": 0.03302055181458939
+      },
+      {
+        "token": " out",
+        "count": 255,
+        "mean_activation": 0.030461808746936273
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 34714,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... Every time I see him** in** there, I know I'm in ...",
+        "active_token": " in",
+        "activation": 0.1859130859375,
+        "review_id": "OL5IU-sMpjE1GemnZlyrtA",
+        "position": 47
+      },
+      {
+        "context": "...zing if you watch her** in** action. I usually sit...",
+        "active_token": " in",
+        "activation": 0.181396484375,
+        "review_id": "G63idimDOhtwELQxDt9jsA",
+        "position": 120
+      },
+      {
+        "context": "...times, hard to see it** in** a little strip mall. ...",
+        "active_token": " in",
+        "activation": 0.180908203125,
+        "review_id": "CRnKsjRC4UqTKQ_oRgceEQ",
+        "position": 13
+      },
+      {
+        "context": "...etter once you see it** in** front of you. Two of ...",
+        "active_token": " in",
+        "activation": 0.1796875,
+        "review_id": "zfIUEOIADAac2JJ4fs09hg",
+        "position": 41
+      },
+      {
+        "context": "...sue - we even saw him** in** the back making a fre...",
+        "active_token": " in",
+        "activation": 0.1785888671875,
+        "review_id": "7fIxczpq8YWiY6aU7tIARQ",
+        "position": 116
+      },
+      {
+        "context": "...here you can see them** in** the kitchen. We got: ...",
+        "active_token": " in",
+        "activation": 0.1776123046875,
+        "review_id": "PSIW3CHQHNs8AJjFSIT1-g",
+        "position": 27
+      },
+      {
+        "context": "...if you need to see it** in** writing,  check out t...",
+        "active_token": " in",
+        "activation": 0.177001953125,
+        "review_id": "F-Whvg0IJH-tXJefDv9ApQ",
+        "position": 111
+      },
+      {
+        "context": "...your full. Seeing her** in** person after watching...",
+        "active_token": " in",
+        "activation": 0.176513671875,
+        "review_id": "4SV4JKPSOOpigM5FJIdKyw",
+        "position": 61
+      },
+      {
+        "context": "...ugh I didn't see Lupe** in** that hollowed out tra...",
+        "active_token": " in",
+        "activation": 0.1761474609375,
+        "review_id": "hckGQSqoeLZMkk3xmEdN8g",
+        "position": 63
+      },
+      {
+        "context": "...busy we could see her** in** the kitchen taking, l...",
+        "active_token": " in",
+        "activation": 0.175048828125,
+        "review_id": "qAZaPjzL24hyR82isKeKtg",
+        "position": 79
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20987,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1216,
+        "max": 0.1859,
+        "mean": 0.1372
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 137,
+          "percent": 27.4
+        },
+        {
+          "ngram": [
+            " it",
+            " on"
+          ],
+          "ngram_str": " it on",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " it",
+            " in"
+          ],
+          "ngram_str": " it in",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " see",
+            " it"
+          ],
+          "ngram_str": " see it",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " to",
+            " see"
+          ],
+          "ngram_str": " to see",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " I",
+            " saw"
+          ],
+          "ngram_str": " I saw",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " the",
+            " menu"
+          ],
+          "ngram_str": " the menu",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " see",
+            " in"
+          ],
+          "ngram_str": " see in",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " saw",
+            " it"
+          ],
+          "ngram_str": " saw it",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " them",
+            " on"
+          ],
+          "ngram_str": " them on",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " after",
+            " seeing"
+          ],
+          "ngram_str": " after seeing",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " it",
+            " on",
+            " the"
+          ],
+          "ngram_str": " it on the",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " on the menu",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " see",
+            " it",
+            " in"
+          ],
+          "ngram_str": " see it in",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " see",
+            " it",
+            " on"
+          ],
+          "ngram_str": " see it on",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " it",
+            " in",
+            " the"
+          ],
+          "ngram_str": " it in the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " saw",
+            " it",
+            " on"
+          ],
+          "ngram_str": " saw it on",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " I",
+            " saw",
+            " it"
+          ],
+          "ngram_str": " I saw it",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " see"
+          ],
+          "ngram_str": " didn't see",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " seeing",
+            " it",
+            " on"
+          ],
+          "ngram_str": " seeing it on",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " saw",
+            " it",
+            " in"
+          ],
+          "ngram_str": " saw it in",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " after",
+            " seeing",
+            " it"
+          ],
+          "ngram_str": " after seeing it",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " see",
+            " in",
+            " the"
+          ],
+          "ngram_str": " see in the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " see"
+          ],
+          "ngram_str": " you can see",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " see",
+            " them",
+            " in"
+          ],
+          "ngram_str": " see them in",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " kitchen"
+          ],
+          "ngram_str": " in the kitchen",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " it",
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " it on the menu",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " see",
+            " it",
+            " on",
+            " the"
+          ],
+          "ngram_str": " see it on the",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " I",
+            " saw",
+            " it",
+            " on"
+          ],
+          "ngram_str": " I saw it on",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " after",
+            " seeing",
+            " it",
+            " on"
+          ],
+          "ngram_str": " after seeing it on",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " see",
+            " it",
+            " in",
+            " the"
+          ],
+          "ngram_str": " see it in the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " saw",
+            " it",
+            " on",
+            " the"
+          ],
+          "ngram_str": " saw it on the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            " didn",
+            "'t",
+            " see"
+          ],
+          "ngram_str": " I didn't see",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu",
+            "."
+          ],
+          "ngram_str": " on the menu.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu",
+            ","
+          ],
+          "ngram_str": " on the menu,",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " see",
+            " them",
+            " in",
+            " the"
+          ],
+          "ngram_str": " see them in the",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " after",
+            " seeing",
+            " them",
+            " on"
+          ],
+          "ngram_str": " after seeing them on",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " see",
+            " it"
+          ],
+          "ngram_str": " didn't see it",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " I",
+            " saw",
+            " it",
+            " in"
+          ],
+          "ngram_str": " I saw it in",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " them",
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " them on the menu",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15000000,
+      "corpus_coverage": 0.2901
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5288,
+        "percent": 52.88
+      },
+      {
+        "feature_idx": 13846,
+        "count": 4033,
+        "percent": 40.33
+      },
+      {
+        "feature_idx": 18439,
+        "count": 4018,
+        "percent": 40.18
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3903,
+        "percent": 39.03
+      },
+      {
+        "feature_idx": 1683,
+        "count": 3647,
+        "percent": 36.47
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3439,
+        "percent": 34.39
+      },
+      {
+        "feature_idx": 4644,
+        "count": 3435,
+        "percent": 34.35
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3425,
+        "percent": 34.25
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3076,
+        "percent": 30.76
+      },
+      {
+        "feature_idx": 9746,
+        "count": 3037,
+        "percent": 30.37
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2925,
+        "percent": 29.25
+      },
+      {
+        "feature_idx": 13409,
+        "count": 2842,
+        "percent": 28.42
+      },
+      {
+        "feature_idx": 95,
+        "count": 2192,
+        "percent": 21.92
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2113,
+        "percent": 21.13
+      },
+      {
+        "feature_idx": 10638,
+        "count": 2043,
+        "percent": 20.43
+      },
+      {
+        "feature_idx": 22187,
+        "count": 2037,
+        "percent": 20.37
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2034,
+        "percent": 20.34
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1917,
+        "percent": 19.17
+      },
+      {
+        "feature_idx": 1390,
+        "count": 1893,
+        "percent": 18.93
+      },
+      {
+        "feature_idx": 10946,
+        "count": 1833,
+        "percent": 18.33
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15000000,
+      "corpus_coverage": 0.2901
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2520,
+        "percent": 25.2
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1916,
+        "percent": 19.16
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1856,
+        "percent": 18.56
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1825,
+        "percent": 18.25
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1883,
+        "percent": 18.83
+      }
+    ],
+    "mean_position": 0.4722,
+    "std_position": 0.2986
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 98,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0237,
+      "p25": 0.0281,
+      "p50": 0.0357,
+      "p75": 0.0612,
+      "p90": 0.0746,
+      "p95": 0.0956,
+      "p99": 0.1391
+    },
+    "skewness": 1.6586,
+    "kurtosis": 3.0783,
+    "min": 0.0107,
+    "max": 0.1522,
+    "mean": 0.0465,
+    "std": 0.0266
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 98,
+      "unique_tokens_found": 16
+    },
+    "tokens": [
+      {
+        "token": " in",
+        "count": 40,
+        "mean_activation": 0.0559
+      },
+      {
+        "token": " the",
+        "count": 21,
+        "mean_activation": 0.0374
+      },
+      {
+        "token": " on",
+        "count": 11,
+        "mean_activation": 0.0527
+      },
+      {
+        "token": " at",
+        "count": 5,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " a",
+        "count": 4,
+        "mean_activation": 0.0352
+      },
+      {
+        "token": " with",
+        "count": 4,
+        "mean_activation": 0.0435
+      },
+      {
+        "token": " my",
+        "count": 2,
+        "mean_activation": 0.0357
+      },
+      {
+        "token": " from",
+        "count": 2,
+        "mean_activation": 0.0471
+      },
+      {
+        "token": " for",
+        "count": 2,
+        "mean_activation": 0.0259
+      },
+      {
+        "token": ".",
+        "count": 1,
+        "mean_activation": 0.0331
+      }
+    ]
+  }
+}

@@ -1,0 +1,856 @@
+{
+  "feature_idx": 13480,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 44,
+    "mean_when_active": 0.04712399569424716,
+    "max_activation": 0.1571044921875,
+    "std_when_active": 0.03307017086412839,
+    "activation_rate": 0.00044
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 20888,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 18327,
+        "mean_activation": 0.046515374811476065
+      },
+      {
+        "token": " a",
+        "count": 772,
+        "mean_activation": 0.03934560785639472
+      },
+      {
+        "token": " at",
+        "count": 532,
+        "mean_activation": 0.027759523320018797
+      },
+      {
+        "token": " your",
+        "count": 340,
+        "mean_activation": 0.03992408303653493
+      },
+      {
+        "token": " app",
+        "count": 132,
+        "mean_activation": 0.02513290174079664
+      },
+      {
+        "token": " an",
+        "count": 65,
+        "mean_activation": 0.036096426156850964
+      },
+      {
+        "token": " and",
+        "count": 64,
+        "mean_activation": 0.02752399444580078
+      },
+      {
+        "token": " each",
+        "count": 54,
+        "mean_activation": 0.02865883156105324
+      },
+      {
+        "token": " you",
+        "count": 53,
+        "mean_activation": 0.034557702406397404
+      },
+      {
+        "token": "the",
+        "count": 53,
+        "mean_activation": 0.054378869398584904
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 20888,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "Your order and pay at** the** counter, then they b...",
+        "active_token": " the",
+        "activation": 0.1961669921875,
+        "review_id": "4lbXoJlQaUpglp2YfchSYw",
+        "position": 5
+      },
+      {
+        "context": "... You order and pay at** the** counter and then sit...",
+        "active_token": " the",
+        "activation": 0.1943359375,
+        "review_id": "Jd5XyP-pc8QA9prZKi2sjQ",
+        "position": 69
+      },
+      {
+        "context": "...er.\\n\\nOrder and pay at** the** counter, and they br...",
+        "active_token": " the",
+        "activation": 0.189208984375,
+        "review_id": "hCi28E7tiebgfSO7Kd5KBQ",
+        "position": 287
+      },
+      {
+        "context": "...ual.  Please order at** the** counter and the food...",
+        "active_token": " the",
+        "activation": 0.1827392578125,
+        "review_id": "CjxBrxHzY9SPs52SgmJ_NQ",
+        "position": 118
+      },
+      {
+        "context": "...\\nYou order and pay at** the** counter. They do off...",
+        "active_token": " the",
+        "activation": 0.1827392578125,
+        "review_id": "17DoO9M2yn9wgQYmgy1sVw",
+        "position": 235
+      },
+      {
+        "context": "... You order and pay at** the** counter and they giv...",
+        "active_token": " the",
+        "activation": 0.1820068359375,
+        "review_id": "LqqQv4SaWnf3nBKK9DzaIw",
+        "position": 138
+      },
+      {
+        "context": "... You order and pay at** the** counter and waiter b...",
+        "active_token": " the",
+        "activation": 0.1800537109375,
+        "review_id": "kXUZ_e_TbIupeQPOIoKKtg",
+        "position": 33
+      },
+      {
+        "context": "...oup and Salad! Pay at** the** table and free up yo...",
+        "active_token": " the",
+        "activation": 0.1795654296875,
+        "review_id": "Gw94sapQyORGeM1dmVhtAQ",
+        "position": 8
+      },
+      {
+        "context": ".... Place your order at** the** counter, they'll giv...",
+        "active_token": " the",
+        "activation": 0.1781005859375,
+        "review_id": "O_7hMnTAXJ17RI0Yt2reJQ",
+        "position": 69
+      },
+      {
+        "context": "...atisfaction. Order at** the** register, grab a sea...",
+        "active_token": " the",
+        "activation": 0.1781005859375,
+        "review_id": "RA-AY2AE7nNysDrAYj0VHg",
+        "position": 208
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13480,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1322,
+        "max": 0.1962,
+        "mean": 0.1459
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 503,
+          "percent": 100.6
+        },
+        {
+          "ngram": [
+            " the",
+            " counter"
+          ],
+          "ngram_str": " the counter",
+          "count": 334,
+          "percent": 66.8
+        },
+        {
+          "ngram": [
+            " order",
+            " at"
+          ],
+          "ngram_str": " order at",
+          "count": 279,
+          "percent": 55.8
+        },
+        {
+          "ngram": [
+            " You",
+            " order"
+          ],
+          "ngram_str": " You order",
+          "count": 159,
+          "percent": 31.8
+        },
+        {
+          "ngram": [
+            " counter",
+            " and"
+          ],
+          "ngram_str": " counter and",
+          "count": 157,
+          "percent": 31.4
+        },
+        {
+          "ngram": [
+            ".",
+            " You"
+          ],
+          "ngram_str": ". You",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            " pay",
+            " at"
+          ],
+          "ngram_str": " pay at",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " counter",
+            ","
+          ],
+          "ngram_str": " counter,",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " Order",
+            " at"
+          ],
+          "ngram_str": " Order at",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " and",
+            " they"
+          ],
+          "ngram_str": " and they",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " you",
+            " order"
+          ],
+          "ngram_str": " you order",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " and",
+            " pay"
+          ],
+          "ngram_str": " and pay",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Order"
+          ],
+          "ngram_str": ". Order",
+          "count": 57,
+          "percent": 11.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " at the counter",
+          "count": 332,
+          "percent": 66.4
+        },
+        {
+          "ngram": [
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " order at the",
+          "count": 279,
+          "percent": 55.8
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            " and"
+          ],
+          "ngram_str": " the counter and",
+          "count": 154,
+          "percent": 30.8
+        },
+        {
+          "ngram": [
+            " You",
+            " order",
+            " at"
+          ],
+          "ngram_str": " You order at",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            " pay",
+            " at",
+            " the"
+          ],
+          "ngram_str": " pay at the",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " order"
+          ],
+          "ngram_str": ". You order",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            ","
+          ],
+          "ngram_str": " the counter,",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " Order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " Order at the",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " and",
+            " pay",
+            " at"
+          ],
+          "ngram_str": " and pay at",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Order",
+            " at"
+          ],
+          "ngram_str": ". Order at",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " counter",
+            " and",
+            " they"
+          ],
+          "ngram_str": " counter and they",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " order",
+            " and",
+            " pay"
+          ],
+          "ngram_str": " order and pay",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " you",
+            " order",
+            " at"
+          ],
+          "ngram_str": " you order at",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " register"
+          ],
+          "ngram_str": " at the register",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " order",
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " order at the counter",
+          "count": 193,
+          "percent": 38.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter",
+            " and"
+          ],
+          "ngram_str": " at the counter and",
+          "count": 154,
+          "percent": 30.8
+        },
+        {
+          "ngram": [
+            " You",
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " You order at the",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " order",
+            " at"
+          ],
+          "ngram_str": ". You order at",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter",
+            ","
+          ],
+          "ngram_str": " at the counter,",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " Order",
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " Order at the counter",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " and",
+            " pay",
+            " at",
+            " the"
+          ],
+          "ngram_str": " and pay at the",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Order",
+            " at",
+            " the"
+          ],
+          "ngram_str": ". Order at the",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " pay",
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " pay at the counter",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " order",
+            " and",
+            " pay",
+            " at"
+          ],
+          "ngram_str": " order and pay at",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            " and",
+            " they"
+          ],
+          "ngram_str": " the counter and they",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " you",
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " you order at the",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "You",
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": "You order at the",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " ",
+            " You",
+            " order",
+            " at"
+          ],
+          "ngram_str": "  You order at",
+          "count": 28,
+          "percent": 5.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25700000,
+      "corpus_coverage": 0.4971
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10638,
+        "count": 8891,
+        "percent": 88.91
+      },
+      {
+        "feature_idx": 22187,
+        "count": 8890,
+        "percent": 88.9
+      },
+      {
+        "feature_idx": 14062,
+        "count": 5741,
+        "percent": 57.41
+      },
+      {
+        "feature_idx": 13850,
+        "count": 5286,
+        "percent": 52.86
+      },
+      {
+        "feature_idx": 5033,
+        "count": 5173,
+        "percent": 51.73
+      },
+      {
+        "feature_idx": 22467,
+        "count": 5167,
+        "percent": 51.67
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5054,
+        "percent": 50.54
+      },
+      {
+        "feature_idx": 18017,
+        "count": 4908,
+        "percent": 49.08
+      },
+      {
+        "feature_idx": 7914,
+        "count": 4864,
+        "percent": 48.64
+      },
+      {
+        "feature_idx": 10502,
+        "count": 3950,
+        "percent": 39.5
+      },
+      {
+        "feature_idx": 1008,
+        "count": 3878,
+        "percent": 38.78
+      },
+      {
+        "feature_idx": 14432,
+        "count": 3695,
+        "percent": 36.95
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3408,
+        "percent": 34.08
+      },
+      {
+        "feature_idx": 12582,
+        "count": 3237,
+        "percent": 32.37
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3208,
+        "percent": 32.08
+      },
+      {
+        "feature_idx": 7762,
+        "count": 3152,
+        "percent": 31.52
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2900,
+        "percent": 29.0
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2841,
+        "percent": 28.41
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2837,
+        "percent": 28.37
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2826,
+        "percent": 28.26
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25700000,
+      "corpus_coverage": 0.4971
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2062,
+        "percent": 20.62
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2424,
+        "percent": 24.24
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1954,
+        "percent": 19.54
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1793,
+        "percent": 17.93
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1767,
+        "percent": 17.67
+      }
+    ],
+    "mean_position": 0.476,
+    "std_position": 0.28
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 44,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0228,
+      "p25": 0.0272,
+      "p50": 0.0329,
+      "p75": 0.0528,
+      "p90": 0.0922,
+      "p95": 0.1212,
+      "p99": 0.1538
+    },
+    "skewness": 1.9777,
+    "kurtosis": 3.2076,
+    "min": 0.018,
+    "max": 0.1571,
+    "mean": 0.0471,
+    "std": 0.0331
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 44,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 34,
+        "mean_activation": 0.0498
+      },
+      {
+        "token": " a",
+        "count": 6,
+        "mean_activation": 0.0436
+      },
+      {
+        "token": " your",
+        "count": 1,
+        "mean_activation": 0.045
+      },
+      {
+        "token": " and",
+        "count": 1,
+        "mean_activation": 0.0218
+      },
+      {
+        "token": " every",
+        "count": 1,
+        "mean_activation": 0.0267
+      },
+      {
+        "token": " at",
+        "count": 1,
+        "mean_activation": 0.0249
+      }
+    ]
+  }
+}

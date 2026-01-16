@@ -1,0 +1,876 @@
+{
+  "feature_idx": 9533,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 194,
+    "mean_when_active": 0.07186661553137082,
+    "max_activation": 0.1988525390625,
+    "std_when_active": 0.04610029863167275,
+    "activation_rate": 0.00194
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 26000000,
+      "corpus_coverage": 0.5029
+    },
+    "top_tokens": [
+      {
+        "token": "2",
+        "count": 2214,
+        "mean_activation": 0.08433832514899856
+      },
+      {
+        "token": "50",
+        "count": 2113,
+        "mean_activation": 0.08291620199453531
+      },
+      {
+        "token": "10",
+        "count": 2073,
+        "mean_activation": 0.09836431890654207
+      },
+      {
+        "token": "1",
+        "count": 1807,
+        "mean_activation": 0.08063387171497778
+      },
+      {
+        "token": "3",
+        "count": 1792,
+        "mean_activation": 0.0880035502570016
+      },
+      {
+        "token": "5",
+        "count": 1741,
+        "mean_activation": 0.0866791025651453
+      },
+      {
+        "token": ".",
+        "count": 1639,
+        "mean_activation": 0.0267118043183844
+      },
+      {
+        "token": "00",
+        "count": 1366,
+        "mean_activation": 0.07138030246271047
+      },
+      {
+        "token": "99",
+        "count": 1338,
+        "mean_activation": 0.09462203181199785
+      },
+      {
+        "token": "8",
+        "count": 1335,
+        "mean_activation": 0.09546947122066655
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 26000000,
+      "corpus_coverage": 0.5029
+    },
+    "activations": [
+      {
+        "context": "...or two for less than $**40**. They give you as muc...",
+        "active_token": "40",
+        "activation": 0.2451171875,
+        "review_id": "aDIV1zKL9Sxt_lOrx-lMiA",
+        "position": 28
+      },
+      {
+        "context": "...o for just less than $**20**!",
+        "active_token": "20",
+        "activation": 0.244140625,
+        "review_id": "bvO2dGF19XpKSswM1xG5rA",
+        "position": 50
+      },
+      {
+        "context": "..., all for well under $**20**, which is mind blowin...",
+        "active_token": "20",
+        "activation": 0.240966796875,
+        "review_id": "1x5Pt5am_olLNhv1m-8sgw",
+        "position": 108
+      },
+      {
+        "context": "...d 2 drinks for under $**30**.",
+        "active_token": "30",
+        "activation": 0.238037109375,
+        "review_id": "mDS3-H8uefCvDzG7FT-Xrg",
+        "position": 58
+      },
+      {
+        "context": "...s, all for less than $**20**.\\n\\nCan't wait until th...",
+        "active_token": "20",
+        "activation": 0.237548828125,
+        "review_id": "1tXlgjiJm_8WaNAI-m8e6w",
+        "position": 109
+      },
+      {
+        "context": "...t (3 tacos for under $**8** = a great deal!). They...",
+        "active_token": "8",
+        "activation": 0.23681640625,
+        "review_id": "-gv_b3dJh0rKSONqbipPTA",
+        "position": 46
+      },
+      {
+        "context": "...r platters for under $**20**) and their portions a...",
+        "active_token": "20",
+        "activation": 0.236083984375,
+        "review_id": "1iCeeodk-Bk5KUuBxmV0PA",
+        "position": 45
+      },
+      {
+        "context": "...drinks for less than $**20**. And they were delici...",
+        "active_token": "20",
+        "activation": 0.23583984375,
+        "review_id": "AnmYJfgkRcSn-ozSlicqaA",
+        "position": 36
+      },
+      {
+        "context": "...er for two for under $**20**, this is the ticket. ...",
+        "active_token": "20",
+        "activation": 0.2337646484375,
+        "review_id": "SCKBghBLwtDMiw-0crZ4lA",
+        "position": 190
+      },
+      {
+        "context": "...o here for less than $**4**. For this area, that i...",
+        "active_token": "4",
+        "activation": 0.233154296875,
+        "review_id": "aA-MEjhqDzssNd1pLyH8rw",
+        "position": 117
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 9533,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1965,
+        "max": 0.2451,
+        "mean": 0.2097
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " under",
+            " $"
+          ],
+          "ngram_str": " under $",
+          "count": 208,
+          "percent": 41.6
+        },
+        {
+          "ngram": [
+            " for",
+            " under"
+          ],
+          "ngram_str": " for under",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            " $",
+            "10"
+          ],
+          "ngram_str": " $10",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " less",
+            " than"
+          ],
+          "ngram_str": " less than",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " than",
+            " $"
+          ],
+          "ngram_str": " than $",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " for",
+            " less"
+          ],
+          "ngram_str": " for less",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " for",
+            " only"
+          ],
+          "ngram_str": " for only",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " only",
+            " $"
+          ],
+          "ngram_str": " only $",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            "10",
+            "."
+          ],
+          "ngram_str": "10.",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " $",
+            "20"
+          ],
+          "ngram_str": " $20",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " tacos",
+            " for"
+          ],
+          "ngram_str": " tacos for",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " $",
+            "8"
+          ],
+          "ngram_str": " $8",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " about",
+            " $"
+          ],
+          "ngram_str": " about $",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " for",
+            " under",
+            " $"
+          ],
+          "ngram_str": " for under $",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            " less",
+            " than",
+            " $"
+          ],
+          "ngram_str": " less than $",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " for",
+            " less",
+            " than"
+          ],
+          "ngram_str": " for less than",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " for",
+            " only",
+            " $"
+          ],
+          "ngram_str": " for only $",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " $",
+            "10",
+            "."
+          ],
+          "ngram_str": " $10.",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " under",
+            " $",
+            "10"
+          ],
+          "ngram_str": " under $10",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " than",
+            " $",
+            "10"
+          ],
+          "ngram_str": " than $10",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " for",
+            " about",
+            " $"
+          ],
+          "ngram_str": " for about $",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " under",
+            " $",
+            "20"
+          ],
+          "ngram_str": " under $20",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " $",
+            "20",
+            "."
+          ],
+          "ngram_str": " $20.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " $",
+            "8",
+            "."
+          ],
+          "ngram_str": " $8.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " for",
+            " $"
+          ],
+          "ngram_str": " tacos for $",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " $",
+            "15",
+            "."
+          ],
+          "ngram_str": " $15.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " $",
+            "5",
+            "."
+          ],
+          "ngram_str": " $5.",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " for",
+            " less",
+            " than",
+            " $"
+          ],
+          "ngram_str": " for less than $",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " for",
+            " under",
+            " $",
+            "10"
+          ],
+          "ngram_str": " for under $10",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " less",
+            " than",
+            " $",
+            "10"
+          ],
+          "ngram_str": " less than $10",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " under",
+            " $",
+            "10",
+            "."
+          ],
+          "ngram_str": " under $10.",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " for",
+            " under",
+            " $",
+            "20"
+          ],
+          "ngram_str": " for under $20",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " than",
+            " $",
+            "10",
+            "."
+          ],
+          "ngram_str": " than $10.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " drink",
+            " for",
+            " under",
+            " $"
+          ],
+          "ngram_str": " drink for under $",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " for",
+            " under",
+            " $",
+            "30"
+          ],
+          "ngram_str": " for under $30",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " under",
+            " $",
+            "20",
+            "."
+          ],
+          "ngram_str": " under $20.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " $",
+            "10",
+            ".",
+            " "
+          ],
+          "ngram_str": " $10. ",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " tacos",
+            " for",
+            " under",
+            " $"
+          ],
+          "ngram_str": " tacos for under $",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " for",
+            " under",
+            " $",
+            "8"
+          ],
+          "ngram_str": " for under $8",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " all",
+            " for",
+            " under",
+            " $"
+          ],
+          "ngram_str": " all for under $",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5300000,
+      "corpus_coverage": 0.1025
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14977,
+        "count": 7770,
+        "percent": 77.7
+      },
+      {
+        "feature_idx": 21070,
+        "count": 7435,
+        "percent": 74.35
+      },
+      {
+        "feature_idx": 10543,
+        "count": 6003,
+        "percent": 60.03
+      },
+      {
+        "feature_idx": 15117,
+        "count": 5453,
+        "percent": 54.53
+      },
+      {
+        "feature_idx": 11763,
+        "count": 5314,
+        "percent": 53.14
+      },
+      {
+        "feature_idx": 18022,
+        "count": 5244,
+        "percent": 52.44
+      },
+      {
+        "feature_idx": 23016,
+        "count": 4896,
+        "percent": 48.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4802,
+        "percent": 48.02
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4728,
+        "percent": 47.28
+      },
+      {
+        "feature_idx": 19167,
+        "count": 4488,
+        "percent": 44.88
+      },
+      {
+        "feature_idx": 13419,
+        "count": 4404,
+        "percent": 44.04
+      },
+      {
+        "feature_idx": 11650,
+        "count": 3952,
+        "percent": 39.52
+      },
+      {
+        "feature_idx": 8445,
+        "count": 3869,
+        "percent": 38.69
+      },
+      {
+        "feature_idx": 16738,
+        "count": 3726,
+        "percent": 37.26
+      },
+      {
+        "feature_idx": 1870,
+        "count": 3616,
+        "percent": 36.16
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3538,
+        "percent": 35.38
+      },
+      {
+        "feature_idx": 4375,
+        "count": 3364,
+        "percent": 33.64
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3337,
+        "percent": 33.37
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3329,
+        "percent": 33.29
+      },
+      {
+        "feature_idx": 7007,
+        "count": 2860,
+        "percent": 28.6
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5300000,
+      "corpus_coverage": 0.1025
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1127,
+        "percent": 11.27
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2239,
+        "percent": 22.39
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2366,
+        "percent": 23.66
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2238,
+        "percent": 22.38
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2030,
+        "percent": 20.3
+      }
+    ],
+    "mean_position": 0.5392,
+    "std_position": 0.2575
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 194,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0248,
+      "p25": 0.0347,
+      "p50": 0.0567,
+      "p75": 0.0996,
+      "p90": 0.146,
+      "p95": 0.1601,
+      "p99": 0.1959
+    },
+    "skewness": 0.955,
+    "kurtosis": -0.0182,
+    "min": 0.0162,
+    "max": 0.1989,
+    "mean": 0.0719,
+    "std": 0.0461
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 194,
+      "unique_tokens_found": 73
+    },
+    "tokens": [
+      {
+        "token": "10",
+        "count": 11,
+        "mean_activation": 0.1123
+      },
+      {
+        "token": "50",
+        "count": 9,
+        "mean_activation": 0.0728
+      },
+      {
+        "token": "5",
+        "count": 9,
+        "mean_activation": 0.0868
+      },
+      {
+        "token": "99",
+        "count": 9,
+        "mean_activation": 0.0995
+      },
+      {
+        "token": "8",
+        "count": 8,
+        "mean_activation": 0.0858
+      },
+      {
+        "token": ".",
+        "count": 8,
+        "mean_activation": 0.0287
+      },
+      {
+        "token": "2",
+        "count": 7,
+        "mean_activation": 0.0935
+      },
+      {
+        "token": "20",
+        "count": 7,
+        "mean_activation": 0.1489
+      },
+      {
+        "token": "00",
+        "count": 6,
+        "mean_activation": 0.0357
+      },
+      {
+        "token": "7",
+        "count": 5,
+        "mean_activation": 0.0861
+      }
+    ]
+  }
+}

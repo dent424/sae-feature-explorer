@@ -1,0 +1,876 @@
+{
+  "feature_idx": 15372,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 70,
+    "mean_when_active": 0.06982737949916294,
+    "max_activation": 0.19580078125,
+    "std_when_active": 0.053192047446925274,
+    "activation_rate": 0.0007
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 49918,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " big",
+        "count": 11912,
+        "mean_activation": 0.07992739706250787
+      },
+      {
+        "token": " huge",
+        "count": 10228,
+        "mean_activation": 0.11300476799264847
+      },
+      {
+        "token": " large",
+        "count": 7122,
+        "mean_activation": 0.08103054917551633
+      },
+      {
+        "token": " HUGE",
+        "count": 1843,
+        "mean_activation": 0.12246699961901876
+      },
+      {
+        "token": " generous",
+        "count": 1782,
+        "mean_activation": 0.037433281758283796
+      },
+      {
+        "token": " bigger",
+        "count": 1518,
+        "mean_activation": 0.07910665881492404
+      },
+      {
+        "token": " heavy",
+        "count": 1195,
+        "mean_activation": 0.039463646541579495
+      },
+      {
+        "token": " small",
+        "count": 1110,
+        "mean_activation": 0.023930565086570946
+      },
+      {
+        "token": " long",
+        "count": 847,
+        "mean_activation": 0.029766988022409055
+      },
+      {
+        "token": " larger",
+        "count": 819,
+        "mean_activation": 0.06298589648199023
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 49918,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...arge, the shrimp were** big** and the saut\u00c3\u00a9ed oni...",
+        "active_token": " big",
+        "activation": 0.2021484375,
+        "review_id": "sOqFuTLYVt8422XJOyUvmQ",
+        "position": 221
+      },
+      {
+        "context": "...d and the portion was** big**. A little pricey and...",
+        "active_token": " big",
+        "activation": 0.2015380859375,
+        "review_id": "v8oZ50MeEw86J9WGfUI1ZQ",
+        "position": 35
+      },
+      {
+        "context": "... The portion size was** big** too. Definitely reco...",
+        "active_token": " big",
+        "activation": 0.201416015625,
+        "review_id": "mHek9IO3LBIJ1QFd_1vHxw",
+        "position": 41
+      },
+      {
+        "context": "... the portion size was** big**. Lastly, everyone at...",
+        "active_token": " big",
+        "activation": 0.1995849609375,
+        "review_id": "Bhg5ksJrBc7yMclFVCPjlQ",
+        "position": 214
+      },
+      {
+        "context": "...es and the portion is** big**.",
+        "active_token": " big",
+        "activation": 0.199462890625,
+        "review_id": "d02EVXMwIAPCU9O1ksCr3w",
+        "position": 344
+      },
+      {
+        "context": "...it. Portion sizes are** big** so prepare yourself....",
+        "active_token": " big",
+        "activation": 0.19873046875,
+        "review_id": "KAWSGMwzzy9qRZJH_kavWg",
+        "position": 52
+      },
+      {
+        "context": "...asty. The portion was** big**, the drinks were rea...",
+        "active_token": " big",
+        "activation": 0.19775390625,
+        "review_id": "Il_DG-LJ9ZY2te7cwPYInA",
+        "position": 39
+      },
+      {
+        "context": "...reat and portions are** big**. Well worth the pric...",
+        "active_token": " big",
+        "activation": 0.197509765625,
+        "review_id": "l7x7EvsGutfCRGRHFNy4lA",
+        "position": 16
+      },
+      {
+        "context": "...he portion was really** big**. My wife got the veg...",
+        "active_token": " big",
+        "activation": 0.197509765625,
+        "review_id": "q1TA-3zfrhNP6EN_jeBwCw",
+        "position": 41
+      },
+      {
+        "context": "... The portion size is** HUGE** and I am never able ...",
+        "active_token": " HUGE",
+        "activation": 0.1971435546875,
+        "review_id": "hP6ZzceM409pv4BXeOlgBA",
+        "position": 355
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15372,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.176,
+        "max": 0.2021,
+        "mean": 0.1825
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " are",
+            " big"
+          ],
+          "ngram_str": " are big",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " portions",
+            " are"
+          ],
+          "ngram_str": " portions are",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " big",
+            " and"
+          ],
+          "ngram_str": " big and",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " big",
+            "."
+          ],
+          "ngram_str": " big.",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " The",
+            " portions"
+          ],
+          "ngram_str": " The portions",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " were",
+            " big"
+          ],
+          "ngram_str": " were big",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " the",
+            " portions"
+          ],
+          "ngram_str": " the portions",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " was",
+            " huge"
+          ],
+          "ngram_str": " was huge",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " the",
+            " portion"
+          ],
+          "ngram_str": " the portion",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " The",
+            " portion"
+          ],
+          "ngram_str": " The portion",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " was",
+            " big"
+          ],
+          "ngram_str": " was big",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " portions",
+            " were"
+          ],
+          "ngram_str": " portions were",
+          "count": 52,
+          "percent": 10.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " portions",
+            " are",
+            " big"
+          ],
+          "ngram_str": " portions are big",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " The",
+            " portions",
+            " are"
+          ],
+          "ngram_str": " The portions are",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " portions"
+          ],
+          "ngram_str": ". The portions",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " the",
+            " portions",
+            " are"
+          ],
+          "ngram_str": " the portions are",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " portion"
+          ],
+          "ngram_str": ". The portion",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " portions",
+            " were",
+            " big"
+          ],
+          "ngram_str": " portions were big",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " are",
+            " big",
+            "."
+          ],
+          "ngram_str": " are big.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " portions"
+          ],
+          "ngram_str": " and the portions",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " portion"
+          ],
+          "ngram_str": " and the portion",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " are",
+            " big",
+            " and"
+          ],
+          "ngram_str": " are big and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " the",
+            " portion",
+            " was"
+          ],
+          "ngram_str": " the portion was",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " portion",
+            " sizes",
+            " are"
+          ],
+          "ngram_str": " portion sizes are",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " big",
+            " enough",
+            " to"
+          ],
+          "ngram_str": " big enough to",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " portion",
+            " was",
+            " huge"
+          ],
+          "ngram_str": " portion was huge",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " The",
+            " portions",
+            " are",
+            " big"
+          ],
+          "ngram_str": " The portions are big",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " portions",
+            " are",
+            " big"
+          ],
+          "ngram_str": " the portions are big",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " portions",
+            " are"
+          ],
+          "ngram_str": ". The portions are",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " portions",
+            " are",
+            " big",
+            "."
+          ],
+          "ngram_str": " portions are big.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " portions",
+            " are"
+          ],
+          "ngram_str": " and the portions are",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " portions",
+            " are",
+            " big",
+            " and"
+          ],
+          "ngram_str": " portions are big and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " portions",
+            " were"
+          ],
+          "ngram_str": ". The portions were",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " portion",
+            " was"
+          ],
+          "ngram_str": " and the portion was",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " portions"
+          ],
+          "ngram_str": ".  The portions",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " The",
+            " portions",
+            " were",
+            " big"
+          ],
+          "ngram_str": " The portions were big",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " portions",
+            " were",
+            " big",
+            "."
+          ],
+          "ngram_str": " portions were big.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " portions",
+            " were",
+            " big"
+          ],
+          "ngram_str": " the portions were big",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " portion",
+            " sizes"
+          ],
+          "ngram_str": ". The portion sizes",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " The",
+            " portion",
+            " sizes",
+            " are"
+          ],
+          "ngram_str": " The portion sizes are",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " portions",
+            " are",
+            " big",
+            ","
+          ],
+          "ngram_str": " portions are big,",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10600000,
+      "corpus_coverage": 0.205
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3455,
+        "count": 7832,
+        "percent": 78.32
+      },
+      {
+        "feature_idx": 6,
+        "count": 7485,
+        "percent": 74.85
+      },
+      {
+        "feature_idx": 19450,
+        "count": 6677,
+        "percent": 66.77
+      },
+      {
+        "feature_idx": 13872,
+        "count": 6208,
+        "percent": 62.08
+      },
+      {
+        "feature_idx": 22992,
+        "count": 5632,
+        "percent": 56.32
+      },
+      {
+        "feature_idx": 1390,
+        "count": 5592,
+        "percent": 55.92
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5316,
+        "percent": 53.16
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4746,
+        "percent": 47.46
+      },
+      {
+        "feature_idx": 20403,
+        "count": 4235,
+        "percent": 42.35
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4210,
+        "percent": 42.1
+      },
+      {
+        "feature_idx": 19434,
+        "count": 3980,
+        "percent": 39.8
+      },
+      {
+        "feature_idx": 11200,
+        "count": 3857,
+        "percent": 38.57
+      },
+      {
+        "feature_idx": 16549,
+        "count": 3772,
+        "percent": 37.72
+      },
+      {
+        "feature_idx": 7201,
+        "count": 3590,
+        "percent": 35.9
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3491,
+        "percent": 34.91
+      },
+      {
+        "feature_idx": 21683,
+        "count": 3488,
+        "percent": 34.88
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3333,
+        "percent": 33.33
+      },
+      {
+        "feature_idx": 19689,
+        "count": 3330,
+        "percent": 33.3
+      },
+      {
+        "feature_idx": 23066,
+        "count": 3058,
+        "percent": 30.58
+      },
+      {
+        "feature_idx": 12818,
+        "count": 2863,
+        "percent": 28.63
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10600000,
+      "corpus_coverage": 0.205
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1188,
+        "percent": 11.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2215,
+        "percent": 22.15
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2537,
+        "percent": 25.37
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2450,
+        "percent": 24.5
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1610,
+        "percent": 16.1
+      }
+    ],
+    "mean_position": 0.5218,
+    "std_position": 0.2486
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 70,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0176,
+      "p25": 0.0247,
+      "p50": 0.044,
+      "p75": 0.1119,
+      "p90": 0.1525,
+      "p95": 0.1616,
+      "p99": 0.1854
+    },
+    "skewness": 0.7248,
+    "kurtosis": -0.8762,
+    "min": 0.0092,
+    "max": 0.1958,
+    "mean": 0.0698,
+    "std": 0.0532
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 70,
+      "unique_tokens_found": 21
+    },
+    "tokens": [
+      {
+        "token": " big",
+        "count": 20,
+        "mean_activation": 0.079
+      },
+      {
+        "token": " huge",
+        "count": 16,
+        "mean_activation": 0.0999
+      },
+      {
+        "token": " large",
+        "count": 10,
+        "mean_activation": 0.0669
+      },
+      {
+        "token": " great",
+        "count": 4,
+        "mean_activation": 0.0173
+      },
+      {
+        "token": " long",
+        "count": 2,
+        "mean_activation": 0.0274
+      },
+      {
+        "token": " thick",
+        "count": 2,
+        "mean_activation": 0.0207
+      },
+      {
+        "token": " generous",
+        "count": 2,
+        "mean_activation": 0.046
+      },
+      {
+        "token": " sized",
+        "count": 1,
+        "mean_activation": 0.0414
+      },
+      {
+        "token": " biggest",
+        "count": 1,
+        "mean_activation": 0.0209
+      },
+      {
+        "token": " Huge",
+        "count": 1,
+        "mean_activation": 0.026
+      }
+    ]
+  }
+}

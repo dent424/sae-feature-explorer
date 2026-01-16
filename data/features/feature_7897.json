@@ -1,0 +1,876 @@
+{
+  "feature_idx": 7897,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 124,
+    "mean_when_active": 0.03749146000031502,
+    "max_activation": 0.0908203125,
+    "std_when_active": 0.017132665003242828,
+    "activation_rate": 0.00124
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 42700000,
+      "corpus_coverage": 0.8259
+    },
+    "top_tokens": [
+      {
+        "token": " pork",
+        "count": 11275,
+        "mean_activation": 0.029530063806774875
+      },
+      {
+        "token": " beef",
+        "count": 11235,
+        "mean_activation": 0.04035658655985759
+      },
+      {
+        "token": " dog",
+        "count": 3981,
+        "mean_activation": 0.04383658069188018
+      },
+      {
+        "token": "ggie",
+        "count": 2183,
+        "mean_activation": 0.028199028542868543
+      },
+      {
+        "token": " pup",
+        "count": 2062,
+        "mean_activation": 0.07642839581612589
+      },
+      {
+        "token": " truck",
+        "count": 1606,
+        "mean_activation": 0.034608363511404984
+      },
+      {
+        "token": " dogs",
+        "count": 1451,
+        "mean_activation": 0.03522998854507667
+      },
+      {
+        "token": " Pork",
+        "count": 920,
+        "mean_activation": 0.0270703357198964
+      },
+      {
+        "token": "ork",
+        "count": 866,
+        "mean_activation": 0.05227132537348441
+      },
+      {
+        "token": " buffalo",
+        "count": 841,
+        "mean_activation": 0.046808449181591855
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 42700000,
+      "corpus_coverage": 0.8259
+    },
+    "activations": [
+      {
+        "context": "...rash like a bag of do**ggie** poo.\\n\\nHaving first t...",
+        "active_token": "ggie",
+        "activation": 0.1297607421875,
+        "review_id": "Hta9cVf8c-QVAtqEoG0BJg",
+        "position": 72
+      },
+      {
+        "context": "...try the pork & cheese** pup**usas!!!SO GOOD! We al...",
+        "active_token": " pup",
+        "activation": 0.12493896484375,
+        "review_id": "vpGRtr2dSn8PBXQd3ZD9ew",
+        "position": 67
+      },
+      {
+        "context": "... well with the cheese** pup**usa cuz the dairy off...",
+        "active_token": " pup",
+        "activation": 0.1243896484375,
+        "review_id": "FXngzk7pNktbFn1Peu858w",
+        "position": 159
+      },
+      {
+        "context": "...s tacos with a cheese** pup**usa. The food was del...",
+        "active_token": " pup",
+        "activation": 0.12432861328125,
+        "review_id": "tAJtETZmPlSimh4NBkxnkg",
+        "position": 12
+      },
+      {
+        "context": "...he Mr. loved the pork** pup**osa and the butternut...",
+        "active_token": " pup",
+        "activation": 0.12298583984375,
+        "review_id": "eEOEWTfjOI0uBaM-igDilA",
+        "position": 108
+      },
+      {
+        "context": "...o brought out some do**ggie** treats for her when ...",
+        "active_token": "ggie",
+        "activation": 0.1226806640625,
+        "review_id": "ukSLQJ5QeXcw4ZVSmEFWxQ",
+        "position": 84
+      },
+      {
+        "context": "...ing for a bunch of do**ggie** bags, but that would...",
+        "active_token": "ggie",
+        "activation": 0.12261962890625,
+        "review_id": "_neieJG86dSYTbW-lbbukg",
+        "position": 137
+      },
+      {
+        "context": "...had a bean and cheese** pup**usa that i ate later,...",
+        "active_token": " pup",
+        "activation": 0.1220703125,
+        "review_id": "Mr8NjRXuO5Nb9sTpVAcUQQ",
+        "position": 131
+      },
+      {
+        "context": "...cifications: a cheese** pup**usa, smothered with a...",
+        "active_token": " pup",
+        "activation": 0.12176513671875,
+        "review_id": "VflfRR3tX3eK3sIr00Xv4g",
+        "position": 84
+      },
+      {
+        "context": ".... I also had a cheese** pup**usa, which I think is...",
+        "active_token": " pup",
+        "activation": 0.12060546875,
+        "review_id": "gTCXpJaB2abqU1oDHcWlJw",
+        "position": 82
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 7897,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0974,
+        "max": 0.1298,
+        "mean": 0.104
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " pup",
+            "us"
+          ],
+          "ngram_str": " pupus",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            "us",
+            "as"
+          ],
+          "ngram_str": "usas",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            " pup",
+            "usa"
+          ],
+          "ngram_str": " pupusa",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " cheese",
+            " pup"
+          ],
+          "ngram_str": " cheese pup",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " do",
+            "ggie"
+          ],
+          "ngram_str": " doggie",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "ihu",
+            "ah"
+          ],
+          "ngram_str": "ihuah",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "ah",
+            "ua"
+          ],
+          "ngram_str": "ahua",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " and",
+            " cheese"
+          ],
+          "ngram_str": " and cheese",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "ua",
+            " cheese"
+          ],
+          "ngram_str": "ua cheese",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " ch",
+            "ihu"
+          ],
+          "ngram_str": " chihu",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "as",
+            "."
+          ],
+          "ngram_str": "as.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": " pupusas",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            " cheese",
+            " pup",
+            "usa"
+          ],
+          "ngram_str": " cheese pupusa",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "ihu",
+            "ah",
+            "ua"
+          ],
+          "ngram_str": "ihuahua",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " and",
+            " cheese",
+            " pup"
+          ],
+          "ngram_str": " and cheese pup",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            "ah",
+            "ua",
+            " cheese"
+          ],
+          "ngram_str": "ahua cheese",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " ch",
+            "ihu",
+            "ah"
+          ],
+          "ngram_str": " chihuah",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "us",
+            "as",
+            "."
+          ],
+          "ngram_str": "usas.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " cheese",
+            " pup",
+            "us"
+          ],
+          "ngram_str": " cheese pupus",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " pup",
+            "usa",
+            ","
+          ],
+          "ngram_str": " pupusa,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " pup",
+            "usa",
+            "."
+          ],
+          "ngram_str": " pupusa.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " pup",
+            "usa",
+            " and"
+          ],
+          "ngram_str": " pupusa and",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " ch",
+            "ihu"
+          ],
+          "ngram_str": ", chihu",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "ua",
+            " cheese",
+            ","
+          ],
+          "ngram_str": "ua cheese,",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "ihu",
+            "ah",
+            "ua",
+            " cheese"
+          ],
+          "ngram_str": "ihuahua cheese",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " ch",
+            "ihu",
+            "ah",
+            "ua"
+          ],
+          "ngram_str": " chihuahua",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            "."
+          ],
+          "ngram_str": " pupusas.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " cheese",
+            " pup",
+            "usa"
+          ],
+          "ngram_str": " and cheese pupusa",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " cheese",
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": " cheese pupusas",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " ch",
+            "ihu",
+            "ah"
+          ],
+          "ngram_str": ", chihuah",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "ah",
+            "ua",
+            " cheese",
+            ","
+          ],
+          "ngram_str": "ahua cheese,",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " and",
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": " and pupusas",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            " and"
+          ],
+          "ngram_str": " pupusas and",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " cheese",
+            " pup",
+            "usa",
+            ","
+          ],
+          "ngram_str": " cheese pupusa,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            ","
+          ],
+          "ngram_str": " pupusas,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " bean",
+            " and",
+            " cheese",
+            " pup"
+          ],
+          "ngram_str": " bean and cheese pup",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " cheese",
+            " pup",
+            "us"
+          ],
+          "ngram_str": " and cheese pupus",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8700000,
+      "corpus_coverage": 0.1683
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 8017,
+        "percent": 80.17
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6472,
+        "percent": 64.72
+      },
+      {
+        "feature_idx": 9984,
+        "count": 6389,
+        "percent": 63.89
+      },
+      {
+        "feature_idx": 22000,
+        "count": 5475,
+        "percent": 54.75
+      },
+      {
+        "feature_idx": 9694,
+        "count": 5324,
+        "percent": 53.24
+      },
+      {
+        "feature_idx": 8975,
+        "count": 4409,
+        "percent": 44.09
+      },
+      {
+        "feature_idx": 22001,
+        "count": 4404,
+        "percent": 44.04
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3862,
+        "percent": 38.62
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3525,
+        "percent": 35.25
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3309,
+        "percent": 33.09
+      },
+      {
+        "feature_idx": 12860,
+        "count": 3173,
+        "percent": 31.73
+      },
+      {
+        "feature_idx": 12236,
+        "count": 3009,
+        "percent": 30.09
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2991,
+        "percent": 29.91
+      },
+      {
+        "feature_idx": 5374,
+        "count": 2798,
+        "percent": 27.98
+      },
+      {
+        "feature_idx": 18937,
+        "count": 2794,
+        "percent": 27.94
+      },
+      {
+        "feature_idx": 8285,
+        "count": 2767,
+        "percent": 27.67
+      },
+      {
+        "feature_idx": 10235,
+        "count": 2712,
+        "percent": 27.12
+      },
+      {
+        "feature_idx": 21260,
+        "count": 2711,
+        "percent": 27.11
+      },
+      {
+        "feature_idx": 7545,
+        "count": 2695,
+        "percent": 26.95
+      },
+      {
+        "feature_idx": 11583,
+        "count": 2670,
+        "percent": 26.7
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8700000,
+      "corpus_coverage": 0.1683
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1710,
+        "percent": 17.1
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2390,
+        "percent": 23.9
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2687,
+        "percent": 26.87
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2035,
+        "percent": 20.35
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1178,
+        "percent": 11.78
+      }
+    ],
+    "mean_position": 0.4713,
+    "std_position": 0.2525
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 124,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0187,
+      "p25": 0.0242,
+      "p50": 0.0342,
+      "p75": 0.0486,
+      "p90": 0.0615,
+      "p95": 0.0707,
+      "p99": 0.0832
+    },
+    "skewness": 0.8664,
+    "kurtosis": 0.2785,
+    "min": 0.011,
+    "max": 0.0908,
+    "mean": 0.0375,
+    "std": 0.0171
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 124,
+      "unique_tokens_found": 33
+    },
+    "tokens": [
+      {
+        "token": " beef",
+        "count": 26,
+        "mean_activation": 0.0411
+      },
+      {
+        "token": " pork",
+        "count": 21,
+        "mean_activation": 0.0293
+      },
+      {
+        "token": " dog",
+        "count": 18,
+        "mean_activation": 0.0388
+      },
+      {
+        "token": "ggie",
+        "count": 10,
+        "mean_activation": 0.0248
+      },
+      {
+        "token": " truck",
+        "count": 8,
+        "mean_activation": 0.0303
+      },
+      {
+        "token": " dogs",
+        "count": 5,
+        "mean_activation": 0.0353
+      },
+      {
+        "token": " pup",
+        "count": 4,
+        "mean_activation": 0.0686
+      },
+      {
+        "token": " Dog",
+        "count": 2,
+        "mean_activation": 0.054
+      },
+      {
+        "token": " Dogs",
+        "count": 2,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " buffalo",
+        "count": 2,
+        "mean_activation": 0.0461
+      }
+    ]
+  }
+}

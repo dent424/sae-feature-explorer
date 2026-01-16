@@ -1,0 +1,876 @@
+{
+  "feature_idx": 3302,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 113,
+    "mean_when_active": 0.11065363251002489,
+    "max_activation": 0.299072265625,
+    "std_when_active": 0.06903880944987256,
+    "activation_rate": 0.00113
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 43000000,
+      "corpus_coverage": 0.8317
+    },
+    "top_tokens": [
+      {
+        "token": " visit",
+        "count": 20303,
+        "mean_activation": 0.15805116540803313
+      },
+      {
+        "token": " trip",
+        "count": 6257,
+        "mean_activation": 0.09172429759528702
+      },
+      {
+        "token": " visited",
+        "count": 4005,
+        "mean_activation": 0.09765358304560705
+      },
+      {
+        "token": " visiting",
+        "count": 3258,
+        "mean_activation": 0.04797137068999626
+      },
+      {
+        "token": " visits",
+        "count": 2312,
+        "mean_activation": 0.22112431245691636
+      },
+      {
+        "token": " call",
+        "count": 1224,
+        "mean_activation": 0.0643756716859107
+      },
+      {
+        "token": " contact",
+        "count": 731,
+        "mean_activation": 0.0588413348113137
+      },
+      {
+        "token": " trips",
+        "count": 652,
+        "mean_activation": 0.10944567721314226
+      },
+      {
+        "token": "ited",
+        "count": 595,
+        "mean_activation": 0.03297426880908613
+      },
+      {
+        "token": " tour",
+        "count": 448,
+        "mean_activation": 0.07337335177830287
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 43000000,
+      "corpus_coverage": 0.8317
+    },
+    "activations": [
+      {
+        "context": "...w is based on three** visits**.",
+        "active_token": " visits",
+        "activation": 0.327392578125,
+        "review_id": "0hZNo2ob9zMkEKalElu1Yw",
+        "position": 23
+      },
+      {
+        "context": "...tes that the average** visit** to Andrade's lasts ...",
+        "active_token": " visit",
+        "activation": 0.320556640625,
+        "review_id": "AmFx4qQsbnoQoT0IgVWsLA",
+        "position": 277
+      },
+      {
+        "context": "...is based on several** visits**.",
+        "active_token": " visits",
+        "activation": 0.320068359375,
+        "review_id": "T-3NYJ2SCPRR8Evp5IH6ZQ",
+        "position": 38
+      },
+      {
+        "context": "...is based on several** visits**, and I have to say ...",
+        "active_token": " visits",
+        "activation": 0.318115234375,
+        "review_id": "UkVahGMf1WQ4lpl1vt_PZA",
+        "position": 43
+      },
+      {
+        "context": "...Review based on two** visits**, fish taco as only ...",
+        "active_token": " visits",
+        "activation": 0.314208984375,
+        "review_id": "w62rVy3cFhiWx6QHMH2NbA",
+        "position": 50
+      },
+      {
+        "context": "...n getting worse each** visit**. No welcome to Moe'...",
+        "active_token": " visit",
+        "activation": 0.3115234375,
+        "review_id": "TfXw7P1SuLYyXvsK68GtUQ",
+        "position": 6
+      },
+      {
+        "context": "...based on at least 5** visits**. Very poor service ...",
+        "active_token": " visits",
+        "activation": 0.30859375,
+        "review_id": "9IitDd1jjAFfS5DOr6EsNA",
+        "position": 7
+      },
+      {
+        "context": "...rvers (based on two** visits**), close to Vandy, M...",
+        "active_token": " visits",
+        "activation": 0.30859375,
+        "review_id": "8qujlHnCN5wVcacg8bx87A",
+        "position": 49
+      },
+      {
+        "context": "...ss (based on over 5** visits**)\\nWait staff white p...",
+        "active_token": " visits",
+        "activation": 0.308349609375,
+        "review_id": "9QmE7lTOf--siL-0O2q8EA",
+        "position": 467
+      },
+      {
+        "context": "..., based on about 10** visits**.\\nI have been here a...",
+        "active_token": " visits",
+        "activation": 0.30517578125,
+        "review_id": "UAL8sNCTvSVYranaDfmvDg",
+        "position": 11
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3302,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2668,
+        "max": 0.3274,
+        "mean": 0.2799
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " visit",
+            "."
+          ],
+          "ngram_str": " visit.",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " every",
+            " visit"
+          ],
+          "ngram_str": " every visit",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " visits",
+            "."
+          ],
+          "ngram_str": " visits.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " each",
+            " visit"
+          ],
+          "ngram_str": " each visit",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " first",
+            " visit"
+          ],
+          "ngram_str": " first visit",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " one",
+            " visit"
+          ],
+          "ngram_str": " one visit",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " based",
+            " on"
+          ],
+          "ngram_str": " based on",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " the",
+            " first"
+          ],
+          "ngram_str": " the first",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " visits",
+            ","
+          ],
+          "ngram_str": " visits,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " the",
+            " first",
+            " visit"
+          ],
+          "ngram_str": " the first visit",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " every",
+            " visit",
+            "."
+          ],
+          "ngram_str": " every visit.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " each",
+            " visit",
+            "."
+          ],
+          "ngram_str": " each visit.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " one",
+            " visit",
+            "."
+          ],
+          "ngram_str": " one visit.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " and",
+            " every",
+            " visit"
+          ],
+          "ngram_str": " and every visit",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " visit",
+            ".",
+            " "
+          ],
+          "ngram_str": " visit. ",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " is",
+            " based",
+            " on"
+          ],
+          "ngram_str": " is based on",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " on",
+            " one",
+            " visit"
+          ],
+          "ngram_str": " on one visit",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " first",
+            " visit",
+            "."
+          ],
+          "ngram_str": " first visit.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " with",
+            " each",
+            " visit"
+          ],
+          "ngram_str": " with each visit",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " visits",
+            " have",
+            " been"
+          ],
+          "ngram_str": " visits have been",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " review",
+            " is",
+            " based",
+            " on"
+          ],
+          "ngram_str": " review is based on",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " the",
+            " first",
+            " visit",
+            "."
+          ],
+          "ngram_str": " the first visit.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " visits",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " visits.\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " based",
+            " on",
+            " one",
+            " visit"
+          ],
+          "ngram_str": " based on one visit",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " visit",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " visit. \u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " based",
+            " on",
+            " two",
+            " visits"
+          ],
+          "ngram_str": " based on two visits",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " on",
+            " one",
+            " visit",
+            "."
+          ],
+          "ngram_str": " on one visit.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " visits",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " visits. \u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " visit",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " visit.\u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " times",
+            " and",
+            " every",
+            " visit"
+          ],
+          "ngram_str": " times and every visit",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8700000,
+      "corpus_coverage": 0.1683
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 6458,
+        "percent": 64.58
+      },
+      {
+        "feature_idx": 7195,
+        "count": 6450,
+        "percent": 64.5
+      },
+      {
+        "feature_idx": 19645,
+        "count": 5601,
+        "percent": 56.01
+      },
+      {
+        "feature_idx": 6894,
+        "count": 4391,
+        "percent": 43.91
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4341,
+        "percent": 43.41
+      },
+      {
+        "feature_idx": 18869,
+        "count": 4186,
+        "percent": 41.86
+      },
+      {
+        "feature_idx": 17915,
+        "count": 3877,
+        "percent": 38.77
+      },
+      {
+        "feature_idx": 13999,
+        "count": 3843,
+        "percent": 38.43
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3552,
+        "percent": 35.52
+      },
+      {
+        "feature_idx": 5537,
+        "count": 3343,
+        "percent": 33.43
+      },
+      {
+        "feature_idx": 1159,
+        "count": 3189,
+        "percent": 31.89
+      },
+      {
+        "feature_idx": 19364,
+        "count": 3056,
+        "percent": 30.56
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3052,
+        "percent": 30.52
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2973,
+        "percent": 29.73
+      },
+      {
+        "feature_idx": 15996,
+        "count": 2728,
+        "percent": 27.28
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2671,
+        "percent": 26.71
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2492,
+        "percent": 24.92
+      },
+      {
+        "feature_idx": 4235,
+        "count": 2387,
+        "percent": 23.87
+      },
+      {
+        "feature_idx": 19984,
+        "count": 2286,
+        "percent": 22.86
+      },
+      {
+        "feature_idx": 14723,
+        "count": 2186,
+        "percent": 21.86
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8700000,
+      "corpus_coverage": 0.1683
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3218,
+        "percent": 32.18
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1521,
+        "percent": 15.21
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1199,
+        "percent": 11.99
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1287,
+        "percent": 12.87
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2775,
+        "percent": 27.75
+      }
+    ],
+    "mean_position": 0.4777,
+    "std_position": 0.3493
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 113,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0335,
+      "p25": 0.055,
+      "p50": 0.0929,
+      "p75": 0.1667,
+      "p90": 0.2075,
+      "p95": 0.2332,
+      "p99": 0.2728
+    },
+    "skewness": 0.6156,
+    "kurtosis": -0.6554,
+    "min": 0.0182,
+    "max": 0.2991,
+    "mean": 0.1107,
+    "std": 0.069
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 113,
+      "unique_tokens_found": 29
+    },
+    "tokens": [
+      {
+        "token": " visit",
+        "count": 47,
+        "mean_activation": 0.1564
+      },
+      {
+        "token": " trip",
+        "count": 17,
+        "mean_activation": 0.0936
+      },
+      {
+        "token": " visiting",
+        "count": 7,
+        "mean_activation": 0.0464
+      },
+      {
+        "token": " visited",
+        "count": 7,
+        "mean_activation": 0.1095
+      },
+      {
+        "token": " visits",
+        "count": 4,
+        "mean_activation": 0.2408
+      },
+      {
+        "token": "ited",
+        "count": 3,
+        "mean_activation": 0.0223
+      },
+      {
+        "token": " visitors",
+        "count": 3,
+        "mean_activation": 0.0788
+      },
+      {
+        "token": " tour",
+        "count": 2,
+        "mean_activation": 0.0893
+      },
+      {
+        "token": " access",
+        "count": 2,
+        "mean_activation": 0.0655
+      },
+      {
+        "token": " bites",
+        "count": 2,
+        "mean_activation": 0.0432
+      }
+    ]
+  }
+}

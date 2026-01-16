@@ -1,0 +1,876 @@
+{
+  "feature_idx": 3681,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 54,
+    "mean_when_active": 0.06770776819299769,
+    "max_activation": 0.163330078125,
+    "std_when_active": 0.035449477838558334,
+    "activation_rate": 0.00054
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 19721,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 7520,
+        "mean_activation": 0.057246733726339136
+      },
+      {
+        "token": " on",
+        "count": 6760,
+        "mean_activation": 0.07601640690007859
+      },
+      {
+        "token": " in",
+        "count": 2457,
+        "mean_activation": 0.05571551200671074
+      },
+      {
+        "token": " less",
+        "count": 413,
+        "mean_activation": 0.0486343420735283
+      },
+      {
+        "token": " their",
+        "count": 252,
+        "mean_activation": 0.04072661626906622
+      },
+      {
+        "token": " about",
+        "count": 224,
+        "mean_activation": 0.023243733814784458
+      },
+      {
+        "token": " here",
+        "count": 153,
+        "mean_activation": 0.025274787852966708
+      },
+      {
+        "token": " with",
+        "count": 141,
+        "mean_activation": 0.033484709178302305
+      },
+      {
+        "token": " at",
+        "count": 138,
+        "mean_activation": 0.04915099213088768
+      },
+      {
+        "token": " my",
+        "count": 110,
+        "mean_activation": 0.047516007856889204
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 19721,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...dinner and everything** on** the menu was deliciou...",
+        "active_token": " on",
+        "activation": 0.179931640625,
+        "review_id": "hEEurmgKgunJZAPEJtxtxw",
+        "position": 12
+      },
+      {
+        "context": "... in town.  Everything** on** the menu is good.  Me...",
+        "active_token": " on",
+        "activation": 0.1773681640625,
+        "review_id": "CjBY4_TtHA9uPwPVvqRwgQ",
+        "position": 11
+      },
+      {
+        "context": "...just about everything** on** the menu. I tried eve...",
+        "active_token": " on",
+        "activation": 0.1744384765625,
+        "review_id": "Olndr-2xES4e6uw9bDwcUA",
+        "position": 21
+      },
+      {
+        "context": "...restaurant everything** on** their menu is good an...",
+        "active_token": " on",
+        "activation": 0.172607421875,
+        "review_id": "EXpsmClcp1ATXO609HFs0A",
+        "position": 10
+      },
+      {
+        "context": "... quick and everything** on** the menu is reliably ...",
+        "active_token": " on",
+        "activation": 0.1719970703125,
+        "review_id": "dG52yc8vtfYOAIRtIDP-0g",
+        "position": 37
+      },
+      {
+        "context": "... tacos and everything** on** the menu has satisfie...",
+        "active_token": " on",
+        "activation": 0.171875,
+        "review_id": "j7MaD4yvwOdPO3RlSLtg8g",
+        "position": 18
+      },
+      {
+        "context": "...ck Livery. Everything** on** their menu is absolut...",
+        "active_token": " on",
+        "activation": 0.1708984375,
+        "review_id": "l8UV1vnxQIizdXSvmiK6pw",
+        "position": 18
+      },
+      {
+        "context": "...aco, dank. Everything** on** the menu, delicious. ...",
+        "active_token": " on",
+        "activation": 0.1707763671875,
+        "review_id": "qZJVzXuMpRnMtKgcSVOmwQ",
+        "position": 36
+      },
+      {
+        "context": "... tried and everything** on** their menu is fantast...",
+        "active_token": " on",
+        "activation": 0.1700439453125,
+        "review_id": "0Ztjv3HEo_aHp33VcetE0Q",
+        "position": 33
+      },
+      {
+        "context": "... pop run.  Everything** on** the menu is less than...",
+        "active_token": " on",
+        "activation": 0.16845703125,
+        "review_id": "LFAPWpiVQPHpPBojILIVwQ",
+        "position": 25
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3681,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1437,
+        "max": 0.1799,
+        "mean": 0.1515
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 371,
+          "percent": 74.2
+        },
+        {
+          "ngram": [
+            " the",
+            " menu"
+          ],
+          "ngram_str": " the menu",
+          "count": 343,
+          "percent": 68.6
+        },
+        {
+          "ngram": [
+            " menu",
+            " is"
+          ],
+          "ngram_str": " menu is",
+          "count": 248,
+          "percent": 49.6
+        },
+        {
+          "ngram": [
+            " everything",
+            " on"
+          ],
+          "ngram_str": " everything on",
+          "count": 232,
+          "percent": 46.4
+        },
+        {
+          "ngram": [
+            " Everything",
+            " on"
+          ],
+          "ngram_str": " Everything on",
+          "count": 202,
+          "percent": 40.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Everything"
+          ],
+          "ngram_str": ". Everything",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " and",
+            " everything"
+          ],
+          "ngram_str": " and everything",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Everything"
+          ],
+          "ngram_str": "  Everything",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " is",
+            " delicious"
+          ],
+          "ngram_str": " is delicious",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " their",
+            " menu"
+          ],
+          "ngram_str": " their menu",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " on",
+            " their"
+          ],
+          "ngram_str": " on their",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ",",
+            " everything"
+          ],
+          "ngram_str": ", everything",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " about",
+            " everything"
+          ],
+          "ngram_str": " about everything",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " on the menu",
+          "count": 341,
+          "percent": 68.2
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            " is"
+          ],
+          "ngram_str": " the menu is",
+          "count": 214,
+          "percent": 42.8
+        },
+        {
+          "ngram": [
+            " everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": " everything on the",
+          "count": 180,
+          "percent": 36.0
+        },
+        {
+          "ngram": [
+            " Everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": " Everything on the",
+          "count": 161,
+          "percent": 32.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Everything",
+            " on"
+          ],
+          "ngram_str": ". Everything on",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Everything",
+            " on"
+          ],
+          "ngram_str": "  Everything on",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " menu",
+            " is",
+            " delicious"
+          ],
+          "ngram_str": " menu is delicious",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " on",
+            " their",
+            " menu"
+          ],
+          "ngram_str": " on their menu",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " and",
+            " everything",
+            " on"
+          ],
+          "ngram_str": " and everything on",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Everything"
+          ],
+          "ngram_str": ".  Everything",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ",",
+            " everything",
+            " on"
+          ],
+          "ngram_str": ", everything on",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " about",
+            " everything",
+            " on"
+          ],
+          "ngram_str": " about everything on",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Everything",
+            " on"
+          ],
+          "ngram_str": "! Everything on",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " menu",
+            " is",
+            " good"
+          ],
+          "ngram_str": " menu is good",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " their",
+            " menu",
+            " is"
+          ],
+          "ngram_str": " their menu is",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu",
+            " is"
+          ],
+          "ngram_str": " on the menu is",
+          "count": 213,
+          "percent": 42.6
+        },
+        {
+          "ngram": [
+            " everything",
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " everything on the menu",
+          "count": 166,
+          "percent": 33.2
+        },
+        {
+          "ngram": [
+            " Everything",
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " Everything on the menu",
+          "count": 147,
+          "percent": 29.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": ". Everything on the",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            " is",
+            " delicious"
+          ],
+          "ngram_str": " the menu is delicious",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Everything",
+            " on"
+          ],
+          "ngram_str": ".  Everything on",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": "  Everything on the",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " and",
+            " everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": " and everything on the",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ",",
+            " everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": ", everything on the",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " on",
+            " their",
+            " menu",
+            " is"
+          ],
+          "ngram_str": " on their menu is",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " about",
+            " everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": " about everything on the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "!",
+            " Everything",
+            " on",
+            " the"
+          ],
+          "ngram_str": "! Everything on the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            " is",
+            " good"
+          ],
+          "ngram_str": " the menu is good",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " everything",
+            " on",
+            " their",
+            " menu"
+          ],
+          "ngram_str": " everything on their menu",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu",
+            "."
+          ],
+          "ngram_str": " on the menu.",
+          "count": 20,
+          "percent": 4.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 26300000,
+      "corpus_coverage": 0.5087
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14612,
+        "count": 7717,
+        "percent": 77.17
+      },
+      {
+        "feature_idx": 4257,
+        "count": 6741,
+        "percent": 67.41
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4605,
+        "percent": 46.05
+      },
+      {
+        "feature_idx": 5752,
+        "count": 4248,
+        "percent": 42.48
+      },
+      {
+        "feature_idx": 24341,
+        "count": 4231,
+        "percent": 42.31
+      },
+      {
+        "feature_idx": 18165,
+        "count": 4193,
+        "percent": 41.93
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4166,
+        "percent": 41.66
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4145,
+        "percent": 41.45
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3929,
+        "percent": 39.29
+      },
+      {
+        "feature_idx": 10638,
+        "count": 3857,
+        "percent": 38.57
+      },
+      {
+        "feature_idx": 22187,
+        "count": 3856,
+        "percent": 38.56
+      },
+      {
+        "feature_idx": 15559,
+        "count": 3705,
+        "percent": 37.05
+      },
+      {
+        "feature_idx": 19287,
+        "count": 3666,
+        "percent": 36.66
+      },
+      {
+        "feature_idx": 6458,
+        "count": 3625,
+        "percent": 36.25
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3596,
+        "percent": 35.96
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3552,
+        "percent": 35.52
+      },
+      {
+        "feature_idx": 15359,
+        "count": 3468,
+        "percent": 34.68
+      },
+      {
+        "feature_idx": 10946,
+        "count": 3448,
+        "percent": 34.48
+      },
+      {
+        "feature_idx": 10880,
+        "count": 3414,
+        "percent": 34.14
+      },
+      {
+        "feature_idx": 734,
+        "count": 3407,
+        "percent": 34.07
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 26300000,
+      "corpus_coverage": 0.5087
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1517,
+        "percent": 15.17
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2334,
+        "percent": 23.34
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2215,
+        "percent": 22.15
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2046,
+        "percent": 20.46
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1888,
+        "percent": 18.88
+      }
+    ],
+    "mean_position": 0.5112,
+    "std_position": 0.2694
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 54,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0262,
+      "p25": 0.04,
+      "p50": 0.0596,
+      "p75": 0.0938,
+      "p90": 0.1158,
+      "p95": 0.1246,
+      "p99": 0.1483
+    },
+    "skewness": 0.5655,
+    "kurtosis": -0.5439,
+    "min": 0.018,
+    "max": 0.1633,
+    "mean": 0.0677,
+    "std": 0.0354
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 54,
+      "unique_tokens_found": 11
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 21,
+        "mean_activation": 0.0686
+      },
+      {
+        "token": " on",
+        "count": 19,
+        "mean_activation": 0.0799
+      },
+      {
+        "token": " in",
+        "count": 5,
+        "mean_activation": 0.0649
+      },
+      {
+        "token": " at",
+        "count": 2,
+        "mean_activation": 0.0432
+      },
+      {
+        "token": " here",
+        "count": 1,
+        "mean_activation": 0.018
+      },
+      {
+        "token": " ordered",
+        "count": 1,
+        "mean_activation": 0.0288
+      },
+      {
+        "token": " under",
+        "count": 1,
+        "mean_activation": 0.0701
+      },
+      {
+        "token": " about",
+        "count": 1,
+        "mean_activation": 0.0184
+      },
+      {
+        "token": " their",
+        "count": 1,
+        "mean_activation": 0.0801
+      },
+      {
+        "token": " with",
+        "count": 1,
+        "mean_activation": 0.0224
+      }
+    ]
+  }
+}

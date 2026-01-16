@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22547,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 259,
+    "mean_when_active": 0.0377790237485672,
+    "max_activation": 0.11541748046875,
+    "std_when_active": 0.020063523016206265,
+    "activation_rate": 0.00259
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 22000000,
+      "corpus_coverage": 0.4255
+    },
+    "top_tokens": [
+      {
+        "token": " are",
+        "count": 11127,
+        "mean_activation": 0.04807397851492288
+      },
+      {
+        "token": " is",
+        "count": 10828,
+        "mean_activation": 0.037222323930259114
+      },
+      {
+        "token": " was",
+        "count": 10588,
+        "mean_activation": 0.037206469637788286
+      },
+      {
+        "token": " were",
+        "count": 8923,
+        "mean_activation": 0.04456589872041091
+      },
+      {
+        "token": " has",
+        "count": 559,
+        "mean_activation": 0.031332326489825583
+      },
+      {
+        "token": " a",
+        "count": 496,
+        "mean_activation": 0.02717108880319903
+      },
+      {
+        "token": " came",
+        "count": 458,
+        "mean_activation": 0.032816258059838975
+      },
+      {
+        "token": " had",
+        "count": 446,
+        "mean_activation": 0.03612037624478875
+      },
+      {
+        "token": " the",
+        "count": 312,
+        "mean_activation": 0.026172124422513522
+      },
+      {
+        "token": " great",
+        "count": 232,
+        "mean_activation": 0.02424128302212419
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 22000000,
+      "corpus_coverage": 0.4255
+    },
+    "activations": [
+      {
+        "context": "...chos (HUGE)... \\nTacos** are** $2-3/each which is r...",
+        "active_token": " are",
+        "activation": 0.1517333984375,
+        "review_id": "jVrVRYegBTKcPVmmnXFXBg",
+        "position": 40
+      },
+      {
+        "context": "...nd is excellent.Tacos** are** served in a soft she...",
+        "active_token": " are",
+        "activation": 0.14404296875,
+        "review_id": "GweaRWFcVxwwXMagal800Q",
+        "position": 45
+      },
+      {
+        "context": "... we are here. \\n\\nTacos** are** delicious, especiall...",
+        "active_token": " are",
+        "activation": 0.1434326171875,
+        "review_id": "MBX7NWayAeNuiWzB4EAL3g",
+        "position": 59
+      },
+      {
+        "context": "...taqueria spot!\\n\\nTacos** are** $3 each, burritos $8...",
+        "active_token": " are",
+        "activation": 0.1419677734375,
+        "review_id": "LH6mdMlbNzeQ22h0T6gDDg",
+        "position": 30
+      },
+      {
+        "context": "... really tasty.\\n\\nTacos** are** standard Mex-America...",
+        "active_token": " are",
+        "activation": 0.1405029296875,
+        "review_id": "aK8IE20VkeUmwaNQ-64vag",
+        "position": 171
+      },
+      {
+        "context": "...t beat that ;)\\n\\nTacos** are** awesome also they ar...",
+        "active_token": " are",
+        "activation": 0.1395263671875,
+        "review_id": "quNbS7dd6NgD0eiRAafsjA",
+        "position": 58
+      },
+      {
+        "context": "... little patio.\\n\\nTacos** are** all fantastic but th...",
+        "active_token": " are",
+        "activation": 0.138427734375,
+        "review_id": "JDdSj28JcyAaZk79vmHrPw",
+        "position": 54
+      },
+      {
+        "context": "...u can dine in. Nachos** are** fantastic",
+        "active_token": " are",
+        "activation": 0.1380615234375,
+        "review_id": "LNpWjVXy06ULdI_t1KTQow",
+        "position": 35
+      },
+      {
+        "context": "... restaurant. Burritos** are** good. Burger is good...",
+        "active_token": " are",
+        "activation": 0.137451171875,
+        "review_id": "7CtZQnnl47Qqyc7sWY0VsQ",
+        "position": 31
+      },
+      {
+        "context": "... this place. Burritos** are** to die for and nice ...",
+        "active_token": " are",
+        "activation": 0.1373291015625,
+        "review_id": "5Tzs9T7BXzB7Mq4EE5DrSg",
+        "position": 20
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22547,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 43600000,
+      "corpus_coverage": 0.8433,
+      "activation_range": {
+        "min": 0.1137,
+        "max": 0.1517,
+        "mean": 0.1211
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "os",
+            " are"
+          ],
+          "ngram_str": "os are",
+          "count": 269,
+          "percent": 53.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 173,
+          "percent": 34.6
+        },
+        {
+          "ngram": [
+            " Tac",
+            "os"
+          ],
+          "ngram_str": " Tacos",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "T"
+          ],
+          "ngram_str": "\u012cT",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            "ac",
+            "os"
+          ],
+          "ngram_str": "acos",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            "T",
+            "ac"
+          ],
+          "ngram_str": "Tac",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "itas",
+            " are"
+          ],
+          "ngram_str": "itas are",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            "rit",
+            "os"
+          ],
+          "ngram_str": "ritos",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " Bur",
+            "rit"
+          ],
+          "ngram_str": " Burrit",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            "ach",
+            "os"
+          ],
+          "ngram_str": "achos",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Tac"
+          ],
+          "ngram_str": ". Tac",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "ar",
+            "itas"
+          ],
+          "ngram_str": "aritas",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " N",
+            "ach"
+          ],
+          "ngram_str": " Nach",
+          "count": 45,
+          "percent": 9.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " Tac",
+            "os",
+            " are"
+          ],
+          "ngram_str": " Tacos are",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            "T",
+            "ac",
+            "os"
+          ],
+          "ngram_str": "Tacos",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "T",
+            "ac"
+          ],
+          "ngram_str": "\u012cTac",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "T"
+          ],
+          "ngram_str": "\u00c4\u012cT",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            "rit",
+            "os",
+            " are"
+          ],
+          "ngram_str": "ritos are",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " Bur",
+            "rit",
+            "os"
+          ],
+          "ngram_str": " Burritos",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            "ac",
+            "os",
+            " are"
+          ],
+          "ngram_str": "acos are",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Tac",
+            "os"
+          ],
+          "ngram_str": ". Tacos",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "ar",
+            "itas",
+            " are"
+          ],
+          "ngram_str": "aritas are",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "ach",
+            "os",
+            " are"
+          ],
+          "ngram_str": "achos are",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " N",
+            "ach",
+            "os"
+          ],
+          "ngram_str": " Nachos",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " Marg",
+            "ar",
+            "itas"
+          ],
+          "ngram_str": " Margaritas",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Bur",
+            "rit"
+          ],
+          "ngram_str": ". Burrit",
+          "count": 37,
+          "percent": 7.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "T",
+            "ac",
+            "os"
+          ],
+          "ngram_str": "\u012cTacos",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "T",
+            "ac"
+          ],
+          "ngram_str": "\u00c4\u012cTac",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " Bur",
+            "rit",
+            "os",
+            " are"
+          ],
+          "ngram_str": " Burritos are",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "T"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cT",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "T",
+            "ac",
+            "os",
+            " are"
+          ],
+          "ngram_str": "Tacos are",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Tac",
+            "os",
+            " are"
+          ],
+          "ngram_str": ". Tacos are",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " Marg",
+            "ar",
+            "itas",
+            " are"
+          ],
+          "ngram_str": " Margaritas are",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " N",
+            "ach",
+            "os",
+            " are"
+          ],
+          "ngram_str": " Nachos are",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Bur",
+            "rit",
+            "os"
+          ],
+          "ngram_str": ". Burritos",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " N",
+            "ach",
+            "os"
+          ],
+          "ngram_str": ". Nachos",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Marg",
+            "ar",
+            "itas"
+          ],
+          "ngram_str": ". Margaritas",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Tac",
+            "os",
+            " are"
+          ],
+          "ngram_str": "! Tacos are",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "T",
+            "ac",
+            "os",
+            " were"
+          ],
+          "ngram_str": "Tacos were",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Bur",
+            "rit",
+            "os"
+          ],
+          "ngram_str": "  Burritos",
+          "count": 21,
+          "percent": 4.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4400000,
+      "corpus_coverage": 0.0851
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20619,
+        "count": 8416,
+        "percent": 84.16
+      },
+      {
+        "feature_idx": 1390,
+        "count": 7397,
+        "percent": 73.97
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6664,
+        "percent": 66.64
+      },
+      {
+        "feature_idx": 13339,
+        "count": 5751,
+        "percent": 57.51
+      },
+      {
+        "feature_idx": 12630,
+        "count": 5195,
+        "percent": 51.95
+      },
+      {
+        "feature_idx": 12045,
+        "count": 4703,
+        "percent": 47.03
+      },
+      {
+        "feature_idx": 8974,
+        "count": 4701,
+        "percent": 47.01
+      },
+      {
+        "feature_idx": 6254,
+        "count": 4582,
+        "percent": 45.82
+      },
+      {
+        "feature_idx": 7052,
+        "count": 4557,
+        "percent": 45.57
+      },
+      {
+        "feature_idx": 23493,
+        "count": 4510,
+        "percent": 45.1
+      },
+      {
+        "feature_idx": 16549,
+        "count": 4397,
+        "percent": 43.97
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4251,
+        "percent": 42.51
+      },
+      {
+        "feature_idx": 20403,
+        "count": 4244,
+        "percent": 42.44
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4213,
+        "percent": 42.13
+      },
+      {
+        "feature_idx": 1917,
+        "count": 4080,
+        "percent": 40.8
+      },
+      {
+        "feature_idx": 19864,
+        "count": 4000,
+        "percent": 40.0
+      },
+      {
+        "feature_idx": 4189,
+        "count": 3935,
+        "percent": 39.35
+      },
+      {
+        "feature_idx": 12563,
+        "count": 3855,
+        "percent": 38.55
+      },
+      {
+        "feature_idx": 6329,
+        "count": 3478,
+        "percent": 34.78
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3463,
+        "percent": 34.63
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4400000,
+      "corpus_coverage": 0.0851
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1511,
+        "percent": 15.11
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2385,
+        "percent": 23.85
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2485,
+        "percent": 24.85
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2052,
+        "percent": 20.52
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1567,
+        "percent": 15.67
+      }
+    ],
+    "mean_position": 0.495,
+    "std_position": 0.2566
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 259,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0182,
+      "p25": 0.0231,
+      "p50": 0.0315,
+      "p75": 0.0487,
+      "p90": 0.0652,
+      "p95": 0.0784,
+      "p99": 0.0997
+    },
+    "skewness": 1.2946,
+    "kurtosis": 1.5766,
+    "min": 0.0079,
+    "max": 0.1154,
+    "mean": 0.0378,
+    "std": 0.0201
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 259,
+      "unique_tokens_found": 34
+    },
+    "tokens": [
+      {
+        "token": " are",
+        "count": 71,
+        "mean_activation": 0.0434
+      },
+      {
+        "token": " is",
+        "count": 58,
+        "mean_activation": 0.0366
+      },
+      {
+        "token": " was",
+        "count": 50,
+        "mean_activation": 0.0362
+      },
+      {
+        "token": " were",
+        "count": 36,
+        "mean_activation": 0.0429
+      },
+      {
+        "token": " has",
+        "count": 4,
+        "mean_activation": 0.0238
+      },
+      {
+        "token": " the",
+        "count": 3,
+        "mean_activation": 0.0318
+      },
+      {
+        "token": " wasn",
+        "count": 2,
+        "mean_activation": 0.025
+      },
+      {
+        "token": " came",
+        "count": 2,
+        "mean_activation": 0.0251
+      },
+      {
+        "token": " also",
+        "count": 2,
+        "mean_activation": 0.0385
+      },
+      {
+        "token": " great",
+        "count": 2,
+        "mean_activation": 0.0211
+      }
+    ]
+  }
+}

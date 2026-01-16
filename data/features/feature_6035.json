@@ -1,0 +1,876 @@
+{
+  "feature_idx": 6035,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 146,
+    "mean_when_active": 0.05968334250254174,
+    "max_activation": 0.1461181640625,
+    "std_when_active": 0.03680797719485411,
+    "activation_rate": 0.00146
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 25800000,
+      "corpus_coverage": 0.499
+    },
+    "top_tokens": [
+      {
+        "token": " ordered",
+        "count": 32531,
+        "mean_activation": 0.07572718456102148
+      },
+      {
+        "token": " order",
+        "count": 7387,
+        "mean_activation": 0.039196581935404894
+      },
+      {
+        "token": " got",
+        "count": 2215,
+        "mean_activation": 0.02610316050510105
+      },
+      {
+        "token": "ered",
+        "count": 1822,
+        "mean_activation": 0.04439671555151662
+      },
+      {
+        "token": " ordering",
+        "count": 975,
+        "mean_activation": 0.036217033190604965
+      },
+      {
+        "token": " tacos",
+        "count": 525,
+        "mean_activation": 0.014438436599004836
+      },
+      {
+        "token": " ate",
+        "count": 394,
+        "mean_activation": 0.02950482441084034
+      },
+      {
+        "token": " tried",
+        "count": 354,
+        "mean_activation": 0.02151497878597281
+      },
+      {
+        "token": " Order",
+        "count": 243,
+        "mean_activation": 0.026695125878102494
+      },
+      {
+        "token": " had",
+        "count": 240,
+        "mean_activation": 0.018656539916992187
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 25800000,
+      "corpus_coverage": 0.499
+    },
+    "activations": [
+      {
+        "context": "...promptly seated. We** ordered** the guacamole for ...",
+        "active_token": " ordered",
+        "activation": 0.185546875,
+        "review_id": "Oh_vE_WIkcNeikxWsJfHDw",
+        "position": 31
+      },
+      {
+        "context": "... as we sat down. We** ordered** drinks and the man...",
+        "active_token": " ordered",
+        "activation": 0.1822509765625,
+        "review_id": "WyNJXPOyxFZrzyGuxhqJFw",
+        "position": 45
+      },
+      {
+        "context": "...ted immediately. We** ordered** the super skillet ...",
+        "active_token": " ordered",
+        "activation": 0.1822509765625,
+        "review_id": "dUsOBfL85n33pFB14xiK6w",
+        "position": 43
+      },
+      {
+        "context": "...enus and waters. We** ordered** a few beers while ...",
+        "active_token": " ordered",
+        "activation": 0.181884765625,
+        "review_id": "uDgujueRnPepKfj8jGt1yA",
+        "position": 47
+      },
+      {
+        "context": "...at suggestions! \\nWe** ordered** the dinner for two...",
+        "active_token": " ordered",
+        "activation": 0.181884765625,
+        "review_id": "sAxsvKIgWsxIo1dPCH3ULg",
+        "position": 51
+      },
+      {
+        "context": "...it for our food. We** ordered** some alligator sau...",
+        "active_token": " ordered",
+        "activation": 0.181640625,
+        "review_id": "Mp94qllpQm9paOlj2gZkEw",
+        "position": 53
+      },
+      {
+        "context": "...chips and salsa. We** ordered** margaritas, veggie...",
+        "active_token": " ordered",
+        "activation": 0.1812744140625,
+        "review_id": "JxVYet-cslBZ03vc7juSmg",
+        "position": 46
+      },
+      {
+        "context": "...ern and elegant. We** ordered** the guacamole trio...",
+        "active_token": " ordered",
+        "activation": 0.1806640625,
+        "review_id": "VJ2R-nw4NyytCPOgdIdlUA",
+        "position": 61
+      },
+      {
+        "context": "...as an appetizer! We** ordered** 4 different types ...",
+        "active_token": " ordered",
+        "activation": 0.180419921875,
+        "review_id": "Pp7WR6o0muPy1IeOcZKxgw",
+        "position": 52
+      },
+      {
+        "context": "...riendy as well.\\n\\nWe** ordered**:\\n\\n- Torta Mexicana...",
+        "active_token": " ordered",
+        "activation": 0.1800537109375,
+        "review_id": "zmBnfS9R8ODcoah8WA21mw",
+        "position": 34
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6035,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51200000,
+      "corpus_coverage": 0.9903,
+      "activation_range": {
+        "min": 0.1614,
+        "max": 0.1873,
+        "mean": 0.1677
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " We",
+            " ordered"
+          ],
+          "ngram_str": " We ordered",
+          "count": 289,
+          "percent": 57.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We"
+          ],
+          "ngram_str": ". We",
+          "count": 238,
+          "percent": 47.6
+        },
+        {
+          "ngram": [
+            " ordered",
+            " the"
+          ],
+          "ngram_str": " ordered the",
+          "count": 189,
+          "percent": 37.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            " I",
+            " ordered"
+          ],
+          "ngram_str": " I ordered",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " ordered",
+            " a"
+          ],
+          "ngram_str": " ordered a",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            "We",
+            " ordered"
+          ],
+          "ngram_str": "We ordered",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "We"
+          ],
+          "ngram_str": "\u012cWe",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac"
+          ],
+          "ngram_str": " guac",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012cI",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "I",
+            " ordered"
+          ],
+          "ngram_str": "I ordered",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " We",
+            " ordered"
+          ],
+          "ngram_str": ". We ordered",
+          "count": 238,
+          "percent": 47.6
+        },
+        {
+          "ngram": [
+            " We",
+            " ordered",
+            " the"
+          ],
+          "ngram_str": " We ordered the",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " ordered"
+          ],
+          "ngram_str": ". I ordered",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "We",
+            " ordered"
+          ],
+          "ngram_str": "\u012cWe ordered",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "We"
+          ],
+          "ngram_str": "\u00c4\u012cWe",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " I",
+            " ordered",
+            " the"
+          ],
+          "ngram_str": " I ordered the",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " We",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": " We ordered a",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " I",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": " I ordered a",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " ordered"
+          ],
+          "ngram_str": "\u012cI ordered",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " ",
+            " We",
+            " ordered"
+          ],
+          "ngram_str": "  We ordered",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " We",
+            " ordered",
+            " the"
+          ],
+          "ngram_str": ". We ordered the",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "We",
+            " ordered"
+          ],
+          "ngram_str": "\u00c4\u012cWe ordered",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "We"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cWe",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " ordered",
+            " the"
+          ],
+          "ngram_str": ". I ordered the",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": ". We ordered a",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " ordered"
+          ],
+          "ngram_str": "\u00c4\u012cI ordered",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " We",
+            " ordered"
+          ],
+          "ngram_str": ".  We ordered",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": ". I ordered a",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "We",
+            " ordered",
+            " the"
+          ],
+          "ngram_str": "\u012cWe ordered the",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": " guacamole",
+          "count": 18,
+          "percent": 3.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5200000,
+      "corpus_coverage": 0.1006
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11064,
+        "count": 8664,
+        "percent": 86.64
+      },
+      {
+        "feature_idx": 23132,
+        "count": 8655,
+        "percent": 86.55
+      },
+      {
+        "feature_idx": 3112,
+        "count": 8361,
+        "percent": 83.61
+      },
+      {
+        "feature_idx": 8300,
+        "count": 7561,
+        "percent": 75.61
+      },
+      {
+        "feature_idx": 15236,
+        "count": 7042,
+        "percent": 70.42
+      },
+      {
+        "feature_idx": 6239,
+        "count": 7023,
+        "percent": 70.23
+      },
+      {
+        "feature_idx": 22662,
+        "count": 6920,
+        "percent": 69.2
+      },
+      {
+        "feature_idx": 18579,
+        "count": 6858,
+        "percent": 68.58
+      },
+      {
+        "feature_idx": 14746,
+        "count": 6765,
+        "percent": 67.65
+      },
+      {
+        "feature_idx": 3631,
+        "count": 6686,
+        "percent": 66.86
+      },
+      {
+        "feature_idx": 3425,
+        "count": 6437,
+        "percent": 64.37
+      },
+      {
+        "feature_idx": 9307,
+        "count": 6289,
+        "percent": 62.89
+      },
+      {
+        "feature_idx": 22831,
+        "count": 6127,
+        "percent": 61.27
+      },
+      {
+        "feature_idx": 1390,
+        "count": 5784,
+        "percent": 57.84
+      },
+      {
+        "feature_idx": 17430,
+        "count": 5750,
+        "percent": 57.5
+      },
+      {
+        "feature_idx": 1227,
+        "count": 5656,
+        "percent": 56.56
+      },
+      {
+        "feature_idx": 18006,
+        "count": 5157,
+        "percent": 51.57
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4678,
+        "percent": 46.78
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4651,
+        "percent": 46.51
+      },
+      {
+        "feature_idx": 16759,
+        "count": 4347,
+        "percent": 43.47
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5200000,
+      "corpus_coverage": 0.1006
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2176,
+        "percent": 21.76
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 3158,
+        "percent": 31.58
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2593,
+        "percent": 25.93
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1435,
+        "percent": 14.35
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 638,
+        "percent": 6.38
+      }
+    ],
+    "mean_position": 0.4021,
+    "std_position": 0.2299
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 146,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0203,
+      "p25": 0.0267,
+      "p50": 0.0486,
+      "p75": 0.0896,
+      "p90": 0.1189,
+      "p95": 0.1256,
+      "p99": 0.1443
+    },
+    "skewness": 0.6193,
+    "kurtosis": -0.8639,
+    "min": 0.0087,
+    "max": 0.1461,
+    "mean": 0.0597,
+    "std": 0.0368
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 146,
+      "unique_tokens_found": 16
+    },
+    "tokens": [
+      {
+        "token": " ordered",
+        "count": 99,
+        "mean_activation": 0.0733
+      },
+      {
+        "token": " order",
+        "count": 26,
+        "mean_activation": 0.0359
+      },
+      {
+        "token": "ered",
+        "count": 5,
+        "mean_activation": 0.0293
+      },
+      {
+        "token": " tacos",
+        "count": 3,
+        "mean_activation": 0.0152
+      },
+      {
+        "token": " ordering",
+        "count": 2,
+        "mean_activation": 0.039
+      },
+      {
+        "token": " placed",
+        "count": 1,
+        "mean_activation": 0.0339
+      },
+      {
+        "token": " got",
+        "count": 1,
+        "mean_activation": 0.0145
+      },
+      {
+        "token": " orders",
+        "count": 1,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": "\\n",
+        "count": 1,
+        "mean_activation": 0.0169
+      },
+      {
+        "token": " went",
+        "count": 1,
+        "mean_activation": 0.0183
+      }
+    ]
+  }
+}

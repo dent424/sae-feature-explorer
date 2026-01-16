@@ -1,0 +1,876 @@
+{
+  "feature_idx": 20946,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 116,
+    "mean_when_active": 0.10791305015827048,
+    "max_activation": 0.2548828125,
+    "std_when_active": 0.06867630234384815,
+    "activation_rate": 0.00116
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 43600000,
+      "corpus_coverage": 0.8433
+    },
+    "top_tokens": [
+      {
+        "token": " can",
+        "count": 33502,
+        "mean_activation": 0.12158177300471917
+      },
+      {
+        "token": " could",
+        "count": 5607,
+        "mean_activation": 0.06783415234958465
+      },
+      {
+        "token": " to",
+        "count": 2579,
+        "mean_activation": 0.031952176458292944
+      },
+      {
+        "token": " should",
+        "count": 2124,
+        "mean_activation": 0.04972674482959812
+      },
+      {
+        "token": " may",
+        "count": 1229,
+        "mean_activation": 0.061736191453925955
+      },
+      {
+        "token": " might",
+        "count": 954,
+        "mean_activation": 0.04159203615328551
+      },
+      {
+        "token": " also",
+        "count": 546,
+        "mean_activation": 0.06608433426518143
+      },
+      {
+        "token": "'t",
+        "count": 336,
+        "mean_activation": 0.02228412174043201
+      },
+      {
+        "token": " couldn",
+        "count": 225,
+        "mean_activation": 0.050025702582465276
+      },
+      {
+        "token": " cannot",
+        "count": 221,
+        "mean_activation": 0.04192410982572115
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 43600000,
+      "corpus_coverage": 0.8433
+    },
+    "activations": [
+      {
+        "context": "...ella scare. Well, you** can** keep you salmonella,...",
+        "active_token": " can",
+        "activation": 0.29052734375,
+        "review_id": "PhsQbORVMwZhbPOl9uYd2Q",
+        "position": 97
+      },
+      {
+        "context": "... post quarantine. You** can** download their app a...",
+        "active_token": " can",
+        "activation": 0.28857421875,
+        "review_id": "xcWqRZNAMHGRpwljdBnlug",
+        "position": 20
+      },
+      {
+        "context": "...six out of ten... you** can** find better Mexican ...",
+        "active_token": " can",
+        "activation": 0.28564453125,
+        "review_id": "ghzeIhopKhmJAyt9l89qgw",
+        "position": 190
+      },
+      {
+        "context": "...put it out there, you** can**'t go wrong with a pl...",
+        "active_token": " can",
+        "activation": 0.281982421875,
+        "review_id": "Lk_XLfv2K6jD1nttkSn7mg",
+        "position": 231
+      },
+      {
+        "context": "... need more stars! You** can** tell the difference ...",
+        "active_token": " can",
+        "activation": 0.281494140625,
+        "review_id": "-DyhLmdu_7FUGgp7aF2h_g",
+        "position": 24
+      },
+      {
+        "context": "...cret ingredients. You** can** see if you can pry t...",
+        "active_token": " can",
+        "activation": 0.28076171875,
+        "review_id": "xa_34cx4241D8_rX2UGiQA",
+        "position": 403
+      },
+      {
+        "context": "...ach day tomorrow. You** can** tell food is fresh h...",
+        "active_token": " can",
+        "activation": 0.28076171875,
+        "review_id": "PaNWx4S3EUVocKX_ULXjIg",
+        "position": 84
+      },
+      {
+        "context": "...t a regular stop. You** can** also call ahead, and...",
+        "active_token": " can",
+        "activation": 0.2783203125,
+        "review_id": "8I_WlfJt3h6iL9JMnlgcxw",
+        "position": 144
+      },
+      {
+        "context": "...negative review.  You** can** read a detailed acco...",
+        "active_token": " can",
+        "activation": 0.2783203125,
+        "review_id": "7hfXStJwKlCw6b47ovMqfg",
+        "position": 21
+      },
+      {
+        "context": "...ey lime pie...and you** can** bet I'll be back aft...",
+        "active_token": " can",
+        "activation": 0.278076171875,
+        "review_id": "1sl-yEub-QanNpTpXOJZ9g",
+        "position": 701
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20946,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2474,
+        "max": 0.2905,
+        "mean": 0.2574
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " You",
+            " can"
+          ],
+          "ngram_str": " You can",
+          "count": 292,
+          "percent": 58.4
+        },
+        {
+          "ngram": [
+            ".",
+            " You"
+          ],
+          "ngram_str": ". You",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 152,
+          "percent": 30.4
+        },
+        {
+          "ngram": [
+            " can",
+            "'t"
+          ],
+          "ngram_str": " can't",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            "You",
+            " can"
+          ],
+          "ngram_str": "You can",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "You"
+          ],
+          "ngram_str": "\u012cYou",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " ",
+            " You"
+          ],
+          "ngram_str": "  You",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " can",
+            " tell"
+          ],
+          "ngram_str": " can tell",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " can",
+            " get"
+          ],
+          "ngram_str": " can get",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ",",
+            " you"
+          ],
+          "ngram_str": ", you",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " go",
+            " wrong"
+          ],
+          "ngram_str": " go wrong",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " You",
+            " can"
+          ],
+          "ngram_str": ". You can",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "You",
+            " can"
+          ],
+          "ngram_str": "\u012cYou can",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "You"
+          ],
+          "ngram_str": "\u00c4\u012cYou",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " You",
+            " can",
+            "'t"
+          ],
+          "ngram_str": " You can't",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " ",
+            " You",
+            " can"
+          ],
+          "ngram_str": "  You can",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " You"
+          ],
+          "ngram_str": ".  You",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " You",
+            " can",
+            " tell"
+          ],
+          "ngram_str": " You can tell",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " you",
+            " can"
+          ],
+          "ngram_str": ", you can",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "!",
+            " You",
+            " can"
+          ],
+          "ngram_str": "! You can",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " go"
+          ],
+          "ngram_str": " can't go",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " go",
+            " wrong"
+          ],
+          "ngram_str": "'t go wrong",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " go",
+            " wrong",
+            " with"
+          ],
+          "ngram_str": " go wrong with",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "You",
+            " can"
+          ],
+          "ngram_str": "\u00c4\u012cYou can",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "You"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cYou",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " You",
+            " can"
+          ],
+          "ngram_str": ".  You can",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " can",
+            "'t"
+          ],
+          "ngram_str": ". You can't",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " go",
+            " wrong"
+          ],
+          "ngram_str": " can't go wrong",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " go",
+            " wrong",
+            " with"
+          ],
+          "ngram_str": "'t go wrong with",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " can",
+            " tell"
+          ],
+          "ngram_str": ". You can tell",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "You",
+            " can",
+            "'t"
+          ],
+          "ngram_str": "\u012cYou can't",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " ",
+            " You",
+            " can",
+            "'t"
+          ],
+          "ngram_str": "  You can't",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " You",
+            " can",
+            "'t",
+            " go"
+          ],
+          "ngram_str": " You can't go",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " can",
+            " get"
+          ],
+          "ngram_str": ". You can get",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8600000,
+      "corpus_coverage": 0.1663
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 18427,
+        "count": 8427,
+        "percent": 84.27
+      },
+      {
+        "feature_idx": 17492,
+        "count": 7975,
+        "percent": 79.75
+      },
+      {
+        "feature_idx": 13164,
+        "count": 7566,
+        "percent": 75.66
+      },
+      {
+        "feature_idx": 10783,
+        "count": 7457,
+        "percent": 74.57
+      },
+      {
+        "feature_idx": 23766,
+        "count": 6913,
+        "percent": 69.13
+      },
+      {
+        "feature_idx": 15177,
+        "count": 5562,
+        "percent": 55.62
+      },
+      {
+        "feature_idx": 22265,
+        "count": 5125,
+        "percent": 51.25
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4663,
+        "percent": 46.63
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4487,
+        "percent": 44.87
+      },
+      {
+        "feature_idx": 22779,
+        "count": 4339,
+        "percent": 43.39
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4313,
+        "percent": 43.13
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4239,
+        "percent": 42.39
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3923,
+        "percent": 39.23
+      },
+      {
+        "feature_idx": 5728,
+        "count": 3436,
+        "percent": 34.36
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3106,
+        "percent": 31.06
+      },
+      {
+        "feature_idx": 1982,
+        "count": 2904,
+        "percent": 29.04
+      },
+      {
+        "feature_idx": 16635,
+        "count": 2837,
+        "percent": 28.37
+      },
+      {
+        "feature_idx": 7027,
+        "count": 2410,
+        "percent": 24.1
+      },
+      {
+        "feature_idx": 15875,
+        "count": 2395,
+        "percent": 23.95
+      },
+      {
+        "feature_idx": 11950,
+        "count": 2380,
+        "percent": 23.8
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8600000,
+      "corpus_coverage": 0.1663
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1609,
+        "percent": 16.09
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1824,
+        "percent": 18.24
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2024,
+        "percent": 20.24
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2155,
+        "percent": 21.55
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2388,
+        "percent": 23.88
+      }
+    ],
+    "mean_position": 0.5365,
+    "std_position": 0.2858
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 116,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0249,
+      "p25": 0.0411,
+      "p50": 0.1063,
+      "p75": 0.159,
+      "p90": 0.2097,
+      "p95": 0.2198,
+      "p99": 0.2483
+    },
+    "skewness": 0.3014,
+    "kurtosis": -1.1589,
+    "min": 0.0132,
+    "max": 0.2549,
+    "mean": 0.1079,
+    "std": 0.0687
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 116,
+      "unique_tokens_found": 18
+    },
+    "tokens": [
+      {
+        "token": " can",
+        "count": 88,
+        "mean_activation": 0.1274
+      },
+      {
+        "token": " could",
+        "count": 6,
+        "mean_activation": 0.0791
+      },
+      {
+        "token": " to",
+        "count": 4,
+        "mean_activation": 0.051
+      },
+      {
+        "token": " just",
+        "count": 2,
+        "mean_activation": 0.0243
+      },
+      {
+        "token": " should",
+        "count": 2,
+        "mean_activation": 0.0391
+      },
+      {
+        "token": " may",
+        "count": 2,
+        "mean_activation": 0.0459
+      },
+      {
+        "token": " free",
+        "count": 1,
+        "mean_activation": 0.0414
+      },
+      {
+        "token": " actually",
+        "count": 1,
+        "mean_activation": 0.0288
+      },
+      {
+        "token": " probably",
+        "count": 1,
+        "mean_activation": 0.0233
+      },
+      {
+        "token": " would",
+        "count": 1,
+        "mean_activation": 0.0252
+      }
+    ]
+  }
+}

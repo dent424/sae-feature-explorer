@@ -1,0 +1,841 @@
+{
+  "feature_idx": 1090,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 10,
+    "mean_when_active": 0.17754364013671875,
+    "max_activation": 0.283935546875,
+    "std_when_active": 0.08633980522334825,
+    "activation_rate": 0.0001
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 4814,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " future",
+        "count": 3079,
+        "mean_activation": 0.21095845295880358
+      },
+      {
+        "token": " summary",
+        "count": 191,
+        "mean_activation": 0.041674628931814464
+      },
+      {
+        "token": " soon",
+        "count": 165,
+        "mean_activation": 0.020286328864820076
+      },
+      {
+        "token": " meantime",
+        "count": 161,
+        "mean_activation": 0.05266708468798525
+      },
+      {
+        "token": " months",
+        "count": 146,
+        "mean_activation": 0.051872880491491864
+      },
+      {
+        "token": " someday",
+        "count": 101,
+        "mean_activation": 0.04390708998878404
+      },
+      {
+        "token": " then",
+        "count": 97,
+        "mean_activation": 0.03295536631161405
+      },
+      {
+        "token": " on",
+        "count": 95,
+        "mean_activation": 0.025921630859375
+      },
+      {
+        "token": " time",
+        "count": 84,
+        "mean_activation": 0.0387031010219029
+      },
+      {
+        "token": "Future",
+        "count": 79,
+        "mean_activation": 0.07778080807456487
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 4814,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...be returning in the** future** to try more things....",
+        "active_token": " future",
+        "activation": 0.304443359375,
+        "review_id": "4gi1tpmsCb4HRQVZt007Mw",
+        "position": 318
+      },
+      {
+        "context": "...his location in the** future**!",
+        "active_token": " future",
+        "activation": 0.30029296875,
+        "review_id": "Phic5M8SLbRXINPzniRkkA",
+        "position": 28
+      },
+      {
+        "context": "... place again in the** future**, even more so if we...",
+        "active_token": " future",
+        "activation": 0.298583984375,
+        "review_id": "ES_QaqLSVoXE3MntuNpiJA",
+        "position": 230
+      },
+      {
+        "context": "...be returning in the** future** :) Glad that one of...",
+        "active_token": " future",
+        "activation": 0.294921875,
+        "review_id": "QiBFoCw_Hi5T0nZjy_m3UA",
+        "position": 153
+      },
+      {
+        "context": "...be returning in the** future**. Great time for a S...",
+        "active_token": " future",
+        "activation": 0.2939453125,
+        "review_id": "-YqKtbJV3va9BKELrOisxQ",
+        "position": 123
+      },
+      {
+        "context": "...on returning in the** future**!",
+        "active_token": " future",
+        "activation": 0.293701171875,
+        "review_id": "3BBa0VssynrjqbIADZeOhg",
+        "position": 59
+      },
+      {
+        "context": "...be returning in the** future** to try some of them...",
+        "active_token": " future",
+        "activation": 0.29345703125,
+        "review_id": "Rwst2SF8bai9l3t860dhvw",
+        "position": 206
+      },
+      {
+        "context": "...turning here in the** future**. Our server with a ...",
+        "active_token": " future",
+        "activation": 0.29345703125,
+        "review_id": "p4YMl3KnRCNrYR_M2PSYbA",
+        "position": 43
+      },
+      {
+        "context": "...g here again in the** future**, especially since w...",
+        "active_token": " future",
+        "activation": 0.293212890625,
+        "review_id": "60pc80HMGzrqTeJxEARslw",
+        "position": 25
+      },
+      {
+        "context": "... will return in the** future**, perhaps try lunch ...",
+        "active_token": " future",
+        "activation": 0.29296875,
+        "review_id": "tRhuF28uWVrsXy20MhLMXQ",
+        "position": 114
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1090,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2627,
+        "max": 0.3044,
+        "mean": 0.2744
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            " the",
+            " future"
+          ],
+          "ngram_str": " the future",
+          "count": 499,
+          "percent": 99.8
+        },
+        {
+          "ngram": [
+            " future",
+            "."
+          ],
+          "ngram_str": " future.",
+          "count": 263,
+          "percent": 52.6
+        },
+        {
+          "ngram": [
+            " again",
+            " in"
+          ],
+          "ngram_str": " again in",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " back",
+            " in"
+          ],
+          "ngram_str": " back in",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " future",
+            "!"
+          ],
+          "ngram_str": " future!",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " be",
+            " back"
+          ],
+          "ngram_str": " be back",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " definitely",
+            " be"
+          ],
+          "ngram_str": " definitely be",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " return",
+            " in"
+          ],
+          "ngram_str": " return in",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " here",
+            " in"
+          ],
+          "ngram_str": " here in",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " be",
+            " returning"
+          ],
+          "ngram_str": " be returning",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " returning",
+            " in"
+          ],
+          "ngram_str": " returning in",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " future",
+            " to"
+          ],
+          "ngram_str": " future to",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " future"
+          ],
+          "ngram_str": " in the future",
+          "count": 497,
+          "percent": 99.4
+        },
+        {
+          "ngram": [
+            " the",
+            " future",
+            "."
+          ],
+          "ngram_str": " the future.",
+          "count": 262,
+          "percent": 52.4
+        },
+        {
+          "ngram": [
+            " again",
+            " in",
+            " the"
+          ],
+          "ngram_str": " again in the",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " the",
+            " future",
+            "!"
+          ],
+          "ngram_str": " the future!",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " back",
+            " in",
+            " the"
+          ],
+          "ngram_str": " back in the",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " be",
+            " back",
+            " in"
+          ],
+          "ngram_str": " be back in",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " return",
+            " in",
+            " the"
+          ],
+          "ngram_str": " return in the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " here",
+            " in",
+            " the"
+          ],
+          "ngram_str": " here in the",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " returning",
+            " in",
+            " the"
+          ],
+          "ngram_str": " returning in the",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " definitely",
+            " be",
+            " back"
+          ],
+          "ngram_str": " definitely be back",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " future",
+            " to"
+          ],
+          "ngram_str": " the future to",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " the",
+            " future",
+            ","
+          ],
+          "ngram_str": " the future,",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " be",
+            " returning",
+            " in"
+          ],
+          "ngram_str": " be returning in",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " try",
+            " in",
+            " the"
+          ],
+          "ngram_str": " try in the",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " future",
+            "."
+          ],
+          "ngram_str": " in the future.",
+          "count": 262,
+          "percent": 52.4
+        },
+        {
+          "ngram": [
+            " again",
+            " in",
+            " the",
+            " future"
+          ],
+          "ngram_str": " again in the future",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " future",
+            "!"
+          ],
+          "ngram_str": " in the future!",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " back",
+            " in",
+            " the",
+            " future"
+          ],
+          "ngram_str": " back in the future",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " be",
+            " back",
+            " in",
+            " the"
+          ],
+          "ngram_str": " be back in the",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " return",
+            " in",
+            " the",
+            " future"
+          ],
+          "ngram_str": " return in the future",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " here",
+            " in",
+            " the",
+            " future"
+          ],
+          "ngram_str": " here in the future",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " returning",
+            " in",
+            " the",
+            " future"
+          ],
+          "ngram_str": " returning in the future",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " definitely",
+            " be",
+            " back",
+            " in"
+          ],
+          "ngram_str": " definitely be back in",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " future",
+            " to"
+          ],
+          "ngram_str": " in the future to",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " future",
+            ","
+          ],
+          "ngram_str": " in the future,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " be",
+            " returning",
+            " in",
+            " the"
+          ],
+          "ngram_str": " be returning in the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " try",
+            " in",
+            " the",
+            " future"
+          ],
+          "ngram_str": " try in the future",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " another",
+            " try",
+            " in",
+            " the"
+          ],
+          "ngram_str": " another try in the",
+          "count": 18,
+          "percent": 3.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4814,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14534,
+        "count": 3917,
+        "percent": 81.37
+      },
+      {
+        "feature_idx": 15165,
+        "count": 3391,
+        "percent": 70.44
+      },
+      {
+        "feature_idx": 23217,
+        "count": 3215,
+        "percent": 66.78
+      },
+      {
+        "feature_idx": 8025,
+        "count": 3143,
+        "percent": 65.29
+      },
+      {
+        "feature_idx": 20364,
+        "count": 3101,
+        "percent": 64.42
+      },
+      {
+        "feature_idx": 21472,
+        "count": 3022,
+        "percent": 62.78
+      },
+      {
+        "feature_idx": 12508,
+        "count": 2743,
+        "percent": 56.98
+      },
+      {
+        "feature_idx": 3097,
+        "count": 2733,
+        "percent": 56.77
+      },
+      {
+        "feature_idx": 5432,
+        "count": 2659,
+        "percent": 55.23
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2566,
+        "percent": 53.3
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2511,
+        "percent": 52.16
+      },
+      {
+        "feature_idx": 17296,
+        "count": 2509,
+        "percent": 52.12
+      },
+      {
+        "feature_idx": 4897,
+        "count": 2475,
+        "percent": 51.41
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2249,
+        "percent": 46.72
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2178,
+        "percent": 45.24
+      },
+      {
+        "feature_idx": 18099,
+        "count": 2149,
+        "percent": 44.64
+      },
+      {
+        "feature_idx": 23664,
+        "count": 2057,
+        "percent": 42.73
+      },
+      {
+        "feature_idx": 10943,
+        "count": 1887,
+        "percent": 39.2
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1622,
+        "percent": 33.69
+      },
+      {
+        "feature_idx": 2108,
+        "count": 1320,
+        "percent": 27.42
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4814,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 195,
+        "percent": 4.05
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 258,
+        "percent": 5.36
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 326,
+        "percent": 6.77
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 609,
+        "percent": 12.65
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3426,
+        "percent": 71.17
+      }
+    ],
+    "mean_position": 0.8177,
+    "std_position": 0.2392
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 10,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0204,
+      "p25": 0.1735,
+      "p50": 0.1909,
+      "p75": 0.2387,
+      "p90": 0.2584,
+      "p95": 0.2712,
+      "p99": 0.2814
+    },
+    "skewness": -0.9016,
+    "kurtosis": -0.4163,
+    "min": 0.0185,
+    "max": 0.2839,
+    "mean": 0.1775,
+    "std": 0.0863
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 10,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " future",
+        "count": 8,
+        "mean_activation": 0.217
+      },
+      {
+        "token": " years",
+        "count": 1,
+        "mean_activation": 0.0206
+      },
+      {
+        "token": " soon",
+        "count": 1,
+        "mean_activation": 0.0185
+      }
+    ]
+  }
+}

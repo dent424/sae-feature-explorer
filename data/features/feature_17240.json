@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17240,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 10,
+    "mean_when_active": 0.0378173828125,
+    "max_activation": 0.0625,
+    "std_when_active": 0.013584957746108153,
+    "activation_rate": 0.0001
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5195,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Saturday",
+        "count": 1011,
+        "mean_activation": 0.03890984419191627
+      },
+      {
+        "token": " Friday",
+        "count": 545,
+        "mean_activation": 0.04464332510571961
+      },
+      {
+        "token": " Sunday",
+        "count": 503,
+        "mean_activation": 0.03882430514568837
+      },
+      {
+        "token": " Monday",
+        "count": 418,
+        "mean_activation": 0.03808741592334218
+      },
+      {
+        "token": " Tuesday",
+        "count": 315,
+        "mean_activation": 0.03889833480592758
+      },
+      {
+        "token": " Wednesday",
+        "count": 218,
+        "mean_activation": 0.039139248909206566
+      },
+      {
+        "token": " Thursday",
+        "count": 165,
+        "mean_activation": 0.04037776137843276
+      },
+      {
+        "token": "Friday",
+        "count": 100,
+        "mean_activation": 0.05517303466796875
+      },
+      {
+        "token": "Saturday",
+        "count": 99,
+        "mean_activation": 0.05454893786497791
+      },
+      {
+        "token": " -",
+        "count": 96,
+        "mean_activation": 0.0565191904703776
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5195,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "March 30, 2014** Sunday** - late lunch 2:15 P...",
+        "active_token": " Sunday",
+        "activation": 0.268310546875,
+        "review_id": "XGQzPD1WL8dHRLD7CaC3qw",
+        "position": 4
+      },
+      {
+        "context": "March 30, 2014** Saturday** - dinner 7:00 PM\\n2...",
+        "active_token": " Saturday",
+        "activation": 0.2626953125,
+        "review_id": "dmdvISguP1XikOUz8jR4mg",
+        "position": 4
+      },
+      {
+        "context": "March 09, 2013** Saturday** - snack 12:15 AM\\n3...",
+        "active_token": " Saturday",
+        "activation": 0.2626953125,
+        "review_id": "UCmGvk02NJ3kI_Oz7aLOnA",
+        "position": 4
+      },
+      {
+        "context": "February 8, 2015** Sunday** - 1:30 PM lunch\\n2 A...",
+        "active_token": " Sunday",
+        "activation": 0.2626953125,
+        "review_id": "MEqOPJZulrYWF7J39rgMYg",
+        "position": 4
+      },
+      {
+        "context": "February 22, 2014** Saturday** - lunch 12:45 PM\\n2...",
+        "active_token": " Saturday",
+        "activation": 0.26123046875,
+        "review_id": "tXLsQ2km072uNSIRj3Dsuw",
+        "position": 4
+      },
+      {
+        "context": "December 19, 2015** Saturday** - 12 Noon for lunc...",
+        "active_token": " Saturday",
+        "activation": 0.2607421875,
+        "review_id": "WUvHp_iq6px7LS8bK9JiYw",
+        "position": 4
+      },
+      {
+        "context": "November 30, 2013** Saturday** - breakfast 10:30 ...",
+        "active_token": " Saturday",
+        "activation": 0.2607421875,
+        "review_id": "12WX4D74fq_fxd54mtqToQ",
+        "position": 4
+      },
+      {
+        "context": "February 23, 2013** Saturday** - dinner 6:00 PM\\n2...",
+        "active_token": " Saturday",
+        "activation": 0.26025390625,
+        "review_id": "1sow7NADuLy61qvwFV87lw",
+        "position": 4
+      },
+      {
+        "context": "December 13, 2014** Saturday** - 5:15 PM Dinner\\n2...",
+        "active_token": " Saturday",
+        "activation": 0.260009765625,
+        "review_id": "Ikbd1Hi0LmzOtaksRm0Ivw",
+        "position": 4
+      },
+      {
+        "context": "April 19, 2014** Saturday** - lunch 12:15 PM\\n3...",
+        "active_token": " Saturday",
+        "activation": 0.259765625,
+        "review_id": "uf92wM_VEtYGqSaRZLVrNA",
+        "position": 4
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17240,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0683,
+        "max": 0.2683,
+        "mean": 0.1131
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            ":",
+            "30"
+          ],
+          "ngram_str": ":30",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " Saturday",
+            " -"
+          ],
+          "ngram_str": " Saturday -",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " 5",
+            ":"
+          ],
+          "ngram_str": " 5:",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " Friday",
+            " -"
+          ],
+          "ngram_str": " Friday -",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ":",
+            "00"
+          ],
+          "ngram_str": ":00",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " 12",
+            ":"
+          ],
+          "ngram_str": " 12:",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " 6",
+            ":"
+          ],
+          "ngram_str": " 6:",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Why"
+          ],
+          "ngram_str": "\u012cWhy",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " -",
+            " dinner"
+          ],
+          "ngram_str": " - dinner",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ":",
+            "15"
+          ],
+          "ngram_str": ":15",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ",",
+            " 2017"
+          ],
+          "ngram_str": ", 2017",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "Why",
+            ":"
+          ],
+          "ngram_str": "Why:",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ",",
+            " 2014"
+          ],
+          "ngram_str": ", 2014",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Why"
+          ],
+          "ngram_str": "\u00c4\u012cWhy",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Why",
+            ":"
+          ],
+          "ngram_str": "\u012cWhy:",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ":",
+            "30",
+            " PM"
+          ],
+          "ngram_str": ":30 PM",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " -",
+            " 5",
+            ":"
+          ],
+          "ngram_str": " - 5:",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " (",
+            "Sunday",
+            ")"
+          ],
+          "ngram_str": " (Sunday)",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Time"
+          ],
+          "ngram_str": "\u00c4\u012cTime",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Time",
+            ":"
+          ],
+          "ngram_str": "\u012cTime:",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " 6",
+            ":",
+            "30"
+          ],
+          "ngram_str": " 6:30",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " Friday",
+            " -",
+            " dinner"
+          ],
+          "ngram_str": " Friday - dinner",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " 5",
+            ":",
+            "30"
+          ],
+          "ngram_str": " 5:30",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ",",
+            " 2014",
+            " Saturday"
+          ],
+          "ngram_str": ", 2014 Saturday",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " 2014",
+            " Saturday",
+            " -"
+          ],
+          "ngram_str": " 2014 Saturday -",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " (",
+            "Saturday",
+            ")"
+          ],
+          "ngram_str": " (Saturday)",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Why",
+            ":"
+          ],
+          "ngram_str": "\u00c4\u012cWhy:",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Time",
+            ":"
+          ],
+          "ngram_str": "\u00c4\u012cTime:",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " 2014",
+            " Saturday",
+            " -"
+          ],
+          "ngram_str": ", 2014 Saturday -",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ",",
+            " 2013",
+            " Saturday",
+            " -"
+          ],
+          "ngram_str": ", 2013 Saturday -",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " -",
+            " dinner",
+            " 6",
+            ":"
+          ],
+          "ngram_str": " - dinner 6:",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " -",
+            " lunch",
+            " 12",
+            ":"
+          ],
+          "ngram_str": " - lunch 12:",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " -",
+            " 5",
+            ":",
+            "15"
+          ],
+          "ngram_str": " - 5:15",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " today",
+            " (",
+            "Sunday",
+            ")"
+          ],
+          "ngram_str": " today (Sunday)",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " 2014",
+            " Friday",
+            " -"
+          ],
+          "ngram_str": ", 2014 Friday -",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Friday",
+            " -",
+            " dinner",
+            " 6"
+          ],
+          "ngram_str": " Friday - dinner 6",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " -",
+            " 5",
+            ":",
+            "30"
+          ],
+          "ngram_str": " - 5:30",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " 5",
+            ":",
+            "30",
+            " PM"
+          ],
+          "ngram_str": " 5:30 PM",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Saturday",
+            " -",
+            " lunch",
+            " 12"
+          ],
+          "ngram_str": " Saturday - lunch 12",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5195,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 4845,
+        "count": 4108,
+        "percent": 79.08
+      },
+      {
+        "feature_idx": 4779,
+        "count": 3974,
+        "percent": 76.5
+      },
+      {
+        "feature_idx": 19371,
+        "count": 3890,
+        "percent": 74.88
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3644,
+        "percent": 70.14
+      },
+      {
+        "feature_idx": 17755,
+        "count": 3613,
+        "percent": 69.55
+      },
+      {
+        "feature_idx": 20655,
+        "count": 3478,
+        "percent": 66.95
+      },
+      {
+        "feature_idx": 5602,
+        "count": 3125,
+        "percent": 60.15
+      },
+      {
+        "feature_idx": 4430,
+        "count": 3058,
+        "percent": 58.86
+      },
+      {
+        "feature_idx": 21926,
+        "count": 2986,
+        "percent": 57.48
+      },
+      {
+        "feature_idx": 19449,
+        "count": 2769,
+        "percent": 53.3
+      },
+      {
+        "feature_idx": 23749,
+        "count": 2492,
+        "percent": 47.97
+      },
+      {
+        "feature_idx": 16168,
+        "count": 2421,
+        "percent": 46.6
+      },
+      {
+        "feature_idx": 1416,
+        "count": 2189,
+        "percent": 42.14
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1955,
+        "percent": 37.63
+      },
+      {
+        "feature_idx": 18099,
+        "count": 1677,
+        "percent": 32.28
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1590,
+        "percent": 30.61
+      },
+      {
+        "feature_idx": 7672,
+        "count": 1538,
+        "percent": 29.61
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1522,
+        "percent": 29.3
+      },
+      {
+        "feature_idx": 1186,
+        "count": 1468,
+        "percent": 28.26
+      },
+      {
+        "feature_idx": 4374,
+        "count": 1412,
+        "percent": 27.18
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5195,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2771,
+        "percent": 53.34
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 848,
+        "percent": 16.32
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 483,
+        "percent": 9.3
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 454,
+        "percent": 8.74
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 639,
+        "percent": 12.3
+      }
+    ],
+    "mean_position": 0.3051,
+    "std_position": 0.3069
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 10,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.021,
+      "p25": 0.024,
+      "p50": 0.0417,
+      "p75": 0.046,
+      "p90": 0.0502,
+      "p95": 0.0563,
+      "p99": 0.0613
+    },
+    "skewness": 0.0266,
+    "kurtosis": -0.9665,
+    "min": 0.0181,
+    "max": 0.0625,
+    "mean": 0.0378,
+    "std": 0.0136
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 10,
+      "unique_tokens_found": 10
+    },
+    "tokens": [
+      {
+        "token": "Friday",
+        "count": 1,
+        "mean_activation": 0.0214
+      },
+      {
+        "token": " Monday",
+        "count": 1,
+        "mean_activation": 0.0441
+      },
+      {
+        "token": " Saturday",
+        "count": 1,
+        "mean_activation": 0.0407
+      },
+      {
+        "token": " Thursday",
+        "count": 1,
+        "mean_activation": 0.0181
+      },
+      {
+        "token": " frozen",
+        "count": 1,
+        "mean_activation": 0.0213
+      },
+      {
+        "token": " 2011",
+        "count": 1,
+        "mean_activation": 0.0488
+      },
+      {
+        "token": "\\n",
+        "count": 1,
+        "mean_activation": 0.0427
+      },
+      {
+        "token": " (",
+        "count": 1,
+        "mean_activation": 0.0319
+      },
+      {
+        "token": " Sunday",
+        "count": 1,
+        "mean_activation": 0.0625
+      },
+      {
+        "token": "Saturday",
+        "count": 1,
+        "mean_activation": 0.0467
+      }
+    ]
+  }
+}

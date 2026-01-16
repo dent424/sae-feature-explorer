@@ -1,0 +1,876 @@
+{
+  "feature_idx": 115,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 199,
+    "mean_when_active": 0.05437814530415751,
+    "max_activation": 0.197265625,
+    "std_when_active": 0.04227299790296184,
+    "activation_rate": 0.00199
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 24100000,
+      "corpus_coverage": 0.4661
+    },
+    "top_tokens": [
+      {
+        "token": " was",
+        "count": 21538,
+        "mean_activation": 0.061377556413226675
+      },
+      {
+        "token": " were",
+        "count": 15192,
+        "mean_activation": 0.054118034398951236
+      },
+      {
+        "token": "'t",
+        "count": 838,
+        "mean_activation": 0.041508849879153306
+      },
+      {
+        "token": " are",
+        "count": 754,
+        "mean_activation": 0.04985144536754497
+      },
+      {
+        "token": " been",
+        "count": 743,
+        "mean_activation": 0.0417425019583824
+      },
+      {
+        "token": " be",
+        "count": 720,
+        "mean_activation": 0.04022173351711697
+      },
+      {
+        "token": " not",
+        "count": 627,
+        "mean_activation": 0.04305746756862415
+      },
+      {
+        "token": " wasn",
+        "count": 604,
+        "mean_activation": 0.06543719058005226
+      },
+      {
+        "token": " didn",
+        "count": 520,
+        "mean_activation": 0.039371490478515625
+      },
+      {
+        "token": "'m",
+        "count": 512,
+        "mean_activation": 0.03247170150279999
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 24100000,
+      "corpus_coverage": 0.4661
+    },
+    "activations": [
+      {
+        "context": "...hat had happened  and** was** immediately told tha...",
+        "active_token": " was",
+        "activation": 0.2357177734375,
+        "review_id": "qxO9KPsbP-YvXtZiwp9HYg",
+        "position": 53
+      },
+      {
+        "context": "...utdoor host stand and** was** told the wait would ...",
+        "active_token": " was",
+        "activation": 0.2337646484375,
+        "review_id": "6gveqnnkMizm41QxLAYvzg",
+        "position": 117
+      },
+      {
+        "context": "...late lunch (1:30) and** was** immediately seated a...",
+        "active_token": " was",
+        "activation": 0.2314453125,
+        "review_id": "pNt7SR51vL9LUDB55VknUg",
+        "position": 34
+      },
+      {
+        "context": "...n the wall place, and** was** treated to some real...",
+        "active_token": " was",
+        "activation": 0.2288818359375,
+        "review_id": "BpIVGqESb1yI6m_eC2Vmzw",
+        "position": 12
+      },
+      {
+        "context": "...d at the Del Taco and** was** sorely disappointed....",
+        "active_token": " was",
+        "activation": 0.22705078125,
+        "review_id": "uzuesNVQGVvQ0ExGMsK2fg",
+        "position": 79
+      },
+      {
+        "context": "... for some takeout and** was** very disappointed: t...",
+        "active_token": " was",
+        "activation": 0.226806640625,
+        "review_id": "KyULhzqehHWQhV8usqyTcQ",
+        "position": 38
+      },
+      {
+        "context": "... Yelp Elite perk, and** was** pleasantly surprised...",
+        "active_token": " was",
+        "activation": 0.224609375,
+        "review_id": "eMh0TpJX6kYOtYUNKuyNOw",
+        "position": 18
+      },
+      {
+        "context": "...sk about our food and** was** told it was being pl...",
+        "active_token": " was",
+        "activation": 0.2242431640625,
+        "review_id": "DQCPdo4JWy42nA21j2RzKg",
+        "position": 188
+      },
+      {
+        "context": "...ed about our room and** was** informed we would ha...",
+        "active_token": " was",
+        "activation": 0.2235107421875,
+        "review_id": "sPs3JhlNf9LAK1B2FKqcwQ",
+        "position": 233
+      },
+      {
+        "context": "...d at Xtreme Tacos and** was** completely satisfied...",
+        "active_token": " was",
+        "activation": 0.22265625,
+        "review_id": "HYxdGYPv0xDCuPx_BewCWw",
+        "position": 21
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 115,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 47900000,
+      "corpus_coverage": 0.9264,
+      "activation_range": {
+        "min": 0.1947,
+        "max": 0.2357,
+        "mean": 0.2032
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " and",
+            " was"
+          ],
+          "ngram_str": " and was",
+          "count": 427,
+          "percent": 85.4
+        },
+        {
+          "ngram": [
+            " was",
+            " told"
+          ],
+          "ngram_str": " was told",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " and",
+            " were"
+          ],
+          "ngram_str": " and were",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " told",
+            " that"
+          ],
+          "ngram_str": " told that",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " pleasantly",
+            " surprised"
+          ],
+          "ngram_str": " pleasantly surprised",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " disappointed",
+            "."
+          ],
+          "ngram_str": " disappointed.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " was",
+            " very"
+          ],
+          "ngram_str": " was very",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " was",
+            " pleasantly"
+          ],
+          "ngram_str": " was pleasantly",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " told",
+            " they"
+          ],
+          "ngram_str": " told they",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " was",
+            " not"
+          ],
+          "ngram_str": " was not",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " with",
+            " the"
+          ],
+          "ngram_str": " with the",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " and",
+            " was",
+            " told"
+          ],
+          "ngram_str": " and was told",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " was"
+          ],
+          "ngram_str": ", and was",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " was",
+            " told",
+            " that"
+          ],
+          "ngram_str": " was told that",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " very"
+          ],
+          "ngram_str": " and was very",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " was",
+            " pleasantly",
+            " surprised"
+          ],
+          "ngram_str": " was pleasantly surprised",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " pleasantly"
+          ],
+          "ngram_str": " and was pleasantly",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " was",
+            " told",
+            " they"
+          ],
+          "ngram_str": " was told they",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " not"
+          ],
+          "ngram_str": " and was not",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " greeted"
+          ],
+          "ngram_str": " and was greeted",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " was",
+            " told",
+            " it"
+          ],
+          "ngram_str": " was told it",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " pleasantly",
+            " surprised",
+            "."
+          ],
+          "ngram_str": " pleasantly surprised.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " in",
+            " and",
+            " was"
+          ],
+          "ngram_str": " in and was",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " immediately"
+          ],
+          "ngram_str": " and was immediately",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " lunch",
+            " and",
+            " was"
+          ],
+          "ngram_str": " lunch and was",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " order",
+            " and",
+            " was"
+          ],
+          "ngram_str": " order and was",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " and",
+            " was",
+            " told",
+            " that"
+          ],
+          "ngram_str": " and was told that",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " pleasantly",
+            " surprised"
+          ],
+          "ngram_str": " and was pleasantly surprised",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " told",
+            " they"
+          ],
+          "ngram_str": " and was told they",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " told",
+            " it"
+          ],
+          "ngram_str": " and was told it",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " was",
+            " told"
+          ],
+          "ngram_str": ", and was told",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " was",
+            " pleasantly",
+            " surprised",
+            "."
+          ],
+          "ngram_str": " was pleasantly surprised.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " not",
+            " disappointed"
+          ],
+          "ngram_str": " and was not disappointed",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " greeted",
+            " by"
+          ],
+          "ngram_str": " and was greeted by",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " was",
+            " told",
+            " that",
+            " they"
+          ],
+          "ngram_str": " was told that they",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " for",
+            " lunch",
+            " and",
+            " was"
+          ],
+          "ngram_str": " for lunch and was",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " told",
+            " the"
+          ],
+          "ngram_str": " and was told the",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " order",
+            " and",
+            " was",
+            " told"
+          ],
+          "ngram_str": " order and was told",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " told",
+            " I"
+          ],
+          "ngram_str": " and was told I",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " and",
+            " was"
+          ],
+          "ngram_str": " to go and was",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " was",
+            " told",
+            " it",
+            " would"
+          ],
+          "ngram_str": " was told it would",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20403,
+        "count": 8907,
+        "percent": 89.07
+      },
+      {
+        "feature_idx": 20619,
+        "count": 8440,
+        "percent": 84.4
+      },
+      {
+        "feature_idx": 6708,
+        "count": 8335,
+        "percent": 83.35
+      },
+      {
+        "feature_idx": 10622,
+        "count": 5311,
+        "percent": 53.11
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5188,
+        "percent": 51.88
+      },
+      {
+        "feature_idx": 2263,
+        "count": 4792,
+        "percent": 47.92
+      },
+      {
+        "feature_idx": 11069,
+        "count": 4215,
+        "percent": 42.15
+      },
+      {
+        "feature_idx": 16924,
+        "count": 3901,
+        "percent": 39.01
+      },
+      {
+        "feature_idx": 9465,
+        "count": 3723,
+        "percent": 37.23
+      },
+      {
+        "feature_idx": 335,
+        "count": 3674,
+        "percent": 36.74
+      },
+      {
+        "feature_idx": 17430,
+        "count": 3660,
+        "percent": 36.6
+      },
+      {
+        "feature_idx": 6564,
+        "count": 3648,
+        "percent": 36.48
+      },
+      {
+        "feature_idx": 9407,
+        "count": 3578,
+        "percent": 35.78
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3443,
+        "percent": 34.43
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3413,
+        "percent": 34.13
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3297,
+        "percent": 32.97
+      },
+      {
+        "feature_idx": 20523,
+        "count": 3284,
+        "percent": 32.84
+      },
+      {
+        "feature_idx": 24308,
+        "count": 3023,
+        "percent": 30.23
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2828,
+        "percent": 28.28
+      },
+      {
+        "feature_idx": 9889,
+        "count": 2795,
+        "percent": 27.95
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3472,
+        "percent": 34.72
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2491,
+        "percent": 24.91
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1707,
+        "percent": 17.07
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1349,
+        "percent": 13.49
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 981,
+        "percent": 9.81
+      }
+    ],
+    "mean_position": 0.3752,
+    "std_position": 0.2671
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 199,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0201,
+      "p25": 0.0264,
+      "p50": 0.039,
+      "p75": 0.0607,
+      "p90": 0.1311,
+      "p95": 0.1591,
+      "p99": 0.1826
+    },
+    "skewness": 1.6512,
+    "kurtosis": 1.8586,
+    "min": 0.0129,
+    "max": 0.1973,
+    "mean": 0.0544,
+    "std": 0.0423
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 199,
+      "unique_tokens_found": 36
+    },
+    "tokens": [
+      {
+        "token": " was",
+        "count": 95,
+        "mean_activation": 0.0612
+      },
+      {
+        "token": " were",
+        "count": 52,
+        "mean_activation": 0.0548
+      },
+      {
+        "token": " am",
+        "count": 3,
+        "mean_activation": 0.0461
+      },
+      {
+        "token": " is",
+        "count": 3,
+        "mean_activation": 0.0562
+      },
+      {
+        "token": " being",
+        "count": 3,
+        "mean_activation": 0.0284
+      },
+      {
+        "token": " wasn",
+        "count": 3,
+        "mean_activation": 0.1011
+      },
+      {
+        "token": " had",
+        "count": 3,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " not",
+        "count": 3,
+        "mean_activation": 0.0437
+      },
+      {
+        "token": "'m",
+        "count": 3,
+        "mean_activation": 0.0265
+      },
+      {
+        "token": " really",
+        "count": 2,
+        "mean_activation": 0.022
+      }
+    ]
+  }
+}

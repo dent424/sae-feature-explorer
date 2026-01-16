@@ -1,0 +1,846 @@
+{
+  "feature_idx": 1058,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 6,
+    "mean_when_active": 0.03679784138997396,
+    "max_activation": 0.059417724609375,
+    "std_when_active": 0.01580179204801792,
+    "activation_rate": 6e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5588,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ay",
+        "count": 1067,
+        "mean_activation": 0.10814212702542907
+      },
+      {
+        "token": "ent",
+        "count": 770,
+        "mean_activation": 0.027291731400923294
+      },
+      {
+        "token": " could",
+        "count": 482,
+        "mean_activation": 0.03981147861084997
+      },
+      {
+        "token": "ed",
+        "count": 371,
+        "mean_activation": 0.12714963846129548
+      },
+      {
+        "token": " can",
+        "count": 332,
+        "mean_activation": 0.038325206342949926
+      },
+      {
+        "token": "mit",
+        "count": 213,
+        "mean_activation": 0.15877636833370012
+      },
+      {
+        "token": "ient",
+        "count": 213,
+        "mean_activation": 0.04613340852406103
+      },
+      {
+        "token": "ret",
+        "count": 182,
+        "mean_activation": 0.072884276673034
+      },
+      {
+        "token": " say",
+        "count": 177,
+        "mean_activation": 0.0632855259092514
+      },
+      {
+        "token": "art",
+        "count": 152,
+        "mean_activation": 0.06636248136821546
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5588,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... on Main Street in Man**ay**unk. It reminds me of ...",
+        "active_token": "ay",
+        "activation": 0.256591796875,
+        "review_id": "A-Go6T9pd1h12zaish-yEA",
+        "position": 15
+      },
+      {
+        "context": "...ut my time here in Man**ay**unk thus far. Aside fr...",
+        "active_token": "ay",
+        "activation": 0.25439453125,
+        "review_id": "Uab3fDzTxG--g1fEmeObiQ",
+        "position": 14
+      },
+      {
+        "context": "...Street location in Man**ay**unk and recently disco...",
+        "active_token": "ay",
+        "activation": 0.253662109375,
+        "review_id": "scfAVEfx3R9K8TQWgecxmw",
+        "position": 18
+      },
+      {
+        "context": "...n to Adobe Cafe in Man**ay**unk a few times with m...",
+        "active_token": "ay",
+        "activation": 0.252197265625,
+        "review_id": "CM9AjMmJ8rngwYJFN-Ef4w",
+        "position": 8
+      },
+      {
+        "context": "...la, go to Adobe in Man**ay**unk.  If you just want...",
+        "active_token": "ay",
+        "activation": 0.251220703125,
+        "review_id": "hwejhrxvWGVmlWZaO7X5Lw",
+        "position": 329
+      },
+      {
+        "context": "... on Main Street in Man**ay**unk. Nice beer selecti...",
+        "active_token": "ay",
+        "activation": 0.2509765625,
+        "review_id": "ylbvGatBVEcGDe87mWjH6A",
+        "position": 16
+      },
+      {
+        "context": "... on Main Street in Man**ay**unk. A cool aztec inte...",
+        "active_token": "ay",
+        "activation": 0.25048828125,
+        "review_id": "6BVunH4uy6r_eOx3mbSw_Q",
+        "position": 85
+      },
+      {
+        "context": "...ican restaurant in Man**ay**unk, however, we were ...",
+        "active_token": "ay",
+        "activation": 0.25048828125,
+        "review_id": "PGoaay5kq9IpqJ8jC59L5Q",
+        "position": 15
+      },
+      {
+        "context": "...up a place soon in Man**ay**unk, the manager told ...",
+        "active_token": "ay",
+        "activation": 0.250244140625,
+        "review_id": "luqKdILpEAmUapMHp3NXVQ",
+        "position": 275
+      },
+      {
+        "context": "... delivery joint in Man**ay**unk. Glad they've turn...",
+        "active_token": "ay",
+        "activation": 0.250244140625,
+        "review_id": "aj9uCL55cvU45VDipFuLIw",
+        "position": 144
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1058,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.147,
+        "max": 0.2566,
+        "mean": 0.2096
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "ay",
+            "unk"
+          ],
+          "ngram_str": "ayunk",
+          "count": 304,
+          "percent": 60.8
+        },
+        {
+          "ngram": [
+            " Man",
+            "ay"
+          ],
+          "ngram_str": " Manay",
+          "count": 244,
+          "percent": 48.8
+        },
+        {
+          "ngram": [
+            "mit",
+            "age"
+          ],
+          "ngram_str": "mitage",
+          "count": 137,
+          "percent": 27.4
+        },
+        {
+          "ngram": [
+            " in",
+            " Man"
+          ],
+          "ngram_str": " in Man",
+          "count": 124,
+          "percent": 24.8
+        },
+        {
+          "ngram": [
+            " Her",
+            "mit"
+          ],
+          "ngram_str": " Hermit",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            "unk",
+            "."
+          ],
+          "ngram_str": "unk.",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " man",
+            "ay"
+          ],
+          "ngram_str": " manay",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " the",
+            " Her"
+          ],
+          "ngram_str": " the Her",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " bened",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "ed",
+            "ict"
+          ],
+          "ngram_str": "edict",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " eggs",
+            " ben"
+          ],
+          "ngram_str": " eggs ben",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " in",
+            " Her"
+          ],
+          "ngram_str": " in Her",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " Man",
+            "ay",
+            "unk"
+          ],
+          "ngram_str": " Manayunk",
+          "count": 243,
+          "percent": 48.6
+        },
+        {
+          "ngram": [
+            " in",
+            " Man",
+            "ay"
+          ],
+          "ngram_str": " in Manay",
+          "count": 124,
+          "percent": 24.8
+        },
+        {
+          "ngram": [
+            " Her",
+            "mit",
+            "age"
+          ],
+          "ngram_str": " Hermitage",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            "ay",
+            "unk",
+            "."
+          ],
+          "ngram_str": "ayunk.",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " man",
+            "ay",
+            "unk"
+          ],
+          "ngram_str": " manayunk",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " the",
+            " Her",
+            "mit"
+          ],
+          "ngram_str": " the Hermit",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " ben",
+            "ed",
+            "ict"
+          ],
+          "ngram_str": " benedict",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " eggs",
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " eggs bened",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " in",
+            " Her",
+            "mit"
+          ],
+          "ngram_str": " in Hermit",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " in",
+            " man",
+            "ay"
+          ],
+          "ngram_str": " in manay",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Man",
+            "ay"
+          ],
+          "ngram_str": " the Manay",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "mit",
+            "age",
+            " Hotel"
+          ],
+          "ngram_str": "mitage Hotel",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "ay",
+            "unk",
+            ","
+          ],
+          "ngram_str": "ayunk,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "ay",
+            "unk",
+            " and"
+          ],
+          "ngram_str": "ayunk and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "ay",
+            "unk",
+            "!"
+          ],
+          "ngram_str": "ayunk!",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " Man",
+            "ay",
+            "unk"
+          ],
+          "ngram_str": " in Manayunk",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            " Man",
+            "ay",
+            "unk",
+            "."
+          ],
+          "ngram_str": " Manayunk.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Her",
+            "mit",
+            "age"
+          ],
+          "ngram_str": " the Hermitage",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " in",
+            " Her",
+            "mit",
+            "age"
+          ],
+          "ngram_str": " in Hermitage",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " eggs",
+            " ben",
+            "ed",
+            "ict"
+          ],
+          "ngram_str": " eggs benedict",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " in",
+            " man",
+            "ay",
+            "unk"
+          ],
+          "ngram_str": " in manayunk",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Man",
+            "ay",
+            "unk"
+          ],
+          "ngram_str": " the Manayunk",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " Her",
+            "mit",
+            "age",
+            " Hotel"
+          ],
+          "ngram_str": " Hermitage Hotel",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " Man",
+            "ay",
+            "unk",
+            ","
+          ],
+          "ngram_str": " Manayunk,",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " man",
+            "ay",
+            "unk",
+            "."
+          ],
+          "ngram_str": " manayunk.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " Man",
+            "ay",
+            "unk",
+            " and"
+          ],
+          "ngram_str": " Manayunk and",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "ay",
+            "unk",
+            ".",
+            " "
+          ],
+          "ngram_str": "ayunk. ",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " to",
+            " Man",
+            "ay",
+            "unk"
+          ],
+          "ngram_str": " to Manayunk",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Her",
+            "mit"
+          ],
+          "ngram_str": " in the Hermit",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " Man",
+            "ay",
+            "unk",
+            "!"
+          ],
+          "ngram_str": " Manayunk!",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5588,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 5196,
+        "count": 3110,
+        "percent": 55.65
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2620,
+        "percent": 46.89
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2556,
+        "percent": 45.74
+      },
+      {
+        "feature_idx": 17861,
+        "count": 2406,
+        "percent": 43.06
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2125,
+        "percent": 38.03
+      },
+      {
+        "feature_idx": 1390,
+        "count": 1362,
+        "percent": 24.37
+      },
+      {
+        "feature_idx": 11260,
+        "count": 1342,
+        "percent": 24.02
+      },
+      {
+        "feature_idx": 10067,
+        "count": 1340,
+        "percent": 23.98
+      },
+      {
+        "feature_idx": 6053,
+        "count": 1302,
+        "percent": 23.3
+      },
+      {
+        "feature_idx": 490,
+        "count": 1186,
+        "percent": 21.22
+      },
+      {
+        "feature_idx": 18603,
+        "count": 1172,
+        "percent": 20.97
+      },
+      {
+        "feature_idx": 4981,
+        "count": 1143,
+        "percent": 20.45
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1107,
+        "percent": 19.81
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1083,
+        "percent": 19.38
+      },
+      {
+        "feature_idx": 23403,
+        "count": 934,
+        "percent": 16.71
+      },
+      {
+        "feature_idx": 8365,
+        "count": 927,
+        "percent": 16.59
+      },
+      {
+        "feature_idx": 20273,
+        "count": 894,
+        "percent": 16.0
+      },
+      {
+        "feature_idx": 8649,
+        "count": 870,
+        "percent": 15.57
+      },
+      {
+        "feature_idx": 17839,
+        "count": 849,
+        "percent": 15.19
+      },
+      {
+        "feature_idx": 2467,
+        "count": 842,
+        "percent": 15.07
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5588,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1771,
+        "percent": 31.69
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 890,
+        "percent": 15.93
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 856,
+        "percent": 15.32
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 826,
+        "percent": 14.78
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1245,
+        "percent": 22.28
+      }
+    ],
+    "mean_position": 0.4524,
+    "std_position": 0.3325
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 6,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0183,
+      "p25": 0.0267,
+      "p50": 0.0377,
+      "p75": 0.0478,
+      "p90": 0.0544,
+      "p95": 0.0569,
+      "p99": 0.0589
+    },
+    "skewness": -0.1543,
+    "kurtosis": -1.129,
+    "min": 0.0118,
+    "max": 0.0594,
+    "mean": 0.0368,
+    "std": 0.0158
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 6,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": "ay",
+        "count": 3,
+        "mean_activation": 0.045
+      },
+      {
+        "token": " can",
+        "count": 1,
+        "mean_activation": 0.0493
+      },
+      {
+        "token": " could",
+        "count": 1,
+        "mean_activation": 0.0247
+      },
+      {
+        "token": "ent",
+        "count": 1,
+        "mean_activation": 0.0118
+      }
+    ]
+  }
+}

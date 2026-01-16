@@ -1,0 +1,876 @@
+{
+  "feature_idx": 7885,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 215,
+    "mean_when_active": 0.04706186693768168,
+    "max_activation": 0.138427734375,
+    "std_when_active": 0.025354257564663817,
+    "activation_rate": 0.00215
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 26800000,
+      "corpus_coverage": 0.5183
+    },
+    "top_tokens": [
+      {
+        "token": " this",
+        "count": 45685,
+        "mean_activation": 0.049731600288490475
+      },
+      {
+        "token": " the",
+        "count": 834,
+        "mean_activation": 0.01713398720720689
+      },
+      {
+        "token": " these",
+        "count": 799,
+        "mean_activation": 0.035053382080994795
+      },
+      {
+        "token": " This",
+        "count": 752,
+        "mean_activation": 0.022833443702535428
+      },
+      {
+        "token": " that",
+        "count": 404,
+        "mean_activation": 0.030131519430934794
+      },
+      {
+        "token": " it",
+        "count": 296,
+        "mean_activation": 0.02203786695325697
+      },
+      {
+        "token": " new",
+        "count": 139,
+        "mean_activation": 0.02238974811361848
+      },
+      {
+        "token": " one",
+        "count": 115,
+        "mean_activation": 0.02827360733695652
+      },
+      {
+        "token": " THIS",
+        "count": 110,
+        "mean_activation": 0.04770313609730114
+      },
+      {
+        "token": " here",
+        "count": 100,
+        "mean_activation": 0.022662811279296875
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 26800000,
+      "corpus_coverage": 0.5183
+    },
+    "activations": [
+      {
+        "context": "...le lot to love about** this** taqueria. \\n\\nFirst, T...",
+        "active_token": " this",
+        "activation": 0.1612548828125,
+        "review_id": "AZgik1Rr4_TW-DGjaaEdYw",
+        "position": 8
+      },
+      {
+        "context": "... a lot to like about** this** place. Idiosyncratic...",
+        "active_token": " this",
+        "activation": 0.1595458984375,
+        "review_id": "OMF6SNq_4z3nd_ymdT6RgQ",
+        "position": 7
+      },
+      {
+        "context": "...xciting things about** this** eatery and needed to...",
+        "active_token": " this",
+        "activation": 0.1572265625,
+        "review_id": "gc0XWTQV7OYq8o9BgaUUow",
+        "position": 8
+      },
+      {
+        "context": "...ike everything about** this** little place.  The a...",
+        "active_token": " this",
+        "activation": 0.154541015625,
+        "review_id": "s4qQA2PDRUHubfNvQefh2g",
+        "position": 5
+      },
+      {
+        "context": "...s lots to like about** this** place: friendly serv...",
+        "active_token": " this",
+        "activation": 0.1536865234375,
+        "review_id": "Ab0UhNfUtz7pGL3fx7R39Q",
+        "position": 6
+      },
+      {
+        "context": "...o much to like about** this** restaurant. Wonderfu...",
+        "active_token": " this",
+        "activation": 0.1512451171875,
+        "review_id": "xudIVbMYwySDjJkLULiK_g",
+        "position": 7
+      },
+      {
+        "context": "...h great things about** this** place and its staff....",
+        "active_token": " this",
+        "activation": 0.1507568359375,
+        "review_id": "5mSxcbVt6itZu0pMucpExw",
+        "position": 84
+      },
+      {
+        "context": "...f great things about** this** place but was severe...",
+        "active_token": " this",
+        "activation": 0.14990234375,
+        "review_id": "d-kgfa6BFKIuFyQ7SdL-9A",
+        "position": 8
+      },
+      {
+        "context": "... a lot to love about** this** spot - it's deliciou...",
+        "active_token": " this",
+        "activation": 0.14990234375,
+        "review_id": "jiaq9TkVOZFl6H6GHMOUXg",
+        "position": 7
+      },
+      {
+        "context": "... a lot of hype about** this** authentic Mexican ta...",
+        "active_token": " this",
+        "activation": 0.1490478515625,
+        "review_id": "y8hthWyXnv-dmxF-zPl_cg",
+        "position": 7
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 7885,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1281,
+        "max": 0.1613,
+        "mean": 0.1355
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " about",
+            " this"
+          ],
+          "ngram_str": " about this",
+          "count": 447,
+          "percent": 89.4
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 389,
+          "percent": 77.8
+        },
+        {
+          "ngram": [
+            " things",
+            " about"
+          ],
+          "ngram_str": " things about",
+          "count": 218,
+          "percent": 43.6
+        },
+        {
+          "ngram": [
+            " place",
+            "."
+          ],
+          "ngram_str": " place.",
+          "count": 185,
+          "percent": 37.0
+        },
+        {
+          "ngram": [
+            " good",
+            " things"
+          ],
+          "ngram_str": " good things",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " say",
+            " enough"
+          ],
+          "ngram_str": " say enough",
+          "count": 110,
+          "percent": 22.0
+        },
+        {
+          "ngram": [
+            " enough",
+            " good"
+          ],
+          "ngram_str": " enough good",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " everything",
+            " about"
+          ],
+          "ngram_str": " everything about",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " great",
+            " things"
+          ],
+          "ngram_str": " great things",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " this",
+            " restaurant"
+          ],
+          "ngram_str": " this restaurant",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " lot",
+            " of"
+          ],
+          "ngram_str": " lot of",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " place",
+            ","
+          ],
+          "ngram_str": " place,",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " about",
+            " this",
+            " place"
+          ],
+          "ngram_str": " about this place",
+          "count": 349,
+          "percent": 69.8
+        },
+        {
+          "ngram": [
+            " things",
+            " about",
+            " this"
+          ],
+          "ngram_str": " things about this",
+          "count": 218,
+          "percent": 43.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            "."
+          ],
+          "ngram_str": " this place.",
+          "count": 184,
+          "percent": 36.8
+        },
+        {
+          "ngram": [
+            " good",
+            " things",
+            " about"
+          ],
+          "ngram_str": " good things about",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            " say",
+            " enough",
+            " good"
+          ],
+          "ngram_str": " say enough good",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " enough",
+            " good",
+            " things"
+          ],
+          "ngram_str": " enough good things",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " everything",
+            " about",
+            " this"
+          ],
+          "ngram_str": " everything about this",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " great",
+            " things",
+            " about"
+          ],
+          "ngram_str": " great things about",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " about",
+            " this",
+            " restaurant"
+          ],
+          "ngram_str": " about this restaurant",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            ","
+          ],
+          "ngram_str": " this place,",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " love",
+            " everything",
+            " about"
+          ],
+          "ngram_str": " love everything about",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            "!"
+          ],
+          "ngram_str": " this place!",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " place",
+            ".",
+            " The"
+          ],
+          "ngram_str": " place. The",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " place",
+            ".",
+            " "
+          ],
+          "ngram_str": " place. ",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " say",
+            " about",
+            " this"
+          ],
+          "ngram_str": " say about this",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " things",
+            " about",
+            " this",
+            " place"
+          ],
+          "ngram_str": " things about this place",
+          "count": 165,
+          "percent": 33.0
+        },
+        {
+          "ngram": [
+            " about",
+            " this",
+            " place",
+            "."
+          ],
+          "ngram_str": " about this place.",
+          "count": 161,
+          "percent": 32.2
+        },
+        {
+          "ngram": [
+            " good",
+            " things",
+            " about",
+            " this"
+          ],
+          "ngram_str": " good things about this",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            " say",
+            " enough",
+            " good",
+            " things"
+          ],
+          "ngram_str": " say enough good things",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " enough",
+            " good",
+            " things",
+            " about"
+          ],
+          "ngram_str": " enough good things about",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " great",
+            " things",
+            " about",
+            " this"
+          ],
+          "ngram_str": " great things about this",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " everything",
+            " about",
+            " this",
+            " place"
+          ],
+          "ngram_str": " everything about this place",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " love",
+            " everything",
+            " about",
+            " this"
+          ],
+          "ngram_str": " love everything about this",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " about",
+            " this",
+            " place",
+            ","
+          ],
+          "ngram_str": " about this place,",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " about",
+            " this",
+            " place",
+            "!"
+          ],
+          "ngram_str": " about this place!",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            ".",
+            " The"
+          ],
+          "ngram_str": " this place. The",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            ".",
+            " "
+          ],
+          "ngram_str": " this place. ",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "I",
+            " love",
+            " everything",
+            " about"
+          ],
+          "ngram_str": "I love everything about",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            ".",
+            " I"
+          ],
+          "ngram_str": " this place. I",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " things",
+            " about",
+            " this",
+            " restaurant"
+          ],
+          "ngram_str": " things about this restaurant",
+          "count": 27,
+          "percent": 5.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5300000,
+      "corpus_coverage": 0.1025
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11985,
+        "count": 9474,
+        "percent": 94.74
+      },
+      {
+        "feature_idx": 2036,
+        "count": 9474,
+        "percent": 94.74
+      },
+      {
+        "feature_idx": 8847,
+        "count": 9390,
+        "percent": 93.9
+      },
+      {
+        "feature_idx": 11381,
+        "count": 9320,
+        "percent": 93.2
+      },
+      {
+        "feature_idx": 19881,
+        "count": 7842,
+        "percent": 78.42
+      },
+      {
+        "feature_idx": 19345,
+        "count": 7628,
+        "percent": 76.28
+      },
+      {
+        "feature_idx": 17175,
+        "count": 7483,
+        "percent": 74.83
+      },
+      {
+        "feature_idx": 8384,
+        "count": 6472,
+        "percent": 64.72
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6297,
+        "percent": 62.97
+      },
+      {
+        "feature_idx": 4714,
+        "count": 6131,
+        "percent": 61.31
+      },
+      {
+        "feature_idx": 14539,
+        "count": 4731,
+        "percent": 47.31
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4179,
+        "percent": 41.79
+      },
+      {
+        "feature_idx": 24308,
+        "count": 3742,
+        "percent": 37.42
+      },
+      {
+        "feature_idx": 5070,
+        "count": 3335,
+        "percent": 33.35
+      },
+      {
+        "feature_idx": 10722,
+        "count": 2960,
+        "percent": 29.6
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2938,
+        "percent": 29.38
+      },
+      {
+        "feature_idx": 20586,
+        "count": 2798,
+        "percent": 27.98
+      },
+      {
+        "feature_idx": 19704,
+        "count": 2729,
+        "percent": 27.29
+      },
+      {
+        "feature_idx": 17627,
+        "count": 2720,
+        "percent": 27.2
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2660,
+        "percent": 26.6
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5300000,
+      "corpus_coverage": 0.1025
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4596,
+        "percent": 45.96
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1145,
+        "percent": 11.45
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 909,
+        "percent": 9.09
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1078,
+        "percent": 10.78
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2272,
+        "percent": 22.72
+      }
+    ],
+    "mean_position": 0.3951,
+    "std_position": 0.3556
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 215,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0205,
+      "p25": 0.0258,
+      "p50": 0.0395,
+      "p75": 0.0638,
+      "p90": 0.0829,
+      "p95": 0.0927,
+      "p99": 0.1191
+    },
+    "skewness": 0.9487,
+    "kurtosis": 0.4799,
+    "min": 0.0139,
+    "max": 0.1384,
+    "mean": 0.0471,
+    "std": 0.0254
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 215,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " this",
+        "count": 192,
+        "mean_activation": 0.0499
+      },
+      {
+        "token": " the",
+        "count": 6,
+        "mean_activation": 0.0176
+      },
+      {
+        "token": " these",
+        "count": 3,
+        "mean_activation": 0.0326
+      },
+      {
+        "token": " This",
+        "count": 2,
+        "mean_activation": 0.0219
+      },
+      {
+        "token": " it",
+        "count": 2,
+        "mean_activation": 0.0217
+      },
+      {
+        "token": " a",
+        "count": 1,
+        "mean_activation": 0.023
+      },
+      {
+        "token": " THIS",
+        "count": 1,
+        "mean_activation": 0.0558
+      },
+      {
+        "token": " and",
+        "count": 1,
+        "mean_activation": 0.0177
+      },
+      {
+        "token": " me",
+        "count": 1,
+        "mean_activation": 0.0192
+      },
+      {
+        "token": " at",
+        "count": 1,
+        "mean_activation": 0.0226
+      }
+    ]
+  }
+}

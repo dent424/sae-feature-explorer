@@ -1,0 +1,876 @@
+{
+  "feature_idx": 24379,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 3243,
+    "mean_when_active": 0.030139571386026152,
+    "max_activation": 0.0921630859375,
+    "std_when_active": 0.012360356444343966,
+    "activation_rate": 0.03243
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 1700000,
+      "corpus_coverage": 0.0329
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 1950,
+        "mean_activation": 0.030619199703901243
+      },
+      {
+        "token": " a",
+        "count": 1546,
+        "mean_activation": 0.028905061669985042
+      },
+      {
+        "token": " the",
+        "count": 1453,
+        "mean_activation": 0.027030467002537854
+      },
+      {
+        "token": " was",
+        "count": 1189,
+        "mean_activation": 0.031195708740850373
+      },
+      {
+        "token": " had",
+        "count": 1117,
+        "mean_activation": 0.03271456370955615
+      },
+      {
+        "token": " I",
+        "count": 897,
+        "mean_activation": 0.029670358102855874
+      },
+      {
+        "token": " have",
+        "count": 765,
+        "mean_activation": 0.03065875682955474
+      },
+      {
+        "token": " for",
+        "count": 716,
+        "mean_activation": 0.029195071598671
+      },
+      {
+        "token": " of",
+        "count": 698,
+        "mean_activation": 0.03204100862956662
+      },
+      {
+        "token": "'t",
+        "count": 568,
+        "mean_activation": 0.029739164970290492
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 1700000,
+      "corpus_coverage": 0.0329
+    },
+    "activations": [
+      {
+        "context": "...ally from Chicago. ** Finding** good Mexican Cuisi...",
+        "active_token": " Finding",
+        "activation": 0.11212158203125,
+        "review_id": "dO-vXfLmCPmoAQpLHN1hgg",
+        "position": 14
+      },
+      {
+        "context": "...allas for 3 years and** did** not think we would f...",
+        "active_token": " did",
+        "activation": 0.11029052734375,
+        "review_id": "SaViJ4KYRCPJ28DGd3oQrA",
+        "position": 32
+      },
+      {
+        "context": "...n and raised in LA, I** was** accustomed to authen...",
+        "active_token": " was",
+        "activation": 0.10986328125,
+        "review_id": "JeJrN369H96_K4QBLDS0bw",
+        "position": 18
+      },
+      {
+        "context": "...moved to Nashville, I** was** looking for an authe...",
+        "active_token": " was",
+        "activation": 0.10943603515625,
+        "review_id": "Pe9xz2JuhQDGAYZyfNMOkg",
+        "position": 24
+      },
+      {
+        "context": "... my life and somewhat** had** been influenced by t...",
+        "active_token": " had",
+        "activation": 0.109375,
+        "review_id": "VfmlcneTcPpDy93GAROEqw",
+        "position": 27
+      },
+      {
+        "context": "...oved to Malvern and** wanted** to find the local E...",
+        "active_token": " wanted",
+        "activation": 0.10699462890625,
+        "review_id": "dz_dCP0Eje7F05aRrIG-Ow",
+        "position": 25
+      },
+      {
+        "context": "...ved to Colorado and** finding** a good burrito, or...",
+        "active_token": " finding",
+        "activation": 0.10430908203125,
+        "review_id": "4Pp04qM9Vu_GUl_ohjritg",
+        "position": 38
+      },
+      {
+        "context": "...ears. and have never** seen** this kind of service...",
+        "active_token": " seen",
+        "activation": 0.1033935546875,
+        "review_id": "m1sLkZBfGPcunVJgMv6sXg",
+        "position": 91
+      },
+      {
+        "context": "...way in '06), and no** matter** how many other Mexi...",
+        "active_token": " matter",
+        "activation": 0.1019287109375,
+        "review_id": "6l-eXebbEJu2Q_GENIJ7oA",
+        "position": 21
+      },
+      {
+        "context": "...hville, I was looking** for** an authentic Mexican...",
+        "active_token": " for",
+        "activation": 0.10137939453125,
+        "review_id": "Pe9xz2JuhQDGAYZyfNMOkg",
+        "position": 26
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 24379,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 3300000,
+      "corpus_coverage": 0.0638,
+      "activation_range": {
+        "min": 0.075,
+        "max": 0.1263,
+        "mean": 0.0832
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " I",
+            " was"
+          ],
+          "ngram_str": " I was",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " I",
+            " have"
+          ],
+          "ngram_str": " I have",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " Mexican food",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " and",
+            " have"
+          ],
+          "ngram_str": " and have",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " years",
+            " and"
+          ],
+          "ngram_str": " years and",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " have",
+            " been"
+          ],
+          "ngram_str": " have been",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " to",
+            " find"
+          ],
+          "ngram_str": " to find",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " so",
+            " I"
+          ],
+          "ngram_str": " so I",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " moved",
+            " to"
+          ],
+          "ngram_str": " moved to",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ",",
+            " I",
+            " was"
+          ],
+          "ngram_str": ", I was",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " to",
+            " find",
+            " a"
+          ],
+          "ngram_str": " to find a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " was"
+          ],
+          "ngram_str": " and I was",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " been"
+          ],
+          "ngram_str": " I've been",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " was",
+            " looking",
+            " for"
+          ],
+          "ngram_str": " was looking for",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " and",
+            " have",
+            " been"
+          ],
+          "ngram_str": " and have been",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " I",
+            " have",
+            " been"
+          ],
+          "ngram_str": " I have been",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " have"
+          ],
+          "ngram_str": " and I have",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " have"
+          ],
+          "ngram_str": ", I have",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " 3",
+            " years",
+            " and"
+          ],
+          "ngram_str": " 3 years and",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " good",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " good Mexican food",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " for",
+            " 3",
+            " years"
+          ],
+          "ngram_str": " for 3 years",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " disappointed",
+            " moving",
+            " to"
+          ],
+          "ngram_str": " disappointed moving to",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " moving",
+            " to",
+            " Philly"
+          ],
+          "ngram_str": " moving to Philly",
+          "count": 6,
+          "percent": 1.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " disappointed",
+            " moving",
+            " to",
+            " Philly"
+          ],
+          "ngram_str": " disappointed moving to Philly",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " been",
+            " searching"
+          ],
+          "ngram_str": " I've been searching",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "'ve",
+            " been",
+            " searching",
+            " for"
+          ],
+          "ngram_str": "'ve been searching for",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'ve",
+            " been"
+          ],
+          "ngram_str": ". I've been",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " for",
+            " 3",
+            " years",
+            " and"
+          ],
+          "ngram_str": " for 3 years and",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " Florida",
+            " It",
+            " was",
+            " very"
+          ],
+          "ngram_str": " Florida It was very",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " It",
+            " was",
+            " very",
+            " hard"
+          ],
+          "ngram_str": " It was very hard",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " was",
+            " very",
+            " hard",
+            " to"
+          ],
+          "ngram_str": " was very hard to",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " very",
+            " hard",
+            " to",
+            " find"
+          ],
+          "ngram_str": " very hard to find",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " hard",
+            " to",
+            " find",
+            " a"
+          ],
+          "ngram_str": " hard to find a",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " so",
+            " I",
+            " am",
+            " always"
+          ],
+          "ngram_str": " so I am always",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " am",
+            " always",
+            " a",
+            " little"
+          ],
+          "ngram_str": " am always a little",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " always",
+            " a",
+            " little",
+            " disappointed"
+          ],
+          "ngram_str": " always a little disappointed",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " and",
+            " this",
+            " is",
+            " the"
+          ],
+          "ngram_str": " and this is the",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " have",
+            " been"
+          ],
+          "ngram_str": ", and have been",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 400000,
+      "corpus_coverage": 0.0077
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5104,
+        "percent": 51.04
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4038,
+        "percent": 40.38
+      },
+      {
+        "feature_idx": 24308,
+        "count": 3957,
+        "percent": 39.57
+      },
+      {
+        "feature_idx": 17430,
+        "count": 3483,
+        "percent": 34.83
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3396,
+        "percent": 33.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3308,
+        "percent": 33.08
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3148,
+        "percent": 31.48
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2914,
+        "percent": 29.14
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2596,
+        "percent": 25.96
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2438,
+        "percent": 24.38
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2360,
+        "percent": 23.6
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1691,
+        "percent": 16.91
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1572,
+        "percent": 15.72
+      },
+      {
+        "feature_idx": 9465,
+        "count": 1484,
+        "percent": 14.84
+      },
+      {
+        "feature_idx": 1982,
+        "count": 1381,
+        "percent": 13.81
+      },
+      {
+        "feature_idx": 24070,
+        "count": 1327,
+        "percent": 13.27
+      },
+      {
+        "feature_idx": 5236,
+        "count": 1268,
+        "percent": 12.68
+      },
+      {
+        "feature_idx": 13566,
+        "count": 1241,
+        "percent": 12.41
+      },
+      {
+        "feature_idx": 24555,
+        "count": 1144,
+        "percent": 11.44
+      },
+      {
+        "feature_idx": 21933,
+        "count": 1117,
+        "percent": 11.17
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 400000,
+      "corpus_coverage": 0.0077
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4274,
+        "percent": 42.74
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2379,
+        "percent": 23.79
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1266,
+        "percent": 12.66
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 898,
+        "percent": 8.98
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1183,
+        "percent": 11.83
+      }
+    ],
+    "mean_position": 0.3458,
+    "std_position": 0.2806
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 3243,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.017,
+      "p25": 0.0214,
+      "p50": 0.028,
+      "p75": 0.0363,
+      "p90": 0.0469,
+      "p95": 0.0547,
+      "p99": 0.0684
+    },
+    "skewness": 1.1787,
+    "kurtosis": 1.9787,
+    "min": 0.0068,
+    "max": 0.0922,
+    "mean": 0.0301,
+    "std": 0.0124
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 3243,
+      "unique_tokens_found": 781
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 124,
+        "mean_activation": 0.0323
+      },
+      {
+        "token": " a",
+        "count": 91,
+        "mean_activation": 0.0297
+      },
+      {
+        "token": " was",
+        "count": 88,
+        "mean_activation": 0.0332
+      },
+      {
+        "token": " the",
+        "count": 85,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " had",
+        "count": 71,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " I",
+        "count": 63,
+        "mean_activation": 0.0288
+      },
+      {
+        "token": " for",
+        "count": 53,
+        "mean_activation": 0.0301
+      },
+      {
+        "token": " have",
+        "count": 44,
+        "mean_activation": 0.0339
+      },
+      {
+        "token": " of",
+        "count": 39,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": " in",
+        "count": 39,
+        "mean_activation": 0.0312
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17108,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 809,
+    "mean_when_active": 0.07765942775127473,
+    "max_activation": 0.1710205078125,
+    "std_when_active": 0.03720923786732542,
+    "activation_rate": 0.00809
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 6100000,
+      "corpus_coverage": 0.118
+    },
+    "top_tokens": [
+      {
+        "token": " place",
+        "count": 14327,
+        "mean_activation": 0.09954854646098167
+      },
+      {
+        "token": " restaurant",
+        "count": 2680,
+        "mean_activation": 0.09780601814611634
+      },
+      {
+        "token": " location",
+        "count": 1648,
+        "mean_activation": 0.10856905261289726
+      },
+      {
+        "token": " one",
+        "count": 754,
+        "mean_activation": 0.07846372892749089
+      },
+      {
+        "token": " food",
+        "count": 750,
+        "mean_activation": 0.07569341023763021
+      },
+      {
+        "token": " spot",
+        "count": 618,
+        "mean_activation": 0.09224704631323953
+      },
+      {
+        "token": " review",
+        "count": 512,
+        "mean_activation": 0.10137274861335754
+      },
+      {
+        "token": " little",
+        "count": 395,
+        "mean_activation": 0.09291513177412974
+      },
+      {
+        "token": " gem",
+        "count": 330,
+        "mean_activation": 0.10944819594874526
+      },
+      {
+        "token": " tacos",
+        "count": 317,
+        "mean_activation": 0.07924615998373423
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 6100000,
+      "corpus_coverage": 0.118
+    },
+    "activations": [
+      {
+        "context": "...o de Mayo in this** restaurant**. We always start ...",
+        "active_token": " restaurant",
+        "activation": 0.19873046875,
+        "review_id": "y8x_8xblDSRD_9uyQS6org",
+        "position": 38
+      },
+      {
+        "context": "...ve taco stands, this** food** is similar except it...",
+        "active_token": " food",
+        "activation": 0.1947021484375,
+        "review_id": "13BzY7Oft78ksc6w86rieQ",
+        "position": 47
+      },
+      {
+        "context": "...cafeteria food. This** food** was made to the lowe...",
+        "active_token": " food",
+        "activation": 0.190673828125,
+        "review_id": "_Lzb5-JGofXgpqv1-ej9ZA",
+        "position": 117
+      },
+      {
+        "context": "... it's good, and this** food** is overpriced and di...",
+        "active_token": " food",
+        "activation": 0.189208984375,
+        "review_id": "h_rq9soY7dp2rR4LMDfNuQ",
+        "position": 180
+      },
+      {
+        "context": "...m, while eating this** food**, I might of become v...",
+        "active_token": " food",
+        "activation": 0.188720703125,
+        "review_id": "-HgzykXNx8N9hp2CTe03JQ",
+        "position": 179
+      },
+      {
+        "context": "...exican food and this** food** was really reasonabl...",
+        "active_token": " food",
+        "activation": 0.188720703125,
+        "review_id": "548Azw11NYgCZlnOG6mrmQ",
+        "position": 424
+      },
+      {
+        "context": "...o find it at this** restaurant**. The service was ...",
+        "active_token": " restaurant",
+        "activation": 0.1844482421875,
+        "review_id": "INOO3obtz5oyTVA5FJksPA",
+        "position": 31
+      },
+      {
+        "context": "...taco salad. But this** taco** bell is insanely slo...",
+        "active_token": " taco",
+        "activation": 0.18408203125,
+        "review_id": "YFBYIQ19UfTOWbxRJibrAA",
+        "position": 62
+      },
+      {
+        "context": "...te's before and this** taco** joint is the jam. Th...",
+        "active_token": " taco",
+        "activation": 0.1826171875,
+        "review_id": "4Mi_XdXL2HF9c5vPBAQxWA",
+        "position": 30
+      },
+      {
+        "context": "...as game on, and this** taco** didn't disappoint!  ...",
+        "active_token": " taco",
+        "activation": 0.1826171875,
+        "review_id": "0ojNonJCDyaPMbJz8hqXlg",
+        "position": 613
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17108,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 12000000,
+      "corpus_coverage": 0.2321,
+      "activation_range": {
+        "min": 0.1569,
+        "max": 0.1987,
+        "mean": 0.1646
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " This"
+          ],
+          "ngram_str": ". This",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " this",
+            " food"
+          ],
+          "ngram_str": " this food",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " this",
+            " restaurant"
+          ],
+          "ngram_str": " this restaurant",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " in",
+            " this"
+          ],
+          "ngram_str": " in this",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " and",
+            " this"
+          ],
+          "ngram_str": " and this",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ",",
+            " this"
+          ],
+          "ngram_str": ", this",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " to",
+            " this"
+          ],
+          "ngram_str": " to this",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " burrito",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " food",
+            " is"
+          ],
+          "ngram_str": " food is",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " This",
+            " food"
+          ],
+          "ngram_str": " This food",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " but",
+            " this"
+          ],
+          "ngram_str": " but this",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " this",
+            " taco"
+          ],
+          "ngram_str": " this taco",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " This",
+            " food"
+          ],
+          "ngram_str": ". This food",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "This"
+          ],
+          "ngram_str": "\u00c4\u012cThis",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " this",
+            " restaurant",
+            "."
+          ],
+          "ngram_str": " this restaurant.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " this",
+            " food",
+            " was"
+          ],
+          "ngram_str": " this food was",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " this",
+            " food",
+            " truck"
+          ],
+          "ngram_str": " this food truck",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " This",
+            " food",
+            " is"
+          ],
+          "ngram_str": " This food is",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " this"
+          ],
+          "ngram_str": ", but this",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " This",
+            " taco"
+          ],
+          "ngram_str": ". This taco",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " this",
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " this burrito",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " this",
+            " food",
+            " is"
+          ],
+          "ngram_str": " this food is",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "This"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThis",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " This",
+            " food",
+            " is"
+          ],
+          "ngram_str": ". This food is",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " at",
+            " this",
+            " restaurant",
+            "."
+          ],
+          "ngram_str": " at this restaurant.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " THIS",
+            " PL",
+            "ACE",
+            " IS"
+          ],
+          "ngram_str": " THIS PLACE IS",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " but",
+            " this",
+            " food",
+            " was"
+          ],
+          "ngram_str": " but this food was",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " this",
+            " restaurant",
+            ".",
+            " We"
+          ],
+          "ngram_str": " this restaurant. We",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " this",
+            " bur",
+            "rito",
+            " was"
+          ],
+          "ngram_str": " this burrito was",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " this",
+            " restaurant",
+            ".",
+            " "
+          ],
+          "ngram_str": " this restaurant. ",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ".",
+            " This",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": ". This restaurant is",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " at",
+            " this",
+            " food",
+            " truck"
+          ],
+          "ngram_str": " at this food truck",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1300000,
+      "corpus_coverage": 0.0251
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 7134,
+        "percent": 71.34
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5566,
+        "percent": 55.66
+      },
+      {
+        "feature_idx": 12707,
+        "count": 4862,
+        "percent": 48.62
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4239,
+        "percent": 42.39
+      },
+      {
+        "feature_idx": 1966,
+        "count": 3900,
+        "percent": 39.0
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3588,
+        "percent": 35.88
+      },
+      {
+        "feature_idx": 6723,
+        "count": 3580,
+        "percent": 35.8
+      },
+      {
+        "feature_idx": 15232,
+        "count": 3183,
+        "percent": 31.83
+      },
+      {
+        "feature_idx": 17802,
+        "count": 3075,
+        "percent": 30.75
+      },
+      {
+        "feature_idx": 11584,
+        "count": 2827,
+        "percent": 28.27
+      },
+      {
+        "feature_idx": 9265,
+        "count": 2773,
+        "percent": 27.73
+      },
+      {
+        "feature_idx": 2076,
+        "count": 2763,
+        "percent": 27.63
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2676,
+        "percent": 26.76
+      },
+      {
+        "feature_idx": 23895,
+        "count": 2477,
+        "percent": 24.77
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2228,
+        "percent": 22.28
+      },
+      {
+        "feature_idx": 1955,
+        "count": 2170,
+        "percent": 21.7
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2124,
+        "percent": 21.24
+      },
+      {
+        "feature_idx": 20427,
+        "count": 2076,
+        "percent": 20.76
+      },
+      {
+        "feature_idx": 15483,
+        "count": 2046,
+        "percent": 20.46
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1922,
+        "percent": 19.22
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1300000,
+      "corpus_coverage": 0.0251
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3556,
+        "percent": 35.56
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1415,
+        "percent": 14.15
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1181,
+        "percent": 11.81
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1312,
+        "percent": 13.12
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2536,
+        "percent": 25.36
+      }
+    ],
+    "mean_position": 0.4518,
+    "std_position": 0.3471
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 809,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.026,
+      "p25": 0.0409,
+      "p50": 0.0859,
+      "p75": 0.107,
+      "p90": 0.1231,
+      "p95": 0.1337,
+      "p99": 0.146
+    },
+    "skewness": -0.1056,
+    "kurtosis": -1.1678,
+    "min": 0.0083,
+    "max": 0.171,
+    "mean": 0.0777,
+    "std": 0.0372
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 809,
+      "unique_tokens_found": 303
+    },
+    "tokens": [
+      {
+        "token": " place",
+        "count": 240,
+        "mean_activation": 0.1003
+      },
+      {
+        "token": " restaurant",
+        "count": 39,
+        "mean_activation": 0.091
+      },
+      {
+        "token": " location",
+        "count": 27,
+        "mean_activation": 0.1103
+      },
+      {
+        "token": " food",
+        "count": 13,
+        "mean_activation": 0.0735
+      },
+      {
+        "token": " salsa",
+        "count": 9,
+        "mean_activation": 0.0383
+      },
+      {
+        "token": " little",
+        "count": 8,
+        "mean_activation": 0.1003
+      },
+      {
+        "token": ",",
+        "count": 7,
+        "mean_activation": 0.0399
+      },
+      {
+        "token": " gem",
+        "count": 7,
+        "mean_activation": 0.1342
+      },
+      {
+        "token": " truck",
+        "count": 7,
+        "mean_activation": 0.102
+      },
+      {
+        "token": " one",
+        "count": 7,
+        "mean_activation": 0.0808
+      }
+    ]
+  }
+}

@@ -1,0 +1,871 @@
+{
+  "feature_idx": 16512,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 18,
+    "mean_when_active": 0.04853481716579861,
+    "max_activation": 0.2379150390625,
+    "std_when_active": 0.053877274690205944,
+    "activation_rate": 0.00018
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8486,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " onions",
+        "count": 3338,
+        "mean_activation": 0.026433584717235715
+      },
+      {
+        "token": " onion",
+        "count": 2836,
+        "mean_activation": 0.028451397657730682
+      },
+      {
+        "token": " wheel",
+        "count": 238,
+        "mean_activation": 0.2672421751903887
+      },
+      {
+        "token": " wheelchair",
+        "count": 171,
+        "mean_activation": 0.08564553065606725
+      },
+      {
+        "token": " Rock",
+        "count": 110,
+        "mean_activation": 0.02762506658380682
+      },
+      {
+        "token": " hub",
+        "count": 107,
+        "mean_activation": 0.02346794627537237
+      },
+      {
+        "token": " Walking",
+        "count": 82,
+        "mean_activation": 0.022545139964033917
+      },
+      {
+        "token": " wheels",
+        "count": 79,
+        "mean_activation": 0.17616832105419303
+      },
+      {
+        "token": "whe",
+        "count": 68,
+        "mean_activation": 0.0704507266773897
+      },
+      {
+        "token": " Williams",
+        "count": 55,
+        "mean_activation": 0.05501209605823864
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8486,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ls with powerchairs,** wheel**chairs, or walkers. ...",
+        "active_token": " wheel",
+        "activation": 0.348388671875,
+        "review_id": "TRdAb8yXQN0fN-6xNH732w",
+        "position": 124
+      },
+      {
+        "context": "...s paralyzed and in a** wheel** chair, so we don't ...",
+        "active_token": " wheel",
+        "activation": 0.345703125,
+        "review_id": "neMJFLPWd-taUfStHv06XA",
+        "position": 41
+      },
+      {
+        "context": "...to be carried out in** wheel**chairs. We were plea...",
+        "active_token": " wheel",
+        "activation": 0.34375,
+        "review_id": "VzrKZCLDwmpZW-cZNibkYg",
+        "position": 118
+      },
+      {
+        "context": "...to be taken out in a** wheel**barrow, get a slice ...",
+        "active_token": " wheel",
+        "activation": 0.342529296875,
+        "review_id": "K02g3LPWLShytHx8K6qJrw",
+        "position": 171
+      },
+      {
+        "context": "...ros, you will need a** wheel**barrow to roll a ver...",
+        "active_token": " wheel",
+        "activation": 0.34130859375,
+        "review_id": "zNJqWZ4ZJ-F-oBprTsdR3w",
+        "position": 44
+      },
+      {
+        "context": "... a side entrance for** wheel**chairs and plenty of...",
+        "active_token": " wheel",
+        "activation": 0.34130859375,
+        "review_id": "MHz3Ii_jYiu8Vs2N9fxG6g",
+        "position": 52
+      },
+      {
+        "context": "...gurus who have these** wheel**ed carts with all of...",
+        "active_token": " wheel",
+        "activation": 0.337158203125,
+        "review_id": "2E_mXfZhcS6qxxmwa6HaKw",
+        "position": 302
+      },
+      {
+        "context": "... we're getting in my** wheel**house.  The subtle s...",
+        "active_token": " wheel",
+        "activation": 0.33642578125,
+        "review_id": "P8gD01fo-2CvGsnInR__DQ",
+        "position": 188
+      },
+      {
+        "context": "... room to accommodate** wheel**chairs, etc. \\n\\nServi...",
+        "active_token": " wheel",
+        "activation": 0.336181640625,
+        "review_id": "Jye8qK8Lw-dR4XoLKFYWJg",
+        "position": 145
+      },
+      {
+        "context": "...re in was covered in** wheel** covers/hubcaps; the...",
+        "active_token": " wheel",
+        "activation": 0.333984375,
+        "review_id": "KcYK4vEvX-rrVVdF9b-YCQ",
+        "position": 171
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 16512,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0894,
+        "max": 0.3484,
+        "mean": 0.2006
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " wheel"
+          ],
+          "ngram_str": " the wheel",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " a",
+            " wheel"
+          ],
+          "ngram_str": " a wheel",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " wheelchair",
+            " accessible"
+          ],
+          "ngram_str": " wheelchair accessible",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " Lex",
+            "i"
+          ],
+          "ngram_str": " Lexi",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " wheel",
+            "house"
+          ],
+          "ngram_str": " wheelhouse",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " wheel",
+            "."
+          ],
+          "ngram_str": " wheel.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "bar",
+            "row"
+          ],
+          "ngram_str": "barrow",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " wheel",
+            "chairs"
+          ],
+          "ngram_str": " wheelchairs",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " wheel",
+            "bar"
+          ],
+          "ngram_str": " wheelbar",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " wheel",
+            "bar",
+            "row"
+          ],
+          "ngram_str": " wheelbarrow",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " wheel"
+          ],
+          "ngram_str": " in a wheel",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " wheel",
+            " chair"
+          ],
+          "ngram_str": " a wheel chair",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " wheel",
+            "bar"
+          ],
+          "ngram_str": " a wheelbar",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " wheel",
+            "house",
+            "."
+          ],
+          "ngram_str": " wheelhouse.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " wheel",
+            "."
+          ],
+          "ngram_str": " the wheel.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " reinvent",
+            " the",
+            " wheel"
+          ],
+          "ngram_str": " reinvent the wheel",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " Lex",
+            "i"
+          ],
+          "ngram_str": ", Lexi",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " my",
+            " wheel",
+            "house"
+          ],
+          "ngram_str": " my wheelhouse",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " spin",
+            " the",
+            " wheel"
+          ],
+          "ngram_str": " spin the wheel",
+          "count": 7,
+          "percent": 1.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " a",
+            " wheel",
+            "bar",
+            "row"
+          ],
+          "ngram_str": " a wheelbarrow",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " wheel",
+            " chair"
+          ],
+          "ngram_str": " in a wheel chair",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " to",
+            " reinvent",
+            " the",
+            " wheel"
+          ],
+          "ngram_str": " to reinvent the wheel",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " wheel",
+            "bar",
+            "row",
+            " to"
+          ],
+          "ngram_str": " wheelbarrow to",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " my",
+            " wheel",
+            "house",
+            "."
+          ],
+          "ngram_str": " my wheelhouse.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " Lex",
+            "i",
+            ","
+          ],
+          "ngram_str": ", Lexi,",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " in",
+            " my",
+            " wheel",
+            "house"
+          ],
+          "ngram_str": " in my wheelhouse",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " a",
+            " wheel",
+            " chair",
+            " to"
+          ],
+          "ngram_str": " a wheel chair to",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " the",
+            " wheel",
+            ".",
+            " "
+          ],
+          "ngram_str": " the wheel. ",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " asleep",
+            " at",
+            " the",
+            " wheel"
+          ],
+          "ngram_str": " asleep at the wheel",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8486,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 6539,
+        "percent": 77.06
+      },
+      {
+        "feature_idx": 16637,
+        "count": 6186,
+        "percent": 72.9
+      },
+      {
+        "feature_idx": 13447,
+        "count": 6181,
+        "percent": 72.84
+      },
+      {
+        "feature_idx": 18745,
+        "count": 6177,
+        "percent": 72.79
+      },
+      {
+        "feature_idx": 19635,
+        "count": 6176,
+        "percent": 72.78
+      },
+      {
+        "feature_idx": 2343,
+        "count": 6174,
+        "percent": 72.76
+      },
+      {
+        "feature_idx": 8440,
+        "count": 6174,
+        "percent": 72.76
+      },
+      {
+        "feature_idx": 11763,
+        "count": 5009,
+        "percent": 59.03
+      },
+      {
+        "feature_idx": 966,
+        "count": 4831,
+        "percent": 56.93
+      },
+      {
+        "feature_idx": 12700,
+        "count": 4762,
+        "percent": 56.12
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4465,
+        "percent": 52.62
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4203,
+        "percent": 49.53
+      },
+      {
+        "feature_idx": 10617,
+        "count": 3934,
+        "percent": 46.36
+      },
+      {
+        "feature_idx": 9513,
+        "count": 3910,
+        "percent": 46.08
+      },
+      {
+        "feature_idx": 17654,
+        "count": 3839,
+        "percent": 45.24
+      },
+      {
+        "feature_idx": 10019,
+        "count": 3764,
+        "percent": 44.36
+      },
+      {
+        "feature_idx": 22182,
+        "count": 3614,
+        "percent": 42.59
+      },
+      {
+        "feature_idx": 8204,
+        "count": 3576,
+        "percent": 42.14
+      },
+      {
+        "feature_idx": 18503,
+        "count": 3481,
+        "percent": 41.02
+      },
+      {
+        "feature_idx": 1890,
+        "count": 3425,
+        "percent": 40.36
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8486,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 970,
+        "percent": 11.43
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1839,
+        "percent": 21.67
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2486,
+        "percent": 29.3
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2156,
+        "percent": 25.41
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1035,
+        "percent": 12.2
+      }
+    ],
+    "mean_position": 0.5101,
+    "std_position": 0.2346
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 18,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.02,
+      "p25": 0.0213,
+      "p50": 0.0283,
+      "p75": 0.0389,
+      "p90": 0.0905,
+      "p95": 0.1541,
+      "p99": 0.2211
+    },
+    "skewness": 2.6135,
+    "kurtosis": 5.9632,
+    "min": 0.0173,
+    "max": 0.2379,
+    "mean": 0.0485,
+    "std": 0.0539
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 18,
+      "unique_tokens_found": 9
+    },
+    "tokens": [
+      {
+        "token": " onions",
+        "count": 6,
+        "mean_activation": 0.0242
+      },
+      {
+        "token": " onion",
+        "count": 4,
+        "mean_activation": 0.0297
+      },
+      {
+        "token": " Williams",
+        "count": 2,
+        "mean_activation": 0.0648
+      },
+      {
+        "token": " Walking",
+        "count": 1,
+        "mean_activation": 0.0209
+      },
+      {
+        "token": " Hand",
+        "count": 1,
+        "mean_activation": 0.0203
+      },
+      {
+        "token": " Weight",
+        "count": 1,
+        "mean_activation": 0.0323
+      },
+      {
+        "token": " wheel",
+        "count": 1,
+        "mean_activation": 0.2379
+      },
+      {
+        "token": " hub",
+        "count": 1,
+        "mean_activation": 0.0289
+      },
+      {
+        "token": " wheels",
+        "count": 1,
+        "mean_activation": 0.1393
+      }
+    ]
+  }
+}

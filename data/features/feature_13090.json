@@ -1,0 +1,836 @@
+{
+  "feature_idx": 13090,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 4,
+    "mean_when_active": 0.08879470825195312,
+    "max_activation": 0.28759765625,
+    "std_when_active": 0.11479045911928545,
+    "activation_rate": 4e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 4926,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 3144,
+        "mean_activation": 0.09740748417589803
+      },
+      {
+        "token": " of",
+        "count": 202,
+        "mean_activation": 0.048610876102258664
+      },
+      {
+        "token": " in",
+        "count": 175,
+        "mean_activation": 0.04869611467633929
+      },
+      {
+        "token": " me",
+        "count": 162,
+        "mean_activation": 0.05885286684389467
+      },
+      {
+        "token": " from",
+        "count": 125,
+        "mean_activation": 0.0501961669921875
+      },
+      {
+        "token": " do",
+        "count": 120,
+        "mean_activation": 0.039808400472005206
+      },
+      {
+        "token": " on",
+        "count": 75,
+        "mean_activation": 0.0493951416015625
+      },
+      {
+        "token": " at",
+        "count": 57,
+        "mean_activation": 0.07111827114172149
+      },
+      {
+        "token": " failed",
+        "count": 50,
+        "mean_activation": 0.03127349853515625
+      },
+      {
+        "token": " the",
+        "count": 46,
+        "mean_activation": 0.035234202509341034
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 4926,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...d oh yeah did we fail** to** mention if you want c...",
+        "active_token": " to",
+        "activation": 0.346435546875,
+        "review_id": "n181DC2d_ghhIHgKxXFrkg",
+        "position": 22
+      },
+      {
+        "context": "...verything!!! I failed** to** get pictures but it w...",
+        "active_token": " to",
+        "activation": 0.33203125,
+        "review_id": "gKSZ5CCW60TVHKzjwCB2dQ",
+        "position": 328
+      },
+      {
+        "context": "...e, but she had failed** to** mention that all the ...",
+        "active_token": " to",
+        "activation": 0.329833984375,
+        "review_id": "SV7FTDcFdTOatrtMdoMeCQ",
+        "position": 200
+      },
+      {
+        "context": "... girls. \\nFirst I fail** to** understand after year...",
+        "active_token": " to",
+        "activation": 0.329345703125,
+        "review_id": "IuIMl2dwMMIxCW075jqmlw",
+        "position": 181
+      },
+      {
+        "context": "...\\nMind you they failed** to** inform us of this unt...",
+        "active_token": " to",
+        "activation": 0.325927734375,
+        "review_id": "e7plpXlvD-EAy1ct-beoiA",
+        "position": 40
+      },
+      {
+        "context": "...r!!! Yup. They failed** to** renew and can't serve...",
+        "active_token": " to",
+        "activation": 0.32373046875,
+        "review_id": "xqT1NeHfikENRw87XOcJ9w",
+        "position": 120
+      },
+      {
+        "context": "...nd you utterly failed** to** train your staff more...",
+        "active_token": " to",
+        "activation": 0.32373046875,
+        "review_id": "SIXUXq1SRSREh7GWklgaOg",
+        "position": 314
+      },
+      {
+        "context": "...his restaurant failed** to** provide a good burrit...",
+        "active_token": " to",
+        "activation": 0.322998046875,
+        "review_id": "SXtm2gbbWLLkF8eUkQknkw",
+        "position": 45
+      },
+      {
+        "context": "...owever what he failed** to** mention was that it w...",
+        "active_token": " to",
+        "activation": 0.321533203125,
+        "review_id": "W4DFuKlL635xUUImZXDydA",
+        "position": 236
+      },
+      {
+        "context": "... to the gym, I failed** to** \"not drink.\" At lunch...",
+        "active_token": " to",
+        "activation": 0.321533203125,
+        "review_id": "MD4QWUPIDvyU9nHzRoDgSw",
+        "position": 102
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13090,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2529,
+        "max": 0.3464,
+        "mean": 0.2818
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " failed",
+            " to"
+          ],
+          "ngram_str": " failed to",
+          "count": 347,
+          "percent": 69.4
+        },
+        {
+          "ngram": [
+            " fail",
+            " to"
+          ],
+          "ngram_str": " fail to",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " fails",
+            " to"
+          ],
+          "ngram_str": " fails to",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " they",
+            " failed"
+          ],
+          "ngram_str": " they failed",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " to",
+            " mention"
+          ],
+          "ngram_str": " to mention",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " I",
+            " failed"
+          ],
+          "ngram_str": " I failed",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " to",
+            " deliver"
+          ],
+          "ngram_str": " to deliver",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " but",
+            " failed"
+          ],
+          "ngram_str": " but failed",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " and",
+            " they"
+          ],
+          "ngram_str": " and they",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " to",
+            " tell"
+          ],
+          "ngram_str": " to tell",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " she",
+            " failed"
+          ],
+          "ngram_str": " she failed",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " they",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " they failed to",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " I",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " I failed to",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " mention"
+          ],
+          "ngram_str": " failed to mention",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " but",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " but failed to",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " she",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " she failed to",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " tell"
+          ],
+          "ngram_str": " failed to tell",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " deliver"
+          ],
+          "ngram_str": " failed to deliver",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " never",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " never failed to",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " and",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " and failed to",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " to",
+            " mention",
+            " that"
+          ],
+          "ngram_str": " to mention that",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " to",
+            " deliver",
+            "."
+          ],
+          "ngram_str": " to deliver.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " give"
+          ],
+          "ngram_str": " failed to give",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " bring"
+          ],
+          "ngram_str": " failed to bring",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " server",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " server failed to",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " mention",
+            " that"
+          ],
+          "ngram_str": " failed to mention that",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " did",
+            " not",
+            " fail",
+            " to"
+          ],
+          "ngram_str": " did not fail to",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " failed",
+            " to"
+          ],
+          "ngram_str": ", but failed to",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " to",
+            " live",
+            " up",
+            " to"
+          ],
+          "ngram_str": " to live up to",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " They",
+            " failed",
+            " to"
+          ],
+          "ngram_str": ". They failed to",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " tell",
+            " us"
+          ],
+          "ngram_str": " failed to tell us",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " failed",
+            " to"
+          ],
+          "ngram_str": ", I failed to",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " give",
+            " me"
+          ],
+          "ngram_str": " failed to give me",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " but",
+            " they",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " but they failed to",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " I",
+            " failed",
+            " to",
+            " mention"
+          ],
+          "ngram_str": " I failed to mention",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " and",
+            " they",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " and they failed to",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " impress",
+            "."
+          ],
+          "ngram_str": " failed to impress.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " has",
+            " never",
+            " failed",
+            " to"
+          ],
+          "ngram_str": " has never failed to",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " failed",
+            " to",
+            " inform",
+            " us"
+          ],
+          "ngram_str": " failed to inform us",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4926,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11738,
+        "count": 3314,
+        "percent": 67.28
+      },
+      {
+        "feature_idx": 16339,
+        "count": 3172,
+        "percent": 64.39
+      },
+      {
+        "feature_idx": 10548,
+        "count": 2852,
+        "percent": 57.9
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2739,
+        "percent": 55.6
+      },
+      {
+        "feature_idx": 12609,
+        "count": 2415,
+        "percent": 49.03
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2312,
+        "percent": 46.93
+      },
+      {
+        "feature_idx": 10886,
+        "count": 2300,
+        "percent": 46.69
+      },
+      {
+        "feature_idx": 16753,
+        "count": 2128,
+        "percent": 43.2
+      },
+      {
+        "feature_idx": 17751,
+        "count": 1798,
+        "percent": 36.5
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1716,
+        "percent": 34.84
+      },
+      {
+        "feature_idx": 20375,
+        "count": 1455,
+        "percent": 29.54
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1449,
+        "percent": 29.42
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1377,
+        "percent": 27.95
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1299,
+        "percent": 26.37
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1181,
+        "percent": 23.97
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1177,
+        "percent": 23.89
+      },
+      {
+        "feature_idx": 17842,
+        "count": 1175,
+        "percent": 23.85
+      },
+      {
+        "feature_idx": 6564,
+        "count": 1157,
+        "percent": 23.49
+      },
+      {
+        "feature_idx": 17210,
+        "count": 1136,
+        "percent": 23.06
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1065,
+        "percent": 21.62
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4926,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 987,
+        "percent": 20.04
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 956,
+        "percent": 19.41
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1015,
+        "percent": 20.6
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1007,
+        "percent": 20.44
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 961,
+        "percent": 19.51
+      }
+    ],
+    "mean_position": 0.4997,
+    "std_position": 0.2863
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 4,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.021,
+      "p25": 0.0216,
+      "p50": 0.0235,
+      "p75": 0.0907,
+      "p90": 0.2088,
+      "p95": 0.2482,
+      "p99": 0.2797
+    },
+    "skewness": 1.154,
+    "kurtosis": -0.6672,
+    "min": 0.0206,
+    "max": 0.2876,
+    "mean": 0.0888,
+    "std": 0.1148
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 4,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 3,
+        "mean_activation": 0.1115
+      },
+      {
+        "token": " and",
+        "count": 1,
+        "mean_activation": 0.0206
+      }
+    ]
+  }
+}

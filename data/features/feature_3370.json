@@ -1,0 +1,856 @@
+{
+  "feature_idx": 3370,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 35,
+    "mean_when_active": 0.09591347830636161,
+    "max_activation": 0.2227783203125,
+    "std_when_active": 0.06446021857606064,
+    "activation_rate": 0.00035
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 19707,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " car",
+        "count": 13394,
+        "mean_activation": 0.10801788712857961
+      },
+      {
+        "token": " Car",
+        "count": 2084,
+        "mean_activation": 0.040569913135609106
+      },
+      {
+        "token": " cars",
+        "count": 1193,
+        "mean_activation": 0.13943591441612532
+      },
+      {
+        "token": " Spanish",
+        "count": 1040,
+        "mean_activation": 0.028792865459735577
+      },
+      {
+        "token": " truck",
+        "count": 188,
+        "mean_activation": 0.03278411702906832
+      },
+      {
+        "token": "car",
+        "count": 167,
+        "mean_activation": 0.062447096773250374
+      },
+      {
+        "token": " vehicle",
+        "count": 155,
+        "mean_activation": 0.0960081038936492
+      },
+      {
+        "token": " phone",
+        "count": 115,
+        "mean_activation": 0.02505804974099864
+      },
+      {
+        "token": "Car",
+        "count": 74,
+        "mean_activation": 0.036070643244562925
+      },
+      {
+        "token": " vehicles",
+        "count": 71,
+        "mean_activation": 0.08340325154049295
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 19707,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...as walking back to my** car**.  Couldn't resist al...",
+        "active_token": " car",
+        "activation": 0.256103515625,
+        "review_id": "CetSaBrkThPbABtmfeyAGw",
+        "position": 57
+      },
+      {
+        "context": "...when I returned to my** car** 15 minutes later to ...",
+        "active_token": " car",
+        "activation": 0.255126953125,
+        "review_id": "cOKFxv7zE8d5XKF9U9xZRw",
+        "position": 54
+      },
+      {
+        "context": "...n I walked back to my** car**, my car had a boot o...",
+        "active_token": " car",
+        "activation": 0.2491455078125,
+        "review_id": "L8DDbIPeq78fnaaILqkdNQ",
+        "position": 60
+      },
+      {
+        "context": "... on my way back to my** car** I decide to leave my...",
+        "active_token": " car",
+        "activation": 0.2467041015625,
+        "review_id": "naT6XnWbqrQhlCkPxUfxzg",
+        "position": 207
+      },
+      {
+        "context": "... when I got out to my** car** and all my food was ...",
+        "active_token": " car",
+        "activation": 0.2454833984375,
+        "review_id": "Buct00ZHbLVRj1Kawgr0uA",
+        "position": 43
+      },
+      {
+        "context": "...re heading back to my** car**, I drew attention to...",
+        "active_token": " car",
+        "activation": 0.2452392578125,
+        "review_id": "ZZ3Wus9QspMDFytZOquR1g",
+        "position": 47
+      },
+      {
+        "context": "... and on the way to my** car** there were several f...",
+        "active_token": " car",
+        "activation": 0.2447509765625,
+        "review_id": "Fmb3umtpQr5QgMdGD5ClZQ",
+        "position": 54
+      },
+      {
+        "context": "...e walking back to our** car** towards Shephards we...",
+        "active_token": " car",
+        "activation": 0.2445068359375,
+        "review_id": "xKblsM8BRhcFlmsFu1PZBw",
+        "position": 41
+      },
+      {
+        "context": "...e walking back to our** car**, we passed Wild Eggs...",
+        "active_token": " car",
+        "activation": 0.243896484375,
+        "review_id": "8mNMCcyvFkzl24TqZPMscA",
+        "position": 377
+      },
+      {
+        "context": "...6:20 and waited in my** car** for twenty minutes p...",
+        "active_token": " car",
+        "activation": 0.243408203125,
+        "review_id": "Zsn-NkvTTKo_S5x5Cw8r0Q",
+        "position": 35
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3370,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.214,
+        "max": 0.2561,
+        "mean": 0.2236
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " my",
+            " car"
+          ],
+          "ngram_str": " my car",
+          "count": 265,
+          "percent": 53.0
+        },
+        {
+          "ngram": [
+            " in",
+            " my"
+          ],
+          "ngram_str": " in my",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            " to",
+            " my"
+          ],
+          "ngram_str": " to my",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            " car",
+            " and"
+          ],
+          "ngram_str": " car and",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " your",
+            " car"
+          ],
+          "ngram_str": " your car",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " car",
+            "."
+          ],
+          "ngram_str": " car.",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " our",
+            " car"
+          ],
+          "ngram_str": " our car",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " back",
+            " to"
+          ],
+          "ngram_str": " back to",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " car",
+            ","
+          ],
+          "ngram_str": " car,",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " in",
+            " your"
+          ],
+          "ngram_str": " in your",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " out",
+            " to"
+          ],
+          "ngram_str": " out to",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " to",
+            " our"
+          ],
+          "ngram_str": " to our",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " the",
+            " car"
+          ],
+          "ngram_str": " the car",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            " my",
+            " car"
+          ],
+          "ngram_str": " in my car",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " car"
+          ],
+          "ngram_str": " to my car",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            " my",
+            " car",
+            " and"
+          ],
+          "ngram_str": " my car and",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " in",
+            " your",
+            " car"
+          ],
+          "ngram_str": " in your car",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " my",
+            " car",
+            "."
+          ],
+          "ngram_str": " my car.",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " to",
+            " our",
+            " car"
+          ],
+          "ngram_str": " to our car",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " back",
+            " to",
+            " my"
+          ],
+          "ngram_str": " back to my",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " my",
+            " car",
+            ","
+          ],
+          "ngram_str": " my car,",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " your",
+            " car",
+            "."
+          ],
+          "ngram_str": " your car.",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " to",
+            " your",
+            " car"
+          ],
+          "ngram_str": " to your car",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " out",
+            " to",
+            " my"
+          ],
+          "ngram_str": " out to my",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " my",
+            " car",
+            " to"
+          ],
+          "ngram_str": " my car to",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " car"
+          ],
+          "ngram_str": " in the car",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " in",
+            " our",
+            " car"
+          ],
+          "ngram_str": " in our car",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " back",
+            " to",
+            " my",
+            " car"
+          ],
+          "ngram_str": " back to my car",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " car",
+            " and"
+          ],
+          "ngram_str": " to my car and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " in",
+            " my",
+            " car",
+            " and"
+          ],
+          "ngram_str": " in my car and",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " out",
+            " to",
+            " my",
+            " car"
+          ],
+          "ngram_str": " out to my car",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " car",
+            "."
+          ],
+          "ngram_str": " to my car.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " in",
+            " my",
+            " car",
+            "."
+          ],
+          "ngram_str": " in my car.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " back",
+            " to",
+            " our",
+            " car"
+          ],
+          "ngram_str": " back to our car",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " car",
+            " to"
+          ],
+          "ngram_str": " to my car to",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " in",
+            " my",
+            " car",
+            ","
+          ],
+          "ngram_str": " in my car,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " in",
+            " your",
+            " car",
+            "."
+          ],
+          "ngram_str": " in your car.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " back",
+            " in",
+            " my",
+            " car"
+          ],
+          "ngram_str": " back in my car",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " to",
+            " your",
+            " car",
+            "."
+          ],
+          "ngram_str": " to your car.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " eat",
+            " in",
+            " your",
+            " car"
+          ],
+          "ngram_str": " eat in your car",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " car",
+            ","
+          ],
+          "ngram_str": " to my car,",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25700000,
+      "corpus_coverage": 0.4971
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22858,
+        "count": 9141,
+        "percent": 91.41
+      },
+      {
+        "feature_idx": 19178,
+        "count": 8744,
+        "percent": 87.44
+      },
+      {
+        "feature_idx": 4896,
+        "count": 8663,
+        "percent": 86.63
+      },
+      {
+        "feature_idx": 1081,
+        "count": 8535,
+        "percent": 85.35
+      },
+      {
+        "feature_idx": 23899,
+        "count": 8190,
+        "percent": 81.9
+      },
+      {
+        "feature_idx": 9884,
+        "count": 6453,
+        "percent": 64.53
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6116,
+        "percent": 61.16
+      },
+      {
+        "feature_idx": 10985,
+        "count": 6047,
+        "percent": 60.47
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4549,
+        "percent": 45.49
+      },
+      {
+        "feature_idx": 15607,
+        "count": 4420,
+        "percent": 44.2
+      },
+      {
+        "feature_idx": 768,
+        "count": 4056,
+        "percent": 40.56
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3863,
+        "percent": 38.63
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3553,
+        "percent": 35.53
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2925,
+        "percent": 29.25
+      },
+      {
+        "feature_idx": 13420,
+        "count": 2870,
+        "percent": 28.7
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2621,
+        "percent": 26.21
+      },
+      {
+        "feature_idx": 11527,
+        "count": 2511,
+        "percent": 25.11
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2262,
+        "percent": 22.62
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2225,
+        "percent": 22.25
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2137,
+        "percent": 21.37
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25700000,
+      "corpus_coverage": 0.4971
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2193,
+        "percent": 21.93
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2557,
+        "percent": 25.57
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2333,
+        "percent": 23.33
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1708,
+        "percent": 17.08
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1209,
+        "percent": 12.09
+      }
+    ],
+    "mean_position": 0.4415,
+    "std_position": 0.2639
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 35,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0198,
+      "p25": 0.0293,
+      "p50": 0.0821,
+      "p75": 0.1499,
+      "p90": 0.1787,
+      "p95": 0.2095,
+      "p99": 0.2186
+    },
+    "skewness": 0.3484,
+    "kurtosis": -1.1725,
+    "min": 0.0151,
+    "max": 0.2228,
+    "mean": 0.0959,
+    "std": 0.0645
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 35,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " car",
+        "count": 24,
+        "mean_activation": 0.1203
+      },
+      {
+        "token": " Car",
+        "count": 6,
+        "mean_activation": 0.0367
+      },
+      {
+        "token": " Spanish",
+        "count": 2,
+        "mean_activation": 0.0253
+      },
+      {
+        "token": " truck",
+        "count": 1,
+        "mean_activation": 0.0273
+      },
+      {
+        "token": " and",
+        "count": 1,
+        "mean_activation": 0.0235
+      },
+      {
+        "token": " cars",
+        "count": 1,
+        "mean_activation": 0.1479
+      }
+    ]
+  }
+}

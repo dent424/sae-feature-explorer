@@ -1,0 +1,841 @@
+{
+  "feature_idx": 6998,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 36,
+    "mean_when_active": 0.04939905802408854,
+    "max_activation": 0.10076904296875,
+    "std_when_active": 0.022853278034736916,
+    "activation_rate": 0.00036
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 22661,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 20544,
+        "mean_activation": 0.056121311640813715
+      },
+      {
+        "token": " a",
+        "count": 453,
+        "mean_activation": 0.05927338926471096
+      },
+      {
+        "token": " my",
+        "count": 316,
+        "mean_activation": 0.04214646544637559
+      },
+      {
+        "token": " that",
+        "count": 151,
+        "mean_activation": 0.05761405490092095
+      },
+      {
+        "token": " our",
+        "count": 124,
+        "mean_activation": 0.03847737466135333
+      },
+      {
+        "token": " this",
+        "count": 102,
+        "mean_activation": 0.03528580011106005
+      },
+      {
+        "token": " an",
+        "count": 100,
+        "mean_activation": 0.06872772216796875
+      },
+      {
+        "token": " their",
+        "count": 92,
+        "mean_activation": 0.04481323905613111
+      },
+      {
+        "token": " mark",
+        "count": 65,
+        "mean_activation": 0.0316680908203125
+      },
+      {
+        "token": " your",
+        "count": 55,
+        "mean_activation": 0.044637229225852275
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 22661,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...an restaurant missing** the** first three things I...",
+        "active_token": " the",
+        "activation": 0.2900390625,
+        "review_id": "8fp800J7nBUMTziE_FZhyg",
+        "position": 143
+      },
+      {
+        "context": "...le. Seriously missing** the** old Chipotle managem...",
+        "active_token": " the",
+        "activation": 0.285400390625,
+        "review_id": "MpGXls_H6hIsJCu0-fSGqg",
+        "position": 41
+      },
+      {
+        "context": "...potle for not missing** the** point and in effect,...",
+        "active_token": " the",
+        "activation": 0.283935546875,
+        "review_id": "Gq8jqiWoUtV1sPCEQjq9FA",
+        "position": 110
+      },
+      {
+        "context": "...staurants are missing** the** point.  You will not...",
+        "active_token": " the",
+        "activation": 0.28271484375,
+        "review_id": "jpTxOwhQxw6wJSKLs7FW5g",
+        "position": 95
+      },
+      {
+        "context": "... we have been missing** the** \"boat\" in this beach...",
+        "active_token": " the",
+        "activation": 0.275634765625,
+        "review_id": "b56xqnBpwFO_i8_uoKyy7g",
+        "position": 33
+      },
+      {
+        "context": "...aces, this one missed** the** mark. To top it off,...",
+        "active_token": " the",
+        "activation": 0.27490234375,
+        "review_id": "Sp6uk6WRH1hnqTSb5NSYbw",
+        "position": 114
+      },
+      {
+        "context": "..., but this one missed** the** mark.   It tasted li...",
+        "active_token": " the",
+        "activation": 0.27392578125,
+        "review_id": "hsMnq3zLX9sYrAIasnyZsA",
+        "position": 73
+      },
+      {
+        "context": "...nough and was missing** the** vibe (at lunch perha...",
+        "active_token": " the",
+        "activation": 0.27197265625,
+        "review_id": "0VGwy_YmAJDwx3IXOK1g0A",
+        "position": 28
+      },
+      {
+        "context": "... in my opinion missed** the** mark. The carnitas w...",
+        "active_token": " the",
+        "activation": 0.26904296875,
+        "review_id": "kSdf5eG-SqO3rMiEKms3ag",
+        "position": 313
+      },
+      {
+        "context": "...ash salad was missing** the** squash -- seems they...",
+        "active_token": " the",
+        "activation": 0.268310546875,
+        "review_id": "NPVgdDuTdQwnym0FuVpr3g",
+        "position": 551
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6998,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2068,
+        "max": 0.29,
+        "mean": 0.2308
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " missing",
+            " the"
+          ],
+          "ngram_str": " missing the",
+          "count": 254,
+          "percent": 50.8
+        },
+        {
+          "ngram": [
+            " missed",
+            " the"
+          ],
+          "ngram_str": " missed the",
+          "count": 184,
+          "percent": 36.8
+        },
+        {
+          "ngram": [
+            " the",
+            " mark"
+          ],
+          "ngram_str": " the mark",
+          "count": 184,
+          "percent": 36.8
+        },
+        {
+          "ngram": [
+            " was",
+            " missing"
+          ],
+          "ngram_str": " was missing",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " mark",
+            "."
+          ],
+          "ngram_str": " mark.",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " misses",
+            " the"
+          ],
+          "ngram_str": " misses the",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " mark",
+            " on"
+          ],
+          "ngram_str": " mark on",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " miss",
+            " the"
+          ],
+          "ngram_str": " miss the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " missed",
+            " the",
+            " mark"
+          ],
+          "ngram_str": " missed the mark",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " was",
+            " missing",
+            " the"
+          ],
+          "ngram_str": " was missing the",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " the",
+            " mark",
+            "."
+          ],
+          "ngram_str": " the mark.",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " misses",
+            " the",
+            " mark"
+          ],
+          "ngram_str": " misses the mark",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " missing"
+          ],
+          "ngram_str": " it was missing",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " the",
+            " mark",
+            " on"
+          ],
+          "ngram_str": " the mark on",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " the",
+            " mark",
+            " for"
+          ],
+          "ngram_str": " the mark for",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " were",
+            " missing",
+            " the"
+          ],
+          "ngram_str": " were missing the",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " just",
+            " missed",
+            " the"
+          ],
+          "ngram_str": " just missed the",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " miss",
+            " the",
+            " mark"
+          ],
+          "ngram_str": " miss the mark",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " they",
+            " missed",
+            " the"
+          ],
+          "ngram_str": " they missed the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " mark",
+            " for",
+            " me"
+          ],
+          "ngram_str": " mark for me",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " and",
+            " missing",
+            " the"
+          ],
+          "ngram_str": " and missing the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " really",
+            " missed",
+            " the"
+          ],
+          "ngram_str": " really missed the",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " missed",
+            " the",
+            " mark",
+            "."
+          ],
+          "ngram_str": " missed the mark.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " missing",
+            " the"
+          ],
+          "ngram_str": " it was missing the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " missed",
+            " the",
+            " mark",
+            " on"
+          ],
+          "ngram_str": " missed the mark on",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " just",
+            " missed",
+            " the",
+            " mark"
+          ],
+          "ngram_str": " just missed the mark",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " missed",
+            " the",
+            " mark",
+            " for"
+          ],
+          "ngram_str": " missed the mark for",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " mark",
+            " for",
+            " me"
+          ],
+          "ngram_str": " the mark for me",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " mark",
+            " for",
+            " me",
+            "."
+          ],
+          "ngram_str": " mark for me.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " the",
+            " mark",
+            ".",
+            " "
+          ],
+          "ngram_str": " the mark. ",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " it",
+            " missed",
+            " the",
+            " mark"
+          ],
+          "ngram_str": " it missed the mark",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " really",
+            " missed",
+            " the",
+            " mark"
+          ],
+          "ngram_str": " really missed the mark",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " miss",
+            " the",
+            " mark",
+            "."
+          ],
+          "ngram_str": " miss the mark.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23000000,
+      "corpus_coverage": 0.4448
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10638,
+        "count": 9136,
+        "percent": 91.36
+      },
+      {
+        "feature_idx": 22187,
+        "count": 9116,
+        "percent": 91.16
+      },
+      {
+        "feature_idx": 3411,
+        "count": 5090,
+        "percent": 50.9
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4921,
+        "percent": 49.21
+      },
+      {
+        "feature_idx": 11738,
+        "count": 4020,
+        "percent": 40.2
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3820,
+        "percent": 38.2
+      },
+      {
+        "feature_idx": 4932,
+        "count": 3754,
+        "percent": 37.54
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3671,
+        "percent": 36.71
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3538,
+        "percent": 35.38
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3496,
+        "percent": 34.96
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3038,
+        "percent": 30.38
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2824,
+        "percent": 28.24
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2809,
+        "percent": 28.09
+      },
+      {
+        "feature_idx": 1823,
+        "count": 2465,
+        "percent": 24.65
+      },
+      {
+        "feature_idx": 4585,
+        "count": 2451,
+        "percent": 24.51
+      },
+      {
+        "feature_idx": 618,
+        "count": 2439,
+        "percent": 24.39
+      },
+      {
+        "feature_idx": 5819,
+        "count": 2333,
+        "percent": 23.33
+      },
+      {
+        "feature_idx": 7567,
+        "count": 2309,
+        "percent": 23.09
+      },
+      {
+        "feature_idx": 4066,
+        "count": 2302,
+        "percent": 23.02
+      },
+      {
+        "feature_idx": 5837,
+        "count": 2176,
+        "percent": 21.76
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23000000,
+      "corpus_coverage": 0.4448
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1519,
+        "percent": 15.19
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1781,
+        "percent": 17.81
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2061,
+        "percent": 20.61
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2250,
+        "percent": 22.5
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2389,
+        "percent": 23.89
+      }
+    ],
+    "mean_position": 0.5456,
+    "std_position": 0.2817
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 36,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.028,
+      "p25": 0.0294,
+      "p50": 0.0452,
+      "p75": 0.0661,
+      "p90": 0.0851,
+      "p95": 0.0875,
+      "p99": 0.0963
+    },
+    "skewness": 0.637,
+    "kurtosis": -0.8298,
+    "min": 0.0184,
+    "max": 0.1008,
+    "mean": 0.0494,
+    "std": 0.0229
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 36,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 34,
+        "mean_activation": 0.0504
+      },
+      {
+        "token": " miss",
+        "count": 1,
+        "mean_activation": 0.0281
+      },
+      {
+        "token": " that",
+        "count": 1,
+        "mean_activation": 0.0376
+      }
+    ]
+  }
+}

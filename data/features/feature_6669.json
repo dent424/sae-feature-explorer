@@ -1,0 +1,866 @@
+{
+  "feature_idx": 6669,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 33,
+    "mean_when_active": 0.0677957245797822,
+    "max_activation": 0.2384033203125,
+    "std_when_active": 0.060495534734017004,
+    "activation_rate": 0.00033
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 21224,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " table",
+        "count": 8116,
+        "mean_activation": 0.04408042685864535
+      },
+      {
+        "token": " seat",
+        "count": 5239,
+        "mean_activation": 0.12681713566613528
+      },
+      {
+        "token": " plate",
+        "count": 1650,
+        "mean_activation": 0.03700499101118608
+      },
+      {
+        "token": " sit",
+        "count": 574,
+        "mean_activation": 0.02908420230453438
+      },
+      {
+        "token": " seats",
+        "count": 456,
+        "mean_activation": 0.04683942962111088
+      },
+      {
+        "token": " reservation",
+        "count": 454,
+        "mean_activation": 0.025271865239752545
+      },
+      {
+        "token": " parking",
+        "count": 408,
+        "mean_activation": 0.03253790911506204
+      },
+      {
+        "token": " spot",
+        "count": 386,
+        "mean_activation": 0.04751104641454825
+      },
+      {
+        "token": " job",
+        "count": 322,
+        "mean_activation": 0.04597368891935171
+      },
+      {
+        "token": " booth",
+        "count": 307,
+        "mean_activation": 0.04012263791957197
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 21224,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "..., goodluck getting a** seat** if your not there be...",
+        "active_token": " seat",
+        "activation": 0.29296875,
+        "review_id": "LJhJkr1h5xI-UWIdLSaD4g",
+        "position": 73
+      },
+      {
+        "context": "... good luck getting a** seat**. Brisket and brunch ...",
+        "active_token": " seat",
+        "activation": 0.284423828125,
+        "review_id": "uNe0LtRrcmh0-dhdLiYr-Q",
+        "position": 32
+      },
+      {
+        "context": "...have a wait to get a** seat** (but not a drink :) ...",
+        "active_token": " seat",
+        "activation": 0.283447265625,
+        "review_id": "okwJySyDcr3ZD3TwMv_3gg",
+        "position": 473
+      },
+      {
+        "context": "Try to get a** seat** on the gorgeous terr...",
+        "active_token": " seat",
+        "activation": 0.28173828125,
+        "review_id": "VMFWgxXkUlM-8mC2Hbg31Q",
+        "position": 4
+      },
+      {
+        "context": "...o locals can't get a** seat** anymore, but again- ...",
+        "active_token": " seat",
+        "activation": 0.28125,
+        "review_id": "g7c0nkfUXHeVSFxgBJhoww",
+        "position": 264
+      },
+      {
+        "context": "... have to do to get a** seat** at the bar on a semi...",
+        "active_token": " seat",
+        "activation": 0.281005859375,
+        "review_id": "fc0P0iNLXu7ur-ON_1jcFg",
+        "position": 38
+      },
+      {
+        "context": "...no trouble getting a** seat**!",
+        "active_token": " seat",
+        "activation": 0.27978515625,
+        "review_id": "a0-ucuXIlrBZot2zNIFLVQ",
+        "position": 160
+      },
+      {
+        "context": "...ake to long to get a** seat**, but I hear there ca...",
+        "active_token": " seat",
+        "activation": 0.279296875,
+        "review_id": "m7JPs2GHVNOnddjAZWCcvg",
+        "position": 68
+      },
+      {
+        "context": "...'t ever get to get a** seat** and ended up leaving...",
+        "active_token": " seat",
+        "activation": 0.27880859375,
+        "review_id": "-mCFCprxv6KnQCSeak5s9g",
+        "position": 18
+      },
+      {
+        "context": "... chance of getting a** seat**.",
+        "active_token": " seat",
+        "activation": 0.278564453125,
+        "review_id": "2e7q2vxOhoMaueHrvmB0mQ",
+        "position": 57
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6669,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2351,
+        "max": 0.293,
+        "mean": 0.2516
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " seat"
+          ],
+          "ngram_str": " a seat",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            " get",
+            " a"
+          ],
+          "ngram_str": " get a",
+          "count": 243,
+          "percent": 48.6
+        },
+        {
+          "ngram": [
+            " to",
+            " get"
+          ],
+          "ngram_str": " to get",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            " seat",
+            "."
+          ],
+          "ngram_str": " seat.",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " seat",
+            " at"
+          ],
+          "ngram_str": " seat at",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " the",
+            " bar"
+          ],
+          "ngram_str": " the bar",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " grab",
+            " a"
+          ],
+          "ngram_str": " grab a",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " have",
+            " a"
+          ],
+          "ngram_str": " have a",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " able",
+            " to"
+          ],
+          "ngram_str": " able to",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " getting",
+            " a"
+          ],
+          "ngram_str": " getting a",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " seat",
+            " and"
+          ],
+          "ngram_str": " seat and",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " get",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " get a seat",
+          "count": 242,
+          "percent": 48.4
+        },
+        {
+          "ngram": [
+            " to",
+            " get",
+            " a"
+          ],
+          "ngram_str": " to get a",
+          "count": 155,
+          "percent": 31.0
+        },
+        {
+          "ngram": [
+            " a",
+            " seat",
+            "."
+          ],
+          "ngram_str": " a seat.",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " a",
+            " seat",
+            " at"
+          ],
+          "ngram_str": " a seat at",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " seat",
+            " at",
+            " the"
+          ],
+          "ngram_str": " seat at the",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " at the bar",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " grab",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " grab a seat",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " have",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " have a seat",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " getting",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " getting a seat",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " a",
+            " seat",
+            " and"
+          ],
+          "ngram_str": " a seat and",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " able",
+            " to",
+            " get"
+          ],
+          "ngram_str": " able to get",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " a",
+            " seat",
+            ","
+          ],
+          "ngram_str": " a seat,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " for a seat",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " a",
+            " seat",
+            " outside"
+          ],
+          "ngram_str": " a seat outside",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " seat",
+            ".",
+            " "
+          ],
+          "ngram_str": " seat. ",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " to",
+            " get",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " to get a seat",
+          "count": 155,
+          "percent": 31.0
+        },
+        {
+          "ngram": [
+            " a",
+            " seat",
+            " at",
+            " the"
+          ],
+          "ngram_str": " a seat at the",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " seat",
+            " at",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " seat at the bar",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " get",
+            " a",
+            " seat",
+            "."
+          ],
+          "ngram_str": " get a seat.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " able",
+            " to",
+            " get",
+            " a"
+          ],
+          "ngram_str": " able to get a",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " get",
+            " a",
+            " seat",
+            " at"
+          ],
+          "ngram_str": " get a seat at",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " a",
+            " seat",
+            ".",
+            " "
+          ],
+          "ngram_str": " a seat. ",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " can",
+            " get",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " can get a seat",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " to",
+            " have",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " to have a seat",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " get",
+            " a"
+          ],
+          "ngram_str": " you can get a",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " hard",
+            " to",
+            " get",
+            " a"
+          ],
+          "ngram_str": " hard to get a",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " get",
+            " a",
+            " seat",
+            ","
+          ],
+          "ngram_str": " get a seat,",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " to",
+            " grab",
+            " a",
+            " seat"
+          ],
+          "ngram_str": " to grab a seat",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " grab",
+            " a",
+            " seat",
+            " at"
+          ],
+          "ngram_str": " grab a seat at",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " get",
+            " a",
+            " seat"
+          ],
+          "ngram_str": "'t get a seat",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25100000,
+      "corpus_coverage": 0.4855
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1938,
+        "count": 7551,
+        "percent": 75.51
+      },
+      {
+        "feature_idx": 21898,
+        "count": 5833,
+        "percent": 58.33
+      },
+      {
+        "feature_idx": 20172,
+        "count": 5371,
+        "percent": 53.71
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5177,
+        "percent": 51.77
+      },
+      {
+        "feature_idx": 15082,
+        "count": 4874,
+        "percent": 48.74
+      },
+      {
+        "feature_idx": 13073,
+        "count": 4505,
+        "percent": 45.05
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4456,
+        "percent": 44.56
+      },
+      {
+        "feature_idx": 2657,
+        "count": 4318,
+        "percent": 43.18
+      },
+      {
+        "feature_idx": 14120,
+        "count": 3993,
+        "percent": 39.93
+      },
+      {
+        "feature_idx": 12955,
+        "count": 3953,
+        "percent": 39.53
+      },
+      {
+        "feature_idx": 5630,
+        "count": 3574,
+        "percent": 35.74
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3464,
+        "percent": 34.64
+      },
+      {
+        "feature_idx": 7530,
+        "count": 3413,
+        "percent": 34.13
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3410,
+        "percent": 34.1
+      },
+      {
+        "feature_idx": 20408,
+        "count": 3240,
+        "percent": 32.4
+      },
+      {
+        "feature_idx": 18729,
+        "count": 3122,
+        "percent": 31.22
+      },
+      {
+        "feature_idx": 3398,
+        "count": 3061,
+        "percent": 30.61
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3000,
+        "percent": 30.0
+      },
+      {
+        "feature_idx": 20622,
+        "count": 2987,
+        "percent": 29.87
+      },
+      {
+        "feature_idx": 9863,
+        "count": 2908,
+        "percent": 29.08
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25100000,
+      "corpus_coverage": 0.4855
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2330,
+        "percent": 23.3
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2668,
+        "percent": 26.68
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1794,
+        "percent": 17.94
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1530,
+        "percent": 15.3
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1678,
+        "percent": 16.78
+      }
+    ],
+    "mean_position": 0.454,
+    "std_position": 0.282
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 33,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0219,
+      "p25": 0.0347,
+      "p50": 0.0513,
+      "p75": 0.0646,
+      "p90": 0.1625,
+      "p95": 0.2342,
+      "p99": 0.2383
+    },
+    "skewness": 2.0445,
+    "kurtosis": 2.9318,
+    "min": 0.0189,
+    "max": 0.2384,
+    "mean": 0.0678,
+    "std": 0.0605
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 33,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " table",
+        "count": 11,
+        "mean_activation": 0.052
+      },
+      {
+        "token": " seat",
+        "count": 8,
+        "mean_activation": 0.1399
+      },
+      {
+        "token": " plate",
+        "count": 5,
+        "mean_activation": 0.0399
+      },
+      {
+        "token": " spot",
+        "count": 3,
+        "mean_activation": 0.0318
+      },
+      {
+        "token": " parking",
+        "count": 2,
+        "mean_activation": 0.0499
+      },
+      {
+        "token": " reservation",
+        "count": 2,
+        "mean_activation": 0.0209
+      },
+      {
+        "token": " seats",
+        "count": 1,
+        "mean_activation": 0.0816
+      },
+      {
+        "token": " fork",
+        "count": 1,
+        "mean_activation": 0.028
+      }
+    ]
+  }
+}

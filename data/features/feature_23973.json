@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23973,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 86,
+    "mean_when_active": 0.11706968795421512,
+    "max_activation": 0.250244140625,
+    "std_when_active": 0.0572359679811182,
+    "activation_rate": 0.00086
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 48226,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " location",
+        "count": 34428,
+        "mean_activation": 0.13499502937899271
+      },
+      {
+        "token": " locations",
+        "count": 3915,
+        "mean_activation": 0.13736287746697398
+      },
+      {
+        "token": " spot",
+        "count": 871,
+        "mean_activation": 0.03330938468433822
+      },
+      {
+        "token": " located",
+        "count": 846,
+        "mean_activation": 0.0342508230367169
+      },
+      {
+        "token": " venue",
+        "count": 706,
+        "mean_activation": 0.04213417420643922
+      },
+      {
+        "token": " establishment",
+        "count": 693,
+        "mean_activation": 0.03159813378624414
+      },
+      {
+        "token": " place",
+        "count": 447,
+        "mean_activation": 0.029394981845113254
+      },
+      {
+        "token": " Location",
+        "count": 406,
+        "mean_activation": 0.09238820945100831
+      },
+      {
+        "token": " facility",
+        "count": 329,
+        "mean_activation": 0.05263915830107808
+      },
+      {
+        "token": " space",
+        "count": 304,
+        "mean_activation": 0.035046778227153574
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 48226,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...at the South Tampa** location** last week and I've...",
+        "active_token": " location",
+        "activation": 0.29833984375,
+        "review_id": "clPHdkvcNAFMBeKqqtjmJw",
+        "position": 12
+      },
+      {
+        "context": "...g Beach and Irvine** location** so i knew what to ...",
+        "active_token": " location",
+        "activation": 0.2978515625,
+        "review_id": "wjkD8REzHQ0KgHib_uuHjg",
+        "position": 97
+      },
+      {
+        "context": "... at the Norristown** location**.  My wife and I bo...",
+        "active_token": " location",
+        "activation": 0.29443359375,
+        "review_id": "SbG8t8GAfq__fr-Nz3nHog",
+        "position": 157
+      },
+      {
+        "context": "... at the Clearwater** location**. This location by ...",
+        "active_token": " location",
+        "activation": 0.287841796875,
+        "review_id": "D-LZKWD0-6cIxNeO8HB0CQ",
+        "position": 50
+      },
+      {
+        "context": "... the Tyrone Square** location** in St. Petersburg,...",
+        "active_token": " location",
+        "activation": 0.287841796875,
+        "review_id": "uywCtpslvmT-0pyBDVzYeQ",
+        "position": 56
+      },
+      {
+        "context": "...e Montecito Street** location**, the one on State,...",
+        "active_token": " location",
+        "activation": 0.285888671875,
+        "review_id": "MtwECHLI-bON7qrm4zMqzw",
+        "position": 15
+      },
+      {
+        "context": "...rs at the Westmont** location** and are thrilled t...",
+        "active_token": " location",
+        "activation": 0.284912109375,
+        "review_id": "XTTzay4-Jym6uKFXmxHjYw",
+        "position": 19
+      },
+      {
+        "context": "...ted at the Palmyra** location**. BYOB",
+        "active_token": " location",
+        "activation": 0.284423828125,
+        "review_id": "A3CbWodGEn3fq7TdRdtr9g",
+        "position": 96
+      },
+      {
+        "context": "...the St. Petersburg** location** and really enjoyed...",
+        "active_token": " location",
+        "activation": 0.2841796875,
+        "review_id": "tiHjN5rwn68m5jpBGmtQzQ",
+        "position": 18
+      },
+      {
+        "context": "... at the Clearwater** location**; however, this is ...",
+        "active_token": " location",
+        "activation": 0.28369140625,
+        "review_id": "144Ty12T5klpLmlvhw4GIg",
+        "position": 13
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23973,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2466,
+        "max": 0.2983,
+        "mean": 0.2574
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 199,
+          "percent": 39.8
+        },
+        {
+          "ngram": [
+            " location",
+            "."
+          ],
+          "ngram_str": " location.",
+          "count": 149,
+          "percent": 29.8
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " location",
+            ","
+          ],
+          "ngram_str": " location,",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " location",
+            " and"
+          ],
+          "ngram_str": " location and",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " St",
+            "."
+          ],
+          "ngram_str": " St.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Street",
+            " location"
+          ],
+          "ngram_str": " Street location",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " location",
+            " for"
+          ],
+          "ngram_str": " location for",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "ville",
+            " location"
+          ],
+          "ngram_str": "ville location",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " been",
+            " to"
+          ],
+          "ngram_str": " been to",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " location",
+            ".",
+            " "
+          ],
+          "ngram_str": " location. ",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " location",
+            ".",
+            " The"
+          ],
+          "ngram_str": " location. The",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " been",
+            " to",
+            " the"
+          ],
+          "ngram_str": " been to the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " location",
+            ".",
+            " I"
+          ],
+          "ngram_str": " location. I",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " location",
+            ",",
+            " but"
+          ],
+          "ngram_str": " location, but",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " location",
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": " location.\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " location",
+            ",",
+            " and"
+          ],
+          "ngram_str": " location, and",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " go",
+            " to",
+            " the"
+          ],
+          "ngram_str": " go to the",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " went",
+            " to",
+            " the"
+          ],
+          "ngram_str": " went to the",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "th",
+            " Street",
+            " location"
+          ],
+          "ngram_str": "th Street location",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " location",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " location.\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " location",
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": " location.  I",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Brent",
+            "wood",
+            " location"
+          ],
+          "ngram_str": " the Brentwood location",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " location",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " location. \u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " location",
+            " and",
+            " it",
+            " was"
+          ],
+          "ngram_str": " location and it was",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " location",
+            " a",
+            " few",
+            " weeks"
+          ],
+          "ngram_str": " location a few weeks",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " weeks",
+            " ago"
+          ],
+          "ngram_str": " a few weeks ago",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " the",
+            " Oro",
+            " Valley",
+            " location"
+          ],
+          "ngram_str": " the Oro Valley location",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " Oro",
+            " Valley",
+            " location",
+            "."
+          ],
+          "ngram_str": " Oro Valley location.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " the",
+            " Coll",
+            "ings",
+            "wood"
+          ],
+          "ngram_str": " the Collingswood",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11500000,
+      "corpus_coverage": 0.2224
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 7297,
+        "count": 8524,
+        "percent": 85.24
+      },
+      {
+        "feature_idx": 6723,
+        "count": 8386,
+        "percent": 83.86
+      },
+      {
+        "feature_idx": 19041,
+        "count": 8367,
+        "percent": 83.67
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6833,
+        "percent": 68.33
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5647,
+        "percent": 56.47
+      },
+      {
+        "feature_idx": 1966,
+        "count": 5378,
+        "percent": 53.78
+      },
+      {
+        "feature_idx": 24529,
+        "count": 4904,
+        "percent": 49.04
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4156,
+        "percent": 41.56
+      },
+      {
+        "feature_idx": 4011,
+        "count": 3657,
+        "percent": 36.57
+      },
+      {
+        "feature_idx": 6408,
+        "count": 3450,
+        "percent": 34.5
+      },
+      {
+        "feature_idx": 17108,
+        "count": 3413,
+        "percent": 34.13
+      },
+      {
+        "feature_idx": 12707,
+        "count": 3332,
+        "percent": 33.32
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3185,
+        "percent": 31.85
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3109,
+        "percent": 31.09
+      },
+      {
+        "feature_idx": 8446,
+        "count": 2423,
+        "percent": 24.23
+      },
+      {
+        "feature_idx": 5245,
+        "count": 2390,
+        "percent": 23.9
+      },
+      {
+        "feature_idx": 11584,
+        "count": 2355,
+        "percent": 23.55
+      },
+      {
+        "feature_idx": 3398,
+        "count": 2330,
+        "percent": 23.3
+      },
+      {
+        "feature_idx": 19995,
+        "count": 2120,
+        "percent": 21.2
+      },
+      {
+        "feature_idx": 18842,
+        "count": 2094,
+        "percent": 20.94
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11500000,
+      "corpus_coverage": 0.2224
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3591,
+        "percent": 35.91
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1641,
+        "percent": 16.41
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1113,
+        "percent": 11.13
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1234,
+        "percent": 12.34
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2421,
+        "percent": 24.21
+      }
+    ],
+    "mean_position": 0.4436,
+    "std_position": 0.339
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 86,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0394,
+      "p25": 0.0738,
+      "p50": 0.1139,
+      "p75": 0.1627,
+      "p90": 0.1949,
+      "p95": 0.2044,
+      "p99": 0.2385
+    },
+    "skewness": 0.0838,
+    "kurtosis": -0.8865,
+    "min": 0.017,
+    "max": 0.2502,
+    "mean": 0.1171,
+    "std": 0.0572
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 86,
+      "unique_tokens_found": 18
+    },
+    "tokens": [
+      {
+        "token": " location",
+        "count": 65,
+        "mean_activation": 0.1361
+      },
+      {
+        "token": " locations",
+        "count": 4,
+        "mean_activation": 0.1327
+      },
+      {
+        "token": " located",
+        "count": 2,
+        "mean_activation": 0.0367
+      },
+      {
+        "token": " setting",
+        "count": 1,
+        "mean_activation": 0.0489
+      },
+      {
+        "token": " version",
+        "count": 1,
+        "mean_activation": 0.0409
+      },
+      {
+        "token": " combo",
+        "count": 1,
+        "mean_activation": 0.0328
+      },
+      {
+        "token": " stores",
+        "count": 1,
+        "mean_activation": 0.0431
+      },
+      {
+        "token": " place",
+        "count": 1,
+        "mean_activation": 0.0462
+      },
+      {
+        "token": " outpost",
+        "count": 1,
+        "mean_activation": 0.0265
+      },
+      {
+        "token": " venue",
+        "count": 1,
+        "mean_activation": 0.0414
+      }
+    ]
+  }
+}

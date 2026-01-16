@@ -1,0 +1,876 @@
+{
+  "feature_idx": 8072,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 1019,
+    "mean_when_active": 0.029499125082897603,
+    "max_activation": 0.10382080078125,
+    "std_when_active": 0.011335919625133382,
+    "activation_rate": 0.01019
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 4600000,
+      "corpus_coverage": 0.089
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 4168,
+        "mean_activation": 0.031175584115817313
+      },
+      {
+        "token": " to",
+        "count": 1523,
+        "mean_activation": 0.030940766563089913
+      },
+      {
+        "token": " a",
+        "count": 1493,
+        "mean_activation": 0.028133006520664142
+      },
+      {
+        "token": " I",
+        "count": 1484,
+        "mean_activation": 0.029532589359746148
+      },
+      {
+        "token": " was",
+        "count": 1224,
+        "mean_activation": 0.03265895095526004
+      },
+      {
+        "token": " that",
+        "count": 1108,
+        "mean_activation": 0.04691821487371672
+      },
+      {
+        "token": " of",
+        "count": 1021,
+        "mean_activation": 0.03259120421825263
+      },
+      {
+        "token": " they",
+        "count": 855,
+        "mean_activation": 0.032250360856976426
+      },
+      {
+        "token": " it",
+        "count": 809,
+        "mean_activation": 0.03273028172138153
+      },
+      {
+        "token": "'t",
+        "count": 792,
+        "mean_activation": 0.033442593584157
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 4600000,
+      "corpus_coverage": 0.089
+    },
+    "activations": [
+      {
+        "context": "...le of water glasses** having** lipstick marks on t...",
+        "active_token": " having",
+        "activation": 0.1451416015625,
+        "review_id": "eyb-SHcgMZUwtmARTpSJaw",
+        "position": 119
+      },
+      {
+        "context": "...d have an issue where** we** were overcharged,  bu...",
+        "active_token": " we",
+        "activation": 0.136474609375,
+        "review_id": "oTkBtR8Q2Usl9SgTebJSRQ",
+        "position": 101
+      },
+      {
+        "context": "...tuff) My only issue is** I** spent almost 30 minut...",
+        "active_token": " I",
+        "activation": 0.1326904296875,
+        "review_id": "wt6XyTlgWG8cN_yfdQdnGw",
+        "position": 102
+      },
+      {
+        "context": "...t. Only complaint was** my** burger was warm/cold.",
+        "active_token": " my",
+        "activation": 0.13232421875,
+        "review_id": "AUEddsuMryRj7_C_QGIW9A",
+        "position": 45
+      },
+      {
+        "context": "...y complaint would be** that** as far as Mexican fo...",
+        "active_token": " that",
+        "activation": 0.13134765625,
+        "review_id": "wdJLSrn5qG9SxVhrcKp87Q",
+        "position": 54
+      },
+      {
+        "context": "...y complaint would be** that** they sell the tacos ...",
+        "active_token": " that",
+        "activation": 0.1300048828125,
+        "review_id": "TfmP2DA6n9LBSL0NAxTvPQ",
+        "position": 32
+      },
+      {
+        "context": "...y only complaint was** that** they didn't have uns...",
+        "active_token": " that",
+        "activation": 0.1279296875,
+        "review_id": "RxhZYCLTL3ZkC8MVsaihLg",
+        "position": 61
+      },
+      {
+        "context": "...t was that the chips** didn**'t seem to be made in...",
+        "active_token": " didn",
+        "activation": 0.1278076171875,
+        "review_id": "HGQ4Ax6nNEnyBuXT_1j8xA",
+        "position": 110
+      },
+      {
+        "context": "...aint I would have is** that** the slaw on the side...",
+        "active_token": " that",
+        "activation": 0.1265869140625,
+        "review_id": "QkBwXi15rSg8QZShsKrMAQ",
+        "position": 49
+      },
+      {
+        "context": "...he only complaint is** that** the el pastor that's...",
+        "active_token": " that",
+        "activation": 0.1259765625,
+        "review_id": "l6cg9-V2moqHQ2lGSF5A8Q",
+        "position": 33
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8072,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 9300000,
+      "corpus_coverage": 0.1799,
+      "activation_range": {
+        "min": 0.0948,
+        "max": 0.1451,
+        "mean": 0.1063
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " is",
+            " that"
+          ],
+          "ngram_str": " is that",
+          "count": 176,
+          "percent": 35.2
+        },
+        {
+          "ngram": [
+            " only",
+            " complaint"
+          ],
+          "ngram_str": " only complaint",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            " My",
+            " only"
+          ],
+          "ngram_str": " My only",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " complaint",
+            " is"
+          ],
+          "ngram_str": " complaint is",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            " that",
+            " the"
+          ],
+          "ngram_str": " that the",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " was",
+            " that"
+          ],
+          "ngram_str": " was that",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " complaint",
+            " was"
+          ],
+          "ngram_str": " complaint was",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " The",
+            " only"
+          ],
+          "ngram_str": " The only",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " My"
+          ],
+          "ngram_str": ". My",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " that",
+            " it"
+          ],
+          "ngram_str": " that it",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " would",
+            " be"
+          ],
+          "ngram_str": " would be",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " that",
+            " I"
+          ],
+          "ngram_str": " that I",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " that",
+            " they"
+          ],
+          "ngram_str": " that they",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " be",
+            " that"
+          ],
+          "ngram_str": " be that",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " was",
+            " the"
+          ],
+          "ngram_str": " was the",
+          "count": 37,
+          "percent": 7.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " My",
+            " only",
+            " complaint"
+          ],
+          "ngram_str": " My only complaint",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " complaint",
+            " is",
+            " that"
+          ],
+          "ngram_str": " complaint is that",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " only",
+            " complaint",
+            " is"
+          ],
+          "ngram_str": " only complaint is",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " only"
+          ],
+          "ngram_str": ". My only",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " only",
+            " complaint",
+            " was"
+          ],
+          "ngram_str": " only complaint was",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " is",
+            " that",
+            " the"
+          ],
+          "ngram_str": " is that the",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " complaint",
+            " was",
+            " that"
+          ],
+          "ngram_str": " complaint was that",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " would",
+            " be",
+            " that"
+          ],
+          "ngram_str": " would be that",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " is",
+            " that",
+            " it"
+          ],
+          "ngram_str": " is that it",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " complaint",
+            " would",
+            " be"
+          ],
+          "ngram_str": " complaint would be",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " only"
+          ],
+          "ngram_str": ". The only",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " I",
+            " have",
+            " is"
+          ],
+          "ngram_str": " I have is",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " have",
+            " is",
+            " that"
+          ],
+          "ngram_str": " have is that",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " is",
+            " that",
+            " I"
+          ],
+          "ngram_str": " is that I",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " is",
+            " that",
+            " they"
+          ],
+          "ngram_str": " is that they",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " only",
+            " complaint",
+            " is",
+            " that"
+          ],
+          "ngram_str": " only complaint is that",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " My",
+            " only",
+            " complaint",
+            " is"
+          ],
+          "ngram_str": " My only complaint is",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " only",
+            " complaint"
+          ],
+          "ngram_str": ". My only complaint",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " only",
+            " complaint",
+            " was",
+            " that"
+          ],
+          "ngram_str": " only complaint was that",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " My",
+            " only",
+            " complaint",
+            " was"
+          ],
+          "ngram_str": " My only complaint was",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " complaint",
+            " is",
+            " that",
+            " the"
+          ],
+          "ngram_str": " complaint is that the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " complaint",
+            " would",
+            " be",
+            " that"
+          ],
+          "ngram_str": " complaint would be that",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " only",
+            " complaint",
+            " would",
+            " be"
+          ],
+          "ngram_str": " only complaint would be",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " I",
+            " have",
+            " is",
+            " that"
+          ],
+          "ngram_str": " I have is that",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " would",
+            " be",
+            " that",
+            " the"
+          ],
+          "ngram_str": " would be that the",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " complaint",
+            " I",
+            " have",
+            " is"
+          ],
+          "ngram_str": " complaint I have is",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " ",
+            " My",
+            " only",
+            " complaint"
+          ],
+          "ngram_str": "  My only complaint",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " complaint",
+            " is",
+            " that",
+            " it"
+          ],
+          "ngram_str": " complaint is that it",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " only",
+            " gri",
+            "pe",
+            " is"
+          ],
+          "ngram_str": " only gripe is",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " only",
+            " downside"
+          ],
+          "ngram_str": ". The only downside",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1000000,
+      "corpus_coverage": 0.0193
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 5722,
+        "percent": 57.22
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4615,
+        "percent": 46.15
+      },
+      {
+        "feature_idx": 11476,
+        "count": 4560,
+        "percent": 45.6
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3581,
+        "percent": 35.81
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3566,
+        "percent": 35.66
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3054,
+        "percent": 30.54
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2768,
+        "percent": 27.68
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2449,
+        "percent": 24.49
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2200,
+        "percent": 22.0
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2090,
+        "percent": 20.9
+      },
+      {
+        "feature_idx": 3589,
+        "count": 2005,
+        "percent": 20.05
+      },
+      {
+        "feature_idx": 20464,
+        "count": 1933,
+        "percent": 19.33
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1906,
+        "percent": 19.06
+      },
+      {
+        "feature_idx": 15956,
+        "count": 1727,
+        "percent": 17.27
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1720,
+        "percent": 17.2
+      },
+      {
+        "feature_idx": 14948,
+        "count": 1689,
+        "percent": 16.89
+      },
+      {
+        "feature_idx": 12609,
+        "count": 1653,
+        "percent": 16.53
+      },
+      {
+        "feature_idx": 6329,
+        "count": 1463,
+        "percent": 14.63
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1439,
+        "percent": 14.39
+      },
+      {
+        "feature_idx": 8670,
+        "count": 1340,
+        "percent": 13.4
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1000000,
+      "corpus_coverage": 0.0193
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1281,
+        "percent": 12.81
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2032,
+        "percent": 20.32
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2174,
+        "percent": 21.74
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2592,
+        "percent": 25.92
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1921,
+        "percent": 19.21
+      }
+    ],
+    "mean_position": 0.5373,
+    "std_position": 0.2592
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 1019,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0186,
+      "p25": 0.0217,
+      "p50": 0.0271,
+      "p75": 0.0341,
+      "p90": 0.0439,
+      "p95": 0.0521,
+      "p99": 0.0692
+    },
+    "skewness": 1.7213,
+    "kurtosis": 4.8553,
+    "min": 0.0086,
+    "max": 0.1038,
+    "mean": 0.0295,
+    "std": 0.0113
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 1019,
+      "unique_tokens_found": 343
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 87,
+        "mean_activation": 0.0291
+      },
+      {
+        "token": " I",
+        "count": 32,
+        "mean_activation": 0.025
+      },
+      {
+        "token": " a",
+        "count": 31,
+        "mean_activation": 0.0298
+      },
+      {
+        "token": " to",
+        "count": 30,
+        "mean_activation": 0.0299
+      },
+      {
+        "token": " my",
+        "count": 28,
+        "mean_activation": 0.025
+      },
+      {
+        "token": " that",
+        "count": 26,
+        "mean_activation": 0.0401
+      },
+      {
+        "token": " was",
+        "count": 25,
+        "mean_activation": 0.0329
+      },
+      {
+        "token": " it",
+        "count": 16,
+        "mean_activation": 0.0324
+      },
+      {
+        "token": "'t",
+        "count": 16,
+        "mean_activation": 0.0264
+      },
+      {
+        "token": " of",
+        "count": 16,
+        "mean_activation": 0.0279
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5800,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 26,
+    "mean_when_active": 0.11122190035306491,
+    "max_activation": 0.256591796875,
+    "std_when_active": 0.0880922384667123,
+    "activation_rate": 0.00026
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 14251,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " covered",
+        "count": 4207,
+        "mean_activation": 0.18801207437009745
+      },
+      {
+        "token": " cover",
+        "count": 1344,
+        "mean_activation": 0.18927313032604398
+      },
+      {
+        "token": " backed",
+        "count": 469,
+        "mean_activation": 0.06963724164820428
+      },
+      {
+        "token": " covering",
+        "count": 396,
+        "mean_activation": 0.22109276357323232
+      },
+      {
+        "token": " covers",
+        "count": 224,
+        "mean_activation": 0.19542012895856584
+      },
+      {
+        "token": " reviewed",
+        "count": 218,
+        "mean_activation": 0.03440300477754085
+      },
+      {
+        "token": " sheet",
+        "count": 184,
+        "mean_activation": 0.06084317746369735
+      },
+      {
+        "token": " sweeping",
+        "count": 156,
+        "mean_activation": 0.07548268636067708
+      },
+      {
+        "token": " lined",
+        "count": 154,
+        "mean_activation": 0.04494515951577719
+      },
+      {
+        "token": " carpet",
+        "count": 152,
+        "mean_activation": 0.07913609554893092
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 14251,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...hankfully my friend** covered** me & I paid him ba...",
+        "active_token": " covered",
+        "activation": 0.313720703125,
+        "review_id": "lAU_HEoZFk-MoyMPFOTUUQ",
+        "position": 228
+      },
+      {
+        "context": "...hough and more than** covered** for her. \\nOverall ...",
+        "active_token": " covered",
+        "activation": 0.312255859375,
+        "review_id": "rnQJq9nfdlmHE099n3rwmw",
+        "position": 92
+      },
+      {
+        "context": "...ve is a single guy** covering** the calls.  That t...",
+        "active_token": " covering",
+        "activation": 0.309326171875,
+        "review_id": "gUMkIZjG-ebM62hMSj7g8Q",
+        "position": 374
+      },
+      {
+        "context": "...staffed and he was** covering** over half of the t...",
+        "active_token": " covering",
+        "activation": 0.308349609375,
+        "review_id": "fK-SMd5_tkop6w66UBudHw",
+        "position": 97
+      },
+      {
+        "context": "...f the servers were** covering** our table. We had ...",
+        "active_token": " covering",
+        "activation": 0.30712890625,
+        "review_id": "O_KI8_OOMpxOZ1RZvDUSjA",
+        "position": 60
+      },
+      {
+        "context": "...nd was told he was** covering** for the cook and s...",
+        "active_token": " covering",
+        "activation": 0.306640625,
+        "review_id": "HFl3rsJgsXWQ0_IWdy_1aQ",
+        "position": 378
+      },
+      {
+        "context": "...but two girls had to** cover** the rest of e check...",
+        "active_token": " cover",
+        "activation": 0.306396484375,
+        "review_id": "uAnr60cPDjdqXAgJI8Hzxg",
+        "position": 96
+      },
+      {
+        "context": "...as a truck they had** covered** seating and a whol...",
+        "active_token": " covered",
+        "activation": 0.305419921875,
+        "review_id": "GIIJvp3970HXpnAAg-lLXg",
+        "position": 30
+      },
+      {
+        "context": "...r, my friends and I** covered** some ground. \\n\\nI o...",
+        "active_token": " covered",
+        "activation": 0.303955078125,
+        "review_id": "1LLP0nCSxl1UDxODf9O--A",
+        "position": 86
+      },
+      {
+        "context": "...server we had didn't** cover** the section we were...",
+        "active_token": " cover",
+        "activation": 0.303955078125,
+        "review_id": "AYcabprymyRFOD4-dXVvqA",
+        "position": 42
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5800,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2522,
+        "max": 0.3137,
+        "mean": 0.2703
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " to",
+            " cover"
+          ],
+          "ngram_str": " to cover",
+          "count": 143,
+          "percent": 28.6
+        },
+        {
+          "ngram": [
+            " cover",
+            " the"
+          ],
+          "ngram_str": " cover the",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " covered",
+            " in"
+          ],
+          "ngram_str": " covered in",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " cover",
+            " it"
+          ],
+          "ngram_str": " cover it",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " cover",
+            " up"
+          ],
+          "ngram_str": " cover up",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " was",
+            " covered"
+          ],
+          "ngram_str": " was covered",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " covering",
+            " the"
+          ],
+          "ngram_str": " covering the",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " covered",
+            " the"
+          ],
+          "ngram_str": " covered the",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " didn't",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " cover",
+            " all"
+          ],
+          "ngram_str": " cover all",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " up",
+            " the"
+          ],
+          "ngram_str": " up the",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " the"
+          ],
+          "ngram_str": " to cover the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " up"
+          ],
+          "ngram_str": " to cover up",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " it"
+          ],
+          "ngram_str": " to cover it",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " was",
+            " covered",
+            " in"
+          ],
+          "ngram_str": " was covered in",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " cover",
+            " up",
+            " the"
+          ],
+          "ngram_str": " cover up the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " trying",
+            " to",
+            " cover"
+          ],
+          "ngram_str": " trying to cover",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " cover",
+            " it",
+            " up"
+          ],
+          "ngram_str": " cover it up",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " tried",
+            " to",
+            " cover"
+          ],
+          "ngram_str": " tried to cover",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " had",
+            " to",
+            " cover"
+          ],
+          "ngram_str": " had to cover",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " all"
+          ],
+          "ngram_str": " to cover all",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " they",
+            " cover",
+            " the"
+          ],
+          "ngram_str": " they cover the",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " were",
+            " covered",
+            " in"
+          ],
+          "ngram_str": " were covered in",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " it",
+            " up"
+          ],
+          "ngram_str": " to cover it up",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " up",
+            " the"
+          ],
+          "ngram_str": " to cover up the",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " tried",
+            " to",
+            " cover",
+            " it"
+          ],
+          "ngram_str": " tried to cover it",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " even",
+            " begin",
+            " to",
+            " cover"
+          ],
+          "ngram_str": " even begin to cover",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " cover",
+            " a",
+            " lot",
+            " of"
+          ],
+          "ngram_str": " cover a lot of",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " cover",
+            " it",
+            " up",
+            "."
+          ],
+          "ngram_str": " cover it up.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " it",
+            "."
+          ],
+          "ngram_str": " to cover it.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " to",
+            " cover",
+            " all",
+            " the"
+          ],
+          "ngram_str": " to cover all the",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " all",
+            " the",
+            " bases",
+            "."
+          ],
+          "ngram_str": " all the bases.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " doesn",
+            "'t",
+            " even",
+            " begin"
+          ],
+          "ngram_str": " doesn't even begin",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " even",
+            " begin",
+            " to"
+          ],
+          "ngram_str": "'t even begin to",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " begin",
+            " to",
+            " cover",
+            " it"
+          ],
+          "ngram_str": " begin to cover it",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " they",
+            " were",
+            " covered",
+            " in"
+          ],
+          "ngram_str": " they were covered in",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36300000,
+      "corpus_coverage": 0.7021
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 23937,
+        "count": 4868,
+        "percent": 48.68
+      },
+      {
+        "feature_idx": 13633,
+        "count": 4660,
+        "percent": 46.6
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4556,
+        "percent": 45.56
+      },
+      {
+        "feature_idx": 19585,
+        "count": 3978,
+        "percent": 39.78
+      },
+      {
+        "feature_idx": 4858,
+        "count": 3599,
+        "percent": 35.99
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3520,
+        "percent": 35.2
+      },
+      {
+        "feature_idx": 16034,
+        "count": 3423,
+        "percent": 34.23
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3335,
+        "percent": 33.35
+      },
+      {
+        "feature_idx": 8074,
+        "count": 3289,
+        "percent": 32.89
+      },
+      {
+        "feature_idx": 3197,
+        "count": 3042,
+        "percent": 30.42
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2952,
+        "percent": 29.52
+      },
+      {
+        "feature_idx": 17707,
+        "count": 2932,
+        "percent": 29.32
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2791,
+        "percent": 27.91
+      },
+      {
+        "feature_idx": 3211,
+        "count": 2619,
+        "percent": 26.19
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2377,
+        "percent": 23.77
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2327,
+        "percent": 23.27
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2141,
+        "percent": 21.41
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1983,
+        "percent": 19.83
+      },
+      {
+        "feature_idx": 2661,
+        "count": 1891,
+        "percent": 18.91
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1871,
+        "percent": 18.71
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36300000,
+      "corpus_coverage": 0.7021
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1602,
+        "percent": 16.02
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2143,
+        "percent": 21.43
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2157,
+        "percent": 21.57
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2276,
+        "percent": 22.76
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1822,
+        "percent": 18.22
+      }
+    ],
+    "mean_position": 0.511,
+    "std_position": 0.2688
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 26,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0258,
+      "p25": 0.0338,
+      "p50": 0.0757,
+      "p75": 0.1936,
+      "p90": 0.2429,
+      "p95": 0.253,
+      "p99": 0.2565
+    },
+    "skewness": 0.5272,
+    "kurtosis": -1.4014,
+    "min": 0.0088,
+    "max": 0.2566,
+    "mean": 0.1112,
+    "std": 0.0881
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 26,
+      "unique_tokens_found": 16
+    },
+    "tokens": [
+      {
+        "token": " covered",
+        "count": 9,
+        "mean_activation": 0.2126
+      },
+      {
+        "token": " backed",
+        "count": 2,
+        "mean_activation": 0.055
+      },
+      {
+        "token": " cover",
+        "count": 2,
+        "mean_activation": 0.1671
+      },
+      {
+        "token": " blanket",
+        "count": 1,
+        "mean_activation": 0.062
+      },
+      {
+        "token": " wrapping",
+        "count": 1,
+        "mean_activation": 0.0331
+      },
+      {
+        "token": " crunch",
+        "count": 1,
+        "mean_activation": 0.0334
+      },
+      {
+        "token": " filing",
+        "count": 1,
+        "mean_activation": 0.0244
+      },
+      {
+        "token": " Sweep",
+        "count": 1,
+        "mean_activation": 0.074
+      },
+      {
+        "token": " coat",
+        "count": 1,
+        "mean_activation": 0.0422
+      },
+      {
+        "token": " protected",
+        "count": 1,
+        "mean_activation": 0.0775
+      }
+    ]
+  }
+}

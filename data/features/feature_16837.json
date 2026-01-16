@@ -1,0 +1,861 @@
+{
+  "feature_idx": 16837,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 10,
+    "mean_when_active": 0.06460113525390625,
+    "max_activation": 0.2423095703125,
+    "std_when_active": 0.06849630641673096,
+    "activation_rate": 0.0001
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5457,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " from",
+        "count": 2660,
+        "mean_activation": 0.1255674864116468
+      },
+      {
+        "token": " to",
+        "count": 495,
+        "mean_activation": 0.0372390901199495
+      },
+      {
+        "token": " with",
+        "count": 404,
+        "mean_activation": 0.04010361019927677
+      },
+      {
+        "token": " me",
+        "count": 282,
+        "mean_activation": 0.036498157690602835
+      },
+      {
+        "token": " of",
+        "count": 209,
+        "mean_activation": 0.04207096373635616
+      },
+      {
+        "token": " off",
+        "count": 179,
+        "mean_activation": 0.05545248532428422
+      },
+      {
+        "token": " away",
+        "count": 178,
+        "mean_activation": 0.04962098196651159
+      },
+      {
+        "token": " you",
+        "count": 156,
+        "mean_activation": 0.034823001959385015
+      },
+      {
+        "token": " for",
+        "count": 136,
+        "mean_activation": 0.03603609870461857
+      },
+      {
+        "token": " the",
+        "count": 87,
+        "mean_activation": 0.03617841347880747
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5457,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...t it doesn't stop me** from** coming! Highly recom...",
+        "active_token": " from",
+        "activation": 0.28564453125,
+        "review_id": "oSVyj3-DYSSzZVmVYFRs-Q",
+        "position": 40
+      },
+      {
+        "context": "...t that won't stop me** from** coming here again.",
+        "active_token": " from",
+        "activation": 0.285400390625,
+        "review_id": "Yg0a2YovGyJ90lgcAqCIFg",
+        "position": 63
+      },
+      {
+        "context": "...t that won't stop me** from** coming back. I also ...",
+        "active_token": " from",
+        "activation": 0.280517578125,
+        "review_id": "OrZWmXcwwQYwasHapto2DQ",
+        "position": 51
+      },
+      {
+        "context": "...t that won't stop me** from** going back!",
+        "active_token": " from",
+        "activation": 0.280029296875,
+        "review_id": "YdtXi5eR7GOp1kLZ89GtPg",
+        "position": 37
+      },
+      {
+        "context": "...n't let that stop me** from** enjoying authentic \\n...",
+        "active_token": " from",
+        "activation": 0.277099609375,
+        "review_id": "Dg8rtPyP9254n_1G65ncxw",
+        "position": 53
+      },
+      {
+        "context": "...n't let that stop me** from** enjoying authentic M...",
+        "active_token": " from",
+        "activation": 0.277099609375,
+        "review_id": "GLHjCbb8eQz9aU_l-qxhaQ",
+        "position": 53
+      },
+      {
+        "context": "...not going to stop me** from** ordering from there ...",
+        "active_token": " from",
+        "activation": 0.276123046875,
+        "review_id": "1iU45yBR0BUIOg7vExMUoQ",
+        "position": 109
+      },
+      {
+        "context": ".... That won't stop me** from** coming here again, t...",
+        "active_token": " from",
+        "activation": 0.275390625,
+        "review_id": "IdyAE8QkWSq9eGTyJXsV2A",
+        "position": 117
+      },
+      {
+        "context": "...but it won't stop me** from** going back if I'm in...",
+        "active_token": " from",
+        "activation": 0.27490234375,
+        "review_id": "ZNUTT14L4dbXcKIzr2ObuA",
+        "position": 226
+      },
+      {
+        "context": "...hat wouldn't stop me** from** going back when we g...",
+        "active_token": " from",
+        "activation": 0.271240234375,
+        "review_id": "Adw37iuLUTHpvAphBPHYnw",
+        "position": 60
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 16837,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2112,
+        "max": 0.2856,
+        "mean": 0.2381
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " me",
+            " from"
+          ],
+          "ngram_str": " me from",
+          "count": 287,
+          "percent": 57.4
+        },
+        {
+          "ngram": [
+            " stop",
+            " me"
+          ],
+          "ngram_str": " stop me",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " stop"
+          ],
+          "ngram_str": "'t stop",
+          "count": 166,
+          "percent": 33.2
+        },
+        {
+          "ngram": [
+            " you",
+            " from"
+          ],
+          "ngram_str": " you from",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            " from",
+            " going"
+          ],
+          "ngram_str": " from going",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            " from",
+            " coming"
+          ],
+          "ngram_str": " from coming",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " won",
+            "'t"
+          ],
+          "ngram_str": " won't",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " let"
+          ],
+          "ngram_str": "'t let",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " let",
+            " that"
+          ],
+          "ngram_str": " let that",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " stop",
+            " you"
+          ],
+          "ngram_str": " stop you",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " us",
+            " from"
+          ],
+          "ngram_str": " us from",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " coming",
+            " back"
+          ],
+          "ngram_str": " coming back",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " didn't",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " deter",
+            " you"
+          ],
+          "ngram_str": " deter you",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " from",
+            " eating"
+          ],
+          "ngram_str": " from eating",
+          "count": 52,
+          "percent": 10.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " stop",
+            " me",
+            " from"
+          ],
+          "ngram_str": " stop me from",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " stop",
+            " me"
+          ],
+          "ngram_str": "'t stop me",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " let",
+            " that"
+          ],
+          "ngram_str": "'t let that",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " me",
+            " from",
+            " going"
+          ],
+          "ngram_str": " me from going",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " me",
+            " from",
+            " coming"
+          ],
+          "ngram_str": " me from coming",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " stop",
+            " you",
+            " from"
+          ],
+          "ngram_str": " stop you from",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " won",
+            "'t",
+            " stop"
+          ],
+          "ngram_str": " won't stop",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " from",
+            " coming",
+            " back"
+          ],
+          "ngram_str": " from coming back",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " deter",
+            " you",
+            " from"
+          ],
+          "ngram_str": " deter you from",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " stop"
+          ],
+          "ngram_str": " didn't stop",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " from",
+            " going",
+            " back"
+          ],
+          "ngram_str": " from going back",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " stop",
+            " us",
+            " from"
+          ],
+          "ngram_str": " stop us from",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " doesn",
+            "'t",
+            " stop"
+          ],
+          "ngram_str": " doesn't stop",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " let",
+            " that",
+            " stop"
+          ],
+          "ngram_str": " let that stop",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " that",
+            " stop",
+            " you"
+          ],
+          "ngram_str": " that stop you",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "'t",
+            " stop",
+            " me",
+            " from"
+          ],
+          "ngram_str": "'t stop me from",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " won",
+            "'t",
+            " stop",
+            " me"
+          ],
+          "ngram_str": " won't stop me",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " me",
+            " from",
+            " coming",
+            " back"
+          ],
+          "ngram_str": " me from coming back",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " stop",
+            " me",
+            " from",
+            " going"
+          ],
+          "ngram_str": " stop me from going",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " me",
+            " from",
+            " going",
+            " back"
+          ],
+          "ngram_str": " me from going back",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " stop",
+            " me",
+            " from",
+            " coming"
+          ],
+          "ngram_str": " stop me from coming",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " that",
+            " stop",
+            " you",
+            " from"
+          ],
+          "ngram_str": " that stop you from",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " let",
+            " that",
+            " stop",
+            " you"
+          ],
+          "ngram_str": " let that stop you",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " stop",
+            " me"
+          ],
+          "ngram_str": " didn't stop me",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " let",
+            " that",
+            " stop"
+          ],
+          "ngram_str": "'t let that stop",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " stop",
+            " us",
+            " from"
+          ],
+          "ngram_str": "'t stop us from",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " doesn",
+            "'t",
+            " stop",
+            " me"
+          ],
+          "ngram_str": " doesn't stop me",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " stop",
+            " me",
+            " from",
+            " eating"
+          ],
+          "ngram_str": " stop me from eating",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " let",
+            " that",
+            " deter"
+          ],
+          "ngram_str": "'t let that deter",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " that",
+            " didn",
+            "'t",
+            " stop"
+          ],
+          "ngram_str": " that didn't stop",
+          "count": 25,
+          "percent": 5.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5457,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 23153,
+        "count": 3789,
+        "percent": 69.43
+      },
+      {
+        "feature_idx": 2039,
+        "count": 2835,
+        "percent": 51.95
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2746,
+        "percent": 50.32
+      },
+      {
+        "feature_idx": 1581,
+        "count": 2676,
+        "percent": 49.04
+      },
+      {
+        "feature_idx": 12272,
+        "count": 2652,
+        "percent": 48.6
+      },
+      {
+        "feature_idx": 11738,
+        "count": 2555,
+        "percent": 46.82
+      },
+      {
+        "feature_idx": 23470,
+        "count": 2541,
+        "percent": 46.56
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2517,
+        "percent": 46.12
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2474,
+        "percent": 45.34
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2406,
+        "percent": 44.09
+      },
+      {
+        "feature_idx": 20896,
+        "count": 2391,
+        "percent": 43.82
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2378,
+        "percent": 43.58
+      },
+      {
+        "feature_idx": 12657,
+        "count": 2340,
+        "percent": 42.88
+      },
+      {
+        "feature_idx": 1319,
+        "count": 2219,
+        "percent": 40.66
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1967,
+        "percent": 36.05
+      },
+      {
+        "feature_idx": 23664,
+        "count": 1852,
+        "percent": 33.94
+      },
+      {
+        "feature_idx": 18144,
+        "count": 1693,
+        "percent": 31.02
+      },
+      {
+        "feature_idx": 12609,
+        "count": 1511,
+        "percent": 27.69
+      },
+      {
+        "feature_idx": 22230,
+        "count": 1419,
+        "percent": 26.0
+      },
+      {
+        "feature_idx": 10548,
+        "count": 1274,
+        "percent": 23.35
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5457,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 671,
+        "percent": 12.3
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 813,
+        "percent": 14.9
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 863,
+        "percent": 15.81
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1074,
+        "percent": 19.68
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2036,
+        "percent": 37.31
+      }
+    ],
+    "mean_position": 0.6186,
+    "std_position": 0.2932
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 10,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0247,
+      "p25": 0.0266,
+      "p50": 0.0359,
+      "p75": 0.0411,
+      "p90": 0.1555,
+      "p95": 0.1989,
+      "p99": 0.2336
+    },
+    "skewness": 1.8184,
+    "kurtosis": 1.7789,
+    "min": 0.0237,
+    "max": 0.2423,
+    "mean": 0.0646,
+    "std": 0.0685
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 10,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " from",
+        "count": 3,
+        "mean_activation": 0.1416
+      },
+      {
+        "token": " to",
+        "count": 2,
+        "mean_activation": 0.0328
+      },
+      {
+        "token": " for",
+        "count": 1,
+        "mean_activation": 0.0248
+      },
+      {
+        "token": " of",
+        "count": 1,
+        "mean_activation": 0.0249
+      },
+      {
+        "token": " away",
+        "count": 1,
+        "mean_activation": 0.0389
+      },
+      {
+        "token": " you",
+        "count": 1,
+        "mean_activation": 0.0351
+      },
+      {
+        "token": " resist",
+        "count": 1,
+        "mean_activation": 0.0319
+      }
+    ]
+  }
+}

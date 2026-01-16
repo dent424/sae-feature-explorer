@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1675,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 276,
+    "mean_when_active": 0.05238005043803782,
+    "max_activation": 0.169189453125,
+    "std_when_active": 0.030107780471374187,
+    "activation_rate": 0.00276
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 20600000,
+      "corpus_coverage": 0.3984
+    },
+    "top_tokens": [
+      {
+        "token": " you",
+        "count": 25402,
+        "mean_activation": 0.05729672995320212
+      },
+      {
+        "token": " You",
+        "count": 7198,
+        "mean_activation": 0.0684811315724637
+      },
+      {
+        "token": " your",
+        "count": 2234,
+        "mean_activation": 0.04251268023129756
+      },
+      {
+        "token": " have",
+        "count": 1649,
+        "mean_activation": 0.04345995993813722
+      },
+      {
+        "token": "You",
+        "count": 820,
+        "mean_activation": 0.05218029022216797
+      },
+      {
+        "token": "'ll",
+        "count": 762,
+        "mean_activation": 0.039167128835763204
+      },
+      {
+        "token": " get",
+        "count": 717,
+        "mean_activation": 0.035053152087010764
+      },
+      {
+        "token": " will",
+        "count": 608,
+        "mean_activation": 0.03209474212244937
+      },
+      {
+        "token": "'t",
+        "count": 591,
+        "mean_activation": 0.03704144627914816
+      },
+      {
+        "token": " are",
+        "count": 568,
+        "mean_activation": 0.04142989575023383
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 20600000,
+      "corpus_coverage": 0.3984
+    },
+    "activations": [
+      {
+        "context": "...co Tuesday deal where** you** can get 3 tacos for ...",
+        "active_token": " you",
+        "activation": 0.208984375,
+        "review_id": "SZjdChcOhg6U5mrlDwoFVg",
+        "position": 92
+      },
+      {
+        "context": "...a sauce station where** you** can grab as many sau...",
+        "active_token": " you",
+        "activation": 0.208251953125,
+        "review_id": "D8UMdl-HXAA2yfMhUZ1YEQ",
+        "position": 105
+      },
+      {
+        "context": "...ight happy hour where** you** can get $1 tequila s...",
+        "active_token": " you",
+        "activation": 0.2060546875,
+        "review_id": "sX7IBs_nAEGm3nw_F7U98w",
+        "position": 125
+      },
+      {
+        "context": "...o Tuesday deal, where** you** can get a free house...",
+        "active_token": " you",
+        "activation": 0.205078125,
+        "review_id": "cfGSLSVX_7XEkOvvgXItTw",
+        "position": 24
+      },
+      {
+        "context": "...they have a bar where** you** can add salsa to you...",
+        "active_token": " you",
+        "activation": 0.2044677734375,
+        "review_id": "JMgszu_htpvDvGkXi7E4Jw",
+        "position": 30
+      },
+      {
+        "context": "...wned restaurant where** you** can get a lot of ban...",
+        "active_token": " you",
+        "activation": 0.2041015625,
+        "review_id": "L5VMvo9-_LvzAgjiXUJBow",
+        "position": 52
+      },
+      {
+        "context": "...rder restaurant where** you** can pick all your to...",
+        "active_token": " you",
+        "activation": 0.2034912109375,
+        "review_id": "Ub4wlh3SokOiZ3FBknFczA",
+        "position": 106
+      },
+      {
+        "context": "...ch menu/special where** you** can get 2 lunch item...",
+        "active_token": " you",
+        "activation": 0.203125,
+        "review_id": "BovbxbHNQ1OcKFio3NZoRg",
+        "position": 45
+      },
+      {
+        "context": "...ne of four locations.** You** order at the counter...",
+        "active_token": " You",
+        "activation": 0.202880859375,
+        "review_id": "psaC98lB8VAkE3vQqJcwKA",
+        "position": 38
+      },
+      {
+        "context": "...a la carte menu where** you** can try a variety of...",
+        "active_token": " you",
+        "activation": 0.2022705078125,
+        "review_id": "mMayRDmFySGwBayFBY3PDA",
+        "position": 32
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1675,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 41200000,
+      "corpus_coverage": 0.7969,
+      "activation_range": {
+        "min": 0.1647,
+        "max": 0.2217,
+        "mean": 0.1788
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " where",
+            " you"
+          ],
+          "ngram_str": " where you",
+          "count": 306,
+          "percent": 61.2
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 246,
+          "percent": 49.2
+        },
+        {
+          "ngram": [
+            ".",
+            " You"
+          ],
+          "ngram_str": ". You",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " bar",
+            " where"
+          ],
+          "ngram_str": " bar where",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " and",
+            " you"
+          ],
+          "ngram_str": " and you",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " have",
+            " a"
+          ],
+          "ngram_str": " have a",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " can",
+            " get"
+          ],
+          "ngram_str": " can get",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " you",
+            " order"
+          ],
+          "ngram_str": " you order",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " salsa",
+            " bar"
+          ],
+          "ngram_str": " salsa bar",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " You",
+            " can"
+          ],
+          "ngram_str": " You can",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ",",
+            " where"
+          ],
+          "ngram_str": ", where",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " you",
+            " get"
+          ],
+          "ngram_str": " you get",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " order",
+            " at"
+          ],
+          "ngram_str": " order at",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " get",
+            " a"
+          ],
+          "ngram_str": " get a",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " where",
+            " you",
+            " can"
+          ],
+          "ngram_str": " where you can",
+          "count": 198,
+          "percent": 39.6
+        },
+        {
+          "ngram": [
+            " bar",
+            " where",
+            " you"
+          ],
+          "ngram_str": " bar where you",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " get"
+          ],
+          "ngram_str": " you can get",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ",",
+            " where",
+            " you"
+          ],
+          "ngram_str": ", where you",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " can"
+          ],
+          "ngram_str": ". You can",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " you",
+            " can"
+          ],
+          "ngram_str": " and you can",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " salsa",
+            " bar",
+            " where"
+          ],
+          "ngram_str": " salsa bar where",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " order at the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " get"
+          ],
+          "ngram_str": " where you get",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " order"
+          ],
+          "ngram_str": " where you order",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " salsa",
+            " bar"
+          ],
+          "ngram_str": " a salsa bar",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " where",
+            " you"
+          ],
+          "ngram_str": " restaurant where you",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " at the counter",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " You",
+            " order"
+          ],
+          "ngram_str": ". You order",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " order"
+          ],
+          "ngram_str": " you can order",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " bar",
+            " where",
+            " you",
+            " can"
+          ],
+          "ngram_str": " bar where you can",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " can",
+            " get"
+          ],
+          "ngram_str": " where you can get",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " salsa",
+            " bar",
+            " where",
+            " you"
+          ],
+          "ngram_str": " salsa bar where you",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " a",
+            " salsa",
+            " bar",
+            " where"
+          ],
+          "ngram_str": " a salsa bar where",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ",",
+            " where",
+            " you",
+            " can"
+          ],
+          "ngram_str": ", where you can",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " order",
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " order at the counter",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " can",
+            " add"
+          ],
+          "ngram_str": " where you can add",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " can",
+            " order"
+          ],
+          "ngram_str": " where you can order",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " you",
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " you order at the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " area",
+            " where",
+            " you",
+            " can"
+          ],
+          "ngram_str": " area where you can",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter",
+            " and"
+          ],
+          "ngram_str": " at the counter and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " have",
+            " a",
+            " salsa",
+            " bar"
+          ],
+          "ngram_str": " have a salsa bar",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " can",
+            " sit"
+          ],
+          "ngram_str": " where you can sit",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " order",
+            " at"
+          ],
+          "ngram_str": " where you order at",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " where",
+            " you",
+            " get",
+            " a"
+          ],
+          "ngram_str": " where you get a",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4100000,
+      "corpus_coverage": 0.0793
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17492,
+        "count": 9221,
+        "percent": 92.21
+      },
+      {
+        "feature_idx": 9901,
+        "count": 6806,
+        "percent": 68.06
+      },
+      {
+        "feature_idx": 15583,
+        "count": 6094,
+        "percent": 60.94
+      },
+      {
+        "feature_idx": 17424,
+        "count": 6054,
+        "percent": 60.54
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5358,
+        "percent": 53.58
+      },
+      {
+        "feature_idx": 11053,
+        "count": 4129,
+        "percent": 41.29
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3831,
+        "percent": 38.31
+      },
+      {
+        "feature_idx": 20793,
+        "count": 3819,
+        "percent": 38.19
+      },
+      {
+        "feature_idx": 3586,
+        "count": 3601,
+        "percent": 36.01
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3308,
+        "percent": 33.08
+      },
+      {
+        "feature_idx": 10317,
+        "count": 3240,
+        "percent": 32.4
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3182,
+        "percent": 31.82
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3074,
+        "percent": 30.74
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3047,
+        "percent": 30.47
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3047,
+        "percent": 30.47
+      },
+      {
+        "feature_idx": 9137,
+        "count": 2827,
+        "percent": 28.27
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2797,
+        "percent": 27.97
+      },
+      {
+        "feature_idx": 3027,
+        "count": 2156,
+        "percent": 21.56
+      },
+      {
+        "feature_idx": 8640,
+        "count": 1915,
+        "percent": 19.15
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1889,
+        "percent": 18.89
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4100000,
+      "corpus_coverage": 0.0793
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1443,
+        "percent": 14.43
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2395,
+        "percent": 23.95
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2094,
+        "percent": 20.94
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2055,
+        "percent": 20.55
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2013,
+        "percent": 20.13
+      }
+    ],
+    "mean_position": 0.5175,
+    "std_position": 0.2682
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 276,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0221,
+      "p25": 0.0291,
+      "p50": 0.0442,
+      "p75": 0.0686,
+      "p90": 0.0959,
+      "p95": 0.1103,
+      "p99": 0.1403
+    },
+    "skewness": 1.1863,
+    "kurtosis": 1.1871,
+    "min": 0.0128,
+    "max": 0.1692,
+    "mean": 0.0524,
+    "std": 0.0301
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 276,
+      "unique_tokens_found": 44
+    },
+    "tokens": [
+      {
+        "token": " you",
+        "count": 141,
+        "mean_activation": 0.0581
+      },
+      {
+        "token": " You",
+        "count": 44,
+        "mean_activation": 0.0649
+      },
+      {
+        "token": " have",
+        "count": 12,
+        "mean_activation": 0.0421
+      },
+      {
+        "token": " your",
+        "count": 8,
+        "mean_activation": 0.0465
+      },
+      {
+        "token": " get",
+        "count": 7,
+        "mean_activation": 0.0373
+      },
+      {
+        "token": " are",
+        "count": 5,
+        "mean_activation": 0.0409
+      },
+      {
+        "token": "'ll",
+        "count": 5,
+        "mean_activation": 0.0265
+      },
+      {
+        "token": " to",
+        "count": 4,
+        "mean_activation": 0.0249
+      },
+      {
+        "token": "you",
+        "count": 3,
+        "mean_activation": 0.0709
+      },
+      {
+        "token": " also",
+        "count": 3,
+        "mean_activation": 0.0561
+      }
+    ]
+  }
+}

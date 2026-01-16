@@ -1,0 +1,856 @@
+{
+  "feature_idx": 8615,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 23,
+    "mean_when_active": 0.08117443582286006,
+    "max_activation": 0.2890625,
+    "std_when_active": 0.08078922153682816,
+    "activation_rate": 0.00023
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8328,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 2923,
+        "mean_activation": 0.0429707519656536
+      },
+      {
+        "token": " of",
+        "count": 1943,
+        "mean_activation": 0.10919352014593653
+      },
+      {
+        "token": " pleasure",
+        "count": 443,
+        "mean_activation": 0.09634895410817579
+      },
+      {
+        "token": " the",
+        "count": 291,
+        "mean_activation": 0.01819251411149592
+      },
+      {
+        "token": " at",
+        "count": 283,
+        "mean_activation": 0.023861160547910227
+      },
+      {
+        "token": " opportunity",
+        "count": 271,
+        "mean_activation": 0.064182351876009
+      },
+      {
+        "token": " time",
+        "count": 242,
+        "mean_activation": 0.027270829382021564
+      },
+      {
+        "token": " up",
+        "count": 198,
+        "mean_activation": 0.020057832351838698
+      },
+      {
+        "token": " chance",
+        "count": 164,
+        "mean_activation": 0.04533860741592035
+      },
+      {
+        "token": " experience",
+        "count": 141,
+        "mean_activation": 0.025934151723875223
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8328,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...I've had the pleasure** of** seeing.\\nThe 3 star ra...",
+        "active_token": " of",
+        "activation": 0.34326171875,
+        "review_id": "LEAuC9oxsDmZSlYus0YnBg",
+        "position": 93
+      },
+      {
+        "context": "...have had the pleasure** of** being waited on. Peri...",
+        "active_token": " of",
+        "activation": 0.337646484375,
+        "review_id": "6MuS9Ehuky-um8bYN0hieg",
+        "position": 36
+      },
+      {
+        "context": "...na I had the pleasure** of** experience during an ...",
+        "active_token": " of",
+        "activation": 0.336669921875,
+        "review_id": "Y735wBGDNrICwL46KMzkdQ",
+        "position": 10
+      },
+      {
+        "context": "...I've had the pleasure** of** knowing. They run the...",
+        "active_token": " of",
+        "activation": 0.33642578125,
+        "review_id": "ojCJC-JuPT9qQL73yc-7Jw",
+        "position": 505
+      },
+      {
+        "context": "...I've had the pleasure** of** meeting.\\n\\nI'm not sur...",
+        "active_token": " of",
+        "activation": 0.3359375,
+        "review_id": "PvWOuzUiQOghhemxYnMcug",
+        "position": 115
+      },
+      {
+        "context": "...ntly had the pleasure** of** experiencing. When I ...",
+        "active_token": " of",
+        "activation": 0.334228515625,
+        "review_id": "frnZ-WsRlaa0NzUD4pgNFw",
+        "position": 20
+      },
+      {
+        "context": "...ever had the pleasure** of** sipping. \\n\\nIf you're ...",
+        "active_token": " of",
+        "activation": 0.33251953125,
+        "review_id": "j_t5u9y6LGRaay0DPZcWpw",
+        "position": 79
+      },
+      {
+        "context": "...have had the pleasure** of** meeting. Their passio...",
+        "active_token": " of",
+        "activation": 0.33251953125,
+        "review_id": "mqoLhPjrepF5bkAis_9aUQ",
+        "position": 171
+      },
+      {
+        "context": "...ever had the pleasure** of** eating. My wife order...",
+        "active_token": " of",
+        "activation": 0.329345703125,
+        "review_id": "Klw7dITUMKLQnDwW6-Hfow",
+        "position": 43
+      },
+      {
+        "context": "...k. I had the pleasure** of** eating their Veggie W...",
+        "active_token": " of",
+        "activation": 0.326171875,
+        "review_id": "AfG7ykzbuc52tfS_Z86w9Q",
+        "position": 20
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8615,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1807,
+        "max": 0.3433,
+        "mean": 0.2726
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " had",
+            " the"
+          ],
+          "ngram_str": " had the",
+          "count": 443,
+          "percent": 88.6
+        },
+        {
+          "ngram": [
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": " the pleasure",
+          "count": 375,
+          "percent": 75.0
+        },
+        {
+          "ngram": [
+            " pleasure",
+            " of"
+          ],
+          "ngram_str": " pleasure of",
+          "count": 370,
+          "percent": 74.0
+        },
+        {
+          "ngram": [
+            " I",
+            " had"
+          ],
+          "ngram_str": " I had",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " of",
+            " eating"
+          ],
+          "ngram_str": " of eating",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " ever",
+            " had"
+          ],
+          "ngram_str": " ever had",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " of",
+            " meeting"
+          ],
+          "ngram_str": " of meeting",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "'ve",
+            " had"
+          ],
+          "ngram_str": "'ve had",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " have",
+            " had"
+          ],
+          "ngram_str": " have had",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " the",
+            " privilege"
+          ],
+          "ngram_str": " the privilege",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "I",
+            " had"
+          ],
+          "ngram_str": "I had",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "'ve",
+            " ever"
+          ],
+          "ngram_str": "'ve ever",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " privilege",
+            " of"
+          ],
+          "ngram_str": " privilege of",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " of",
+            " dining"
+          ],
+          "ngram_str": " of dining",
+          "count": 35,
+          "percent": 7.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " pleasure",
+            " of"
+          ],
+          "ngram_str": " the pleasure of",
+          "count": 359,
+          "percent": 71.8
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": " had the pleasure",
+          "count": 332,
+          "percent": 66.4
+        },
+        {
+          "ngram": [
+            " I",
+            " had",
+            " the"
+          ],
+          "ngram_str": " I had the",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " ever",
+            " had",
+            " the"
+          ],
+          "ngram_str": " ever had the",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " pleasure",
+            " of",
+            " eating"
+          ],
+          "ngram_str": " pleasure of eating",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "'ve",
+            " had",
+            " the"
+          ],
+          "ngram_str": "'ve had the",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " have",
+            " had",
+            " the"
+          ],
+          "ngram_str": " have had the",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " pleasure",
+            " of",
+            " meeting"
+          ],
+          "ngram_str": " pleasure of meeting",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "I",
+            " had",
+            " the"
+          ],
+          "ngram_str": "I had the",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " privilege"
+          ],
+          "ngram_str": " had the privilege",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " the",
+            " privilege",
+            " of"
+          ],
+          "ngram_str": " the privilege of",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "'ve",
+            " ever",
+            " had"
+          ],
+          "ngram_str": "'ve ever had",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " have",
+            " ever",
+            " had"
+          ],
+          "ngram_str": " have ever had",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " I",
+            " have",
+            " had"
+          ],
+          "ngram_str": " I have had",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " pleasure",
+            " of",
+            " dining"
+          ],
+          "ngram_str": " pleasure of dining",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " had",
+            " the",
+            " pleasure",
+            " of"
+          ],
+          "ngram_str": " had the pleasure of",
+          "count": 316,
+          "percent": 63.2
+        },
+        {
+          "ngram": [
+            " the",
+            " pleasure",
+            " of",
+            " eating"
+          ],
+          "ngram_str": " the pleasure of eating",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " ever",
+            " had",
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": " ever had the pleasure",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " I",
+            " had",
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": " I had the pleasure",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " pleasure",
+            " of",
+            " meeting"
+          ],
+          "ngram_str": " the pleasure of meeting",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "'ve",
+            " ever",
+            " had",
+            " the"
+          ],
+          "ngram_str": "'ve ever had the",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "'ve",
+            " had",
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": "'ve had the pleasure",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " privilege",
+            " of"
+          ],
+          "ngram_str": " had the privilege of",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " have",
+            " ever",
+            " had",
+            " the"
+          ],
+          "ngram_str": " have ever had the",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " I",
+            " have",
+            " had",
+            " the"
+          ],
+          "ngram_str": " I have had the",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " have",
+            " had",
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": " have had the pleasure",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " pleasure",
+            " of",
+            " dining"
+          ],
+          "ngram_str": " the pleasure of dining",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " had",
+            " the"
+          ],
+          "ngram_str": " I've had the",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "I",
+            " had",
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": "I had the pleasure",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " pleasure",
+            " of",
+            " being"
+          ],
+          "ngram_str": " the pleasure of being",
+          "count": 24,
+          "percent": 4.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8328,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20403,
+        "count": 5630,
+        "percent": 67.6
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5585,
+        "percent": 67.06
+      },
+      {
+        "feature_idx": 17430,
+        "count": 4640,
+        "percent": 55.72
+      },
+      {
+        "feature_idx": 5236,
+        "count": 3734,
+        "percent": 44.84
+      },
+      {
+        "feature_idx": 10548,
+        "count": 3503,
+        "percent": 42.06
+      },
+      {
+        "feature_idx": 16339,
+        "count": 3332,
+        "percent": 40.01
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2890,
+        "percent": 34.7
+      },
+      {
+        "feature_idx": 24379,
+        "count": 2687,
+        "percent": 32.26
+      },
+      {
+        "feature_idx": 17687,
+        "count": 2472,
+        "percent": 29.68
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2415,
+        "percent": 29.0
+      },
+      {
+        "feature_idx": 13934,
+        "count": 2386,
+        "percent": 28.65
+      },
+      {
+        "feature_idx": 20869,
+        "count": 2350,
+        "percent": 28.22
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2349,
+        "percent": 28.21
+      },
+      {
+        "feature_idx": 4335,
+        "count": 2157,
+        "percent": 25.9
+      },
+      {
+        "feature_idx": 18485,
+        "count": 2128,
+        "percent": 25.55
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1962,
+        "percent": 23.56
+      },
+      {
+        "feature_idx": 9127,
+        "count": 1958,
+        "percent": 23.51
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1938,
+        "percent": 23.27
+      },
+      {
+        "feature_idx": 8622,
+        "count": 1936,
+        "percent": 23.25
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1925,
+        "percent": 23.11
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8328,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3822,
+        "percent": 45.89
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1503,
+        "percent": 18.05
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1064,
+        "percent": 12.78
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 940,
+        "percent": 11.29
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 999,
+        "percent": 12.0
+      }
+    ],
+    "mean_position": 0.338,
+    "std_position": 0.3005
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 23,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0214,
+      "p25": 0.0288,
+      "p50": 0.048,
+      "p75": 0.0919,
+      "p90": 0.224,
+      "p95": 0.2602,
+      "p99": 0.2834
+    },
+    "skewness": 1.4803,
+    "kurtosis": 0.8424,
+    "min": 0.0122,
+    "max": 0.2891,
+    "mean": 0.0812,
+    "std": 0.0808
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 23,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 9,
+        "mean_activation": 0.0557
+      },
+      {
+        "token": " of",
+        "count": 6,
+        "mean_activation": 0.1503
+      },
+      {
+        "token": " pleasure",
+        "count": 4,
+        "mean_activation": 0.0752
+      },
+      {
+        "token": " at",
+        "count": 2,
+        "mean_activation": 0.0243
+      },
+      {
+        "token": " opportunity",
+        "count": 1,
+        "mean_activation": 0.0834
+      },
+      {
+        "token": " by",
+        "count": 1,
+        "mean_activation": 0.031
+      }
+    ]
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "feature_idx": 3862,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 8,
+    "mean_when_active": 0.07164192199707031,
+    "max_activation": 0.1451416015625,
+    "std_when_active": 0.03564870777017942,
+    "activation_rate": 8e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6770,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " side",
+        "count": 5409,
+        "mean_activation": 0.11012256923456204
+      },
+      {
+        "token": " end",
+        "count": 210,
+        "mean_activation": 0.062091500418526784
+      },
+      {
+        "token": " of",
+        "count": 176,
+        "mean_activation": 0.04978500713001598
+      },
+      {
+        "token": " for",
+        "count": 109,
+        "mean_activation": 0.032024558531034975
+      },
+      {
+        "token": " one",
+        "count": 105,
+        "mean_activation": 0.03749099004836309
+      },
+      {
+        "token": ",",
+        "count": 80,
+        "mean_activation": 0.027211761474609374
+      },
+      {
+        "token": " off",
+        "count": 46,
+        "mean_activation": 0.025441377059273098
+      },
+      {
+        "token": " it",
+        "count": 40,
+        "mean_activation": 0.019147682189941406
+      },
+      {
+        "token": " the",
+        "count": 34,
+        "mean_activation": 0.03707436954273897
+      },
+      {
+        "token": " option",
+        "count": 32,
+        "mean_activation": 0.03184652328491211
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6770,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...s are on the smaller** side**, but are pretty inex...",
+        "active_token": " side",
+        "activation": 0.27734375,
+        "review_id": "u9TZYYCUYbfBzYkAXu8JmA",
+        "position": 26
+      },
+      {
+        "context": "...ey were on the small** side** and lighter on the m...",
+        "active_token": " side",
+        "activation": 0.275146484375,
+        "review_id": "y6WbumzR85vgiEGY8Mp_Dw",
+        "position": 123
+      },
+      {
+        "context": "...s are on the smaller** side**, so you may need to ...",
+        "active_token": " side",
+        "activation": 0.265625,
+        "review_id": "KI-vlUDOlY0I11GuenhWpg",
+        "position": 98
+      },
+      {
+        "context": "...f was on the smaller** side** for the average in t...",
+        "active_token": " side",
+        "activation": 0.262451171875,
+        "review_id": "0yfhSLStx9QB6_U8qNxaOA",
+        "position": 352
+      },
+      {
+        "context": "...n was on the smaller** side** but the fish was per...",
+        "active_token": " side",
+        "activation": 0.262451171875,
+        "review_id": "TyZNgSm57aUVccWg1xbVhg",
+        "position": 116
+      },
+      {
+        "context": "...s are on the smaller** side** for what you pay for...",
+        "active_token": " side",
+        "activation": 0.26220703125,
+        "review_id": "izg76W8onUqMVOutHFMJIw",
+        "position": 45
+      },
+      {
+        "context": "...t was on the smaller** side** and they had very sm...",
+        "active_token": " side",
+        "activation": 0.261962890625,
+        "review_id": "EoGmvVAfit2bAk6ELh8v6g",
+        "position": 75
+      },
+      {
+        "context": "...ce is on the smaller** side** by the way, about 5 ...",
+        "active_token": " side",
+        "activation": 0.26123046875,
+        "review_id": "bbpgUftcrFDq59zGkpnvqg",
+        "position": 98
+      },
+      {
+        "context": "...s are on the smaller** side**, and the prices are ...",
+        "active_token": " side",
+        "activation": 0.2607421875,
+        "review_id": "fYCdkynO_zS5bAMUopaQ-w",
+        "position": 38
+      },
+      {
+        "context": "...s are on the smaller** side** (especially the guac...",
+        "active_token": " side",
+        "activation": 0.260498046875,
+        "review_id": "lzkQJxRRmD52tiyMoVkRdA",
+        "position": 15
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3862,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1943,
+        "max": 0.2773,
+        "mean": 0.2242
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 501,
+          "percent": 100.2
+        },
+        {
+          "ngram": [
+            " smaller",
+            " side"
+          ],
+          "ngram_str": " smaller side",
+          "count": 192,
+          "percent": 38.4
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " the smaller",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " the",
+            " small"
+          ],
+          "ngram_str": " the small",
+          "count": 182,
+          "percent": 36.4
+        },
+        {
+          "ngram": [
+            " small",
+            " side"
+          ],
+          "ngram_str": " small side",
+          "count": 182,
+          "percent": 36.4
+        },
+        {
+          "ngram": [
+            " side",
+            ","
+          ],
+          "ngram_str": " side,",
+          "count": 151,
+          "percent": 30.2
+        },
+        {
+          "ngram": [
+            " are",
+            " on"
+          ],
+          "ngram_str": " are on",
+          "count": 124,
+          "percent": 24.8
+        },
+        {
+          "ngram": [
+            " side",
+            "."
+          ],
+          "ngram_str": " side.",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " was",
+            " on"
+          ],
+          "ngram_str": " was on",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " were",
+            " on"
+          ],
+          "ngram_str": " were on",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " side",
+            " but"
+          ],
+          "ngram_str": " side but",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " is",
+            " on"
+          ],
+          "ngram_str": " is on",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " a",
+            " little"
+          ],
+          "ngram_str": " a little",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " little",
+            " on"
+          ],
+          "ngram_str": " little on",
+          "count": 47,
+          "percent": 9.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " on the smaller",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side"
+          ],
+          "ngram_str": " the smaller side",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " small"
+          ],
+          "ngram_str": " on the small",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            " the",
+            " small",
+            " side"
+          ],
+          "ngram_str": " the small side",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            " are",
+            " on",
+            " the"
+          ],
+          "ngram_str": " are on the",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            " was",
+            " on",
+            " the"
+          ],
+          "ngram_str": " was on the",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " were",
+            " on",
+            " the"
+          ],
+          "ngram_str": " were on the",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " side",
+            ",",
+            " but"
+          ],
+          "ngram_str": " side, but",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " is",
+            " on",
+            " the"
+          ],
+          "ngram_str": " is on the",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " smaller",
+            " side",
+            ","
+          ],
+          "ngram_str": " smaller side,",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " small",
+            " side",
+            ","
+          ],
+          "ngram_str": " small side,",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " small",
+            " side",
+            "."
+          ],
+          "ngram_str": " small side.",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " on"
+          ],
+          "ngram_str": " a little on",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " little",
+            " on",
+            " the"
+          ],
+          "ngram_str": " little on the",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " bit",
+            " on",
+            " the"
+          ],
+          "ngram_str": " bit on the",
+          "count": 41,
+          "percent": 8.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " smaller",
+            " side"
+          ],
+          "ngram_str": " on the smaller side",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " small",
+            " side"
+          ],
+          "ngram_str": " on the small side",
+          "count": 180,
+          "percent": 36.0
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side",
+            ","
+          ],
+          "ngram_str": " the smaller side,",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " are",
+            " on",
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " are on the smaller",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " the",
+            " small",
+            " side",
+            ","
+          ],
+          "ngram_str": " the small side,",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " the",
+            " small",
+            " side",
+            "."
+          ],
+          "ngram_str": " the small side.",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " on",
+            " the"
+          ],
+          "ngram_str": " a little on the",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " is",
+            " on",
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " is on the smaller",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " a",
+            " bit",
+            " on",
+            " the"
+          ],
+          "ngram_str": " a bit on the",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side",
+            "."
+          ],
+          "ngram_str": " the smaller side.",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " are",
+            " on",
+            " the",
+            " small"
+          ],
+          "ngram_str": " are on the small",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " little",
+            " on",
+            " the",
+            " small"
+          ],
+          "ngram_str": " little on the small",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " smaller",
+            " side",
+            ",",
+            " but"
+          ],
+          "ngram_str": " smaller side, but",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side",
+            " but"
+          ],
+          "ngram_str": " the smaller side but",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " were",
+            " on",
+            " the",
+            " small"
+          ],
+          "ngram_str": " were on the small",
+          "count": 28,
+          "percent": 5.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6770,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 15748,
+        "count": 5584,
+        "percent": 82.48
+      },
+      {
+        "feature_idx": 18717,
+        "count": 5450,
+        "percent": 80.5
+      },
+      {
+        "feature_idx": 9561,
+        "count": 5433,
+        "percent": 80.25
+      },
+      {
+        "feature_idx": 17454,
+        "count": 5407,
+        "percent": 79.87
+      },
+      {
+        "feature_idx": 6568,
+        "count": 5369,
+        "percent": 79.31
+      },
+      {
+        "feature_idx": 22001,
+        "count": 5128,
+        "percent": 75.75
+      },
+      {
+        "feature_idx": 12278,
+        "count": 4949,
+        "percent": 73.1
+      },
+      {
+        "feature_idx": 19167,
+        "count": 4905,
+        "percent": 72.45
+      },
+      {
+        "feature_idx": 14918,
+        "count": 4479,
+        "percent": 66.16
+      },
+      {
+        "feature_idx": 305,
+        "count": 4146,
+        "percent": 61.24
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3985,
+        "percent": 58.86
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3397,
+        "percent": 50.18
+      },
+      {
+        "feature_idx": 19995,
+        "count": 3013,
+        "percent": 44.51
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2896,
+        "percent": 42.78
+      },
+      {
+        "feature_idx": 5813,
+        "count": 2382,
+        "percent": 35.18
+      },
+      {
+        "feature_idx": 15856,
+        "count": 2316,
+        "percent": 34.21
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2283,
+        "percent": 33.72
+      },
+      {
+        "feature_idx": 7672,
+        "count": 2194,
+        "percent": 32.41
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2105,
+        "percent": 31.09
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1966,
+        "percent": 29.04
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6770,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 687,
+        "percent": 10.15
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1360,
+        "percent": 20.09
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1551,
+        "percent": 22.91
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1697,
+        "percent": 25.07
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1475,
+        "percent": 21.79
+      }
+    ],
+    "mean_position": 0.5578,
+    "std_position": 0.2558
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 8,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.038,
+      "p25": 0.0505,
+      "p50": 0.0634,
+      "p75": 0.0903,
+      "p90": 0.1096,
+      "p95": 0.1274,
+      "p99": 0.1416
+    },
+    "skewness": 0.6876,
+    "kurtosis": -0.1222,
+    "min": 0.0202,
+    "max": 0.1451,
+    "mean": 0.0716,
+    "std": 0.0356
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 8,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " side",
+        "count": 7,
+        "mean_activation": 0.079
+      },
+      {
+        "token": " better",
+        "count": 1,
+        "mean_activation": 0.0202
+      }
+    ]
+  }
+}

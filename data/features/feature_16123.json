@@ -1,0 +1,876 @@
+{
+  "feature_idx": 16123,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 307,
+    "mean_when_active": 0.05188531285388462,
+    "max_activation": 0.277099609375,
+    "std_when_active": 0.041239696241218364,
+    "activation_rate": 0.00307
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 18200000,
+      "corpus_coverage": 0.352
+    },
+    "top_tokens": [
+      {
+        "token": " en",
+        "count": 1145,
+        "mean_activation": 0.03307559750486149
+      },
+      {
+        "token": " bur",
+        "count": 941,
+        "mean_activation": 0.03668342614655287
+      },
+      {
+        "token": " don",
+        "count": 857,
+        "mean_activation": 0.04931163454000146
+      },
+      {
+        "token": " get",
+        "count": 662,
+        "mean_activation": 0.06162089091413331
+      },
+      {
+        "token": " taste",
+        "count": 657,
+        "mean_activation": 0.0789244374546649
+      },
+      {
+        "token": " disappoint",
+        "count": 526,
+        "mean_activation": 0.1513454596805935
+      },
+      {
+        "token": " L",
+        "count": 463,
+        "mean_activation": 0.03214998842573063
+      },
+      {
+        "token": "ll",
+        "count": 456,
+        "mean_activation": 0.03026997415642989
+      },
+      {
+        "token": " go",
+        "count": 421,
+        "mean_activation": 0.050327509429279244
+      },
+      {
+        "token": " re",
+        "count": 369,
+        "mean_activation": 0.03928600611079353
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 18200000,
+      "corpus_coverage": 0.352
+    },
+    "activations": [
+      {
+        "context": "...n on the rocks) so it** get** super frothy and is ...",
+        "active_token": " get",
+        "activation": 0.318603515625,
+        "review_id": "3BIQ8SwaA3RdRK7Xf953EQ",
+        "position": 50
+      },
+      {
+        "context": "...loaded\" are added it** cool**s it down too much.  ...",
+        "active_token": " cool",
+        "activation": 0.316162109375,
+        "review_id": "j6DqkzGjm4vDHRY4iG58ng",
+        "position": 57
+      },
+      {
+        "context": "...ce for lunch since it** get** us out of the office...",
+        "active_token": " get",
+        "activation": 0.303955078125,
+        "review_id": "A8KPFsX6UzNUT0mDe78Dcw",
+        "position": 14
+      },
+      {
+        "context": ".... I'm mean really. It** get** 3 stars. Still kills...",
+        "active_token": " get",
+        "activation": 0.300537109375,
+        "review_id": "iuxf7ytGqGeRLaAq7UFHuw",
+        "position": 47
+      },
+      {
+        "context": "...entic. And it really** annoy**s me that he took Mi...",
+        "active_token": " annoy",
+        "activation": 0.30029296875,
+        "review_id": "hoYuJnswXleGIVKBeTQocg",
+        "position": 373
+      },
+      {
+        "context": "...eatre marque which** proclaim**s (in Spanish) that...",
+        "active_token": " proclaim",
+        "activation": 0.298583984375,
+        "review_id": "E6LNQu_4pBE8n8vKVoPL5A",
+        "position": 11
+      },
+      {
+        "context": "...ck because it really** annoy**s me that they don't...",
+        "active_token": " annoy",
+        "activation": 0.298095703125,
+        "review_id": "DMEB8aCeFcpPbFQ5h6BPbA",
+        "position": 46
+      },
+      {
+        "context": "... supposed to do, she** tell** us we are wrong. Add...",
+        "active_token": " tell",
+        "activation": 0.2939453125,
+        "review_id": "pYn1MKl1sYT4QQ78AerQuQ",
+        "position": 463
+      },
+      {
+        "context": "...rito but said it \"rem**ind**ed him of Heritage Day...",
+        "active_token": "ind",
+        "activation": 0.292236328125,
+        "review_id": "nPV_rxuK04tSQ6CQKWG2rg",
+        "position": 727
+      },
+      {
+        "context": "... be patient while it** cool**s over the ice. I fin...",
+        "active_token": " cool",
+        "activation": 0.291748046875,
+        "review_id": "q1-XatkRiQaRF66s2bjH1Q",
+        "position": 163
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 16123,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 36200000,
+      "corpus_coverage": 0.7002,
+      "activation_range": {
+        "min": 0.2375,
+        "max": 0.3335,
+        "mean": 0.2563
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " disappoint",
+            "s"
+          ],
+          "ngram_str": " disappoints",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            " and",
+            " it"
+          ],
+          "ngram_str": " and it",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " never",
+            " disappoint"
+          ],
+          "ngram_str": " never disappoint",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " it",
+            " never"
+          ],
+          "ngram_str": " it never",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            "s",
+            "."
+          ],
+          "ngram_str": "s.",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " It"
+          ],
+          "ngram_str": ". It",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "s",
+            " me"
+          ],
+          "ngram_str": "s me",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " L",
+            "OV"
+          ],
+          "ngram_str": " LOV",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " cool",
+            "s"
+          ],
+          "ngram_str": " cools",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " to",
+            " be"
+          ],
+          "ngram_str": " to be",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " use",
+            " to"
+          ],
+          "ngram_str": " use to",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " never",
+            " disappoint",
+            "s"
+          ],
+          "ngram_str": " never disappoints",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " it",
+            " never",
+            " disappoint"
+          ],
+          "ngram_str": " it never disappoint",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " and",
+            " it",
+            " never"
+          ],
+          "ngram_str": " and it never",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " disappoint",
+            "s",
+            "."
+          ],
+          "ngram_str": " disappoints.",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " times",
+            " and",
+            " it"
+          ],
+          "ngram_str": " times and it",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " it",
+            " cool",
+            "s"
+          ],
+          "ngram_str": " it cools",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " use",
+            " to",
+            " be"
+          ],
+          "ngram_str": " use to be",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " annoy",
+            "s",
+            " me"
+          ],
+          "ngram_str": " annoys me",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " L",
+            "OV",
+            "ES"
+          ],
+          "ngram_str": " LOVES",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " disappoint",
+            "s",
+            " me"
+          ],
+          "ngram_str": " disappoints me",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " it"
+          ],
+          "ngram_str": ", and it",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "s",
+            ".",
+            " "
+          ],
+          "ngram_str": "s. ",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " disappoint",
+            "s",
+            "!"
+          ],
+          "ngram_str": " disappoints!",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " it",
+            " never",
+            " disappoint",
+            "s"
+          ],
+          "ngram_str": " it never disappoints",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " and",
+            " it",
+            " never",
+            " disappoint"
+          ],
+          "ngram_str": " and it never disappoint",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " never",
+            " disappoint",
+            "s",
+            "."
+          ],
+          "ngram_str": " never disappoints.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " times",
+            " and",
+            " it",
+            " never"
+          ],
+          "ngram_str": " times and it never",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " never",
+            " disappoint",
+            "s",
+            "!"
+          ],
+          "ngram_str": " never disappoints!",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " disappoint",
+            "s",
+            ".",
+            " "
+          ],
+          "ngram_str": " disappoints. ",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " it",
+            " never"
+          ],
+          "ngram_str": ", and it never",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " disappoint",
+            "s",
+            ".",
+            " The"
+          ],
+          "ngram_str": " disappoints. The",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " it",
+            " use",
+            " to",
+            " be"
+          ],
+          "ngram_str": " it use to be",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " it",
+            " cool",
+            "s",
+            " down"
+          ],
+          "ngram_str": " it cools down",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " years",
+            " and",
+            " it",
+            " never"
+          ],
+          "ngram_str": " years and it never",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " cool",
+            "s",
+            " down",
+            "."
+          ],
+          "ngram_str": " cools down.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3700000,
+      "corpus_coverage": 0.0716
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4531,
+        "percent": 45.31
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4010,
+        "percent": 40.1
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3845,
+        "percent": 38.45
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3577,
+        "percent": 35.77
+      },
+      {
+        "feature_idx": 16269,
+        "count": 3429,
+        "percent": 34.29
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3265,
+        "percent": 32.65
+      },
+      {
+        "feature_idx": 19167,
+        "count": 3157,
+        "percent": 31.57
+      },
+      {
+        "feature_idx": 4541,
+        "count": 2586,
+        "percent": 25.86
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2548,
+        "percent": 25.48
+      },
+      {
+        "feature_idx": 18815,
+        "count": 2392,
+        "percent": 23.92
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2357,
+        "percent": 23.57
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2138,
+        "percent": 21.38
+      },
+      {
+        "feature_idx": 23658,
+        "count": 1986,
+        "percent": 19.86
+      },
+      {
+        "feature_idx": 12982,
+        "count": 1568,
+        "percent": 15.68
+      },
+      {
+        "feature_idx": 19889,
+        "count": 1390,
+        "percent": 13.9
+      },
+      {
+        "feature_idx": 19926,
+        "count": 1336,
+        "percent": 13.36
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1213,
+        "percent": 12.13
+      },
+      {
+        "feature_idx": 4338,
+        "count": 1202,
+        "percent": 12.02
+      },
+      {
+        "feature_idx": 23840,
+        "count": 1114,
+        "percent": 11.14
+      },
+      {
+        "feature_idx": 11584,
+        "count": 1091,
+        "percent": 10.91
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3700000,
+      "corpus_coverage": 0.0716
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1842,
+        "percent": 18.42
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2113,
+        "percent": 21.13
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2206,
+        "percent": 22.06
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2091,
+        "percent": 20.91
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1748,
+        "percent": 17.48
+      }
+    ],
+    "mean_position": 0.4949,
+    "std_position": 0.2757
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 307,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0217,
+      "p25": 0.0266,
+      "p50": 0.0379,
+      "p75": 0.0588,
+      "p90": 0.0994,
+      "p95": 0.1382,
+      "p99": 0.2366
+    },
+    "skewness": 2.4862,
+    "kurtosis": 7.5344,
+    "min": 0.0072,
+    "max": 0.2771,
+    "mean": 0.0519,
+    "std": 0.0412
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 307,
+      "unique_tokens_found": 228
+    },
+    "tokens": [
+      {
+        "token": " bur",
+        "count": 7,
+        "mean_activation": 0.0326
+      },
+      {
+        "token": " get",
+        "count": 6,
+        "mean_activation": 0.0478
+      },
+      {
+        "token": " close",
+        "count": 5,
+        "mean_activation": 0.033
+      },
+      {
+        "token": " taste",
+        "count": 5,
+        "mean_activation": 0.0712
+      },
+      {
+        "token": " cost",
+        "count": 5,
+        "mean_activation": 0.0592
+      },
+      {
+        "token": " need",
+        "count": 4,
+        "mean_activation": 0.0421
+      },
+      {
+        "token": " dri",
+        "count": 4,
+        "mean_activation": 0.0734
+      },
+      {
+        "token": " don",
+        "count": 4,
+        "mean_activation": 0.0383
+      },
+      {
+        "token": " L",
+        "count": 4,
+        "mean_activation": 0.0213
+      },
+      {
+        "token": " like",
+        "count": 3,
+        "mean_activation": 0.0519
+      }
+    ]
+  }
+}

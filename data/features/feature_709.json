@@ -1,0 +1,836 @@
+{
+  "feature_idx": 709,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 10,
+    "mean_when_active": 0.168353271484375,
+    "max_activation": 0.280517578125,
+    "std_when_active": 0.09237368258309839,
+    "activation_rate": 0.0001
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6641,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " away",
+        "count": 3750,
+        "mean_activation": 0.2400514851888021
+      },
+      {
+        "token": " off",
+        "count": 553,
+        "mean_activation": 0.06955888689534358
+      },
+      {
+        "token": " there",
+        "count": 496,
+        "mean_activation": 0.05011520078105311
+      },
+      {
+        "token": " immediately",
+        "count": 267,
+        "mean_activation": 0.02913322877348139
+      },
+      {
+        "token": " around",
+        "count": 203,
+        "mean_activation": 0.03876604352678571
+      },
+      {
+        "token": " on",
+        "count": 143,
+        "mean_activation": 0.03536624508304196
+      },
+      {
+        "token": " after",
+        "count": 140,
+        "mean_activation": 0.03422818865094866
+      },
+      {
+        "token": " out",
+        "count": 127,
+        "mean_activation": 0.04704897422490158
+      },
+      {
+        "token": " when",
+        "count": 105,
+        "mean_activation": 0.035826038178943455
+      },
+      {
+        "token": " up",
+        "count": 104,
+        "mean_activation": 0.03791589003342848
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6641,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ccommodated us right** away**.  We started with th...",
+        "active_token": " away",
+        "activation": 0.301513671875,
+        "review_id": "VGf1tg0V7P5Dzol4ftmBYA",
+        "position": 48
+      },
+      {
+        "context": "...ame over to us right** away** to take our drink or...",
+        "active_token": " away",
+        "activation": 0.299560546875,
+        "review_id": "FPjr3OyQngygy02E84LJaw",
+        "position": 173
+      },
+      {
+        "context": "...we were seated right** away**. I will say I enjoye...",
+        "active_token": " away",
+        "activation": 0.29736328125,
+        "review_id": "XNQfCeDhB9vhyCZbyyGwow",
+        "position": 33
+      },
+      {
+        "context": "...we were seated right** away**. We shared queso and...",
+        "active_token": " away",
+        "activation": 0.29736328125,
+        "review_id": "Qi6xJRC5B1QYSdOo3gUKLQ",
+        "position": 94
+      },
+      {
+        "context": "...We were seated right** away** when we arrived.\\n\\nOu...",
+        "active_token": " away",
+        "activation": 0.295166015625,
+        "review_id": "wM0FZQDq1DEpXIuNs3HGZA",
+        "position": 99
+      },
+      {
+        "context": "... and seated us right** away**. We ordered some mar...",
+        "active_token": " away",
+        "activation": 0.294677734375,
+        "review_id": "_Y9sskSP60QPmqVaWaFtcQ",
+        "position": 25
+      },
+      {
+        "context": "... she seated us right** away**. \\n\\nOur friend was a ...",
+        "active_token": " away",
+        "activation": 0.293701171875,
+        "review_id": "_8VzsZ8e3B9y0OxfMnNLIQ",
+        "position": 53
+      },
+      {
+        "context": "...they seated us right** away**... which I thought w...",
+        "active_token": " away",
+        "activation": 0.29345703125,
+        "review_id": "nGpkE0uNYWcjRgd54nZjbQ",
+        "position": 75
+      },
+      {
+        "context": "...we were seated right** away**. The place is cute a...",
+        "active_token": " away",
+        "activation": 0.29345703125,
+        "review_id": "ospXIuTG_0U2_jAH3YFHZg",
+        "position": 32
+      },
+      {
+        "context": "...nd were seated right** away**. Our drink orders we...",
+        "active_token": " away",
+        "activation": 0.293212890625,
+        "review_id": "w8t346_DgkjFTOzGWJiDiQ",
+        "position": 120
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 709,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2769,
+        "max": 0.3015,
+        "mean": 0.2822
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " right",
+            " away"
+          ],
+          "ngram_str": " right away",
+          "count": 498,
+          "percent": 99.6
+        },
+        {
+          "ngram": [
+            " seated",
+            " right"
+          ],
+          "ngram_str": " seated right",
+          "count": 374,
+          "percent": 74.8
+        },
+        {
+          "ngram": [
+            " away",
+            "."
+          ],
+          "ngram_str": " away.",
+          "count": 287,
+          "percent": 57.4
+        },
+        {
+          "ngram": [
+            " were",
+            " seated"
+          ],
+          "ngram_str": " were seated",
+          "count": 256,
+          "percent": 51.2
+        },
+        {
+          "ngram": [
+            " we",
+            " were"
+          ],
+          "ngram_str": " we were",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We"
+          ],
+          "ngram_str": ". We",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " We",
+            " were"
+          ],
+          "ngram_str": " We were",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " away",
+            " and"
+          ],
+          "ngram_str": " away and",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " and",
+            " we"
+          ],
+          "ngram_str": " and we",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " and",
+            " were"
+          ],
+          "ngram_str": " and were",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " us",
+            " right"
+          ],
+          "ngram_str": " us right",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " and",
+            " seated"
+          ],
+          "ngram_str": " and seated",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " were",
+            " greeted"
+          ],
+          "ngram_str": " were greeted",
+          "count": 42,
+          "percent": 8.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " seated",
+            " right",
+            " away"
+          ],
+          "ngram_str": " seated right away",
+          "count": 374,
+          "percent": 74.8
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            "."
+          ],
+          "ngram_str": " right away.",
+          "count": 287,
+          "percent": 57.4
+        },
+        {
+          "ngram": [
+            " were",
+            " seated",
+            " right"
+          ],
+          "ngram_str": " were seated right",
+          "count": 253,
+          "percent": 50.6
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " seated"
+          ],
+          "ngram_str": " we were seated",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            " and"
+          ],
+          "ngram_str": " right away and",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " We",
+            " were",
+            " seated"
+          ],
+          "ngram_str": " We were seated",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " were"
+          ],
+          "ngram_str": ". We were",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " and",
+            " we",
+            " were"
+          ],
+          "ngram_str": " and we were",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " and",
+            " were",
+            " seated"
+          ],
+          "ngram_str": " and were seated",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " us",
+            " right",
+            " away"
+          ],
+          "ngram_str": " us right away",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " away",
+            ".",
+            " The"
+          ],
+          "ngram_str": " away. The",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " away",
+            ".",
+            " Our"
+          ],
+          "ngram_str": " away. Our",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " away",
+            ".",
+            " "
+          ],
+          "ngram_str": " away. ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " and",
+            " seated",
+            " right"
+          ],
+          "ngram_str": " and seated right",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            ","
+          ],
+          "ngram_str": " right away,",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " were",
+            " seated",
+            " right",
+            " away"
+          ],
+          "ngram_str": " were seated right away",
+          "count": 253,
+          "percent": 50.6
+        },
+        {
+          "ngram": [
+            " seated",
+            " right",
+            " away",
+            "."
+          ],
+          "ngram_str": " seated right away.",
+          "count": 225,
+          "percent": 45.0
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " seated",
+            " right"
+          ],
+          "ngram_str": " we were seated right",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            " We",
+            " were",
+            " seated",
+            " right"
+          ],
+          "ngram_str": " We were seated right",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " and",
+            " we",
+            " were",
+            " seated"
+          ],
+          "ngram_str": " and we were seated",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " and",
+            " were",
+            " seated",
+            " right"
+          ],
+          "ngram_str": " and were seated right",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " were",
+            " seated"
+          ],
+          "ngram_str": ". We were seated",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " seated",
+            " right",
+            " away",
+            " and"
+          ],
+          "ngram_str": " seated right away and",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            ".",
+            " The"
+          ],
+          "ngram_str": " right away. The",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " us",
+            " right",
+            " away",
+            "."
+          ],
+          "ngram_str": " us right away.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            ".",
+            " Our"
+          ],
+          "ngram_str": " right away. Our",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            ".",
+            " "
+          ],
+          "ngram_str": " right away. ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " and",
+            " seated",
+            " right",
+            " away"
+          ],
+          "ngram_str": " and seated right away",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            ".",
+            " I"
+          ],
+          "ngram_str": " right away. I",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " right",
+            " away",
+            ".",
+            " We"
+          ],
+          "ngram_str": " right away. We",
+          "count": 29,
+          "percent": 5.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6641,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16916,
+        "count": 5945,
+        "percent": 89.52
+      },
+      {
+        "feature_idx": 5025,
+        "count": 4092,
+        "percent": 61.62
+      },
+      {
+        "feature_idx": 8665,
+        "count": 3784,
+        "percent": 56.98
+      },
+      {
+        "feature_idx": 10178,
+        "count": 3648,
+        "percent": 54.93
+      },
+      {
+        "feature_idx": 402,
+        "count": 3632,
+        "percent": 54.69
+      },
+      {
+        "feature_idx": 22210,
+        "count": 3587,
+        "percent": 54.01
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3476,
+        "percent": 52.34
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3069,
+        "percent": 46.21
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2726,
+        "percent": 41.05
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2724,
+        "percent": 41.02
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2419,
+        "percent": 36.43
+      },
+      {
+        "feature_idx": 2108,
+        "count": 2305,
+        "percent": 34.71
+      },
+      {
+        "feature_idx": 7329,
+        "count": 2199,
+        "percent": 33.11
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2094,
+        "percent": 31.53
+      },
+      {
+        "feature_idx": 7007,
+        "count": 2057,
+        "percent": 30.97
+      },
+      {
+        "feature_idx": 14888,
+        "count": 2033,
+        "percent": 30.61
+      },
+      {
+        "feature_idx": 6486,
+        "count": 1895,
+        "percent": 28.53
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1866,
+        "percent": 28.1
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1823,
+        "percent": 27.45
+      },
+      {
+        "feature_idx": 19995,
+        "count": 1820,
+        "percent": 27.41
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6641,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1949,
+        "percent": 29.35
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1981,
+        "percent": 29.83
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1133,
+        "percent": 17.06
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 836,
+        "percent": 12.59
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 742,
+        "percent": 11.17
+      }
+    ],
+    "mean_position": 0.3941,
+    "std_position": 0.2658
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 10,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0396,
+      "p25": 0.0675,
+      "p50": 0.2188,
+      "p75": 0.2332,
+      "p90": 0.2645,
+      "p95": 0.2725,
+      "p99": 0.2789
+    },
+    "skewness": -0.4306,
+    "kurtosis": -1.4988,
+    "min": 0.0326,
+    "max": 0.2805,
+    "mean": 0.1684,
+    "std": 0.0924
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 10,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " away",
+        "count": 7,
+        "mean_activation": 0.223
+      },
+      {
+        "token": " there",
+        "count": 3,
+        "mean_activation": 0.0409
+      }
+    ]
+  }
+}

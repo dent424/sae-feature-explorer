@@ -1,0 +1,846 @@
+{
+  "feature_idx": 5790,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 7,
+    "mean_when_active": 0.05458940778459821,
+    "max_activation": 0.1339111328125,
+    "std_when_active": 0.034428336146055054,
+    "activation_rate": 7e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 4891,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Cons",
+        "count": 870,
+        "mean_activation": 0.06265904218301006
+      },
+      {
+        "token": "us",
+        "count": 731,
+        "mean_activation": 0.12061179352850333
+      },
+      {
+        "token": " cons",
+        "count": 722,
+        "mean_activation": 0.09798179901207583
+      },
+      {
+        "token": " I",
+        "count": 715,
+        "mean_activation": 0.033809880610112544
+      },
+      {
+        "token": " grape",
+        "count": 513,
+        "mean_activation": 0.2512192754020468
+      },
+      {
+        "token": " Chevy",
+        "count": 200,
+        "mean_activation": 0.0409442138671875
+      },
+      {
+        "token": " vine",
+        "count": 139,
+        "mean_activation": 0.05357020535915018
+      },
+      {
+        "token": " Germ",
+        "count": 86,
+        "mean_activation": 0.06059478050054506
+      },
+      {
+        "token": " grapes",
+        "count": 72,
+        "mean_activation": 0.11591466267903645
+      },
+      {
+        "token": " Gonz",
+        "count": 68,
+        "mean_activation": 0.06620115392348346
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 4891,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... dip, one beer and a** grape**fruit/ginger agua fr...",
+        "active_token": " grape",
+        "activation": 0.294921875,
+        "review_id": "2a52RrRLR2i-DrZ3kI3rmQ",
+        "position": 112
+      },
+      {
+        "context": "...his food down with a** grape** Fanta.",
+        "active_token": " grape",
+        "activation": 0.2939453125,
+        "review_id": "ZfGY8a_LRhpEjA6yXUrhag",
+        "position": 383
+      },
+      {
+        "context": "...ve heard through the** grape** vine not to go too ...",
+        "active_token": " grape",
+        "activation": 0.290771484375,
+        "review_id": "c3KCwvBnmZK4z5NUp-tfyw",
+        "position": 47
+      },
+      {
+        "context": "... I heard through the** grape**vine that they now c...",
+        "active_token": " grape",
+        "activation": 0.289794921875,
+        "review_id": "yeK0LDhmoWNTPz1pse9N_A",
+        "position": 39
+      },
+      {
+        "context": "...tastes almost like a** grape**fruit but with some ...",
+        "active_token": " grape",
+        "activation": 0.286865234375,
+        "review_id": "OU13Jva59XqRe68TZZZhNw",
+        "position": 38
+      },
+      {
+        "context": "...I started off with a** grape**fruit margarita. Alt...",
+        "active_token": " grape",
+        "activation": 0.2861328125,
+        "review_id": "kFvg0r5ODeqqFBxqPWn_oA",
+        "position": 19
+      },
+      {
+        "context": "...bit too. There was a** grape**fruit slice on my ma...",
+        "active_token": " grape",
+        "activation": 0.285888671875,
+        "review_id": "56vSHSf5be2VDkVfVaDgSA",
+        "position": 168
+      },
+      {
+        "context": "... of Tropicana OJ and** grape**fruit juice.  Whatev...",
+        "active_token": " grape",
+        "activation": 0.283935546875,
+        "review_id": "mCFXKaOKP_tHFMBFZKNm4g",
+        "position": 415
+      },
+      {
+        "context": "...eak quesadilla and a** grape**fruit Cosmo and a ra...",
+        "active_token": " grape",
+        "activation": 0.28369140625,
+        "review_id": "Q0DjqSZcj8zeQCXmOEdG7Q",
+        "position": 30
+      },
+      {
+        "context": "... a PBJ sandwich with** grape** jelly. So sticky, s...",
+        "active_token": " grape",
+        "activation": 0.28271484375,
+        "review_id": "mStIEXreloVHr6z1qPjz7w",
+        "position": 222
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5790,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2175,
+        "max": 0.2949,
+        "mean": 0.2527
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " grapefruit",
+          "count": 413,
+          "percent": 82.6
+        },
+        {
+          "ngram": [
+            " the",
+            " grape"
+          ],
+          "ngram_str": " the grape",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            "fruit",
+            " juice"
+          ],
+          "ngram_str": "fruit juice",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " a",
+            " grape"
+          ],
+          "ngram_str": " a grape",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " marg",
+            "ar"
+          ],
+          "ngram_str": " margar",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " and",
+            " grape"
+          ],
+          "ngram_str": " and grape",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "ar",
+            "ita"
+          ],
+          "ngram_str": "arita",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "fruit",
+            " marg"
+          ],
+          "ngram_str": "fruit marg",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ",",
+            " grape"
+          ],
+          "ngram_str": ", grape",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "fruit",
+            " soda"
+          ],
+          "ngram_str": "fruit soda",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " of",
+            " grape"
+          ],
+          "ngram_str": " of grape",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "fruit",
+            " and"
+          ],
+          "ngram_str": "fruit and",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " with",
+            " grape"
+          ],
+          "ngram_str": " with grape",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " the grapefruit",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            " juice"
+          ],
+          "ngram_str": " grapefruit juice",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " a",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " a grapefruit",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            " marg"
+          ],
+          "ngram_str": " grapefruit marg",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "fruit",
+            " marg",
+            "ar"
+          ],
+          "ngram_str": "fruit margar",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " marg",
+            "ar",
+            "ita"
+          ],
+          "ngram_str": " margarita",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " and",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " and grapefruit",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            " soda"
+          ],
+          "ngram_str": " grapefruit soda",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ",",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": ", grapefruit",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " of",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " of grapefruit",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            " and"
+          ],
+          "ngram_str": " grapefruit and",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            ","
+          ],
+          "ngram_str": " grapefruit,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " with",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " with grapefruit",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            "."
+          ],
+          "ngram_str": " grapefruit.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " like",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " like grapefruit",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            " marg",
+            "ar"
+          ],
+          "ngram_str": " grapefruit margar",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "fruit",
+            " marg",
+            "ar",
+            "ita"
+          ],
+          "ngram_str": "fruit margarita",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            " juice",
+            "."
+          ],
+          "ngram_str": " grapefruit juice.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " grape",
+            "fruit",
+            " marg"
+          ],
+          "ngram_str": " the grapefruit marg",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " marg",
+            "ar",
+            "ita",
+            "."
+          ],
+          "ngram_str": " margarita.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " grape",
+            "fruit",
+            ","
+          ],
+          "ngram_str": ", grapefruit,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": ". The grapefruit",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " grape",
+            "fruit",
+            " juice"
+          ],
+          "ngram_str": " and grapefruit juice",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "quila",
+            " and",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": "quila and grapefruit",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " grape",
+            "fruit",
+            " juice",
+            ","
+          ],
+          "ngram_str": " grapefruit juice,",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": " had the grapefruit",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " a",
+            " grape",
+            "fruit",
+            " marg"
+          ],
+          "ngram_str": " a grapefruit marg",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " with",
+            " grape",
+            "fruit",
+            " juice"
+          ],
+          "ngram_str": " with grapefruit juice",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " grape",
+            "fruit"
+          ],
+          "ngram_str": ", and grapefruit",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4891,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 2435,
+        "percent": 49.79
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2183,
+        "percent": 44.63
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2032,
+        "percent": 41.55
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1905,
+        "percent": 38.95
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1707,
+        "percent": 34.9
+      },
+      {
+        "feature_idx": 18503,
+        "count": 1694,
+        "percent": 34.64
+      },
+      {
+        "feature_idx": 24206,
+        "count": 1658,
+        "percent": 33.9
+      },
+      {
+        "feature_idx": 1374,
+        "count": 1646,
+        "percent": 33.65
+      },
+      {
+        "feature_idx": 5952,
+        "count": 1645,
+        "percent": 33.63
+      },
+      {
+        "feature_idx": 12173,
+        "count": 1644,
+        "percent": 33.61
+      },
+      {
+        "feature_idx": 24220,
+        "count": 1643,
+        "percent": 33.59
+      },
+      {
+        "feature_idx": 8291,
+        "count": 1636,
+        "percent": 33.45
+      },
+      {
+        "feature_idx": 20469,
+        "count": 1634,
+        "percent": 33.41
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1528,
+        "percent": 31.24
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1249,
+        "percent": 25.54
+      },
+      {
+        "feature_idx": 8649,
+        "count": 1232,
+        "percent": 25.19
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1207,
+        "percent": 24.68
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1144,
+        "percent": 23.39
+      },
+      {
+        "feature_idx": 3375,
+        "count": 1031,
+        "percent": 21.08
+      },
+      {
+        "feature_idx": 745,
+        "count": 952,
+        "percent": 19.46
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4891,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 931,
+        "percent": 19.03
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 942,
+        "percent": 19.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 985,
+        "percent": 20.14
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1012,
+        "percent": 20.69
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1021,
+        "percent": 20.88
+      }
+    ],
+    "mean_position": 0.509,
+    "std_position": 0.2856
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 7,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0253,
+      "p25": 0.0343,
+      "p50": 0.0477,
+      "p75": 0.0542,
+      "p90": 0.0889,
+      "p95": 0.1114,
+      "p99": 0.1294
+    },
+    "skewness": 1.556,
+    "kurtosis": 1.1868,
+    "min": 0.0236,
+    "max": 0.1339,
+    "mean": 0.0546,
+    "std": 0.0344
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 7,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": " I",
+        "count": 2,
+        "mean_activation": 0.025
+      },
+      {
+        "token": "us",
+        "count": 2,
+        "mean_activation": 0.0917
+      },
+      {
+        "token": " Cons",
+        "count": 2,
+        "mean_activation": 0.0449
+      },
+      {
+        "token": " vine",
+        "count": 1,
+        "mean_activation": 0.0589
+      }
+    ]
+  }
+}

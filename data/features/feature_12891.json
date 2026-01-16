@@ -1,0 +1,876 @@
+{
+  "feature_idx": 12891,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 40,
+    "mean_when_active": 0.08210372924804688,
+    "max_activation": 0.244140625,
+    "std_when_active": 0.05681071739358564,
+    "activation_rate": 0.0004
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 18970,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ich",
+        "count": 6554,
+        "mean_activation": 0.04574686818127229
+      },
+      {
+        "token": "qu",
+        "count": 4455,
+        "mean_activation": 0.11286305985199215
+      },
+      {
+        "token": "quit",
+        "count": 1880,
+        "mean_activation": 0.20309065149185504
+      },
+      {
+        "token": "quer",
+        "count": 795,
+        "mean_activation": 0.15175412735849056
+      },
+      {
+        "token": "ito",
+        "count": 604,
+        "mean_activation": 0.03661302225479227
+      },
+      {
+        "token": "jit",
+        "count": 542,
+        "mean_activation": 0.12387130005333256
+      },
+      {
+        "token": "B",
+        "count": 411,
+        "mean_activation": 0.05666627907114887
+      },
+      {
+        "token": "is",
+        "count": 347,
+        "mean_activation": 0.03844761917158231
+      },
+      {
+        "token": "bor",
+        "count": 269,
+        "mean_activation": 0.05318022660606413
+      },
+      {
+        "token": " ling",
+        "count": 205,
+        "mean_activation": 0.10992431640625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 18970,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...over fried chicken ta**quit**os ( rolled tacos mad...",
+        "active_token": "quit",
+        "activation": 0.26953125,
+        "review_id": "0pKmMIs2OzmL66iJHR7V2Q",
+        "position": 14
+      },
+      {
+        "context": "... fries and chicken ta**quit**os....can I just say....",
+        "active_token": "quit",
+        "activation": 0.266357421875,
+        "review_id": "fmIbNFng9LdpXD691GW9bQ",
+        "position": 71
+      },
+      {
+        "context": "...had crispy chicken ta**quit**os with fresh queso f...",
+        "active_token": "quit",
+        "activation": 0.26513671875,
+        "review_id": "Kn2eO-6Mh9V3HBaRxXH6Uw",
+        "position": 44
+      },
+      {
+        "context": "...panion had chicken ta**quit**os.  Both were fabulo...",
+        "active_token": "quit",
+        "activation": 0.2646484375,
+        "review_id": "NwbGlzm_nKFlKDV8mRKPnw",
+        "position": 13
+      },
+      {
+        "context": "... the combo chicken ta**quit**os and spinach enchil...",
+        "active_token": "quit",
+        "activation": 0.263916015625,
+        "review_id": "-MsWqWbpv4WHW4WDSi5kIg",
+        "position": 81
+      },
+      {
+        "context": "...e they were frozen ta**quit**os.  The guacamole wa...",
+        "active_token": "quit",
+        "activation": 0.263427734375,
+        "review_id": "bZ5aIDxFzH7ue5zbCcpJgg",
+        "position": 55
+      },
+      {
+        "context": "...d no flavor potato ta**quit**os. Blah.",
+        "active_token": "quit",
+        "activation": 0.263427734375,
+        "review_id": "KQmfc6YwBdcDBbpXCi42UA",
+        "position": 147
+      },
+      {
+        "context": "...dered sweet potato ta**quit**os and must take at l...",
+        "active_token": "quit",
+        "activation": 0.262939453125,
+        "review_id": "fs-6uO6aMirCSgnZhZagkw",
+        "position": 78
+      },
+      {
+        "context": "...heir white chicken ta**quit**os/flautas. \\n\\nIf",
+        "active_token": "quit",
+        "activation": 0.261474609375,
+        "review_id": "--WSECx-1kd23HoK_yznfg",
+        "position": 170
+      },
+      {
+        "context": "... got shredded beef ta**quit**os and they were full...",
+        "active_token": "quit",
+        "activation": 0.261474609375,
+        "review_id": "RBhgaYnx-cmUxgtkAqX6qg",
+        "position": 13
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 12891,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2352,
+        "max": 0.2695,
+        "mean": 0.246
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " ta",
+            "quit"
+          ],
+          "ngram_str": " taquit",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            "quit",
+            "os"
+          ],
+          "ngram_str": "quitos",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            " chicken",
+            " ta"
+          ],
+          "ngram_str": " chicken ta",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            "os",
+            "."
+          ],
+          "ngram_str": "os.",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            "os",
+            " and"
+          ],
+          "ngram_str": "os and",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " the",
+            " chicken"
+          ],
+          "ngram_str": " the chicken",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            "os",
+            ","
+          ],
+          "ngram_str": "os,",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " beef",
+            " ta"
+          ],
+          "ngram_str": " beef ta",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " potato",
+            " ta"
+          ],
+          "ngram_str": " potato ta",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "os",
+            " were"
+          ],
+          "ngram_str": "os were",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " ordered",
+            " the"
+          ],
+          "ngram_str": " ordered the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " ta",
+            "quit",
+            "os"
+          ],
+          "ngram_str": " taquitos",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            " chicken",
+            " ta",
+            "quit"
+          ],
+          "ngram_str": " chicken taquit",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            "."
+          ],
+          "ngram_str": "quitos.",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            " and"
+          ],
+          "ngram_str": "quitos and",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " the",
+            " chicken",
+            " ta"
+          ],
+          "ngram_str": " the chicken ta",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            ","
+          ],
+          "ngram_str": "quitos,",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " beef",
+            " ta",
+            "quit"
+          ],
+          "ngram_str": " beef taquit",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " potato",
+            " ta",
+            "quit"
+          ],
+          "ngram_str": " potato taquit",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            " were"
+          ],
+          "ngram_str": "quitos were",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            " with"
+          ],
+          "ngram_str": "quitos with",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " the",
+            " beef",
+            " ta"
+          ],
+          "ngram_str": " the beef ta",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " and",
+            " ta",
+            "quit"
+          ],
+          "ngram_str": " and taquit",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "os",
+            ".",
+            " "
+          ],
+          "ngram_str": "os. ",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            " which"
+          ],
+          "ngram_str": "quitos which",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " chicken"
+          ],
+          "ngram_str": " had the chicken",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " chicken",
+            " ta",
+            "quit",
+            "os"
+          ],
+          "ngram_str": " chicken taquitos",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            " ta",
+            "quit",
+            "os",
+            "."
+          ],
+          "ngram_str": " taquitos.",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " ta",
+            "quit",
+            "os",
+            " and"
+          ],
+          "ngram_str": " taquitos and",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " the",
+            " chicken",
+            " ta",
+            "quit"
+          ],
+          "ngram_str": " the chicken taquit",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " ta",
+            "quit",
+            "os",
+            ","
+          ],
+          "ngram_str": " taquitos,",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " beef",
+            " ta",
+            "quit",
+            "os"
+          ],
+          "ngram_str": " beef taquitos",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " potato",
+            " ta",
+            "quit",
+            "os"
+          ],
+          "ngram_str": " potato taquitos",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " ta",
+            "quit",
+            "os",
+            " were"
+          ],
+          "ngram_str": " taquitos were",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " ta",
+            "quit",
+            "os",
+            " with"
+          ],
+          "ngram_str": " taquitos with",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " the",
+            " beef",
+            " ta",
+            "quit"
+          ],
+          "ngram_str": " the beef taquit",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " and",
+            " ta",
+            "quit",
+            "os"
+          ],
+          "ngram_str": " and taquitos",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            ".",
+            " "
+          ],
+          "ngram_str": "quitos. ",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " ta",
+            "quit",
+            "os",
+            " which"
+          ],
+          "ngram_str": " taquitos which",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " chicken",
+            " ta"
+          ],
+          "ngram_str": " had the chicken ta",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "quit",
+            "os",
+            ",",
+            " and"
+          ],
+          "ngram_str": "quitos, and",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 27500000,
+      "corpus_coverage": 0.5319
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17861,
+        "count": 8124,
+        "percent": 81.24
+      },
+      {
+        "feature_idx": 14765,
+        "count": 8069,
+        "percent": 80.69
+      },
+      {
+        "feature_idx": 5196,
+        "count": 8053,
+        "percent": 80.53
+      },
+      {
+        "feature_idx": 1390,
+        "count": 7756,
+        "percent": 77.56
+      },
+      {
+        "feature_idx": 11763,
+        "count": 6433,
+        "percent": 64.33
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5935,
+        "percent": 59.35
+      },
+      {
+        "feature_idx": 8649,
+        "count": 5772,
+        "percent": 57.72
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4553,
+        "percent": 45.53
+      },
+      {
+        "feature_idx": 5942,
+        "count": 4433,
+        "percent": 44.33
+      },
+      {
+        "feature_idx": 10161,
+        "count": 4108,
+        "percent": 41.08
+      },
+      {
+        "feature_idx": 24178,
+        "count": 4073,
+        "percent": 40.73
+      },
+      {
+        "feature_idx": 11260,
+        "count": 4023,
+        "percent": 40.23
+      },
+      {
+        "feature_idx": 10224,
+        "count": 3980,
+        "percent": 39.8
+      },
+      {
+        "feature_idx": 14864,
+        "count": 3914,
+        "percent": 39.14
+      },
+      {
+        "feature_idx": 19926,
+        "count": 3818,
+        "percent": 38.18
+      },
+      {
+        "feature_idx": 20860,
+        "count": 3782,
+        "percent": 37.82
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3687,
+        "percent": 36.87
+      },
+      {
+        "feature_idx": 16622,
+        "count": 3540,
+        "percent": 35.4
+      },
+      {
+        "feature_idx": 21934,
+        "count": 3468,
+        "percent": 34.68
+      },
+      {
+        "feature_idx": 23404,
+        "count": 3465,
+        "percent": 34.65
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 27500000,
+      "corpus_coverage": 0.5319
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2188,
+        "percent": 21.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2196,
+        "percent": 21.96
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2315,
+        "percent": 23.15
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1895,
+        "percent": 18.95
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1406,
+        "percent": 14.06
+      }
+    ],
+    "mean_position": 0.4616,
+    "std_position": 0.2729
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 40,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0316,
+      "p25": 0.0416,
+      "p50": 0.0594,
+      "p75": 0.109,
+      "p90": 0.1574,
+      "p95": 0.1766,
+      "p99": 0.2418
+    },
+    "skewness": 1.3133,
+    "kurtosis": 0.8586,
+    "min": 0.0222,
+    "max": 0.2441,
+    "mean": 0.0821,
+    "std": 0.0568
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 40,
+      "unique_tokens_found": 13
+    },
+    "tokens": [
+      {
+        "token": "ich",
+        "count": 15,
+        "mean_activation": 0.045
+      },
+      {
+        "token": "qu",
+        "count": 11,
+        "mean_activation": 0.1126
+      },
+      {
+        "token": "quer",
+        "count": 2,
+        "mean_activation": 0.1433
+      },
+      {
+        "token": "quit",
+        "count": 2,
+        "mean_activation": 0.2411
+      },
+      {
+        "token": "B",
+        "count": 2,
+        "mean_activation": 0.0659
+      },
+      {
+        "token": "ito",
+        "count": 1,
+        "mean_activation": 0.0222
+      },
+      {
+        "token": "it",
+        "count": 1,
+        "mean_activation": 0.0417
+      },
+      {
+        "token": "ina",
+        "count": 1,
+        "mean_activation": 0.0287
+      },
+      {
+        "token": "q",
+        "count": 1,
+        "mean_activation": 0.1065
+      },
+      {
+        "token": "is",
+        "count": 1,
+        "mean_activation": 0.0333
+      }
+    ]
+  }
+}

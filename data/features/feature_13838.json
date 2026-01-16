@@ -1,0 +1,836 @@
+{
+  "feature_idx": 13838,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 16,
+    "mean_when_active": 0.04537010192871094,
+    "max_activation": 0.11273193359375,
+    "std_when_active": 0.027062792122916752,
+    "activation_rate": 0.00016
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7766,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 7264,
+        "mean_activation": 0.046559498698700894
+      },
+      {
+        "token": " chance",
+        "count": 122,
+        "mean_activation": 0.04595734643154457
+      },
+      {
+        "token": " had",
+        "count": 62,
+        "mean_activation": 0.021746727728074598
+      },
+      {
+        "token": " a",
+        "count": 48,
+        "mean_activation": 0.025852203369140625
+      },
+      {
+        "token": " ever",
+        "count": 32,
+        "mean_activation": 0.028754234313964844
+      },
+      {
+        "token": " never",
+        "count": 27,
+        "mean_activation": 0.025870429144965276
+      },
+      {
+        "token": " go",
+        "count": 24,
+        "mean_activation": 0.027289072672526043
+      },
+      {
+        "token": " the",
+        "count": 21,
+        "mean_activation": 0.026511056082589284
+      },
+      {
+        "token": " bothered",
+        "count": 14,
+        "mean_activation": 0.03223964146205357
+      },
+      {
+        "token": " not",
+        "count": 10,
+        "mean_activation": 0.017617034912109374
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7766,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... haven't had a chance** to** try the mixed drinks ...",
+        "active_token": " to",
+        "activation": 0.16064453125,
+        "review_id": "N0VxDrQIx6UujYAhu6m56A",
+        "position": 60
+      },
+      {
+        "context": "... haven't had a chance** to** try the soups (caldos...",
+        "active_token": " to",
+        "activation": 0.159423828125,
+        "review_id": "4smOuRxT9JcfRHzGtcuMfw",
+        "position": 59
+      },
+      {
+        "context": "... haven't had a chance** to** try the real exotic o...",
+        "active_token": " to",
+        "activation": 0.1593017578125,
+        "review_id": "mX7EGC_mHVPE8R_NphUbeg",
+        "position": 39
+      },
+      {
+        "context": "... haven't had a chance** to** try all their menu it...",
+        "active_token": " to",
+        "activation": 0.1583251953125,
+        "review_id": "7AiRzrp_TUTvRalu-nM3_A",
+        "position": 52
+      },
+      {
+        "context": "... haven't had a chance** to** try yet. This locatio...",
+        "active_token": " to",
+        "activation": 0.1568603515625,
+        "review_id": "B2utTwSFPSA8gS90WttexA",
+        "position": 189
+      },
+      {
+        "context": "... haven't had a chance** to** try the drinks, but I...",
+        "active_token": " to",
+        "activation": 0.15576171875,
+        "review_id": "9XOgja2LdEXRhEekLup_rw",
+        "position": 113
+      },
+      {
+        "context": "... haven't had a chance** to** come back but I defin...",
+        "active_token": " to",
+        "activation": 0.1546630859375,
+        "review_id": "D-w77bOG-w7IqxwL92ppbw",
+        "position": 13
+      },
+      {
+        "context": "... haven't had a chance** to** try anything else on ...",
+        "active_token": " to",
+        "activation": 0.1546630859375,
+        "review_id": "J06yphdMhtP__z_SyX73TA",
+        "position": 14
+      },
+      {
+        "context": "...have not had a chance** to** try their margaritas ...",
+        "active_token": " to",
+        "activation": 0.15380859375,
+        "review_id": "9d68z2a6A9QrfmtsPzRsJQ",
+        "position": 36
+      },
+      {
+        "context": "... haven't had a chance** to** try any of the drinks...",
+        "active_token": " to",
+        "activation": 0.1536865234375,
+        "review_id": "F-izBAac9Dw6n0o2ukKdJg",
+        "position": 63
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13838,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0964,
+        "max": 0.1606,
+        "mean": 0.1131
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " chance",
+            " to"
+          ],
+          "ngram_str": " chance to",
+          "count": 225,
+          "percent": 45.0
+        },
+        {
+          "ngram": [
+            " never",
+            " had"
+          ],
+          "ngram_str": " never had",
+          "count": 186,
+          "percent": 37.2
+        },
+        {
+          "ngram": [
+            " had",
+            " to"
+          ],
+          "ngram_str": " had to",
+          "count": 185,
+          "percent": 37.0
+        },
+        {
+          "ngram": [
+            " a",
+            " chance"
+          ],
+          "ngram_str": " a chance",
+          "count": 173,
+          "percent": 34.6
+        },
+        {
+          "ngram": [
+            " to",
+            " wait"
+          ],
+          "ngram_str": " to wait",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            "'ve",
+            " never"
+          ],
+          "ngram_str": "'ve never",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            "'t",
+            " had"
+          ],
+          "ngram_str": "'t had",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " had",
+            " a"
+          ],
+          "ngram_str": " had a",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve"
+          ],
+          "ngram_str": " I've",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " didn't",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " have"
+          ],
+          "ngram_str": "'t have",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " haven",
+            "'t"
+          ],
+          "ngram_str": " haven't",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " had",
+            " the"
+          ],
+          "ngram_str": " had the",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " time",
+            " to"
+          ],
+          "ngram_str": " time to",
+          "count": 58,
+          "percent": 11.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " chance",
+            " to"
+          ],
+          "ngram_str": " a chance to",
+          "count": 173,
+          "percent": 34.6
+        },
+        {
+          "ngram": [
+            " never",
+            " had",
+            " to"
+          ],
+          "ngram_str": " never had to",
+          "count": 157,
+          "percent": 31.4
+        },
+        {
+          "ngram": [
+            " had",
+            " to",
+            " wait"
+          ],
+          "ngram_str": " had to wait",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            "'ve",
+            " never",
+            " had"
+          ],
+          "ngram_str": "'ve never had",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " had",
+            " a",
+            " chance"
+          ],
+          "ngram_str": " had a chance",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " chance",
+            " to",
+            " try"
+          ],
+          "ngram_str": " chance to try",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " never"
+          ],
+          "ngram_str": " I've never",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " haven",
+            "'t",
+            " had"
+          ],
+          "ngram_str": " haven't had",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " have"
+          ],
+          "ngram_str": " didn't have",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " have",
+            " never",
+            " had"
+          ],
+          "ngram_str": " have never had",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " the",
+            " chance",
+            " to"
+          ],
+          "ngram_str": " the chance to",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " had",
+            " a"
+          ],
+          "ngram_str": "'t had a",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " have",
+            " a",
+            " chance"
+          ],
+          "ngram_str": " have a chance",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " to",
+            " wait",
+            " for"
+          ],
+          "ngram_str": " to wait for",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " chance"
+          ],
+          "ngram_str": " had the chance",
+          "count": 41,
+          "percent": 8.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " never",
+            " had",
+            " to",
+            " wait"
+          ],
+          "ngram_str": " never had to wait",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            "'ve",
+            " never",
+            " had",
+            " to"
+          ],
+          "ngram_str": "'ve never had to",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            " had",
+            " a",
+            " chance",
+            " to"
+          ],
+          "ngram_str": " had a chance to",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " never",
+            " had"
+          ],
+          "ngram_str": " I've never had",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " a",
+            " chance",
+            " to",
+            " try"
+          ],
+          "ngram_str": " a chance to try",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " have",
+            " never",
+            " had",
+            " to"
+          ],
+          "ngram_str": " have never had to",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "'t",
+            " had",
+            " a",
+            " chance"
+          ],
+          "ngram_str": "'t had a chance",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " have",
+            " a",
+            " chance",
+            " to"
+          ],
+          "ngram_str": " have a chance to",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " chance",
+            " to"
+          ],
+          "ngram_str": " had the chance to",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " had",
+            " to",
+            " wait",
+            " for"
+          ],
+          "ngram_str": " had to wait for",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " haven",
+            "'t",
+            " had",
+            " a"
+          ],
+          "ngram_str": " haven't had a",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " have",
+            " a",
+            " chance"
+          ],
+          "ngram_str": "'t have a chance",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " to",
+            " wait",
+            " for",
+            " a"
+          ],
+          "ngram_str": " to wait for a",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " wait",
+            " for",
+            " a",
+            " table"
+          ],
+          "ngram_str": " wait for a table",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " I",
+            " have",
+            " never",
+            " had"
+          ],
+          "ngram_str": " I have never had",
+          "count": 32,
+          "percent": 6.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7766,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16339,
+        "count": 7272,
+        "percent": 93.64
+      },
+      {
+        "feature_idx": 10548,
+        "count": 6292,
+        "percent": 81.02
+      },
+      {
+        "feature_idx": 17430,
+        "count": 5640,
+        "percent": 72.62
+      },
+      {
+        "feature_idx": 11738,
+        "count": 5577,
+        "percent": 71.81
+      },
+      {
+        "feature_idx": 20403,
+        "count": 4460,
+        "percent": 57.43
+      },
+      {
+        "feature_idx": 13934,
+        "count": 3880,
+        "percent": 49.96
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3853,
+        "percent": 49.61
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3499,
+        "percent": 45.06
+      },
+      {
+        "feature_idx": 4516,
+        "count": 3181,
+        "percent": 40.96
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3059,
+        "percent": 39.39
+      },
+      {
+        "feature_idx": 24513,
+        "count": 3017,
+        "percent": 38.85
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3002,
+        "percent": 38.66
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2493,
+        "percent": 32.1
+      },
+      {
+        "feature_idx": 17751,
+        "count": 2421,
+        "percent": 31.17
+      },
+      {
+        "feature_idx": 19631,
+        "count": 2392,
+        "percent": 30.8
+      },
+      {
+        "feature_idx": 8083,
+        "count": 2391,
+        "percent": 30.79
+      },
+      {
+        "feature_idx": 18110,
+        "count": 2353,
+        "percent": 30.3
+      },
+      {
+        "feature_idx": 22911,
+        "count": 2219,
+        "percent": 28.57
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2048,
+        "percent": 26.37
+      },
+      {
+        "feature_idx": 17064,
+        "count": 2000,
+        "percent": 25.75
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7766,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1512,
+        "percent": 19.47
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1532,
+        "percent": 19.73
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1479,
+        "percent": 19.04
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1587,
+        "percent": 20.44
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1656,
+        "percent": 21.32
+      }
+    ],
+    "mean_position": 0.509,
+    "std_position": 0.2874
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 16,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0226,
+      "p25": 0.0287,
+      "p50": 0.0335,
+      "p75": 0.0631,
+      "p90": 0.0815,
+      "p95": 0.1016,
+      "p99": 0.1105
+    },
+    "skewness": 1.2497,
+    "kurtosis": 0.526,
+    "min": 0.0153,
+    "max": 0.1127,
+    "mean": 0.0454,
+    "std": 0.0271
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 16,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 14,
+        "mean_activation": 0.0472
+      },
+      {
+        "token": " chance",
+        "count": 2,
+        "mean_activation": 0.0323
+      }
+    ]
+  }
+}

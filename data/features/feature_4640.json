@@ -1,0 +1,866 @@
+{
+  "feature_idx": 4640,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 31,
+    "mean_when_active": 0.04162253102948589,
+    "max_activation": 0.178955078125,
+    "std_when_active": 0.029265401636473433,
+    "activation_rate": 0.00031
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 15045,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " for",
+        "count": 11920,
+        "mean_activation": 0.05234668142843567
+      },
+      {
+        "token": " between",
+        "count": 1365,
+        "mean_activation": 0.06331792698675023
+      },
+      {
+        "token": " of",
+        "count": 292,
+        "mean_activation": 0.03900682109675995
+      },
+      {
+        "token": " on",
+        "count": 254,
+        "mean_activation": 0.04581048920398622
+      },
+      {
+        "token": " about",
+        "count": 214,
+        "mean_activation": 0.03584025730596525
+      },
+      {
+        "token": " the",
+        "count": 131,
+        "mean_activation": 0.03983697090440124
+      },
+      {
+        "token": " to",
+        "count": 105,
+        "mean_activation": 0.03901185535249256
+      },
+      {
+        "token": " into",
+        "count": 91,
+        "mean_activation": 0.03899744054773352
+      },
+      {
+        "token": " with",
+        "count": 64,
+        "mean_activation": 0.038544654846191406
+      },
+      {
+        "token": " a",
+        "count": 54,
+        "mean_activation": 0.04330387821903935
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 15045,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...and am kicking myself** for** not sending it back....",
+        "active_token": " for",
+        "activation": 0.2401123046875,
+        "review_id": "FWnATIhD6kgbZmw-SULCHg",
+        "position": 72
+      },
+      {
+        "context": "...d I could kick myself** for** buying it. Never aga...",
+        "active_token": " for",
+        "activation": 0.23828125,
+        "review_id": "N99JpxliHy9F35oweo1kNw",
+        "position": 50
+      },
+      {
+        "context": "...e...could kick myself** for** waiting so damn long...",
+        "active_token": " for",
+        "activation": 0.23828125,
+        "review_id": "WFsbDvdN_PwVJT9fcbZkfQ",
+        "position": 10
+      },
+      {
+        "context": "...y. I'm kicking myself** for** not coming here soon...",
+        "active_token": " for",
+        "activation": 0.236328125,
+        "review_id": "6YooHmbU7Oqm1xfUov2UPA",
+        "position": 220
+      },
+      {
+        "context": "...d? I'm kicking myself** for** ordering the tacos, ...",
+        "active_token": " for",
+        "activation": 0.2342529296875,
+        "review_id": "XJZZFtXNcd8hsEroO60DIQ",
+        "position": 48
+      },
+      {
+        "context": "...s. I'm kicking myself** for** not going down the s...",
+        "active_token": " for",
+        "activation": 0.23388671875,
+        "review_id": "J7B5ogwR2ZOtM4-ndQtGmQ",
+        "position": 75
+      },
+      {
+        "context": "...d I could kick myself** for** waiting so long! The...",
+        "active_token": " for",
+        "activation": 0.231201171875,
+        "review_id": "LCT2bck_isngCF-CJF5-4w",
+        "position": 22
+      },
+      {
+        "context": "...ow I'm kicking myself** for** all the Easter pupus...",
+        "active_token": " for",
+        "activation": 0.2310791015625,
+        "review_id": "HfRh3nmCyt_yoGj9v9zStw",
+        "position": 352
+      },
+      {
+        "context": "...rning.  I kick myself** for** not stopping that da...",
+        "active_token": " for",
+        "activation": 0.230224609375,
+        "review_id": "qOPDhu1SkS9wRtzU117AEw",
+        "position": 26
+      },
+      {
+        "context": "...iously kicking myself** for** not coming to Calle ...",
+        "active_token": " for",
+        "activation": 0.22998046875,
+        "review_id": "cwzkD89oaSIsRU87lHMYwA",
+        "position": 5
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 4640,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1442,
+        "max": 0.2401,
+        "mean": 0.1719
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " torn",
+            " between"
+          ],
+          "ngram_str": " torn between",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " myself",
+            " for"
+          ],
+          "ngram_str": " myself for",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " for",
+            " not"
+          ],
+          "ngram_str": " for not",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            " me",
+            " for"
+          ],
+          "ngram_str": " me for",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " was",
+            " torn"
+          ],
+          "ngram_str": " was torn",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " I",
+            " was"
+          ],
+          "ngram_str": " I was",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " kicking",
+            " myself"
+          ],
+          "ngram_str": " kicking myself",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " mad",
+            " at"
+          ],
+          "ngram_str": " mad at",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " us",
+            " for"
+          ],
+          "ngram_str": " us for",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'m"
+          ],
+          "ngram_str": " I'm",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " at",
+            " me"
+          ],
+          "ngram_str": " at me",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " at",
+            " myself"
+          ],
+          "ngram_str": " at myself",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " was",
+            " torn",
+            " between"
+          ],
+          "ngram_str": " was torn between",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " myself",
+            " for",
+            " not"
+          ],
+          "ngram_str": " myself for not",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " torn"
+          ],
+          "ngram_str": " I was torn",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " kicking",
+            " myself",
+            " for"
+          ],
+          "ngram_str": " kicking myself for",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " at",
+            " me",
+            " for"
+          ],
+          "ngram_str": " at me for",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " at",
+            " myself",
+            " for"
+          ],
+          "ngram_str": " at myself for",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " torn",
+            " between",
+            " the"
+          ],
+          "ngram_str": " torn between the",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " mad",
+            " at",
+            " myself"
+          ],
+          "ngram_str": " mad at myself",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " was"
+          ],
+          "ngram_str": ". I was",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " at",
+            " us",
+            " for"
+          ],
+          "ngram_str": " at us for",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " torn",
+            " between",
+            " a"
+          ],
+          "ngram_str": " torn between a",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "'m",
+            " kicking",
+            " myself"
+          ],
+          "ngram_str": "'m kicking myself",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " kicking"
+          ],
+          "ngram_str": " I'm kicking",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            " was",
+            " torn",
+            " between"
+          ],
+          "ngram_str": " I was torn between",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " kicking",
+            " myself",
+            " for",
+            " not"
+          ],
+          "ngram_str": " kicking myself for not",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " mad",
+            " at",
+            " myself",
+            " for"
+          ],
+          "ngram_str": " mad at myself for",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " was",
+            " torn",
+            " between",
+            " the"
+          ],
+          "ngram_str": " was torn between the",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " was",
+            " torn"
+          ],
+          "ngram_str": ". I was torn",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "'m",
+            " kicking",
+            " myself",
+            " for"
+          ],
+          "ngram_str": "'m kicking myself for",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "I",
+            " was",
+            " torn",
+            " between"
+          ],
+          "ngram_str": "I was torn between",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " kicking",
+            " myself"
+          ],
+          "ngram_str": " I'm kicking myself",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " at",
+            " myself",
+            " for",
+            " not"
+          ],
+          "ngram_str": " at myself for not",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " myself",
+            " for",
+            " not",
+            " trying"
+          ],
+          "ngram_str": " myself for not trying",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " was",
+            " torn",
+            " between",
+            " a"
+          ],
+          "ngram_str": " was torn between a",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " was",
+            " torn"
+          ],
+          "ngram_str": "\u012cI was torn",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " upset",
+            " with",
+            " myself",
+            " for"
+          ],
+          "ngram_str": " upset with myself for",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 34300000,
+      "corpus_coverage": 0.6634
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22428,
+        "count": 7980,
+        "percent": 79.8
+      },
+      {
+        "feature_idx": 8243,
+        "count": 5743,
+        "percent": 57.43
+      },
+      {
+        "feature_idx": 12117,
+        "count": 5228,
+        "percent": 52.28
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4484,
+        "percent": 44.84
+      },
+      {
+        "feature_idx": 8088,
+        "count": 4363,
+        "percent": 43.63
+      },
+      {
+        "feature_idx": 23470,
+        "count": 4147,
+        "percent": 41.47
+      },
+      {
+        "feature_idx": 18144,
+        "count": 4034,
+        "percent": 40.34
+      },
+      {
+        "feature_idx": 540,
+        "count": 4003,
+        "percent": 40.03
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3717,
+        "percent": 37.17
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3691,
+        "percent": 36.91
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3308,
+        "percent": 33.08
+      },
+      {
+        "feature_idx": 499,
+        "count": 3300,
+        "percent": 33.0
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2989,
+        "percent": 29.89
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2978,
+        "percent": 29.78
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2929,
+        "percent": 29.29
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2796,
+        "percent": 27.96
+      },
+      {
+        "feature_idx": 10451,
+        "count": 2704,
+        "percent": 27.04
+      },
+      {
+        "feature_idx": 22896,
+        "count": 2557,
+        "percent": 25.57
+      },
+      {
+        "feature_idx": 11476,
+        "count": 2381,
+        "percent": 23.81
+      },
+      {
+        "feature_idx": 17032,
+        "count": 2381,
+        "percent": 23.81
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 34300000,
+      "corpus_coverage": 0.6634
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1990,
+        "percent": 19.9
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1711,
+        "percent": 17.11
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1816,
+        "percent": 18.16
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2022,
+        "percent": 20.22
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2461,
+        "percent": 24.61
+      }
+    ],
+    "mean_position": 0.5258,
+    "std_position": 0.3009
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 31,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0227,
+      "p25": 0.0262,
+      "p50": 0.0328,
+      "p75": 0.0477,
+      "p90": 0.0575,
+      "p95": 0.0757,
+      "p99": 0.151
+    },
+    "skewness": 3.3713,
+    "kurtosis": 12.8956,
+    "min": 0.0155,
+    "max": 0.179,
+    "mean": 0.0416,
+    "std": 0.0293
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 31,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " for",
+        "count": 20,
+        "mean_activation": 0.0346
+      },
+      {
+        "token": " between",
+        "count": 4,
+        "mean_activation": 0.0814
+      },
+      {
+        "token": " of",
+        "count": 2,
+        "mean_activation": 0.0372
+      },
+      {
+        "token": " into",
+        "count": 1,
+        "mean_activation": 0.0348
+      },
+      {
+        "token": " the",
+        "count": 1,
+        "mean_activation": 0.0268
+      },
+      {
+        "token": " on",
+        "count": 1,
+        "mean_activation": 0.0427
+      },
+      {
+        "token": " with",
+        "count": 1,
+        "mean_activation": 0.0659
+      },
+      {
+        "token": " this",
+        "count": 1,
+        "mean_activation": 0.0283
+      }
+    ]
+  }
+}

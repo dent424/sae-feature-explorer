@@ -1,0 +1,866 @@
+{
+  "feature_idx": 16006,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 8,
+    "mean_when_active": 0.04775810241699219,
+    "max_activation": 0.104736328125,
+    "std_when_active": 0.025523050658723078,
+    "activation_rate": 8e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 9713,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " masks",
+        "count": 1528,
+        "mean_activation": 0.2628337201023601
+      },
+      {
+        "token": " mask",
+        "count": 1476,
+        "mean_activation": 0.21434701232083123
+      },
+      {
+        "token": " gloves",
+        "count": 951,
+        "mean_activation": 0.16471752082511829
+      },
+      {
+        "token": " and",
+        "count": 321,
+        "mean_activation": 0.05273532570336838
+      },
+      {
+        "token": " on",
+        "count": 305,
+        "mean_activation": 0.047701275934938524
+      },
+      {
+        "token": ".",
+        "count": 243,
+        "mean_activation": 0.0284640151286812
+      },
+      {
+        "token": " glasses",
+        "count": 233,
+        "mean_activation": 0.037840290642603275
+      },
+      {
+        "token": " masked",
+        "count": 201,
+        "mean_activation": 0.1031621676772388
+      },
+      {
+        "token": " hands",
+        "count": 183,
+        "mean_activation": 0.03803841012423156
+      },
+      {
+        "token": ",",
+        "count": 161,
+        "mean_activation": 0.04514525988087151
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 9713,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ployees were wearing** masks**, sterilizing tables...",
+        "active_token": " masks",
+        "activation": 0.356689453125,
+        "review_id": "2t9GPPZ_YB8z_hrqyPaY4Q",
+        "position": 134
+      },
+      {
+        "context": "...als, servers wearing** masks**.  Thank you for cre...",
+        "active_token": " masks",
+        "activation": 0.3505859375,
+        "review_id": "eQ_inMyhRJMQHRb2DO5Wkg",
+        "position": 36
+      },
+      {
+        "context": "...ll staff are wearing** masks**, so it is a safe en...",
+        "active_token": " masks",
+        "activation": 0.348388671875,
+        "review_id": "haf7BAuZ_hynCFSgvYLpew",
+        "position": 134
+      },
+      {
+        "context": "...mployees are wearing** masks** & they have masks t...",
+        "active_token": " masks",
+        "activation": 0.347900390625,
+        "review_id": "wG18QtL4PeYQJq6KEMRxjA",
+        "position": 120
+      },
+      {
+        "context": "... Servers are wearing** masks**, guests are require...",
+        "active_token": " masks",
+        "activation": 0.34765625,
+        "review_id": "BlAlBuKzuM2iYXJuki7_1g",
+        "position": 72
+      },
+      {
+        "context": "...nd customers wearing** masks** in addition to the ...",
+        "active_token": " masks",
+        "activation": 0.345703125,
+        "review_id": "u-L-xG90soSu6I4f6NcWjQ",
+        "position": 732
+      },
+      {
+        "context": "...d, employees wearing** masks** below their nostril...",
+        "active_token": " masks",
+        "activation": 0.34423828125,
+        "review_id": "TOjmVdYGxWY7mDqVAAOseA",
+        "position": 43
+      },
+      {
+        "context": "... others were wearing** masks**. \\n\\nOur waitress cam...",
+        "active_token": " masks",
+        "activation": 0.343505859375,
+        "review_id": "SaZnLoyJN3YphCxCg6ExJQ",
+        "position": 80
+      },
+      {
+        "context": "...ployees were wearing** masks** and kitchen is visi...",
+        "active_token": " masks",
+        "activation": 0.34326171875,
+        "review_id": "dzaadfZdHee4FHBGpAj8UA",
+        "position": 55
+      },
+      {
+        "context": "...mployees are wearing** masks**.  I always get the ...",
+        "active_token": " masks",
+        "activation": 0.34228515625,
+        "review_id": "VTxlEWPUEKgr4RVv0GJz1A",
+        "position": 35
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 16006,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3074,
+        "max": 0.3567,
+        "mean": 0.3213
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " wearing masks",
+          "count": 311,
+          "percent": 62.2
+        },
+        {
+          "ngram": [
+            " masks",
+            "."
+          ],
+          "ngram_str": " masks.",
+          "count": 138,
+          "percent": 27.6
+        },
+        {
+          "ngram": [
+            " masks",
+            " and"
+          ],
+          "ngram_str": " masks and",
+          "count": 134,
+          "percent": 26.8
+        },
+        {
+          "ngram": [
+            " were",
+            " wearing"
+          ],
+          "ngram_str": " were wearing",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " wore",
+            " masks"
+          ],
+          "ngram_str": " wore masks",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " was",
+            " wearing"
+          ],
+          "ngram_str": " was wearing",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " wear",
+            " masks"
+          ],
+          "ngram_str": " wear masks",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " masks",
+            ","
+          ],
+          "ngram_str": " masks,",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " staff"
+          ],
+          "ngram_str": " the staff",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " a",
+            " mask"
+          ],
+          "ngram_str": " a mask",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " staff",
+            " were"
+          ],
+          "ngram_str": " staff were",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " wearing",
+            " a"
+          ],
+          "ngram_str": " wearing a",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 35,
+          "percent": 7.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " were",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " were wearing masks",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            " wearing",
+            " masks",
+            "."
+          ],
+          "ngram_str": " wearing masks.",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " wearing",
+            " masks",
+            " and"
+          ],
+          "ngram_str": " wearing masks and",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " wearing",
+            " a",
+            " mask"
+          ],
+          "ngram_str": " wearing a mask",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " wearing",
+            " masks",
+            ","
+          ],
+          "ngram_str": " wearing masks,",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " masks",
+            " and",
+            " gloves"
+          ],
+          "ngram_str": " masks and gloves",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " staff",
+            " were",
+            " wearing"
+          ],
+          "ngram_str": " staff were wearing",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " was",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " was wearing masks",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " wore",
+            " masks",
+            " and"
+          ],
+          "ngram_str": " wore masks and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " all",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " all wearing masks",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " not",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " not wearing masks",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " are",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " are wearing masks",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " staff",
+            " wore",
+            " masks"
+          ],
+          "ngram_str": " staff wore masks",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " was",
+            " wearing",
+            " a"
+          ],
+          "ngram_str": " was wearing a",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " were",
+            " wearing",
+            " masks",
+            "."
+          ],
+          "ngram_str": " were wearing masks.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " staff",
+            " were",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " staff were wearing masks",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " were",
+            " wearing",
+            " masks",
+            " and"
+          ],
+          "ngram_str": " were wearing masks and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " was",
+            " wearing",
+            " a",
+            " mask"
+          ],
+          "ngram_str": " was wearing a mask",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " employees",
+            " were",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " employees were wearing masks",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " wearing",
+            " masks",
+            " and",
+            " gloves"
+          ],
+          "ngram_str": " wearing masks and gloves",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " wearing",
+            " a",
+            " mask",
+            "."
+          ],
+          "ngram_str": " wearing a mask.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " wearing",
+            " masks",
+            ".",
+            " "
+          ],
+          "ngram_str": " wearing masks. ",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " masks",
+            " and",
+            " gloves",
+            "."
+          ],
+          "ngram_str": " masks and gloves.",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " were",
+            " all",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " were all wearing masks",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " were",
+            " not",
+            " wearing",
+            " masks"
+          ],
+          "ngram_str": " were not wearing masks",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " staff",
+            " were",
+            " wearing"
+          ],
+          "ngram_str": " the staff were wearing",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " was",
+            " wearing",
+            " masks",
+            " and"
+          ],
+          "ngram_str": " was wearing masks and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " were",
+            " wearing",
+            " masks",
+            ","
+          ],
+          "ngram_str": " were wearing masks,",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9713,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3211,
+        "count": 7005,
+        "percent": 72.12
+      },
+      {
+        "feature_idx": 3367,
+        "count": 5517,
+        "percent": 56.8
+      },
+      {
+        "feature_idx": 18503,
+        "count": 5121,
+        "percent": 52.72
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4539,
+        "percent": 46.73
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4444,
+        "percent": 45.75
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4165,
+        "percent": 42.88
+      },
+      {
+        "feature_idx": 1521,
+        "count": 3769,
+        "percent": 38.8
+      },
+      {
+        "feature_idx": 10202,
+        "count": 3371,
+        "percent": 34.71
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3235,
+        "percent": 33.31
+      },
+      {
+        "feature_idx": 11927,
+        "count": 3202,
+        "percent": 32.97
+      },
+      {
+        "feature_idx": 1063,
+        "count": 2873,
+        "percent": 29.58
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2860,
+        "percent": 29.45
+      },
+      {
+        "feature_idx": 19995,
+        "count": 2323,
+        "percent": 23.92
+      },
+      {
+        "feature_idx": 11738,
+        "count": 2268,
+        "percent": 23.35
+      },
+      {
+        "feature_idx": 18053,
+        "count": 2101,
+        "percent": 21.63
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2061,
+        "percent": 21.22
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2014,
+        "percent": 20.74
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2010,
+        "percent": 20.69
+      },
+      {
+        "feature_idx": 16994,
+        "count": 1992,
+        "percent": 20.51
+      },
+      {
+        "feature_idx": 3804,
+        "count": 1963,
+        "percent": 20.21
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9713,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1419,
+        "percent": 14.61
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2209,
+        "percent": 22.74
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2098,
+        "percent": 21.6
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1918,
+        "percent": 19.75
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2069,
+        "percent": 21.3
+      }
+    ],
+    "mean_position": 0.5226,
+    "std_position": 0.2721
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 8,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.025,
+      "p25": 0.0287,
+      "p50": 0.041,
+      "p75": 0.0571,
+      "p90": 0.0765,
+      "p95": 0.0906,
+      "p99": 0.1019
+    },
+    "skewness": 1.146,
+    "kurtosis": 0.3969,
+    "min": 0.0198,
+    "max": 0.1047,
+    "mean": 0.0478,
+    "std": 0.0255
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 8,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " faces",
+        "count": 1,
+        "mean_activation": 0.0292
+      },
+      {
+        "token": " shoes",
+        "count": 1,
+        "mean_activation": 0.041
+      },
+      {
+        "token": " mushrooms",
+        "count": 1,
+        "mean_activation": 0.0198
+      },
+      {
+        "token": " when",
+        "count": 1,
+        "mean_activation": 0.0272
+      },
+      {
+        "token": " makeup",
+        "count": 1,
+        "mean_activation": 0.0645
+      },
+      {
+        "token": "ics",
+        "count": 1,
+        "mean_activation": 0.041
+      },
+      {
+        "token": " gestures",
+        "count": 1,
+        "mean_activation": 0.0546
+      },
+      {
+        "token": " gloves",
+        "count": 1,
+        "mean_activation": 0.1047
+      }
+    ]
+  }
+}

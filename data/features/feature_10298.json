@@ -1,0 +1,866 @@
+{
+  "feature_idx": 10298,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 164,
+    "mean_when_active": 0.0879801308236471,
+    "max_activation": 0.186279296875,
+    "std_when_active": 0.04361942959992631,
+    "activation_rate": 0.00164
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 32500000,
+      "corpus_coverage": 0.6286
+    },
+    "top_tokens": [
+      {
+        "token": " which",
+        "count": 42289,
+        "mean_activation": 0.08651615066959502
+      },
+      {
+        "token": "which",
+        "count": 3690,
+        "mean_activation": 0.10015498215590066
+      },
+      {
+        "token": " Which",
+        "count": 1184,
+        "mean_activation": 0.10996801788742477
+      },
+      {
+        "token": " who",
+        "count": 778,
+        "mean_activation": 0.04407250176358652
+      },
+      {
+        "token": " That",
+        "count": 312,
+        "mean_activation": 0.0189361449999687
+      },
+      {
+        "token": " is",
+        "count": 307,
+        "mean_activation": 0.026453397173058328
+      },
+      {
+        "token": "who",
+        "count": 210,
+        "mean_activation": 0.03578236897786458
+      },
+      {
+        "token": " that",
+        "count": 200,
+        "mean_activation": 0.03245323181152344
+      },
+      {
+        "token": "Which",
+        "count": 96,
+        "mean_activation": 0.09363524119059245
+      },
+      {
+        "token": "that",
+        "count": 78,
+        "mean_activation": 0.03261781350160257
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 32500000,
+      "corpus_coverage": 0.6286
+    },
+    "activations": [
+      {
+        "context": "... have only one item,** which** is different each n...",
+        "active_token": " which",
+        "activation": 0.24560546875,
+        "review_id": "FK_P7hAN8I9Cns9WHoZwWg",
+        "position": 382
+      },
+      {
+        "context": "...ave a bar or liquor,** which** is ok. The chips se...",
+        "active_token": " which",
+        "activation": 0.240478515625,
+        "review_id": "o3Y90s1klN3d-itGQul3ig",
+        "position": 175
+      },
+      {
+        "context": "... provide vodka here,** which** I think is an excel...",
+        "active_token": " which",
+        "activation": 0.2371826171875,
+        "review_id": "7Up1xds8i9d3RtCnwR25vQ",
+        "position": 249
+      },
+      {
+        "context": "...o pick what you get,** which** is fine with me sin...",
+        "active_token": " which",
+        "activation": 0.233642578125,
+        "review_id": "NkM5bBLGiT7MYJLL_Q5jOw",
+        "position": 123
+      },
+      {
+        "context": "...sh ingredients here,** which** gives you a gourmet...",
+        "active_token": " which",
+        "activation": 0.2314453125,
+        "review_id": "LN3GzDjNG0zVYHwrm4XoTg",
+        "position": 97
+      },
+      {
+        "context": "...ly get 3 or 5 tacos,** which** is a difference of ...",
+        "active_token": " which",
+        "activation": 0.23095703125,
+        "review_id": "_YALuSTIrZ6OHIw6-8AcwQ",
+        "position": 150
+      },
+      {
+        "context": "... better-known beers,** which** isn't great if your...",
+        "active_token": " which",
+        "activation": 0.229736328125,
+        "review_id": "XtCaplj7aQThnQRwtPFtXg",
+        "position": 43
+      },
+      {
+        "context": "... have refried beans,** which** again is a staple i...",
+        "active_token": " which",
+        "activation": 0.2283935546875,
+        "review_id": "1jIiorAe7Ko9bc5cSu9jnw",
+        "position": 382
+      },
+      {
+        "context": "...on-alcoholic drinks,** which** is a bit weird. I o...",
+        "active_token": " which",
+        "activation": 0.2281494140625,
+        "review_id": "2CuvuKB57Q9ml_fBn7cGCQ",
+        "position": 63
+      },
+      {
+        "context": "...ve a liquor licence,** which** just means you get ...",
+        "active_token": " which",
+        "activation": 0.2266845703125,
+        "review_id": "3BV0XjN6d9FHW1jzH6xrkg",
+        "position": 49
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10298,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1904,
+        "max": 0.2456,
+        "mean": 0.2008
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ",",
+            " which"
+          ],
+          "ngram_str": ", which",
+          "count": 482,
+          "percent": 96.4
+        },
+        {
+          "ngram": [
+            " which",
+            " is"
+          ],
+          "ngram_str": " which is",
+          "count": 176,
+          "percent": 35.2
+        },
+        {
+          "ngram": [
+            " which",
+            " I"
+          ],
+          "ngram_str": " which I",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " which",
+            " was"
+          ],
+          "ngram_str": " which was",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " order",
+            ","
+          ],
+          "ngram_str": " order,",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " don",
+            "'t"
+          ],
+          "ngram_str": " don't",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " it",
+            ","
+          ],
+          "ngram_str": " it,",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " which",
+            " makes"
+          ],
+          "ngram_str": " which makes",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " menu",
+            ","
+          ],
+          "ngram_str": " menu,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " isn",
+            "'t"
+          ],
+          "ngram_str": " isn't",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " which",
+            " means"
+          ],
+          "ngram_str": " which means",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is"
+          ],
+          "ngram_str": ", which is",
+          "count": 167,
+          "percent": 33.4
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " I"
+          ],
+          "ngram_str": ", which I",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " was"
+          ],
+          "ngram_str": ", which was",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " which",
+            " is",
+            " a"
+          ],
+          "ngram_str": " which is a",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " order",
+            ",",
+            " which"
+          ],
+          "ngram_str": " order, which",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " it",
+            ",",
+            " which"
+          ],
+          "ngram_str": " it, which",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " makes"
+          ],
+          "ngram_str": ", which makes",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " menu",
+            ",",
+            " which"
+          ],
+          "ngram_str": " menu, which",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " means"
+          ],
+          "ngram_str": ", which means",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " we"
+          ],
+          "ngram_str": ", which we",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " isn"
+          ],
+          "ngram_str": ", which isn",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " which",
+            " isn",
+            "'t"
+          ],
+          "ngram_str": " which isn't",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " which",
+            " is",
+            " why"
+          ],
+          "ngram_str": " which is why",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " which"
+          ],
+          "ngram_str": " food, which",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " them",
+            ",",
+            " which"
+          ],
+          "ngram_str": " them, which",
+          "count": 8,
+          "percent": 1.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is",
+            " a"
+          ],
+          "ngram_str": ", which is a",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " isn",
+            "'t"
+          ],
+          "ngram_str": ", which isn't",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " order",
+            ",",
+            " which",
+            " is"
+          ],
+          "ngram_str": " order, which is",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is",
+            " why"
+          ],
+          "ngram_str": ", which is why",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " was",
+            " disappointing"
+          ],
+          "ngram_str": ", which was disappointing",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is",
+            " the"
+          ],
+          "ngram_str": ", which is the",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu",
+            ","
+          ],
+          "ngram_str": " on the menu,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            ",",
+            " which"
+          ],
+          "ngram_str": " the menu, which",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is",
+            " great"
+          ],
+          "ngram_str": ", which is great",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " which",
+            " is",
+            " a",
+            " b"
+          ],
+          "ngram_str": " which is a b",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " b",
+            "ummer"
+          ],
+          "ngram_str": " is a bummer",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is",
+            " fine"
+          ],
+          "ngram_str": ", which is fine",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " topp",
+            "ings",
+            ",",
+            " which"
+          ],
+          "ngram_str": " toppings, which",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is",
+            " always"
+          ],
+          "ngram_str": ", which is always",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " which",
+            " is",
+            " not"
+          ],
+          "ngram_str": ", which is not",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6600000,
+      "corpus_coverage": 0.1277
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 2392,
+        "count": 9657,
+        "percent": 96.57
+      },
+      {
+        "feature_idx": 21686,
+        "count": 9486,
+        "percent": 94.86
+      },
+      {
+        "feature_idx": 23760,
+        "count": 8424,
+        "percent": 84.24
+      },
+      {
+        "feature_idx": 8148,
+        "count": 7600,
+        "percent": 76.0
+      },
+      {
+        "feature_idx": 11635,
+        "count": 7529,
+        "percent": 75.29
+      },
+      {
+        "feature_idx": 20612,
+        "count": 7487,
+        "percent": 74.87
+      },
+      {
+        "feature_idx": 20181,
+        "count": 7453,
+        "percent": 74.53
+      },
+      {
+        "feature_idx": 15143,
+        "count": 6864,
+        "percent": 68.64
+      },
+      {
+        "feature_idx": 24030,
+        "count": 5950,
+        "percent": 59.5
+      },
+      {
+        "feature_idx": 21187,
+        "count": 5053,
+        "percent": 50.53
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4855,
+        "percent": 48.55
+      },
+      {
+        "feature_idx": 20148,
+        "count": 4838,
+        "percent": 48.38
+      },
+      {
+        "feature_idx": 22756,
+        "count": 4667,
+        "percent": 46.67
+      },
+      {
+        "feature_idx": 11839,
+        "count": 3901,
+        "percent": 39.01
+      },
+      {
+        "feature_idx": 20848,
+        "count": 3814,
+        "percent": 38.14
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3810,
+        "percent": 38.1
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3518,
+        "percent": 35.18
+      },
+      {
+        "feature_idx": 21721,
+        "count": 3481,
+        "percent": 34.81
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3327,
+        "percent": 33.27
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3288,
+        "percent": 32.88
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6600000,
+      "corpus_coverage": 0.1277
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1210,
+        "percent": 12.1
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2251,
+        "percent": 22.51
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2623,
+        "percent": 26.23
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2327,
+        "percent": 23.27
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1589,
+        "percent": 15.89
+      }
+    ],
+    "mean_position": 0.5179,
+    "std_position": 0.2454
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 164,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0271,
+      "p25": 0.0546,
+      "p50": 0.0862,
+      "p75": 0.1163,
+      "p90": 0.1516,
+      "p95": 0.1606,
+      "p99": 0.1707
+    },
+    "skewness": 0.1594,
+    "kurtosis": -0.9321,
+    "min": 0.0104,
+    "max": 0.1863,
+    "mean": 0.088,
+    "std": 0.0436
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 164,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " which",
+        "count": 137,
+        "mean_activation": 0.0897
+      },
+      {
+        "token": "which",
+        "count": 12,
+        "mean_activation": 0.0988
+      },
+      {
+        "token": " Which",
+        "count": 7,
+        "mean_activation": 0.111
+      },
+      {
+        "token": " That",
+        "count": 3,
+        "mean_activation": 0.0151
+      },
+      {
+        "token": " who",
+        "count": 2,
+        "mean_activation": 0.0336
+      },
+      {
+        "token": "who",
+        "count": 1,
+        "mean_activation": 0.0295
+      },
+      {
+        "token": " Frank",
+        "count": 1,
+        "mean_activation": 0.0175
+      },
+      {
+        "token": " was",
+        "count": 1,
+        "mean_activation": 0.0231
+      }
+    ]
+  }
+}

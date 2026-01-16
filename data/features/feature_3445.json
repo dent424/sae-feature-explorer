@@ -1,0 +1,876 @@
+{
+  "feature_idx": 3445,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 213,
+    "mean_when_active": 0.04282973741701511,
+    "max_activation": 0.1302490234375,
+    "std_when_active": 0.02443766526806799,
+    "activation_rate": 0.00213
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 16300000,
+      "corpus_coverage": 0.3153
+    },
+    "top_tokens": [
+      {
+        "token": " rude",
+        "count": 2740,
+        "mean_activation": 0.09887590617158987
+      },
+      {
+        "token": ".",
+        "count": 2233,
+        "mean_activation": 0.030913045894282846
+      },
+      {
+        "token": ",",
+        "count": 1138,
+        "mean_activation": 0.03688046634721002
+      },
+      {
+        "token": " disgusting",
+        "count": 809,
+        "mean_activation": 0.06821489746697311
+      },
+      {
+        "token": "\"",
+        "count": 726,
+        "mean_activation": 0.03561982504264054
+      },
+      {
+        "token": " and",
+        "count": 714,
+        "mean_activation": 0.03573207694943212
+      },
+      {
+        "token": "rible",
+        "count": 558,
+        "mean_activation": 0.01622279997794859
+      },
+      {
+        "token": " gross",
+        "count": 553,
+        "mean_activation": 0.037095150938948065
+      },
+      {
+        "token": "ly",
+        "count": 533,
+        "mean_activation": 0.06787158042807516
+      },
+      {
+        "token": " wrong",
+        "count": 452,
+        "mean_activation": 0.0373431349222639
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 16300000,
+      "corpus_coverage": 0.3153
+    },
+    "activations": [
+      {
+        "context": "...absolutely rude and** racist**. The table service ...",
+        "active_token": " racist",
+        "activation": 0.1995849609375,
+        "review_id": "_5FKl7SDkymShx7euhI3ow",
+        "position": 7
+      },
+      {
+        "context": "...egular\" rude, but \"h**ateful** rude\".  It's been 3...",
+        "active_token": "ateful",
+        "activation": 0.19677734375,
+        "review_id": "MwYdUGaC0wE6rZlvKZ_Lmw",
+        "position": 56
+      },
+      {
+        "context": "...ing so blatantly** disrespectful**.",
+        "active_token": " disrespectful",
+        "activation": 0.19677734375,
+        "review_id": "ZUsFxKuVIKAMHqUTQCO2OA",
+        "position": 239
+      },
+      {
+        "context": "...o people and making** hateful** comments like that...",
+        "active_token": " hateful",
+        "activation": 0.196044921875,
+        "review_id": "ugm5v3cm_xJxBsRWPByS1g",
+        "position": 158
+      },
+      {
+        "context": "...omers and was very** offensive**. I don't believe ...",
+        "active_token": " offensive",
+        "activation": 0.1934814453125,
+        "review_id": "oSDimB6uQlNscmO3bRvLFQ",
+        "position": 30
+      },
+      {
+        "context": "...rant staff is rude,** racist**, greedy, and I will...",
+        "active_token": " racist",
+        "activation": 0.19140625,
+        "review_id": "BkGimocTGzcQ7JbO0zx7gg",
+        "position": 231
+      },
+      {
+        "context": "...ting and offensive,** racist** and sexist.  Then w...",
+        "active_token": " racist",
+        "activation": 0.19140625,
+        "review_id": "JeOQAGZbADpufmCZPqU2eg",
+        "position": 268
+      },
+      {
+        "context": "...y rude and possibly** racist** management. Ignored...",
+        "active_token": " racist",
+        "activation": 0.191162109375,
+        "review_id": "cKIPUc4powXsDyDybhnoCQ",
+        "position": 4
+      },
+      {
+        "context": "... and not to mention** racist** staff I have ever s...",
+        "active_token": " racist",
+        "activation": 0.1895751953125,
+        "review_id": "ixXNozmiK8DcWzqNZbb1Ig",
+        "position": 20
+      },
+      {
+        "context": "... and not to mention** racist** staff I have ever s...",
+        "active_token": " racist",
+        "activation": 0.1895751953125,
+        "review_id": "XkjsQOSZ4_pHHnK5m054Og",
+        "position": 20
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3445,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 31500000,
+      "corpus_coverage": 0.6092,
+      "activation_range": {
+        "min": 0.1511,
+        "max": 0.209,
+        "mean": 0.1651
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " rude",
+            " and"
+          ],
+          "ngram_str": " rude and",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " rude"
+          ],
+          "ngram_str": " and rude",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " racist",
+            "."
+          ],
+          "ngram_str": " racist.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " un",
+            "professional"
+          ],
+          "ngram_str": " unprofessional",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " and",
+            " disrespectful"
+          ],
+          "ngram_str": " and disrespectful",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " racist",
+            ","
+          ],
+          "ngram_str": " racist,",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " racist",
+            " and"
+          ],
+          "ngram_str": " racist and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " prof",
+            "anity"
+          ],
+          "ngram_str": " profanity",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " disrespectful",
+            " and"
+          ],
+          "ngram_str": " disrespectful and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " and",
+            " racist"
+          ],
+          "ngram_str": " and racist",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "professional",
+            " and"
+          ],
+          "ngram_str": "professional and",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " rude",
+            " and",
+            " disrespectful"
+          ],
+          "ngram_str": " rude and disrespectful",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " rude",
+            "."
+          ],
+          "ngram_str": " and rude.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " un",
+            "professional",
+            " and"
+          ],
+          "ngram_str": " unprofessional and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " dem",
+            "e",
+            "aning"
+          ],
+          "ngram_str": " demeaning",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ",",
+            " racist",
+            ","
+          ],
+          "ngram_str": ", racist,",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " and",
+            " disrespectful",
+            "."
+          ],
+          "ngram_str": " and disrespectful.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " rude",
+            " and",
+            " racist"
+          ],
+          "ngram_str": " rude and racist",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " and",
+            " racist",
+            "."
+          ],
+          "ngram_str": " and racist.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " and",
+            " un",
+            "professional"
+          ],
+          "ngram_str": " and unprofessional",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " and",
+            " racial",
+            " slurs"
+          ],
+          "ngram_str": " and racial slurs",
+          "count": 5,
+          "percent": 1.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " un",
+            "professional",
+            " and",
+            " rude"
+          ],
+          "ngram_str": " unprofessional and rude",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " spew",
+            " derogatory",
+            " comments",
+            " and"
+          ],
+          "ngram_str": " spew derogatory comments and",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " derogatory",
+            " comments",
+            " and",
+            " racial"
+          ],
+          "ngram_str": " derogatory comments and racial",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " comments",
+            " and",
+            " racial",
+            " slurs"
+          ],
+          "ngram_str": " comments and racial slurs",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " and",
+            " racial",
+            " slurs",
+            " about"
+          ],
+          "ngram_str": " and racial slurs about",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " rude",
+            " and",
+            " dem",
+            "e"
+          ],
+          "ngram_str": " rude and deme",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " and",
+            " dem",
+            "e",
+            "aning"
+          ],
+          "ngram_str": " and demeaning",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " derogatory",
+            " comments",
+            " in",
+            " regards"
+          ],
+          "ngram_str": " derogatory comments in regards",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " comments",
+            " in",
+            " regards",
+            " to"
+          ],
+          "ngram_str": " comments in regards to",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " in",
+            " regards",
+            " to",
+            " race"
+          ],
+          "ngram_str": " in regards to race",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " extremely",
+            " un",
+            "professional",
+            " and"
+          ],
+          "ngram_str": " extremely unprofessional and",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " and",
+            " offensive",
+            ",",
+            " racist"
+          ],
+          "ngram_str": " and offensive, racist",
+          "count": 3,
+          "percent": 0.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3500000,
+      "corpus_coverage": 0.0677
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 6312,
+        "percent": 63.12
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3002,
+        "percent": 30.02
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2954,
+        "percent": 29.54
+      },
+      {
+        "feature_idx": 20043,
+        "count": 2741,
+        "percent": 27.41
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2645,
+        "percent": 26.45
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2573,
+        "percent": 25.73
+      },
+      {
+        "feature_idx": 11476,
+        "count": 2555,
+        "percent": 25.55
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2382,
+        "percent": 23.82
+      },
+      {
+        "feature_idx": 23912,
+        "count": 2120,
+        "percent": 21.2
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2002,
+        "percent": 20.02
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1569,
+        "percent": 15.69
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1551,
+        "percent": 15.51
+      },
+      {
+        "feature_idx": 5665,
+        "count": 1484,
+        "percent": 14.84
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1442,
+        "percent": 14.42
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1358,
+        "percent": 13.58
+      },
+      {
+        "feature_idx": 10336,
+        "count": 1280,
+        "percent": 12.8
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1191,
+        "percent": 11.91
+      },
+      {
+        "feature_idx": 10847,
+        "count": 1181,
+        "percent": 11.81
+      },
+      {
+        "feature_idx": 4871,
+        "count": 1163,
+        "percent": 11.63
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1132,
+        "percent": 11.32
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3500000,
+      "corpus_coverage": 0.0677
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2084,
+        "percent": 20.84
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1681,
+        "percent": 16.81
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1798,
+        "percent": 17.98
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2030,
+        "percent": 20.3
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2407,
+        "percent": 24.07
+      }
+    ],
+    "mean_position": 0.5189,
+    "std_position": 0.3045
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 213,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0191,
+      "p25": 0.0264,
+      "p50": 0.0367,
+      "p75": 0.0516,
+      "p90": 0.0776,
+      "p95": 0.1056,
+      "p99": 0.113
+    },
+    "skewness": 1.4522,
+    "kurtosis": 1.7912,
+    "min": 0.0112,
+    "max": 0.1302,
+    "mean": 0.0428,
+    "std": 0.0244
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 213,
+      "unique_tokens_found": 160
+    },
+    "tokens": [
+      {
+        "token": " rude",
+        "count": 13,
+        "mean_activation": 0.09
+      },
+      {
+        "token": "\"",
+        "count": 7,
+        "mean_activation": 0.0339
+      },
+      {
+        "token": ".",
+        "count": 7,
+        "mean_activation": 0.0314
+      },
+      {
+        "token": "ly",
+        "count": 6,
+        "mean_activation": 0.0642
+      },
+      {
+        "token": " disgusting",
+        "count": 5,
+        "mean_activation": 0.0722
+      },
+      {
+        "token": "rible",
+        "count": 4,
+        "mean_activation": 0.0153
+      },
+      {
+        "token": " gross",
+        "count": 4,
+        "mean_activation": 0.0371
+      },
+      {
+        "token": " awful",
+        "count": 3,
+        "mean_activation": 0.0243
+      },
+      {
+        "token": " hate",
+        "count": 3,
+        "mean_activation": 0.0578
+      },
+      {
+        "token": " r",
+        "count": 2,
+        "mean_activation": 0.0209
+      }
+    ]
+  }
+}

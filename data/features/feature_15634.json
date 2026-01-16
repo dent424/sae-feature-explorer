@@ -1,0 +1,876 @@
+{
+  "feature_idx": 15634,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 19,
+    "mean_when_active": 0.05989315635279605,
+    "max_activation": 0.1756591796875,
+    "std_when_active": 0.048471472181614815,
+    "activation_rate": 0.00019
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 9156,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Just",
+        "count": 1317,
+        "mean_activation": 0.02370956872753239
+      },
+      {
+        "token": " blah",
+        "count": 977,
+        "mean_activation": 0.05330237053799897
+      },
+      {
+        "token": " Literally",
+        "count": 682,
+        "mean_activation": 0.03878571630572993
+      },
+      {
+        "token": " paste",
+        "count": 590,
+        "mean_activation": 0.1525458901615466
+      },
+      {
+        "token": " Ref",
+        "count": 502,
+        "mean_activation": 0.0471391715851438
+      },
+      {
+        "token": " powder",
+        "count": 492,
+        "mean_activation": 0.18588455324250508
+      },
+      {
+        "token": "owder",
+        "count": 377,
+        "mean_activation": 0.044611397093107595
+      },
+      {
+        "token": " Simply",
+        "count": 343,
+        "mean_activation": 0.045651360781477766
+      },
+      {
+        "token": " Pepsi",
+        "count": 325,
+        "mean_activation": 0.07204514723557692
+      },
+      {
+        "token": " powdered",
+        "count": 201,
+        "mean_activation": 0.18961588541666666
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 9156,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ole was made from a** powder**.  Not cool.",
+        "active_token": " powder",
+        "activation": 0.26416015625,
+        "review_id": "a8t5NoJITIfL0u52WekgFg",
+        "position": 50
+      },
+      {
+        "context": "... it was made from a** powder** mix and very bland ...",
+        "active_token": " powder",
+        "activation": 0.26416015625,
+        "review_id": "0v7bduFmtNZe5ff7bcpV3w",
+        "position": 47
+      },
+      {
+        "context": "...ittedly made from a** powder** mix and was super s...",
+        "active_token": " powder",
+        "activation": 0.262451171875,
+        "review_id": "t4xhH332hhmvjYDX9nm0Hg",
+        "position": 169
+      },
+      {
+        "context": "...s ( not made from a** powder**y mix!)\\nJose our ser...",
+        "active_token": " powder",
+        "activation": 0.261474609375,
+        "review_id": "6pE6V2RJyi3UU_PVQI48-Q",
+        "position": 30
+      },
+      {
+        "context": "...like it came from a** powder** mix.",
+        "active_token": " powder",
+        "activation": 0.2607421875,
+        "review_id": "pgbZP0gYlRJgpmHOML2Rzg",
+        "position": 53
+      },
+      {
+        "context": "...me-made, not with a** powder**y mix.  The crowds v...",
+        "active_token": " powder",
+        "activation": 0.258056640625,
+        "review_id": "CV20ijaFZdsdDio9tdGrmw",
+        "position": 102
+      },
+      {
+        "context": "... rather than from a** powder**. It was a welcome r...",
+        "active_token": " powder",
+        "activation": 0.2568359375,
+        "review_id": "DBfJUuc_Vdi3rsLpew2FiQ",
+        "position": 138
+      },
+      {
+        "context": "...ed like they used a** powder** mix.  My shrimp chi...",
+        "active_token": " powder",
+        "activation": 0.25537109375,
+        "review_id": "ncN-44YBHXSsexpLHvfpzQ",
+        "position": 60
+      },
+      {
+        "context": "...c, it's made from a** powder** (kind of like kool-...",
+        "active_token": " powder",
+        "activation": 0.254638671875,
+        "review_id": "iv9V5giICdpjREWqGA2vnA",
+        "position": 244
+      },
+      {
+        "context": "...in and remind me of** powder** gravy where you add...",
+        "active_token": " powder",
+        "activation": 0.253662109375,
+        "review_id": "aylq7rfKY4_p1qsvNU7RRQ",
+        "position": 59
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15634,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.178,
+        "max": 0.2642,
+        "mean": 0.2023
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " powdered",
+            " sugar"
+          ],
+          "ngram_str": " powdered sugar",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " powder",
+            "y"
+          ],
+          "ngram_str": " powdery",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " with",
+            " powdered"
+          ],
+          "ngram_str": " with powdered",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " powder",
+            "."
+          ],
+          "ngram_str": " powder.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " paste",
+            "."
+          ],
+          "ngram_str": " paste.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " sugar",
+            "."
+          ],
+          "ngram_str": " sugar.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " powdered"
+          ],
+          "ngram_str": " and powdered",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " a",
+            " powder"
+          ],
+          "ngram_str": " a powder",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " like",
+            " paste"
+          ],
+          "ngram_str": " like paste",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " sugar",
+            " and"
+          ],
+          "ngram_str": " sugar and",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " with",
+            " powdered",
+            " sugar"
+          ],
+          "ngram_str": " with powdered sugar",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " powdered",
+            " sugar",
+            "."
+          ],
+          "ngram_str": " powdered sugar.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " and",
+            " powdered",
+            " sugar"
+          ],
+          "ngram_str": " and powdered sugar",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " powdered",
+            " sugar",
+            " and"
+          ],
+          "ngram_str": " powdered sugar and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " ch",
+            "ile",
+            " powder"
+          ],
+          "ngram_str": " chile powder",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " like",
+            " paste",
+            "."
+          ],
+          "ngram_str": " like paste.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " from",
+            " a",
+            " powder"
+          ],
+          "ngram_str": " from a powder",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " a",
+            " powder",
+            "y"
+          ],
+          "ngram_str": " a powdery",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " honey",
+            " and",
+            " powdered"
+          ],
+          "ngram_str": " honey and powdered",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " made",
+            " from",
+            " a"
+          ],
+          "ngram_str": " made from a",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " hor",
+            "ch",
+            "ata"
+          ],
+          "ngram_str": " horchata",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " with",
+            " powdered",
+            " sugar",
+            "."
+          ],
+          "ngram_str": " with powdered sugar.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " honey",
+            " and",
+            " powdered",
+            " sugar"
+          ],
+          "ngram_str": " honey and powdered sugar",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " and",
+            " powdered",
+            " sugar",
+            "."
+          ],
+          "ngram_str": " and powdered sugar.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " with",
+            " powdered",
+            " sugar",
+            " and"
+          ],
+          "ngram_str": " with powdered sugar and",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " made",
+            " from",
+            " a",
+            " powder"
+          ],
+          "ngram_str": " made from a powder",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " with",
+            " honey",
+            " and",
+            " powdered"
+          ],
+          "ngram_str": " with honey and powdered",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " powdered",
+            " sugar",
+            ".",
+            " "
+          ],
+          "ngram_str": " powdered sugar. ",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " sprinkled",
+            " with",
+            " powdered",
+            " sugar"
+          ],
+          "ngram_str": " sprinkled with powdered sugar",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " cinnamon",
+            " and",
+            " powdered",
+            " sugar"
+          ],
+          "ngram_str": " cinnamon and powdered sugar",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " dough",
+            " with",
+            " powdered",
+            " sugar"
+          ],
+          "ngram_str": " dough with powdered sugar",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9156,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4458,
+        "percent": 48.69
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4010,
+        "percent": 43.8
+      },
+      {
+        "feature_idx": 19889,
+        "count": 3178,
+        "percent": 34.71
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2990,
+        "percent": 32.66
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2477,
+        "percent": 27.05
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2472,
+        "percent": 27.0
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2409,
+        "percent": 26.31
+      },
+      {
+        "feature_idx": 5525,
+        "count": 1810,
+        "percent": 19.77
+      },
+      {
+        "feature_idx": 11393,
+        "count": 1809,
+        "percent": 19.76
+      },
+      {
+        "feature_idx": 5147,
+        "count": 1799,
+        "percent": 19.65
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1778,
+        "percent": 19.42
+      },
+      {
+        "feature_idx": 10572,
+        "count": 1733,
+        "percent": 18.93
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1716,
+        "percent": 18.74
+      },
+      {
+        "feature_idx": 2544,
+        "count": 1684,
+        "percent": 18.39
+      },
+      {
+        "feature_idx": 11491,
+        "count": 1681,
+        "percent": 18.36
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1585,
+        "percent": 17.31
+      },
+      {
+        "feature_idx": 21609,
+        "count": 1578,
+        "percent": 17.23
+      },
+      {
+        "feature_idx": 16012,
+        "count": 1429,
+        "percent": 15.61
+      },
+      {
+        "feature_idx": 8820,
+        "count": 1377,
+        "percent": 15.04
+      },
+      {
+        "feature_idx": 19614,
+        "count": 1372,
+        "percent": 14.98
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9156,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1122,
+        "percent": 12.25
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1855,
+        "percent": 20.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2164,
+        "percent": 23.63
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2197,
+        "percent": 24.0
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1818,
+        "percent": 19.86
+      }
+    ],
+    "mean_position": 0.5388,
+    "std_position": 0.2612
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 19,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0257,
+      "p25": 0.0301,
+      "p50": 0.0421,
+      "p75": 0.0534,
+      "p90": 0.1587,
+      "p95": 0.1685,
+      "p99": 0.1742
+    },
+    "skewness": 1.5756,
+    "kurtosis": 0.933,
+    "min": 0.0183,
+    "max": 0.1757,
+    "mean": 0.0599,
+    "std": 0.0485
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 19,
+      "unique_tokens_found": 12
+    },
+    "tokens": [
+      {
+        "token": " Just",
+        "count": 5,
+        "mean_activation": 0.0268
+      },
+      {
+        "token": " blah",
+        "count": 2,
+        "mean_activation": 0.039
+      },
+      {
+        "token": " Simply",
+        "count": 2,
+        "mean_activation": 0.047
+      },
+      {
+        "token": " paste",
+        "count": 2,
+        "mean_activation": 0.1717
+      },
+      {
+        "token": " Pepsi",
+        "count": 1,
+        "mean_activation": 0.0825
+      },
+      {
+        "token": " rub",
+        "count": 1,
+        "mean_activation": 0.0498
+      },
+      {
+        "token": " substance",
+        "count": 1,
+        "mean_activation": 0.0348
+      },
+      {
+        "token": "owder",
+        "count": 1,
+        "mean_activation": 0.033
+      },
+      {
+        "token": " concentrate",
+        "count": 1,
+        "mean_activation": 0.0551
+      },
+      {
+        "token": " Ref",
+        "count": 1,
+        "mean_activation": 0.0495
+      }
+    ]
+  }
+}

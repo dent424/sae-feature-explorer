@@ -1,0 +1,856 @@
+{
+  "feature_idx": 15156,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 6,
+    "mean_when_active": 0.09233856201171875,
+    "max_activation": 0.32958984375,
+    "std_when_active": 0.10681684853131528,
+    "activation_rate": 6e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5585,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " hello",
+        "count": 631,
+        "mean_activation": 0.22956076741407488
+      },
+      {
+        "token": " no",
+        "count": 369,
+        "mean_activation": 0.048440204403264735
+      },
+      {
+        "token": " up",
+        "count": 365,
+        "mean_activation": 0.04874405534300086
+      },
+      {
+        "token": " sorry",
+        "count": 314,
+        "mean_activation": 0.08239755812723926
+      },
+      {
+        "token": " hi",
+        "count": 301,
+        "mean_activation": 0.2850583098655523
+      },
+      {
+        "token": " thank",
+        "count": 263,
+        "mean_activation": 0.07784210321114544
+      },
+      {
+        "token": " dear",
+        "count": 250,
+        "mean_activation": 0.069953125
+      },
+      {
+        "token": " yes",
+        "count": 231,
+        "mean_activation": 0.033972736044879596
+      },
+      {
+        "token": " goodbye",
+        "count": 134,
+        "mean_activation": 0.16366804891557835
+      },
+      {
+        "token": " Hi",
+        "count": 125,
+        "mean_activation": 0.12036865234375
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5585,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...is restaurant and say** hi** to Susanna the owner/...",
+        "active_token": " hi",
+        "activation": 0.36474609375,
+        "review_id": "QSjKM6dw-rxm426RNeEqgA",
+        "position": 364
+      },
+      {
+        "context": "...h you or at least say** hi** but no! He was callin...",
+        "active_token": " hi",
+        "activation": 0.36181640625,
+        "review_id": "6EpHZsbx6EUWmoNvYWhzbw",
+        "position": 55
+      },
+      {
+        "context": "...g left.\\n\\nStop by, say** hi** to Hector - his smile...",
+        "active_token": " hi",
+        "activation": 0.359375,
+        "review_id": "Rd5JLX1ExqdsO-TOXWpo5w",
+        "position": 301
+      },
+      {
+        "context": "...gh to stop by and say** hi** and ask what I wanted...",
+        "active_token": " hi",
+        "activation": 0.357666015625,
+        "review_id": "-8bmqen1ArFyf7RNToVoLg",
+        "position": 121
+      },
+      {
+        "context": "...quila? Stop by to say** hi** to Rochelle and juan....",
+        "active_token": " hi",
+        "activation": 0.357421875,
+        "review_id": "XemxaWCG8yn98OCn7H-XLQ",
+        "position": 70
+      },
+      {
+        "context": "...She makes sure to say** hi** to us no matter what ...",
+        "active_token": " hi",
+        "activation": 0.357421875,
+        "review_id": "wBsZqQmXhozY8bGFFuuoMw",
+        "position": 114
+      },
+      {
+        "context": "...ad or stop by and say** hi** to this owner and let...",
+        "active_token": " hi",
+        "activation": 0.35693359375,
+        "review_id": "KcGYQl6cDpfQKAE3HUp2Zg",
+        "position": 251
+      },
+      {
+        "context": "...inks and eats and say** hi** to Andrea!",
+        "active_token": " hi",
+        "activation": 0.3564453125,
+        "review_id": "5gT02YPZIpT7BpkfeHDXEA",
+        "position": 52
+      },
+      {
+        "context": "...teak fajitas, and say** hi** to Chris!",
+        "active_token": " hi",
+        "activation": 0.3564453125,
+        "review_id": "fxuT-mbO5ZY9frlIObTzDg",
+        "position": 254
+      },
+      {
+        "context": "...joy to stop by to say** hi** and grab some good fo...",
+        "active_token": " hi",
+        "activation": 0.3564453125,
+        "review_id": "b8FCJ-EBGFMh9i1w69ETUQ",
+        "position": 23
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15156,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2761,
+        "max": 0.3647,
+        "mean": 0.3084
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " say",
+            " hello"
+          ],
+          "ngram_str": " say hello",
+          "count": 161,
+          "percent": 32.2
+        },
+        {
+          "ngram": [
+            " to",
+            " say"
+          ],
+          "ngram_str": " to say",
+          "count": 149,
+          "percent": 29.8
+        },
+        {
+          "ngram": [
+            " say",
+            " hi"
+          ],
+          "ngram_str": " say hi",
+          "count": 135,
+          "percent": 27.0
+        },
+        {
+          "ngram": [
+            " hi",
+            " to"
+          ],
+          "ngram_str": " hi to",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " hello",
+            " and"
+          ],
+          "ngram_str": " hello and",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " said",
+            " hello"
+          ],
+          "ngram_str": " said hello",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " said",
+            " hi"
+          ],
+          "ngram_str": " said hi",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " hello",
+            " to"
+          ],
+          "ngram_str": " hello to",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " and",
+            " say"
+          ],
+          "ngram_str": " and say",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " hello",
+            "."
+          ],
+          "ngram_str": " hello.",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " hi",
+            " and"
+          ],
+          "ngram_str": " hi and",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " by",
+            " to"
+          ],
+          "ngram_str": " by to",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " didn't",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " to",
+            " say",
+            " hello"
+          ],
+          "ngram_str": " to say hello",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " to",
+            " say",
+            " hi"
+          ],
+          "ngram_str": " to say hi",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " say",
+            " hi",
+            " to"
+          ],
+          "ngram_str": " say hi to",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " say",
+            " hello",
+            " and"
+          ],
+          "ngram_str": " say hello and",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " say",
+            " hello",
+            "."
+          ],
+          "ngram_str": " say hello.",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " say",
+            " hello",
+            " to"
+          ],
+          "ngram_str": " say hello to",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " and",
+            " say",
+            " hello"
+          ],
+          "ngram_str": " and say hello",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " say",
+            " hi",
+            " and"
+          ],
+          "ngram_str": " say hi and",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " by",
+            " to",
+            " say"
+          ],
+          "ngram_str": " by to say",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " and",
+            " say",
+            " hi"
+          ],
+          "ngram_str": " and say hi",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " said",
+            " hello",
+            " and"
+          ],
+          "ngram_str": " said hello and",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " by",
+            " and",
+            " say"
+          ],
+          "ngram_str": " by and say",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " over",
+            " to",
+            " say"
+          ],
+          "ngram_str": " over to say",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " even",
+            " say"
+          ],
+          "ngram_str": "'t even say",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " hi",
+            " to",
+            " the"
+          ],
+          "ngram_str": " hi to the",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " to",
+            " say",
+            " hello",
+            " and"
+          ],
+          "ngram_str": " to say hello and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " to",
+            " say",
+            " hello",
+            "."
+          ],
+          "ngram_str": " to say hello.",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " to",
+            " say",
+            " hi",
+            " to"
+          ],
+          "ngram_str": " to say hi to",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " by",
+            " to",
+            " say",
+            " hello"
+          ],
+          "ngram_str": " by to say hello",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " and",
+            " say",
+            " hello",
+            " to"
+          ],
+          "ngram_str": " and say hello to",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " to",
+            " say",
+            " hi",
+            " and"
+          ],
+          "ngram_str": " to say hi and",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " stopped",
+            " by",
+            " to",
+            " say"
+          ],
+          "ngram_str": " stopped by to say",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " came",
+            " out",
+            " to",
+            " say"
+          ],
+          "ngram_str": " came out to say",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " over",
+            " to",
+            " say",
+            " hello"
+          ],
+          "ngram_str": " over to say hello",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " came",
+            " over",
+            " to",
+            " say"
+          ],
+          "ngram_str": " came over to say",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " by",
+            " and",
+            " say",
+            " hello"
+          ],
+          "ngram_str": " by and say hello",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " to",
+            " say",
+            " hello",
+            " to"
+          ],
+          "ngram_str": " to say hello to",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " by",
+            " to",
+            " say",
+            " hi"
+          ],
+          "ngram_str": " by to say hi",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " and",
+            " say",
+            " hello",
+            "."
+          ],
+          "ngram_str": " and say hello.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " and",
+            " say",
+            " hi",
+            " to"
+          ],
+          "ngram_str": " and say hi to",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5585,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 2488,
+        "percent": 44.55
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2253,
+        "percent": 40.34
+      },
+      {
+        "feature_idx": 20204,
+        "count": 2237,
+        "percent": 40.05
+      },
+      {
+        "feature_idx": 19735,
+        "count": 2183,
+        "percent": 39.09
+      },
+      {
+        "feature_idx": 22828,
+        "count": 2181,
+        "percent": 39.05
+      },
+      {
+        "feature_idx": 18278,
+        "count": 2139,
+        "percent": 38.3
+      },
+      {
+        "feature_idx": 15280,
+        "count": 2124,
+        "percent": 38.03
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1983,
+        "percent": 35.51
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1906,
+        "percent": 34.13
+      },
+      {
+        "feature_idx": 706,
+        "count": 1795,
+        "percent": 32.14
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1764,
+        "percent": 31.58
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1725,
+        "percent": 30.89
+      },
+      {
+        "feature_idx": 19104,
+        "count": 1584,
+        "percent": 28.36
+      },
+      {
+        "feature_idx": 7361,
+        "count": 1423,
+        "percent": 25.48
+      },
+      {
+        "feature_idx": 2026,
+        "count": 1308,
+        "percent": 23.42
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1212,
+        "percent": 21.7
+      },
+      {
+        "feature_idx": 1450,
+        "count": 1099,
+        "percent": 19.68
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1026,
+        "percent": 18.37
+      },
+      {
+        "feature_idx": 3559,
+        "count": 1017,
+        "percent": 18.21
+      },
+      {
+        "feature_idx": 24308,
+        "count": 969,
+        "percent": 17.35
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5585,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 891,
+        "percent": 15.95
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1102,
+        "percent": 19.73
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1119,
+        "percent": 20.04
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1166,
+        "percent": 20.88
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1307,
+        "percent": 23.4
+      }
+    ],
+    "mean_position": 0.5344,
+    "std_position": 0.2863
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 6,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0301,
+      "p25": 0.0401,
+      "p50": 0.051,
+      "p75": 0.0597,
+      "p90": 0.1959,
+      "p95": 0.2628,
+      "p99": 0.3162
+    },
+    "skewness": 1.7347,
+    "kurtosis": 1.1061,
+    "min": 0.0232,
+    "max": 0.3296,
+    "mean": 0.0923,
+    "std": 0.1068
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 6,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " thank",
+        "count": 1,
+        "mean_activation": 0.0232
+      },
+      {
+        "token": " up",
+        "count": 1,
+        "mean_activation": 0.0623
+      },
+      {
+        "token": " hi",
+        "count": 1,
+        "mean_activation": 0.3296
+      },
+      {
+        "token": " to",
+        "count": 1,
+        "mean_activation": 0.05
+      },
+      {
+        "token": "Welcome",
+        "count": 1,
+        "mean_activation": 0.0369
+      },
+      {
+        "token": " sorry",
+        "count": 1,
+        "mean_activation": 0.0521
+      }
+    ]
+  }
+}

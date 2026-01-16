@@ -1,0 +1,876 @@
+{
+  "feature_idx": 16284,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 263,
+    "mean_when_active": 0.07306412961546459,
+    "max_activation": 0.2447509765625,
+    "std_when_active": 0.052157032392810165,
+    "activation_rate": 0.00263
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 18000000,
+      "corpus_coverage": 0.3481
+    },
+    "top_tokens": [
+      {
+        "token": " need",
+        "count": 5806,
+        "mean_activation": 0.11549339071044501
+      },
+      {
+        "token": " a",
+        "count": 4951,
+        "mean_activation": 0.08578657482735101
+      },
+      {
+        "token": " needed",
+        "count": 2981,
+        "mean_activation": 0.12294846323263481
+      },
+      {
+        "token": " more",
+        "count": 2031,
+        "mean_activation": 0.08958158206611005
+      },
+      {
+        "token": " needs",
+        "count": 1906,
+        "mean_activation": 0.14365890518941007
+      },
+      {
+        "token": " some",
+        "count": 1510,
+        "mean_activation": 0.11274319074011796
+      },
+      {
+        "token": " of",
+        "count": 1350,
+        "mean_activation": 0.07504712140118634
+      },
+      {
+        "token": " little",
+        "count": 857,
+        "mean_activation": 0.08507226256255926
+      },
+      {
+        "token": " better",
+        "count": 725,
+        "mean_activation": 0.04995602311759159
+      },
+      {
+        "token": " and",
+        "count": 689,
+        "mean_activation": 0.04733916394769367
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 18000000,
+      "corpus_coverage": 0.3481
+    },
+    "activations": [
+      {
+        "context": "...ican restaurant needs** no** introduction and is p...",
+        "active_token": " no",
+        "activation": 0.2998046875,
+        "review_id": "fWObYiqTRgXAQKfDmPMWQg",
+        "position": 99
+      },
+      {
+        "context": "...sa by the way needed** some** work, meaning more h...",
+        "active_token": " some",
+        "activation": 0.298828125,
+        "review_id": "aC9Va9n_5FlnTw7cote59A",
+        "position": 98
+      },
+      {
+        "context": "... the green corn need** some** sort of sauce, kinda...",
+        "active_token": " some",
+        "activation": 0.295654296875,
+        "review_id": "s3DpCph1MTjWkEtjcnfZxg",
+        "position": 9
+      },
+      {
+        "context": "...e wet burritos needs** some** more seasonings, but...",
+        "active_token": " some",
+        "activation": 0.29345703125,
+        "review_id": "BY9ZJcPuXOQgKZjt900DCQ",
+        "position": 41
+      },
+      {
+        "context": "... beans and rice need** some** seasoning. With thes...",
+        "active_token": " some",
+        "activation": 0.293212890625,
+        "review_id": "PFZ_mWyu0C-SBtx-cojI5Q",
+        "position": 163
+      },
+      {
+        "context": "...ittle tiny cups need** some** change especially wh...",
+        "active_token": " some",
+        "activation": 0.29296875,
+        "review_id": "YuQOnuuGH2TWTuN_rMSQhg",
+        "position": 140
+      },
+      {
+        "context": "...iladas really needed** some** zing but I wasn't in...",
+        "active_token": " some",
+        "activation": 0.290771484375,
+        "review_id": "lsSHQTppPScmlIbsWUuizQ",
+        "position": 184
+      },
+      {
+        "context": "...d. The interior needs** an** update. There's a smo...",
+        "active_token": " an",
+        "activation": 0.29052734375,
+        "review_id": "y3qWenjTsmeMaWNUHetTKQ",
+        "position": 38
+      },
+      {
+        "context": "...tables and floors need** a** good mopping. And thi...",
+        "active_token": " a",
+        "activation": 0.28662109375,
+        "review_id": "8NNhcTZadysguOuoNhcNag",
+        "position": 26
+      },
+      {
+        "context": "...f the restaurant need** an** upgrade. Very small i...",
+        "active_token": " an",
+        "activation": 0.285888671875,
+        "review_id": "NpFxITCkzLYj2T-RfMexQw",
+        "position": 12
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 16284,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 35800000,
+      "corpus_coverage": 0.6924,
+      "activation_range": {
+        "min": 0.2546,
+        "max": 0.3032,
+        "mean": 0.2672
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " needs",
+            " some"
+          ],
+          "ngram_str": " needs some",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " needed",
+            " some"
+          ],
+          "ngram_str": " needed some",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " need",
+            " of"
+          ],
+          "ngram_str": " need of",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " needed",
+            " a"
+          ],
+          "ngram_str": " needed a",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " some",
+            " work"
+          ],
+          "ngram_str": " some work",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " needs",
+            " a"
+          ],
+          "ngram_str": " needs a",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " work",
+            "."
+          ],
+          "ngram_str": " work.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " need",
+            " some"
+          ],
+          "ngram_str": " need some",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " need",
+            " a"
+          ],
+          "ngram_str": " need a",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " but",
+            " the"
+          ],
+          "ngram_str": " but the",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " a",
+            " little"
+          ],
+          "ngram_str": " a little",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " needs",
+            " some",
+            " work"
+          ],
+          "ngram_str": " needs some work",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " some",
+            " work",
+            "."
+          ],
+          "ngram_str": " some work.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " in",
+            " need",
+            " of"
+          ],
+          "ngram_str": " in need of",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " needed",
+            " a",
+            " little"
+          ],
+          "ngram_str": " needed a little",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " need",
+            " of",
+            " a"
+          ],
+          "ngram_str": " need of a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " a",
+            " lot",
+            " of"
+          ],
+          "ngram_str": " a lot of",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " need",
+            " some",
+            " work"
+          ],
+          "ngram_str": " need some work",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " service",
+            " needs",
+            " some"
+          ],
+          "ngram_str": " service needs some",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " the"
+          ],
+          "ngram_str": ", but the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " more"
+          ],
+          "ngram_str": " a little more",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " needs",
+            " a",
+            " lot"
+          ],
+          "ngram_str": " needs a lot",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " needs"
+          ],
+          "ngram_str": " the service needs",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " needs",
+            " some",
+            " work",
+            "."
+          ],
+          "ngram_str": " needs some work.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " needs",
+            " a",
+            " lot",
+            " of"
+          ],
+          "ngram_str": " needs a lot of",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " in",
+            " need",
+            " of",
+            " a"
+          ],
+          "ngram_str": " in need of a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " needed",
+            " a",
+            " little",
+            " more"
+          ],
+          "ngram_str": " needed a little more",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " in",
+            " desperate",
+            " need",
+            " of"
+          ],
+          "ngram_str": " in desperate need of",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " a",
+            " lot",
+            " of",
+            " work"
+          ],
+          "ngram_str": " a lot of work",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " need",
+            " some",
+            " work",
+            "."
+          ],
+          "ngram_str": " need some work.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " needs",
+            " some"
+          ],
+          "ngram_str": " the service needs some",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " lot",
+            " of",
+            " work",
+            "."
+          ],
+          "ngram_str": " lot of work.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " is",
+            " in",
+            " need",
+            " of"
+          ],
+          "ngram_str": " is in need of",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": " guacamole",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " service",
+            " needs",
+            " some",
+            " work"
+          ],
+          "ngram_str": " service needs some work",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " and",
+            " in",
+            " need",
+            " of"
+          ],
+          "ngram_str": " and in need of",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3600000,
+      "corpus_coverage": 0.0696
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4556,
+        "percent": 45.56
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4014,
+        "percent": 40.14
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3696,
+        "percent": 36.96
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3423,
+        "percent": 34.23
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3210,
+        "percent": 32.1
+      },
+      {
+        "feature_idx": 14179,
+        "count": 3209,
+        "percent": 32.09
+      },
+      {
+        "feature_idx": 16369,
+        "count": 2712,
+        "percent": 27.12
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2562,
+        "percent": 25.62
+      },
+      {
+        "feature_idx": 14928,
+        "count": 2528,
+        "percent": 25.28
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2461,
+        "percent": 24.61
+      },
+      {
+        "feature_idx": 10941,
+        "count": 2429,
+        "percent": 24.29
+      },
+      {
+        "feature_idx": 2598,
+        "count": 2311,
+        "percent": 23.11
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2188,
+        "percent": 21.88
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2145,
+        "percent": 21.45
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1951,
+        "percent": 19.51
+      },
+      {
+        "feature_idx": 1187,
+        "count": 1947,
+        "percent": 19.47
+      },
+      {
+        "feature_idx": 17886,
+        "count": 1870,
+        "percent": 18.7
+      },
+      {
+        "feature_idx": 4203,
+        "count": 1710,
+        "percent": 17.1
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1685,
+        "percent": 16.85
+      },
+      {
+        "feature_idx": 17159,
+        "count": 1597,
+        "percent": 15.97
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3600000,
+      "corpus_coverage": 0.0696
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1327,
+        "percent": 13.27
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1668,
+        "percent": 16.68
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1950,
+        "percent": 19.5
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2232,
+        "percent": 22.32
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2823,
+        "percent": 28.23
+      }
+    ],
+    "mean_position": 0.5744,
+    "std_position": 0.2848
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 263,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0235,
+      "p25": 0.0319,
+      "p50": 0.0516,
+      "p75": 0.1116,
+      "p90": 0.1507,
+      "p95": 0.1673,
+      "p99": 0.2285
+    },
+    "skewness": 1.0119,
+    "kurtosis": 0.1531,
+    "min": 0.011,
+    "max": 0.2448,
+    "mean": 0.0731,
+    "std": 0.0522
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 263,
+      "unique_tokens_found": 115
+    },
+    "tokens": [
+      {
+        "token": " need",
+        "count": 33,
+        "mean_activation": 0.1197
+      },
+      {
+        "token": " a",
+        "count": 26,
+        "mean_activation": 0.0832
+      },
+      {
+        "token": " needed",
+        "count": 16,
+        "mean_activation": 0.1199
+      },
+      {
+        "token": " more",
+        "count": 15,
+        "mean_activation": 0.1108
+      },
+      {
+        "token": " some",
+        "count": 9,
+        "mean_activation": 0.0632
+      },
+      {
+        "token": " little",
+        "count": 7,
+        "mean_activation": 0.0439
+      },
+      {
+        "token": " needs",
+        "count": 7,
+        "mean_activation": 0.1419
+      },
+      {
+        "token": " any",
+        "count": 6,
+        "mean_activation": 0.0252
+      },
+      {
+        "token": " for",
+        "count": 4,
+        "mean_activation": 0.0304
+      },
+      {
+        "token": "!",
+        "count": 3,
+        "mean_activation": 0.0314
+      }
+    ]
+  }
+}

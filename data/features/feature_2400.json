@@ -1,0 +1,876 @@
+{
+  "feature_idx": 2400,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 140,
+    "mean_when_active": 0.08879825047084264,
+    "max_activation": 0.2322998046875,
+    "std_when_active": 0.04653488757672964,
+    "activation_rate": 0.0014
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 41100000,
+      "corpus_coverage": 0.7949
+    },
+    "top_tokens": [
+      {
+        "token": " lunch",
+        "count": 34759,
+        "mean_activation": 0.10524000754279973
+      },
+      {
+        "token": " dinner",
+        "count": 4867,
+        "mean_activation": 0.03580108510901704
+      },
+      {
+        "token": " breakfast",
+        "count": 4647,
+        "mean_activation": 0.04155134739146223
+      },
+      {
+        "token": " meal",
+        "count": 1223,
+        "mean_activation": 0.025571802845765407
+      },
+      {
+        "token": " Lunch",
+        "count": 709,
+        "mean_activation": 0.09187568696833127
+      },
+      {
+        "token": " brunch",
+        "count": 663,
+        "mean_activation": 0.032435041746942166
+      },
+      {
+        "token": " dining",
+        "count": 597,
+        "mean_activation": 0.022982420034744034
+      },
+      {
+        "token": "unch",
+        "count": 551,
+        "mean_activation": 0.04165826648636003
+      },
+      {
+        "token": " sandwich",
+        "count": 128,
+        "mean_activation": 0.026062369346618652
+      },
+      {
+        "token": " work",
+        "count": 103,
+        "mean_activation": 0.025431364485361044
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 41100000,
+      "corpus_coverage": 0.7949
+    },
+    "activations": [
+      {
+        "context": "...today just after the** lunch** hour and ordered a ...",
+        "active_token": " lunch",
+        "activation": 0.2548828125,
+        "review_id": "u4jW_pH3J9DPliyeixvH9A",
+        "position": 63
+      },
+      {
+        "context": "...we were out near the** lunch** hour and decided on...",
+        "active_token": " lunch",
+        "activation": 0.25439453125,
+        "review_id": "XBbcCFmXUf0C4ohxhahmDQ",
+        "position": 18
+      },
+      {
+        "context": "...ine. We dines at the** lunch** hour in the middle ...",
+        "active_token": " lunch",
+        "activation": 0.25390625,
+        "review_id": "SubwLCCJEnCSGzsjczIi2w",
+        "position": 44
+      },
+      {
+        "context": "...for lunch during the** lunch** rush hour, and it w...",
+        "active_token": " lunch",
+        "activation": 0.2490234375,
+        "review_id": "9W6nRjICoI6S9An4dwsvTQ",
+        "position": 17
+      },
+      {
+        "context": "...t. I came during the** lunch** rush and this place...",
+        "active_token": " lunch",
+        "activation": 0.2479248046875,
+        "review_id": "gAHeIvGFdJ60luxj5DafEw",
+        "position": 52
+      },
+      {
+        "context": "...re at the end of the** lunch** crowd and the place...",
+        "active_token": " lunch",
+        "activation": 0.2462158203125,
+        "review_id": "5U0bgiATT_7N0FY581giVQ",
+        "position": 56
+      },
+      {
+        "context": "...ly sweating from the** lunch** rush that was just ...",
+        "active_token": " lunch",
+        "activation": 0.245849609375,
+        "review_id": "-bLmHtcuulR83SkrGwznyA",
+        "position": 149
+      },
+      {
+        "context": "...or lunch and had the** lunch** fajitas.  They were...",
+        "active_token": " lunch",
+        "activation": 0.2457275390625,
+        "review_id": "AK0E85hew1UBT6G231htGA",
+        "position": 58
+      },
+      {
+        "context": "...ine, early on in the** lunch** hour prior to the b...",
+        "active_token": " lunch",
+        "activation": 0.2445068359375,
+        "review_id": "-pjh9t2UJKj8ksVVfII0dQ",
+        "position": 46
+      },
+      {
+        "context": "...was there during the** lunch** rush on a Saturday ...",
+        "active_token": " lunch",
+        "activation": 0.2437744140625,
+        "review_id": "-xulXhxppVJI0zL5lLlPsw",
+        "position": 37
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 2400,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2128,
+        "max": 0.2549,
+        "mean": 0.223
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " the lunch",
+          "count": 461,
+          "percent": 92.2
+        },
+        {
+          "ngram": [
+            " lunch",
+            " rush"
+          ],
+          "ngram_str": " lunch rush",
+          "count": 167,
+          "percent": 33.4
+        },
+        {
+          "ngram": [
+            " during",
+            " the"
+          ],
+          "ngram_str": " during the",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " lunch",
+            " hour"
+          ],
+          "ngram_str": " lunch hour",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " had",
+            " the"
+          ],
+          "ngram_str": " had the",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " rush",
+            "."
+          ],
+          "ngram_str": " rush.",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " after",
+            " the"
+          ],
+          "ngram_str": " after the",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " before",
+            " the"
+          ],
+          "ngram_str": " before the",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " I",
+            " had"
+          ],
+          "ngram_str": " I had",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " lunch",
+            " menu"
+          ],
+          "ngram_str": " lunch menu",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " lunch",
+            " special"
+          ],
+          "ngram_str": " lunch special",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " lunch",
+            " crowd"
+          ],
+          "ngram_str": " lunch crowd",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " rush"
+          ],
+          "ngram_str": " the lunch rush",
+          "count": 167,
+          "percent": 33.4
+        },
+        {
+          "ngram": [
+            " during",
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " during the lunch",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " hour"
+          ],
+          "ngram_str": " the lunch hour",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " had the lunch",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " after",
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " after the lunch",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " lunch",
+            " rush",
+            "."
+          ],
+          "ngram_str": " lunch rush.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " before",
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " before the lunch",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " menu"
+          ],
+          "ngram_str": " the lunch menu",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " special"
+          ],
+          "ngram_str": " the lunch special",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " I",
+            " had",
+            " the"
+          ],
+          "ngram_str": " I had the",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " crowd"
+          ],
+          "ngram_str": " the lunch crowd",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " lunch",
+            " rush",
+            ","
+          ],
+          "ngram_str": " lunch rush,",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " lunch",
+            " hour",
+            "."
+          ],
+          "ngram_str": " lunch hour.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " of the lunch",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " from the lunch",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " during",
+            " the",
+            " lunch",
+            " rush"
+          ],
+          "ngram_str": " during the lunch rush",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " rush",
+            "."
+          ],
+          "ngram_str": " the lunch rush.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " after",
+            " the",
+            " lunch",
+            " rush"
+          ],
+          "ngram_str": " after the lunch rush",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " during",
+            " the",
+            " lunch",
+            " hour"
+          ],
+          "ngram_str": " during the lunch hour",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " I",
+            " had",
+            " the",
+            " lunch"
+          ],
+          "ngram_str": " I had the lunch",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " before",
+            " the",
+            " lunch",
+            " rush"
+          ],
+          "ngram_str": " before the lunch rush",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " rush",
+            ","
+          ],
+          "ngram_str": " the lunch rush,",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " hour",
+            "."
+          ],
+          "ngram_str": " the lunch hour.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " lunch",
+            " special"
+          ],
+          "ngram_str": " had the lunch special",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " had",
+            " the"
+          ],
+          "ngram_str": ". I had the",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " rush",
+            " and"
+          ],
+          "ngram_str": " the lunch rush and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " off",
+            " the",
+            " lunch",
+            " menu"
+          ],
+          "ngram_str": " off the lunch menu",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " lunch",
+            " menu"
+          ],
+          "ngram_str": " from the lunch menu",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " lunch",
+            " menu",
+            "."
+          ],
+          "ngram_str": " the lunch menu.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " before",
+            " the",
+            " lunch",
+            " crowd"
+          ],
+          "ngram_str": " before the lunch crowd",
+          "count": 14,
+          "percent": 2.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8200000,
+      "corpus_coverage": 0.1586
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20367,
+        "count": 9684,
+        "percent": 96.84
+      },
+      {
+        "feature_idx": 15881,
+        "count": 8929,
+        "percent": 89.29
+      },
+      {
+        "feature_idx": 21352,
+        "count": 7430,
+        "percent": 74.3
+      },
+      {
+        "feature_idx": 12466,
+        "count": 7252,
+        "percent": 72.52
+      },
+      {
+        "feature_idx": 9427,
+        "count": 7091,
+        "percent": 70.91
+      },
+      {
+        "feature_idx": 22000,
+        "count": 6057,
+        "percent": 60.57
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6015,
+        "percent": 60.15
+      },
+      {
+        "feature_idx": 23856,
+        "count": 5350,
+        "percent": 53.5
+      },
+      {
+        "feature_idx": 1449,
+        "count": 5347,
+        "percent": 53.47
+      },
+      {
+        "feature_idx": 24182,
+        "count": 5149,
+        "percent": 51.49
+      },
+      {
+        "feature_idx": 22399,
+        "count": 5103,
+        "percent": 51.03
+      },
+      {
+        "feature_idx": 17019,
+        "count": 4884,
+        "percent": 48.84
+      },
+      {
+        "feature_idx": 18153,
+        "count": 4201,
+        "percent": 42.01
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4143,
+        "percent": 41.43
+      },
+      {
+        "feature_idx": 1830,
+        "count": 3842,
+        "percent": 38.42
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3250,
+        "percent": 32.5
+      },
+      {
+        "feature_idx": 21975,
+        "count": 3245,
+        "percent": 32.45
+      },
+      {
+        "feature_idx": 4845,
+        "count": 3226,
+        "percent": 32.26
+      },
+      {
+        "feature_idx": 5496,
+        "count": 3001,
+        "percent": 30.01
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2870,
+        "percent": 28.7
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8200000,
+      "corpus_coverage": 0.1586
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3525,
+        "percent": 35.25
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1876,
+        "percent": 18.76
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1420,
+        "percent": 14.2
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1341,
+        "percent": 13.41
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1838,
+        "percent": 18.38
+      }
+    ],
+    "mean_position": 0.4184,
+    "std_position": 0.3173
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 140,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0281,
+      "p25": 0.0459,
+      "p50": 0.0895,
+      "p75": 0.1114,
+      "p90": 0.1524,
+      "p95": 0.1702,
+      "p99": 0.2127
+    },
+    "skewness": 0.4783,
+    "kurtosis": -0.0454,
+    "min": 0.0146,
+    "max": 0.2323,
+    "mean": 0.0888,
+    "std": 0.0465
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 140,
+      "unique_tokens_found": 12
+    },
+    "tokens": [
+      {
+        "token": " lunch",
+        "count": 99,
+        "mean_activation": 0.1094
+      },
+      {
+        "token": " dinner",
+        "count": 14,
+        "mean_activation": 0.0363
+      },
+      {
+        "token": " breakfast",
+        "count": 11,
+        "mean_activation": 0.0397
+      },
+      {
+        "token": " meal",
+        "count": 4,
+        "mean_activation": 0.0337
+      },
+      {
+        "token": " brunch",
+        "count": 3,
+        "mean_activation": 0.0232
+      },
+      {
+        "token": " Lunch",
+        "count": 3,
+        "mean_activation": 0.096
+      },
+      {
+        "token": " 1970",
+        "count": 1,
+        "mean_activation": 0.0266
+      },
+      {
+        "token": " conversation",
+        "count": 1,
+        "mean_activation": 0.0389
+      },
+      {
+        "token": " Christmas",
+        "count": 1,
+        "mean_activation": 0.0231
+      },
+      {
+        "token": " grilled",
+        "count": 1,
+        "mean_activation": 0.0146
+      }
+    ]
+  }
+}

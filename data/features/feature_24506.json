@@ -1,0 +1,876 @@
+{
+  "feature_idx": 24506,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 11,
+    "mean_when_active": 0.032743974165482956,
+    "max_activation": 0.060028076171875,
+    "std_when_active": 0.012788443414461689,
+    "activation_rate": 0.00011
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 11194,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " out",
+        "count": 1134,
+        "mean_activation": 0.06362134607170414
+      },
+      {
+        "token": " down",
+        "count": 571,
+        "mean_activation": 0.04246537029847581
+      },
+      {
+        "token": " fire",
+        "count": 406,
+        "mean_activation": 0.09479904174804688
+      },
+      {
+        "token": " fired",
+        "count": 388,
+        "mean_activation": 0.248997717788539
+      },
+      {
+        "token": " slammed",
+        "count": 371,
+        "mean_activation": 0.04892745107974646
+      },
+      {
+        "token": " removed",
+        "count": 316,
+        "mean_activation": 0.05523662325702136
+      },
+      {
+        "token": " pulled",
+        "count": 236,
+        "mean_activation": 0.04027156506554555
+      },
+      {
+        "token": " closed",
+        "count": 236,
+        "mean_activation": 0.03188595529329979
+      },
+      {
+        "token": " kicked",
+        "count": 195,
+        "mean_activation": 0.06951857346754808
+      },
+      {
+        "token": " flag",
+        "count": 193,
+        "mean_activation": 0.02743767456687176
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 11194,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...would be immediately** fired**. Unfortunately thos...",
+        "active_token": " fired",
+        "activation": 0.330322265625,
+        "review_id": "EKBlPDvht7NMRA4hx4DM5Q",
+        "position": 146
+      },
+      {
+        "context": "... This chef should be** fired**",
+        "active_token": " fired",
+        "activation": 0.326171875,
+        "review_id": "hhpGe1WXitWw1o4OZIqNyQ",
+        "position": 46
+      },
+      {
+        "context": "...that moron should be** fired**.",
+        "active_token": " fired",
+        "activation": 0.325439453125,
+        "review_id": "VZhFPGDfa0DhNDOlLe6Mow",
+        "position": 46
+      },
+      {
+        "context": "...le and you should be** fired** and don't give me a...",
+        "active_token": " fired",
+        "activation": 0.32470703125,
+        "review_id": "r8CmTE8lT6E2i7_VvV0DIQ",
+        "position": 290
+      },
+      {
+        "context": "...work. They should be** fired**.",
+        "active_token": " fired",
+        "activation": 0.322021484375,
+        "review_id": "mg5_QN4AexyosyUs_6_9qA",
+        "position": 63
+      },
+      {
+        "context": "...y rude and should be** fired** from the position o...",
+        "active_token": " fired",
+        "activation": 0.32080078125,
+        "review_id": "yk1Pnj7ZI3yp12Wt1xkweg",
+        "position": 28
+      },
+      {
+        "context": "...te and she should be** fired**. My friend was extr...",
+        "active_token": " fired",
+        "activation": 0.320068359375,
+        "review_id": "0QoDG-fyd6sBMkDflHMTXA",
+        "position": 121
+      },
+      {
+        "context": ".... This man should be** fired** in a heart beat kee...",
+        "active_token": " fired",
+        "activation": 0.318115234375,
+        "review_id": "ieYOQ0JxSHAYPB7at-uZUA",
+        "position": 120
+      },
+      {
+        "context": "...is to me needs to be** fired**",
+        "active_token": " fired",
+        "activation": 0.31787109375,
+        "review_id": "V-4G3w91RR9zX8HBgNGJlQ",
+        "position": 102
+      },
+      {
+        "context": "... or they need to get** fired**... period. If you d...",
+        "active_token": " fired",
+        "activation": 0.317138671875,
+        "review_id": "MvdGSR6blNgkT9w65VGWwQ",
+        "position": 434
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 24506,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1675,
+        "max": 0.3303,
+        "mean": 0.249
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " be",
+            " fired"
+          ],
+          "ngram_str": " be fired",
+          "count": 155,
+          "percent": 31.0
+        },
+        {
+          "ngram": [
+            " fired",
+            "."
+          ],
+          "ngram_str": " fired.",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            " should",
+            " be"
+          ],
+          "ngram_str": " should be",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " needs",
+            " to"
+          ],
+          "ngram_str": " needs to",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " to",
+            " be"
+          ],
+          "ngram_str": " to be",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " get",
+            " fired"
+          ],
+          "ngram_str": " get fired",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " to",
+            " fire"
+          ],
+          "ngram_str": " to fire",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " I",
+            " would"
+          ],
+          "ngram_str": " I would",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " kicked",
+            " out"
+          ],
+          "ngram_str": " kicked out",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " fire",
+            " the"
+          ],
+          "ngram_str": " fire the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " need",
+            " to"
+          ],
+          "ngram_str": " need to",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " been",
+            " fired"
+          ],
+          "ngram_str": " been fired",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " should",
+            " be",
+            " fired"
+          ],
+          "ngram_str": " should be fired",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " be",
+            " fired",
+            "."
+          ],
+          "ngram_str": " be fired.",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " to",
+            " be",
+            " fired"
+          ],
+          "ngram_str": " to be fired",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " needs",
+            " to",
+            " be"
+          ],
+          "ngram_str": " needs to be",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " needs",
+            " to",
+            " fire"
+          ],
+          "ngram_str": " needs to fire",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " have",
+            " been",
+            " fired"
+          ],
+          "ngram_str": " have been fired",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " be",
+            " fired",
+            " and"
+          ],
+          "ngram_str": " be fired and",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " fire"
+          ],
+          "ngram_str": " I would fire",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " fired",
+            ".",
+            " I"
+          ],
+          "ngram_str": " fired. I",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " have"
+          ],
+          "ngram_str": " I would have",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " fired",
+            ".",
+            " "
+          ],
+          "ngram_str": " fired. ",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " to",
+            " fire",
+            " the"
+          ],
+          "ngram_str": " to fire the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " would"
+          ],
+          "ngram_str": ", I would",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " needs",
+            " to",
+            " be",
+            " fired"
+          ],
+          "ngram_str": " needs to be fired",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " should",
+            " be",
+            " fired",
+            "."
+          ],
+          "ngram_str": " should be fired.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " to",
+            " be",
+            " fired",
+            "."
+          ],
+          "ngram_str": " to be fired.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " need",
+            " to",
+            " be",
+            " fired"
+          ],
+          "ngram_str": " need to be fired",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " be",
+            " fired",
+            ".",
+            " I"
+          ],
+          "ngram_str": " be fired. I",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " would",
+            " have",
+            " been",
+            " fired"
+          ],
+          "ngram_str": " would have been fired",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " manager",
+            " should",
+            " be",
+            " fired"
+          ],
+          "ngram_str": " manager should be fired",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " should",
+            " be",
+            " fired",
+            " and"
+          ],
+          "ngram_str": " should be fired and",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " spot",
+            "."
+          ],
+          "ngram_str": " on the spot.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " be",
+            " fired",
+            ".",
+            " "
+          ],
+          "ngram_str": " be fired. ",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " fired",
+            " on",
+            " the",
+            " spot"
+          ],
+          "ngram_str": " fired on the spot",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " and",
+            " should",
+            " be",
+            " fired"
+          ],
+          "ngram_str": " and should be fired",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " should",
+            " be",
+            " fired",
+            "!"
+          ],
+          "ngram_str": " should be fired!",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 46800000,
+      "corpus_coverage": 0.9052
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3411,
+        "count": 5107,
+        "percent": 51.07
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4687,
+        "percent": 46.87
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4087,
+        "percent": 40.87
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3585,
+        "percent": 35.85
+      },
+      {
+        "feature_idx": 8074,
+        "count": 3381,
+        "percent": 33.81
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3206,
+        "percent": 32.06
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3188,
+        "percent": 31.88
+      },
+      {
+        "feature_idx": 23780,
+        "count": 2560,
+        "percent": 25.6
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2493,
+        "percent": 24.93
+      },
+      {
+        "feature_idx": 22948,
+        "count": 2456,
+        "percent": 24.56
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2425,
+        "percent": 24.25
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2347,
+        "percent": 23.47
+      },
+      {
+        "feature_idx": 15459,
+        "count": 2176,
+        "percent": 21.76
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1914,
+        "percent": 19.14
+      },
+      {
+        "feature_idx": 5435,
+        "count": 1806,
+        "percent": 18.06
+      },
+      {
+        "feature_idx": 20375,
+        "count": 1798,
+        "percent": 17.98
+      },
+      {
+        "feature_idx": 14534,
+        "count": 1639,
+        "percent": 16.39
+      },
+      {
+        "feature_idx": 17430,
+        "count": 1591,
+        "percent": 15.91
+      },
+      {
+        "feature_idx": 14179,
+        "count": 1557,
+        "percent": 15.57
+      },
+      {
+        "feature_idx": 2848,
+        "count": 1502,
+        "percent": 15.02
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 46800000,
+      "corpus_coverage": 0.9052
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1336,
+        "percent": 13.36
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1636,
+        "percent": 16.36
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1764,
+        "percent": 17.64
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2215,
+        "percent": 22.15
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3049,
+        "percent": 30.49
+      }
+    ],
+    "mean_position": 0.5847,
+    "std_position": 0.2893
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 11,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0232,
+      "p25": 0.0239,
+      "p50": 0.0286,
+      "p75": 0.0401,
+      "p90": 0.0483,
+      "p95": 0.0542,
+      "p99": 0.0589
+    },
+    "skewness": 0.6135,
+    "kurtosis": -0.2377,
+    "min": 0.0124,
+    "max": 0.06,
+    "mean": 0.0327,
+    "std": 0.0128
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 11,
+      "unique_tokens_found": 10
+    },
+    "tokens": [
+      {
+        "token": " out",
+        "count": 2,
+        "mean_activation": 0.0323
+      },
+      {
+        "token": " Lol",
+        "count": 1,
+        "mean_activation": 0.0124
+      },
+      {
+        "token": " instead",
+        "count": 1,
+        "mean_activation": 0.0286
+      },
+      {
+        "token": "uked",
+        "count": 1,
+        "mean_activation": 0.0483
+      },
+      {
+        "token": " canceled",
+        "count": 1,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " charged",
+        "count": 1,
+        "mean_activation": 0.0232
+      },
+      {
+        "token": " replaced",
+        "count": 1,
+        "mean_activation": 0.0313
+      },
+      {
+        "token": " down",
+        "count": 1,
+        "mean_activation": 0.06
+      },
+      {
+        "token": " fire",
+        "count": 1,
+        "mean_activation": 0.0246
+      },
+      {
+        "token": " close",
+        "count": 1,
+        "mean_activation": 0.0389
+      }
+    ]
+  }
+}

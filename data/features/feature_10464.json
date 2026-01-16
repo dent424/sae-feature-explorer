@@ -1,0 +1,831 @@
+{
+  "feature_idx": 10464,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.048391488882211536,
+    "max_activation": 0.06939697265625,
+    "std_when_active": 0.017928295999756455,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6074,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " party",
+        "count": 5583,
+        "mean_activation": 0.052019246692578895
+      },
+      {
+        "token": " Party",
+        "count": 103,
+        "mean_activation": 0.07924022489381068
+      },
+      {
+        "token": "party",
+        "count": 100,
+        "mean_activation": 0.06774520874023438
+      },
+      {
+        "token": " group",
+        "count": 43,
+        "mean_activation": 0.017585576966751452
+      },
+      {
+        "token": " event",
+        "count": 35,
+        "mean_activation": 0.026426478794642858
+      },
+      {
+        "token": " presentation",
+        "count": 26,
+        "mean_activation": 0.014649904691256009
+      },
+      {
+        "token": "Party",
+        "count": 21,
+        "mean_activation": 0.07188197544642858
+      },
+      {
+        "token": " parties",
+        "count": 14,
+        "mean_activation": 0.028797694614955356
+      },
+      {
+        "token": " wedding",
+        "count": 11,
+        "mean_activation": 0.022576071999289772
+      },
+      {
+        "token": "rito",
+        "count": 10,
+        "mean_activation": 0.009869003295898437
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6074,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...hostess our name and** party** number and were off...",
+        "active_token": " party",
+        "activation": 0.118896484375,
+        "review_id": "otk-VIoeptmB5XWEG2eStQ",
+        "position": 105
+      },
+      {
+        "context": "...ot overwhelming. Our** party** of five was sat qui...",
+        "active_token": " party",
+        "activation": 0.1142578125,
+        "review_id": "qIwbNPch3IW_goMWwQEa3w",
+        "position": 51
+      },
+      {
+        "context": "...d she's found. \\n\\nOur** party** of three arrived at...",
+        "active_token": " party",
+        "activation": 0.11297607421875,
+        "review_id": "t_puaFxIx5sN4100vS0Kjg",
+        "position": 61
+      },
+      {
+        "context": "...le accommodating our** party** of 16 people. Our w...",
+        "active_token": " party",
+        "activation": 0.11260986328125,
+        "review_id": "mY6sQP1TIOP2lanc91KrLg",
+        "position": 18
+      },
+      {
+        "context": "...fessional staff. Our** party** had four, plus a ch...",
+        "active_token": " party",
+        "activation": 0.11224365234375,
+        "review_id": "PpqK5gtDcZirfvzpaMGROQ",
+        "position": 59
+      },
+      {
+        "context": "...nsistently awesome!!** Party** of four today had p...",
+        "active_token": " Party",
+        "activation": 0.1119384765625,
+        "review_id": "T8yWV3hdtyWA5xVupL9rXg",
+        "position": 11
+      },
+      {
+        "context": "... none this fine! Our** party** of 5 ordered the Ch...",
+        "active_token": " party",
+        "activation": 0.11187744140625,
+        "review_id": "68CDOxWDDuslijO0kfegtA",
+        "position": 95
+      },
+      {
+        "context": "... cold beer it's ok. ** Party** of 6 couple pounds ...",
+        "active_token": " Party",
+        "activation": 0.11114501953125,
+        "review_id": "UfnQHZ1mGSfMBou9MjMhQg",
+        "position": 47
+      },
+      {
+        "context": "...w much food you get.** Party** of 5 for under $70 ...",
+        "active_token": " Party",
+        "activation": 0.11053466796875,
+        "review_id": "Y0ID3O0v0gcPu7cSPEuLfw",
+        "position": 44
+      },
+      {
+        "context": "...nd accommodating our** party** of 10. Thanks again...",
+        "active_token": " party",
+        "activation": 0.11004638671875,
+        "review_id": "whLAneT2r1vPM9qEgon9Aw",
+        "position": 29
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10464,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0914,
+        "max": 0.1189,
+        "mean": 0.0984
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " party",
+            " of"
+          ],
+          "ngram_str": " party of",
+          "count": 207,
+          "percent": 41.4
+        },
+        {
+          "ngram": [
+            " Our",
+            " party"
+          ],
+          "ngram_str": " Our party",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            " our",
+            " party"
+          ],
+          "ngram_str": " our party",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Our"
+          ],
+          "ngram_str": ". Our",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " My",
+            " party"
+          ],
+          "ngram_str": " My party",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " my",
+            " party"
+          ],
+          "ngram_str": " my party",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            "Our",
+            " party"
+          ],
+          "ngram_str": "Our party",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " My"
+          ],
+          "ngram_str": ". My",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Our"
+          ],
+          "ngram_str": "\u012cOur",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " of",
+            " four"
+          ],
+          "ngram_str": " of four",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Our"
+          ],
+          "ngram_str": "  Our",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Our",
+            " party"
+          ],
+          "ngram_str": ". Our party",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " Our",
+            " party",
+            " of"
+          ],
+          "ngram_str": " Our party of",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " our",
+            " party",
+            " of"
+          ],
+          "ngram_str": " our party of",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " party"
+          ],
+          "ngram_str": ". My party",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Our",
+            " party"
+          ],
+          "ngram_str": "\u012cOur party",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Our"
+          ],
+          "ngram_str": "\u00c4\u012cOur",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " party",
+            " of",
+            " four"
+          ],
+          "ngram_str": " party of four",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Our",
+            " party"
+          ],
+          "ngram_str": "  Our party",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "Our",
+            " party",
+            " of"
+          ],
+          "ngram_str": "Our party of",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " party",
+            " of",
+            " 4"
+          ],
+          "ngram_str": " party of 4",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Our"
+          ],
+          "ngram_str": ".  Our",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " Our",
+            " party",
+            " of"
+          ],
+          "ngram_str": ". Our party of",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Our",
+            " party"
+          ],
+          "ngram_str": "\u00c4\u012cOur party",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Our"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cOur",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Our",
+            " party",
+            " of"
+          ],
+          "ngram_str": "\u012cOur party of",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Our",
+            " party"
+          ],
+          "ngram_str": ".  Our party",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Our",
+            " party",
+            " of"
+          ],
+          "ngram_str": "  Our party of",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Our",
+            " party",
+            " of",
+            " four"
+          ],
+          "ngram_str": " Our party of four",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " party",
+            " of"
+          ],
+          "ngram_str": ". My party of",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "My",
+            " party"
+          ],
+          "ngram_str": "\u00c4\u012cMy party",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "My"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cMy",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Our",
+            " party",
+            " had"
+          ],
+          "ngram_str": ". Our party had",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6074,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 21266,
+        "count": 5877,
+        "percent": 96.76
+      },
+      {
+        "feature_idx": 14686,
+        "count": 5834,
+        "percent": 96.05
+      },
+      {
+        "feature_idx": 6780,
+        "count": 5829,
+        "percent": 95.97
+      },
+      {
+        "feature_idx": 667,
+        "count": 5817,
+        "percent": 95.77
+      },
+      {
+        "feature_idx": 4204,
+        "count": 4988,
+        "percent": 82.12
+      },
+      {
+        "feature_idx": 7199,
+        "count": 4092,
+        "percent": 67.37
+      },
+      {
+        "feature_idx": 19271,
+        "count": 4033,
+        "percent": 66.4
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3655,
+        "percent": 60.17
+      },
+      {
+        "feature_idx": 14723,
+        "count": 3503,
+        "percent": 57.67
+      },
+      {
+        "feature_idx": 9465,
+        "count": 3127,
+        "percent": 51.48
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2813,
+        "percent": 46.31
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2763,
+        "percent": 45.49
+      },
+      {
+        "feature_idx": 13420,
+        "count": 2524,
+        "percent": 41.55
+      },
+      {
+        "feature_idx": 2902,
+        "count": 2167,
+        "percent": 35.68
+      },
+      {
+        "feature_idx": 11584,
+        "count": 2152,
+        "percent": 35.43
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2107,
+        "percent": 34.69
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2036,
+        "percent": 33.52
+      },
+      {
+        "feature_idx": 7468,
+        "count": 1946,
+        "percent": 32.04
+      },
+      {
+        "feature_idx": 11715,
+        "count": 1595,
+        "percent": 26.26
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1437,
+        "percent": 23.66
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6074,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1511,
+        "percent": 24.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1535,
+        "percent": 25.27
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1144,
+        "percent": 18.83
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1020,
+        "percent": 16.79
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 864,
+        "percent": 14.22
+      }
+    ],
+    "mean_position": 0.4396,
+    "std_position": 0.2773
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0225,
+      "p25": 0.032,
+      "p50": 0.0566,
+      "p75": 0.0616,
+      "p90": 0.0684,
+      "p95": 0.0693,
+      "p99": 0.0694
+    },
+    "skewness": -0.4918,
+    "kurtosis": -1.2835,
+    "min": 0.0183,
+    "max": 0.0694,
+    "mean": 0.0484,
+    "std": 0.0179
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 1
+    },
+    "tokens": [
+      {
+        "token": " party",
+        "count": 13,
+        "mean_activation": 0.0484
+      }
+    ]
+  }
+}

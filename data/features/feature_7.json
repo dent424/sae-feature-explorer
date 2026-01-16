@@ -1,0 +1,861 @@
+{
+  "feature_idx": 7,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 39,
+    "mean_when_active": 0.06600287021734776,
+    "max_activation": 0.17236328125,
+    "std_when_active": 0.0468169467043661,
+    "activation_rate": 0.00039
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 22177,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " fast",
+        "count": 10489,
+        "mean_activation": 0.09035408513904447
+      },
+      {
+        "token": " quick",
+        "count": 5598,
+        "mean_activation": 0.06735430653072247
+      },
+      {
+        "token": " slow",
+        "count": 1492,
+        "mean_activation": 0.026134301765994156
+      },
+      {
+        "token": " quickly",
+        "count": 1218,
+        "mean_activation": 0.0296816583141709
+      },
+      {
+        "token": " long",
+        "count": 468,
+        "mean_activation": 0.0290781493879791
+      },
+      {
+        "token": " prompt",
+        "count": 415,
+        "mean_activation": 0.023713831154696913
+      },
+      {
+        "token": " hot",
+        "count": 263,
+        "mean_activation": 0.019558721622133436
+      },
+      {
+        "token": " easy",
+        "count": 212,
+        "mean_activation": 0.027315607610738504
+      },
+      {
+        "token": " high",
+        "count": 167,
+        "mean_activation": 0.022540703505099177
+      },
+      {
+        "token": " always",
+        "count": 145,
+        "mean_activation": 0.013566641971982759
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 22177,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... of 86.  Service was** fast**, food was very good!...",
+        "active_token": " fast",
+        "activation": 0.2098388671875,
+        "review_id": "qyDCI6sDBZ4zY-_LI6DYVw",
+        "position": 30
+      },
+      {
+        "context": "...y sweet! Service was** fast**,place was clean and ...",
+        "active_token": " fast",
+        "activation": 0.203125,
+        "review_id": "oKbbiMLh6omPmZiv2W5PMQ",
+        "position": 148
+      },
+      {
+        "context": "...ood, and service was** fast**. i am sorry i waited...",
+        "active_token": " fast",
+        "activation": 0.20263671875,
+        "review_id": "oyoL699ibEQQ6LSttC326g",
+        "position": 52
+      },
+      {
+        "context": "... and the service was** fast** - you get tortilla c...",
+        "active_token": " fast",
+        "activation": 0.2022705078125,
+        "review_id": "epjsvAAjf6-BaJcGfKYtdg",
+        "position": 96
+      },
+      {
+        "context": "...orchata. Service was** fast** and friendly. Prices...",
+        "active_token": " fast",
+        "activation": 0.20166015625,
+        "review_id": "8kJQUa1aIdt4FNYZeih7PA",
+        "position": 81
+      },
+      {
+        "context": "...nd their service was** fast** and great! Highly re...",
+        "active_token": " fast",
+        "activation": 0.2012939453125,
+        "review_id": "qHI50Ph_E_S4n_gZni4p5Q",
+        "position": 36
+      },
+      {
+        "context": "...ome run. Service was** fast** and the decor playfu...",
+        "active_token": " fast",
+        "activation": 0.201171875,
+        "review_id": "3e9J2PE-mIaNscFQ9R0A9A",
+        "position": 43
+      },
+      {
+        "context": "... and the service was** fast** too. I'll definitely...",
+        "active_token": " fast",
+        "activation": 0.2010498046875,
+        "review_id": "u0MAi0f5LBaxqwsCsh7WeA",
+        "position": 44
+      },
+      {
+        "context": "... and the service was** fast**, and the food was re...",
+        "active_token": " fast",
+        "activation": 0.200439453125,
+        "review_id": "33sl6MGZABZOIBnAdhGxmA",
+        "position": 215
+      },
+      {
+        "context": "... and the service was** fast** and friendly. My fia...",
+        "active_token": " fast",
+        "activation": 0.1995849609375,
+        "review_id": "bLjfMvkbPg8E_g1ZXi3qRQ",
+        "position": 175
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 7,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1809,
+        "max": 0.2098,
+        "mean": 0.1869
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " was",
+            " fast"
+          ],
+          "ngram_str": " was fast",
+          "count": 445,
+          "percent": 89.0
+        },
+        {
+          "ngram": [
+            " fast",
+            " and"
+          ],
+          "ngram_str": " fast and",
+          "count": 263,
+          "percent": 52.6
+        },
+        {
+          "ngram": [
+            " service",
+            " was"
+          ],
+          "ngram_str": " service was",
+          "count": 258,
+          "percent": 51.6
+        },
+        {
+          "ngram": [
+            " Service",
+            " was"
+          ],
+          "ngram_str": " Service was",
+          "count": 163,
+          "percent": 32.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 143,
+          "percent": 28.6
+        },
+        {
+          "ngram": [
+            " and",
+            " friendly"
+          ],
+          "ngram_str": " and friendly",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            " the",
+            " service"
+          ],
+          "ngram_str": " the service",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Service"
+          ],
+          "ngram_str": ". Service",
+          "count": 131,
+          "percent": 26.2
+        },
+        {
+          "ngram": [
+            " fast",
+            "."
+          ],
+          "ngram_str": " fast.",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " friendly",
+            "."
+          ],
+          "ngram_str": " friendly.",
+          "count": 110,
+          "percent": 22.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " fast",
+            ","
+          ],
+          "ngram_str": " fast,",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " and",
+            " service"
+          ],
+          "ngram_str": " and service",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 60,
+          "percent": 12.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " service",
+            " was",
+            " fast"
+          ],
+          "ngram_str": " service was fast",
+          "count": 257,
+          "percent": 51.4
+        },
+        {
+          "ngram": [
+            " was",
+            " fast",
+            " and"
+          ],
+          "ngram_str": " was fast and",
+          "count": 243,
+          "percent": 48.6
+        },
+        {
+          "ngram": [
+            " Service",
+            " was",
+            " fast"
+          ],
+          "ngram_str": " Service was fast",
+          "count": 163,
+          "percent": 32.6
+        },
+        {
+          "ngram": [
+            " fast",
+            " and",
+            " friendly"
+          ],
+          "ngram_str": " fast and friendly",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Service",
+            " was"
+          ],
+          "ngram_str": ". Service was",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " was"
+          ],
+          "ngram_str": " the service was",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " service"
+          ],
+          "ngram_str": " and the service",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " and",
+            " friendly",
+            "."
+          ],
+          "ngram_str": " and friendly.",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " was",
+            " fast",
+            "."
+          ],
+          "ngram_str": " was fast.",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " was",
+            " fast",
+            ","
+          ],
+          "ngram_str": " was fast,",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " The",
+            " service",
+            " was"
+          ],
+          "ngram_str": " The service was",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " and",
+            " service",
+            " was"
+          ],
+          "ngram_str": " and service was",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " service"
+          ],
+          "ngram_str": ". The service",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " service",
+            " is",
+            " fast"
+          ],
+          "ngram_str": " service is fast",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " the"
+          ],
+          "ngram_str": ", and the",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " was",
+            " fast",
+            " and",
+            " friendly"
+          ],
+          "ngram_str": " was fast and friendly",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " service",
+            " was",
+            " fast",
+            " and"
+          ],
+          "ngram_str": " service was fast and",
+          "count": 126,
+          "percent": 25.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Service",
+            " was",
+            " fast"
+          ],
+          "ngram_str": ". Service was fast",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " was",
+            " fast"
+          ],
+          "ngram_str": " the service was fast",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " Service",
+            " was",
+            " fast",
+            " and"
+          ],
+          "ngram_str": " Service was fast and",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            " fast",
+            " and",
+            " friendly",
+            "."
+          ],
+          "ngram_str": " fast and friendly.",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " service",
+            " was"
+          ],
+          "ngram_str": " and the service was",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " service",
+            " was",
+            " fast",
+            "."
+          ],
+          "ngram_str": " service was fast.",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " The",
+            " service",
+            " was",
+            " fast"
+          ],
+          "ngram_str": " The service was fast",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " and",
+            " service",
+            " was",
+            " fast"
+          ],
+          "ngram_str": " and service was fast",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " service",
+            " was"
+          ],
+          "ngram_str": ". The service was",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " service",
+            " was",
+            " fast",
+            ","
+          ],
+          "ngram_str": " service was fast,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " ",
+            " Service",
+            " was",
+            " fast"
+          ],
+          "ngram_str": "  Service was fast",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Service",
+            " was"
+          ],
+          "ngram_str": ".  Service was",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " was",
+            " fast",
+            " and",
+            " the"
+          ],
+          "ngram_str": " was fast and the",
+          "count": 24,
+          "percent": 4.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23500000,
+      "corpus_coverage": 0.4545
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 13052,
+        "count": 8779,
+        "percent": 87.79
+      },
+      {
+        "feature_idx": 22992,
+        "count": 7928,
+        "percent": 79.28
+      },
+      {
+        "feature_idx": 8815,
+        "count": 7515,
+        "percent": 75.15
+      },
+      {
+        "feature_idx": 5196,
+        "count": 7325,
+        "percent": 73.25
+      },
+      {
+        "feature_idx": 2963,
+        "count": 6601,
+        "percent": 66.01
+      },
+      {
+        "feature_idx": 22650,
+        "count": 6354,
+        "percent": 63.54
+      },
+      {
+        "feature_idx": 21683,
+        "count": 6020,
+        "percent": 60.2
+      },
+      {
+        "feature_idx": 19288,
+        "count": 5853,
+        "percent": 58.53
+      },
+      {
+        "feature_idx": 12563,
+        "count": 5779,
+        "percent": 57.79
+      },
+      {
+        "feature_idx": 20403,
+        "count": 5741,
+        "percent": 57.41
+      },
+      {
+        "feature_idx": 8451,
+        "count": 5520,
+        "percent": 55.2
+      },
+      {
+        "feature_idx": 23410,
+        "count": 5143,
+        "percent": 51.43
+      },
+      {
+        "feature_idx": 4865,
+        "count": 4916,
+        "percent": 49.16
+      },
+      {
+        "feature_idx": 22181,
+        "count": 4721,
+        "percent": 47.21
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4344,
+        "percent": 43.44
+      },
+      {
+        "feature_idx": 6329,
+        "count": 4209,
+        "percent": 42.09
+      },
+      {
+        "feature_idx": 8262,
+        "count": 3712,
+        "percent": 37.12
+      },
+      {
+        "feature_idx": 2266,
+        "count": 3612,
+        "percent": 36.12
+      },
+      {
+        "feature_idx": 13566,
+        "count": 3406,
+        "percent": 34.06
+      },
+      {
+        "feature_idx": 4871,
+        "count": 3349,
+        "percent": 33.49
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23500000,
+      "corpus_coverage": 0.4545
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1555,
+        "percent": 15.55
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2300,
+        "percent": 23.0
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2086,
+        "percent": 20.86
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2028,
+        "percent": 20.28
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2031,
+        "percent": 20.31
+      }
+    ],
+    "mean_position": 0.5151,
+    "std_position": 0.2738
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 39,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0185,
+      "p25": 0.0249,
+      "p50": 0.0584,
+      "p75": 0.0969,
+      "p90": 0.1324,
+      "p95": 0.1629,
+      "p99": 0.1693
+    },
+    "skewness": 0.7411,
+    "kurtosis": -0.5411,
+    "min": 0.012,
+    "max": 0.1724,
+    "mean": 0.066,
+    "std": 0.0468
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 39,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " fast",
+        "count": 20,
+        "mean_activation": 0.0825
+      },
+      {
+        "token": " quick",
+        "count": 9,
+        "mean_activation": 0.08
+      },
+      {
+        "token": " quickly",
+        "count": 3,
+        "mean_activation": 0.0209
+      },
+      {
+        "token": " slow",
+        "count": 3,
+        "mean_activation": 0.0171
+      },
+      {
+        "token": " prompt",
+        "count": 2,
+        "mean_activation": 0.0225
+      },
+      {
+        "token": " efficient",
+        "count": 1,
+        "mean_activation": 0.016
+      },
+      {
+        "token": " easy",
+        "count": 1,
+        "mean_activation": 0.029
+      }
+    ]
+  }
+}

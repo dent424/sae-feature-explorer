@@ -1,0 +1,876 @@
+{
+  "feature_idx": 20470,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 29,
+    "mean_when_active": 0.07551522090517242,
+    "max_activation": 0.18701171875,
+    "std_when_active": 0.051344356443775864,
+    "activation_rate": 0.00029
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 17948,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " grill",
+        "count": 2425,
+        "mean_activation": 0.04537303806580219
+      },
+      {
+        "token": " booth",
+        "count": 2388,
+        "mean_activation": 0.1499898964835571
+      },
+      {
+        "token": " station",
+        "count": 2063,
+        "mean_activation": 0.11020503966368002
+      },
+      {
+        "token": " booths",
+        "count": 1935,
+        "mean_activation": 0.12247890107699451
+      },
+      {
+        "token": " stage",
+        "count": 428,
+        "mean_activation": 0.1301534777489778
+      },
+      {
+        "token": " line",
+        "count": 424,
+        "mean_activation": 0.026490625345482015
+      },
+      {
+        "token": " stand",
+        "count": 313,
+        "mean_activation": 0.027215220295963957
+      },
+      {
+        "token": " facility",
+        "count": 271,
+        "mean_activation": 0.039884335000576566
+      },
+      {
+        "token": " machine",
+        "count": 265,
+        "mean_activation": 0.02912165803729363
+      },
+      {
+        "token": " floor",
+        "count": 239,
+        "mean_activation": 0.028791515398225026
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 17948,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...s back in front of a** stall** trying desperately ...",
+        "active_token": " stall",
+        "activation": 0.221923828125,
+        "review_id": "ls6QJInr2maNM0boW71IcQ",
+        "position": 39
+      },
+      {
+        "context": "... there was a little** station** before the bathroo...",
+        "active_token": " station",
+        "activation": 0.218994140625,
+        "review_id": "rK2InXa92Es4e398a3vcIA",
+        "position": 127
+      },
+      {
+        "context": "... There was a little** station** by the podium that...",
+        "active_token": " station",
+        "activation": 0.2188720703125,
+        "review_id": "iI0988psVyitETUEOFXlzQ",
+        "position": 376
+      },
+      {
+        "context": "...have a \"hot bar\" (a** station** of different flavo...",
+        "active_token": " station",
+        "activation": 0.218017578125,
+        "review_id": "ftavumqFmzkxDmGsAaZrbQ",
+        "position": 44
+      },
+      {
+        "context": "...not have a separate** station** for it. Many times...",
+        "active_token": " station",
+        "activation": 0.2178955078125,
+        "review_id": "jdJjo0gWB1fnMDGAoaoMWA",
+        "position": 90
+      },
+      {
+        "context": "... were the bathrooms,** stall** had waste matter le...",
+        "active_token": " stall",
+        "activation": 0.2169189453125,
+        "review_id": "_WD6yo-1YJgLUh_xZX8Wmw",
+        "position": 30
+      },
+      {
+        "context": "...er area, there is a** station** where you can load...",
+        "active_token": " station",
+        "activation": 0.214599609375,
+        "review_id": "VbGxOAgk89N_N1y8n6JUuw",
+        "position": 307
+      },
+      {
+        "context": "...ved that they had a** station** to add your own fi...",
+        "active_token": " station",
+        "activation": 0.21435546875,
+        "review_id": "HxYK2zeAURJO1wJuzA6XNg",
+        "position": 125
+      },
+      {
+        "context": "...od! They also had a** station** where they serve d...",
+        "active_token": " station",
+        "activation": 0.2132568359375,
+        "review_id": "mWXID2MLoncLl8SZaQdsyw",
+        "position": 105
+      },
+      {
+        "context": "...le, and their was a** station** with additional co...",
+        "active_token": " station",
+        "activation": 0.2127685546875,
+        "review_id": "WGrYjA5qf_ehJp6qtabo2Q",
+        "position": 121
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20470,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1766,
+        "max": 0.2219,
+        "mean": 0.1861
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " booth"
+          ],
+          "ngram_str": " a booth",
+          "count": 253,
+          "percent": 50.6
+        },
+        {
+          "ngram": [
+            " at",
+            " a"
+          ],
+          "ngram_str": " at a",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " booth",
+            "."
+          ],
+          "ngram_str": " booth.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " seated",
+            " at"
+          ],
+          "ngram_str": " seated at",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " to",
+            " a"
+          ],
+          "ngram_str": " to a",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " were",
+            " seated"
+          ],
+          "ngram_str": " were seated",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " seated",
+            " in"
+          ],
+          "ngram_str": " seated in",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " booth",
+            " and"
+          ],
+          "ngram_str": " booth and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " booth",
+            " in"
+          ],
+          "ngram_str": " booth in",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " bar"
+          ],
+          "ngram_str": " the bar",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " a",
+            " stage"
+          ],
+          "ngram_str": " a stage",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " at",
+            " a",
+            " booth"
+          ],
+          "ngram_str": " at a booth",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " booth"
+          ],
+          "ngram_str": " in a booth",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " a",
+            " booth",
+            "."
+          ],
+          "ngram_str": " a booth.",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " seated",
+            " at",
+            " a"
+          ],
+          "ngram_str": " seated at a",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " to",
+            " a",
+            " booth"
+          ],
+          "ngram_str": " to a booth",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " seated",
+            " in",
+            " a"
+          ],
+          "ngram_str": " seated in a",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " a",
+            " booth",
+            " in"
+          ],
+          "ngram_str": " a booth in",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " a",
+            " booth",
+            " and"
+          ],
+          "ngram_str": " a booth and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " booth",
+            " in",
+            " the"
+          ],
+          "ngram_str": " booth in the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " were",
+            " seated",
+            " at"
+          ],
+          "ngram_str": " were seated at",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " sat",
+            " at",
+            " a"
+          ],
+          "ngram_str": " sat at a",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " a",
+            " booth",
+            ","
+          ],
+          "ngram_str": " a booth,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " seated"
+          ],
+          "ngram_str": " we were seated",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " host",
+            "ess"
+          ],
+          "ngram_str": " the hostess",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " host",
+            "ess",
+            " station"
+          ],
+          "ngram_str": " hostess station",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " seated",
+            " at",
+            " a",
+            " booth"
+          ],
+          "ngram_str": " seated at a booth",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " seated",
+            " in",
+            " a",
+            " booth"
+          ],
+          "ngram_str": " seated in a booth",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " a",
+            " booth",
+            " in",
+            " the"
+          ],
+          "ngram_str": " a booth in the",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " were",
+            " seated",
+            " at",
+            " a"
+          ],
+          "ngram_str": " were seated at a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " at",
+            " a",
+            " booth",
+            "."
+          ],
+          "ngram_str": " at a booth.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " sat",
+            " at",
+            " a",
+            " booth"
+          ],
+          "ngram_str": " sat at a booth",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " at",
+            " a",
+            " booth",
+            " in"
+          ],
+          "ngram_str": " at a booth in",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " booth",
+            "."
+          ],
+          "ngram_str": " in a booth.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " booth",
+            " in",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " booth in the bar",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " at",
+            " a",
+            " booth",
+            " and"
+          ],
+          "ngram_str": " at a booth and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " booth",
+            ".",
+            " The"
+          ],
+          "ngram_str": " a booth. The",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " were",
+            " seated",
+            " in",
+            " a"
+          ],
+          "ngram_str": " were seated in a",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " the",
+            " host",
+            "ess",
+            " station"
+          ],
+          "ngram_str": " the hostess station",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " seated",
+            " at"
+          ],
+          "ngram_str": " we were seated at",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " to",
+            " a",
+            " booth",
+            "."
+          ],
+          "ngram_str": " to a booth.",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 29100000,
+      "corpus_coverage": 0.5628
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5236,
+        "percent": 52.36
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3725,
+        "percent": 37.25
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3665,
+        "percent": 36.65
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3558,
+        "percent": 35.58
+      },
+      {
+        "feature_idx": 15082,
+        "count": 3185,
+        "percent": 31.85
+      },
+      {
+        "feature_idx": 11713,
+        "count": 2920,
+        "percent": 29.2
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2916,
+        "percent": 29.16
+      },
+      {
+        "feature_idx": 3139,
+        "count": 2905,
+        "percent": 29.05
+      },
+      {
+        "feature_idx": 5422,
+        "count": 2808,
+        "percent": 28.08
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2779,
+        "percent": 27.79
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2726,
+        "percent": 27.26
+      },
+      {
+        "feature_idx": 1938,
+        "count": 2707,
+        "percent": 27.07
+      },
+      {
+        "feature_idx": 11491,
+        "count": 2589,
+        "percent": 25.89
+      },
+      {
+        "feature_idx": 18842,
+        "count": 2556,
+        "percent": 25.56
+      },
+      {
+        "feature_idx": 9063,
+        "count": 2511,
+        "percent": 25.11
+      },
+      {
+        "feature_idx": 15656,
+        "count": 2438,
+        "percent": 24.38
+      },
+      {
+        "feature_idx": 20985,
+        "count": 2355,
+        "percent": 23.55
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2029,
+        "percent": 20.29
+      },
+      {
+        "feature_idx": 18503,
+        "count": 2007,
+        "percent": 20.07
+      },
+      {
+        "feature_idx": 4679,
+        "count": 1944,
+        "percent": 19.44
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 29100000,
+      "corpus_coverage": 0.5628
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2093,
+        "percent": 20.93
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2452,
+        "percent": 24.52
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1850,
+        "percent": 18.5
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1888,
+        "percent": 18.88
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1717,
+        "percent": 17.17
+      }
+    ],
+    "mean_position": 0.4742,
+    "std_position": 0.2797
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 29,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0226,
+      "p25": 0.0337,
+      "p50": 0.0563,
+      "p75": 0.1125,
+      "p90": 0.1503,
+      "p95": 0.1676,
+      "p99": 0.1819
+    },
+    "skewness": 0.678,
+    "kurtosis": -0.9107,
+    "min": 0.0206,
+    "max": 0.187,
+    "mean": 0.0755,
+    "std": 0.0513
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 29,
+      "unique_tokens_found": 19
+    },
+    "tokens": [
+      {
+        "token": " station",
+        "count": 6,
+        "mean_activation": 0.1094
+      },
+      {
+        "token": " stage",
+        "count": 3,
+        "mean_activation": 0.1739
+      },
+      {
+        "token": " booths",
+        "count": 3,
+        "mean_activation": 0.1176
+      },
+      {
+        "token": " grill",
+        "count": 2,
+        "mean_activation": 0.0526
+      },
+      {
+        "token": "stage",
+        "count": 1,
+        "mean_activation": 0.0563
+      },
+      {
+        "token": " truck",
+        "count": 1,
+        "mean_activation": 0.0213
+      },
+      {
+        "token": " fare",
+        "count": 1,
+        "mean_activation": 0.0208
+      },
+      {
+        "token": " outpost",
+        "count": 1,
+        "mean_activation": 0.032
+      },
+      {
+        "token": " venue",
+        "count": 1,
+        "mean_activation": 0.023
+      },
+      {
+        "token": " terminals",
+        "count": 1,
+        "mean_activation": 0.0411
+      }
+    ]
+  }
+}

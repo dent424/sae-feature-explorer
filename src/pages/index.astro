@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import { loadFeaturesIndex, loadFeaturesWithData } from '../lib/data';
+
+const features = loadFeaturesIndex();
+const featuresWithData = loadFeaturesWithData();
+
+const totalFeatures = features.length;
+const featuresWithJsonData = featuresWithData.length;
+const featuresWithInterpretation = features.filter(f => f.interpretation && f.interpretation.trim()).length;
+---
+
+<BaseLayout title="SAE Feature Explorer - Home">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Hero Section -->
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">
+        SAE Feature Explorer
+      </h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Explore sparse autoencoder features extracted from GPT-2's analysis of 432K Mexican restaurant Yelp reviews.
+      </p>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <div class="bg-gray-50 rounded-lg p-6 text-center">
+        <div class="text-3xl font-bold text-blue-600">{totalFeatures.toLocaleString()}</div>
+        <div class="text-gray-600 mt-1">Total Features</div>
+      </div>
+      <div class="bg-gray-50 rounded-lg p-6 text-center">
+        <div class="text-3xl font-bold text-green-600">{featuresWithJsonData}</div>
+        <div class="text-gray-600 mt-1">With Analysis Data</div>
+      </div>
+      <div class="bg-gray-50 rounded-lg p-6 text-center">
+        <div class="text-3xl font-bold text-purple-600">{featuresWithInterpretation.toLocaleString()}</div>
+        <div class="text-gray-600 mt-1">With Interpretations</div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="prose prose-lg max-w-none mb-12">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">About This Project</h2>
+      <p class="text-gray-600 mb-4">
+        This explorer provides an interactive interface for browsing SAE (Sparse Autoencoder) features
+        extracted from GPT-2's layer 8 residual stream. The model was trained on Mexican restaurant
+        Yelp reviews to understand what linguistic and semantic patterns GPT-2 detects.
+      </p>
+      <p class="text-gray-600 mb-4">
+        Each feature represents a specific pattern that activates in the model's internal representations.
+        Features are ranked by "interestingness" using a control metric that accounts for activation patterns.
+      </p>
+    </div>
+
+    <!-- Technical Details -->
+    <div class="bg-gray-50 rounded-lg p-6 mb-12">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4">Technical Details</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div>
+          <span class="text-gray-500">Model:</span>
+          <span class="font-medium text-gray-900 ml-1">GPT-2</span>
+        </div>
+        <div>
+          <span class="text-gray-500">Layer:</span>
+          <span class="font-medium text-gray-900 ml-1">8 (residual stream)</span>
+        </div>
+        <div>
+          <span class="text-gray-500">D_model:</span>
+          <span class="font-medium text-gray-900 ml-1">768</span>
+        </div>
+        <div>
+          <span class="text-gray-500">Expansion:</span>
+          <span class="font-medium text-gray-900 ml-1">32x</span>
+        </div>
+        <div>
+          <span class="text-gray-500">N_latents:</span>
+          <span class="font-medium text-gray-900 ml-1">24,576</span>
+        </div>
+        <div>
+          <span class="text-gray-500">K_active:</span>
+          <span class="font-medium text-gray-900 ml-1">32</span>
+        </div>
+        <div>
+          <span class="text-gray-500">Reviews:</span>
+          <span class="font-medium text-gray-900 ml-1">432K</span>
+        </div>
+        <div>
+          <span class="text-gray-500">Dataset:</span>
+          <span class="font-medium text-gray-900 ml-1">Yelp Mexican</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center">
+      <a
+        href="/features"
+        class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
+      >
+        Browse Features
+        <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</BaseLayout>

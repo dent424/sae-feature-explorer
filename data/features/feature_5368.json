@@ -1,0 +1,861 @@
+{
+  "feature_idx": 5368,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 129,
+    "mean_when_active": 0.04782684089601502,
+    "max_activation": 0.17333984375,
+    "std_when_active": 0.030015987680232788,
+    "activation_rate": 0.00129
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 45300000,
+      "corpus_coverage": 0.8762
+    },
+    "top_tokens": [
+      {
+        "token": " this",
+        "count": 32202,
+        "mean_activation": 0.038308611360960636
+      },
+      {
+        "token": " these",
+        "count": 9050,
+        "mean_activation": 0.08470772084610238
+      },
+      {
+        "token": " These",
+        "count": 2235,
+        "mean_activation": 0.06817776127416282
+      },
+      {
+        "token": " those",
+        "count": 2056,
+        "mean_activation": 0.04856448414724625
+      },
+      {
+        "token": " This",
+        "count": 2000,
+        "mean_activation": 0.019887643814086912
+      },
+      {
+        "token": " that",
+        "count": 628,
+        "mean_activation": 0.031104579852644806
+      },
+      {
+        "token": " them",
+        "count": 413,
+        "mean_activation": 0.02282356465411244
+      },
+      {
+        "token": "This",
+        "count": 229,
+        "mean_activation": 0.01684986764166553
+      },
+      {
+        "token": "These",
+        "count": 186,
+        "mean_activation": 0.05858115739719842
+      },
+      {
+        "token": "this",
+        "count": 143,
+        "mean_activation": 0.03078839495465472
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 45300000,
+      "corpus_coverage": 0.8762
+    },
+    "activations": [
+      {
+        "context": "... I'd down a plate of** these** happily anytime. Th...",
+        "active_token": " these",
+        "activation": 0.21923828125,
+        "review_id": "kpvfTEv1E3rQJGYt0wojWQ",
+        "position": 114
+      },
+      {
+        "context": "...eef taco - They make** these** the way they should...",
+        "active_token": " these",
+        "activation": 0.1947021484375,
+        "review_id": "P0zoVkyV1uaOjujH7AmgsQ",
+        "position": 98
+      },
+      {
+        "context": "...a couple pitchers of** these**.\\n\\nWent there with 7...",
+        "active_token": " these",
+        "activation": 0.1939697265625,
+        "review_id": "3MubSIMtNEquByyznG1X5w",
+        "position": 37
+      },
+      {
+        "context": "... find myself craving** these**!",
+        "active_token": " these",
+        "activation": 0.189697265625,
+        "review_id": "Na8Of_mJMQi5KUOAxqOcgQ",
+        "position": 47
+      },
+      {
+        "context": "...ster tacos (bf liked** these**, but I thought the ...",
+        "active_token": " these",
+        "activation": 0.1895751953125,
+        "review_id": "SGBwv-0TOvJIiiSBGhdsBw",
+        "position": 52
+      },
+      {
+        "context": "...rge, we ordered 2 of** these**, should've only ord...",
+        "active_token": " these",
+        "activation": 0.189453125,
+        "review_id": "Qhv3ue6ptyeR3Zu_LVnHAQ",
+        "position": 113
+      },
+      {
+        "context": "...ectly, I would order** these** if I come back\\n\\nPor...",
+        "active_token": " these",
+        "activation": 0.189453125,
+        "review_id": "mmeoUz99xRkJwzewrsSmGQ",
+        "position": 101
+      },
+      {
+        "context": "...my boyfriend ordered** these** and I cannot wait t...",
+        "active_token": " these",
+        "activation": 0.188720703125,
+        "review_id": "CdGB5ZgrcKB9Tv7tS4GwWA",
+        "position": 158
+      },
+      {
+        "context": "...much flavor. I crave** these**!! \\n\\nFor the grande ...",
+        "active_token": " these",
+        "activation": 0.1885986328125,
+        "review_id": "jdHsnm0tpKCvSKlVrFyOCQ",
+        "position": 168
+      },
+      {
+        "context": "...ill order a bunch of** these** for myself, instead...",
+        "active_token": " these",
+        "activation": 0.1883544921875,
+        "review_id": "MVdeBdNw66aIUixudKUwoA",
+        "position": 162
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5368,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1534,
+        "max": 0.2192,
+        "mean": 0.1648
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " of",
+            " these"
+          ],
+          "ngram_str": " of these",
+          "count": 147,
+          "percent": 29.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " these",
+            "."
+          ],
+          "ngram_str": " these.",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " one",
+            " of"
+          ],
+          "ngram_str": " one of",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " eat",
+            " these"
+          ],
+          "ngram_str": " eat these",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " I",
+            " could"
+          ],
+          "ngram_str": " I could",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " get",
+            " these"
+          ],
+          "ngram_str": " get these",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " could",
+            " eat"
+          ],
+          "ngram_str": " could eat",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " order",
+            " these"
+          ],
+          "ngram_str": " order these",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " these",
+            " tacos"
+          ],
+          "ngram_str": " these tacos",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " these",
+            " and"
+          ],
+          "ngram_str": " these and",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " one",
+            " of",
+            " these"
+          ],
+          "ngram_str": " one of these",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " of",
+            " these",
+            "."
+          ],
+          "ngram_str": " of these.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " I",
+            " could",
+            " eat"
+          ],
+          "ngram_str": " I could eat",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " could",
+            " eat",
+            " these"
+          ],
+          "ngram_str": " could eat these",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " of",
+            " these",
+            " in"
+          ],
+          "ngram_str": " of these in",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " these",
+            ".",
+            " "
+          ],
+          "ngram_str": " these. ",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " of",
+            " these",
+            " and"
+          ],
+          "ngram_str": " of these and",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " I"
+          ],
+          "ngram_str": ", but I",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " these",
+            " again",
+            "."
+          ],
+          "ngram_str": " these again.",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " I",
+            " could",
+            " eat",
+            " these"
+          ],
+          "ngram_str": " I could eat these",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " had",
+            " one",
+            " of",
+            " these"
+          ],
+          "ngram_str": " had one of these",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " these",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " these. \u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " one",
+            " of",
+            " these",
+            " in"
+          ],
+          "ngram_str": " one of these in",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " these",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " these.\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " could",
+            " eat",
+            " these",
+            " tacos"
+          ],
+          "ngram_str": " could eat these tacos",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " eat",
+            " these"
+          ],
+          "ngram_str": " I would eat these",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " of",
+            " these",
+            ".",
+            " "
+          ],
+          "ngram_str": " of these. ",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " could",
+            " eat"
+          ],
+          "ngram_str": ". I could eat",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " tacos",
+            " and",
+            " these",
+            " were"
+          ],
+          "ngram_str": " tacos and these were",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " of",
+            " these",
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": " of these.\u00c4",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9100000,
+      "corpus_coverage": 0.176
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11985,
+        "count": 9242,
+        "percent": 92.42
+      },
+      {
+        "feature_idx": 2036,
+        "count": 9233,
+        "percent": 92.33
+      },
+      {
+        "feature_idx": 1390,
+        "count": 7936,
+        "percent": 79.36
+      },
+      {
+        "feature_idx": 19345,
+        "count": 7912,
+        "percent": 79.12
+      },
+      {
+        "feature_idx": 11381,
+        "count": 7772,
+        "percent": 77.72
+      },
+      {
+        "feature_idx": 8847,
+        "count": 7283,
+        "percent": 72.83
+      },
+      {
+        "feature_idx": 4714,
+        "count": 7022,
+        "percent": 70.22
+      },
+      {
+        "feature_idx": 8384,
+        "count": 5878,
+        "percent": 58.78
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5670,
+        "percent": 56.7
+      },
+      {
+        "feature_idx": 19881,
+        "count": 5624,
+        "percent": 56.24
+      },
+      {
+        "feature_idx": 5070,
+        "count": 4541,
+        "percent": 45.41
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4540,
+        "percent": 45.4
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4120,
+        "percent": 41.2
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3857,
+        "percent": 38.57
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3829,
+        "percent": 38.29
+      },
+      {
+        "feature_idx": 17627,
+        "count": 3382,
+        "percent": 33.82
+      },
+      {
+        "feature_idx": 19704,
+        "count": 3177,
+        "percent": 31.77
+      },
+      {
+        "feature_idx": 20586,
+        "count": 2971,
+        "percent": 29.71
+      },
+      {
+        "feature_idx": 1607,
+        "count": 2727,
+        "percent": 27.27
+      },
+      {
+        "feature_idx": 17630,
+        "count": 2702,
+        "percent": 27.02
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9100000,
+      "corpus_coverage": 0.176
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1541,
+        "percent": 15.41
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1526,
+        "percent": 15.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1815,
+        "percent": 18.15
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2102,
+        "percent": 21.02
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3016,
+        "percent": 30.16
+      }
+    ],
+    "mean_position": 0.5758,
+    "std_position": 0.2934
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 129,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0205,
+      "p25": 0.0263,
+      "p50": 0.0393,
+      "p75": 0.0558,
+      "p90": 0.0875,
+      "p95": 0.1023,
+      "p99": 0.1554
+    },
+    "skewness": 1.7182,
+    "kurtosis": 3.3712,
+    "min": 0.0118,
+    "max": 0.1733,
+    "mean": 0.0478,
+    "std": 0.03
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 129,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " this",
+        "count": 88,
+        "mean_activation": 0.0387
+      },
+      {
+        "token": " these",
+        "count": 19,
+        "mean_activation": 0.0933
+      },
+      {
+        "token": " those",
+        "count": 7,
+        "mean_activation": 0.0588
+      },
+      {
+        "token": " This",
+        "count": 6,
+        "mean_activation": 0.0252
+      },
+      {
+        "token": " These",
+        "count": 5,
+        "mean_activation": 0.0675
+      },
+      {
+        "token": " them",
+        "count": 3,
+        "mean_activation": 0.0188
+      },
+      {
+        "token": " that",
+        "count": 1,
+        "mean_activation": 0.0353
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17087,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 335,
+    "mean_when_active": 0.04114484644647855,
+    "max_activation": 0.1514892578125,
+    "std_when_active": 0.02589770661735945,
+    "activation_rate": 0.00335
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 17100000,
+      "corpus_coverage": 0.3307
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 2905,
+        "mean_activation": 0.03887368758656277
+      },
+      {
+        "token": "'t",
+        "count": 2412,
+        "mean_activation": 0.06562074816246728
+      },
+      {
+        "token": " I",
+        "count": 2396,
+        "mean_activation": 0.053043180793673046
+      },
+      {
+        "token": " a",
+        "count": 2093,
+        "mean_activation": 0.036733792264439874
+      },
+      {
+        "token": ",",
+        "count": 1947,
+        "mean_activation": 0.06566456469989888
+      },
+      {
+        "token": " it",
+        "count": 1594,
+        "mean_activation": 0.04172379459012557
+      },
+      {
+        "token": " is",
+        "count": 1220,
+        "mean_activation": 0.04173435774005827
+      },
+      {
+        "token": " not",
+        "count": 1082,
+        "mean_activation": 0.05783804507440648
+      },
+      {
+        "token": " was",
+        "count": 1057,
+        "mean_activation": 0.04368377656674994
+      },
+      {
+        "token": " that",
+        "count": 900,
+        "mean_activation": 0.03842175801595052
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 17100000,
+      "corpus_coverage": 0.3307
+    },
+    "activations": [
+      {
+        "context": "... quality, honestly don**'t** be a punk at Chipotle...",
+        "active_token": "'t",
+        "activation": 0.198974609375,
+        "review_id": "I2nnZN7orRa_o4A0PahFkw",
+        "position": 81
+      },
+      {
+        "context": "...ears, and honestly don**'t** know a single Tucsona...",
+        "active_token": "'t",
+        "activation": 0.194580078125,
+        "review_id": "EUmareXyyXITNoHDvlkE3g",
+        "position": 60
+      },
+      {
+        "context": "... with us. Honestly don**'t** think this place will...",
+        "active_token": "'t",
+        "activation": 0.1884765625,
+        "review_id": "sZFawQKdDo193xpUOItuTw",
+        "position": 439
+      },
+      {
+        "context": "... wrong. I honestly don**'t** know how they manage ...",
+        "active_token": "'t",
+        "activation": 0.1802978515625,
+        "review_id": "5_WKeUrWD-T5Uc7688MwsQ",
+        "position": 21
+      },
+      {
+        "context": "... up, and honestly, don**'t** pay much attention to...",
+        "active_token": "'t",
+        "activation": 0.1800537109375,
+        "review_id": "O76p9_sYntuBeRSn1Sz-xQ",
+        "position": 307
+      },
+      {
+        "context": "... stars - I'm honestly** not** sure whether the sho...",
+        "active_token": " not",
+        "activation": 0.179443359375,
+        "review_id": "ITxs5nlHGfZNSbazjr7U2A",
+        "position": 95
+      },
+      {
+        "context": "...icken.  I honestly don**'t** know how none of them...",
+        "active_token": "'t",
+        "activation": 0.17919921875,
+        "review_id": "Rr0YKcQg3ZSMjk2czhFWaw",
+        "position": 178
+      },
+      {
+        "context": "...t good. I honestly don**'t** know why this restaur...",
+        "active_token": "'t",
+        "activation": 0.1783447265625,
+        "review_id": "Ig2rBnj5qfSXXCntCA6Ypw",
+        "position": 56
+      },
+      {
+        "context": "...e here. I honestly don**'t** think I would come ba...",
+        "active_token": "'t",
+        "activation": 0.177734375,
+        "review_id": "h783hT-GpkyssTaArDD7PA",
+        "position": 153
+      },
+      {
+        "context": "...WICE.   I honestly don**'t** have the energy to ca...",
+        "active_token": "'t",
+        "activation": 0.177734375,
+        "review_id": "5vgirW0la4wmrUBlDMR-mw",
+        "position": 286
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17087,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 34100000,
+      "corpus_coverage": 0.6595,
+      "activation_range": {
+        "min": 0.1437,
+        "max": 0.199,
+        "mean": 0.1551
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " don",
+            "'t"
+          ],
+          "ngram_str": " don't",
+          "count": 169,
+          "percent": 33.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Honestly"
+          ],
+          "ngram_str": ". Honestly",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            " I",
+            " honestly"
+          ],
+          "ngram_str": " I honestly",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " honestly",
+            " don"
+          ],
+          "ngram_str": " honestly don",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " Honestly",
+            ","
+          ],
+          "ngram_str": " Honestly,",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " know"
+          ],
+          "ngram_str": "'t know",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " I",
+            " don"
+          ],
+          "ngram_str": " I don",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " Honestly",
+            " I"
+          ],
+          "ngram_str": " Honestly I",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " didn't",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " honestly",
+            " I"
+          ],
+          "ngram_str": " honestly I",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'m"
+          ],
+          "ngram_str": " I'm",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " and",
+            " honestly"
+          ],
+          "ngram_str": " and honestly",
+          "count": 33,
+          "percent": 6.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " honestly",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " honestly don't",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " I",
+            " honestly",
+            " don"
+          ],
+          "ngram_str": " I honestly don",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Honestly",
+            ","
+          ],
+          "ngram_str": ". Honestly,",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " honestly"
+          ],
+          "ngram_str": ". I honestly",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " know"
+          ],
+          "ngram_str": " don't know",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " I",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " I don't",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " Honestly",
+            ",",
+            " I"
+          ],
+          "ngram_str": " Honestly, I",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Honestly",
+            " I"
+          ],
+          "ngram_str": ". Honestly I",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " think"
+          ],
+          "ngram_str": " don't think",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " honestly",
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " honestly didn't",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " even"
+          ],
+          "ngram_str": " don't even",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " know",
+            " how"
+          ],
+          "ngram_str": "'t know how",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Honestly",
+            " I",
+            " don"
+          ],
+          "ngram_str": " Honestly I don",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            " honestly",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " I honestly don't",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " honestly",
+            " don"
+          ],
+          "ngram_str": ". I honestly don",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " honestly",
+            " don",
+            "'t",
+            " know"
+          ],
+          "ngram_str": " honestly don't know",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Honestly",
+            ",",
+            " I"
+          ],
+          "ngram_str": ". Honestly, I",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " know",
+            " how"
+          ],
+          "ngram_str": " don't know how",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Honestly",
+            " I",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " Honestly I don't",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " I",
+            " honestly",
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " I honestly didn't",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " honestly",
+            " don",
+            "'t",
+            " think"
+          ],
+          "ngram_str": " honestly don't think",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " honestly",
+            " I",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " honestly I don't",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " don",
+            "'t"
+          ],
+          "ngram_str": ", I don't",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " know",
+            " what"
+          ],
+          "ngram_str": " don't know what",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " honestly",
+            " don"
+          ],
+          "ngram_str": "  I honestly don",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            " don",
+            "'t",
+            " even"
+          ],
+          "ngram_str": " I don't even",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " honestly",
+            " not"
+          ],
+          "ngram_str": " I'm honestly not",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3400000,
+      "corpus_coverage": 0.0658
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 4706,
+        "percent": 47.06
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3905,
+        "percent": 39.05
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3867,
+        "percent": 38.67
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3798,
+        "percent": 37.98
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3320,
+        "percent": 33.2
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3209,
+        "percent": 32.09
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2907,
+        "percent": 29.07
+      },
+      {
+        "feature_idx": 22505,
+        "count": 2890,
+        "percent": 28.9
+      },
+      {
+        "feature_idx": 11950,
+        "count": 2544,
+        "percent": 25.44
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2498,
+        "percent": 24.98
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2121,
+        "percent": 21.21
+      },
+      {
+        "feature_idx": 14948,
+        "count": 1984,
+        "percent": 19.84
+      },
+      {
+        "feature_idx": 20189,
+        "count": 1919,
+        "percent": 19.19
+      },
+      {
+        "feature_idx": 8607,
+        "count": 1884,
+        "percent": 18.84
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1856,
+        "percent": 18.56
+      },
+      {
+        "feature_idx": 8373,
+        "count": 1720,
+        "percent": 17.2
+      },
+      {
+        "feature_idx": 23468,
+        "count": 1543,
+        "percent": 15.43
+      },
+      {
+        "feature_idx": 24555,
+        "count": 1539,
+        "percent": 15.39
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1530,
+        "percent": 15.3
+      },
+      {
+        "feature_idx": 7259,
+        "count": 1526,
+        "percent": 15.26
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3400000,
+      "corpus_coverage": 0.0658
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1853,
+        "percent": 18.53
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1782,
+        "percent": 17.82
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1886,
+        "percent": 18.86
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2127,
+        "percent": 21.27
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2352,
+        "percent": 23.52
+      }
+    ],
+    "mean_position": 0.5263,
+    "std_position": 0.2922
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 335,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.019,
+      "p25": 0.0241,
+      "p50": 0.0327,
+      "p75": 0.0501,
+      "p90": 0.0773,
+      "p95": 0.0973,
+      "p99": 0.1329
+    },
+    "skewness": 1.8002,
+    "kurtosis": 3.2845,
+    "min": 0.0121,
+    "max": 0.1515,
+    "mean": 0.0411,
+    "std": 0.0259
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 335,
+      "unique_tokens_found": 133
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 21,
+        "mean_activation": 0.0556
+      },
+      {
+        "token": " I",
+        "count": 19,
+        "mean_activation": 0.0463
+      },
+      {
+        "token": " the",
+        "count": 19,
+        "mean_activation": 0.043
+      },
+      {
+        "token": "'t",
+        "count": 14,
+        "mean_activation": 0.0711
+      },
+      {
+        "token": " is",
+        "count": 13,
+        "mean_activation": 0.0428
+      },
+      {
+        "token": " a",
+        "count": 11,
+        "mean_activation": 0.0413
+      },
+      {
+        "token": " it",
+        "count": 9,
+        "mean_activation": 0.0515
+      },
+      {
+        "token": " not",
+        "count": 8,
+        "mean_activation": 0.0347
+      },
+      {
+        "token": " we",
+        "count": 6,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": " that",
+        "count": 6,
+        "mean_activation": 0.0475
+      }
+    ]
+  }
+}

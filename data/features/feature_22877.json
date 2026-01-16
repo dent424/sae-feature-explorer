@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22877,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 72,
+    "mean_when_active": 0.060719596015082464,
+    "max_activation": 0.242919921875,
+    "std_when_active": 0.05968822531221412,
+    "activation_rate": 0.00072
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 44765,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " based",
+        "count": 5248,
+        "mean_activation": 0.12229363511248333
+      },
+      {
+        "token": " located",
+        "count": 3951,
+        "mean_activation": 0.18954952841497802
+      },
+      {
+        "token": " location",
+        "count": 2927,
+        "mean_activation": 0.031462278063076526
+      },
+      {
+        "token": " live",
+        "count": 2397,
+        "mean_activation": 0.030712640131320565
+      },
+      {
+        "token": " up",
+        "count": 1474,
+        "mean_activation": 0.039687054451640946
+      },
+      {
+        "token": " set",
+        "count": 988,
+        "mean_activation": 0.052245259767601845
+      },
+      {
+        "token": " opened",
+        "count": 846,
+        "mean_activation": 0.034761171814397716
+      },
+      {
+        "token": " locations",
+        "count": 825,
+        "mean_activation": 0.03939792517459754
+      },
+      {
+        "token": " tucked",
+        "count": 776,
+        "mean_activation": 0.06464594418240577
+      },
+      {
+        "token": " found",
+        "count": 702,
+        "mean_activation": 0.05450995898993946
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 44765,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ompany I work for is** based** in this area.. so M...",
+        "active_token": " based",
+        "activation": 0.295166015625,
+        "review_id": "hw_IiAapqksFGwkgNBZ8ww",
+        "position": 54
+      },
+      {
+        "context": ".... Turns out they are** based** here but do cater o...",
+        "active_token": " based",
+        "activation": 0.291015625,
+        "review_id": "MTq_A41vp-5CYzfQRY0xxw",
+        "position": 37
+      },
+      {
+        "context": "... company is actually** based** out of Wichita, Kan...",
+        "active_token": " based",
+        "activation": 0.287109375,
+        "review_id": "ZZmCoLbvJlyzxQMZAs1_Fw",
+        "position": 18
+      },
+      {
+        "context": "...f Jose Garcas who is** based** in Philadelphia. He...",
+        "active_token": " based",
+        "activation": 0.2802734375,
+        "review_id": "Z6VLybUglw0qrkmO_8JnJQ",
+        "position": 38
+      },
+      {
+        "context": "...e but the company is** based** out of Maryland.",
+        "active_token": " based",
+        "activation": 0.2802734375,
+        "review_id": "R-AunP0i6aYbsjXveqHG_w",
+        "position": 87
+      },
+      {
+        "context": "...aces that exist! I'm** based** out of the Los Ange...",
+        "active_token": " based",
+        "activation": 0.27978515625,
+        "review_id": "223qZPTYtGSB0PWq7xJs2w",
+        "position": 15
+      },
+      {
+        "context": "...ring the business is** based** on service. And we ...",
+        "active_token": " based",
+        "activation": 0.278564453125,
+        "review_id": "6i7_sHwUK_4E9NA3-92R3g",
+        "position": 309
+      },
+      {
+        "context": "... to West St Market. ** Based** on our dinners last...",
+        "active_token": " Based",
+        "activation": 0.26904296875,
+        "review_id": "zj5TS4w-kDtZyNQWDS4kTA",
+        "position": 17
+      },
+      {
+        "context": "...! This restaurant is** based** on Pablo Escobar's ...",
+        "active_token": " based",
+        "activation": 0.268310546875,
+        "review_id": "TX1HRqLDUspK2_Zb9goQOw",
+        "position": 8
+      },
+      {
+        "context": "... this restaurant is** located** in the Westshore M...",
+        "active_token": " located",
+        "activation": 0.266845703125,
+        "review_id": "wMBTKU7jsSWiGxqZgRAbKg",
+        "position": 218
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22877,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2396,
+        "max": 0.2952,
+        "mean": 0.2477
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " is",
+            " located"
+          ],
+          "ngram_str": " is located",
+          "count": 244,
+          "percent": 48.8
+        },
+        {
+          "ngram": [
+            " located",
+            " in"
+          ],
+          "ngram_str": " located in",
+          "count": 196,
+          "percent": 39.2
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": " restaurant is",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Located"
+          ],
+          "ngram_str": ". Located",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " located"
+          ],
+          "ngram_str": "'s located",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            ".",
+            " It"
+          ],
+          "ngram_str": ". It",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " Located",
+            " in"
+          ],
+          "ngram_str": " Located in",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " located",
+            " on"
+          ],
+          "ngram_str": " located on",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " It",
+            "'s"
+          ],
+          "ngram_str": " It's",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " strip",
+            " mall"
+          ],
+          "ngram_str": " strip mall",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "This",
+            " restaurant"
+          ],
+          "ngram_str": "This restaurant",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " is",
+            " located",
+            " in"
+          ],
+          "ngram_str": " is located in",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " is",
+            " located"
+          ],
+          "ngram_str": " restaurant is located",
+          "count": 118,
+          "percent": 23.6
+        },
+        {
+          "ngram": [
+            " located",
+            " in",
+            " a"
+          ],
+          "ngram_str": " located in a",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " located",
+            " in",
+            " the"
+          ],
+          "ngram_str": " located in the",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " It",
+            "'s",
+            " located"
+          ],
+          "ngram_str": " It's located",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " located",
+            " in"
+          ],
+          "ngram_str": "'s located in",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Located",
+            " in"
+          ],
+          "ngram_str": ". Located in",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " is",
+            " located",
+            " on"
+          ],
+          "ngram_str": " is located on",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "This",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": "This restaurant is",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            "'s"
+          ],
+          "ngram_str": ". It's",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " The",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": " The restaurant is",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " strip"
+          ],
+          "ngram_str": " in a strip",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " a",
+            " strip",
+            " mall"
+          ],
+          "ngram_str": " a strip mall",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " restaurant",
+            " is",
+            " located",
+            " in"
+          ],
+          "ngram_str": " restaurant is located in",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " is",
+            " located",
+            " in",
+            " a"
+          ],
+          "ngram_str": " is located in a",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " is",
+            " located",
+            " in",
+            " the"
+          ],
+          "ngram_str": " is located in the",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "This",
+            " restaurant",
+            " is",
+            " located"
+          ],
+          "ngram_str": "This restaurant is located",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            "'s",
+            " located"
+          ],
+          "ngram_str": ". It's located",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " The",
+            " restaurant",
+            " is",
+            " located"
+          ],
+          "ngram_str": " The restaurant is located",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " It",
+            "'s",
+            " located",
+            " in"
+          ],
+          "ngram_str": " It's located in",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " strip",
+            " mall"
+          ],
+          "ngram_str": " in a strip mall",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " located",
+            " in",
+            " a",
+            " strip"
+          ],
+          "ngram_str": " located in a strip",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " restaurant",
+            " is"
+          ],
+          "ngram_str": ". The restaurant is",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "'s",
+            " located",
+            " in",
+            " a"
+          ],
+          "ngram_str": "'s located in a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " is",
+            " located"
+          ],
+          "ngram_str": ". It is located",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " located",
+            " in"
+          ],
+          "ngram_str": " it's located in",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Located",
+            " in",
+            " a"
+          ],
+          "ngram_str": ". Located in a",
+          "count": 14,
+          "percent": 2.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11800000,
+      "corpus_coverage": 0.2282
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5712,
+        "percent": 57.12
+      },
+      {
+        "feature_idx": 8074,
+        "count": 4580,
+        "percent": 45.8
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3016,
+        "percent": 30.16
+      },
+      {
+        "feature_idx": 4858,
+        "count": 2949,
+        "percent": 29.49
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2782,
+        "percent": 27.82
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2749,
+        "percent": 27.49
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2745,
+        "percent": 27.45
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2701,
+        "percent": 27.01
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2584,
+        "percent": 25.84
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2100,
+        "percent": 21.0
+      },
+      {
+        "feature_idx": 7297,
+        "count": 2046,
+        "percent": 20.46
+      },
+      {
+        "feature_idx": 20408,
+        "count": 1926,
+        "percent": 19.26
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1767,
+        "percent": 17.67
+      },
+      {
+        "feature_idx": 24529,
+        "count": 1746,
+        "percent": 17.46
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1730,
+        "percent": 17.3
+      },
+      {
+        "feature_idx": 21622,
+        "count": 1641,
+        "percent": 16.41
+      },
+      {
+        "feature_idx": 8034,
+        "count": 1604,
+        "percent": 16.04
+      },
+      {
+        "feature_idx": 3258,
+        "count": 1553,
+        "percent": 15.53
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1540,
+        "percent": 15.4
+      },
+      {
+        "feature_idx": 7918,
+        "count": 1492,
+        "percent": 14.92
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11800000,
+      "corpus_coverage": 0.2282
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3868,
+        "percent": 38.68
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2026,
+        "percent": 20.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1332,
+        "percent": 13.32
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1368,
+        "percent": 13.68
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1406,
+        "percent": 14.06
+      }
+    ],
+    "mean_position": 0.3825,
+    "std_position": 0.3003
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 72,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0197,
+      "p25": 0.026,
+      "p50": 0.0374,
+      "p75": 0.0587,
+      "p90": 0.1753,
+      "p95": 0.1929,
+      "p99": 0.237
+    },
+    "skewness": 1.7395,
+    "kurtosis": 1.7632,
+    "min": 0.0118,
+    "max": 0.2429,
+    "mean": 0.0607,
+    "std": 0.0597
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 72,
+      "unique_tokens_found": 43
+    },
+    "tokens": [
+      {
+        "token": " based",
+        "count": 9,
+        "mean_activation": 0.1481
+      },
+      {
+        "token": " location",
+        "count": 7,
+        "mean_activation": 0.0264
+      },
+      {
+        "token": " live",
+        "count": 7,
+        "mean_activation": 0.0241
+      },
+      {
+        "token": " located",
+        "count": 4,
+        "mean_activation": 0.2242
+      },
+      {
+        "token": " up",
+        "count": 3,
+        "mean_activation": 0.0447
+      },
+      {
+        "token": " tucked",
+        "count": 2,
+        "mean_activation": 0.0472
+      },
+      {
+        "token": " built",
+        "count": 2,
+        "mean_activation": 0.0466
+      },
+      {
+        "token": " called",
+        "count": 2,
+        "mean_activation": 0.0426
+      },
+      {
+        "token": " right",
+        "count": 2,
+        "mean_activation": 0.0178
+      },
+      {
+        "token": " derived",
+        "count": 1,
+        "mean_activation": 0.0389
+      }
+    ]
+  }
+}

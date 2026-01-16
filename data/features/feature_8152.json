@@ -1,0 +1,876 @@
+{
+  "feature_idx": 8152,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 260,
+    "mean_when_active": 0.046674082829402046,
+    "max_activation": 0.185546875,
+    "std_when_active": 0.033491617649688984,
+    "activation_rate": 0.0026
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 17700000,
+      "corpus_coverage": 0.3423
+    },
+    "top_tokens": [
+      {
+        "token": " open",
+        "count": 4008,
+        "mean_activation": 0.05470588821137023
+      },
+      {
+        "token": " opened",
+        "count": 2572,
+        "mean_activation": 0.10985442379585135
+      },
+      {
+        "token": " the",
+        "count": 1794,
+        "mean_activation": 0.05546538779302319
+      },
+      {
+        "token": ",",
+        "count": 1717,
+        "mean_activation": 0.040303802934578845
+      },
+      {
+        "token": " and",
+        "count": 1686,
+        "mean_activation": 0.04723581243947166
+      },
+      {
+        "token": ".",
+        "count": 1530,
+        "mean_activation": 0.03063936420515472
+      },
+      {
+        "token": " closed",
+        "count": 1251,
+        "mean_activation": 0.04708955003965577
+      },
+      {
+        "token": " a",
+        "count": 1168,
+        "mean_activation": 0.07207895958260314
+      },
+      {
+        "token": " opening",
+        "count": 1070,
+        "mean_activation": 0.09068326860944802
+      },
+      {
+        "token": " up",
+        "count": 1011,
+        "mean_activation": 0.09991738067536396
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 17700000,
+      "corpus_coverage": 0.3423
+    },
+    "activations": [
+      {
+        "context": "...le, which just opened** up** around the corner at ...",
+        "active_token": " up",
+        "activation": 0.1981201171875,
+        "review_id": "PmJ9PFGSRL3pmxZ_FvFqSA",
+        "position": 15
+      },
+      {
+        "context": "...emodeled, which opens** up** the space is bright a...",
+        "active_token": " up",
+        "activation": 0.1978759765625,
+        "review_id": "t14N5FvT0-mm5mMA2rPFlg",
+        "position": 27
+      },
+      {
+        "context": "...lad this place opened** up** in the neighborhood. ...",
+        "active_token": " up",
+        "activation": 0.1951904296875,
+        "review_id": "8FasAlCv4U6oiRxOLytpwQ",
+        "position": 44
+      },
+      {
+        "context": "...imes since they opened** a** little over a week ag...",
+        "active_token": " a",
+        "activation": 0.1937255859375,
+        "review_id": "ORUCWiRv55VJULuUV84FMQ",
+        "position": 21
+      },
+      {
+        "context": "...its since they opened** the** new location! Enjoy!",
+        "active_token": " the",
+        "activation": 0.1925048828125,
+        "review_id": "9WvzG3QdC_4T6LJNhyD7zw",
+        "position": 306
+      },
+      {
+        "context": "...back when they opened** up** in Westmont so I was ...",
+        "active_token": " up",
+        "activation": 0.1915283203125,
+        "review_id": "jtZYtWOLSni8Q5OQgKwnHQ",
+        "position": 9
+      },
+      {
+        "context": "...his restaurant opened** up**-I usually have to go ...",
+        "active_token": " up",
+        "activation": 0.190673828125,
+        "review_id": "q4eMicPAyof1gZ5g4HWFtg",
+        "position": 91
+      },
+      {
+        "context": "...pot since it's opened** its** doors but never foun...",
+        "active_token": " its",
+        "activation": 0.18994140625,
+        "review_id": "ye4R2nfE_7VzO22tQzXOag",
+        "position": 39
+      },
+      {
+        "context": "...nent location to open** up**, because the service ...",
+        "active_token": " up",
+        "activation": 0.18994140625,
+        "review_id": "6wwLJDHoAX3_ABLxg_5ehQ",
+        "position": 39
+      },
+      {
+        "context": "...ila/taco joint opened** up** with a modern vibe, I...",
+        "active_token": " up",
+        "activation": 0.18994140625,
+        "review_id": "SNyarNjt2DVzq2ejhCBEoQ",
+        "position": 45
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8152,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 34700000,
+      "corpus_coverage": 0.6711,
+      "activation_range": {
+        "min": 0.1644,
+        "max": 0.21,
+        "mean": 0.1743
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " opened",
+            " up"
+          ],
+          "ngram_str": " opened up",
+          "count": 180,
+          "percent": 36.0
+        },
+        {
+          "ngram": [
+            " they",
+            " opened"
+          ],
+          "ngram_str": " they opened",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " just",
+            " opened"
+          ],
+          "ngram_str": " just opened",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " opened",
+            " a"
+          ],
+          "ngram_str": " opened a",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " since",
+            " they"
+          ],
+          "ngram_str": " since they",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " up",
+            " in"
+          ],
+          "ngram_str": " up in",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " a",
+            " few"
+          ],
+          "ngram_str": " a few",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " opened",
+            " their"
+          ],
+          "ngram_str": " opened their",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " opening",
+            " up"
+          ],
+          "ngram_str": " opening up",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " open",
+            " up"
+          ],
+          "ngram_str": " open up",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " their",
+            " doors"
+          ],
+          "ngram_str": " their doors",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " place",
+            " opened"
+          ],
+          "ngram_str": " place opened",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " since",
+            " they",
+            " opened"
+          ],
+          "ngram_str": " since they opened",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " opened",
+            " up",
+            " in"
+          ],
+          "ngram_str": " opened up in",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " just",
+            " opened",
+            " up"
+          ],
+          "ngram_str": " just opened up",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " opened",
+            " a",
+            " few"
+          ],
+          "ngram_str": " opened a few",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " they",
+            " opened",
+            " their"
+          ],
+          "ngram_str": " they opened their",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " they",
+            " opened",
+            " up"
+          ],
+          "ngram_str": " they opened up",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " place",
+            " opened",
+            " up"
+          ],
+          "ngram_str": " place opened up",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " they",
+            " opened",
+            " a"
+          ],
+          "ngram_str": " they opened a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " years"
+          ],
+          "ngram_str": " a few years",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " opened",
+            " their",
+            " doors"
+          ],
+          "ngram_str": " opened their doors",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " that",
+            " just",
+            " opened"
+          ],
+          "ngram_str": " that just opened",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            " opened"
+          ],
+          "ngram_str": " this place opened",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " opened",
+            " its",
+            " doors"
+          ],
+          "ngram_str": " opened its doors",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " opened",
+            " up",
+            "."
+          ],
+          "ngram_str": " opened up.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " few",
+            " years",
+            " ago"
+          ],
+          "ngram_str": " few years ago",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " this",
+            " place",
+            " opened",
+            " up"
+          ],
+          "ngram_str": " this place opened up",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " opened",
+            " a",
+            " few",
+            " years"
+          ],
+          "ngram_str": " opened a few years",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " since",
+            " they",
+            " opened",
+            " their"
+          ],
+          "ngram_str": " since they opened their",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " since",
+            " they",
+            " opened",
+            " a"
+          ],
+          "ngram_str": " since they opened a",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " years",
+            " ago"
+          ],
+          "ngram_str": " a few years ago",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " they",
+            " opened",
+            " their",
+            " doors"
+          ],
+          "ngram_str": " they opened their doors",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " they",
+            " opened",
+            " a",
+            " few"
+          ],
+          "ngram_str": " they opened a few",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " happy",
+            " this",
+            " place",
+            " opened"
+          ],
+          "ngram_str": " happy this place opened",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " opened",
+            " up",
+            " in",
+            " my"
+          ],
+          "ngram_str": " opened up in my",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " that",
+            " just",
+            " opened",
+            " up"
+          ],
+          "ngram_str": " that just opened up",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " weeks",
+            " ago"
+          ],
+          "ngram_str": " a few weeks ago",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " opened",
+            " their",
+            " doors",
+            "."
+          ],
+          "ngram_str": " opened their doors.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " years",
+            " back"
+          ],
+          "ngram_str": " a few years back",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " since",
+            " they",
+            " opened",
+            " up"
+          ],
+          "ngram_str": " since they opened up",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3700000,
+      "corpus_coverage": 0.0716
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5722,
+        "percent": 57.22
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3321,
+        "percent": 33.21
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2960,
+        "percent": 29.6
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2826,
+        "percent": 28.26
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2794,
+        "percent": 27.94
+      },
+      {
+        "feature_idx": 4845,
+        "count": 2773,
+        "percent": 27.73
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2553,
+        "percent": 25.53
+      },
+      {
+        "feature_idx": 7411,
+        "count": 2358,
+        "percent": 23.58
+      },
+      {
+        "feature_idx": 20375,
+        "count": 2258,
+        "percent": 22.58
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2220,
+        "percent": 22.2
+      },
+      {
+        "feature_idx": 8978,
+        "count": 2098,
+        "percent": 20.98
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1996,
+        "percent": 19.96
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1748,
+        "percent": 17.48
+      },
+      {
+        "feature_idx": 13581,
+        "count": 1747,
+        "percent": 17.47
+      },
+      {
+        "feature_idx": 22835,
+        "count": 1651,
+        "percent": 16.51
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1633,
+        "percent": 16.33
+      },
+      {
+        "feature_idx": 6408,
+        "count": 1599,
+        "percent": 15.99
+      },
+      {
+        "feature_idx": 12132,
+        "count": 1486,
+        "percent": 14.86
+      },
+      {
+        "feature_idx": 19598,
+        "count": 1424,
+        "percent": 14.24
+      },
+      {
+        "feature_idx": 16098,
+        "count": 1401,
+        "percent": 14.01
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3700000,
+      "corpus_coverage": 0.0716
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3397,
+        "percent": 33.97
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2045,
+        "percent": 20.45
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1368,
+        "percent": 13.68
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1334,
+        "percent": 13.34
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1856,
+        "percent": 18.56
+      }
+    ],
+    "mean_position": 0.4227,
+    "std_position": 0.3107
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 260,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0191,
+      "p25": 0.0248,
+      "p50": 0.0344,
+      "p75": 0.0599,
+      "p90": 0.0981,
+      "p95": 0.1258,
+      "p99": 0.1524
+    },
+    "skewness": 1.7148,
+    "kurtosis": 2.5878,
+    "min": 0.01,
+    "max": 0.1855,
+    "mean": 0.0467,
+    "std": 0.0335
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 260,
+      "unique_tokens_found": 131
+    },
+    "tokens": [
+      {
+        "token": " opened",
+        "count": 15,
+        "mean_activation": 0.1084
+      },
+      {
+        "token": ".",
+        "count": 12,
+        "mean_activation": 0.0272
+      },
+      {
+        "token": " open",
+        "count": 11,
+        "mean_activation": 0.0495
+      },
+      {
+        "token": ",",
+        "count": 10,
+        "mean_activation": 0.0378
+      },
+      {
+        "token": " and",
+        "count": 9,
+        "mean_activation": 0.0507
+      },
+      {
+        "token": " up",
+        "count": 8,
+        "mean_activation": 0.1004
+      },
+      {
+        "token": " closed",
+        "count": 7,
+        "mean_activation": 0.0393
+      },
+      {
+        "token": " in",
+        "count": 5,
+        "mean_activation": 0.064
+      },
+      {
+        "token": " the",
+        "count": 5,
+        "mean_activation": 0.0467
+      },
+      {
+        "token": " location",
+        "count": 5,
+        "mean_activation": 0.0478
+      }
+    ]
+  }
+}

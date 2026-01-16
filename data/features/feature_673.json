@@ -1,0 +1,836 @@
+{
+  "feature_idx": 673,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 5,
+    "mean_when_active": 0.0843292236328125,
+    "max_activation": 0.12066650390625,
+    "std_when_active": 0.03526483773116289,
+    "activation_rate": 5e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6058,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ach",
+        "count": 2710,
+        "mean_activation": 0.038209159259866524
+      },
+      {
+        "token": "uke",
+        "count": 1323,
+        "mean_activation": 0.11648138598429823
+      },
+      {
+        "token": "ash",
+        "count": 983,
+        "mean_activation": 0.13981617552096579
+      },
+      {
+        "token": "uk",
+        "count": 273,
+        "mean_activation": 0.15186150519402472
+      },
+      {
+        "token": "ASH",
+        "count": 81,
+        "mean_activation": 0.04453870985243055
+      },
+      {
+        "token": "osh",
+        "count": 69,
+        "mean_activation": 0.048838076384171196
+      },
+      {
+        "token": "ashed",
+        "count": 45,
+        "mean_activation": 0.03958875868055556
+      },
+      {
+        "token": "az",
+        "count": 35,
+        "mean_activation": 0.03147800990513393
+      },
+      {
+        "token": "UK",
+        "count": 33,
+        "mean_activation": 0.10823937618371213
+      },
+      {
+        "token": " Trash",
+        "count": 24,
+        "mean_activation": 0.024211883544921875
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6058,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ite place to eat in n**ash**ville. I've grown up e...",
+        "active_token": "ash",
+        "activation": 0.2421875,
+        "review_id": "ac0qq2U27xtaE-x-pAnKBQ",
+        "position": 8
+      },
+      {
+        "context": "...AZING  tacos!!! for n**ash**ville. the most authen...",
+        "active_token": "ash",
+        "activation": 0.2415771484375,
+        "review_id": "F0jR_6UODA1gtted20W2cQ",
+        "position": 46
+      },
+      {
+        "context": "...and I were downtown n**ash**ville for something el...",
+        "active_token": "ash",
+        "activation": 0.2410888671875,
+        "review_id": "3_ed6ju-WMZXqzBXMU4FkA",
+        "position": 7
+      },
+      {
+        "context": "...a favorite for many n**ash**villains.",
+        "active_token": "ash",
+        "activation": 0.240966796875,
+        "review_id": "Pa89K48-nD7Ad_FDwCiVIQ",
+        "position": 28
+      },
+      {
+        "context": "...gain anytime I'm in n**ash**ville.",
+        "active_token": "ash",
+        "activation": 0.240234375,
+        "review_id": "v1MBi9czmwVioaatWiK4yg",
+        "position": 54
+      },
+      {
+        "context": "...ght it was a staple n**ash**ville restaurant... we...",
+        "active_token": "ash",
+        "activation": 0.2398681640625,
+        "review_id": "MzGNs8k58iN4x7Lee-8hig",
+        "position": 72
+      },
+      {
+        "context": "...he place for you in n**ash**ville.",
+        "active_token": "ash",
+        "activation": 0.239501953125,
+        "review_id": "HgdhsoBdt7PuVgieBjqOaA",
+        "position": 154
+      },
+      {
+        "context": "...p the heavy food in n**ash**ville. great list of w...",
+        "active_token": "ash",
+        "activation": 0.239501953125,
+        "review_id": "me60utXnlOtqBzmRqv-DxQ",
+        "position": 13
+      },
+      {
+        "context": "best tacos in n**ash**ville. try the cabeza!...",
+        "active_token": "ash",
+        "activation": 0.2393798828125,
+        "review_id": "0pQp879B94viq2bLowje9g",
+        "position": 4
+      },
+      {
+        "context": "...xican restaurant in n**ash**ville.  The salsa and ...",
+        "active_token": "ash",
+        "activation": 0.2393798828125,
+        "review_id": "kbRTBqKCk3fX6dFiNc83KQ",
+        "position": 11
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 673,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1693,
+        "max": 0.2422,
+        "mean": 0.2042
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "ash",
+            "ville"
+          ],
+          "ngram_str": "ashville",
+          "count": 272,
+          "percent": 54.4
+        },
+        {
+          "ngram": [
+            " n",
+            "ash"
+          ],
+          "ngram_str": " nash",
+          "count": 195,
+          "percent": 39.0
+        },
+        {
+          "ngram": [
+            " s",
+            "ash"
+          ],
+          "ngram_str": " sash",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            "ash",
+            "imi"
+          ],
+          "ngram_str": "ashimi",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            "N",
+            "ash"
+          ],
+          "ngram_str": "Nash",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " in",
+            " n"
+          ],
+          "ngram_str": " in n",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " T",
+            "uk"
+          ],
+          "ngram_str": " Tuk",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "ville",
+            "."
+          ],
+          "ngram_str": "ville.",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "uk",
+            " T"
+          ],
+          "ngram_str": "uk T",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "uk",
+            "ing"
+          ],
+          "ngram_str": "uking",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "uk",
+            " Real"
+          ],
+          "ngram_str": "uk Real",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " n",
+            "ash",
+            "ville"
+          ],
+          "ngram_str": " nashville",
+          "count": 177,
+          "percent": 35.4
+        },
+        {
+          "ngram": [
+            "N",
+            "ash",
+            "ville"
+          ],
+          "ngram_str": "Nashville",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " in",
+            " n",
+            "ash"
+          ],
+          "ngram_str": " in nash",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " s",
+            "ash",
+            "imi"
+          ],
+          "ngram_str": " sashimi",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            "ash",
+            "ville",
+            "."
+          ],
+          "ngram_str": "ashville.",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " T",
+            "uk",
+            " T"
+          ],
+          "ngram_str": " Tuk T",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "uk",
+            " T",
+            "uk"
+          ],
+          "ngram_str": "uk Tuk",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " T",
+            "uk",
+            " Real"
+          ],
+          "ngram_str": " Tuk Real",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "N",
+            "ash"
+          ],
+          "ngram_str": "\u012cNash",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " east",
+            " n",
+            "ash"
+          ],
+          "ngram_str": " east nash",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " p",
+            "uk",
+            "ing"
+          ],
+          "ngram_str": " puking",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "ash",
+            "ville",
+            ","
+          ],
+          "ngram_str": "ashville,",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "N"
+          ],
+          "ngram_str": "\u00c4\u012cN",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " n",
+            "ash",
+            "ville"
+          ],
+          "ngram_str": " in nashville",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " n",
+            "ash",
+            "ville",
+            "."
+          ],
+          "ngram_str": " nashville.",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " T",
+            "uk",
+            " T",
+            "uk"
+          ],
+          "ngram_str": " Tuk Tuk",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "uk",
+            " T",
+            "uk",
+            " Real"
+          ],
+          "ngram_str": "uk Tuk Real",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "N",
+            "ash",
+            "ville"
+          ],
+          "ngram_str": "\u012cNashville",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " east",
+            " n",
+            "ash",
+            "ville"
+          ],
+          "ngram_str": " east nashville",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "N",
+            "ash"
+          ],
+          "ngram_str": "\u00c4\u012cNash",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "N"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cN",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "/",
+            "N",
+            "ash",
+            "ville"
+          ],
+          "ngram_str": "/Nashville",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " n",
+            "ash",
+            "ville",
+            "!"
+          ],
+          "ngram_str": " nashville!",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " \"",
+            "N",
+            "ash",
+            "ville"
+          ],
+          "ngram_str": " \"Nashville",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " in",
+            " east",
+            " n",
+            "ash"
+          ],
+          "ngram_str": " in east nash",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6058,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 15925,
+        "count": 3990,
+        "percent": 65.86
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3301,
+        "percent": 54.49
+      },
+      {
+        "feature_idx": 18307,
+        "count": 3043,
+        "percent": 50.23
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2901,
+        "percent": 47.89
+      },
+      {
+        "feature_idx": 1478,
+        "count": 2763,
+        "percent": 45.61
+      },
+      {
+        "feature_idx": 22950,
+        "count": 2739,
+        "percent": 45.21
+      },
+      {
+        "feature_idx": 6665,
+        "count": 2717,
+        "percent": 44.85
+      },
+      {
+        "feature_idx": 20877,
+        "count": 2717,
+        "percent": 44.85
+      },
+      {
+        "feature_idx": 17361,
+        "count": 2717,
+        "percent": 44.85
+      },
+      {
+        "feature_idx": 23683,
+        "count": 2715,
+        "percent": 44.82
+      },
+      {
+        "feature_idx": 20713,
+        "count": 2714,
+        "percent": 44.8
+      },
+      {
+        "feature_idx": 2274,
+        "count": 2713,
+        "percent": 44.78
+      },
+      {
+        "feature_idx": 16868,
+        "count": 2712,
+        "percent": 44.77
+      },
+      {
+        "feature_idx": 15297,
+        "count": 2704,
+        "percent": 44.64
+      },
+      {
+        "feature_idx": 21123,
+        "count": 2704,
+        "percent": 44.64
+      },
+      {
+        "feature_idx": 19808,
+        "count": 2601,
+        "percent": 42.93
+      },
+      {
+        "feature_idx": 16679,
+        "count": 2515,
+        "percent": 41.52
+      },
+      {
+        "feature_idx": 5452,
+        "count": 2482,
+        "percent": 40.97
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2311,
+        "percent": 38.15
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2091,
+        "percent": 34.52
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6058,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 841,
+        "percent": 13.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1401,
+        "percent": 23.13
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1571,
+        "percent": 25.93
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1382,
+        "percent": 22.81
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 863,
+        "percent": 14.25
+      }
+    ],
+    "mean_position": 0.4999,
+    "std_position": 0.2534
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 5,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0405,
+      "p25": 0.0557,
+      "p50": 0.1004,
+      "p75": 0.1145,
+      "p90": 0.1182,
+      "p95": 0.1194,
+      "p99": 0.1204
+    },
+    "skewness": -0.4593,
+    "kurtosis": -1.4784,
+    "min": 0.0304,
+    "max": 0.1207,
+    "mean": 0.0843,
+    "std": 0.0353
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 5,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": "uke",
+        "count": 3,
+        "mean_activation": 0.1119
+      },
+      {
+        "token": "ach",
+        "count": 2,
+        "mean_activation": 0.043
+      }
+    ]
+  }
+}

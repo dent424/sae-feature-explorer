@@ -1,0 +1,876 @@
+{
+  "feature_idx": 19838,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 126,
+    "mean_when_active": 0.04583734179299975,
+    "max_activation": 0.14892578125,
+    "std_when_active": 0.03968703812199312,
+    "activation_rate": 0.00126
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 46200000,
+      "corpus_coverage": 0.8936
+    },
+    "top_tokens": [
+      {
+        "token": " food",
+        "count": 30113,
+        "mean_activation": 0.059419056580098585
+      },
+      {
+        "token": " tacos",
+        "count": 1760,
+        "mean_activation": 0.017085237936540085
+      },
+      {
+        "token": " place",
+        "count": 1660,
+        "mean_activation": 0.01752387357045369
+      },
+      {
+        "token": " Mexican",
+        "count": 826,
+        "mean_activation": 0.017535165782124888
+      },
+      {
+        "token": " little",
+        "count": 719,
+        "mean_activation": 0.031470191329510386
+      },
+      {
+        "token": " atmosphere",
+        "count": 714,
+        "mean_activation": 0.03487669787153143
+      },
+      {
+        "token": " restaurant",
+        "count": 500,
+        "mean_activation": 0.030358856201171874
+      },
+      {
+        "token": " a",
+        "count": 455,
+        "mean_activation": 0.023602596744076235
+      },
+      {
+        "token": " beer",
+        "count": 406,
+        "mean_activation": 0.037666771799472754
+      },
+      {
+        "token": " Food",
+        "count": 371,
+        "mean_activation": 0.06354368472035041
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 46200000,
+      "corpus_coverage": 0.8936
+    },
+    "activations": [
+      {
+        "context": "Great** food**. Always tastes fresh...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "Mc2i8mXvKPU73eQx5UfhHA",
+        "position": 1
+      },
+      {
+        "context": "Great** food** Truck!\\n\\nBurrito:\\nis to",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "h7-bqc6BvQaLTC6Ula55Wg",
+        "position": 1
+      },
+      {
+        "context": "Great** food** and great environmen...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "umYoGfntdpLsbgXviMP6HA",
+        "position": 1
+      },
+      {
+        "context": "Great** food** and the chips and sa...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "4FOeSqB9DJcnbhokdg4Amw",
+        "position": 1
+      },
+      {
+        "context": "Great** food** and the staff are so...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "akwK-hCQ_ewnrHmZ_fuikA",
+        "position": 1
+      },
+      {
+        "context": "Great** food**, great drinks, terri...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "JmRHxHx7X3DdPsH0CrmOpA",
+        "position": 1
+      },
+      {
+        "context": "Great** food** and staff! As this i...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "nLKdQ4Eth8IUdJBO2sOxzw",
+        "position": 1
+      },
+      {
+        "context": "Great** food** and really good tequ...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "UIdwf-jBIcKU1abq4jmllw",
+        "position": 1
+      },
+      {
+        "context": "Great** food**!  Great Prices!  And...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "DPs67nyFMtdBackndhne2A",
+        "position": 1
+      },
+      {
+        "context": "Great** food** love the atmosphere ...",
+        "active_token": " food",
+        "activation": 0.14892578125,
+        "review_id": "zCch4eTBh27jRAFN8TXFQw",
+        "position": 1
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 19838,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1489,
+        "max": 0.1489,
+        "mean": 0.1489
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "Great",
+            " food"
+          ],
+          "ngram_str": "Great food",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            " food",
+            ","
+          ],
+          "ngram_str": " food,",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            " food",
+            " and"
+          ],
+          "ngram_str": " food and",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            " food",
+            "."
+          ],
+          "ngram_str": " food.",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " service",
+            "."
+          ],
+          "ngram_str": " service.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ",",
+            " great"
+          ],
+          "ngram_str": ", great",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " food",
+            "!"
+          ],
+          "ngram_str": " food!",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " great",
+            " service"
+          ],
+          "ngram_str": " great service",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " and",
+            " service"
+          ],
+          "ngram_str": " and service",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " service",
+            "!"
+          ],
+          "ngram_str": " service!",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " service",
+            ","
+          ],
+          "ngram_str": " service,",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " and",
+            " great"
+          ],
+          "ngram_str": " and great",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " prices",
+            "."
+          ],
+          "ngram_str": " prices.",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " atmosphere",
+            "."
+          ],
+          "ngram_str": " atmosphere.",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "Great",
+            " food",
+            ","
+          ],
+          "ngram_str": "Great food,",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            " and"
+          ],
+          "ngram_str": "Great food and",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            "."
+          ],
+          "ngram_str": "Great food.",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            "!"
+          ],
+          "ngram_str": "Great food!",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " great"
+          ],
+          "ngram_str": " food, great",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " food",
+            " and",
+            " service"
+          ],
+          "ngram_str": " food and service",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " food",
+            " and",
+            " great"
+          ],
+          "ngram_str": " food and great",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " great",
+            " service"
+          ],
+          "ngram_str": ", great service",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " service",
+            ".",
+            " "
+          ],
+          "ngram_str": " service. ",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " great",
+            " service",
+            "."
+          ],
+          "ngram_str": " great service.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " and",
+            " service",
+            "."
+          ],
+          "ngram_str": " and service.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " food",
+            " and",
+            " the"
+          ],
+          "ngram_str": " food and the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            " at"
+          ],
+          "ngram_str": "Great food at",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " great",
+            " service"
+          ],
+          "ngram_str": " and great service",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            ".",
+            " Great"
+          ],
+          "ngram_str": " food. Great",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "Great",
+            " food",
+            ",",
+            " great"
+          ],
+          "ngram_str": "Great food, great",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            " and",
+            " service"
+          ],
+          "ngram_str": "Great food and service",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            " and",
+            " great"
+          ],
+          "ngram_str": "Great food and great",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " great",
+            " service"
+          ],
+          "ngram_str": " food, great service",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            " and",
+            " the"
+          ],
+          "ngram_str": "Great food and the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            " and",
+            " great",
+            " service"
+          ],
+          "ngram_str": " food and great service",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            " and",
+            " service",
+            "."
+          ],
+          "ngram_str": " food and service.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            ".",
+            " Great"
+          ],
+          "ngram_str": "Great food. Great",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            ".",
+            " "
+          ],
+          "ngram_str": "Great food. ",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " food",
+            " and",
+            " service",
+            "!"
+          ],
+          "ngram_str": " food and service!",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            ".",
+            " Very"
+          ],
+          "ngram_str": "Great food. Very",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            "!",
+            " "
+          ],
+          "ngram_str": "Great food! ",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            ",",
+            " nice"
+          ],
+          "ngram_str": "Great food, nice",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " great",
+            " prices"
+          ],
+          "ngram_str": " food, great prices",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "Great",
+            " food",
+            ",",
+            " friendly"
+          ],
+          "ngram_str": "Great food, friendly",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9200000,
+      "corpus_coverage": 0.1779
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 9953,
+        "percent": 99.53
+      },
+      {
+        "feature_idx": 17839,
+        "count": 8728,
+        "percent": 87.28
+      },
+      {
+        "feature_idx": 22000,
+        "count": 7724,
+        "percent": 77.24
+      },
+      {
+        "feature_idx": 5665,
+        "count": 7571,
+        "percent": 75.71
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6532,
+        "percent": 65.32
+      },
+      {
+        "feature_idx": 14918,
+        "count": 6456,
+        "percent": 64.56
+      },
+      {
+        "feature_idx": 10722,
+        "count": 6372,
+        "percent": 63.72
+      },
+      {
+        "feature_idx": 1921,
+        "count": 6349,
+        "percent": 63.49
+      },
+      {
+        "feature_idx": 24292,
+        "count": 6225,
+        "percent": 62.25
+      },
+      {
+        "feature_idx": 21746,
+        "count": 6128,
+        "percent": 61.28
+      },
+      {
+        "feature_idx": 14953,
+        "count": 6048,
+        "percent": 60.48
+      },
+      {
+        "feature_idx": 18356,
+        "count": 5957,
+        "percent": 59.57
+      },
+      {
+        "feature_idx": 20257,
+        "count": 5884,
+        "percent": 58.84
+      },
+      {
+        "feature_idx": 11584,
+        "count": 5788,
+        "percent": 57.88
+      },
+      {
+        "feature_idx": 9576,
+        "count": 5481,
+        "percent": 54.81
+      },
+      {
+        "feature_idx": 23735,
+        "count": 4846,
+        "percent": 48.46
+      },
+      {
+        "feature_idx": 19167,
+        "count": 4796,
+        "percent": 47.96
+      },
+      {
+        "feature_idx": 905,
+        "count": 4725,
+        "percent": 47.25
+      },
+      {
+        "feature_idx": 1418,
+        "count": 4227,
+        "percent": 42.27
+      },
+      {
+        "feature_idx": 16069,
+        "count": 3749,
+        "percent": 37.49
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9200000,
+      "corpus_coverage": 0.1779
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 7727,
+        "percent": 77.27
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 419,
+        "percent": 4.19
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 509,
+        "percent": 5.09
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 573,
+        "percent": 5.73
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 772,
+        "percent": 7.72
+      }
+    ],
+    "mean_position": 0.175,
+    "std_position": 0.2841
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 126,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0143,
+      "p25": 0.0185,
+      "p50": 0.035,
+      "p75": 0.0432,
+      "p90": 0.1215,
+      "p95": 0.1489,
+      "p99": 0.1489
+    },
+    "skewness": 1.6699,
+    "kurtosis": 1.5721,
+    "min": 0.0092,
+    "max": 0.1489,
+    "mean": 0.0458,
+    "std": 0.0397
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 126,
+      "unique_tokens_found": 30
+    },
+    "tokens": [
+      {
+        "token": " food",
+        "count": 81,
+        "mean_activation": 0.0569
+      },
+      {
+        "token": " tacos",
+        "count": 7,
+        "mean_activation": 0.0162
+      },
+      {
+        "token": " place",
+        "count": 6,
+        "mean_activation": 0.0189
+      },
+      {
+        "token": " meal",
+        "count": 2,
+        "mean_activation": 0.0556
+      },
+      {
+        "token": " restaurant",
+        "count": 2,
+        "mean_activation": 0.0307
+      },
+      {
+        "token": " Mexican",
+        "count": 2,
+        "mean_activation": 0.0186
+      },
+      {
+        "token": " music",
+        "count": 2,
+        "mean_activation": 0.0263
+      },
+      {
+        "token": " service",
+        "count": 2,
+        "mean_activation": 0.027
+      },
+      {
+        "token": " owners",
+        "count": 1,
+        "mean_activation": 0.0284
+      },
+      {
+        "token": " foods",
+        "count": 1,
+        "mean_activation": 0.0266
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23549,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 178,
+    "mean_when_active": 0.05543783809361833,
+    "max_activation": 0.22705078125,
+    "std_when_active": 0.04226028839014623,
+    "activation_rate": 0.00178
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 26400000,
+      "corpus_coverage": 0.5106
+    },
+    "top_tokens": [
+      {
+        "token": " of",
+        "count": 28245,
+        "mean_activation": 0.0600995210150234
+      },
+      {
+        "token": " with",
+        "count": 7650,
+        "mean_activation": 0.062185098486008984
+      },
+      {
+        "token": " in",
+        "count": 4140,
+        "mean_activation": 0.05945407296148475
+      },
+      {
+        "token": " amount",
+        "count": 1795,
+        "mean_activation": 0.042787013146870646
+      },
+      {
+        "token": " on",
+        "count": 1426,
+        "mean_activation": 0.07450997244258416
+      },
+      {
+        "token": " the",
+        "count": 696,
+        "mean_activation": 0.02957080972605738
+      },
+      {
+        "token": " enough",
+        "count": 432,
+        "mean_activation": 0.03269063101874457
+      },
+      {
+        "token": " some",
+        "count": 420,
+        "mean_activation": 0.028292065575009302
+      },
+      {
+        "token": " more",
+        "count": 354,
+        "mean_activation": 0.026605616855082538
+      },
+      {
+        "token": " lots",
+        "count": 313,
+        "mean_activation": 0.0270687749210638
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 26400000,
+      "corpus_coverage": 0.5106
+    },
+    "activations": [
+      {
+        "context": "...ce and juicy and full** of** flavor.",
+        "active_token": " of",
+        "activation": 0.270751953125,
+        "review_id": "KSwOyOhJDmnb5YOJQ7AORQ",
+        "position": 171
+      },
+      {
+        "context": "...oth so yummy and FULL** of** truly Oaxacan Mexican...",
+        "active_token": " of",
+        "activation": 0.270263671875,
+        "review_id": "vZ8s1Zy7vVWdwR7VpNnfdA",
+        "position": 308
+      },
+      {
+        "context": "...ey are tasty and full** of** unhealthy goodness. I...",
+        "active_token": " of",
+        "activation": 0.26953125,
+        "review_id": "y1kixZGwGmHLF3t7DRuFyA",
+        "position": 106
+      },
+      {
+        "context": "...ly flavorful and full** of** textures that keep th...",
+        "active_token": " of",
+        "activation": 0.26904296875,
+        "review_id": "qrUTagBMdMSmrulwCj2rhg",
+        "position": 169
+      },
+      {
+        "context": "...ectly simple and full** of** large chunks of avaca...",
+        "active_token": " of",
+        "activation": 0.268798828125,
+        "review_id": "HJViRS1R_FQHusb35trs9A",
+        "position": 123
+      },
+      {
+        "context": " f****in s**t - perfection - , tender, rich and fu...",
+        "active_token": " of",
+        "activation": 0.2685546875,
+        "review_id": "BEXk7CcavB1aynr112N1qg",
+        "position": 115
+      },
+      {
+        "context": "...st flavorful and full** of** crab. Wow is all we c...",
+        "active_token": " of",
+        "activation": 0.26708984375,
+        "review_id": "IM73lvtO-HgBxECNYssrKQ",
+        "position": 42
+      },
+      {
+        "context": "..., but smooth and full** of** flavor. Seriously I c...",
+        "active_token": " of",
+        "activation": 0.266845703125,
+        "review_id": "Jwus5dy_wKZyRd83ATtSYw",
+        "position": 186
+      },
+      {
+        "context": "... Not too hot and full** of** flavor.  The chips we...",
+        "active_token": " of",
+        "activation": 0.26611328125,
+        "review_id": "r4DVL_I4VCzOyQstcPRo5w",
+        "position": 124
+      },
+      {
+        "context": "...re crispy and so full** of** flavor we cant wait t...",
+        "active_token": " of",
+        "activation": 0.265380859375,
+        "review_id": "6ElZ-MrFrILXzlEPlsLJsQ",
+        "position": 37
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23549,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2372,
+        "max": 0.2803,
+        "mean": 0.2477
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " full",
+            " of"
+          ],
+          "ngram_str": " full of",
+          "count": 479,
+          "percent": 95.8
+        },
+        {
+          "ngram": [
+            " and",
+            " full"
+          ],
+          "ngram_str": " and full",
+          "count": 374,
+          "percent": 74.8
+        },
+        {
+          "ngram": [
+            " of",
+            " flavor"
+          ],
+          "ngram_str": " of flavor",
+          "count": 302,
+          "percent": 60.4
+        },
+        {
+          "ngram": [
+            " flavor",
+            "."
+          ],
+          "ngram_str": " flavor.",
+          "count": 210,
+          "percent": 42.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " flavor",
+            ","
+          ],
+          "ngram_str": " flavor,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " delicious",
+            " and"
+          ],
+          "ngram_str": " delicious and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " flavor",
+            "!"
+          ],
+          "ngram_str": " flavor!",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " tender",
+            " and"
+          ],
+          "ngram_str": " tender and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " fresh",
+            " and"
+          ],
+          "ngram_str": " fresh and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " juicy",
+            " and"
+          ],
+          "ngram_str": " juicy and",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " and",
+            " full",
+            " of"
+          ],
+          "ngram_str": " and full of",
+          "count": 374,
+          "percent": 74.8
+        },
+        {
+          "ngram": [
+            " full",
+            " of",
+            " flavor"
+          ],
+          "ngram_str": " full of flavor",
+          "count": 297,
+          "percent": 59.4
+        },
+        {
+          "ngram": [
+            " of",
+            " flavor",
+            "."
+          ],
+          "ngram_str": " of flavor.",
+          "count": 190,
+          "percent": 38.0
+        },
+        {
+          "ngram": [
+            " flavor",
+            ".",
+            " "
+          ],
+          "ngram_str": " flavor. ",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " flavor",
+            ".",
+            " The"
+          ],
+          "ngram_str": " flavor. The",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " full"
+          ],
+          "ngram_str": ", and full",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " of",
+            " flavor",
+            "!"
+          ],
+          "ngram_str": " of flavor!",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " of",
+            " flavor",
+            ","
+          ],
+          "ngram_str": " of flavor,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " flavor",
+            ".",
+            " I"
+          ],
+          "ngram_str": " flavor. I",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " delicious",
+            " and",
+            " full"
+          ],
+          "ngram_str": " delicious and full",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " tender",
+            " and",
+            " full"
+          ],
+          "ngram_str": " tender and full",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " fresh",
+            " and",
+            " full"
+          ],
+          "ngram_str": " fresh and full",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " juicy",
+            " and",
+            " full"
+          ],
+          "ngram_str": " juicy and full",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " full",
+            " of"
+          ],
+          "ngram_str": ", full of",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " and",
+            " full",
+            " of",
+            " flavor"
+          ],
+          "ngram_str": " and full of flavor",
+          "count": 231,
+          "percent": 46.2
+        },
+        {
+          "ngram": [
+            " full",
+            " of",
+            " flavor",
+            "."
+          ],
+          "ngram_str": " full of flavor.",
+          "count": 188,
+          "percent": 37.6
+        },
+        {
+          "ngram": [
+            " of",
+            " flavor",
+            ".",
+            " "
+          ],
+          "ngram_str": " of flavor. ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " of",
+            " flavor",
+            ".",
+            " The"
+          ],
+          "ngram_str": " of flavor. The",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " full",
+            " of"
+          ],
+          "ngram_str": ", and full of",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " full",
+            " of",
+            " flavor",
+            "!"
+          ],
+          "ngram_str": " full of flavor!",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " full",
+            " of",
+            " flavor",
+            ","
+          ],
+          "ngram_str": " full of flavor,",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " delicious",
+            " and",
+            " full",
+            " of"
+          ],
+          "ngram_str": " delicious and full of",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " tender",
+            " and",
+            " full",
+            " of"
+          ],
+          "ngram_str": " tender and full of",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " of",
+            " flavor",
+            ".",
+            " I"
+          ],
+          "ngram_str": " of flavor. I",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " fresh",
+            " and",
+            " full",
+            " of"
+          ],
+          "ngram_str": " fresh and full of",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " juicy",
+            " and",
+            " full",
+            " of"
+          ],
+          "ngram_str": " juicy and full of",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " good",
+            " and",
+            " full",
+            " of"
+          ],
+          "ngram_str": " good and full of",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " so",
+            " full",
+            " of",
+            " flavor"
+          ],
+          "ngram_str": " so full of flavor",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " full",
+            " of",
+            " flavor",
+            " and"
+          ],
+          "ngram_str": " full of flavor and",
+          "count": 18,
+          "percent": 3.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5400000,
+      "corpus_coverage": 0.1044
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 6937,
+        "percent": 69.37
+      },
+      {
+        "feature_idx": 9127,
+        "count": 4944,
+        "percent": 49.44
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4530,
+        "percent": 45.3
+      },
+      {
+        "feature_idx": 15956,
+        "count": 4250,
+        "percent": 42.5
+      },
+      {
+        "feature_idx": 3462,
+        "count": 4231,
+        "percent": 42.31
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4107,
+        "percent": 41.07
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3957,
+        "percent": 39.57
+      },
+      {
+        "feature_idx": 11915,
+        "count": 3855,
+        "percent": 38.55
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3563,
+        "percent": 35.63
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3440,
+        "percent": 34.4
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3174,
+        "percent": 31.74
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3137,
+        "percent": 31.37
+      },
+      {
+        "feature_idx": 10622,
+        "count": 3070,
+        "percent": 30.7
+      },
+      {
+        "feature_idx": 5624,
+        "count": 3028,
+        "percent": 30.28
+      },
+      {
+        "feature_idx": 6815,
+        "count": 2912,
+        "percent": 29.12
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2686,
+        "percent": 26.86
+      },
+      {
+        "feature_idx": 10691,
+        "count": 2415,
+        "percent": 24.15
+      },
+      {
+        "feature_idx": 13566,
+        "count": 2261,
+        "percent": 22.61
+      },
+      {
+        "feature_idx": 2131,
+        "count": 2195,
+        "percent": 21.95
+      },
+      {
+        "feature_idx": 13126,
+        "count": 2179,
+        "percent": 21.79
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5400000,
+      "corpus_coverage": 0.1044
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1066,
+        "percent": 10.66
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2175,
+        "percent": 21.75
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2739,
+        "percent": 27.39
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2534,
+        "percent": 25.34
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1486,
+        "percent": 14.86
+      }
+    ],
+    "mean_position": 0.5255,
+    "std_position": 0.2393
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 178,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.022,
+      "p25": 0.0294,
+      "p50": 0.0403,
+      "p75": 0.0617,
+      "p90": 0.1113,
+      "p95": 0.1509,
+      "p99": 0.2112
+    },
+    "skewness": 2.1264,
+    "kurtosis": 4.5392,
+    "min": 0.0094,
+    "max": 0.2271,
+    "mean": 0.0554,
+    "std": 0.0423
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 178,
+      "unique_tokens_found": 23
+    },
+    "tokens": [
+      {
+        "token": " of",
+        "count": 110,
+        "mean_activation": 0.0599
+      },
+      {
+        "token": " with",
+        "count": 23,
+        "mean_activation": 0.0549
+      },
+      {
+        "token": " in",
+        "count": 12,
+        "mean_activation": 0.0712
+      },
+      {
+        "token": " more",
+        "count": 4,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " on",
+        "count": 4,
+        "mean_activation": 0.0796
+      },
+      {
+        "token": " amount",
+        "count": 4,
+        "mean_activation": 0.0324
+      },
+      {
+        "token": " lacked",
+        "count": 3,
+        "mean_activation": 0.0329
+      },
+      {
+        "token": " some",
+        "count": 2,
+        "mean_activation": 0.0276
+      },
+      {
+        "token": " enough",
+        "count": 2,
+        "mean_activation": 0.0267
+      },
+      {
+        "token": "ocked",
+        "count": 1,
+        "mean_activation": 0.0331
+      }
+    ]
+  }
+}

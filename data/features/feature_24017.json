@@ -1,0 +1,876 @@
+{
+  "feature_idx": 24017,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 1927,
+    "mean_when_active": 0.0351524729152139,
+    "max_activation": 0.1468505859375,
+    "std_when_active": 0.017634922278466265,
+    "activation_rate": 0.01927
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 2600000,
+      "corpus_coverage": 0.0503
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 4077,
+        "mean_activation": 0.03450021937924447
+      },
+      {
+        "token": ".",
+        "count": 2811,
+        "mean_activation": 0.03251599502156358
+      },
+      {
+        "token": " a",
+        "count": 2068,
+        "mean_activation": 0.03954726907224674
+      },
+      {
+        "token": " and",
+        "count": 2062,
+        "mean_activation": 0.04182193952203375
+      },
+      {
+        "token": ",",
+        "count": 1808,
+        "mean_activation": 0.04233418945717601
+      },
+      {
+        "token": " The",
+        "count": 1243,
+        "mean_activation": 0.02640447209942082
+      },
+      {
+        "token": " of",
+        "count": 1116,
+        "mean_activation": 0.03684310502903436
+      },
+      {
+        "token": " with",
+        "count": 1041,
+        "mean_activation": 0.04861228129362167
+      },
+      {
+        "token": " bar",
+        "count": 613,
+        "mean_activation": 0.03741446365928961
+      },
+      {
+        "token": " to",
+        "count": 610,
+        "mean_activation": 0.041262442166688014
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 2600000,
+      "corpus_coverage": 0.0503
+    },
+    "activations": [
+      {
+        "context": "...or sports bar with** separate** restaurant area an...",
+        "active_token": " separate",
+        "activation": 0.177490234375,
+        "review_id": "sqFppjKb6ecO93HUdZfcAw",
+        "position": 7
+      },
+      {
+        "context": "...tio section with dim-**lit** lighting that has a g...",
+        "active_token": "lit",
+        "activation": 0.1668701171875,
+        "review_id": "qehQfVeSQmNrs5ryVctVCg",
+        "position": 139
+      },
+      {
+        "context": "...stairs bar, complete** with** two small rounded bo...",
+        "active_token": " with",
+        "activation": 0.15966796875,
+        "review_id": "d1ir__4EsBhDiwkgfgDQXw",
+        "position": 44
+      },
+      {
+        "context": "...tiful patio complete** with** hanging lights. We w...",
+        "active_token": " with",
+        "activation": 0.1575927734375,
+        "review_id": "uFcjGv3mSWfpZGdZbggBVA",
+        "position": 47
+      },
+      {
+        "context": "...with a kitchen through** a** tiny door. You won't ...",
+        "active_token": " a",
+        "activation": 0.1546630859375,
+        "review_id": "JZre2lYTFWR1k9SUMpYjYA",
+        "position": 73
+      },
+      {
+        "context": "...ining area, complete** with** the type of candle-l...",
+        "active_token": " with",
+        "activation": 0.154052734375,
+        "review_id": "6wX-E9N2QjSU1pwxhTXnbQ",
+        "position": 696
+      },
+      {
+        "context": "...rs bar, complete with** two** small rounded booths...",
+        "active_token": " two",
+        "activation": 0.153564453125,
+        "review_id": "d1ir__4EsBhDiwkgfgDQXw",
+        "position": 45
+      },
+      {
+        "context": "...ddition seating area** with** booths, tables flat ...",
+        "active_token": " with",
+        "activation": 0.1534423828125,
+        "review_id": "G40TGCpmjXHWpz8tj6ilNg",
+        "position": 29
+      },
+      {
+        "context": "...ly appointed with mov**able** chairs and tables, w...",
+        "active_token": "able",
+        "activation": 0.1510009765625,
+        "review_id": "gFvDzITp8_yH66ckhPfW_g",
+        "position": 418
+      },
+      {
+        "context": "...g, large bar with a** second** floor seating. Had ...",
+        "active_token": " second",
+        "activation": 0.1468505859375,
+        "review_id": "08zRc30-H07BsVo9LsIBeQ",
+        "position": 11
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 24017,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967,
+      "activation_range": {
+        "min": 0.1099,
+        "max": 0.1775,
+        "mean": 0.1215
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " and",
+            " a"
+          ],
+          "ngram_str": " and a",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " area",
+            " with"
+          ],
+          "ngram_str": " area with",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ",",
+            " a"
+          ],
+          "ngram_str": ", a",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " outdoor",
+            " seating"
+          ],
+          "ngram_str": " outdoor seating",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " a",
+            " bar"
+          ],
+          "ngram_str": " a bar",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " tables",
+            " and"
+          ],
+          "ngram_str": " tables and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " bar",
+            ","
+          ],
+          "ngram_str": " bar,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " tables",
+            ","
+          ],
+          "ngram_str": " tables,",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " indoor",
+            " and"
+          ],
+          "ngram_str": " indoor and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " and",
+            " outdoor"
+          ],
+          "ngram_str": " and outdoor",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " a",
+            " few"
+          ],
+          "ngram_str": " a few",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " bar",
+            " with"
+          ],
+          "ngram_str": " bar with",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " indoor",
+            " and",
+            " outdoor"
+          ],
+          "ngram_str": " indoor and outdoor",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " and",
+            " outdoor",
+            " seating"
+          ],
+          "ngram_str": " and outdoor seating",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " as",
+            " well",
+            " as"
+          ],
+          "ngram_str": " as well as",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " room",
+            " with",
+            " a"
+          ],
+          "ngram_str": " room with a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " booths",
+            " and",
+            " a"
+          ],
+          "ngram_str": " booths and a",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " with",
+            " indoor",
+            " and"
+          ],
+          "ngram_str": " with indoor and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " few"
+          ],
+          "ngram_str": " with a few",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " bar",
+            " and"
+          ],
+          "ngram_str": " a bar and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " a"
+          ],
+          "ngram_str": ", and a",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " in the back",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " picnic",
+            " tables",
+            ","
+          ],
+          "ngram_str": " picnic tables,",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " seating",
+            " area",
+            " with"
+          ],
+          "ngram_str": " seating area with",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " bar"
+          ],
+          "ngram_str": " with a bar",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " outdoor",
+            " seating",
+            " with"
+          ],
+          "ngram_str": " outdoor seating with",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " a few tables",
+          "count": 8,
+          "percent": 1.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " indoor",
+            " and",
+            " outdoor",
+            " seating"
+          ],
+          "ngram_str": " indoor and outdoor seating",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " with",
+            " indoor",
+            " and",
+            " outdoor"
+          ],
+          "ngram_str": " with indoor and outdoor",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " hot",
+            " tub",
+            "s",
+            ","
+          ],
+          "ngram_str": " hot tubs,",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " two",
+            " hot",
+            " tub",
+            "s"
+          ],
+          "ngram_str": " two hot tubs",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " tub",
+            "s",
+            ",",
+            " a"
+          ],
+          "ngram_str": " tubs, a",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "s",
+            ",",
+            " a",
+            " splash"
+          ],
+          "ngram_str": "s, a splash",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " pool",
+            ",",
+            " two",
+            " hot"
+          ],
+          "ngram_str": " pool, two hot",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ",",
+            " two",
+            " hot",
+            " tub"
+          ],
+          "ngram_str": ", two hot tub",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " sink",
+            ","
+          ],
+          "ngram_str": " with a sink,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " as",
+            " well",
+            " as",
+            " an"
+          ],
+          "ngram_str": " as well as an",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ",",
+            " a",
+            " splash",
+            " pad"
+          ],
+          "ngram_str": ", a splash pad",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " large",
+            " pool",
+            ",",
+            " two"
+          ],
+          "ngram_str": " large pool, two",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " small",
+            " rounded",
+            " booths",
+            " and"
+          ],
+          "ngram_str": " small rounded booths and",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " and",
+            " 6",
+            " top",
+            " tables"
+          ],
+          "ngram_str": " and 6 top tables",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " booths",
+            " and"
+          ],
+          "ngram_str": " a few booths and",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 600000,
+      "corpus_coverage": 0.0116
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 4239,
+        "percent": 42.39
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4050,
+        "percent": 40.5
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3901,
+        "percent": 39.01
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3546,
+        "percent": 35.46
+      },
+      {
+        "feature_idx": 6408,
+        "count": 3195,
+        "percent": 31.95
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2857,
+        "percent": 28.57
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2133,
+        "percent": 21.33
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1992,
+        "percent": 19.92
+      },
+      {
+        "feature_idx": 1390,
+        "count": 1991,
+        "percent": 19.91
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1923,
+        "percent": 19.23
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1860,
+        "percent": 18.6
+      },
+      {
+        "feature_idx": 11839,
+        "count": 1844,
+        "percent": 18.44
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1840,
+        "percent": 18.4
+      },
+      {
+        "feature_idx": 13566,
+        "count": 1595,
+        "percent": 15.95
+      },
+      {
+        "feature_idx": 15310,
+        "count": 1504,
+        "percent": 15.04
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1414,
+        "percent": 14.14
+      },
+      {
+        "feature_idx": 6329,
+        "count": 1336,
+        "percent": 13.36
+      },
+      {
+        "feature_idx": 4197,
+        "count": 1333,
+        "percent": 13.33
+      },
+      {
+        "feature_idx": 11922,
+        "count": 1181,
+        "percent": 11.81
+      },
+      {
+        "feature_idx": 3096,
+        "count": 1166,
+        "percent": 11.66
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 600000,
+      "corpus_coverage": 0.0116
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1785,
+        "percent": 17.85
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2570,
+        "percent": 25.7
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2012,
+        "percent": 20.12
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1910,
+        "percent": 19.1
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1723,
+        "percent": 17.23
+      }
+    ],
+    "mean_position": 0.4862,
+    "std_position": 0.2698
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 1927,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0181,
+      "p25": 0.0228,
+      "p50": 0.0306,
+      "p75": 0.0424,
+      "p90": 0.0583,
+      "p95": 0.0693,
+      "p99": 0.0977
+    },
+    "skewness": 1.6624,
+    "kurtosis": 4.0676,
+    "min": 0.0038,
+    "max": 0.1469,
+    "mean": 0.0352,
+    "std": 0.0176
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 1927,
+      "unique_tokens_found": 597
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 147,
+        "mean_activation": 0.0318
+      },
+      {
+        "token": ".",
+        "count": 107,
+        "mean_activation": 0.032
+      },
+      {
+        "token": " a",
+        "count": 96,
+        "mean_activation": 0.0393
+      },
+      {
+        "token": " and",
+        "count": 81,
+        "mean_activation": 0.0409
+      },
+      {
+        "token": ",",
+        "count": 56,
+        "mean_activation": 0.041
+      },
+      {
+        "token": " The",
+        "count": 52,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " of",
+        "count": 51,
+        "mean_activation": 0.0328
+      },
+      {
+        "token": " with",
+        "count": 34,
+        "mean_activation": 0.0525
+      },
+      {
+        "token": " have",
+        "count": 31,
+        "mean_activation": 0.0306
+      },
+      {
+        "token": " to",
+        "count": 28,
+        "mean_activation": 0.0388
+      }
+    ]
+  }
+}

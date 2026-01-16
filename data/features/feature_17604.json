@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17604,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 159,
+    "mean_when_active": 0.03740433027159493,
+    "max_activation": 0.1365966796875,
+    "std_when_active": 0.020192743326630222,
+    "activation_rate": 0.00159
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 25900000,
+      "corpus_coverage": 0.5009
+    },
+    "top_tokens": [
+      {
+        "token": ".",
+        "count": 11615,
+        "mean_activation": 0.04125188810272151
+      },
+      {
+        "token": ",",
+        "count": 11295,
+        "mean_activation": 0.05145957983928003
+      },
+      {
+        "token": " and",
+        "count": 4676,
+        "mean_activation": 0.043545389297785564
+      },
+      {
+        "token": " is",
+        "count": 2682,
+        "mean_activation": 0.03306552565515619
+      },
+      {
+        "token": " the",
+        "count": 1047,
+        "mean_activation": 0.03230437940945484
+      },
+      {
+        "token": " that",
+        "count": 1045,
+        "mean_activation": 0.03532922188060706
+      },
+      {
+        "token": "\\n",
+        "count": 987,
+        "mean_activation": 0.030438891780895785
+      },
+      {
+        "token": " (",
+        "count": 705,
+        "mean_activation": 0.037768067704870345
+      },
+      {
+        "token": " with",
+        "count": 688,
+        "mean_activation": 0.03328823488812114
+      },
+      {
+        "token": " in",
+        "count": 686,
+        "mean_activation": 0.05437007937417433
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 25900000,
+      "corpus_coverage": 0.5009
+    },
+    "activations": [
+      {
+        "context": "...ay and Maryland Avenue**,** in a terrifying little...",
+        "active_token": ",",
+        "activation": 0.2442626953125,
+        "review_id": "CgExTB3yH_K_TYKyf1Rsfg",
+        "position": 18
+      },
+      {
+        "context": "...at 311 North Court Ave**,** in Tucson. Another tea...",
+        "active_token": ",",
+        "activation": 0.2432861328125,
+        "review_id": "hLHKmXKNxwGasUdaGMjjIA",
+        "position": 25
+      },
+      {
+        "context": "...er at 175 E Nugget Ave**,** Sparks, NV 89431.\\n\\nI",
+        "active_token": ",",
+        "activation": 0.242431640625,
+        "review_id": "54fFeez9xUj0-AwUhFx6Jw",
+        "position": 32
+      },
+      {
+        "context": "... West Baltimore Avenue**,** Secane, PA 19018. It i...",
+        "active_token": ",",
+        "activation": 0.241455078125,
+        "review_id": "sSVKFa-s9PGxOkMrkgHrcQ",
+        "position": 22
+      },
+      {
+        "context": "...right on Manchester Rd**,** as soon as you get off...",
+        "active_token": ",",
+        "activation": 0.2371826171875,
+        "review_id": "CMUU2R-U-kdWbrXiCEZItg",
+        "position": 121
+      },
+      {
+        "context": "... and buttonwood street**,** and street parking is ...",
+        "active_token": ",",
+        "activation": 0.23681640625,
+        "review_id": "bJsFKAE_aXv4Rzf9No_a3Q",
+        "position": 55
+      },
+      {
+        "context": "... mall on Columbus Road**,** but it is at a 90 degr...",
+        "active_token": ",",
+        "activation": 0.236083984375,
+        "review_id": "Cx3MnvFa04VbPF_zZlNjVw",
+        "position": 52
+      },
+      {
+        "context": "...f of Washington Avenue**,** and it will likely be ...",
+        "active_token": ",",
+        "activation": 0.2349853515625,
+        "review_id": "p-3d5YhxvLHpzna5uulsUQ",
+        "position": 16
+      },
+      {
+        "context": "...sits along 56th Street**,** a few blocks south of ...",
+        "active_token": ",",
+        "activation": 0.2347412109375,
+        "review_id": "__C72kNa7QErvFSLXP__7g",
+        "position": 62
+      },
+      {
+        "context": "...University on 21st Ave**.,** South. The food is ph...",
+        "active_token": ".,",
+        "activation": 0.2332763671875,
+        "review_id": "LEz2KZs0VwrGDrlmyHTREg",
+        "position": 17
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17604,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51500000,
+      "corpus_coverage": 0.9961,
+      "activation_range": {
+        "min": 0.1621,
+        "max": 0.245,
+        "mean": 0.1886
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Street",
+            ","
+          ],
+          "ngram_str": " Street,",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " Ave",
+            ","
+          ],
+          "ngram_str": " Ave,",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " St",
+            ","
+          ],
+          "ngram_str": " St,",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " Avenue",
+            ","
+          ],
+          "ngram_str": " Avenue,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " Rd",
+            ","
+          ],
+          "ngram_str": " Rd,",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " Road",
+            ","
+          ],
+          "ngram_str": " Road,",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ",",
+            " in"
+          ],
+          "ngram_str": ", in",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " street",
+            ","
+          ],
+          "ngram_str": " street,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " so"
+          ],
+          "ngram_str": ", so",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " just"
+          ],
+          "ngram_str": ", just",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " 4",
+            "th"
+          ],
+          "ngram_str": " 4th",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " State",
+            " Street",
+            ","
+          ],
+          "ngram_str": " State Street,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "th",
+            " Street",
+            ","
+          ],
+          "ngram_str": "th Street,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "th",
+            " street",
+            ","
+          ],
+          "ngram_str": "th street,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " in",
+            " the"
+          ],
+          "ngram_str": ", in the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " on",
+            " 4",
+            "th"
+          ],
+          "ngram_str": " on 4th",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "th",
+            " Ave",
+            ","
+          ],
+          "ngram_str": "th Ave,",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " N",
+            "ol",
+            "ens"
+          ],
+          "ngram_str": " Nolens",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "ol",
+            "ens",
+            "ville"
+          ],
+          "ngram_str": "olensville",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "th",
+            " St",
+            ","
+          ],
+          "ngram_str": "th St,",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " the",
+            " corner",
+            " of"
+          ],
+          "ngram_str": " the corner of",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "nd",
+            " Street",
+            ","
+          ],
+          "ngram_str": "nd Street,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " St",
+            ".",
+            " Charles"
+          ],
+          "ngram_str": " St. Charles",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " 4",
+            "th",
+            " Ave"
+          ],
+          "ngram_str": " 4th Ave",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " Ave",
+            ",",
+            " and"
+          ],
+          "ngram_str": " Ave, and",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " N",
+            "ol",
+            "ens",
+            "ville"
+          ],
+          "ngram_str": " Nolensville",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " on",
+            " 12",
+            "th",
+            " Ave"
+          ],
+          "ngram_str": " on 12th Ave",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " across",
+            " the",
+            " street",
+            " from"
+          ],
+          "ngram_str": " across the street from",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " on",
+            " State",
+            " Street",
+            ","
+          ],
+          "ngram_str": " on State Street,",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " St",
+            ".",
+            " Charles",
+            " Rock"
+          ],
+          "ngram_str": " St. Charles Rock",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "ol",
+            "ens",
+            "ville",
+            " Road"
+          ],
+          "ngram_str": "olensville Road",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "ens",
+            "ville",
+            " Road",
+            ","
+          ],
+          "ngram_str": "ensville Road,",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "ol",
+            "ens",
+            "ville",
+            " Rd"
+          ],
+          "ngram_str": "olensville Rd",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " 4",
+            "th",
+            " Ave",
+            ","
+          ],
+          "ngram_str": " 4th Ave,",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " on",
+            " Washington",
+            " Ave",
+            ","
+          ],
+          "ngram_str": " on Washington Ave,",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " on",
+            " 4",
+            "th",
+            " Street"
+          ],
+          "ngram_str": " on 4th Street",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " 38",
+            "th",
+            " street",
+            ","
+          ],
+          "ngram_str": " 38th street,",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Located",
+            " on"
+          ],
+          "ngram_str": "\u00c4\u012cLocated on",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " 22",
+            "nd",
+            " Street",
+            ","
+          ],
+          "ngram_str": " 22nd Street,",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5100000,
+      "corpus_coverage": 0.0986
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 6408,
+        "count": 6928,
+        "percent": 69.28
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6542,
+        "percent": 65.42
+      },
+      {
+        "feature_idx": 3096,
+        "count": 4563,
+        "percent": 45.63
+      },
+      {
+        "feature_idx": 11839,
+        "count": 3315,
+        "percent": 33.15
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3042,
+        "percent": 30.42
+      },
+      {
+        "feature_idx": 24280,
+        "count": 2987,
+        "percent": 29.87
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2746,
+        "percent": 27.46
+      },
+      {
+        "feature_idx": 3390,
+        "count": 2429,
+        "percent": 24.29
+      },
+      {
+        "feature_idx": 4377,
+        "count": 2305,
+        "percent": 23.05
+      },
+      {
+        "feature_idx": 11105,
+        "count": 2257,
+        "percent": 22.57
+      },
+      {
+        "feature_idx": 11275,
+        "count": 2233,
+        "percent": 22.33
+      },
+      {
+        "feature_idx": 15872,
+        "count": 2216,
+        "percent": 22.16
+      },
+      {
+        "feature_idx": 17874,
+        "count": 2192,
+        "percent": 21.92
+      },
+      {
+        "feature_idx": 65,
+        "count": 2153,
+        "percent": 21.53
+      },
+      {
+        "feature_idx": 23212,
+        "count": 2000,
+        "percent": 20.0
+      },
+      {
+        "feature_idx": 4197,
+        "count": 1945,
+        "percent": 19.45
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1874,
+        "percent": 18.74
+      },
+      {
+        "feature_idx": 13507,
+        "count": 1805,
+        "percent": 18.05
+      },
+      {
+        "feature_idx": 24017,
+        "count": 1697,
+        "percent": 16.97
+      },
+      {
+        "feature_idx": 6786,
+        "count": 1662,
+        "percent": 16.62
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5100000,
+      "corpus_coverage": 0.0986
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4009,
+        "percent": 40.09
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2130,
+        "percent": 21.3
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1026,
+        "percent": 10.26
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1007,
+        "percent": 10.07
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1828,
+        "percent": 18.28
+      }
+    ],
+    "mean_position": 0.3923,
+    "std_position": 0.3152
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 159,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0181,
+      "p25": 0.0235,
+      "p50": 0.0318,
+      "p75": 0.0459,
+      "p90": 0.0628,
+      "p95": 0.0782,
+      "p99": 0.097
+    },
+    "skewness": 1.6721,
+    "kurtosis": 3.7249,
+    "min": 0.0124,
+    "max": 0.1366,
+    "mean": 0.0374,
+    "std": 0.0202
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 159,
+      "unique_tokens_found": 39
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 51,
+        "mean_activation": 0.0466
+      },
+      {
+        "token": ".",
+        "count": 30,
+        "mean_activation": 0.0373
+      },
+      {
+        "token": " and",
+        "count": 19,
+        "mean_activation": 0.0403
+      },
+      {
+        "token": " is",
+        "count": 6,
+        "mean_activation": 0.0314
+      },
+      {
+        "token": " which",
+        "count": 3,
+        "mean_activation": 0.0405
+      },
+      {
+        "token": " (",
+        "count": 3,
+        "mean_activation": 0.032
+      },
+      {
+        "token": " -",
+        "count": 3,
+        "mean_activation": 0.023
+      },
+      {
+        "token": "\\n",
+        "count": 3,
+        "mean_activation": 0.0213
+      },
+      {
+        "token": " that",
+        "count": 3,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": " was",
+        "count": 2,
+        "mean_activation": 0.0302
+      }
+    ]
+  }
+}

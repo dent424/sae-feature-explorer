@@ -1,0 +1,876 @@
+{
+  "feature_idx": 10811,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 194,
+    "mean_when_active": 0.05547234446732039,
+    "max_activation": 0.15966796875,
+    "std_when_active": 0.030754800428129572,
+    "activation_rate": 0.00194
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 27800000,
+      "corpus_coverage": 0.5377
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 15033,
+        "mean_activation": 0.0645377157152052
+      },
+      {
+        "token": " here",
+        "count": 6096,
+        "mean_activation": 0.0516428697140511
+      },
+      {
+        "token": " there",
+        "count": 4822,
+        "mean_activation": 0.04987733762623214
+      },
+      {
+        "token": " back",
+        "count": 3458,
+        "mean_activation": 0.04466802884968393
+      },
+      {
+        "token": " in",
+        "count": 2800,
+        "mean_activation": 0.08559554781232562
+      },
+      {
+        "token": " the",
+        "count": 2528,
+        "mean_activation": 0.037887328787695004
+      },
+      {
+        "token": " and",
+        "count": 2269,
+        "mean_activation": 0.058592966549614024
+      },
+      {
+        "token": " out",
+        "count": 1154,
+        "mean_activation": 0.04355136732501422
+      },
+      {
+        "token": " up",
+        "count": 1047,
+        "mean_activation": 0.07563566045752
+      },
+      {
+        "token": " for",
+        "count": 1037,
+        "mean_activation": 0.032351605112780256
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 27800000,
+      "corpus_coverage": 0.5377
+    },
+    "activations": [
+      {
+        "context": "...enthusiastically went** to** greet the table.  I a...",
+        "active_token": " to",
+        "activation": 0.208984375,
+        "review_id": "yEiUdzJ9rsmSt0WRwcyJpQ",
+        "position": 488
+      },
+      {
+        "context": "...alk to me.  she went** into** the kitchen and came...",
+        "active_token": " into",
+        "activation": 0.2037353515625,
+        "review_id": "in-bPppcS1SkF5-9YsL-6Q",
+        "position": 302
+      },
+      {
+        "context": "...nally got up and went** to** the nearby bar servic...",
+        "active_token": " to",
+        "activation": 0.20166015625,
+        "review_id": "X1FDavqjVBKwFFGnWwTiAw",
+        "position": 277
+      },
+      {
+        "context": "...bed my bowl and went** into** get his attention, t...",
+        "active_token": " into",
+        "activation": 0.1988525390625,
+        "review_id": "FdHgEVrUZ2xMcScWx1_KkA",
+        "position": 125
+      },
+      {
+        "context": "...ted us rudely he went** to** the bar and sipped hi...",
+        "active_token": " to",
+        "activation": 0.1982421875,
+        "review_id": "MXOFgJ6SapUm0TyvIAXA_A",
+        "position": 250
+      },
+      {
+        "context": "...r back to us and went** to** get the stuff. Didn't...",
+        "active_token": " to",
+        "activation": 0.1962890625,
+        "review_id": "9kK0VMafSwZ48BI_VPt_Pg",
+        "position": 90
+      },
+      {
+        "context": "...rry instead she went** into** the kitchen & starte...",
+        "active_token": " into",
+        "activation": 0.195556640625,
+        "review_id": "k2Duh2_53JBIbGvlD6LBgw",
+        "position": 39
+      },
+      {
+        "context": "...h a customer and went** to** the back of the kitch...",
+        "active_token": " to",
+        "activation": 0.195068359375,
+        "review_id": "jXc-u62ENOrCa7jauXlfXQ",
+        "position": 158
+      },
+      {
+        "context": "...y angry look and went** to** the kitchen area and ...",
+        "active_token": " to",
+        "activation": 0.191650390625,
+        "review_id": "jHXCM0RlaugMecMt3911eQ",
+        "position": 172
+      },
+      {
+        "context": "...r- he got up and went** to** the back once the app...",
+        "active_token": " to",
+        "activation": 0.1912841796875,
+        "review_id": "4N6n3EcjIjThucx-COShzQ",
+        "position": 28
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10811,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1588,
+        "max": 0.209,
+        "mean": 0.1706
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " went",
+            " to"
+          ],
+          "ngram_str": " went to",
+          "count": 248,
+          "percent": 49.6
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " and",
+            " went"
+          ],
+          "ngram_str": " and went",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " I",
+            " went"
+          ],
+          "ngram_str": " I went",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            " went",
+            " up"
+          ],
+          "ngram_str": " went up",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " up",
+            " to"
+          ],
+          "ngram_str": " up to",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " went",
+            " into"
+          ],
+          "ngram_str": " went into",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " into",
+            " the"
+          ],
+          "ngram_str": " into the",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " to",
+            " get"
+          ],
+          "ngram_str": " to get",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " up",
+            " and"
+          ],
+          "ngram_str": " up and",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " the",
+            " kitchen"
+          ],
+          "ngram_str": " the kitchen",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " went",
+            " in"
+          ],
+          "ngram_str": " went in",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " back"
+          ],
+          "ngram_str": " the back",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " went",
+            " to",
+            " the"
+          ],
+          "ngram_str": " went to the",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " and",
+            " went",
+            " to"
+          ],
+          "ngram_str": " and went to",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " went",
+            " up",
+            " to"
+          ],
+          "ngram_str": " went up to",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " up"
+          ],
+          "ngram_str": " I went up",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " up",
+            " to",
+            " the"
+          ],
+          "ngram_str": " up to the",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " went",
+            " into",
+            " the"
+          ],
+          "ngram_str": " went into the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " to"
+          ],
+          "ngram_str": " I went to",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " went",
+            " to",
+            " get"
+          ],
+          "ngram_str": " went to get",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " went"
+          ],
+          "ngram_str": ". I went",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " back"
+          ],
+          "ngram_str": " to the back",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " to the bar",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " went"
+          ],
+          "ngram_str": ", I went",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " she",
+            " went",
+            " to"
+          ],
+          "ngram_str": " she went to",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " went",
+            " up",
+            " and"
+          ],
+          "ngram_str": " went up and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " into"
+          ],
+          "ngram_str": " I went into",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " went",
+            " up",
+            " to",
+            " the"
+          ],
+          "ngram_str": " went up to the",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " up",
+            " to"
+          ],
+          "ngram_str": " I went up to",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " and",
+            " went",
+            " to",
+            " the"
+          ],
+          "ngram_str": " and went to the",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " went",
+            " to",
+            " the",
+            " back"
+          ],
+          "ngram_str": " went to the back",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " went",
+            " into",
+            " the",
+            " kitchen"
+          ],
+          "ngram_str": " went into the kitchen",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " up",
+            " to",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " up to the counter",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " and",
+            " went",
+            " to",
+            " get"
+          ],
+          "ngram_str": " and went to get",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " went",
+            " up"
+          ],
+          "ngram_str": ", I went up",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " got",
+            " up",
+            " and",
+            " went"
+          ],
+          "ngram_str": " got up and went",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " up",
+            " and",
+            " went",
+            " to"
+          ],
+          "ngram_str": " up and went to",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " went",
+            " to",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " went to the bar",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " bar",
+            " to"
+          ],
+          "ngram_str": " to the bar to",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " went",
+            " to",
+            " the",
+            " kitchen"
+          ],
+          "ngram_str": " went to the kitchen",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " into",
+            " the"
+          ],
+          "ngram_str": " I went into the",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " up",
+            " to",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " up to the bar",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5600000,
+      "corpus_coverage": 0.1083
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5781,
+        "percent": 57.81
+      },
+      {
+        "feature_idx": 15290,
+        "count": 4107,
+        "percent": 41.07
+      },
+      {
+        "feature_idx": 17430,
+        "count": 3589,
+        "percent": 35.89
+      },
+      {
+        "feature_idx": 9307,
+        "count": 3580,
+        "percent": 35.8
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3487,
+        "percent": 34.87
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3351,
+        "percent": 33.51
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3231,
+        "percent": 32.31
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3094,
+        "percent": 30.94
+      },
+      {
+        "feature_idx": 24308,
+        "count": 3091,
+        "percent": 30.91
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3052,
+        "percent": 30.52
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2934,
+        "percent": 29.34
+      },
+      {
+        "feature_idx": 16339,
+        "count": 2910,
+        "percent": 29.1
+      },
+      {
+        "feature_idx": 7248,
+        "count": 2882,
+        "percent": 28.82
+      },
+      {
+        "feature_idx": 16831,
+        "count": 2865,
+        "percent": 28.65
+      },
+      {
+        "feature_idx": 13457,
+        "count": 2661,
+        "percent": 26.61
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2497,
+        "percent": 24.97
+      },
+      {
+        "feature_idx": 2014,
+        "count": 2268,
+        "percent": 22.68
+      },
+      {
+        "feature_idx": 12289,
+        "count": 2260,
+        "percent": 22.6
+      },
+      {
+        "feature_idx": 15705,
+        "count": 2238,
+        "percent": 22.38
+      },
+      {
+        "feature_idx": 9465,
+        "count": 2223,
+        "percent": 22.23
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5600000,
+      "corpus_coverage": 0.1083
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3055,
+        "percent": 30.55
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1836,
+        "percent": 18.36
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1599,
+        "percent": 15.99
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1532,
+        "percent": 15.32
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1978,
+        "percent": 19.78
+      }
+    ],
+    "mean_position": 0.4471,
+    "std_position": 0.316
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 194,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0227,
+      "p25": 0.0316,
+      "p50": 0.0477,
+      "p75": 0.0701,
+      "p90": 0.1023,
+      "p95": 0.1146,
+      "p99": 0.1503
+    },
+    "skewness": 1.0676,
+    "kurtosis": 0.7342,
+    "min": 0.0126,
+    "max": 0.1597,
+    "mean": 0.0555,
+    "std": 0.0308
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 194,
+      "unique_tokens_found": 36
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 66,
+        "mean_activation": 0.0661
+      },
+      {
+        "token": " there",
+        "count": 22,
+        "mean_activation": 0.0435
+      },
+      {
+        "token": " here",
+        "count": 21,
+        "mean_activation": 0.0459
+      },
+      {
+        "token": " in",
+        "count": 12,
+        "mean_activation": 0.0787
+      },
+      {
+        "token": " back",
+        "count": 11,
+        "mean_activation": 0.0455
+      },
+      {
+        "token": " the",
+        "count": 7,
+        "mean_activation": 0.0389
+      },
+      {
+        "token": " and",
+        "count": 5,
+        "mean_activation": 0.0519
+      },
+      {
+        "token": " out",
+        "count": 4,
+        "mean_activation": 0.0506
+      },
+      {
+        "token": " for",
+        "count": 4,
+        "mean_activation": 0.0401
+      },
+      {
+        "token": " into",
+        "count": 4,
+        "mean_activation": 0.0768
+      }
+    ]
+  }
+}

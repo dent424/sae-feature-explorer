@@ -1,0 +1,876 @@
+{
+  "feature_idx": 6244,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 45,
+    "mean_when_active": 0.06749064127604167,
+    "max_activation": 0.28271484375,
+    "std_when_active": 0.0600828955880628,
+    "activation_rate": 0.00045
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 30489,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " book",
+        "count": 1911,
+        "mean_activation": 0.19815266288306188
+      },
+      {
+        "token": " movie",
+        "count": 881,
+        "mean_activation": 0.1831119810141175
+      },
+      {
+        "token": " games",
+        "count": 693,
+        "mean_activation": 0.040016658722408234
+      },
+      {
+        "token": " Magazine",
+        "count": 511,
+        "mean_activation": 0.07009947416600416
+      },
+      {
+        "token": " show",
+        "count": 474,
+        "mean_activation": 0.04176618680672303
+      },
+      {
+        "token": " page",
+        "count": 467,
+        "mean_activation": 0.06248251937441448
+      },
+      {
+        "token": " game",
+        "count": 464,
+        "mean_activation": 0.03843866545578529
+      },
+      {
+        "token": "als",
+        "count": 438,
+        "mean_activation": 0.06345475427636273
+      },
+      {
+        "token": " artwork",
+        "count": 428,
+        "mean_activation": 0.046375809428847836
+      },
+      {
+        "token": " song",
+        "count": 420,
+        "mean_activation": 0.07708965483165922
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 30489,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...e you'd be judging a** book** by it's cover & hone...",
+        "active_token": " book",
+        "activation": 0.315673828125,
+        "review_id": "88c9bFUaDq2_6Bvq3Oj4nA",
+        "position": 38
+      },
+      {
+        "context": "...s this weekend for a** book** club lunch. We had a...",
+        "active_token": " book",
+        "activation": 0.308349609375,
+        "review_id": "1eJr-sqHtoR3Bv_5fl8kfg",
+        "position": 18
+      },
+      {
+        "context": "...signs or high school** book** cover art shows from...",
+        "active_token": " book",
+        "activation": 0.308349609375,
+        "review_id": "AvJnLzxyVdshLdtP8PtKyQ",
+        "position": 116
+      },
+      {
+        "context": "...r high on my list of** book**marks. Still, its day...",
+        "active_token": " book",
+        "activation": 0.308349609375,
+        "review_id": "EO-a3Zo1-6VAy1IgiF4Z0w",
+        "position": 100
+      },
+      {
+        "context": "...t as I was judging a** book** by its cover and ass...",
+        "active_token": " book",
+        "activation": 0.305908203125,
+        "review_id": "GrxiH9_Ig_3TFT8mcsiCCg",
+        "position": 13
+      },
+      {
+        "context": "...a Coffey was doing a** book** signing - first time...",
+        "active_token": " book",
+        "activation": 0.304443359375,
+        "review_id": "KJtsVRw5hOZI9gTTJ0kDHQ",
+        "position": 11
+      },
+      {
+        "context": "...le times. I judged a** book** by its cover like mo...",
+        "active_token": " book",
+        "activation": 0.3037109375,
+        "review_id": "qOeks6otCyjKjY09dCRFUA",
+        "position": 105
+      },
+      {
+        "context": "...ar you or enjoying a** book** and a yummy cup of c...",
+        "active_token": " book",
+        "activation": 0.30224609375,
+        "review_id": "XgHUBNiCwWos0ypNNRTKWw",
+        "position": 123
+      },
+      {
+        "context": "...er napkin and create** book**marks so that when th...",
+        "active_token": " book",
+        "activation": 0.302001953125,
+        "review_id": "IRjOAQ83yHGSufrg8eAB8A",
+        "position": 613
+      },
+      {
+        "context": "...y, you can't judge a** book** by its cover!\\n\\nYou h...",
+        "active_token": " book",
+        "activation": 0.3017578125,
+        "review_id": "rwkzErszBQBa3X3NtQLYUw",
+        "position": 50
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6244,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2482,
+        "max": 0.3157,
+        "mean": 0.2684
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " book"
+          ],
+          "ngram_str": " a book",
+          "count": 286,
+          "percent": 57.2
+        },
+        {
+          "ngram": [
+            " book",
+            " by"
+          ],
+          "ngram_str": " book by",
+          "count": 209,
+          "percent": 41.8
+        },
+        {
+          "ngram": [
+            " judge",
+            " a"
+          ],
+          "ngram_str": " judge a",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            " by",
+            " its"
+          ],
+          "ngram_str": " by its",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            " its",
+            " cover"
+          ],
+          "ngram_str": " its cover",
+          "count": 159,
+          "percent": 31.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " judge"
+          ],
+          "ngram_str": "'t judge",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            " cover",
+            "."
+          ],
+          "ngram_str": " cover.",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " it",
+            "'s"
+          ],
+          "ngram_str": " it's",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " don",
+            "'t"
+          ],
+          "ngram_str": " don't",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "'s",
+            " cover"
+          ],
+          "ngram_str": "'s cover",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " my",
+            " book"
+          ],
+          "ngram_str": " my book",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " book",
+            "marked"
+          ],
+          "ngram_str": " bookmarked",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " by",
+            " it"
+          ],
+          "ngram_str": " by it",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " book",
+            " by"
+          ],
+          "ngram_str": " a book by",
+          "count": 197,
+          "percent": 39.4
+        },
+        {
+          "ngram": [
+            " judge",
+            " a",
+            " book"
+          ],
+          "ngram_str": " judge a book",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            " book",
+            " by",
+            " its"
+          ],
+          "ngram_str": " book by its",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            " by",
+            " its",
+            " cover"
+          ],
+          "ngram_str": " by its cover",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            "'t",
+            " judge",
+            " a"
+          ],
+          "ngram_str": "'t judge a",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            " its",
+            " cover",
+            "."
+          ],
+          "ngram_str": " its cover.",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " judge"
+          ],
+          "ngram_str": " don't judge",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " cover"
+          ],
+          "ngram_str": " it's cover",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " book",
+            " by",
+            " it"
+          ],
+          "ngram_str": " book by it",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " by",
+            " it",
+            "'s"
+          ],
+          "ngram_str": " by it's",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "Don",
+            "'t",
+            " judge"
+          ],
+          "ngram_str": "Don't judge",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " Don",
+            "'t",
+            " judge"
+          ],
+          "ngram_str": " Don't judge",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " my",
+            " book",
+            "marks"
+          ],
+          "ngram_str": " my bookmarks",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " never",
+            " judge",
+            " a"
+          ],
+          "ngram_str": " never judge a",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " judge",
+            " a",
+            " book",
+            " by"
+          ],
+          "ngram_str": " judge a book by",
+          "count": 177,
+          "percent": 35.4
+        },
+        {
+          "ngram": [
+            " book",
+            " by",
+            " its",
+            " cover"
+          ],
+          "ngram_str": " book by its cover",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            " a",
+            " book",
+            " by",
+            " its"
+          ],
+          "ngram_str": " a book by its",
+          "count": 155,
+          "percent": 31.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " judge",
+            " a",
+            " book"
+          ],
+          "ngram_str": "'t judge a book",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            " by",
+            " its",
+            " cover",
+            "."
+          ],
+          "ngram_str": " by its cover.",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " judge",
+            " a"
+          ],
+          "ngram_str": " don't judge a",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " book",
+            " by",
+            " it",
+            "'s"
+          ],
+          "ngram_str": " book by it's",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " by",
+            " it",
+            "'s",
+            " cover"
+          ],
+          "ngram_str": " by it's cover",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " a",
+            " book",
+            " by",
+            " it"
+          ],
+          "ngram_str": " a book by it",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "Don",
+            "'t",
+            " judge",
+            " a"
+          ],
+          "ngram_str": "Don't judge a",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " Don",
+            "'t",
+            " judge",
+            " a"
+          ],
+          "ngram_str": " Don't judge a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " never",
+            " judge",
+            " a",
+            " book"
+          ],
+          "ngram_str": " never judge a book",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " its",
+            " cover",
+            ".",
+            " "
+          ],
+          "ngram_str": " its cover. ",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " judge",
+            " a"
+          ],
+          "ngram_str": " can't judge a",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " not",
+            " judge",
+            " a",
+            " book"
+          ],
+          "ngram_str": " not judge a book",
+          "count": 15,
+          "percent": 3.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17400000,
+      "corpus_coverage": 0.3365
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 6439,
+        "percent": 64.39
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3196,
+        "percent": 31.96
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3178,
+        "percent": 31.78
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2378,
+        "percent": 23.78
+      },
+      {
+        "feature_idx": 18503,
+        "count": 2359,
+        "percent": 23.59
+      },
+      {
+        "feature_idx": 18107,
+        "count": 2341,
+        "percent": 23.41
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2334,
+        "percent": 23.34
+      },
+      {
+        "feature_idx": 1938,
+        "count": 2304,
+        "percent": 23.04
+      },
+      {
+        "feature_idx": 5596,
+        "count": 2268,
+        "percent": 22.68
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2262,
+        "percent": 22.62
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2154,
+        "percent": 21.54
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1767,
+        "percent": 17.67
+      },
+      {
+        "feature_idx": 14918,
+        "count": 1767,
+        "percent": 17.67
+      },
+      {
+        "feature_idx": 812,
+        "count": 1690,
+        "percent": 16.9
+      },
+      {
+        "feature_idx": 13877,
+        "count": 1620,
+        "percent": 16.2
+      },
+      {
+        "feature_idx": 23894,
+        "count": 1303,
+        "percent": 13.03
+      },
+      {
+        "feature_idx": 8590,
+        "count": 1268,
+        "percent": 12.68
+      },
+      {
+        "feature_idx": 11927,
+        "count": 1265,
+        "percent": 12.65
+      },
+      {
+        "feature_idx": 11491,
+        "count": 1260,
+        "percent": 12.6
+      },
+      {
+        "feature_idx": 20868,
+        "count": 1170,
+        "percent": 11.7
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17400000,
+      "corpus_coverage": 0.3365
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2792,
+        "percent": 27.92
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2094,
+        "percent": 20.94
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1599,
+        "percent": 15.99
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1656,
+        "percent": 16.56
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1859,
+        "percent": 18.59
+      }
+    ],
+    "mean_position": 0.452,
+    "std_position": 0.3037
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 45,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0224,
+      "p25": 0.0267,
+      "p50": 0.0433,
+      "p75": 0.0816,
+      "p90": 0.1623,
+      "p95": 0.1862,
+      "p99": 0.254
+    },
+    "skewness": 1.7629,
+    "kurtosis": 2.5607,
+    "min": 0.0173,
+    "max": 0.2827,
+    "mean": 0.0675,
+    "std": 0.0601
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 45,
+      "unique_tokens_found": 38
+    },
+    "tokens": [
+      {
+        "token": " book",
+        "count": 5,
+        "mean_activation": 0.1834
+      },
+      {
+        "token": " game",
+        "count": 2,
+        "mean_activation": 0.0219
+      },
+      {
+        "token": " file",
+        "count": 2,
+        "mean_activation": 0.0301
+      },
+      {
+        "token": " songs",
+        "count": 2,
+        "mean_activation": 0.0666
+      },
+      {
+        "token": " bottle",
+        "count": 1,
+        "mean_activation": 0.0267
+      },
+      {
+        "token": " course",
+        "count": 1,
+        "mean_activation": 0.0242
+      },
+      {
+        "token": " Chap",
+        "count": 1,
+        "mean_activation": 0.0685
+      },
+      {
+        "token": " bourbon",
+        "count": 1,
+        "mean_activation": 0.0266
+      },
+      {
+        "token": " posts",
+        "count": 1,
+        "mean_activation": 0.0445
+      },
+      {
+        "token": " previews",
+        "count": 1,
+        "mean_activation": 0.0297
+      }
+    ]
+  }
+}

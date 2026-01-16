@@ -1,0 +1,876 @@
+{
+  "feature_idx": 6354,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 61,
+    "mean_when_active": 0.06752489433913934,
+    "max_activation": 0.1519775390625,
+    "std_when_active": 0.035637617730117296,
+    "activation_rate": 0.00061
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 27697,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " all",
+        "count": 10050,
+        "mean_activation": 0.08330359235924868
+      },
+      {
+        "token": " down",
+        "count": 3089,
+        "mean_activation": 0.04693366903130311
+      },
+      {
+        "token": "/",
+        "count": 1457,
+        "mean_activation": 0.1205783024501866
+      },
+      {
+        "token": " out",
+        "count": 1429,
+        "mean_activation": 0.045551991446023225
+      },
+      {
+        "token": " around",
+        "count": 1167,
+        "mean_activation": 0.06244452835252986
+      },
+      {
+        "token": " one",
+        "count": 866,
+        "mean_activation": 0.05228680441065694
+      },
+      {
+        "token": " part",
+        "count": 810,
+        "mean_activation": 0.06840018755123939
+      },
+      {
+        "token": " reason",
+        "count": 699,
+        "mean_activation": 0.03244483522079533
+      },
+      {
+        "token": " whole",
+        "count": 657,
+        "mean_activation": 0.058569921206121575
+      },
+      {
+        "token": "-",
+        "count": 386,
+        "mean_activation": 0.08669648639896373
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 27697,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...love this place. Over** all** it was an ok experie...",
+        "active_token": " all",
+        "activation": 0.1927490234375,
+        "review_id": "t24JgRLwOzkwXkTZaQ4XNw",
+        "position": 18
+      },
+      {
+        "context": "...n late at night. Over** all** great cheap meal aft...",
+        "active_token": " all",
+        "activation": 0.190185546875,
+        "review_id": "nadNmDk4yVp9cVETehGREA",
+        "position": 40
+      },
+      {
+        "context": "...He's a cool guy. Over** all** - female workers nee...",
+        "active_token": " all",
+        "activation": 0.18896484375,
+        "review_id": "lDHDWLSgvVC205KNelN_8Q",
+        "position": 43
+      },
+      {
+        "context": "...ng building, but over** all** average.",
+        "active_token": " all",
+        "activation": 0.187744140625,
+        "review_id": "l2HKgTMSvYra6ASoxCQysQ",
+        "position": 101
+      },
+      {
+        "context": "...ime of the day!  Over** all** this is a great Nico...",
+        "active_token": " all",
+        "activation": 0.1827392578125,
+        "review_id": "Nl8L60mVv3mPtf1vNLmyjA",
+        "position": 48
+      },
+      {
+        "context": "...of the food, but over** all** a good experience. T...",
+        "active_token": " all",
+        "activation": 0.1826171875,
+        "review_id": "KspBJGLHIxa7n5cvVKXq7A",
+        "position": 10
+      },
+      {
+        "context": "... had deserts but over** all** this is the best hom...",
+        "active_token": " all",
+        "activation": 0.1824951171875,
+        "review_id": "vjuGR_XTeWXTWglzakGKlg",
+        "position": 37
+      },
+      {
+        "context": "...rl hang-out but above** all** the staff is really ...",
+        "active_token": " all",
+        "activation": 0.182373046875,
+        "review_id": "O_HS3Vw85_01jTn90cLibw",
+        "position": 57
+      },
+      {
+        "context": "...llent eye candy. Over** all** I highly recommend t...",
+        "active_token": " all",
+        "activation": 0.181396484375,
+        "review_id": "NA0d0pxqPWKHI_YJY-cZ-Q",
+        "position": 41
+      },
+      {
+        "context": "...ap Mexican food. Over** all** I'd give it about 85...",
+        "active_token": " all",
+        "activation": 0.181396484375,
+        "review_id": "L6yQEhNlTS8D2V56Bym4TQ",
+        "position": 330
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6354,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1504,
+        "max": 0.1927,
+        "mean": 0.1613
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Over",
+            " all"
+          ],
+          "ngram_str": " Over all",
+          "count": 188,
+          "percent": 37.6
+        },
+        {
+          "ngram": [
+            " over",
+            " all"
+          ],
+          "ngram_str": " over all",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Over"
+          ],
+          "ngram_str": ". Over",
+          "count": 140,
+          "percent": 28.0
+        },
+        {
+          "ngram": [
+            " all",
+            ","
+          ],
+          "ngram_str": " all,",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " but",
+            " over"
+          ],
+          "ngram_str": " but over",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " all",
+            " the"
+          ],
+          "ngram_str": " all the",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " above",
+            " all"
+          ],
+          "ngram_str": " above all",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " all",
+            " I"
+          ],
+          "ngram_str": " all I",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " all",
+            " it"
+          ],
+          "ngram_str": " all it",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " all",
+            " a"
+          ],
+          "ngram_str": " all a",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Over",
+            " all"
+          ],
+          "ngram_str": ". Over all",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            " but",
+            " over",
+            " all"
+          ],
+          "ngram_str": " but over all",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " Over",
+            " all",
+            " I"
+          ],
+          "ngram_str": " Over all I",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " Over",
+            " all",
+            ","
+          ],
+          "ngram_str": " Over all,",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " ",
+            " Over",
+            " all"
+          ],
+          "ngram_str": "  Over all",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Over",
+            " all"
+          ],
+          "ngram_str": "\u012cOver all",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " all",
+            " it",
+            " was"
+          ],
+          "ngram_str": " all it was",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Over"
+          ],
+          "ngram_str": ".  Over",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Over",
+            " all",
+            " the"
+          ],
+          "ngram_str": " Over all the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " But",
+            " over",
+            " all"
+          ],
+          "ngram_str": " But over all",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Over"
+          ],
+          "ngram_str": "\u00c4\u012cOver",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " over"
+          ],
+          "ngram_str": ", but over",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " all",
+            " in",
+            " all"
+          ],
+          "ngram_str": " all in all",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " But",
+            " over"
+          ],
+          "ngram_str": ". But over",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " Over",
+            " all",
+            " I"
+          ],
+          "ngram_str": ". Over all I",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Over",
+            " all"
+          ],
+          "ngram_str": ".  Over all",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Over",
+            " all"
+          ],
+          "ngram_str": "\u00c4\u012cOver all",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " over",
+            " all"
+          ],
+          "ngram_str": ", but over all",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " But",
+            " over",
+            " all"
+          ],
+          "ngram_str": ". But over all",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Over"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cOver",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Over",
+            " all",
+            ","
+          ],
+          "ngram_str": ". Over all,",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Over",
+            " all",
+            " the"
+          ],
+          "ngram_str": ". Over all the",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Over",
+            " all",
+            " it"
+          ],
+          "ngram_str": ". Over all it",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " all",
+            " the",
+            " food",
+            " was"
+          ],
+          "ngram_str": " all the food was",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " Over",
+            " all",
+            " it",
+            " was"
+          ],
+          "ngram_str": " Over all it was",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " but",
+            " over",
+            " all",
+            " it"
+          ],
+          "ngram_str": " but over all it",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " over",
+            " all",
+            " it",
+            " was"
+          ],
+          "ngram_str": " over all it was",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 18700000,
+      "corpus_coverage": 0.3617
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 15032,
+        "count": 5095,
+        "percent": 50.95
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4808,
+        "percent": 48.08
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4620,
+        "percent": 46.2
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4319,
+        "percent": 43.19
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4233,
+        "percent": 42.33
+      },
+      {
+        "feature_idx": 16880,
+        "count": 4092,
+        "percent": 40.92
+      },
+      {
+        "feature_idx": 21274,
+        "count": 3883,
+        "percent": 38.83
+      },
+      {
+        "feature_idx": 20584,
+        "count": 3684,
+        "percent": 36.84
+      },
+      {
+        "feature_idx": 13344,
+        "count": 3488,
+        "percent": 34.88
+      },
+      {
+        "feature_idx": 19048,
+        "count": 3337,
+        "percent": 33.37
+      },
+      {
+        "feature_idx": 12563,
+        "count": 3117,
+        "percent": 31.17
+      },
+      {
+        "feature_idx": 20647,
+        "count": 2653,
+        "percent": 26.53
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2616,
+        "percent": 26.16
+      },
+      {
+        "feature_idx": 12359,
+        "count": 2370,
+        "percent": 23.7
+      },
+      {
+        "feature_idx": 3629,
+        "count": 2335,
+        "percent": 23.35
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2297,
+        "percent": 22.97
+      },
+      {
+        "feature_idx": 17861,
+        "count": 2256,
+        "percent": 22.56
+      },
+      {
+        "feature_idx": 16742,
+        "count": 2056,
+        "percent": 20.56
+      },
+      {
+        "feature_idx": 10509,
+        "count": 1984,
+        "percent": 19.84
+      },
+      {
+        "feature_idx": 21472,
+        "count": 1961,
+        "percent": 19.61
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 18700000,
+      "corpus_coverage": 0.3617
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2476,
+        "percent": 24.76
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1463,
+        "percent": 14.63
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1348,
+        "percent": 13.48
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1564,
+        "percent": 15.64
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3149,
+        "percent": 31.49
+      }
+    ],
+    "mean_position": 0.5269,
+    "std_position": 0.3304
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 61,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0276,
+      "p25": 0.0396,
+      "p50": 0.0562,
+      "p75": 0.09,
+      "p90": 0.1251,
+      "p95": 0.142,
+      "p99": 0.1513
+    },
+    "skewness": 0.8264,
+    "kurtosis": -0.291,
+    "min": 0.0221,
+    "max": 0.152,
+    "mean": 0.0675,
+    "std": 0.0356
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 61,
+      "unique_tokens_found": 21
+    },
+    "tokens": [
+      {
+        "token": " all",
+        "count": 21,
+        "mean_activation": 0.0834
+      },
+      {
+        "token": " down",
+        "count": 7,
+        "mean_activation": 0.0469
+      },
+      {
+        "token": " part",
+        "count": 4,
+        "mean_activation": 0.0658
+      },
+      {
+        "token": " around",
+        "count": 4,
+        "mean_activation": 0.0523
+      },
+      {
+        "token": " short",
+        "count": 3,
+        "mean_activation": 0.0799
+      },
+      {
+        "token": "/",
+        "count": 3,
+        "mean_activation": 0.1209
+      },
+      {
+        "token": " one",
+        "count": 2,
+        "mean_activation": 0.0306
+      },
+      {
+        "token": " finish",
+        "count": 2,
+        "mean_activation": 0.0592
+      },
+      {
+        "token": " right",
+        "count": 2,
+        "mean_activation": 0.0488
+      },
+      {
+        "token": " out",
+        "count": 2,
+        "mean_activation": 0.0496
+      }
+    ]
+  }
+}

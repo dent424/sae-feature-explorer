@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23437,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 412,
+    "mean_when_active": 0.11046378126422178,
+    "max_activation": 0.2359619140625,
+    "std_when_active": 0.0430991394336865,
+    "activation_rate": 0.00412
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 11700000,
+      "corpus_coverage": 0.2263
+    },
+    "top_tokens": [
+      {
+        "token": " here",
+        "count": 32408,
+        "mean_activation": 0.135173220835742
+      },
+      {
+        "token": " there",
+        "count": 15054,
+        "mean_activation": 0.08050179966135584
+      },
+      {
+        "token": " Here",
+        "count": 275,
+        "mean_activation": 0.1464777166193182
+      },
+      {
+        "token": " home",
+        "count": 197,
+        "mean_activation": 0.038296772138721444
+      },
+      {
+        "token": " HERE",
+        "count": 179,
+        "mean_activation": 0.11549556455132681
+      },
+      {
+        "token": " today",
+        "count": 164,
+        "mean_activation": 0.02442206406011814
+      },
+      {
+        "token": "Here",
+        "count": 135,
+        "mean_activation": 0.13828984013310186
+      },
+      {
+        "token": " elsewhere",
+        "count": 133,
+        "mean_activation": 0.030631273312676222
+      },
+      {
+        "token": " again",
+        "count": 126,
+        "mean_activation": 0.02378015669565352
+      },
+      {
+        "token": " time",
+        "count": 70,
+        "mean_activation": 0.028216770717075894
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 11700000,
+      "corpus_coverage": 0.2263
+    },
+    "activations": [
+      {
+        "context": "...my graduation dinner** here**. That being said, th...",
+        "active_token": " here",
+        "activation": 0.29052734375,
+        "review_id": "AEXz0FJtqyIgCA_dyJotEw",
+        "position": 15
+      },
+      {
+        "context": "...and bought my dinner** here** (company card). I wa...",
+        "active_token": " here",
+        "activation": 0.283935546875,
+        "review_id": "YAeItFCjYhY6UjvAIm6HNA",
+        "position": 20
+      },
+      {
+        "context": "...er graduation dinner** here**? yes, it's a possibi...",
+        "active_token": " here",
+        "activation": 0.282470703125,
+        "review_id": "ZPqb6sXdSBM3juE19AdQEQ",
+        "position": 1130
+      },
+      {
+        "context": "...ur wedding reception** here**. The food is amazing...",
+        "active_token": " here",
+        "activation": 0.28076171875,
+        "review_id": "LwXDvUFaGKhiXS3J7LGqdw",
+        "position": 9
+      },
+      {
+        "context": "...e had our first date** here** a few months ago and...",
+        "active_token": " here",
+        "activation": 0.279296875,
+        "review_id": "lSk6EvcloId6k9kXEdQexw",
+        "position": 19
+      },
+      {
+        "context": "...ucson and had dinner** here**.  We really enjoyed ...",
+        "active_token": " here",
+        "activation": 0.27783203125,
+        "review_id": "2hbFY1pocwAWoSqgno2QVA",
+        "position": 15
+      },
+      {
+        "context": "...eir rehearsal dinner** here**.  They have a great ...",
+        "active_token": " here",
+        "activation": 0.2763671875,
+        "review_id": "7RTdgWxXg0NvfDvT4fB3FA",
+        "position": 13
+      },
+      {
+        "context": "...le of Pacifico in it** here**, the one in Vegas us...",
+        "active_token": " here",
+        "activation": 0.274658203125,
+        "review_id": "9qAvxByq16GOQteJOWPJxg",
+        "position": 113
+      },
+      {
+        "context": "...very very first date** here** over five years ago....",
+        "active_token": " here",
+        "activation": 0.272705078125,
+        "review_id": "8SaBG-sE8mD_ZyfWqwaeHA",
+        "position": 30
+      },
+      {
+        "context": "...on's Communion party** here**, and they did a fant...",
+        "active_token": " here",
+        "activation": 0.272216796875,
+        "review_id": "lQGcc3CfWiw6KkhuLsoGRA",
+        "position": 33
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23437,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 23700000,
+      "corpus_coverage": 0.4584,
+      "activation_range": {
+        "min": 0.2339,
+        "max": 0.2969,
+        "mean": 0.246
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " here",
+            "."
+          ],
+          "ngram_str": " here.",
+          "count": 136,
+          "percent": 27.2
+        },
+        {
+          "ngram": [
+            " dinner",
+            " here"
+          ],
+          "ngram_str": " dinner here",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " I",
+            " had"
+          ],
+          "ngram_str": " I had",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " here",
+            " and"
+          ],
+          "ngram_str": " here and",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " ended",
+            " up"
+          ],
+          "ngram_str": " ended up",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " up",
+            " here"
+          ],
+          "ngram_str": " up here",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " here",
+            ","
+          ],
+          "ngram_str": " here,",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " here",
+            " for"
+          ],
+          "ngram_str": " here for",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " had",
+            " dinner"
+          ],
+          "ngram_str": " had dinner",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " lunch",
+            " here"
+          ],
+          "ngram_str": " lunch here",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " ended",
+            " up",
+            " here"
+          ],
+          "ngram_str": " ended up here",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " had",
+            " dinner",
+            " here"
+          ],
+          "ngram_str": " had dinner here",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " had"
+          ],
+          "ngram_str": " and I had",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " dinner",
+            " here",
+            "."
+          ],
+          "ngram_str": " dinner here.",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            " "
+          ],
+          "ngram_str": " here. ",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " I",
+            " had",
+            " dinner"
+          ],
+          "ngram_str": " I had dinner",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " and",
+            " it",
+            " was"
+          ],
+          "ngram_str": " and it was",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            " I"
+          ],
+          "ngram_str": " here. I",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " up",
+            " here",
+            "."
+          ],
+          "ngram_str": " up here.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " dinner",
+            " here",
+            " last"
+          ],
+          "ngram_str": " dinner here last",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " here",
+            " last",
+            " night"
+          ],
+          "ngram_str": " here last night",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " we",
+            " ended",
+            " up"
+          ],
+          "ngram_str": " we ended up",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " and",
+            " ended",
+            " up"
+          ],
+          "ngram_str": " and ended up",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " here",
+            " and",
+            " it"
+          ],
+          "ngram_str": " here and it",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            " had",
+            " dinner",
+            " here"
+          ],
+          "ngram_str": " I had dinner here",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " had",
+            " dinner"
+          ],
+          "ngram_str": " and I had dinner",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " ended",
+            " up",
+            " here",
+            "."
+          ],
+          "ngram_str": " ended up here.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " we",
+            " ended",
+            " up",
+            " here"
+          ],
+          "ngram_str": " we ended up here",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " here",
+            " and",
+            " it",
+            " was"
+          ],
+          "ngram_str": " here and it was",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " dinner",
+            " here",
+            " last",
+            " night"
+          ],
+          "ngram_str": " dinner here last night",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " ended",
+            " up",
+            " here"
+          ],
+          "ngram_str": " and ended up here",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " here.\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " husband",
+            " and",
+            " I",
+            " had"
+          ],
+          "ngram_str": " husband and I had",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " had",
+            " dinner",
+            " here",
+            " last"
+          ],
+          "ngram_str": " had dinner here last",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " here. \u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " here",
+            " last",
+            " night",
+            "."
+          ],
+          "ngram_str": " here last night.",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2400000,
+      "corpus_coverage": 0.0464
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 12289,
+        "count": 9652,
+        "percent": 96.52
+      },
+      {
+        "feature_idx": 21756,
+        "count": 6946,
+        "percent": 69.46
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6744,
+        "percent": 67.44
+      },
+      {
+        "feature_idx": 807,
+        "count": 6658,
+        "percent": 66.58
+      },
+      {
+        "feature_idx": 12916,
+        "count": 5005,
+        "percent": 50.05
+      },
+      {
+        "feature_idx": 2014,
+        "count": 4090,
+        "percent": 40.9
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4037,
+        "percent": 40.37
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3956,
+        "percent": 39.56
+      },
+      {
+        "feature_idx": 11038,
+        "count": 3745,
+        "percent": 37.45
+      },
+      {
+        "feature_idx": 16011,
+        "count": 3624,
+        "percent": 36.24
+      },
+      {
+        "feature_idx": 15705,
+        "count": 3526,
+        "percent": 35.26
+      },
+      {
+        "feature_idx": 18709,
+        "count": 3411,
+        "percent": 34.11
+      },
+      {
+        "feature_idx": 18108,
+        "count": 3361,
+        "percent": 33.61
+      },
+      {
+        "feature_idx": 17427,
+        "count": 3332,
+        "percent": 33.32
+      },
+      {
+        "feature_idx": 18649,
+        "count": 3290,
+        "percent": 32.9
+      },
+      {
+        "feature_idx": 347,
+        "count": 3207,
+        "percent": 32.07
+      },
+      {
+        "feature_idx": 24372,
+        "count": 3154,
+        "percent": 31.54
+      },
+      {
+        "feature_idx": 24308,
+        "count": 3060,
+        "percent": 30.6
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2896,
+        "percent": 28.96
+      },
+      {
+        "feature_idx": 9689,
+        "count": 2786,
+        "percent": 27.86
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2400000,
+      "corpus_coverage": 0.0464
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3687,
+        "percent": 36.87
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1548,
+        "percent": 15.48
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1218,
+        "percent": 12.18
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1335,
+        "percent": 13.35
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2212,
+        "percent": 22.12
+      }
+    ],
+    "mean_position": 0.4306,
+    "std_position": 0.3388
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 412,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0559,
+      "p25": 0.0814,
+      "p50": 0.1086,
+      "p75": 0.1409,
+      "p90": 0.1689,
+      "p95": 0.1825,
+      "p99": 0.2145
+    },
+    "skewness": 0.1234,
+    "kurtosis": -0.2707,
+    "min": 0.0135,
+    "max": 0.236,
+    "mean": 0.1105,
+    "std": 0.0431
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 412,
+      "unique_tokens_found": 17
+    },
+    "tokens": [
+      {
+        "token": " here",
+        "count": 269,
+        "mean_activation": 0.1291
+      },
+      {
+        "token": " there",
+        "count": 124,
+        "mean_activation": 0.0779
+      },
+      {
+        "token": " time",
+        "count": 3,
+        "mean_activation": 0.0324
+      },
+      {
+        "token": "Here",
+        "count": 2,
+        "mean_activation": 0.1349
+      },
+      {
+        "token": " Here",
+        "count": 2,
+        "mean_activation": 0.1127
+      },
+      {
+        "token": " line",
+        "count": 1,
+        "mean_activation": 0.0333
+      },
+      {
+        "token": " today",
+        "count": 1,
+        "mean_activation": 0.0263
+      },
+      {
+        "token": " home",
+        "count": 1,
+        "mean_activation": 0.044
+      },
+      {
+        "token": " herself",
+        "count": 1,
+        "mean_activation": 0.0269
+      },
+      {
+        "token": " earlier",
+        "count": 1,
+        "mean_activation": 0.0211
+      }
+    ]
+  }
+}

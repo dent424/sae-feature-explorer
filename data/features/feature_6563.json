@@ -1,0 +1,861 @@
+{
+  "feature_idx": 6563,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 14,
+    "mean_when_active": 0.088653564453125,
+    "max_activation": 0.1702880859375,
+    "std_when_active": 0.04932769392619153,
+    "activation_rate": 0.00014
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5149,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " reason",
+        "count": 2260,
+        "mean_activation": 0.07055525653130185
+      },
+      {
+        "token": "ions",
+        "count": 1556,
+        "mean_activation": 0.14195818275902755
+      },
+      {
+        "token": "ion",
+        "count": 454,
+        "mean_activation": 0.11530354369579433
+      },
+      {
+        "token": " Reason",
+        "count": 300,
+        "mean_activation": 0.04758310953776042
+      },
+      {
+        "token": " reasons",
+        "count": 113,
+        "mean_activation": 0.04693914092747511
+      },
+      {
+        "token": " why",
+        "count": 54,
+        "mean_activation": 0.027018794307002315
+      },
+      {
+        "token": " Some",
+        "count": 43,
+        "mean_activation": 0.018315159997274708
+      },
+      {
+        "token": " con",
+        "count": 42,
+        "mean_activation": 0.028232029506138394
+      },
+      {
+        "token": "Reason",
+        "count": 38,
+        "mean_activation": 0.03295777973375822
+      },
+      {
+        "token": " Compar",
+        "count": 33,
+        "mean_activation": 0.039383859345407196
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5149,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...t and welcoming. Port**ions** were great and the m...",
+        "active_token": "ions",
+        "activation": 0.1861572265625,
+        "review_id": "M9s4DyemyOzjpXqpaah-5w",
+        "position": 28
+      },
+      {
+        "context": "...asonable prices. Port**ions** are more than enough...",
+        "active_token": "ions",
+        "activation": 0.1849365234375,
+        "review_id": "DzDeqybC_6SB_c7aBAcXWw",
+        "position": 47
+      },
+      {
+        "context": "...olutely amazing. Port**ions** are very generous an...",
+        "active_token": "ions",
+        "activation": 0.184814453125,
+        "review_id": "BWyZDTMmN7Hvrk-zicw5Fw",
+        "position": 35
+      },
+      {
+        "context": "... were very good. Port**ions** are huge so consider...",
+        "active_token": "ions",
+        "activation": 0.184326171875,
+        "review_id": "OZ1h_7-2cgF5CgdsP5EZFQ",
+        "position": 38
+      },
+      {
+        "context": "...ecommend Fiesta. Port**ions** are also very large ...",
+        "active_token": "ions",
+        "activation": 0.18359375,
+        "review_id": "QaJ7mtjWUaOKmrdRhMDnng",
+        "position": 36
+      },
+      {
+        "context": "...an awesome deal! Port**ions** are humongous. I had...",
+        "active_token": "ions",
+        "activation": 0.18212890625,
+        "review_id": "xCl6yEc7gQAz9eRzaCN0dw",
+        "position": 44
+      },
+      {
+        "context": "...end to everyone. Port**ions** are massive though s...",
+        "active_token": "ions",
+        "activation": 0.1820068359375,
+        "review_id": "xwyKVV4SiG2At61UlqkKSw",
+        "position": 44
+      },
+      {
+        "context": "... well presented. Port**ions** were very generous. ...",
+        "active_token": "ions",
+        "activation": 0.181884765625,
+        "review_id": "rQZnmm7wKRnZKtPrHJmx3A",
+        "position": 98
+      },
+      {
+        "context": "...always friendly. Port**ions** are large, I always ...",
+        "active_token": "ions",
+        "activation": 0.181640625,
+        "review_id": "g6qaOgp079ADDHvG0hnOcw",
+        "position": 45
+      },
+      {
+        "context": "... very efficient! Port**ions** huge and delicious. ...",
+        "active_token": "ions",
+        "activation": 0.181640625,
+        "review_id": "uPUw8RfzkwBJue1ryt7J5A",
+        "position": 47
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6563,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1571,
+        "max": 0.1862,
+        "mean": 0.1666
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Port",
+            "ions"
+          ],
+          "ngram_str": " Portions",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Port"
+          ],
+          "ngram_str": ". Port",
+          "count": 341,
+          "percent": 68.2
+        },
+        {
+          "ngram": [
+            "ions",
+            " are"
+          ],
+          "ngram_str": "ions are",
+          "count": 317,
+          "percent": 63.4
+        },
+        {
+          "ngram": [
+            "ions",
+            " were"
+          ],
+          "ngram_str": "ions were",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            " ",
+            " Port"
+          ],
+          "ngram_str": "  Port",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            "!",
+            " Port"
+          ],
+          "ngram_str": "! Port",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " are",
+            " large"
+          ],
+          "ngram_str": " are large",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " are",
+            " huge"
+          ],
+          "ngram_str": " are huge",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " generous",
+            " and"
+          ],
+          "ngram_str": " generous and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " generous",
+            "."
+          ],
+          "ngram_str": " generous.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " are",
+            " generous"
+          ],
+          "ngram_str": " are generous",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " large",
+            " and"
+          ],
+          "ngram_str": " large and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " good",
+            "."
+          ],
+          "ngram_str": " good.",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Port",
+            "ions"
+          ],
+          "ngram_str": ". Portions",
+          "count": 341,
+          "percent": 68.2
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " are"
+          ],
+          "ngram_str": " Portions are",
+          "count": 317,
+          "percent": 63.4
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " were"
+          ],
+          "ngram_str": " Portions were",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            " ",
+            " Port",
+            "ions"
+          ],
+          "ngram_str": "  Portions",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Port"
+          ],
+          "ngram_str": ".  Port",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            "!",
+            " Port",
+            "ions"
+          ],
+          "ngram_str": "! Portions",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "ions",
+            " are",
+            " large"
+          ],
+          "ngram_str": "ions are large",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "ions",
+            " are",
+            " huge"
+          ],
+          "ngram_str": "ions are huge",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "ions",
+            " are",
+            " generous"
+          ],
+          "ngram_str": "ions are generous",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "ions",
+            " were",
+            " generous"
+          ],
+          "ngram_str": "ions were generous",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " good",
+            ".",
+            " Port"
+          ],
+          "ngram_str": " good. Port",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " are",
+            " large",
+            " and"
+          ],
+          "ngram_str": " are large and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "ions",
+            " are",
+            " big"
+          ],
+          "ngram_str": "ions are big",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "ions",
+            " were",
+            " large"
+          ],
+          "ngram_str": "ions were large",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " are",
+            " large",
+            ","
+          ],
+          "ngram_str": " are large,",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " Port",
+            "ions",
+            " are"
+          ],
+          "ngram_str": ". Portions are",
+          "count": 213,
+          "percent": 42.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Port",
+            "ions",
+            " were"
+          ],
+          "ngram_str": ". Portions were",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Port",
+            "ions"
+          ],
+          "ngram_str": ".  Portions",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " are",
+            " large"
+          ],
+          "ngram_str": " Portions are large",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " ",
+            " Port",
+            "ions",
+            " are"
+          ],
+          "ngram_str": "  Portions are",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " are",
+            " huge"
+          ],
+          "ngram_str": " Portions are huge",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "!",
+            " Port",
+            "ions",
+            " are"
+          ],
+          "ngram_str": "! Portions are",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " are",
+            " generous"
+          ],
+          "ngram_str": " Portions are generous",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " ",
+            " Port",
+            "ions",
+            " were"
+          ],
+          "ngram_str": "  Portions were",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " were",
+            " generous"
+          ],
+          "ngram_str": " Portions were generous",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " good",
+            ".",
+            " Port",
+            "ions"
+          ],
+          "ngram_str": " good. Portions",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "ions",
+            " are",
+            " large",
+            " and"
+          ],
+          "ngram_str": "ions are large and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " are",
+            " big"
+          ],
+          "ngram_str": " Portions are big",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Port",
+            "ions",
+            " were",
+            " large"
+          ],
+          "ngram_str": " Portions were large",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "ions",
+            " are",
+            " large",
+            ","
+          ],
+          "ngram_str": "ions are large,",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5149,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 5196,
+        "count": 3124,
+        "percent": 60.67
+      },
+      {
+        "feature_idx": 15240,
+        "count": 2814,
+        "percent": 54.65
+      },
+      {
+        "feature_idx": 5524,
+        "count": 2812,
+        "percent": 54.61
+      },
+      {
+        "feature_idx": 17662,
+        "count": 2802,
+        "percent": 54.42
+      },
+      {
+        "feature_idx": 8102,
+        "count": 2759,
+        "percent": 53.58
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2747,
+        "percent": 53.35
+      },
+      {
+        "feature_idx": 3033,
+        "count": 2714,
+        "percent": 52.71
+      },
+      {
+        "feature_idx": 23972,
+        "count": 2667,
+        "percent": 51.8
+      },
+      {
+        "feature_idx": 12554,
+        "count": 2663,
+        "percent": 51.72
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2643,
+        "percent": 51.33
+      },
+      {
+        "feature_idx": 440,
+        "count": 2431,
+        "percent": 47.21
+      },
+      {
+        "feature_idx": 19889,
+        "count": 2407,
+        "percent": 46.75
+      },
+      {
+        "feature_idx": 15713,
+        "count": 2350,
+        "percent": 45.64
+      },
+      {
+        "feature_idx": 11483,
+        "count": 2186,
+        "percent": 42.45
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2143,
+        "percent": 41.62
+      },
+      {
+        "feature_idx": 11584,
+        "count": 2127,
+        "percent": 41.31
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2085,
+        "percent": 40.49
+      },
+      {
+        "feature_idx": 13880,
+        "count": 2043,
+        "percent": 39.68
+      },
+      {
+        "feature_idx": 23914,
+        "count": 2026,
+        "percent": 39.35
+      },
+      {
+        "feature_idx": 16230,
+        "count": 2026,
+        "percent": 39.35
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5149,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 833,
+        "percent": 16.18
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1158,
+        "percent": 22.49
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1256,
+        "percent": 24.39
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1165,
+        "percent": 22.63
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 737,
+        "percent": 14.31
+      }
+    ],
+    "mean_position": 0.4903,
+    "std_position": 0.2567
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 14,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.029,
+      "p25": 0.0406,
+      "p50": 0.0907,
+      "p75": 0.1338,
+      "p90": 0.1448,
+      "p95": 0.1551,
+      "p99": 0.1672
+    },
+    "skewness": 0.0325,
+    "kurtosis": -1.412,
+    "min": 0.0167,
+    "max": 0.1703,
+    "mean": 0.0887,
+    "std": 0.0493
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 14,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " reason",
+        "count": 4,
+        "mean_activation": 0.0926
+      },
+      {
+        "token": "ions",
+        "count": 4,
+        "mean_activation": 0.1429
+      },
+      {
+        "token": " Compar",
+        "count": 2,
+        "mean_activation": 0.0412
+      },
+      {
+        "token": "ASON",
+        "count": 1,
+        "mean_activation": 0.0274
+      },
+      {
+        "token": "ion",
+        "count": 1,
+        "mean_activation": 0.1401
+      },
+      {
+        "token": "They",
+        "count": 1,
+        "mean_activation": 0.0167
+      },
+      {
+        "token": " into",
+        "count": 1,
+        "mean_activation": 0.0328
+      }
+    ]
+  }
+}

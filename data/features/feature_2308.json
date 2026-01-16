@@ -1,0 +1,856 @@
+{
+  "feature_idx": 2308,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 41,
+    "mean_when_active": 0.12129844107278963,
+    "max_activation": 0.25341796875,
+    "std_when_active": 0.0656804387445938,
+    "activation_rate": 0.00041
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 23438,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " next",
+        "count": 16960,
+        "mean_activation": 0.1492170680244014
+      },
+      {
+        "token": " Next",
+        "count": 2545,
+        "mean_activation": 0.06535090838059461
+      },
+      {
+        "token": " last",
+        "count": 1064,
+        "mean_activation": 0.03093740276824263
+      },
+      {
+        "token": " tomorrow",
+        "count": 865,
+        "mean_activation": 0.07018125677384393
+      },
+      {
+        "token": "Next",
+        "count": 653,
+        "mean_activation": 0.061797476472022154
+      },
+      {
+        "token": " this",
+        "count": 226,
+        "mean_activation": 0.03186895995013482
+      },
+      {
+        "token": "next",
+        "count": 140,
+        "mean_activation": 0.08019496372767858
+      },
+      {
+        "token": " soon",
+        "count": 135,
+        "mean_activation": 0.023900462962962964
+      },
+      {
+        "token": " first",
+        "count": 106,
+        "mean_activation": 0.031778587485259434
+      },
+      {
+        "token": " time",
+        "count": 88,
+        "mean_activation": 0.021953582763671875
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 23438,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... something different** next** time...\\nCame back......",
+        "active_token": " next",
+        "activation": 0.29638671875,
+        "review_id": "te0QIbxfzm3Qdqbb0Dc6ZA",
+        "position": 34
+      },
+      {
+        "context": "...me. I'll know better** next** time.",
+        "active_token": " next",
+        "activation": 0.295654296875,
+        "review_id": "Am1RX8cG_ZjbW_YCku3-NA",
+        "position": 140
+      },
+      {
+        "context": "... something different** next** time! Overall it's a...",
+        "active_token": " next",
+        "activation": 0.290283203125,
+        "review_id": "KvFA7pKJYoJlFKlQ1cbmzQ",
+        "position": 248
+      },
+      {
+        "context": "...ve it another chance** next** week, maybe try the ...",
+        "active_token": " next",
+        "activation": 0.289794921875,
+        "review_id": "3Sc35SOWrBUpYo3Oe1pGfA",
+        "position": 95
+      },
+      {
+        "context": "... to try that one out** next** time I go! \\nWhen we ...",
+        "active_token": " next",
+        "activation": 0.288330078125,
+        "review_id": "bARW83N3MFOcKqAQDzjScw",
+        "position": 393
+      },
+      {
+        "context": "...e'll see how it goes** next** time we go back.  We...",
+        "active_token": " next",
+        "activation": 0.286376953125,
+        "review_id": "ra3QOgcrRtxt3kPxq4HfKw",
+        "position": 270
+      },
+      {
+        "context": "...ve it another chance** next** time I'm in town and...",
+        "active_token": " next",
+        "activation": 0.285400390625,
+        "review_id": "s8MPi_4WmDJCoGuTI_M25Q",
+        "position": 210
+      },
+      {
+        "context": "... something different** next** time.",
+        "active_token": " next",
+        "activation": 0.28515625,
+        "review_id": "KIJ0ku2DJYu__EbrIHg-uw",
+        "position": 137
+      },
+      {
+        "context": "...s.  I'll know better** next** time.  \\nParking lot ...",
+        "active_token": " next",
+        "activation": 0.284912109375,
+        "review_id": "g2zjXnoZRbphYyhNzI-uRQ",
+        "position": 223
+      },
+      {
+        "context": "... something different** next** time, and hope I am ...",
+        "active_token": " next",
+        "activation": 0.284912109375,
+        "review_id": "M8-uItj_-Cg7qWz-Eb0NZg",
+        "position": 265
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 2308,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.25,
+        "max": 0.2964,
+        "mean": 0.2608
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " next",
+            " time"
+          ],
+          "ngram_str": " next time",
+          "count": 424,
+          "percent": 84.8
+        },
+        {
+          "ngram": [
+            " time",
+            "."
+          ],
+          "ngram_str": " time.",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " time",
+            " I"
+          ],
+          "ngram_str": " time I",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " try",
+            " something"
+          ],
+          "ngram_str": " try something",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'ll"
+          ],
+          "ngram_str": " I'll",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " try",
+            " next"
+          ],
+          "ngram_str": " try next",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " different",
+            " next"
+          ],
+          "ngram_str": " different next",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " else",
+            " next"
+          ],
+          "ngram_str": " else next",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " something",
+            " different"
+          ],
+          "ngram_str": " something different",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " time",
+            "!"
+          ],
+          "ngram_str": " time!",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'m"
+          ],
+          "ngram_str": " I'm",
+          "count": 35,
+          "percent": 7.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " next",
+            " time",
+            "."
+          ],
+          "ngram_str": " next time.",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            " I"
+          ],
+          "ngram_str": " next time I",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " different",
+            " next",
+            " time"
+          ],
+          "ngram_str": " different next time",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " else",
+            " next",
+            " time"
+          ],
+          "ngram_str": " else next time",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " something",
+            " different",
+            " next"
+          ],
+          "ngram_str": " something different next",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            "!"
+          ],
+          "ngram_str": " next time!",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " something",
+            " else",
+            " next"
+          ],
+          "ngram_str": " something else next",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " time",
+            " I",
+            "'m"
+          ],
+          "ngram_str": " time I'm",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " try",
+            " next",
+            " time"
+          ],
+          "ngram_str": " try next time",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            " we"
+          ],
+          "ngram_str": " next time we",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " try",
+            " something",
+            " else"
+          ],
+          "ngram_str": " try something else",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " try",
+            " something",
+            " different"
+          ],
+          "ngram_str": " try something different",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " something",
+            " different",
+            " next",
+            " time"
+          ],
+          "ngram_str": " something different next time",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " something",
+            " else",
+            " next",
+            " time"
+          ],
+          "ngram_str": " something else next time",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            " I",
+            "'m"
+          ],
+          "ngram_str": " next time I'm",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " else",
+            " next",
+            " time",
+            "."
+          ],
+          "ngram_str": " else next time.",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " try",
+            " something",
+            " else",
+            " next"
+          ],
+          "ngram_str": " try something else next",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " try",
+            " something",
+            " different",
+            " next"
+          ],
+          "ngram_str": " try something different next",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": " next time.\u00c4",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " time",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " time.\u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " time",
+            " I",
+            "'m",
+            " in"
+          ],
+          "ngram_str": " time I'm in",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " different",
+            " next",
+            " time",
+            "."
+          ],
+          "ngram_str": " different next time.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " next",
+            " time",
+            ".",
+            " \u00c4"
+          ],
+          "ngram_str": " next time. \u00c4",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " time",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " time. \u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 21800000,
+      "corpus_coverage": 0.4216
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20364,
+        "count": 9324,
+        "percent": 93.24
+      },
+      {
+        "feature_idx": 23459,
+        "count": 8725,
+        "percent": 87.25
+      },
+      {
+        "feature_idx": 7717,
+        "count": 8717,
+        "percent": 87.17
+      },
+      {
+        "feature_idx": 6282,
+        "count": 8707,
+        "percent": 87.07
+      },
+      {
+        "feature_idx": 16309,
+        "count": 8696,
+        "percent": 86.96
+      },
+      {
+        "feature_idx": 19176,
+        "count": 8687,
+        "percent": 86.87
+      },
+      {
+        "feature_idx": 16085,
+        "count": 8417,
+        "percent": 84.17
+      },
+      {
+        "feature_idx": 11763,
+        "count": 6107,
+        "percent": 61.07
+      },
+      {
+        "feature_idx": 2154,
+        "count": 5829,
+        "percent": 58.29
+      },
+      {
+        "feature_idx": 13478,
+        "count": 5709,
+        "percent": 57.09
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4791,
+        "percent": 47.91
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4386,
+        "percent": 43.86
+      },
+      {
+        "feature_idx": 14534,
+        "count": 3910,
+        "percent": 39.1
+      },
+      {
+        "feature_idx": 4160,
+        "count": 3858,
+        "percent": 38.58
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3755,
+        "percent": 37.55
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3686,
+        "percent": 36.86
+      },
+      {
+        "feature_idx": 11262,
+        "count": 3509,
+        "percent": 35.09
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3361,
+        "percent": 33.61
+      },
+      {
+        "feature_idx": 5358,
+        "count": 2908,
+        "percent": 29.08
+      },
+      {
+        "feature_idx": 4845,
+        "count": 2703,
+        "percent": 27.03
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 21800000,
+      "corpus_coverage": 0.4216
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1231,
+        "percent": 12.31
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1276,
+        "percent": 12.76
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1442,
+        "percent": 14.42
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1819,
+        "percent": 18.19
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 4232,
+        "percent": 42.32
+      }
+    ],
+    "mean_position": 0.6416,
+    "std_position": 0.3008
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 41,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0336,
+      "p25": 0.0662,
+      "p50": 0.121,
+      "p75": 0.1713,
+      "p90": 0.21,
+      "p95": 0.2375,
+      "p99": 0.2477
+    },
+    "skewness": 0.1696,
+    "kurtosis": -0.91,
+    "min": 0.0137,
+    "max": 0.2534,
+    "mean": 0.1213,
+    "std": 0.0657
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 41,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " next",
+        "count": 31,
+        "mean_activation": 0.1428
+      },
+      {
+        "token": " tomorrow",
+        "count": 3,
+        "mean_activation": 0.0902
+      },
+      {
+        "token": " Next",
+        "count": 3,
+        "mean_activation": 0.0592
+      },
+      {
+        "token": " last",
+        "count": 2,
+        "mean_activation": 0.0309
+      },
+      {
+        "token": " later",
+        "count": 1,
+        "mean_activation": 0.0215
+      },
+      {
+        "token": " tea",
+        "count": 1,
+        "mean_activation": 0.0137
+      }
+    ]
+  }
+}

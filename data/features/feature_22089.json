@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22089,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 85,
+    "mean_when_active": 0.045884166044347426,
+    "max_activation": 0.1005859375,
+    "std_when_active": 0.02537313282709525,
+    "activation_rate": 0.00085
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 49277,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " flavorful",
+        "count": 15805,
+        "mean_activation": 0.06598193015678137
+      },
+      {
+        "token": " clean",
+        "count": 9373,
+        "mean_activation": 0.0405330253006058
+      },
+      {
+        "token": " efficient",
+        "count": 3138,
+        "mean_activation": 0.07610595294667931
+      },
+      {
+        "token": " friendly",
+        "count": 1447,
+        "mean_activation": 0.012836614475632505
+      },
+      {
+        "token": " warm",
+        "count": 1206,
+        "mean_activation": 0.026023681286357923
+      },
+      {
+        "token": " spacious",
+        "count": 1124,
+        "mean_activation": 0.06366307540296236
+      },
+      {
+        "token": " smooth",
+        "count": 746,
+        "mean_activation": 0.03258296567696988
+      },
+      {
+        "token": " cool",
+        "count": 745,
+        "mean_activation": 0.026693336435612416
+      },
+      {
+        "token": " delicious",
+        "count": 742,
+        "mean_activation": 0.0166033258977926
+      },
+      {
+        "token": " crisp",
+        "count": 725,
+        "mean_activation": 0.026958965433054958
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 49277,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...t person, and they** efficient** about bringing ou...",
+        "active_token": " efficient",
+        "activation": 0.11663818359375,
+        "review_id": "xIwTeb5WQOxUkex9j2-KKA",
+        "position": 101
+      },
+      {
+        "context": "...was very quiet but** efficient** and she checked o...",
+        "active_token": " efficient",
+        "activation": 0.11602783203125,
+        "review_id": "6t8HtVQS0cW8mP5r8U0a7w",
+        "position": 687
+      },
+      {
+        "context": "...Staff are friendly** efficient** and helpful. Hone...",
+        "active_token": " efficient",
+        "activation": 0.11444091796875,
+        "review_id": "S5tdX0MUJ8D_6FkSBXDSvA",
+        "position": 122
+      },
+      {
+        "context": "...der was attentive,** efficient**, happy and kind!",
+        "active_token": " efficient",
+        "activation": 0.11431884765625,
+        "review_id": "IXypgy2oDgyYEC3lp0Zojg",
+        "position": 180
+      },
+      {
+        "context": "...taff was friendly,** efficient** and attentive yet...",
+        "active_token": " efficient",
+        "activation": 0.1131591796875,
+        "review_id": "mDlaH9pEHsaarCEGbUYo9Q",
+        "position": 59
+      },
+      {
+        "context": "...super friendly and** efficient** and had great rec...",
+        "active_token": " efficient",
+        "activation": 0.11224365234375,
+        "review_id": "mdj3R_9DneDZcffATpxzaQ",
+        "position": 61
+      },
+      {
+        "context": "....   The server was** efficient**.  We will definit...",
+        "active_token": " efficient",
+        "activation": 0.1121826171875,
+        "review_id": "5pK-sGM5mX5eFs3zPTeBlg",
+        "position": 31
+      },
+      {
+        "context": "...ing so it was very** flavorful**. Inside is nice, ...",
+        "active_token": " flavorful",
+        "activation": 0.11083984375,
+        "review_id": "-z_hovr5wRh9euWMSPd1uw",
+        "position": 42
+      },
+      {
+        "context": "... very good. It was** efficient**, friendly and pro...",
+        "active_token": " efficient",
+        "activation": 0.1104736328125,
+        "review_id": "ZOF9HgHj2P0fQiIok94fkw",
+        "position": 51
+      },
+      {
+        "context": "...very attentive and** efficient**. This place is wo...",
+        "active_token": " efficient",
+        "activation": 0.10986328125,
+        "review_id": "CpJbMtSwnUrg9ZhljOZoyA",
+        "position": 60
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22089,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0958,
+        "max": 0.1166,
+        "mean": 0.0997
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " and",
+            " efficient"
+          ],
+          "ngram_str": " and efficient",
+          "count": 115,
+          "percent": 23.0
+        },
+        {
+          "ngram": [
+            " efficient",
+            "."
+          ],
+          "ngram_str": " efficient.",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " very",
+            " flavorful"
+          ],
+          "ngram_str": " very flavorful",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " was",
+            " very"
+          ],
+          "ngram_str": " was very",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            " friendly",
+            " and"
+          ],
+          "ngram_str": " friendly and",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " efficient",
+            " and"
+          ],
+          "ngram_str": " efficient and",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " flavorful",
+            "."
+          ],
+          "ngram_str": " flavorful.",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " flavorful",
+            " and"
+          ],
+          "ngram_str": " flavorful and",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " was",
+            " efficient"
+          ],
+          "ngram_str": " was efficient",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            ",",
+            " efficient"
+          ],
+          "ngram_str": ", efficient",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " efficient",
+            ","
+          ],
+          "ngram_str": " efficient,",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " and",
+            " efficient",
+            "."
+          ],
+          "ngram_str": " and efficient.",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " friendly",
+            " and",
+            " efficient"
+          ],
+          "ngram_str": " friendly and efficient",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " was",
+            " very",
+            " flavorful"
+          ],
+          "ngram_str": " was very flavorful",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " very",
+            " flavorful",
+            "."
+          ],
+          "ngram_str": " very flavorful.",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " very",
+            " flavorful",
+            " and"
+          ],
+          "ngram_str": " very flavorful and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " efficient",
+            ",",
+            " and"
+          ],
+          "ngram_str": " efficient, and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ",",
+            " efficient",
+            ","
+          ],
+          "ngram_str": ", efficient,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " was",
+            " efficient",
+            " and"
+          ],
+          "ngram_str": " was efficient and",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " efficient",
+            ".",
+            " "
+          ],
+          "ngram_str": " efficient. ",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ",",
+            " efficient",
+            " and"
+          ],
+          "ngram_str": ", efficient and",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " very",
+            " friendly",
+            " and"
+          ],
+          "ngram_str": " very friendly and",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " was",
+            " friendly",
+            " and"
+          ],
+          "ngram_str": " was friendly and",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " friendly",
+            ",",
+            " efficient"
+          ],
+          "ngram_str": " friendly, efficient",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " flavorful",
+            ".",
+            " The"
+          ],
+          "ngram_str": " flavorful. The",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " friendly",
+            " and",
+            " efficient",
+            "."
+          ],
+          "ngram_str": " friendly and efficient.",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " very",
+            " friendly",
+            " and",
+            " efficient"
+          ],
+          "ngram_str": " very friendly and efficient",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " was",
+            " very",
+            " flavorful",
+            " and"
+          ],
+          "ngram_str": " was very flavorful and",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ",",
+            " efficient",
+            ",",
+            " and"
+          ],
+          "ngram_str": ", efficient, and",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " was",
+            " friendly",
+            " and",
+            " efficient"
+          ],
+          "ngram_str": " was friendly and efficient",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " and",
+            " efficient",
+            ".",
+            " "
+          ],
+          "ngram_str": " and efficient. ",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " was",
+            " very",
+            " flavorful",
+            "."
+          ],
+          "ngram_str": " was very flavorful.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " efficient",
+            ".",
+            " The"
+          ],
+          "ngram_str": " and efficient. The",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " was",
+            " friendly",
+            ",",
+            " efficient"
+          ],
+          "ngram_str": " was friendly, efficient",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " attentive",
+            " and",
+            " efficient",
+            "."
+          ],
+          "ngram_str": " attentive and efficient.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " was",
+            " very",
+            " friendly",
+            " and"
+          ],
+          "ngram_str": " was very friendly and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " very",
+            " flavorful",
+            "."
+          ],
+          "ngram_str": " and very flavorful.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " is",
+            " friendly",
+            " and",
+            " efficient"
+          ],
+          "ngram_str": " is friendly and efficient",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " very",
+            " flavorful",
+            ".",
+            " The"
+          ],
+          "ngram_str": " very flavorful. The",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " efficient",
+            " and",
+            " friendly",
+            "."
+          ],
+          "ngram_str": " efficient and friendly.",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10400000,
+      "corpus_coverage": 0.2011
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 5812,
+        "percent": 58.12
+      },
+      {
+        "feature_idx": 22992,
+        "count": 5146,
+        "percent": 51.46
+      },
+      {
+        "feature_idx": 11763,
+        "count": 5088,
+        "percent": 50.88
+      },
+      {
+        "feature_idx": 20403,
+        "count": 5004,
+        "percent": 50.04
+      },
+      {
+        "feature_idx": 21683,
+        "count": 4749,
+        "percent": 47.49
+      },
+      {
+        "feature_idx": 9178,
+        "count": 4625,
+        "percent": 46.25
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4604,
+        "percent": 46.04
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4588,
+        "percent": 45.88
+      },
+      {
+        "feature_idx": 13566,
+        "count": 3869,
+        "percent": 38.69
+      },
+      {
+        "feature_idx": 21423,
+        "count": 3675,
+        "percent": 36.75
+      },
+      {
+        "feature_idx": 6677,
+        "count": 3642,
+        "percent": 36.42
+      },
+      {
+        "feature_idx": 6238,
+        "count": 3632,
+        "percent": 36.32
+      },
+      {
+        "feature_idx": 16712,
+        "count": 3482,
+        "percent": 34.82
+      },
+      {
+        "feature_idx": 22705,
+        "count": 3345,
+        "percent": 33.45
+      },
+      {
+        "feature_idx": 3389,
+        "count": 3314,
+        "percent": 33.14
+      },
+      {
+        "feature_idx": 11945,
+        "count": 3234,
+        "percent": 32.34
+      },
+      {
+        "feature_idx": 12210,
+        "count": 3122,
+        "percent": 31.22
+      },
+      {
+        "feature_idx": 22505,
+        "count": 3074,
+        "percent": 30.74
+      },
+      {
+        "feature_idx": 6329,
+        "count": 3055,
+        "percent": 30.55
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2995,
+        "percent": 29.95
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10400000,
+      "corpus_coverage": 0.2011
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1217,
+        "percent": 12.17
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2118,
+        "percent": 21.18
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2369,
+        "percent": 23.69
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2335,
+        "percent": 23.35
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1961,
+        "percent": 19.61
+      }
+    ],
+    "mean_position": 0.5355,
+    "std_position": 0.2573
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 85,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0168,
+      "p25": 0.0228,
+      "p50": 0.0405,
+      "p75": 0.0697,
+      "p90": 0.0823,
+      "p95": 0.0891,
+      "p99": 0.096
+    },
+    "skewness": 0.4026,
+    "kurtosis": -1.14,
+    "min": 0.011,
+    "max": 0.1006,
+    "mean": 0.0459,
+    "std": 0.0254
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 85,
+      "unique_tokens_found": 28
+    },
+    "tokens": [
+      {
+        "token": " flavorful",
+        "count": 24,
+        "mean_activation": 0.0718
+      },
+      {
+        "token": " clean",
+        "count": 21,
+        "mean_activation": 0.0425
+      },
+      {
+        "token": " crisp",
+        "count": 4,
+        "mean_activation": 0.0262
+      },
+      {
+        "token": " delicious",
+        "count": 4,
+        "mean_activation": 0.0159
+      },
+      {
+        "token": " spacious",
+        "count": 3,
+        "mean_activation": 0.0634
+      },
+      {
+        "token": " efficient",
+        "count": 3,
+        "mean_activation": 0.0861
+      },
+      {
+        "token": " warm",
+        "count": 2,
+        "mean_activation": 0.0246
+      },
+      {
+        "token": " pleasant",
+        "count": 2,
+        "mean_activation": 0.0169
+      },
+      {
+        "token": " comfortable",
+        "count": 2,
+        "mean_activation": 0.0243
+      },
+      {
+        "token": " bland",
+        "count": 2,
+        "mean_activation": 0.0166
+      }
+    ]
+  }
+}

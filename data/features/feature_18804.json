@@ -1,0 +1,876 @@
+{
+  "feature_idx": 18804,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 91,
+    "mean_when_active": 0.04297076214800824,
+    "max_activation": 0.1256103515625,
+    "std_when_active": 0.023676141066906714,
+    "activation_rate": 0.00091
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 49572,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": ",",
+        "count": 19200,
+        "mean_activation": 0.054314757585525515
+      },
+      {
+        "token": " I",
+        "count": 2995,
+        "mean_activation": 0.04646051371833916
+      },
+      {
+        "token": " you",
+        "count": 2963,
+        "mean_activation": 0.05440485706773514
+      },
+      {
+        "token": " then",
+        "count": 1626,
+        "mean_activation": 0.06059131411168848
+      },
+      {
+        "token": " it",
+        "count": 1352,
+        "mean_activation": 0.04868066099268445
+      },
+      {
+        "token": " they",
+        "count": 1167,
+        "mean_activation": 0.05180839401284343
+      },
+      {
+        "token": " would",
+        "count": 1154,
+        "mean_activation": 0.03904035227757393
+      },
+      {
+        "token": " the",
+        "count": 903,
+        "mean_activation": 0.03646488126330202
+      },
+      {
+        "token": "?",
+        "count": 776,
+        "mean_activation": 0.03733136481845502
+      },
+      {
+        "token": " we",
+        "count": 737,
+        "mean_activation": 0.04523309632589891
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 49572,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... on you and if not her**,** her daughters. Me and ...",
+        "active_token": ",",
+        "activation": 0.232177734375,
+        "review_id": "yxBljZ4XdHcGicJiPpE2ow",
+        "position": 28
+      },
+      {
+        "context": "... that doesn't work out**,** I know the drinks are ...",
+        "active_token": ",",
+        "activation": 0.232177734375,
+        "review_id": "86o1wtC8pLY7MTzEOuZBZA",
+        "position": 144
+      },
+      {
+        "context": "... you can't do it right**,** don't do it at all.\"\\n\\n...",
+        "active_token": ",",
+        "activation": 0.224609375,
+        "review_id": "_VvSVBT9R2K2chUiDDEHcQ",
+        "position": 62
+      },
+      {
+        "context": "...them at the restaurant**,** I'm sure to drench my ...",
+        "active_token": ",",
+        "activation": 0.2210693359375,
+        "review_id": "lFo77RA0xZXizdLeHbtHMg",
+        "position": 117
+      },
+      {
+        "context": "...and if I don't like it**,** the company policy is ...",
+        "active_token": ",",
+        "activation": 0.2196044921875,
+        "review_id": "0UibhZCoa9faXd_rmagk5w",
+        "position": 244
+      },
+      {
+        "context": "... you can't handle that**,** don't work FOH, get a ...",
+        "active_token": ",",
+        "activation": 0.2139892578125,
+        "review_id": "UNR6dYLSl48IRJ99ErOMFg",
+        "position": 191
+      },
+      {
+        "context": ".... If that doesn't work**,** you can grab or be han...",
+        "active_token": ",",
+        "activation": 0.2113037109375,
+        "review_id": "I5-Z6o2TKHPqFt3JWJiqyg",
+        "position": 137
+      },
+      {
+        "context": "...an't take instructions**,** can't read, doesn't ca...",
+        "active_token": ",",
+        "activation": 0.2109375,
+        "review_id": "athP7sSQYbMUCL-PGOtAgA",
+        "position": 464
+      },
+      {
+        "context": "...cannot live up to that**,** you should change the ...",
+        "active_token": ",",
+        "activation": 0.210205078125,
+        "review_id": "PpkSVMEvzr1CEjrqTt1TeQ",
+        "position": 180
+      },
+      {
+        "context": "...mendation doesn't work**,** remember, Guy Fieri di...",
+        "active_token": ",",
+        "activation": 0.207763671875,
+        "review_id": "XmMUxtiyUKy1XK021o4M9w",
+        "position": 156
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 18804,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1567,
+        "max": 0.2322,
+        "mean": 0.1715
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " don",
+            "'t"
+          ],
+          "ngram_str": " don't",
+          "count": 149,
+          "percent": 29.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " like"
+          ],
+          "ngram_str": "'t like",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " can",
+            "'t"
+          ],
+          "ngram_str": " can't",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ",",
+            " then"
+          ],
+          "ngram_str": ", then",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ",",
+            " you"
+          ],
+          "ngram_str": ", you",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " you",
+            " don"
+          ],
+          "ngram_str": " you don",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " not",
+            ","
+          ],
+          "ngram_str": " not,",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " it",
+            ","
+          ],
+          "ngram_str": " it,",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " it",
+            "'s"
+          ],
+          "ngram_str": " it's",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ",",
+            " they"
+          ],
+          "ngram_str": ", they",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " If",
+            " not"
+          ],
+          "ngram_str": " If not",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ",",
+            " don"
+          ],
+          "ngram_str": ", don",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " isn",
+            "'t"
+          ],
+          "ngram_str": " isn't",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " like"
+          ],
+          "ngram_str": " don't like",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " you",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " you don't",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ",",
+            " don",
+            "'t"
+          ],
+          "ngram_str": ", don't",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            "'t"
+          ],
+          "ngram_str": " you can't",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " If",
+            " not",
+            ","
+          ],
+          "ngram_str": " If not,",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " like",
+            " it",
+            ","
+          ],
+          "ngram_str": " like it,",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " not"
+          ],
+          "ngram_str": " it's not",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " like",
+            " it"
+          ],
+          "ngram_str": "'t like it",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " if",
+            " not",
+            ","
+          ],
+          "ngram_str": " if not,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ",",
+            " you",
+            " can"
+          ],
+          "ngram_str": ", you can",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " get"
+          ],
+          "ngram_str": " don't get",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " do"
+          ],
+          "ngram_str": " can't do",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " I",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " I don't",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " If",
+            " not"
+          ],
+          "ngram_str": ". If not",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " it",
+            "'s"
+          ],
+          "ngram_str": ", it's",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " you",
+            " don",
+            "'t",
+            " like"
+          ],
+          "ngram_str": " you don't like",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " like",
+            " it"
+          ],
+          "ngram_str": " don't like it",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " like",
+            " it",
+            ","
+          ],
+          "ngram_str": "'t like it,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " If",
+            " not",
+            ","
+          ],
+          "ngram_str": ". If not,",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " do",
+            " that"
+          ],
+          "ngram_str": " can't do that",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " I",
+            " don",
+            "'t",
+            " know"
+          ],
+          "ngram_str": " I don't know",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " like",
+            " that"
+          ],
+          "ngram_str": " don't like that",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ",",
+            " don",
+            "'t",
+            " get"
+          ],
+          "ngram_str": ", don't get",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " finish",
+            " it"
+          ],
+          "ngram_str": " can't finish it",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " finish",
+            " it",
+            ","
+          ],
+          "ngram_str": "'t finish it,",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " like",
+            " your"
+          ],
+          "ngram_str": " don't like your",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " like",
+            " spicy"
+          ],
+          "ngram_str": " don't like spicy",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " don",
+            "'t"
+          ],
+          "ngram_str": ", I don't",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " like",
+            " the"
+          ],
+          "ngram_str": " don't like the",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " ",
+            " If",
+            " not",
+            ","
+          ],
+          "ngram_str": "  If not,",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10600000,
+      "corpus_coverage": 0.205
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 6601,
+        "count": 6202,
+        "percent": 62.02
+      },
+      {
+        "feature_idx": 15916,
+        "count": 4729,
+        "percent": 47.29
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4234,
+        "percent": 42.34
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4193,
+        "percent": 41.93
+      },
+      {
+        "feature_idx": 2553,
+        "count": 4165,
+        "percent": 41.65
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4033,
+        "percent": 40.33
+      },
+      {
+        "feature_idx": 23458,
+        "count": 3896,
+        "percent": 38.96
+      },
+      {
+        "feature_idx": 13565,
+        "count": 3568,
+        "percent": 35.68
+      },
+      {
+        "feature_idx": 11476,
+        "count": 3452,
+        "percent": 34.52
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2927,
+        "percent": 29.27
+      },
+      {
+        "feature_idx": 19486,
+        "count": 2735,
+        "percent": 27.35
+      },
+      {
+        "feature_idx": 8154,
+        "count": 2681,
+        "percent": 26.81
+      },
+      {
+        "feature_idx": 4377,
+        "count": 2666,
+        "percent": 26.66
+      },
+      {
+        "feature_idx": 22170,
+        "count": 2615,
+        "percent": 26.15
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2550,
+        "percent": 25.5
+      },
+      {
+        "feature_idx": 11839,
+        "count": 2415,
+        "percent": 24.15
+      },
+      {
+        "feature_idx": 20957,
+        "count": 2385,
+        "percent": 23.85
+      },
+      {
+        "feature_idx": 4073,
+        "count": 2329,
+        "percent": 23.29
+      },
+      {
+        "feature_idx": 10666,
+        "count": 2249,
+        "percent": 22.49
+      },
+      {
+        "feature_idx": 23212,
+        "count": 2187,
+        "percent": 21.87
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10600000,
+      "corpus_coverage": 0.205
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1324,
+        "percent": 13.24
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1685,
+        "percent": 16.85
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1892,
+        "percent": 18.92
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2177,
+        "percent": 21.77
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2922,
+        "percent": 29.22
+      }
+    ],
+    "mean_position": 0.5783,
+    "std_position": 0.2825
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 91,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0221,
+      "p25": 0.0267,
+      "p50": 0.0343,
+      "p75": 0.0518,
+      "p90": 0.0803,
+      "p95": 0.0946,
+      "p99": 0.1215
+    },
+    "skewness": 1.5171,
+    "kurtosis": 1.9568,
+    "min": 0.0168,
+    "max": 0.1256,
+    "mean": 0.043,
+    "std": 0.0237
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 91,
+      "unique_tokens_found": 31
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 38,
+        "mean_activation": 0.0482
+      },
+      {
+        "token": " I",
+        "count": 6,
+        "mean_activation": 0.0476
+      },
+      {
+        "token": " you",
+        "count": 5,
+        "mean_activation": 0.0381
+      },
+      {
+        "token": " they",
+        "count": 5,
+        "mean_activation": 0.0482
+      },
+      {
+        "token": " can",
+        "count": 3,
+        "mean_activation": 0.0367
+      },
+      {
+        "token": "?",
+        "count": 3,
+        "mean_activation": 0.0497
+      },
+      {
+        "token": " then",
+        "count": 3,
+        "mean_activation": 0.0527
+      },
+      {
+        "token": " the",
+        "count": 3,
+        "mean_activation": 0.0224
+      },
+      {
+        "token": " we",
+        "count": 2,
+        "mean_activation": 0.066
+      },
+      {
+        "token": " \"",
+        "count": 2,
+        "mean_activation": 0.0254
+      }
+    ]
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "feature_idx": 3906,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 15,
+    "mean_when_active": 0.03798472086588542,
+    "max_activation": 0.06787109375,
+    "std_when_active": 0.012806628867746367,
+    "activation_rate": 0.00015
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7012,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " review",
+        "count": 4572,
+        "mean_activation": 0.049016381811907914
+      },
+      {
+        "token": " reviews",
+        "count": 652,
+        "mean_activation": 0.04257419796809097
+      },
+      {
+        "token": " back",
+        "count": 512,
+        "mean_activation": 0.09680721163749695
+      },
+      {
+        "token": " rating",
+        "count": 174,
+        "mean_activation": 0.031015856512661637
+      },
+      {
+        "token": " off",
+        "count": 92,
+        "mean_activation": 0.06803429645040761
+      },
+      {
+        "token": " Facebook",
+        "count": 58,
+        "mean_activation": 0.04418892695985992
+      },
+      {
+        "token": " menu",
+        "count": 53,
+        "mean_activation": 0.024109606472951062
+      },
+      {
+        "token": " list",
+        "count": 49,
+        "mean_activation": 0.03508369290098852
+      },
+      {
+        "token": " page",
+        "count": 49,
+        "mean_activation": 0.050329714405293366
+      },
+      {
+        "token": " comment",
+        "count": 41,
+        "mean_activation": 0.037576070645960365
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7012,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...uggest drinks, check** back**, stay on top of thei...",
+        "active_token": " back",
+        "activation": 0.208984375,
+        "review_id": "HDKhzWNk5iT4_NFlrv0djQ",
+        "position": 461
+      },
+      {
+        "context": "... stays clear.\\n\\nCheck** back** in a few years.\\n\\n\\nPi...",
+        "active_token": " back",
+        "activation": 0.1962890625,
+        "review_id": "lTSSNpNrAykE3GXp22CeRQ",
+        "position": 120
+      },
+      {
+        "context": "...about it.  And check** back** to see how everythin...",
+        "active_token": " back",
+        "activation": 0.195556640625,
+        "review_id": "5Tu0bBjzMYoNwj7ZJ-6EBg",
+        "position": 281
+      },
+      {
+        "context": "...ry cordial and check** back** often to ensure all ...",
+        "active_token": " back",
+        "activation": 0.193603515625,
+        "review_id": "eRwTjsq9TlhNJUnM4ZU9pw",
+        "position": 121
+      },
+      {
+        "context": "...ly folks. Then check** back** and I can assure you...",
+        "active_token": " back",
+        "activation": 0.1932373046875,
+        "review_id": "66-FzORF-9pipSEVWKEVkQ",
+        "position": 109
+      },
+      {
+        "context": "... to serve you, check** back** frequently and it's ...",
+        "active_token": " back",
+        "activation": 0.192138671875,
+        "review_id": "HPWhUqS1kH47u1YCUPTJ0w",
+        "position": 95
+      },
+      {
+        "context": "...at here, and checked** back** often to make sure t...",
+        "active_token": " back",
+        "activation": 0.18896484375,
+        "review_id": "dPru-FSP6kKK7SVYc2lc6A",
+        "position": 56
+      },
+      {
+        "context": "...mendations, checking** back**, and keeping our dri...",
+        "active_token": " back",
+        "activation": 0.1876220703125,
+        "review_id": "mNwpES_YNo6Z9SR9us7reA",
+        "position": 139
+      },
+      {
+        "context": "...e for me and checked** back** on me regularly. A m...",
+        "active_token": " back",
+        "activation": 0.18603515625,
+        "review_id": "Iq5tz-M4jemslITe7vo6ew",
+        "position": 126
+      },
+      {
+        "context": "... salsa, and checking** back** a few times to make ...",
+        "active_token": " back",
+        "activation": 0.1859130859375,
+        "review_id": "bLSTiNGnQEsueKeBeNaK0w",
+        "position": 25
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3906,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1015,
+        "max": 0.209,
+        "mean": 0.1341
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " my",
+            " review"
+          ],
+          "ngram_str": " my review",
+          "count": 182,
+          "percent": 36.4
+        },
+        {
+          "ngram": [
+            " checked",
+            " back"
+          ],
+          "ngram_str": " checked back",
+          "count": 136,
+          "percent": 27.2
+        },
+        {
+          "ngram": [
+            " update",
+            " my"
+          ],
+          "ngram_str": " update my",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " check",
+            " back"
+          ],
+          "ngram_str": " check back",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " back",
+            " with"
+          ],
+          "ngram_str": " back with",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " with",
+            " us"
+          ],
+          "ngram_str": " with us",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " checking",
+            " back"
+          ],
+          "ngram_str": " checking back",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " review",
+            "."
+          ],
+          "ngram_str": " review.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " to",
+            " see"
+          ],
+          "ngram_str": " to see",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " back",
+            " on"
+          ],
+          "ngram_str": " back on",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " back",
+            " in"
+          ],
+          "ngram_str": " back in",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'ll"
+          ],
+          "ngram_str": " I'll",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " never",
+            " checked"
+          ],
+          "ngram_str": " never checked",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " update",
+            " my",
+            " review"
+          ],
+          "ngram_str": " update my review",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " back",
+            " with",
+            " us"
+          ],
+          "ngram_str": " back with us",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " my",
+            " review",
+            "."
+          ],
+          "ngram_str": " my review.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " never",
+            " checked",
+            " back"
+          ],
+          "ngram_str": " never checked back",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "see",
+            " my",
+            " review"
+          ],
+          "ngram_str": "see my review",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " and",
+            " checked",
+            " back"
+          ],
+          "ngram_str": " and checked back",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " (",
+            "see",
+            " my"
+          ],
+          "ngram_str": " (see my",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " will",
+            " update",
+            " my"
+          ],
+          "ngram_str": " will update my",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " and",
+            " update",
+            " my"
+          ],
+          "ngram_str": " and update my",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " checked",
+            " back",
+            " on"
+          ],
+          "ngram_str": " checked back on",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " checked",
+            " back",
+            " with"
+          ],
+          "ngram_str": " checked back with",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " back",
+            " on",
+            " us"
+          ],
+          "ngram_str": " back on us",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'ll",
+            " update"
+          ],
+          "ngram_str": " I'll update",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "'ll",
+            " update",
+            " my"
+          ],
+          "ngram_str": "'ll update my",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " (",
+            "see",
+            " my",
+            " review"
+          ],
+          "ngram_str": " (see my review",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " will",
+            " update",
+            " my",
+            " review"
+          ],
+          "ngram_str": " will update my review",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " and",
+            " update",
+            " my",
+            " review"
+          ],
+          "ngram_str": " and update my review",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "'ll",
+            " update",
+            " my",
+            " review"
+          ],
+          "ngram_str": "'ll update my review",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'ll",
+            " update",
+            " my"
+          ],
+          "ngram_str": " I'll update my",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " checked",
+            " back",
+            " with",
+            " us"
+          ],
+          "ngram_str": " checked back with us",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " update",
+            " my",
+            " review",
+            "."
+          ],
+          "ngram_str": " update my review.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " checked",
+            " back",
+            " on",
+            " us"
+          ],
+          "ngram_str": " checked back on us",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " I",
+            " will",
+            " update",
+            " my"
+          ],
+          "ngram_str": " I will update my",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " for",
+            " reading",
+            " my",
+            " review"
+          ],
+          "ngram_str": " for reading my review",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " check",
+            " back"
+          ],
+          "ngram_str": " didn't check back",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " update",
+            " my",
+            " review",
+            " if"
+          ],
+          "ngram_str": " update my review if",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'ll",
+            " update"
+          ],
+          "ngram_str": ". I'll update",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " checked",
+            " back",
+            " in",
+            " with"
+          ],
+          "ngram_str": " checked back in with",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7012,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 19500,
+        "count": 5461,
+        "percent": 77.88
+      },
+      {
+        "feature_idx": 963,
+        "count": 5414,
+        "percent": 77.21
+      },
+      {
+        "feature_idx": 3512,
+        "count": 5318,
+        "percent": 75.84
+      },
+      {
+        "feature_idx": 998,
+        "count": 5251,
+        "percent": 74.89
+      },
+      {
+        "feature_idx": 2466,
+        "count": 4983,
+        "percent": 71.06
+      },
+      {
+        "feature_idx": 1253,
+        "count": 4707,
+        "percent": 67.13
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4402,
+        "percent": 62.78
+      },
+      {
+        "feature_idx": 14723,
+        "count": 3815,
+        "percent": 54.41
+      },
+      {
+        "feature_idx": 21835,
+        "count": 3773,
+        "percent": 53.81
+      },
+      {
+        "feature_idx": 11052,
+        "count": 3199,
+        "percent": 45.62
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3010,
+        "percent": 42.93
+      },
+      {
+        "feature_idx": 12254,
+        "count": 2927,
+        "percent": 41.74
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2891,
+        "percent": 41.23
+      },
+      {
+        "feature_idx": 20133,
+        "count": 2786,
+        "percent": 39.73
+      },
+      {
+        "feature_idx": 12256,
+        "count": 2739,
+        "percent": 39.06
+      },
+      {
+        "feature_idx": 17953,
+        "count": 2647,
+        "percent": 37.75
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2457,
+        "percent": 35.04
+      },
+      {
+        "feature_idx": 5023,
+        "count": 2454,
+        "percent": 35.0
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2433,
+        "percent": 34.7
+      },
+      {
+        "feature_idx": 4961,
+        "count": 2107,
+        "percent": 30.05
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7012,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2472,
+        "percent": 35.25
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 839,
+        "percent": 11.97
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 717,
+        "percent": 10.23
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 926,
+        "percent": 13.21
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2058,
+        "percent": 29.35
+      }
+    ],
+    "mean_position": 0.4752,
+    "std_position": 0.3616
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 15,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0283,
+      "p25": 0.0301,
+      "p50": 0.0343,
+      "p75": 0.0447,
+      "p90": 0.0553,
+      "p95": 0.0625,
+      "p99": 0.0668
+    },
+    "skewness": 0.7818,
+    "kurtosis": 0.316,
+    "min": 0.0154,
+    "max": 0.0679,
+    "mean": 0.038,
+    "std": 0.0128
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 15,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " review",
+        "count": 13,
+        "mean_activation": 0.039
+      },
+      {
+        "token": " rating",
+        "count": 2,
+        "mean_activation": 0.0312
+      }
+    ]
+  }
+}

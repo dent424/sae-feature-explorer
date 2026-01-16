@@ -1,0 +1,866 @@
+{
+  "feature_idx": 9139,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 12,
+    "mean_when_active": 0.06083043416341146,
+    "max_activation": 0.1500244140625,
+    "std_when_active": 0.04354955144106231,
+    "activation_rate": 0.00012
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7255,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ie",
+        "count": 1410,
+        "mean_activation": 0.12503496535280917
+      },
+      {
+        "token": "ies",
+        "count": 1080,
+        "mean_activation": 0.07536167568630642
+      },
+      {
+        "token": "+",
+        "count": 413,
+        "mean_activation": 0.03097670880703314
+      },
+      {
+        "token": " key",
+        "count": 396,
+        "mean_activation": 0.057041206745186236
+      },
+      {
+        "token": "ries",
+        "count": 365,
+        "mean_activation": 0.0402566570125214
+      },
+      {
+        "token": "dog",
+        "count": 239,
+        "mean_activation": 0.02798225690131407
+      },
+      {
+        "token": "te",
+        "count": 220,
+        "mean_activation": 0.0586732344193892
+      },
+      {
+        "token": "i",
+        "count": 219,
+        "mean_activation": 0.029637724297231736
+      },
+      {
+        "token": "key",
+        "count": 216,
+        "mean_activation": 0.050744586520724826
+      },
+      {
+        "token": "umbled",
+        "count": 191,
+        "mean_activation": 0.048219371216459424
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7255,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...my drink, but no brown**ie**. So yeah, you did for...",
+        "active_token": "ie",
+        "activation": 0.2147216796875,
+        "review_id": "w7XKSu51BkSLVSQzLOlnBA",
+        "position": 117
+      },
+      {
+        "context": "...oring book and a brown**ie** for desert. If you ar...",
+        "active_token": "ie",
+        "activation": 0.2144775390625,
+        "review_id": "xz_jHKH7wrrVhEH8uMCRPA",
+        "position": 240
+      },
+      {
+        "context": "...d my meal with a brown**ie** a la mode with a beau...",
+        "active_token": "ie",
+        "activation": 0.2139892578125,
+        "review_id": "Bo8RpeRP9Qzued0j8P561w",
+        "position": 90
+      },
+      {
+        "context": "...he dessert was a brown**ie** sundae topped with ca...",
+        "active_token": "ie",
+        "activation": 0.208984375,
+        "review_id": "WdrQl3g5eBwOIScSWDUqtA",
+        "position": 220
+      },
+      {
+        "context": "...food and offer a brown**ie** or something. Instead...",
+        "active_token": "ie",
+        "activation": 0.2088623046875,
+        "review_id": "b6zI099teFRoFvU1jNGsLw",
+        "position": 106
+      },
+      {
+        "context": "...e decided on the brown**ie** sundae for dessert an...",
+        "active_token": "ie",
+        "activation": 0.2069091796875,
+        "review_id": "x2jghNDhObRgtvaybya2dQ",
+        "position": 133
+      },
+      {
+        "context": "...t unique and the brown**ie** was a little dry. How...",
+        "active_token": "ie",
+        "activation": 0.2066650390625,
+        "review_id": "9oxKw9-yUEd04pKWeusXsA",
+        "position": 137
+      },
+      {
+        "context": "...ur tortillas, no brown**ie** with the sundae, etc)...",
+        "active_token": "ie",
+        "activation": 0.20654296875,
+        "review_id": "15i_6MSD-iDH22IaB6ZAQw",
+        "position": 70
+      },
+      {
+        "context": "..., plus he gets a brown**ie** or cookie with every ...",
+        "active_token": "ie",
+        "activation": 0.20654296875,
+        "review_id": "Pqlp7m_O6bMicWgpLBSniA",
+        "position": 35
+      },
+      {
+        "context": "...ito order with a brown**ie** which was kind of the...",
+        "active_token": "ie",
+        "activation": 0.206298828125,
+        "review_id": "7Zm8jw6hIYAYeqgpWSWMXw",
+        "position": 231
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 9139,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1503,
+        "max": 0.2147,
+        "mean": 0.173
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " brown",
+            "ie"
+          ],
+          "ngram_str": " brownie",
+          "count": 295,
+          "percent": 59.0
+        },
+        {
+          "ngram": [
+            " smooth",
+            "ie"
+          ],
+          "ngram_str": " smoothie",
+          "count": 194,
+          "percent": 38.8
+        },
+        {
+          "ngram": [
+            " a",
+            " smooth"
+          ],
+          "ngram_str": " a smooth",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "ie",
+            "."
+          ],
+          "ngram_str": "ie.",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " the",
+            " brown"
+          ],
+          "ngram_str": " the brown",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " a",
+            " brown"
+          ],
+          "ngram_str": " a brown",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "ie",
+            " and"
+          ],
+          "ngram_str": "ie and",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " ice",
+            " cream"
+          ],
+          "ngram_str": " ice cream",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "ie",
+            " with"
+          ],
+          "ngram_str": "ie with",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "ie",
+            ","
+          ],
+          "ngram_str": "ie,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "ie",
+            " points"
+          ],
+          "ngram_str": "ie points",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " a"
+          ],
+          "ngram_str": " and a",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 28,
+          "percent": 5.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " smooth",
+            "ie"
+          ],
+          "ngram_str": " a smoothie",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " the",
+            " brown",
+            "ie"
+          ],
+          "ngram_str": " the brownie",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " a",
+            " brown",
+            "ie"
+          ],
+          "ngram_str": " a brownie",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " smooth",
+            "ie",
+            "."
+          ],
+          "ngram_str": " smoothie.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            "."
+          ],
+          "ngram_str": " brownie.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            " points"
+          ],
+          "ngram_str": " brownie points",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            " with"
+          ],
+          "ngram_str": " brownie with",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " smooth",
+            "ie",
+            " and"
+          ],
+          "ngram_str": " smoothie and",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            " sund"
+          ],
+          "ngram_str": " brownie sund",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "ie",
+            " sund",
+            "ae"
+          ],
+          "ngram_str": "ie sundae",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            " and"
+          ],
+          "ngram_str": " brownie and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " smooth",
+            "ie",
+            ","
+          ],
+          "ngram_str": " smoothie,",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            " was"
+          ],
+          "ngram_str": " brownie was",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            " sund",
+            "ae"
+          ],
+          "ngram_str": " brownie sundae",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " a",
+            " smooth",
+            "ie",
+            "."
+          ],
+          "ngram_str": " a smoothie.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " smooth",
+            "ie"
+          ],
+          "ngram_str": " for a smoothie",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " a",
+            " smooth",
+            "ie",
+            " and"
+          ],
+          "ngram_str": " a smoothie and",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " a",
+            " brown",
+            "ie"
+          ],
+          "ngram_str": " and a brownie",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " brown",
+            "ie",
+            " sund"
+          ],
+          "ngram_str": " the brownie sund",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " brown",
+            "ie",
+            " with",
+            " ice"
+          ],
+          "ngram_str": " brownie with ice",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "ie",
+            " with",
+            " ice",
+            " cream"
+          ],
+          "ngram_str": "ie with ice cream",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " like",
+            " a",
+            " smooth",
+            "ie"
+          ],
+          "ngram_str": " like a smoothie",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " brown",
+            "ie"
+          ],
+          "ngram_str": " and the brownie",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " a",
+            " brown",
+            "ie",
+            "."
+          ],
+          "ngram_str": " a brownie.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " brown",
+            "ie"
+          ],
+          "ngram_str": ". The brownie",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7255,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 4345,
+        "percent": 59.89
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4108,
+        "percent": 56.62
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4005,
+        "percent": 55.2
+      },
+      {
+        "feature_idx": 23547,
+        "count": 3922,
+        "percent": 54.06
+      },
+      {
+        "feature_idx": 3367,
+        "count": 2954,
+        "percent": 40.72
+      },
+      {
+        "feature_idx": 8335,
+        "count": 2650,
+        "percent": 36.53
+      },
+      {
+        "feature_idx": 5527,
+        "count": 2320,
+        "percent": 31.98
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2191,
+        "percent": 30.2
+      },
+      {
+        "feature_idx": 18087,
+        "count": 2153,
+        "percent": 29.68
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2033,
+        "percent": 28.02
+      },
+      {
+        "feature_idx": 21958,
+        "count": 2025,
+        "percent": 27.91
+      },
+      {
+        "feature_idx": 18503,
+        "count": 1982,
+        "percent": 27.32
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1982,
+        "percent": 27.32
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1906,
+        "percent": 26.27
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1894,
+        "percent": 26.11
+      },
+      {
+        "feature_idx": 19926,
+        "count": 1825,
+        "percent": 25.16
+      },
+      {
+        "feature_idx": 22000,
+        "count": 1648,
+        "percent": 22.72
+      },
+      {
+        "feature_idx": 11596,
+        "count": 1608,
+        "percent": 22.16
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1578,
+        "percent": 21.75
+      },
+      {
+        "feature_idx": 1938,
+        "count": 1526,
+        "percent": 21.03
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7255,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1421,
+        "percent": 19.59
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1340,
+        "percent": 18.47
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1367,
+        "percent": 18.84
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1623,
+        "percent": 22.37
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1504,
+        "percent": 20.73
+      }
+    ],
+    "mean_position": 0.5104,
+    "std_position": 0.2917
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 12,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0252,
+      "p25": 0.0281,
+      "p50": 0.0474,
+      "p75": 0.0749,
+      "p90": 0.1361,
+      "p95": 0.1445,
+      "p99": 0.1489
+    },
+    "skewness": 1.0299,
+    "kurtosis": -0.337,
+    "min": 0.0131,
+    "max": 0.15,
+    "mean": 0.0608,
+    "std": 0.0435
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 12,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": "ie",
+        "count": 4,
+        "mean_activation": 0.0887
+      },
+      {
+        "token": " dog",
+        "count": 2,
+        "mean_activation": 0.0197
+      },
+      {
+        "token": "ies",
+        "count": 1,
+        "mean_activation": 0.101
+      },
+      {
+        "token": " key",
+        "count": 1,
+        "mean_activation": 0.0662
+      },
+      {
+        "token": "umbled",
+        "count": 1,
+        "mean_activation": 0.0482
+      },
+      {
+        "token": " bets",
+        "count": 1,
+        "mean_activation": 0.0467
+      },
+      {
+        "token": "+",
+        "count": 1,
+        "mean_activation": 0.0251
+      },
+      {
+        "token": "key",
+        "count": 1,
+        "mean_activation": 0.0486
+      }
+    ]
+  }
+}

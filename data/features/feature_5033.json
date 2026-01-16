@@ -1,0 +1,866 @@
+{
+  "feature_idx": 5033,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 223,
+    "mean_when_active": 0.03716777579132217,
+    "max_activation": 0.10137939453125,
+    "std_when_active": 0.017554630967682273,
+    "activation_rate": 0.00223
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 20500000,
+      "corpus_coverage": 0.3965
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 47178,
+        "mean_activation": 0.03799311158271889
+      },
+      {
+        "token": " my",
+        "count": 591,
+        "mean_activation": 0.03144544675668887
+      },
+      {
+        "token": " their",
+        "count": 577,
+        "mean_activation": 0.036082619810848135
+      },
+      {
+        "token": " our",
+        "count": 367,
+        "mean_activation": 0.030889110928985015
+      },
+      {
+        "token": " from",
+        "count": 230,
+        "mean_activation": 0.02551869931428329
+      },
+      {
+        "token": " this",
+        "count": 196,
+        "mean_activation": 0.027633705917669803
+      },
+      {
+        "token": " a",
+        "count": 180,
+        "mean_activation": 0.029291449652777777
+      },
+      {
+        "token": ".",
+        "count": 100,
+        "mean_activation": 0.019069137573242186
+      },
+      {
+        "token": " of",
+        "count": 58,
+        "mean_activation": 0.030666219777074354
+      },
+      {
+        "token": " menu",
+        "count": 41,
+        "mean_activation": 0.023856558450838415
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 20500000,
+      "corpus_coverage": 0.3965
+    },
+    "activations": [
+      {
+        "context": "...ee of the dishes from** the** menu on it. All meal...",
+        "active_token": " the",
+        "activation": 0.14404296875,
+        "review_id": "o-atCCk7GvhpVFAYqXPuHw",
+        "position": 252
+      },
+      {
+        "context": "... of the desserts from** the** menu amongst the ent...",
+        "active_token": " the",
+        "activation": 0.1416015625,
+        "review_id": "1Z6VwunwflvpvO5R0hXQPw",
+        "position": 236
+      },
+      {
+        "context": "...os and two sides from** the** menu. My number one ...",
+        "active_token": " the",
+        "activation": 0.1397705078125,
+        "review_id": "FforptOn0GxlP0riXNikRA",
+        "position": 249
+      },
+      {
+        "context": "...e chicken strips from** the** kids menu. This seem...",
+        "active_token": " the",
+        "activation": 0.1392822265625,
+        "review_id": "tAzmonJpQbciVnkfnLCkiA",
+        "position": 150
+      },
+      {
+        "context": "...r 3 of the items from** the** current menu and you...",
+        "active_token": " the",
+        "activation": 0.1392822265625,
+        "review_id": "yQ8Z1Rwh4fV0xaYPWzmcgQ",
+        "position": 104
+      },
+      {
+        "context": "...d the same thing from** the** one in Warminster on...",
+        "active_token": " the",
+        "activation": 0.1378173828125,
+        "review_id": "vFS4Ax_znd8mroU5ASS7lg",
+        "position": 18
+      },
+      {
+        "context": "...ple of the bowls from** the** menu, but I also thi...",
+        "active_token": " the",
+        "activation": 0.1368408203125,
+        "review_id": "pgPMBLSFYBppEJi8fRgNEg",
+        "position": 91
+      },
+      {
+        "context": "...wo chicken tacos from** the** happy hour menu. Del...",
+        "active_token": " the",
+        "activation": 0.13525390625,
+        "review_id": "jvE_nnn4Y68qdEztQuEB5A",
+        "position": 232
+      },
+      {
+        "context": "...e Cheesy Skillet from** the** House Favorites menu...",
+        "active_token": " the",
+        "activation": 0.1343994140625,
+        "review_id": "zngqoughSd9MBneT2RpXvw",
+        "position": 51
+      },
+      {
+        "context": "...ut & try 3 tacos from** the** Turf section:\\nJohnny...",
+        "active_token": " the",
+        "activation": 0.134033203125,
+        "review_id": "nmzE4X7jxWSDUwtGkbZdZA",
+        "position": 91
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5033,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 40900000,
+      "corpus_coverage": 0.7911,
+      "activation_range": {
+        "min": 0.1107,
+        "max": 0.1492,
+        "mean": 0.1199
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " from",
+            " the"
+          ],
+          "ngram_str": " from the",
+          "count": 440,
+          "percent": 88.0
+        },
+        {
+          "ngram": [
+            " the",
+            " menu"
+          ],
+          "ngram_str": " the menu",
+          "count": 115,
+          "percent": 23.0
+        },
+        {
+          "ngram": [
+            " menu",
+            "."
+          ],
+          "ngram_str": " menu.",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " menu",
+            " and"
+          ],
+          "ngram_str": " menu and",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " items",
+            " from"
+          ],
+          "ngram_str": " items from",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " tacos",
+            " from"
+          ],
+          "ngram_str": " tacos from",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " the",
+            " bar"
+          ],
+          "ngram_str": " the bar",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " ordered",
+            " from"
+          ],
+          "ngram_str": " ordered from",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " on"
+          ],
+          "ngram_str": " tacos on",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " the",
+            " tacos"
+          ],
+          "ngram_str": " the tacos",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " the",
+            " happy"
+          ],
+          "ngram_str": " the happy",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " from",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " from the menu",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " items",
+            " from",
+            " the"
+          ],
+          "ngram_str": " items from the",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " on the menu",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " tacos",
+            " from",
+            " the"
+          ],
+          "ngram_str": " tacos from the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " from the bar",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            "."
+          ],
+          "ngram_str": " the menu.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            " and"
+          ],
+          "ngram_str": " the menu and",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " ordered",
+            " from",
+            " the"
+          ],
+          "ngram_str": " ordered from the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " on",
+            " the"
+          ],
+          "ngram_str": " tacos on the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " the",
+            " happy",
+            " hour"
+          ],
+          "ngram_str": " the happy hour",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " happy"
+          ],
+          "ngram_str": " from the happy",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " order",
+            " from",
+            " the"
+          ],
+          "ngram_str": " order from the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " menu",
+            ".",
+            " The"
+          ],
+          "ngram_str": " menu. The",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " drinks",
+            " from",
+            " the"
+          ],
+          "ngram_str": " drinks from the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "as",
+            " from",
+            " the"
+          ],
+          "ngram_str": "as from the",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " items",
+            " from",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " items from the menu",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " menu",
+            "."
+          ],
+          "ngram_str": " from the menu.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " on",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " tacos on the menu",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " happy",
+            " hour"
+          ],
+          "ngram_str": " from the happy hour",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " happy",
+            " hour",
+            " menu"
+          ],
+          "ngram_str": " the happy hour menu",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " menu",
+            " and"
+          ],
+          "ngram_str": " from the menu and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " the",
+            " tacos",
+            " on",
+            " the"
+          ],
+          "ngram_str": " the tacos on the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu",
+            "."
+          ],
+          "ngram_str": " on the menu.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " s",
+            "als",
+            "as",
+            " from"
+          ],
+          "ngram_str": " salsas from",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "als",
+            "as",
+            " from",
+            " the"
+          ],
+          "ngram_str": "alsas from the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " appet",
+            "izer"
+          ],
+          "ngram_str": " from the appetizer",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " salsa",
+            " bar"
+          ],
+          "ngram_str": " from the salsa bar",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " appet",
+            "izer",
+            " menu"
+          ],
+          "ngram_str": " the appetizer menu",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " bar",
+            "."
+          ],
+          "ngram_str": " from the bar.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " menu",
+            " and"
+          ],
+          "ngram_str": " on the menu and",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4100000,
+      "corpus_coverage": 0.0793
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10638,
+        "count": 9494,
+        "percent": 94.94
+      },
+      {
+        "feature_idx": 22187,
+        "count": 9485,
+        "percent": 94.85
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4213,
+        "percent": 42.13
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4150,
+        "percent": 41.5
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4085,
+        "percent": 40.85
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4038,
+        "percent": 40.38
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3836,
+        "percent": 38.36
+      },
+      {
+        "feature_idx": 1008,
+        "count": 3699,
+        "percent": 36.99
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3292,
+        "percent": 32.92
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2872,
+        "percent": 28.72
+      },
+      {
+        "feature_idx": 14414,
+        "count": 2856,
+        "percent": 28.56
+      },
+      {
+        "feature_idx": 15559,
+        "count": 2794,
+        "percent": 27.94
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2649,
+        "percent": 26.49
+      },
+      {
+        "feature_idx": 7672,
+        "count": 2501,
+        "percent": 25.01
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2486,
+        "percent": 24.86
+      },
+      {
+        "feature_idx": 5186,
+        "count": 2406,
+        "percent": 24.06
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2351,
+        "percent": 23.51
+      },
+      {
+        "feature_idx": 575,
+        "count": 2271,
+        "percent": 22.71
+      },
+      {
+        "feature_idx": 22127,
+        "count": 2078,
+        "percent": 20.78
+      },
+      {
+        "feature_idx": 22587,
+        "count": 1938,
+        "percent": 19.38
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4100000,
+      "corpus_coverage": 0.0793
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1358,
+        "percent": 13.58
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2169,
+        "percent": 21.69
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2344,
+        "percent": 23.44
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2128,
+        "percent": 21.28
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2001,
+        "percent": 20.01
+      }
+    ],
+    "mean_position": 0.5283,
+    "std_position": 0.2657
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 223,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0198,
+      "p25": 0.0255,
+      "p50": 0.0326,
+      "p75": 0.0449,
+      "p90": 0.062,
+      "p95": 0.0736,
+      "p99": 0.0963
+    },
+    "skewness": 1.3615,
+    "kurtosis": 1.9932,
+    "min": 0.0099,
+    "max": 0.1014,
+    "mean": 0.0372,
+    "std": 0.0176
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 223,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 211,
+        "mean_activation": 0.0376
+      },
+      {
+        "token": " their",
+        "count": 4,
+        "mean_activation": 0.0386
+      },
+      {
+        "token": " my",
+        "count": 3,
+        "mean_activation": 0.0242
+      },
+      {
+        "token": " our",
+        "count": 1,
+        "mean_activation": 0.0247
+      },
+      {
+        "token": " its",
+        "count": 1,
+        "mean_activation": 0.0287
+      },
+      {
+        "token": " this",
+        "count": 1,
+        "mean_activation": 0.0201
+      },
+      {
+        "token": " a",
+        "count": 1,
+        "mean_activation": 0.0193
+      },
+      {
+        "token": " menu",
+        "count": 1,
+        "mean_activation": 0.0287
+      }
+    ]
+  }
+}

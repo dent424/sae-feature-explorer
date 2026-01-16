@@ -1,0 +1,836 @@
+{
+  "feature_idx": 6775,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 8,
+    "mean_when_active": 0.14144134521484375,
+    "max_activation": 0.26904296875,
+    "std_when_active": 0.10600568466268767,
+    "activation_rate": 8e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5579,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 4242,
+        "mean_activation": 0.1484063691207116
+      },
+      {
+        "token": " the",
+        "count": 280,
+        "mean_activation": 0.046224239894321985
+      },
+      {
+        "token": " about",
+        "count": 179,
+        "mean_activation": 0.03169497697712989
+      },
+      {
+        "token": " with",
+        "count": 107,
+        "mean_activation": 0.02849479033568195
+      },
+      {
+        "token": " of",
+        "count": 94,
+        "mean_activation": 0.025092591630651594
+      },
+      {
+        "token": " towards",
+        "count": 63,
+        "mean_activation": 0.046788775731646824
+      },
+      {
+        "token": " a",
+        "count": 58,
+        "mean_activation": 0.04131211905643858
+      },
+      {
+        "token": " my",
+        "count": 51,
+        "mean_activation": 0.04758887197457108
+      },
+      {
+        "token": " comes",
+        "count": 45,
+        "mean_activation": 0.023426649305555554
+      },
+      {
+        "token": " on",
+        "count": 45,
+        "mean_activation": 0.0323883056640625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5579,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...r food' when it comes** to** me.  Since I was comi...",
+        "active_token": " to",
+        "activation": 0.287109375,
+        "review_id": "HMCC1kSu4bmnGmDoc90Eyw",
+        "position": 55
+      },
+      {
+        "context": "...*picky* when it comes** to** my tacos.  Definitely...",
+        "active_token": " to",
+        "activation": 0.281982421875,
+        "review_id": "C2lLRE4Js5wx81ugi48WvA",
+        "position": 29
+      },
+      {
+        "context": "...y jerks when it comes** to** fast food. But the fr...",
+        "active_token": " to",
+        "activation": 0.279296875,
+        "review_id": "ZFviXU_hcq-l0fVVUboV8w",
+        "position": 110
+      },
+      {
+        "context": "...elitist when it comes** to** Mexican cuisine and g...",
+        "active_token": " to",
+        "activation": 0.276123046875,
+        "review_id": "WbOVPz3oFT85BL0ybymWAg",
+        "position": 41
+      },
+      {
+        "context": "...ing snob when it came** to** me. It took everythin...",
+        "active_token": " to",
+        "activation": 0.275634765625,
+        "review_id": "hPYIcKhAP7ff47PtrW2vlQ",
+        "position": 210
+      },
+      {
+        "context": "... a wimp when it comes** to** spice, but this is ju...",
+        "active_token": " to",
+        "activation": 0.275390625,
+        "review_id": "uo44wDp4XkWPk5nfBPm6Mg",
+        "position": 77
+      },
+      {
+        "context": "...y Lucy, when it comes** to** servers I can not com...",
+        "active_token": " to",
+        "activation": 0.27490234375,
+        "review_id": "rmftbPQIEkYZcrv7RFOpSg",
+        "position": 8
+      },
+      {
+        "context": "...r fails when it comes** to** brightening my day. O...",
+        "active_token": " to",
+        "activation": 0.27392578125,
+        "review_id": "2oHo7bxtuQCllfX8Vby1DA",
+        "position": 89
+      },
+      {
+        "context": "...o picky when it comes** to** Mexican tacos and am ...",
+        "active_token": " to",
+        "activation": 0.273681640625,
+        "review_id": "liZMc8EahspcxIKuhj2hrQ",
+        "position": 17
+      },
+      {
+        "context": "...time... when it comes** to** authentic Mexican tac...",
+        "active_token": " to",
+        "activation": 0.273681640625,
+        "review_id": "OqAueN1KxY0gyCgCiKAhlA",
+        "position": 30
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6775,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.252,
+        "max": 0.2871,
+        "mean": 0.259
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " when",
+            " it"
+          ],
+          "ngram_str": " when it",
+          "count": 488,
+          "percent": 97.6
+        },
+        {
+          "ngram": [
+            " comes",
+            " to"
+          ],
+          "ngram_str": " comes to",
+          "count": 449,
+          "percent": 89.8
+        },
+        {
+          "ngram": [
+            " it",
+            " comes"
+          ],
+          "ngram_str": " it comes",
+          "count": 448,
+          "percent": 89.6
+        },
+        {
+          "ngram": [
+            " to",
+            " Mexican"
+          ],
+          "ngram_str": " to Mexican",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " Mexican food",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            "y",
+            " when"
+          ],
+          "ngram_str": "y when",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " food",
+            "."
+          ],
+          "ngram_str": " food.",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " pick",
+            "y"
+          ],
+          "ngram_str": " picky",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " it",
+            " came"
+          ],
+          "ngram_str": " it came",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " came",
+            " to"
+          ],
+          "ngram_str": " came to",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " food",
+            ","
+          ],
+          "ngram_str": " food,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " to",
+            " food"
+          ],
+          "ngram_str": " to food",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "imp",
+            " when"
+          ],
+          "ngram_str": "imp when",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " it",
+            " comes",
+            " to"
+          ],
+          "ngram_str": " it comes to",
+          "count": 448,
+          "percent": 89.6
+        },
+        {
+          "ngram": [
+            " when",
+            " it",
+            " comes"
+          ],
+          "ngram_str": " when it comes",
+          "count": 438,
+          "percent": 87.6
+        },
+        {
+          "ngram": [
+            " comes",
+            " to",
+            " Mexican"
+          ],
+          "ngram_str": " comes to Mexican",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            "y",
+            " when",
+            " it"
+          ],
+          "ngram_str": "y when it",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " pick",
+            "y",
+            " when"
+          ],
+          "ngram_str": " picky when",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " to",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " to Mexican food",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " it",
+            " came",
+            " to"
+          ],
+          "ngram_str": " it came to",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " when",
+            " it",
+            " came"
+          ],
+          "ngram_str": " when it came",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            "."
+          ],
+          "ngram_str": " Mexican food.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " comes",
+            " to",
+            " food"
+          ],
+          "ngram_str": " comes to food",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "imp",
+            " when",
+            " it"
+          ],
+          "ngram_str": "imp when it",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " w",
+            "imp",
+            " when"
+          ],
+          "ngram_str": " wimp when",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " comes",
+            " to",
+            " my"
+          ],
+          "ngram_str": " comes to my",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " comes",
+            " to",
+            " the"
+          ],
+          "ngram_str": " comes to the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " comes",
+            " to",
+            " tacos"
+          ],
+          "ngram_str": " comes to tacos",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " when",
+            " it",
+            " comes",
+            " to"
+          ],
+          "ngram_str": " when it comes to",
+          "count": 438,
+          "percent": 87.6
+        },
+        {
+          "ngram": [
+            " it",
+            " comes",
+            " to",
+            " Mexican"
+          ],
+          "ngram_str": " it comes to Mexican",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            "y",
+            " when",
+            " it",
+            " comes"
+          ],
+          "ngram_str": "y when it comes",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " pick",
+            "y",
+            " when",
+            " it"
+          ],
+          "ngram_str": " picky when it",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " comes",
+            " to",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " comes to Mexican food",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " when",
+            " it",
+            " came",
+            " to"
+          ],
+          "ngram_str": " when it came to",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " it",
+            " comes",
+            " to",
+            " food"
+          ],
+          "ngram_str": " it comes to food",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "imp",
+            " when",
+            " it",
+            " comes"
+          ],
+          "ngram_str": "imp when it comes",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " w",
+            "imp",
+            " when",
+            " it"
+          ],
+          "ngram_str": " wimp when it",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " to",
+            " Mexican",
+            " food",
+            "."
+          ],
+          "ngram_str": " to Mexican food.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " it",
+            " comes",
+            " to",
+            " my"
+          ],
+          "ngram_str": " it comes to my",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " it",
+            " comes",
+            " to",
+            " the"
+          ],
+          "ngram_str": " it comes to the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " it",
+            " comes",
+            " to",
+            " tacos"
+          ],
+          "ngram_str": " it comes to tacos",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " sn",
+            "ob",
+            " when",
+            " it"
+          ],
+          "ngram_str": " snob when it",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " to",
+            " please",
+            " when",
+            " it"
+          ],
+          "ngram_str": " to please when it",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5579,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16339,
+        "count": 4318,
+        "percent": 77.4
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3676,
+        "percent": 65.89
+      },
+      {
+        "feature_idx": 18144,
+        "count": 3505,
+        "percent": 62.82
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3445,
+        "percent": 61.75
+      },
+      {
+        "feature_idx": 12864,
+        "count": 3144,
+        "percent": 56.35
+      },
+      {
+        "feature_idx": 21397,
+        "count": 2941,
+        "percent": 52.72
+      },
+      {
+        "feature_idx": 5165,
+        "count": 2781,
+        "percent": 49.85
+      },
+      {
+        "feature_idx": 15515,
+        "count": 2776,
+        "percent": 49.76
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2775,
+        "percent": 49.74
+      },
+      {
+        "feature_idx": 22512,
+        "count": 2740,
+        "percent": 49.11
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2659,
+        "percent": 47.66
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2212,
+        "percent": 39.65
+      },
+      {
+        "feature_idx": 21701,
+        "count": 1814,
+        "percent": 32.51
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1376,
+        "percent": 24.66
+      },
+      {
+        "feature_idx": 19712,
+        "count": 1358,
+        "percent": 24.34
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1298,
+        "percent": 23.27
+      },
+      {
+        "feature_idx": 2797,
+        "count": 1264,
+        "percent": 22.66
+      },
+      {
+        "feature_idx": 20701,
+        "count": 1237,
+        "percent": 22.17
+      },
+      {
+        "feature_idx": 7268,
+        "count": 1111,
+        "percent": 19.91
+      },
+      {
+        "feature_idx": 19937,
+        "count": 1103,
+        "percent": 19.77
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5579,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1456,
+        "percent": 26.1
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1167,
+        "percent": 20.92
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1037,
+        "percent": 18.59
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 975,
+        "percent": 17.48
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 944,
+        "percent": 16.92
+      }
+    ],
+    "mean_position": 0.4571,
+    "std_position": 0.292
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 8,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0292,
+      "p25": 0.0354,
+      "p50": 0.143,
+      "p75": 0.24,
+      "p90": 0.2543,
+      "p95": 0.2617,
+      "p99": 0.2676
+    },
+    "skewness": 0.0105,
+    "kurtosis": -1.9405,
+    "min": 0.0225,
+    "max": 0.269,
+    "mean": 0.1414,
+    "std": 0.106
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 8,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 7,
+        "mean_activation": 0.1584
+      },
+      {
+        "token": "...",
+        "count": 1,
+        "mean_activation": 0.0225
+      }
+    ]
+  }
+}

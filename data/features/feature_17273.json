@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17273,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 159,
+    "mean_when_active": 0.04169099435866254,
+    "max_activation": 0.1441650390625,
+    "std_when_active": 0.02623582838281796,
+    "activation_rate": 0.00159
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 34600000,
+      "corpus_coverage": 0.6692
+    },
+    "top_tokens": [
+      {
+        "token": " Mexican",
+        "count": 17967,
+        "mean_activation": 0.041158454594803474
+      },
+      {
+        "token": " Taco",
+        "count": 1163,
+        "mean_activation": 0.031097543311344584
+      },
+      {
+        "token": " Mexico",
+        "count": 814,
+        "mean_activation": 0.049683038959924944
+      },
+      {
+        "token": "ican",
+        "count": 788,
+        "mean_activation": 0.028636719369646256
+      },
+      {
+        "token": " Tac",
+        "count": 628,
+        "mean_activation": 0.029773177614637242
+      },
+      {
+        "token": " Mex",
+        "count": 578,
+        "mean_activation": 0.04675278449141031
+      },
+      {
+        "token": " American",
+        "count": 510,
+        "mean_activation": 0.047911969353170956
+      },
+      {
+        "token": " Tucson",
+        "count": 487,
+        "mean_activation": 0.03372595001784683
+      },
+      {
+        "token": "Mex",
+        "count": 418,
+        "mean_activation": 0.03946134576386812
+      },
+      {
+        "token": " Tampa",
+        "count": 381,
+        "mean_activation": 0.039034605652015664
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 34600000,
+      "corpus_coverage": 0.6692
+    },
+    "activations": [
+      {
+        "context": "...mottos at Chihuahua** Mexican** Grill on South Mac...",
+        "active_token": " Mexican",
+        "activation": 0.2149658203125,
+        "review_id": "dyfCMl7LewuRCMyIiRNjew",
+        "position": 25
+      },
+      {
+        "context": "...sole at Guadalajara** Mexican** Grill on Oracle to...",
+        "active_token": " Mexican",
+        "activation": 0.2095947265625,
+        "review_id": "WftIqdhh08_LYO6eb3oPYA",
+        "position": 13
+      },
+      {
+        "context": "...food at Guadalajara** Mexican** Grill on Broadway....",
+        "active_token": " Mexican",
+        "activation": 0.2088623046875,
+        "review_id": "nHwfsOD9x-j8BT1M6KTLgQ",
+        "position": 20
+      },
+      {
+        "context": "...las today at Arroyo** Mexican** Grill. They were d...",
+        "active_token": " Mexican",
+        "activation": 0.207763671875,
+        "review_id": "umtFAeIg06R1G1wTUZB42g",
+        "position": 12
+      },
+      {
+        "context": "...in the Creve Coeur** American** Legion. It was ban...",
+        "active_token": " American",
+        "activation": 0.2034912109375,
+        "review_id": "elkzhEPj5qPu6ORigZCkag",
+        "position": 138
+      },
+      {
+        "context": "... the Santa Barbara** American** Experience. A defi...",
+        "active_token": " American",
+        "activation": 0.20263671875,
+        "review_id": "qJ5wosWTxfa6PyHtNRDI5w",
+        "position": 148
+      },
+      {
+        "context": "...food as Guadalajara** Mexican** Grill, with a staf...",
+        "active_token": " Mexican",
+        "activation": 0.202392578125,
+        "review_id": "mztnzSiIhHqYCQrhXNx-Bw",
+        "position": 63
+      },
+      {
+        "context": "...w up on Casa Molina** Mexican** food. \\nEvery Frida...",
+        "active_token": " Mexican",
+        "activation": 0.2021484375,
+        "review_id": "Cl1LpEYd3tV53nur4AEWYQ",
+        "position": 148
+      },
+      {
+        "context": "...he menu at Acapulco** Mexican** Grocery and google...",
+        "active_token": " Mexican",
+        "activation": 0.2017822265625,
+        "review_id": "LEGfuUN_-SogJ6ALavMF9A",
+        "position": 74
+      },
+      {
+        "context": "....\u00e2\u0122\u012d\\nToday at Lolis** Mexican** Cravings I ordered...",
+        "active_token": " Mexican",
+        "activation": 0.200927734375,
+        "review_id": "fzuyp1wReVpJp9CHbLSHjw",
+        "position": 113
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17273,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1575,
+        "max": 0.2172,
+        "mean": 0.174
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Mexican",
+            " Restaurant"
+          ],
+          "ngram_str": " Mexican Restaurant",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " Grill"
+          ],
+          "ngram_str": " Mexican Grill",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "os",
+            " Mexican"
+          ],
+          "ngram_str": "os Mexican",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " Mexican food",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " restaurant"
+          ],
+          "ngram_str": " Mexican restaurant",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "adal",
+            "aj"
+          ],
+          "ngram_str": "adalaj",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "aj",
+            "ara"
+          ],
+          "ngram_str": "ajara",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "ara",
+            " Mexican"
+          ],
+          "ngram_str": "ara Mexican",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "otle",
+            " Mexican"
+          ],
+          "ngram_str": "otle Mexican",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Gu",
+            "adal"
+          ],
+          "ngram_str": " Guadal",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " Restaurant",
+            "."
+          ],
+          "ngram_str": " Restaurant.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " Chip",
+            "otle"
+          ],
+          "ngram_str": " Chipotle",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "adal",
+            "aj",
+            "ara"
+          ],
+          "ngram_str": "adalajara",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "aj",
+            "ara",
+            " Mexican"
+          ],
+          "ngram_str": "ajara Mexican",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Gu",
+            "adal",
+            "aj"
+          ],
+          "ngram_str": " Guadalaj",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " Restaurant",
+            "."
+          ],
+          "ngram_str": " Mexican Restaurant.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "ara",
+            " Mexican",
+            " Grill"
+          ],
+          "ngram_str": "ara Mexican Grill",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Chip",
+            "otle",
+            " Mexican"
+          ],
+          "ngram_str": " Chipotle Mexican",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "otle",
+            " Mexican",
+            " Grill"
+          ],
+          "ngram_str": "otle Mexican Grill",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " Grill",
+            "."
+          ],
+          "ngram_str": " Mexican Grill.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "ul",
+            "co",
+            " Mexican"
+          ],
+          "ngram_str": "ulco Mexican",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " Ac",
+            "ap",
+            "ul"
+          ],
+          "ngram_str": " Acapul",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "ap",
+            "ul",
+            "co"
+          ],
+          "ngram_str": "apulco",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " Restaurant",
+            " is"
+          ],
+          "ngram_str": " Mexican Restaurant is",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            "."
+          ],
+          "ngram_str": " Mexican food.",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "adal",
+            "aj",
+            "ara",
+            " Mexican"
+          ],
+          "ngram_str": "adalajara Mexican",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Gu",
+            "adal",
+            "aj",
+            "ara"
+          ],
+          "ngram_str": " Guadalajara",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "aj",
+            "ara",
+            " Mexican",
+            " Grill"
+          ],
+          "ngram_str": "ajara Mexican Grill",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Chip",
+            "otle",
+            " Mexican",
+            " Grill"
+          ],
+          "ngram_str": " Chipotle Mexican Grill",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " Ac",
+            "ap",
+            "ul",
+            "co"
+          ],
+          "ngram_str": " Acapulco",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "ap",
+            "ul",
+            "co",
+            " Mexican"
+          ],
+          "ngram_str": "apulco Mexican",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " C",
+            "anc",
+            "un",
+            " Mexican"
+          ],
+          "ngram_str": " Cancun Mexican",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "ul",
+            "co",
+            " Mexican",
+            " Gro"
+          ],
+          "ngram_str": "ulco Mexican Gro",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "co",
+            " Mexican",
+            " Gro",
+            "cery"
+          ],
+          "ngram_str": "co Mexican Grocery",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " H",
+            "aci",
+            "enda",
+            " Mexican"
+          ],
+          "ngram_str": " Hacienda Mexican",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "ara",
+            " Mexican",
+            " Grill",
+            " on"
+          ],
+          "ngram_str": "ara Mexican Grill on",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "olis",
+            " Mexican",
+            " C",
+            "ravings"
+          ],
+          "ngram_str": "olis Mexican Cravings",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " to",
+            " C",
+            "anc",
+            "un"
+          ],
+          "ngram_str": " to Cancun",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " Ta",
+            "qu",
+            "eria"
+          ],
+          "ngram_str": " Mexican Taqueria",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7400000,
+      "corpus_coverage": 0.1431
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 7427,
+        "percent": 74.27
+      },
+      {
+        "feature_idx": 22827,
+        "count": 4912,
+        "percent": 49.12
+      },
+      {
+        "feature_idx": 6053,
+        "count": 4760,
+        "percent": 47.6
+      },
+      {
+        "feature_idx": 3833,
+        "count": 4376,
+        "percent": 43.76
+      },
+      {
+        "feature_idx": 24294,
+        "count": 4073,
+        "percent": 40.73
+      },
+      {
+        "feature_idx": 8285,
+        "count": 3999,
+        "percent": 39.99
+      },
+      {
+        "feature_idx": 23533,
+        "count": 3835,
+        "percent": 38.35
+      },
+      {
+        "feature_idx": 9962,
+        "count": 3726,
+        "percent": 37.26
+      },
+      {
+        "feature_idx": 14918,
+        "count": 3715,
+        "percent": 37.15
+      },
+      {
+        "feature_idx": 11661,
+        "count": 3665,
+        "percent": 36.65
+      },
+      {
+        "feature_idx": 19926,
+        "count": 3613,
+        "percent": 36.13
+      },
+      {
+        "feature_idx": 19049,
+        "count": 3355,
+        "percent": 33.55
+      },
+      {
+        "feature_idx": 10867,
+        "count": 3343,
+        "percent": 33.43
+      },
+      {
+        "feature_idx": 5996,
+        "count": 3249,
+        "percent": 32.49
+      },
+      {
+        "feature_idx": 19167,
+        "count": 3235,
+        "percent": 32.35
+      },
+      {
+        "feature_idx": 19896,
+        "count": 3138,
+        "percent": 31.38
+      },
+      {
+        "feature_idx": 3468,
+        "count": 3116,
+        "percent": 31.16
+      },
+      {
+        "feature_idx": 2708,
+        "count": 3054,
+        "percent": 30.54
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3003,
+        "percent": 30.03
+      },
+      {
+        "feature_idx": 22050,
+        "count": 2882,
+        "percent": 28.82
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7400000,
+      "corpus_coverage": 0.1431
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4638,
+        "percent": 46.38
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1588,
+        "percent": 15.88
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1101,
+        "percent": 11.01
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1084,
+        "percent": 10.84
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1589,
+        "percent": 15.89
+      }
+    ],
+    "mean_position": 0.3573,
+    "std_position": 0.3228
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 159,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0167,
+      "p25": 0.0225,
+      "p50": 0.0335,
+      "p75": 0.0505,
+      "p90": 0.0767,
+      "p95": 0.0876,
+      "p99": 0.1428
+    },
+    "skewness": 1.6836,
+    "kurtosis": 3.3989,
+    "min": 0.0098,
+    "max": 0.1442,
+    "mean": 0.0417,
+    "std": 0.0262
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 159,
+      "unique_tokens_found": 75
+    },
+    "tokens": [
+      {
+        "token": " Mexican",
+        "count": 57,
+        "mean_activation": 0.0457
+      },
+      {
+        "token": " Taco",
+        "count": 6,
+        "mean_activation": 0.0306
+      },
+      {
+        "token": " Mexico",
+        "count": 6,
+        "mean_activation": 0.0417
+      },
+      {
+        "token": " Tucson",
+        "count": 4,
+        "mean_activation": 0.0367
+      },
+      {
+        "token": "standing",
+        "count": 4,
+        "mean_activation": 0.0184
+      },
+      {
+        "token": " Latin",
+        "count": 3,
+        "mean_activation": 0.0361
+      },
+      {
+        "token": "ican",
+        "count": 3,
+        "mean_activation": 0.019
+      },
+      {
+        "token": "ino",
+        "count": 2,
+        "mean_activation": 0.0374
+      },
+      {
+        "token": " Nashville",
+        "count": 2,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " french",
+        "count": 2,
+        "mean_activation": 0.0221
+      }
+    ]
+  }
+}

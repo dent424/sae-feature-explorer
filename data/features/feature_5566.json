@@ -1,0 +1,866 @@
+{
+  "feature_idx": 5566,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.06295189490685096,
+    "max_activation": 0.17578125,
+    "std_when_active": 0.05067591228686014,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8306,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " ready",
+        "count": 4470,
+        "mean_activation": 0.08235119471880681
+      },
+      {
+        "token": " available",
+        "count": 375,
+        "mean_activation": 0.05104536946614583
+      },
+      {
+        "token": " time",
+        "count": 266,
+        "mean_activation": 0.048868968074483085
+      },
+      {
+        "token": " prepared",
+        "count": 259,
+        "mean_activation": 0.0465286431625543
+      },
+      {
+        "token": " hungry",
+        "count": 247,
+        "mean_activation": 0.030798413975518725
+      },
+      {
+        "token": " busy",
+        "count": 235,
+        "mean_activation": 0.0320411519801363
+      },
+      {
+        "token": " open",
+        "count": 197,
+        "mean_activation": 0.04336973858363737
+      },
+      {
+        "token": " empty",
+        "count": 171,
+        "mean_activation": 0.040653607998675075
+      },
+      {
+        "token": " over",
+        "count": 166,
+        "mean_activation": 0.05480754806334714
+      },
+      {
+        "token": " there",
+        "count": 143,
+        "mean_activation": 0.03072549246407889
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8306,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... your meal when it's** ready** to your table. They...",
+        "active_token": " ready",
+        "activation": 0.2384033203125,
+        "review_id": "mhtLFT-5XH8-9X5d0Nsy1w",
+        "position": 468
+      },
+      {
+        "context": "...your order when it's** ready**. They also come by ...",
+        "active_token": " ready",
+        "activation": 0.2359619140625,
+        "review_id": "WaAS9idcOuzEnfgjqIq7FQ",
+        "position": 107
+      },
+      {
+        "context": "...e when your order is** ready**, and you can either...",
+        "active_token": " ready",
+        "activation": 0.2357177734375,
+        "review_id": "SKrUaoeYLmyMTmajZVZwrA",
+        "position": 305
+      },
+      {
+        "context": "...pick it up when it's** ready**. It was about a 20 ...",
+        "active_token": " ready",
+        "activation": 0.235595703125,
+        "review_id": "7qGscOG7TU9BGjAUNzO40g",
+        "position": 165
+      },
+      {
+        "context": "...your food when it is** ready**. Experienced the us...",
+        "active_token": " ready",
+        "activation": 0.234619140625,
+        "review_id": "d-sYmmL_pRPbQTwsYXe_pQ",
+        "position": 28
+      },
+      {
+        "context": "... your dish when it's** ready**.",
+        "active_token": " ready",
+        "activation": 0.234619140625,
+        "review_id": "VS8FCourXMp55kxzRWIJag",
+        "position": 209
+      },
+      {
+        "context": "...er when your food is** ready**. Everything comes o...",
+        "active_token": " ready",
+        "activation": 0.2340087890625,
+        "review_id": "HjMFP-Y_ClRxCPkS-XRWlw",
+        "position": 118
+      },
+      {
+        "context": "...ll when your food is** ready**. The name says Taco...",
+        "active_token": " ready",
+        "activation": 0.2318115234375,
+        "review_id": "8s1Atg_hF23JoC0lVJN_LQ",
+        "position": 27
+      },
+      {
+        "context": "...hts up when order is** ready** for pickup at the k...",
+        "active_token": " ready",
+        "activation": 0.2314453125,
+        "review_id": "Ia658iviLg-EGy9YHql39w",
+        "position": 46
+      },
+      {
+        "context": "...er when your food is** ready**. Birria tacos are s...",
+        "active_token": " ready",
+        "activation": 0.2314453125,
+        "review_id": "btGkJKceVmDLrAistv8Hew",
+        "position": 125
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5566,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1719,
+        "max": 0.2384,
+        "mean": 0.1936
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " ready",
+            "."
+          ],
+          "ngram_str": " ready.",
+          "count": 282,
+          "percent": 56.4
+        },
+        {
+          "ngram": [
+            " is",
+            " ready"
+          ],
+          "ngram_str": " is ready",
+          "count": 247,
+          "percent": 49.4
+        },
+        {
+          "ngram": [
+            " when",
+            " your"
+          ],
+          "ngram_str": " when your",
+          "count": 134,
+          "percent": 26.8
+        },
+        {
+          "ngram": [
+            " was",
+            " ready"
+          ],
+          "ngram_str": " was ready",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " when",
+            " it"
+          ],
+          "ngram_str": " when it",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            " you",
+            " when"
+          ],
+          "ngram_str": " you when",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            " table",
+            " is"
+          ],
+          "ngram_str": " table is",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " your",
+            " table"
+          ],
+          "ngram_str": " your table",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " ready"
+          ],
+          "ngram_str": "'s ready",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " it",
+            "'s"
+          ],
+          "ngram_str": " it's",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " your",
+            " food"
+          ],
+          "ngram_str": " your food",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " ready",
+            ","
+          ],
+          "ngram_str": " ready,",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " food",
+            " is"
+          ],
+          "ngram_str": " food is",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 61,
+          "percent": 12.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " is",
+            " ready",
+            "."
+          ],
+          "ngram_str": " is ready.",
+          "count": 136,
+          "percent": 27.2
+        },
+        {
+          "ngram": [
+            " table",
+            " is",
+            " ready"
+          ],
+          "ngram_str": " table is ready",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " ready"
+          ],
+          "ngram_str": " it's ready",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " your",
+            " table",
+            " is"
+          ],
+          "ngram_str": " your table is",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " was",
+            " ready",
+            "."
+          ],
+          "ngram_str": " was ready.",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " when",
+            " your",
+            " table"
+          ],
+          "ngram_str": " when your table",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " when",
+            " it",
+            "'s"
+          ],
+          "ngram_str": " when it's",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " you",
+            " when",
+            " your"
+          ],
+          "ngram_str": " you when your",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " ready"
+          ],
+          "ngram_str": " food is ready",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " ready",
+            ".",
+            " "
+          ],
+          "ngram_str": " ready. ",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "'s",
+            " ready",
+            "."
+          ],
+          "ngram_str": "'s ready.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " order",
+            " is",
+            " ready"
+          ],
+          "ngram_str": " order is ready",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " your",
+            " food",
+            " is"
+          ],
+          "ngram_str": " your food is",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " table",
+            " was",
+            " ready"
+          ],
+          "ngram_str": " table was ready",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " your",
+            " table",
+            " is",
+            " ready"
+          ],
+          "ngram_str": " your table is ready",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " when",
+            " it",
+            "'s",
+            " ready"
+          ],
+          "ngram_str": " when it's ready",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " when",
+            " your",
+            " table",
+            " is"
+          ],
+          "ngram_str": " when your table is",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " ready",
+            "."
+          ],
+          "ngram_str": " it's ready.",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " table",
+            " is",
+            " ready",
+            "."
+          ],
+          "ngram_str": " table is ready.",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " you",
+            " when",
+            " your",
+            " table"
+          ],
+          "ngram_str": " you when your table",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " your",
+            " food",
+            " is",
+            " ready"
+          ],
+          "ngram_str": " your food is ready",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " your",
+            " order",
+            " is",
+            " ready"
+          ],
+          "ngram_str": " your order is ready",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " when",
+            " your",
+            " food",
+            " is"
+          ],
+          "ngram_str": " when your food is",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " it",
+            " is",
+            " ready",
+            "."
+          ],
+          "ngram_str": " it is ready.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " when",
+            " it",
+            " was",
+            " ready"
+          ],
+          "ngram_str": " when it was ready",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " our",
+            " table",
+            " was",
+            " ready"
+          ],
+          "ngram_str": " our table was ready",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " when",
+            " your",
+            " order",
+            " is"
+          ],
+          "ngram_str": " when your order is",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " when",
+            " it",
+            " is",
+            " ready"
+          ],
+          "ngram_str": " when it is ready",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " ready",
+            "."
+          ],
+          "ngram_str": " food is ready.",
+          "count": 28,
+          "percent": 5.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8306,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 15459,
+        "count": 6887,
+        "percent": 82.92
+      },
+      {
+        "feature_idx": 20172,
+        "count": 6143,
+        "percent": 73.96
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5931,
+        "percent": 71.41
+      },
+      {
+        "feature_idx": 17516,
+        "count": 4886,
+        "percent": 58.82
+      },
+      {
+        "feature_idx": 9350,
+        "count": 4762,
+        "percent": 57.33
+      },
+      {
+        "feature_idx": 19598,
+        "count": 4741,
+        "percent": 57.08
+      },
+      {
+        "feature_idx": 12892,
+        "count": 4599,
+        "percent": 55.37
+      },
+      {
+        "feature_idx": 12822,
+        "count": 4555,
+        "percent": 54.84
+      },
+      {
+        "feature_idx": 16711,
+        "count": 4516,
+        "percent": 54.37
+      },
+      {
+        "feature_idx": 6593,
+        "count": 3949,
+        "percent": 47.54
+      },
+      {
+        "feature_idx": 17637,
+        "count": 3871,
+        "percent": 46.6
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3507,
+        "percent": 42.22
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3406,
+        "percent": 41.01
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3374,
+        "percent": 40.62
+      },
+      {
+        "feature_idx": 7090,
+        "count": 3293,
+        "percent": 39.65
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3240,
+        "percent": 39.01
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2665,
+        "percent": 32.09
+      },
+      {
+        "feature_idx": 21108,
+        "count": 2641,
+        "percent": 31.8
+      },
+      {
+        "feature_idx": 2848,
+        "count": 2419,
+        "percent": 29.12
+      },
+      {
+        "feature_idx": 7762,
+        "count": 2340,
+        "percent": 28.17
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8306,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 963,
+        "percent": 11.59
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2076,
+        "percent": 24.99
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1903,
+        "percent": 22.91
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1700,
+        "percent": 20.47
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1664,
+        "percent": 20.03
+      }
+    ],
+    "mean_position": 0.5299,
+    "std_position": 0.2632
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0223,
+      "p25": 0.0282,
+      "p50": 0.0508,
+      "p75": 0.0562,
+      "p90": 0.1564,
+      "p95": 0.1753,
+      "p99": 0.1757
+    },
+    "skewness": 1.522,
+    "kurtosis": 0.8558,
+    "min": 0.0202,
+    "max": 0.1758,
+    "mean": 0.063,
+    "std": 0.0507
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " ready",
+        "count": 6,
+        "mean_activation": 0.0878
+      },
+      {
+        "token": " peaceful",
+        "count": 1,
+        "mean_activation": 0.0442
+      },
+      {
+        "token": " to",
+        "count": 1,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " busy",
+        "count": 1,
+        "mean_activation": 0.0562
+      },
+      {
+        "token": " waiting",
+        "count": 1,
+        "mean_activation": 0.052
+      },
+      {
+        "token": " available",
+        "count": 1,
+        "mean_activation": 0.0265
+      },
+      {
+        "token": " warm",
+        "count": 1,
+        "mean_activation": 0.0508
+      },
+      {
+        "token": " off",
+        "count": 1,
+        "mean_activation": 0.0338
+      }
+    ]
+  }
+}

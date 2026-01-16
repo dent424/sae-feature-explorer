@@ -1,0 +1,876 @@
+{
+  "feature_idx": 11147,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 99,
+    "mean_when_active": 0.1152157253689236,
+    "max_activation": 0.269287109375,
+    "std_when_active": 0.07888825640277185,
+    "activation_rate": 0.00099
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 37395,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " though",
+        "count": 18372,
+        "mean_activation": 0.10411505820625051
+      },
+      {
+        "token": " although",
+        "count": 5937,
+        "mean_activation": 0.18169242315306816
+      },
+      {
+        "token": " Although",
+        "count": 2652,
+        "mean_activation": 0.09218100293189692
+      },
+      {
+        "token": " if",
+        "count": 1547,
+        "mean_activation": 0.06266227381878232
+      },
+      {
+        "token": " however",
+        "count": 1530,
+        "mean_activation": 0.03252174527037378
+      },
+      {
+        "token": " Though",
+        "count": 898,
+        "mean_activation": 0.12156745213973762
+      },
+      {
+        "token": " but",
+        "count": 812,
+        "mean_activation": 0.024821286131008504
+      },
+      {
+        "token": "although",
+        "count": 804,
+        "mean_activation": 0.23953664599366448
+      },
+      {
+        "token": "though",
+        "count": 652,
+        "mean_activation": 0.24879567901049654
+      },
+      {
+        "token": " despite",
+        "count": 622,
+        "mean_activation": 0.03270517821480607
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 37395,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ere, she was great,** though**). However, the plac...",
+        "active_token": " though",
+        "activation": 0.31396484375,
+        "review_id": "8vAz2MXMYGxTVNBjMukW-Q",
+        "position": 114
+      },
+      {
+        "context": "...ere, she was great,** though**). However, the plac...",
+        "active_token": " though",
+        "activation": 0.31396484375,
+        "review_id": "-5y0nVWODx1mFl06lkqWLg",
+        "position": 114
+      },
+      {
+        "context": "... seemed to like it,** though**.",
+        "active_token": " though",
+        "activation": 0.30859375,
+        "review_id": "HviRx3fWDja3vPc2VBmbqg",
+        "position": 106
+      },
+      {
+        "context": "... it's improving --** although** still with an issu...",
+        "active_token": " although",
+        "activation": 0.308349609375,
+        "review_id": "XDA0LFPzAP7UOW5r0GVa7g",
+        "position": 24
+      },
+      {
+        "context": "...t better with time (**though** it would be nice if...",
+        "active_token": "though",
+        "activation": 0.304931640625,
+        "review_id": "paj_Muo9EQn8ff3YJu1GWQ",
+        "position": 187
+      },
+      {
+        "context": "...n some of the best,** though**. Both times Andres ...",
+        "active_token": " though",
+        "activation": 0.301513671875,
+        "review_id": "wv7URB1UCIYnb6onT2TB7Q",
+        "position": 83
+      },
+      {
+        "context": "... especially for us,** though** I was told cactus i...",
+        "active_token": " though",
+        "activation": 0.30126953125,
+        "review_id": "5CSZ6oqz31QzWbWhV1elmw",
+        "position": 252
+      },
+      {
+        "context": "... like this happens (**though** this has never happ...",
+        "active_token": "though",
+        "activation": 0.300537109375,
+        "review_id": "wAl-gkAYtd44WJ4IKCrPNg",
+        "position": 144
+      },
+      {
+        "context": "...relatively cheap --** though** a lot of 4oz glasse...",
+        "active_token": " though",
+        "activation": 0.300537109375,
+        "review_id": "WV3i-mGSsBSo9xxUBjA4UQ",
+        "position": 546
+      },
+      {
+        "context": "...a Blanco is better (**though** not without its own...",
+        "active_token": "though",
+        "activation": 0.299560546875,
+        "review_id": "7xCcOikkpSVMzB_yLYXAdw",
+        "position": 48
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11147,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2715,
+        "max": 0.314,
+        "mean": 0.2786
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ",",
+            " though"
+          ],
+          "ngram_str": ", though",
+          "count": 183,
+          "percent": 36.6
+        },
+        {
+          "ngram": [
+            " (",
+            "though"
+          ],
+          "ngram_str": " (though",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            ",",
+            " although"
+          ],
+          "ngram_str": ", although",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " good",
+            ","
+          ],
+          "ngram_str": " good,",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " (",
+            "although"
+          ],
+          "ngram_str": " (although",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " though",
+            " I"
+          ],
+          "ngram_str": " though I",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "though",
+            " I"
+          ],
+          "ngram_str": "though I",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " though",
+            " the"
+          ],
+          "ngram_str": " though the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " though",
+            "."
+          ],
+          "ngram_str": " though.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " a",
+            " bit"
+          ],
+          "ngram_str": " a bit",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " good",
+            " ("
+          ],
+          "ngram_str": " good (",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " was",
+            " good"
+          ],
+          "ngram_str": " was good",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " although",
+            " I"
+          ],
+          "ngram_str": " although I",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " though",
+            " not"
+          ],
+          "ngram_str": " though not",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " were",
+            " good"
+          ],
+          "ngram_str": " were good",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " (",
+            "though",
+            " I"
+          ],
+          "ngram_str": " (though I",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ",",
+            " though",
+            " I"
+          ],
+          "ngram_str": ", though I",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " good",
+            ",",
+            " though"
+          ],
+          "ngram_str": " good, though",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ",",
+            " though",
+            " the"
+          ],
+          "ngram_str": ", though the",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " though",
+            "."
+          ],
+          "ngram_str": ", though.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " good",
+            ",",
+            " although"
+          ],
+          "ngram_str": " good, although",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " although",
+            " I"
+          ],
+          "ngram_str": ", although I",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ",",
+            " though",
+            " not"
+          ],
+          "ngram_str": ", though not",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " although",
+            " the"
+          ],
+          "ngram_str": ", although the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " good",
+            " (",
+            "though"
+          ],
+          "ngram_str": " good (though",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " were",
+            " good",
+            ","
+          ],
+          "ngram_str": " were good,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " (",
+            "though",
+            " it"
+          ],
+          "ngram_str": " (though it",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " was",
+            " good",
+            ","
+          ],
+          "ngram_str": " was good,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " (",
+            "though",
+            " the"
+          ],
+          "ngram_str": " (though the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " great",
+            ",",
+            " though"
+          ],
+          "ngram_str": " great, though",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " good",
+            ",",
+            " though",
+            " not"
+          ],
+          "ngram_str": " good, though not",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " were",
+            " good",
+            ",",
+            " although"
+          ],
+          "ngram_str": " were good, although",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " was",
+            " good",
+            ",",
+            " though"
+          ],
+          "ngram_str": " was good, though",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " were",
+            " good",
+            ",",
+            " though"
+          ],
+          "ngram_str": " were good, though",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " good",
+            ",",
+            " though",
+            "."
+          ],
+          "ngram_str": " good, though.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " good",
+            " too",
+            ",",
+            " though"
+          ],
+          "ngram_str": " good too, though",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " good",
+            ",",
+            " although",
+            " the"
+          ],
+          "ngram_str": " good, although the",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " was",
+            " good",
+            ",",
+            " although"
+          ],
+          "ngram_str": " was good, although",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " was",
+            " good",
+            " too",
+            ","
+          ],
+          "ngram_str": " was good too,",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " good",
+            ",",
+            " though",
+            " the"
+          ],
+          "ngram_str": " good, though the",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " (",
+            "though",
+            " a",
+            " bit"
+          ],
+          "ngram_str": " (though a bit",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " as",
+            " well",
+            ",",
+            " though"
+          ],
+          "ngram_str": " as well, though",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " good",
+            ",",
+            " though",
+            " I"
+          ],
+          "ngram_str": " good, though I",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " very",
+            " good",
+            ",",
+            " although"
+          ],
+          "ngram_str": " very good, although",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " was",
+            " great",
+            ",",
+            " though"
+          ],
+          "ngram_str": " was great, though",
+          "count": 3,
+          "percent": 0.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13500000,
+      "corpus_coverage": 0.2611
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 659,
+        "count": 8278,
+        "percent": 82.78
+      },
+      {
+        "feature_idx": 988,
+        "count": 6250,
+        "percent": 62.5
+      },
+      {
+        "feature_idx": 2287,
+        "count": 5979,
+        "percent": 59.79
+      },
+      {
+        "feature_idx": 22756,
+        "count": 4971,
+        "percent": 49.71
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4740,
+        "percent": 47.4
+      },
+      {
+        "feature_idx": 5779,
+        "count": 4240,
+        "percent": 42.4
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4129,
+        "percent": 41.29
+      },
+      {
+        "feature_idx": 4824,
+        "count": 4008,
+        "percent": 40.08
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3925,
+        "percent": 39.25
+      },
+      {
+        "feature_idx": 11839,
+        "count": 3851,
+        "percent": 38.51
+      },
+      {
+        "feature_idx": 7800,
+        "count": 3664,
+        "percent": 36.64
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3630,
+        "percent": 36.3
+      },
+      {
+        "feature_idx": 858,
+        "count": 3472,
+        "percent": 34.72
+      },
+      {
+        "feature_idx": 20269,
+        "count": 3462,
+        "percent": 34.62
+      },
+      {
+        "feature_idx": 8504,
+        "count": 3389,
+        "percent": 33.89
+      },
+      {
+        "feature_idx": 15931,
+        "count": 3237,
+        "percent": 32.37
+      },
+      {
+        "feature_idx": 7784,
+        "count": 2998,
+        "percent": 29.98
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2989,
+        "percent": 29.89
+      },
+      {
+        "feature_idx": 15956,
+        "count": 2839,
+        "percent": 28.39
+      },
+      {
+        "feature_idx": 9579,
+        "count": 2824,
+        "percent": 28.24
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13500000,
+      "corpus_coverage": 0.2611
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1384,
+        "percent": 13.84
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1956,
+        "percent": 19.56
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2085,
+        "percent": 20.85
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2267,
+        "percent": 22.67
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2308,
+        "percent": 23.08
+      }
+    ],
+    "mean_position": 0.5458,
+    "std_position": 0.2753
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 99,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0338,
+      "p25": 0.0512,
+      "p50": 0.0909,
+      "p75": 0.1884,
+      "p90": 0.2447,
+      "p95": 0.2554,
+      "p99": 0.2662
+    },
+    "skewness": 0.6598,
+    "kurtosis": -1.0137,
+    "min": 0.0183,
+    "max": 0.2693,
+    "mean": 0.1152,
+    "std": 0.0789
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 99,
+      "unique_tokens_found": 18
+    },
+    "tokens": [
+      {
+        "token": " though",
+        "count": 54,
+        "mean_activation": 0.1049
+      },
+      {
+        "token": " although",
+        "count": 12,
+        "mean_activation": 0.1948
+      },
+      {
+        "token": " Although",
+        "count": 5,
+        "mean_activation": 0.106
+      },
+      {
+        "token": " however",
+        "count": 4,
+        "mean_activation": 0.0295
+      },
+      {
+        "token": "though",
+        "count": 4,
+        "mean_activation": 0.2132
+      },
+      {
+        "token": " if",
+        "count": 3,
+        "mean_activation": 0.0677
+      },
+      {
+        "token": "although",
+        "count": 3,
+        "mean_activation": 0.2513
+      },
+      {
+        "token": " Though",
+        "count": 3,
+        "mean_activation": 0.1157
+      },
+      {
+        "token": "if",
+        "count": 2,
+        "mean_activation": 0.0453
+      },
+      {
+        "token": " admittedly",
+        "count": 1,
+        "mean_activation": 0.0347
+      }
+    ]
+  }
+}

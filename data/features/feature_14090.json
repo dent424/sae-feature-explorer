@@ -1,0 +1,866 @@
+{
+  "feature_idx": 14090,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 88,
+    "mean_when_active": 0.0861669887195934,
+    "max_activation": 0.1885986328125,
+    "std_when_active": 0.045974914482934726,
+    "activation_rate": 0.00088
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 46998,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " there",
+        "count": 43748,
+        "mean_activation": 0.0894406336016767
+      },
+      {
+        "token": " it",
+        "count": 778,
+        "mean_activation": 0.026216825666648257
+      },
+      {
+        "token": " here",
+        "count": 703,
+        "mean_activation": 0.021192537093399938
+      },
+      {
+        "token": " at",
+        "count": 350,
+        "mean_activation": 0.03202789306640625
+      },
+      {
+        "token": " them",
+        "count": 161,
+        "mean_activation": 0.02629615357203513
+      },
+      {
+        "token": " home",
+        "count": 146,
+        "mean_activation": 0.026204461920751283
+      },
+      {
+        "token": " inside",
+        "count": 121,
+        "mean_activation": 0.023976601844976755
+      },
+      {
+        "token": " restaurant",
+        "count": 115,
+        "mean_activation": 0.021239438264266303
+      },
+      {
+        "token": " and",
+        "count": 100,
+        "mean_activation": 0.024147720336914064
+      },
+      {
+        "token": " THERE",
+        "count": 81,
+        "mean_activation": 0.11680584189332562
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 46998,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...it and definitely go** there** at least once a mon...",
+        "active_token": " there",
+        "activation": 0.2088623046875,
+        "review_id": "iZIW9s0SQ772zyunTNkkZQ",
+        "position": 174
+      },
+      {
+        "context": "... belly and soul.  Go** there** and eat!!",
+        "active_token": " there",
+        "activation": 0.2078857421875,
+        "review_id": "jaqpDwGfWQYtw3Hluhs8sQ",
+        "position": 41
+      },
+      {
+        "context": "... belly and soul.  Go** there** and eat!!",
+        "active_token": " there",
+        "activation": 0.2078857421875,
+        "review_id": "xnLfw9UClPGnq9thB1z4og",
+        "position": 41
+      },
+      {
+        "context": "...usly had a fit. I go** there** at least once a wee...",
+        "active_token": " there",
+        "activation": 0.2069091796875,
+        "review_id": "bQkA1ZXE4YeK4lcf4TKz_g",
+        "position": 43
+      },
+      {
+        "context": "...get pretty busy.  Go** there** during \"off hours\" ...",
+        "active_token": " there",
+        "activation": 0.2056884765625,
+        "review_id": "IP6olO9iMa-VWvqrX5KAZA",
+        "position": 59
+      },
+      {
+        "context": "...rself a favor and go** there**.",
+        "active_token": " there",
+        "activation": 0.204345703125,
+        "review_id": "oYThc6ouBlS-SMLFUVmcLA",
+        "position": 162
+      },
+      {
+        "context": "...ing. Hint Hint....go** there** stat, you could mak...",
+        "active_token": " there",
+        "activation": 0.2042236328125,
+        "review_id": "UTTXwzNixkOhE0zjFj8CYg",
+        "position": 316
+      },
+      {
+        "context": "...ers for tomorrow. Go** there**!",
+        "active_token": " there",
+        "activation": 0.203857421875,
+        "review_id": "ohugF_whcSQOuVRIfvwGbg",
+        "position": 96
+      },
+      {
+        "context": "...e negatives and went** there** for lunch today. It...",
+        "active_token": " there",
+        "activation": 0.203125,
+        "review_id": "WFpBlK_x3tN3u1ZiPF7wMw",
+        "position": 17
+      },
+      {
+        "context": "...rive thru and I'd go** there** instead of Del Taco...",
+        "active_token": " there",
+        "activation": 0.20263671875,
+        "review_id": "U1SJhgvAQjuaIY7qItVamg",
+        "position": 124
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 14090,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1823,
+        "max": 0.2089,
+        "mean": 0.189
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " go",
+            " there"
+          ],
+          "ngram_str": " go there",
+          "count": 227,
+          "percent": 45.4
+        },
+        {
+          "ngram": [
+            " went",
+            " there"
+          ],
+          "ngram_str": " went there",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " Go",
+            " there"
+          ],
+          "ngram_str": " Go there",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " there",
+            " for"
+          ],
+          "ngram_str": " there for",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " there",
+            "."
+          ],
+          "ngram_str": " there.",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " Went",
+            " there"
+          ],
+          "ngram_str": " Went there",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Go"
+          ],
+          "ngram_str": ". Go",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " there",
+            " and"
+          ],
+          "ngram_str": " there and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " there",
+            " again"
+          ],
+          "ngram_str": " there again",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " go"
+          ],
+          "ngram_str": " and go",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " I",
+            " went"
+          ],
+          "ngram_str": " I went",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " there",
+            ","
+          ],
+          "ngram_str": " there,",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Go",
+            " there"
+          ],
+          "ngram_str": ". Go there",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " go",
+            " there",
+            " for"
+          ],
+          "ngram_str": " go there for",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " go",
+            " there"
+          ],
+          "ngram_str": " and go there",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " there"
+          ],
+          "ngram_str": " I went there",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Went",
+            " there"
+          ],
+          "ngram_str": ". Went there",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " go",
+            " there",
+            "."
+          ],
+          "ngram_str": " go there.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " I",
+            " go",
+            " there"
+          ],
+          "ngram_str": " I go there",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " we",
+            " went",
+            " there"
+          ],
+          "ngram_str": " we went there",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " go",
+            " there"
+          ],
+          "ngram_str": ", go there",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Go",
+            " there",
+            "."
+          ],
+          "ngram_str": " Go there.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Go",
+            " there"
+          ],
+          "ngram_str": "  Go there",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " go",
+            " there",
+            " again"
+          ],
+          "ngram_str": " go there again",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Go",
+            " there",
+            "."
+          ],
+          "ngram_str": ". Go there.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Go",
+            " there"
+          ],
+          "ngram_str": ".  Go there",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " so",
+            " we",
+            " went",
+            " there"
+          ],
+          "ngram_str": " so we went there",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " go",
+            " there"
+          ],
+          "ngram_str": " I'd go there",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " don",
+            "'t",
+            " go",
+            " there"
+          ],
+          "ngram_str": " don't go there",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " go",
+            " there",
+            " for",
+            " the"
+          ],
+          "ngram_str": " go there for the",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " go",
+            " there"
+          ],
+          "ngram_str": " favor and go there",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Go",
+            " there"
+          ],
+          "ngram_str": "\u00c4\u012cGo there",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " go",
+            " there"
+          ],
+          "ngram_str": " I would go there",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " go",
+            " there",
+            " at",
+            " least"
+          ],
+          "ngram_str": " go there at least",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " go",
+            " there"
+          ],
+          "ngram_str": ". I go there",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " we",
+            " went",
+            " there",
+            "."
+          ],
+          "ngram_str": " we went there.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " there",
+            " at",
+            " least",
+            " once"
+          ],
+          "ngram_str": " there at least once",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 12289,
+        "count": 9494,
+        "percent": 94.94
+      },
+      {
+        "feature_idx": 18108,
+        "count": 9339,
+        "percent": 93.39
+      },
+      {
+        "feature_idx": 23437,
+        "count": 9220,
+        "percent": 92.2
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5630,
+        "percent": 56.3
+      },
+      {
+        "feature_idx": 1227,
+        "count": 5174,
+        "percent": 51.74
+      },
+      {
+        "feature_idx": 16011,
+        "count": 4342,
+        "percent": 43.42
+      },
+      {
+        "feature_idx": 15705,
+        "count": 4036,
+        "percent": 40.36
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3994,
+        "percent": 39.94
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3964,
+        "percent": 39.64
+      },
+      {
+        "feature_idx": 12916,
+        "count": 3866,
+        "percent": 38.66
+      },
+      {
+        "feature_idx": 17427,
+        "count": 3819,
+        "percent": 38.19
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3618,
+        "percent": 36.18
+      },
+      {
+        "feature_idx": 2014,
+        "count": 3608,
+        "percent": 36.08
+      },
+      {
+        "feature_idx": 4484,
+        "count": 3606,
+        "percent": 36.06
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3545,
+        "percent": 35.45
+      },
+      {
+        "feature_idx": 7841,
+        "count": 3296,
+        "percent": 32.96
+      },
+      {
+        "feature_idx": 8461,
+        "count": 3123,
+        "percent": 31.23
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2859,
+        "percent": 28.59
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2743,
+        "percent": 27.43
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2690,
+        "percent": 26.9
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2507,
+        "percent": 25.07
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1927,
+        "percent": 19.27
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1528,
+        "percent": 15.28
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1578,
+        "percent": 15.78
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2460,
+        "percent": 24.6
+      }
+    ],
+    "mean_position": 0.4935,
+    "std_position": 0.3149
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 88,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0277,
+      "p25": 0.0493,
+      "p50": 0.0814,
+      "p75": 0.1165,
+      "p90": 0.1568,
+      "p95": 0.1603,
+      "p99": 0.1856
+    },
+    "skewness": 0.2998,
+    "kurtosis": -0.948,
+    "min": 0.0149,
+    "max": 0.1886,
+    "mean": 0.0862,
+    "std": 0.046
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 88,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " there",
+        "count": 81,
+        "mean_activation": 0.0902
+      },
+      {
+        "token": " here",
+        "count": 1,
+        "mean_activation": 0.0313
+      },
+      {
+        "token": " at",
+        "count": 1,
+        "mean_activation": 0.0236
+      },
+      {
+        "token": " them",
+        "count": 1,
+        "mean_activation": 0.0271
+      },
+      {
+        "token": " to",
+        "count": 1,
+        "mean_activation": 0.016
+      },
+      {
+        "token": " THERE",
+        "count": 1,
+        "mean_activation": 0.1285
+      },
+      {
+        "token": " home",
+        "count": 1,
+        "mean_activation": 0.0251
+      },
+      {
+        "token": " it",
+        "count": 1,
+        "mean_activation": 0.0224
+      }
+    ]
+  }
+}

@@ -1,0 +1,861 @@
+{
+  "feature_idx": 3995,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 33,
+    "mean_when_active": 0.07807043826941287,
+    "max_activation": 0.15966796875,
+    "std_when_active": 0.035801902153309535,
+    "activation_rate": 0.00033
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 12470,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 8114,
+        "mean_activation": 0.08730719164142416
+      },
+      {
+        "token": " be",
+        "count": 1066,
+        "mean_activation": 0.03719344863748461
+      },
+      {
+        "token": " favor",
+        "count": 994,
+        "mean_activation": 0.030201856279277225
+      },
+      {
+        "token": " but",
+        "count": 577,
+        "mean_activation": 0.09630498770411342
+      },
+      {
+        "token": " once",
+        "count": 292,
+        "mean_activation": 0.05822419467037671
+      },
+      {
+        "token": " already",
+        "count": 263,
+        "mean_activation": 0.032123783242113235
+      },
+      {
+        "token": " still",
+        "count": 256,
+        "mean_activation": 0.0333104133605957
+      },
+      {
+        "token": " now",
+        "count": 84,
+        "mean_activation": 0.031711941673642115
+      },
+      {
+        "token": " of",
+        "count": 75,
+        "mean_activation": 0.03869425455729167
+      },
+      {
+        "token": " and",
+        "count": 73,
+        "mean_activation": 0.044823633481378425
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 12470,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...stem end of what used** to** be a pepper. The pobl...",
+        "active_token": " to",
+        "activation": 0.1927490234375,
+        "review_id": "z1dwJExdfq4xo5KhRIoCzw",
+        "position": 179
+      },
+      {
+        "context": "...a star from what used** to** be a 5-star establish...",
+        "active_token": " to",
+        "activation": 0.186279296875,
+        "review_id": "SX4nIrMOr9ejZl1E8iexmw",
+        "position": 378
+      },
+      {
+        "context": "...happened to what used** to** be the best Mexican f...",
+        "active_token": " to",
+        "activation": 0.184814453125,
+        "review_id": "59Uw2CFJdYf1IIMJLKhqFg",
+        "position": 5
+      },
+      {
+        "context": "... employ and what used** to** be a five star casual...",
+        "active_token": " to",
+        "activation": 0.1783447265625,
+        "review_id": "wccZ16I1hd8dh9Isim3yyw",
+        "position": 325
+      },
+      {
+        "context": "... employ and what used** to** be a five star casual...",
+        "active_token": " to",
+        "activation": 0.1783447265625,
+        "review_id": "gSKMMwblxo6bHOXbV49tPA",
+        "position": 325
+      },
+      {
+        "context": "...ket because what used** to** be Free parking is no...",
+        "active_token": " to",
+        "activation": 0.17822265625,
+        "review_id": "Uez9UzXg__2QfOc8HeTEQw",
+        "position": 43
+      },
+      {
+        "context": "...esthetic of what used** to** be a great establishm...",
+        "active_token": " to",
+        "activation": 0.17724609375,
+        "review_id": "Zt8yvWeKQtXnKBbggtp8FA",
+        "position": 93
+      },
+      {
+        "context": "... a waste of what used** to** be a great live music...",
+        "active_token": " to",
+        "activation": 0.17626953125,
+        "review_id": "C713TeebDNhl76B2LpMgBw",
+        "position": 269
+      },
+      {
+        "context": "...have ruined what used** to** be a great local spot...",
+        "active_token": " to",
+        "activation": 0.1761474609375,
+        "review_id": "jAtfWK0k_njuhC0SkXyyJQ",
+        "position": 6
+      },
+      {
+        "context": "...sushi joint that used** to** be there...out of bus...",
+        "active_token": " to",
+        "activation": 0.1759033203125,
+        "review_id": "SwK9awnBahBUWJEZl-1o5w",
+        "position": 224
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3995,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1332,
+        "max": 0.1927,
+        "mean": 0.1467
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " used",
+            " to"
+          ],
+          "ngram_str": " used to",
+          "count": 454,
+          "percent": 90.8
+        },
+        {
+          "ngram": [
+            " to",
+            " be"
+          ],
+          "ngram_str": " to be",
+          "count": 293,
+          "percent": 58.6
+        },
+        {
+          "ngram": [
+            " that",
+            " used"
+          ],
+          "ngram_str": " that used",
+          "count": 110,
+          "percent": 22.0
+        },
+        {
+          "ngram": [
+            " what",
+            " used"
+          ],
+          "ngram_str": " what used",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " be",
+            "."
+          ],
+          "ngram_str": " be.",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " it",
+            " used"
+          ],
+          "ngram_str": " it used",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " help",
+            " but"
+          ],
+          "ngram_str": " help but",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " help"
+          ],
+          "ngram_str": "'t help",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " be",
+            " a"
+          ],
+          "ngram_str": " be a",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " I",
+            " used"
+          ],
+          "ngram_str": " I used",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " they",
+            " used"
+          ],
+          "ngram_str": " they used",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " can",
+            "'t"
+          ],
+          "ngram_str": " can't",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " who",
+            " used"
+          ],
+          "ngram_str": " who used",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " of",
+            " what"
+          ],
+          "ngram_str": " of what",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " what",
+            " it"
+          ],
+          "ngram_str": " what it",
+          "count": 28,
+          "percent": 5.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " used",
+            " to",
+            " be"
+          ],
+          "ngram_str": " used to be",
+          "count": 293,
+          "percent": 58.6
+        },
+        {
+          "ngram": [
+            " that",
+            " used",
+            " to"
+          ],
+          "ngram_str": " that used to",
+          "count": 110,
+          "percent": 22.0
+        },
+        {
+          "ngram": [
+            " what",
+            " used",
+            " to"
+          ],
+          "ngram_str": " what used to",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " to",
+            " be",
+            "."
+          ],
+          "ngram_str": " to be.",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " it",
+            " used",
+            " to"
+          ],
+          "ngram_str": " it used to",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " help",
+            " but"
+          ],
+          "ngram_str": "'t help but",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " I",
+            " used",
+            " to"
+          ],
+          "ngram_str": " I used to",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " to",
+            " be",
+            " a"
+          ],
+          "ngram_str": " to be a",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " they",
+            " used",
+            " to"
+          ],
+          "ngram_str": " they used to",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " help"
+          ],
+          "ngram_str": " can't help",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " who",
+            " used",
+            " to"
+          ],
+          "ngram_str": " who used to",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " what",
+            " it",
+            " used"
+          ],
+          "ngram_str": " what it used",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " used",
+            " to",
+            " live"
+          ],
+          "ngram_str": " used to live",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " to",
+            " be",
+            " in"
+          ],
+          "ngram_str": " to be in",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " to",
+            " be",
+            " the"
+          ],
+          "ngram_str": " to be the",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " what",
+            " used",
+            " to",
+            " be"
+          ],
+          "ngram_str": " what used to be",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " that",
+            " used",
+            " to",
+            " be"
+          ],
+          "ngram_str": " that used to be",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " used",
+            " to",
+            " be",
+            "."
+          ],
+          "ngram_str": " used to be.",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " it",
+            " used",
+            " to",
+            " be"
+          ],
+          "ngram_str": " it used to be",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " used",
+            " to",
+            " be",
+            " a"
+          ],
+          "ngram_str": " used to be a",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " help",
+            " but"
+          ],
+          "ngram_str": " can't help but",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " what",
+            " it",
+            " used",
+            " to"
+          ],
+          "ngram_str": " what it used to",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " used",
+            " to",
+            " be",
+            " in"
+          ],
+          "ngram_str": " used to be in",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " used",
+            " to",
+            " be",
+            " the"
+          ],
+          "ngram_str": " used to be the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " used",
+            " to",
+            " live",
+            " in"
+          ],
+          "ngram_str": " used to live in",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " they",
+            " used",
+            " to",
+            " be"
+          ],
+          "ngram_str": " they used to be",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " of",
+            " what",
+            " used",
+            " to"
+          ],
+          "ngram_str": " of what used to",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " What",
+            " used",
+            " to",
+            " be"
+          ],
+          "ngram_str": " What used to be",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " in",
+            " what",
+            " used",
+            " to"
+          ],
+          "ngram_str": " in what used to",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " I",
+            " can",
+            "'t",
+            " help"
+          ],
+          "ngram_str": " I can't help",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 42100000,
+      "corpus_coverage": 0.8143
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11305,
+        "count": 7567,
+        "percent": 75.67
+      },
+      {
+        "feature_idx": 20890,
+        "count": 7370,
+        "percent": 73.7
+      },
+      {
+        "feature_idx": 16339,
+        "count": 6780,
+        "percent": 67.8
+      },
+      {
+        "feature_idx": 10424,
+        "count": 6354,
+        "percent": 63.54
+      },
+      {
+        "feature_idx": 13898,
+        "count": 6315,
+        "percent": 63.15
+      },
+      {
+        "feature_idx": 12334,
+        "count": 6007,
+        "percent": 60.07
+      },
+      {
+        "feature_idx": 3543,
+        "count": 5936,
+        "percent": 59.36
+      },
+      {
+        "feature_idx": 14100,
+        "count": 5537,
+        "percent": 55.37
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5455,
+        "percent": 54.55
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4648,
+        "percent": 46.48
+      },
+      {
+        "feature_idx": 5197,
+        "count": 4613,
+        "percent": 46.13
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4333,
+        "percent": 43.33
+      },
+      {
+        "feature_idx": 20403,
+        "count": 4144,
+        "percent": 41.44
+      },
+      {
+        "feature_idx": 18800,
+        "count": 3881,
+        "percent": 38.81
+      },
+      {
+        "feature_idx": 17430,
+        "count": 3695,
+        "percent": 36.95
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3470,
+        "percent": 34.7
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3265,
+        "percent": 32.65
+      },
+      {
+        "feature_idx": 16665,
+        "count": 3006,
+        "percent": 30.06
+      },
+      {
+        "feature_idx": 11950,
+        "count": 2904,
+        "percent": 29.04
+      },
+      {
+        "feature_idx": 17492,
+        "count": 2904,
+        "percent": 29.04
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 42100000,
+      "corpus_coverage": 0.8143
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3822,
+        "percent": 38.22
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1461,
+        "percent": 14.61
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1413,
+        "percent": 14.13
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1469,
+        "percent": 14.69
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1835,
+        "percent": 18.35
+      }
+    ],
+    "mean_position": 0.4091,
+    "std_position": 0.3272
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 33,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0303,
+      "p25": 0.045,
+      "p50": 0.0863,
+      "p75": 0.108,
+      "p90": 0.1196,
+      "p95": 0.1307,
+      "p99": 0.1542
+    },
+    "skewness": 0.1711,
+    "kurtosis": -0.8578,
+    "min": 0.0232,
+    "max": 0.1597,
+    "mean": 0.0781,
+    "std": 0.0358
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 33,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 24,
+        "mean_activation": 0.0897
+      },
+      {
+        "token": " favor",
+        "count": 2,
+        "mean_activation": 0.0286
+      },
+      {
+        "token": " be",
+        "count": 2,
+        "mean_activation": 0.0575
+      },
+      {
+        "token": " still",
+        "count": 2,
+        "mean_activation": 0.0335
+      },
+      {
+        "token": " yet",
+        "count": 1,
+        "mean_activation": 0.0311
+      },
+      {
+        "token": " once",
+        "count": 1,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " but",
+        "count": 1,
+        "mean_activation": 0.1221
+      }
+    ]
+  }
+}

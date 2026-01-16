@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23874,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 83,
+    "mean_when_active": 0.05966581781226468,
+    "max_activation": 0.25732421875,
+    "std_when_active": 0.050559484147956975,
+    "activation_rate": 0.00083
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 41877,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " more",
+        "count": 19256,
+        "mean_activation": 0.0730913516442014
+      },
+      {
+        "token": " other",
+        "count": 3491,
+        "mean_activation": 0.060136603270994834
+      },
+      {
+        "token": " different",
+        "count": 1916,
+        "mean_activation": 0.03826657416676181
+      },
+      {
+        "token": " of",
+        "count": 1417,
+        "mean_activation": 0.05137739269011611
+      },
+      {
+        "token": " some",
+        "count": 1258,
+        "mean_activation": 0.04398368993131459
+      },
+      {
+        "token": " else",
+        "count": 1128,
+        "mean_activation": 0.039903904529328044
+      },
+      {
+        "token": " another",
+        "count": 1052,
+        "mean_activation": 0.042287993340437854
+      },
+      {
+        "token": " the",
+        "count": 1016,
+        "mean_activation": 0.03534028661532665
+      },
+      {
+        "token": " new",
+        "count": 696,
+        "mean_activation": 0.03192298713771776
+      },
+      {
+        "token": " items",
+        "count": 668,
+        "mean_activation": 0.03785257853433757
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 41877,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...itely be back to try** more** as the menu changes ...",
+        "active_token": " more",
+        "activation": 0.264404296875,
+        "review_id": "jf_F9VppDGQDzBvXo2-Ghw",
+        "position": 61
+      },
+      {
+        "context": "...itely be back to try** more**!",
+        "active_token": " more",
+        "activation": 0.261962890625,
+        "review_id": "4q2y9kRdN3hRgnH5NlQs8A",
+        "position": 27
+      },
+      {
+        "context": "...be going back to try** more** things on the menu.",
+        "active_token": " more",
+        "activation": 0.26171875,
+        "review_id": "ywyVQaykbb5YDb-0RlOjMQ",
+        "position": 40
+      },
+      {
+        "context": "... Will be back to try** more** from this unique men...",
+        "active_token": " more",
+        "activation": 0.260986328125,
+        "review_id": "A4do3OUcf93blrSVMMG_Eg",
+        "position": 59
+      },
+      {
+        "context": "...itely be back to try** more** of the tacos! Highly...",
+        "active_token": " more",
+        "activation": 0.260986328125,
+        "review_id": "LFVsEK_e6hblh71--JhLWg",
+        "position": 108
+      },
+      {
+        "context": "...itely be back to try** more**!",
+        "active_token": " more",
+        "activation": 0.260009765625,
+        "review_id": "ha0zNwczF73ccQWuZP1H6w",
+        "position": 228
+      },
+      {
+        "context": "...itely be back to try** more**!!",
+        "active_token": " more",
+        "activation": 0.259765625,
+        "review_id": "AS4qXikjMNLNSPXqK2PrpQ",
+        "position": 41
+      },
+      {
+        "context": "...itely be back to try** more** things! Tip: cash on...",
+        "active_token": " more",
+        "activation": 0.258544921875,
+        "review_id": "UMnvVMk3IEGelihbcjDc2A",
+        "position": 111
+      },
+      {
+        "context": "... will be back to try** more** and more.",
+        "active_token": " more",
+        "activation": 0.257568359375,
+        "review_id": "xdtMdiM78FW9VdBg2BZjJA",
+        "position": 38
+      },
+      {
+        "context": "...itely be back to try** more**!",
+        "active_token": " more",
+        "activation": 0.25732421875,
+        "review_id": "5T5rb26rhXQIwuWTO2y4hQ",
+        "position": 34
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23874,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2269,
+        "max": 0.2644,
+        "mean": 0.2377
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " try",
+            " more"
+          ],
+          "ngram_str": " try more",
+          "count": 428,
+          "percent": 85.6
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 375,
+          "percent": 75.0
+        },
+        {
+          "ngram": [
+            " back",
+            " to"
+          ],
+          "ngram_str": " back to",
+          "count": 231,
+          "percent": 46.2
+        },
+        {
+          "ngram": [
+            " be",
+            " back"
+          ],
+          "ngram_str": " be back",
+          "count": 163,
+          "percent": 32.6
+        },
+        {
+          "ngram": [
+            " more",
+            " of"
+          ],
+          "ngram_str": " more of",
+          "count": 147,
+          "percent": 29.4
+        },
+        {
+          "ngram": [
+            " the",
+            " menu"
+          ],
+          "ngram_str": " the menu",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " definitely",
+            " be"
+          ],
+          "ngram_str": " definitely be",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " menu",
+            "."
+          ],
+          "ngram_str": " menu.",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " trying",
+            " more"
+          ],
+          "ngram_str": " trying more",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " wait",
+            " to"
+          ],
+          "ngram_str": " wait to",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " forward",
+            " to"
+          ],
+          "ngram_str": " forward to",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " wait"
+          ],
+          "ngram_str": "'t wait",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " to",
+            " trying"
+          ],
+          "ngram_str": " to trying",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " more",
+            "."
+          ],
+          "ngram_str": " more.",
+          "count": 58,
+          "percent": 11.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " to",
+            " try",
+            " more"
+          ],
+          "ngram_str": " to try more",
+          "count": 375,
+          "percent": 75.0
+        },
+        {
+          "ngram": [
+            " back",
+            " to",
+            " try"
+          ],
+          "ngram_str": " back to try",
+          "count": 231,
+          "percent": 46.2
+        },
+        {
+          "ngram": [
+            " be",
+            " back",
+            " to"
+          ],
+          "ngram_str": " be back to",
+          "count": 152,
+          "percent": 30.4
+        },
+        {
+          "ngram": [
+            " try",
+            " more",
+            " of"
+          ],
+          "ngram_str": " try more of",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            " definitely",
+            " be",
+            " back"
+          ],
+          "ngram_str": " definitely be back",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " more",
+            " of",
+            " the"
+          ],
+          "ngram_str": " more of the",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " wait",
+            " to",
+            " try"
+          ],
+          "ngram_str": " wait to try",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " wait",
+            " to"
+          ],
+          "ngram_str": "'t wait to",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " trying"
+          ],
+          "ngram_str": " forward to trying",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " to",
+            " trying",
+            " more"
+          ],
+          "ngram_str": " to trying more",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " of the menu",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " more",
+            " of",
+            " their"
+          ],
+          "ngram_str": " more of their",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " try",
+            " more",
+            "."
+          ],
+          "ngram_str": " try more.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            "."
+          ],
+          "ngram_str": " the menu.",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " and",
+            " try",
+            " more"
+          ],
+          "ngram_str": " and try more",
+          "count": 48,
+          "percent": 9.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " back",
+            " to",
+            " try",
+            " more"
+          ],
+          "ngram_str": " back to try more",
+          "count": 231,
+          "percent": 46.2
+        },
+        {
+          "ngram": [
+            " be",
+            " back",
+            " to",
+            " try"
+          ],
+          "ngram_str": " be back to try",
+          "count": 152,
+          "percent": 30.4
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " more",
+            " of"
+          ],
+          "ngram_str": " to try more of",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " definitely",
+            " be",
+            " back",
+            " to"
+          ],
+          "ngram_str": " definitely be back to",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " try",
+            " more",
+            " of",
+            " the"
+          ],
+          "ngram_str": " try more of the",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " wait",
+            " to",
+            " try",
+            " more"
+          ],
+          "ngram_str": " wait to try more",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " wait",
+            " to",
+            " try"
+          ],
+          "ngram_str": "'t wait to try",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " trying",
+            " more"
+          ],
+          "ngram_str": " forward to trying more",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " more",
+            " of",
+            " the",
+            " menu"
+          ],
+          "ngram_str": " more of the menu",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " try",
+            " more",
+            " of",
+            " their"
+          ],
+          "ngram_str": " try more of their",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " more",
+            "."
+          ],
+          "ngram_str": " to try more.",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " back",
+            " and",
+            " try",
+            " more"
+          ],
+          "ngram_str": " back and try more",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " wait",
+            " to"
+          ],
+          "ngram_str": " can't wait to",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " more",
+            " items"
+          ],
+          "ngram_str": " to try more items",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " more",
+            "!"
+          ],
+          "ngram_str": " to try more!",
+          "count": 33,
+          "percent": 6.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 12100000,
+      "corpus_coverage": 0.234
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 23714,
+        "count": 5244,
+        "percent": 52.44
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4873,
+        "percent": 48.73
+      },
+      {
+        "feature_idx": 11030,
+        "count": 4761,
+        "percent": 47.61
+      },
+      {
+        "feature_idx": 5432,
+        "count": 4759,
+        "percent": 47.59
+      },
+      {
+        "feature_idx": 22677,
+        "count": 4750,
+        "percent": 47.5
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4742,
+        "percent": 47.42
+      },
+      {
+        "feature_idx": 14534,
+        "count": 4587,
+        "percent": 45.87
+      },
+      {
+        "feature_idx": 18933,
+        "count": 4355,
+        "percent": 43.55
+      },
+      {
+        "feature_idx": 19404,
+        "count": 4323,
+        "percent": 43.23
+      },
+      {
+        "feature_idx": 10628,
+        "count": 4082,
+        "percent": 40.82
+      },
+      {
+        "feature_idx": 14179,
+        "count": 4062,
+        "percent": 40.62
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3921,
+        "percent": 39.21
+      },
+      {
+        "feature_idx": 23484,
+        "count": 3738,
+        "percent": 37.38
+      },
+      {
+        "feature_idx": 20812,
+        "count": 3718,
+        "percent": 37.18
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3555,
+        "percent": 35.55
+      },
+      {
+        "feature_idx": 15125,
+        "count": 3529,
+        "percent": 35.29
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2940,
+        "percent": 29.4
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2845,
+        "percent": 28.45
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2795,
+        "percent": 27.95
+      },
+      {
+        "feature_idx": 2405,
+        "count": 2509,
+        "percent": 25.09
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 12100000,
+      "corpus_coverage": 0.234
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 636,
+        "percent": 6.36
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 934,
+        "percent": 9.34
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1348,
+        "percent": 13.48
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1887,
+        "percent": 18.87
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 5195,
+        "percent": 51.95
+      }
+    ],
+    "mean_position": 0.7205,
+    "std_position": 0.2678
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 83,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0228,
+      "p25": 0.0293,
+      "p50": 0.0423,
+      "p75": 0.0666,
+      "p90": 0.1247,
+      "p95": 0.1989,
+      "p99": 0.2289
+    },
+    "skewness": 2.149,
+    "kurtosis": 4.2163,
+    "min": 0.014,
+    "max": 0.2573,
+    "mean": 0.0597,
+    "std": 0.0506
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 83,
+      "unique_tokens_found": 22
+    },
+    "tokens": [
+      {
+        "token": " more",
+        "count": 40,
+        "mean_activation": 0.0766
+      },
+      {
+        "token": " different",
+        "count": 7,
+        "mean_activation": 0.0463
+      },
+      {
+        "token": " other",
+        "count": 4,
+        "mean_activation": 0.0976
+      },
+      {
+        "token": " items",
+        "count": 4,
+        "mean_activation": 0.0484
+      },
+      {
+        "token": " else",
+        "count": 3,
+        "mean_activation": 0.0377
+      },
+      {
+        "token": " a",
+        "count": 3,
+        "mean_activation": 0.0237
+      },
+      {
+        "token": " new",
+        "count": 3,
+        "mean_activation": 0.035
+      },
+      {
+        "token": " better",
+        "count": 2,
+        "mean_activation": 0.0226
+      },
+      {
+        "token": " the",
+        "count": 2,
+        "mean_activation": 0.0268
+      },
+      {
+        "token": " something",
+        "count": 2,
+        "mean_activation": 0.033
+      }
+    ]
+  }
+}

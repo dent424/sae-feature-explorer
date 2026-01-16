@@ -1,0 +1,876 @@
+{
+  "feature_idx": 11449,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 87,
+    "mean_when_active": 0.04862677913972701,
+    "max_activation": 0.15625,
+    "std_when_active": 0.030104837128791823,
+    "activation_rate": 0.00087
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 43300000,
+      "corpus_coverage": 0.8375
+    },
+    "top_tokens": [
+      {
+        "token": " eat",
+        "count": 14262,
+        "mean_activation": 0.04402872015225939
+      },
+      {
+        "token": " eating",
+        "count": 9640,
+        "mean_activation": 0.06640348553162888
+      },
+      {
+        "token": " ate",
+        "count": 4636,
+        "mean_activation": 0.04655433503382159
+      },
+      {
+        "token": " ordered",
+        "count": 2997,
+        "mean_activation": 0.033203461029388766
+      },
+      {
+        "token": " order",
+        "count": 1954,
+        "mean_activation": 0.031664978152287776
+      },
+      {
+        "token": " ordering",
+        "count": 1569,
+        "mean_activation": 0.04368472175282077
+      },
+      {
+        "token": " eaten",
+        "count": 1495,
+        "mean_activation": 0.0347284476493912
+      },
+      {
+        "token": " dining",
+        "count": 1115,
+        "mean_activation": 0.03735689582311519
+      },
+      {
+        "token": " cooking",
+        "count": 750,
+        "mean_activation": 0.04799897257486979
+      },
+      {
+        "token": " drink",
+        "count": 656,
+        "mean_activation": 0.03503183039223275
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 43300000,
+      "corpus_coverage": 0.8375
+    },
+    "activations": [
+      {
+        "context": "...and sat down. While** eating**, my husband observe...",
+        "active_token": " eating",
+        "activation": 0.1922607421875,
+        "review_id": "GT986vmoREnpUeA5D6iEEw",
+        "position": 105
+      },
+      {
+        "context": "...but he gagged while** eating** it and had to throw...",
+        "active_token": " eating",
+        "activation": 0.1895751953125,
+        "review_id": "3z28GXazl-SEhEx5mkNgFQ",
+        "position": 118
+      },
+      {
+        "context": "...flies while we were** eating**. Lastly, the music ...",
+        "active_token": " eating",
+        "activation": 0.18701171875,
+        "review_id": "RaRS8F_bpmoSQgJP1kTsWw",
+        "position": 47
+      },
+      {
+        "context": "...y to eat it.  After** eating** everything in the b...",
+        "active_token": " eating",
+        "activation": 0.185791015625,
+        "review_id": "YrfnqUFX3lhlugFvw4qWww",
+        "position": 109
+      },
+      {
+        "context": "...im when he finished** eating**. I pushed my food t...",
+        "active_token": " eating",
+        "activation": 0.1842041015625,
+        "review_id": "2fh4JHckBWzxe8X7qj-gNg",
+        "position": 117
+      },
+      {
+        "context": "...lk after I finished** eating** it. It was probably...",
+        "active_token": " eating",
+        "activation": 0.1837158203125,
+        "review_id": "XKowsKxOiwpPyj_6CIZ4Jg",
+        "position": 155
+      },
+      {
+        "context": "... the meal and after** eating** one.  Serving ranci...",
+        "active_token": " eating",
+        "activation": 0.1829833984375,
+        "review_id": "F4GkMRcZsATj9GUPgaYQ4w",
+        "position": 111
+      },
+      {
+        "context": "...s after we finished** eating** before our waitress...",
+        "active_token": " eating",
+        "activation": 0.182861328125,
+        "review_id": "2HU6QPx7jJTbUulY6gf9hg",
+        "position": 61
+      },
+      {
+        "context": "...till I was finished** eating** when she dropped of...",
+        "active_token": " eating",
+        "activation": 0.1817626953125,
+        "review_id": "lQqUSBciLMB7Zz23RZguMw",
+        "position": 159
+      },
+      {
+        "context": "..., after we finished** eating** to refill our drink...",
+        "active_token": " eating",
+        "activation": 0.181396484375,
+        "review_id": "IxrXBkCoMczE1EbEbqUDnQ",
+        "position": 42
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11449,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1482,
+        "max": 0.1923,
+        "mean": 0.1596
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " eating",
+            "."
+          ],
+          "ngram_str": " eating.",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            " we",
+            " were"
+          ],
+          "ngram_str": " we were",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " finished",
+            " eating"
+          ],
+          "ngram_str": " finished eating",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " I",
+            " was"
+          ],
+          "ngram_str": " I was",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " eating",
+            ","
+          ],
+          "ngram_str": " eating,",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " after",
+            " eating"
+          ],
+          "ngram_str": " after eating",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " while",
+            " eating"
+          ],
+          "ngram_str": " while eating",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " were",
+            " eating"
+          ],
+          "ngram_str": " were eating",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " was",
+            " eating"
+          ],
+          "ngram_str": " was eating",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " eating",
+            " it"
+          ],
+          "ngram_str": " eating it",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " done",
+            " eating"
+          ],
+          "ngram_str": " done eating",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " while",
+            " we"
+          ],
+          "ngram_str": " while we",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " while",
+            " I"
+          ],
+          "ngram_str": " while I",
+          "count": 39,
+          "percent": 7.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " we",
+            " were",
+            " eating"
+          ],
+          "ngram_str": " we were eating",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " eating"
+          ],
+          "ngram_str": " I was eating",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " finished",
+            " eating",
+            "."
+          ],
+          "ngram_str": " finished eating.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " while",
+            " I",
+            " was"
+          ],
+          "ngram_str": " while I was",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " we",
+            " finished",
+            " eating"
+          ],
+          "ngram_str": " we finished eating",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " done"
+          ],
+          "ngram_str": " we were done",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " were",
+            " done",
+            " eating"
+          ],
+          "ngram_str": " were done eating",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " while",
+            " we",
+            " were"
+          ],
+          "ngram_str": " while we were",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " eating",
+            " it",
+            "."
+          ],
+          "ngram_str": " eating it.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " eating",
+            ".",
+            " "
+          ],
+          "ngram_str": " eating. ",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " finished",
+            " eating",
+            ","
+          ],
+          "ngram_str": " finished eating,",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " was",
+            " eating",
+            " it"
+          ],
+          "ngram_str": " was eating it",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " after",
+            " we",
+            " were"
+          ],
+          "ngram_str": " after we were",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " while",
+            " eating",
+            "."
+          ],
+          "ngram_str": " while eating.",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " while",
+            " I",
+            " was",
+            " eating"
+          ],
+          "ngram_str": " while I was eating",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " done",
+            " eating"
+          ],
+          "ngram_str": " we were done eating",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " while",
+            " we",
+            " were",
+            " eating"
+          ],
+          "ngram_str": " while we were eating",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " eating",
+            " it"
+          ],
+          "ngram_str": " I was eating it",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " eating",
+            "."
+          ],
+          "ngram_str": " we were eating.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " after",
+            " we",
+            " finished",
+            " eating"
+          ],
+          "ngram_str": " after we finished eating",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " finished",
+            " eating"
+          ],
+          "ngram_str": " we were finished eating",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " was",
+            " eating",
+            " it",
+            "."
+          ],
+          "ngram_str": " was eating it.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " as",
+            " we",
+            " were",
+            " eating"
+          ],
+          "ngram_str": " as we were eating",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " while",
+            " we",
+            " ate",
+            "."
+          ],
+          "ngram_str": " while we ate.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " eating",
+            ","
+          ],
+          "ngram_str": " we were eating,",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " after",
+            " we",
+            " were",
+            " done"
+          ],
+          "ngram_str": " after we were done",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " eating",
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": " eating.  The",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " While",
+            " we",
+            " were",
+            " eating"
+          ],
+          "ngram_str": " While we were eating",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8800000,
+      "corpus_coverage": 0.1702
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 601,
+        "count": 6132,
+        "percent": 61.32
+      },
+      {
+        "feature_idx": 19959,
+        "count": 6073,
+        "percent": 60.73
+      },
+      {
+        "feature_idx": 8316,
+        "count": 6019,
+        "percent": 60.19
+      },
+      {
+        "feature_idx": 20172,
+        "count": 5712,
+        "percent": 57.12
+      },
+      {
+        "feature_idx": 21662,
+        "count": 5023,
+        "percent": 50.23
+      },
+      {
+        "feature_idx": 1797,
+        "count": 5013,
+        "percent": 50.13
+      },
+      {
+        "feature_idx": 16784,
+        "count": 4876,
+        "percent": 48.76
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4734,
+        "percent": 47.34
+      },
+      {
+        "feature_idx": 353,
+        "count": 4673,
+        "percent": 46.73
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4546,
+        "percent": 45.46
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4219,
+        "percent": 42.19
+      },
+      {
+        "feature_idx": 17430,
+        "count": 4083,
+        "percent": 40.83
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3898,
+        "percent": 38.98
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3763,
+        "percent": 37.63
+      },
+      {
+        "feature_idx": 19741,
+        "count": 3679,
+        "percent": 36.79
+      },
+      {
+        "feature_idx": 19598,
+        "count": 3585,
+        "percent": 35.85
+      },
+      {
+        "feature_idx": 22000,
+        "count": 3498,
+        "percent": 34.98
+      },
+      {
+        "feature_idx": 9829,
+        "count": 3210,
+        "percent": 32.1
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3021,
+        "percent": 30.21
+      },
+      {
+        "feature_idx": 1110,
+        "count": 2998,
+        "percent": 29.98
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 8800000,
+      "corpus_coverage": 0.1702
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1455,
+        "percent": 14.55
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2103,
+        "percent": 21.03
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2208,
+        "percent": 22.08
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2306,
+        "percent": 23.06
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1928,
+        "percent": 19.28
+      }
+    ],
+    "mean_position": 0.5234,
+    "std_position": 0.2692
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 87,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0187,
+      "p25": 0.0248,
+      "p50": 0.0397,
+      "p75": 0.0642,
+      "p90": 0.0876,
+      "p95": 0.1071,
+      "p99": 0.1453
+    },
+    "skewness": 1.3458,
+    "kurtosis": 1.7839,
+    "min": 0.0124,
+    "max": 0.1562,
+    "mean": 0.0486,
+    "std": 0.0301
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 87,
+      "unique_tokens_found": 19
+    },
+    "tokens": [
+      {
+        "token": " eat",
+        "count": 34,
+        "mean_activation": 0.043
+      },
+      {
+        "token": " eating",
+        "count": 17,
+        "mean_activation": 0.078
+      },
+      {
+        "token": " ordered",
+        "count": 7,
+        "mean_activation": 0.0338
+      },
+      {
+        "token": " ate",
+        "count": 5,
+        "mean_activation": 0.0479
+      },
+      {
+        "token": " drinking",
+        "count": 4,
+        "mean_activation": 0.0483
+      },
+      {
+        "token": " order",
+        "count": 3,
+        "mean_activation": 0.038
+      },
+      {
+        "token": " ordering",
+        "count": 3,
+        "mean_activation": 0.0603
+      },
+      {
+        "token": " drink",
+        "count": 2,
+        "mean_activation": 0.0284
+      },
+      {
+        "token": " refill",
+        "count": 2,
+        "mean_activation": 0.0298
+      },
+      {
+        "token": " dining",
+        "count": 1,
+        "mean_activation": 0.0325
+      }
+    ]
+  }
+}

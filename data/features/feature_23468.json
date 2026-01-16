@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23468,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 434,
+    "mean_when_active": 0.14447095317225303,
+    "max_activation": 0.29150390625,
+    "std_when_active": 0.08667600289214014,
+    "activation_rate": 0.00434
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 12000000,
+      "corpus_coverage": 0.2321
+    },
+    "top_tokens": [
+      {
+        "token": " really",
+        "count": 21198,
+        "mean_activation": 0.2226810953799076
+      },
+      {
+        "token": " actually",
+        "count": 3537,
+        "mean_activation": 0.10751634834511724
+      },
+      {
+        "token": " real",
+        "count": 2741,
+        "mean_activation": 0.14872607537665883
+      },
+      {
+        "token": " good",
+        "count": 1175,
+        "mean_activation": 0.022528348882147605
+      },
+      {
+        "token": " honestly",
+        "count": 1144,
+        "mean_activation": 0.08883362883454436
+      },
+      {
+        "token": " truly",
+        "count": 1062,
+        "mean_activation": 0.15042542423456626
+      },
+      {
+        "token": " Really",
+        "count": 1056,
+        "mean_activation": 0.2495854695638021
+      },
+      {
+        "token": " to",
+        "count": 978,
+        "mean_activation": 0.03762404709018325
+      },
+      {
+        "token": "'t",
+        "count": 831,
+        "mean_activation": 0.059086061700299904
+      },
+      {
+        "token": " seriously",
+        "count": 782,
+        "mean_activation": 0.10020700440077526
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 12000000,
+      "corpus_coverage": 0.2321
+    },
+    "activations": [
+      {
+        "context": "...ers and others were** really** very nice.",
+        "active_token": " really",
+        "activation": 0.32861328125,
+        "review_id": "cnz40X4XRebV9LqJHzK2mg",
+        "position": 119
+      },
+      {
+        "context": "... that's what people** really** want.",
+        "active_token": " really",
+        "activation": 0.326416015625,
+        "review_id": "pah255grNX59hmCg3azA8A",
+        "position": 46
+      },
+      {
+        "context": "...ant in Tucson, they** really** need to do some hom...",
+        "active_token": " really",
+        "activation": 0.3251953125,
+        "review_id": "vx98JHAztn3EV4qzkNh6NA",
+        "position": 24
+      },
+      {
+        "context": "... fuss is about, you** really** need to order some ...",
+        "active_token": " really",
+        "activation": 0.323974609375,
+        "review_id": "8xhwv7we4iB9_y5Rmn-sww",
+        "position": 359
+      },
+      {
+        "context": "... the owner Ruben is** really** cool... and you alm...",
+        "active_token": " really",
+        "activation": 0.32275390625,
+        "review_id": "WV37oJy1bQSS11c5fRBqFA",
+        "position": 149
+      },
+      {
+        "context": "...n beans but they're** really** just pinto beans",
+        "active_token": " really",
+        "activation": 0.31787109375,
+        "review_id": "KGUijRYHkSgc__wltUur6g",
+        "position": 170
+      },
+      {
+        "context": "...paradox, but you're** really** in for a treat. Fro...",
+        "active_token": " really",
+        "activation": 0.31689453125,
+        "review_id": "uOeRoXoGYxmvlCcGagI2Pw",
+        "position": 18
+      },
+      {
+        "context": "...n\" restaurant, they** really** aren't very Mexican...",
+        "active_token": " really",
+        "activation": 0.31689453125,
+        "review_id": "cMnbsmv7u47vkiqZOYsFHw",
+        "position": 113
+      },
+      {
+        "context": "...whispered that he's** really** not suppose to give...",
+        "active_token": " really",
+        "activation": 0.31640625,
+        "review_id": "V8eMyuvkEeVcSXGTNxfEyQ",
+        "position": 161
+      },
+      {
+        "context": "...between patrons who** really** enjoy this place an...",
+        "active_token": " really",
+        "activation": 0.31591796875,
+        "review_id": "M2JqcWDmbbLFamq0VuRh6Q",
+        "position": 56
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23468,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 23900000,
+      "corpus_coverage": 0.4623,
+      "activation_range": {
+        "min": 0.2905,
+        "max": 0.3364,
+        "mean": 0.2985
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " you",
+            " really"
+          ],
+          "ngram_str": " you really",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " they",
+            " really"
+          ],
+          "ngram_str": " they really",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " we",
+            " really"
+          ],
+          "ngram_str": " we really",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " was",
+            " really"
+          ],
+          "ngram_str": " was really",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " I",
+            " really"
+          ],
+          "ngram_str": " I really",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "'re",
+            " really"
+          ],
+          "ngram_str": "'re really",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " really",
+            " want"
+          ],
+          "ngram_str": " really want",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Really"
+          ],
+          "ngram_str": ". Really",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " if",
+            " you"
+          ],
+          "ngram_str": " if you",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " you",
+            "'re"
+          ],
+          "ngram_str": " you're",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " really",
+            " need"
+          ],
+          "ngram_str": " really need",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " you",
+            "'re",
+            " really"
+          ],
+          "ngram_str": " you're really",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " you",
+            " really",
+            " want"
+          ],
+          "ngram_str": " you really want",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " really",
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " really didn't",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " If",
+            " you",
+            " really"
+          ],
+          "ngram_str": " If you really",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            " really"
+          ],
+          "ngram_str": " if you really",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " really",
+            " can",
+            "'t"
+          ],
+          "ngram_str": " really can't",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " really",
+            " need",
+            " to"
+          ],
+          "ngram_str": " really need to",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " really",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " really don't",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " If",
+            " you"
+          ],
+          "ngram_str": ". If you",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " you",
+            " really",
+            " can"
+          ],
+          "ngram_str": " you really can",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ",",
+            " you",
+            " really"
+          ],
+          "ngram_str": ", you really",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ",",
+            " they",
+            " really"
+          ],
+          "ngram_str": ", they really",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " you",
+            " really",
+            " can",
+            "'t"
+          ],
+          "ngram_str": " you really can't",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " If",
+            " you",
+            " really"
+          ],
+          "ngram_str": ". If you really",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            " really",
+            " want"
+          ],
+          "ngram_str": " if you really want",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " you",
+            " really",
+            " want",
+            " to"
+          ],
+          "ngram_str": " you really want to",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " really",
+            " can",
+            "'t",
+            " go"
+          ],
+          "ngram_str": " really can't go",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " go",
+            " wrong"
+          ],
+          "ngram_str": " can't go wrong",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " If",
+            " you",
+            " really",
+            " want"
+          ],
+          "ngram_str": " If you really want",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " you",
+            " really",
+            " need",
+            " to"
+          ],
+          "ngram_str": " you really need to",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " go",
+            " wrong",
+            " with"
+          ],
+          "ngram_str": "'t go wrong with",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            "'re",
+            " really"
+          ],
+          "ngram_str": " if you're really",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " you",
+            "'re",
+            " really",
+            " hungry"
+          ],
+          "ngram_str": " you're really hungry",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " she",
+            " really",
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " she really didn't",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2300000,
+      "corpus_coverage": 0.0445
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 2037,
+        "count": 5110,
+        "percent": 51.1
+      },
+      {
+        "feature_idx": 10127,
+        "count": 4919,
+        "percent": 49.19
+      },
+      {
+        "feature_idx": 9038,
+        "count": 4669,
+        "percent": 46.69
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4529,
+        "percent": 45.29
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4256,
+        "percent": 42.56
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4097,
+        "percent": 40.97
+      },
+      {
+        "feature_idx": 15945,
+        "count": 3784,
+        "percent": 37.84
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3676,
+        "percent": 36.76
+      },
+      {
+        "feature_idx": 23228,
+        "count": 3609,
+        "percent": 36.09
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2941,
+        "percent": 29.41
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2852,
+        "percent": 28.52
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2800,
+        "percent": 28.0
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2765,
+        "percent": 27.65
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2704,
+        "percent": 27.04
+      },
+      {
+        "feature_idx": 10431,
+        "count": 2702,
+        "percent": 27.02
+      },
+      {
+        "feature_idx": 16269,
+        "count": 2580,
+        "percent": 25.8
+      },
+      {
+        "feature_idx": 12563,
+        "count": 2407,
+        "percent": 24.07
+      },
+      {
+        "feature_idx": 9775,
+        "count": 2366,
+        "percent": 23.66
+      },
+      {
+        "feature_idx": 22505,
+        "count": 2351,
+        "percent": 23.51
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2244,
+        "percent": 22.44
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2300000,
+      "corpus_coverage": 0.0445
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2187,
+        "percent": 21.87
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1768,
+        "percent": 17.68
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1938,
+        "percent": 19.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1981,
+        "percent": 19.81
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2126,
+        "percent": 21.26
+      }
+    ],
+    "mean_position": 0.4971,
+    "std_position": 0.2978
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 434,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0294,
+      "p25": 0.0618,
+      "p50": 0.1429,
+      "p75": 0.2302,
+      "p90": 0.2524,
+      "p95": 0.2669,
+      "p99": 0.2785
+    },
+    "skewness": -0.0202,
+    "kurtosis": -1.4908,
+    "min": 0.0097,
+    "max": 0.2915,
+    "mean": 0.1445,
+    "std": 0.0867
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 434,
+      "unique_tokens_found": 85
+    },
+    "tokens": [
+      {
+        "token": " really",
+        "count": 193,
+        "mean_activation": 0.224
+      },
+      {
+        "token": " actually",
+        "count": 25,
+        "mean_activation": 0.1107
+      },
+      {
+        "token": " real",
+        "count": 16,
+        "mean_activation": 0.1385
+      },
+      {
+        "token": " Really",
+        "count": 11,
+        "mean_activation": 0.2592
+      },
+      {
+        "token": " seriously",
+        "count": 10,
+        "mean_activation": 0.1038
+      },
+      {
+        "token": " actual",
+        "count": 8,
+        "mean_activation": 0.067
+      },
+      {
+        "token": " good",
+        "count": 8,
+        "mean_activation": 0.0247
+      },
+      {
+        "token": "'t",
+        "count": 7,
+        "mean_activation": 0.0537
+      },
+      {
+        "token": " to",
+        "count": 7,
+        "mean_activation": 0.0462
+      },
+      {
+        "token": " honestly",
+        "count": 7,
+        "mean_activation": 0.0838
+      }
+    ]
+  }
+}

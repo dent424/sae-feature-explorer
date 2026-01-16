@@ -1,0 +1,876 @@
+{
+  "feature_idx": 15294,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 17,
+    "mean_when_active": 0.03065984389361213,
+    "max_activation": 0.08184814453125,
+    "std_when_active": 0.016252067254341283,
+    "activation_rate": 0.00017
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6826,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Tampa",
+        "count": 1221,
+        "mean_activation": 0.025667682619586917
+      },
+      {
+        "token": " Bay",
+        "count": 1148,
+        "mean_activation": 0.1729785772981544
+      },
+      {
+        "token": " City",
+        "count": 754,
+        "mean_activation": 0.04232535121927843
+      },
+      {
+        "token": " Nashville",
+        "count": 391,
+        "mean_activation": 0.0221694399938559
+      },
+      {
+        "token": " Philly",
+        "count": 244,
+        "mean_activation": 0.023998854590243982
+      },
+      {
+        "token": " Louis",
+        "count": 241,
+        "mean_activation": 0.026938157457533713
+      },
+      {
+        "token": " me",
+        "count": 189,
+        "mean_activation": 0.06299126842034557
+      },
+      {
+        "token": " Philadelphia",
+        "count": 176,
+        "mean_activation": 0.026488130742853336
+      },
+      {
+        "token": " Indy",
+        "count": 160,
+        "mean_activation": 0.02358531951904297
+      },
+      {
+        "token": " State",
+        "count": 122,
+        "mean_activation": 0.06278741555135758
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6826,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...e moving to the Tampa** Bay** area. I am a Mexican...",
+        "active_token": " Bay",
+        "activation": 0.3291015625,
+        "review_id": "BMlLWE-jdRPBMhw_rEyriQ",
+        "position": 30
+      },
+      {
+        "context": "...ent trip to the Tampa** Bay** area.  So happy to f...",
+        "active_token": " Bay",
+        "activation": 0.3291015625,
+        "review_id": "-czpnSV9_MA_NCt61xDThQ",
+        "position": 10
+      },
+      {
+        "context": "...uddies team the Tampa** Bay** Bucs.  Damn you Dire...",
+        "active_token": " Bay",
+        "activation": 0.3212890625,
+        "review_id": "248TnJbt-XYPSsGqzCBx9A",
+        "position": 36
+      },
+      {
+        "context": "...y night for the Tampa** Bay** Restaurant Week deal...",
+        "active_token": " Bay",
+        "activation": 0.320068359375,
+        "review_id": "MYFWQHHXd4sUWyg6v5IgEg",
+        "position": 10
+      },
+      {
+        "context": "...ico) but in the Tampa** Bay** area it seems everyo...",
+        "active_token": " Bay",
+        "activation": 0.31982421875,
+        "review_id": "Vb9RywBYzjEHZp__CHge-g",
+        "position": 70
+      },
+      {
+        "context": "...ssionals in the Tampa** Bay** area for over 40 yea...",
+        "active_token": " Bay",
+        "activation": 0.319580078125,
+        "review_id": "ix8Lrt9kC_tK35UHsdC8jw",
+        "position": 131
+      },
+      {
+        "context": "... Alvarez in the Tampa** Bay** Times, this place ha...",
+        "active_token": " Bay",
+        "activation": 0.318115234375,
+        "review_id": "WW6JSqpSvDj4Zd_eYWNfjQ",
+        "position": 7
+      },
+      {
+        "context": "...ly moved to the Tampa** Bay** Area, we needed to f...",
+        "active_token": " Bay",
+        "activation": 0.3173828125,
+        "review_id": "ZG6XqwYnUl0f2x04V8FS3w",
+        "position": 6
+      },
+      {
+        "context": "...ng watching the Tampa** Bay** Lightning on the bar...",
+        "active_token": " Bay",
+        "activation": 0.317138671875,
+        "review_id": "P_5-pHOWUZG4jHJqUJGqrA",
+        "position": 482
+      },
+      {
+        "context": "...find one in the Tampa** Bay** area (even if it's a...",
+        "active_token": " Bay",
+        "activation": 0.314453125,
+        "review_id": "HOe2U0BFO5t786MDNwhjRg",
+        "position": 48
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15294,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2137,
+        "max": 0.3291,
+        "mean": 0.262
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Tampa",
+            " Bay"
+          ],
+          "ngram_str": " Tampa Bay",
+          "count": 491,
+          "percent": 98.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Tampa"
+          ],
+          "ngram_str": " the Tampa",
+          "count": 239,
+          "percent": 47.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 189,
+          "percent": 37.8
+        },
+        {
+          "ngram": [
+            " in",
+            " Tampa"
+          ],
+          "ngram_str": " in Tampa",
+          "count": 147,
+          "percent": 29.4
+        },
+        {
+          "ngram": [
+            " Bay",
+            " Area"
+          ],
+          "ngram_str": " Bay Area",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " Bay",
+            " area"
+          ],
+          "ngram_str": " Bay area",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " Bay",
+            "."
+          ],
+          "ngram_str": " Bay.",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " Area",
+            "."
+          ],
+          "ngram_str": " Area.",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " area",
+            "."
+          ],
+          "ngram_str": " area.",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " in"
+          ],
+          "ngram_str": " tacos in",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " Bay",
+            "!"
+          ],
+          "ngram_str": " Bay!",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " in"
+          ],
+          "ngram_str": " restaurant in",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " food",
+            " in"
+          ],
+          "ngram_str": " food in",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " Tampa",
+            " Bay"
+          ],
+          "ngram_str": " the Tampa Bay",
+          "count": 238,
+          "percent": 47.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Tampa"
+          ],
+          "ngram_str": " in the Tampa",
+          "count": 178,
+          "percent": 35.6
+        },
+        {
+          "ngram": [
+            " in",
+            " Tampa",
+            " Bay"
+          ],
+          "ngram_str": " in Tampa Bay",
+          "count": 146,
+          "percent": 29.2
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            " Area"
+          ],
+          "ngram_str": " Tampa Bay Area",
+          "count": 117,
+          "percent": 23.4
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            " area"
+          ],
+          "ngram_str": " Tampa Bay area",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            "."
+          ],
+          "ngram_str": " Tampa Bay.",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " Bay",
+            " Area",
+            "."
+          ],
+          "ngram_str": " Bay Area.",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " Bay",
+            " area",
+            "."
+          ],
+          "ngram_str": " Bay area.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            "!"
+          ],
+          "ngram_str": " Tampa Bay!",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            " in"
+          ],
+          "ngram_str": " Mexican food in",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            ","
+          ],
+          "ngram_str": " Tampa Bay,",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " in",
+            " the"
+          ],
+          "ngram_str": " tacos in the",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " Tampa"
+          ],
+          "ngram_str": " to the Tampa",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " restaurant",
+            " in"
+          ],
+          "ngram_str": " Mexican restaurant in",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Tampa",
+            " Bay"
+          ],
+          "ngram_str": " in the Tampa Bay",
+          "count": 178,
+          "percent": 35.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Tampa",
+            " Bay",
+            " Area"
+          ],
+          "ngram_str": " the Tampa Bay Area",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Tampa",
+            " Bay",
+            " area"
+          ],
+          "ngram_str": " the Tampa Bay area",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " in",
+            " Tampa",
+            " Bay",
+            "."
+          ],
+          "ngram_str": " in Tampa Bay.",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            " Area",
+            "."
+          ],
+          "ngram_str": " Tampa Bay Area.",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            " area",
+            "."
+          ],
+          "ngram_str": " Tampa Bay area.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " in",
+            " Tampa",
+            " Bay",
+            "!"
+          ],
+          "ngram_str": " in Tampa Bay!",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " in",
+            " the",
+            " Tampa"
+          ],
+          "ngram_str": " tacos in the Tampa",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " Tampa",
+            " Bay"
+          ],
+          "ngram_str": " to the Tampa Bay",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " food",
+            " in",
+            " Tampa",
+            " Bay"
+          ],
+          "ngram_str": " food in Tampa Bay",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " had",
+            " in",
+            " the",
+            " Tampa"
+          ],
+          "ngram_str": " had in the Tampa",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " in",
+            " the",
+            " Tampa"
+          ],
+          "ngram_str": " restaurant in the Tampa",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " in",
+            " Tampa",
+            " Bay",
+            ","
+          ],
+          "ngram_str": " in Tampa Bay,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " Tampa",
+            " Bay",
+            " Area",
+            ","
+          ],
+          "ngram_str": " Tampa Bay Area,",
+          "count": 14,
+          "percent": 2.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6826,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5189,
+        "percent": 76.02
+      },
+      {
+        "feature_idx": 14040,
+        "count": 5081,
+        "percent": 74.44
+      },
+      {
+        "feature_idx": 8255,
+        "count": 4151,
+        "percent": 60.81
+      },
+      {
+        "feature_idx": 3393,
+        "count": 3572,
+        "percent": 52.33
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3318,
+        "percent": 48.61
+      },
+      {
+        "feature_idx": 4831,
+        "count": 3197,
+        "percent": 46.84
+      },
+      {
+        "feature_idx": 23846,
+        "count": 3178,
+        "percent": 46.56
+      },
+      {
+        "feature_idx": 21472,
+        "count": 3177,
+        "percent": 46.54
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2889,
+        "percent": 42.32
+      },
+      {
+        "feature_idx": 1084,
+        "count": 2821,
+        "percent": 41.33
+      },
+      {
+        "feature_idx": 19274,
+        "count": 2783,
+        "percent": 40.77
+      },
+      {
+        "feature_idx": 3567,
+        "count": 2724,
+        "percent": 39.91
+      },
+      {
+        "feature_idx": 18449,
+        "count": 2549,
+        "percent": 37.34
+      },
+      {
+        "feature_idx": 17260,
+        "count": 2480,
+        "percent": 36.33
+      },
+      {
+        "feature_idx": 18655,
+        "count": 2417,
+        "percent": 35.41
+      },
+      {
+        "feature_idx": 3974,
+        "count": 2411,
+        "percent": 35.32
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2075,
+        "percent": 30.4
+      },
+      {
+        "feature_idx": 23250,
+        "count": 2073,
+        "percent": 30.37
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2063,
+        "percent": 30.22
+      },
+      {
+        "feature_idx": 8477,
+        "count": 1708,
+        "percent": 25.02
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6826,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3047,
+        "percent": 44.64
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1039,
+        "percent": 15.22
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 669,
+        "percent": 9.8
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 615,
+        "percent": 9.01
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1456,
+        "percent": 21.33
+      }
+    ],
+    "mean_position": 0.393,
+    "std_position": 0.3412
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 17,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0159,
+      "p25": 0.0192,
+      "p50": 0.0261,
+      "p75": 0.0357,
+      "p90": 0.0462,
+      "p95": 0.0568,
+      "p99": 0.0768
+    },
+    "skewness": 1.7571,
+    "kurtosis": 3.1434,
+    "min": 0.014,
+    "max": 0.0818,
+    "mean": 0.0307,
+    "std": 0.0163
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 17,
+      "unique_tokens_found": 12
+    },
+    "tokens": [
+      {
+        "token": "el",
+        "count": 3,
+        "mean_activation": 0.0372
+      },
+      {
+        "token": " Tampa",
+        "count": 3,
+        "mean_activation": 0.0243
+      },
+      {
+        "token": " Louis",
+        "count": 2,
+        "mean_activation": 0.0215
+      },
+      {
+        "token": " Philadelphia",
+        "count": 1,
+        "mean_activation": 0.021
+      },
+      {
+        "token": " Tennessee",
+        "count": 1,
+        "mean_activation": 0.0309
+      },
+      {
+        "token": " Nashville",
+        "count": 1,
+        "mean_activation": 0.0188
+      },
+      {
+        "token": " Bay",
+        "count": 1,
+        "mean_activation": 0.0818
+      },
+      {
+        "token": " Diego",
+        "count": 1,
+        "mean_activation": 0.0147
+      },
+      {
+        "token": " Barbara",
+        "count": 1,
+        "mean_activation": 0.014
+      },
+      {
+        "token": " City",
+        "count": 1,
+        "mean_activation": 0.0261
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22801,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 260,
+    "mean_when_active": 0.06507577162522536,
+    "max_activation": 0.2044677734375,
+    "std_when_active": 0.05051665946607411,
+    "activation_rate": 0.0026
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 18900000,
+      "corpus_coverage": 0.3655
+    },
+    "top_tokens": [
+      {
+        "token": " I",
+        "count": 9686,
+        "mean_activation": 0.15226446920107792
+      },
+      {
+        "token": " us",
+        "count": 2990,
+        "mean_activation": 0.06794023290525711
+      },
+      {
+        "token": ",",
+        "count": 2053,
+        "mean_activation": 0.05032305153067729
+      },
+      {
+        "token": " both",
+        "count": 1856,
+        "mean_activation": 0.04659071461907748
+      },
+      {
+        "token": " all",
+        "count": 1782,
+        "mean_activation": 0.05361010704511478
+      },
+      {
+        "token": ")",
+        "count": 1486,
+        "mean_activation": 0.06309361412900615
+      },
+      {
+        "token": " family",
+        "count": 1120,
+        "mean_activation": 0.04982821600777762
+      },
+      {
+        "token": " friends",
+        "count": 767,
+        "mean_activation": 0.054185650961029175
+      },
+      {
+        "token": " party",
+        "count": 625,
+        "mean_activation": 0.05643193359375
+      },
+      {
+        "token": " staff",
+        "count": 610,
+        "mean_activation": 0.05848525000400231
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 18900000,
+      "corpus_coverage": 0.3655
+    },
+    "activations": [
+      {
+        "context": "...good that my hubby and** i** find ourselves visiti...",
+        "active_token": " i",
+        "activation": 0.228271484375,
+        "review_id": "TvRIFmagwvwQxVQQdacxQg",
+        "position": 29
+      },
+      {
+        "context": "...well. My roommates and** i** usually bring a footb...",
+        "active_token": " i",
+        "activation": 0.22802734375,
+        "review_id": "L6Xraxxd6gBWOKbLg0fdDw",
+        "position": 46
+      },
+      {
+        "context": "...-conscious friends and** I** are find with splurgi...",
+        "active_token": " I",
+        "activation": 0.2271728515625,
+        "review_id": "GJQOXGV8tdU8submDV8tyw",
+        "position": 43
+      },
+      {
+        "context": "...BF (who was there also**)** went back for lunch wi...",
+        "active_token": ")",
+        "activation": 0.2252197265625,
+        "review_id": "2d2YRv5N2cVZ1n2JZ5jvKQ",
+        "position": 251
+      },
+      {
+        "context": "...myself (regular foodie**)** agreed it was somewher...",
+        "active_token": ")",
+        "activation": 0.2191162109375,
+        "review_id": "RuuDPZAqqrVN7Vl-5z-dCQ",
+        "position": 40
+      },
+      {
+        "context": "... But both my hubby and** I** did not care for the ...",
+        "active_token": " I",
+        "activation": 0.218994140625,
+        "review_id": "zCZCbb4ZlM3pbqgzI4of2g",
+        "position": 39
+      },
+      {
+        "context": "...iews, but my hubby and** I** visited this place la...",
+        "active_token": " I",
+        "activation": 0.2177734375,
+        "review_id": "oLhRWvMTZX-oWco23CQo2g",
+        "position": 11
+      },
+      {
+        "context": "...) both my coworker and** I** absolutely loved this...",
+        "active_token": " I",
+        "activation": 0.2171630859375,
+        "review_id": "tngfcAcfCuX399Rdu2PW-A",
+        "position": 92
+      },
+      {
+        "context": "... money. My friends and** i** arrive and ask about ...",
+        "active_token": " i",
+        "activation": 0.217041015625,
+        "review_id": "yMmYApyYG813mqEOZwr0og",
+        "position": 96
+      },
+      {
+        "context": "...e dishes my guest and** me** ordered were full of ...",
+        "active_token": " me",
+        "activation": 0.21630859375,
+        "review_id": "CueEgGSZxiV_KcDih5-yTA",
+        "position": 311
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22801,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 38300000,
+      "corpus_coverage": 0.7408,
+      "activation_range": {
+        "min": 0.198,
+        "max": 0.2283,
+        "mean": 0.2045
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 415,
+          "percent": 83.0
+        },
+        {
+          "ngram": [
+            ".",
+            " My"
+          ],
+          "ngram_str": ". My",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " hub",
+            "by"
+          ],
+          "ngram_str": " hubby",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " friends",
+            " and"
+          ],
+          "ngram_str": " friends and",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "by",
+            " and"
+          ],
+          "ngram_str": "by and",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " wife",
+            " and"
+          ],
+          "ngram_str": " wife and",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " and",
+            " i"
+          ],
+          "ngram_str": " and i",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " my",
+            " wife"
+          ],
+          "ngram_str": " my wife",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " husband",
+            " and"
+          ],
+          "ngram_str": " husband and",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " my",
+            " husband"
+          ],
+          "ngram_str": " my husband",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " boyfriend",
+            " and"
+          ],
+          "ngram_str": " boyfriend and",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ",",
+            " my"
+          ],
+          "ngram_str": ", my",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " friend",
+            " and"
+          ],
+          "ngram_str": " friend and",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " and",
+            " my"
+          ],
+          "ngram_str": " and my",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " I",
+            " have"
+          ],
+          "ngram_str": " I have",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " hub",
+            "by",
+            " and"
+          ],
+          "ngram_str": " hubby and",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "by",
+            " and",
+            " I"
+          ],
+          "ngram_str": "by and I",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " friends",
+            " and",
+            " I"
+          ],
+          "ngram_str": " friends and I",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " my",
+            " wife",
+            " and"
+          ],
+          "ngram_str": " my wife and",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " wife",
+            " and",
+            " I"
+          ],
+          "ngram_str": " wife and I",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " my",
+            " husband",
+            " and"
+          ],
+          "ngram_str": " my husband and",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " husband",
+            " and",
+            " I"
+          ],
+          "ngram_str": " husband and I",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " boyfriend",
+            " and",
+            " I"
+          ],
+          "ngram_str": " boyfriend and I",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " my",
+            " boyfriend",
+            " and"
+          ],
+          "ngram_str": " my boyfriend and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " have"
+          ],
+          "ngram_str": " and I have",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " My",
+            " hub",
+            "by"
+          ],
+          "ngram_str": " My hubby",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " friend",
+            " and",
+            " I"
+          ],
+          "ngram_str": " friend and I",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " my",
+            " friend",
+            " and"
+          ],
+          "ngram_str": " my friend and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " my",
+            " friends",
+            " and"
+          ],
+          "ngram_str": " my friends and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " were"
+          ],
+          "ngram_str": " and I were",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " hub",
+            "by",
+            " and",
+            " I"
+          ],
+          "ngram_str": " hubby and I",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " my",
+            " wife",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my wife and I",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " my",
+            " husband",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my husband and I",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " My",
+            " hub",
+            "by",
+            " and"
+          ],
+          "ngram_str": " My hubby and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " my",
+            " boyfriend",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my boyfriend and I",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " my",
+            " friends",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my friends and I",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " my",
+            " friend",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my friend and I",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " My",
+            " friends",
+            " and",
+            " I"
+          ],
+          "ngram_str": " My friends and I",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " friends",
+            " and"
+          ],
+          "ngram_str": ". My friends and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " my",
+            " hub",
+            "by",
+            " and"
+          ],
+          "ngram_str": " my hubby and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " g",
+            "f",
+            " and",
+            " I"
+          ],
+          "ngram_str": " gf and I",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " and I decided to",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " hub",
+            "by"
+          ],
+          "ngram_str": ". My hubby",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " have",
+            " been"
+          ],
+          "ngram_str": " and I have been",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " My",
+            " g",
+            "f",
+            " and"
+          ],
+          "ngram_str": " My gf and",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3800000,
+      "corpus_coverage": 0.0735
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 18704,
+        "count": 5461,
+        "percent": 54.61
+      },
+      {
+        "feature_idx": 9465,
+        "count": 5296,
+        "percent": 52.96
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5176,
+        "percent": 51.76
+      },
+      {
+        "feature_idx": 11584,
+        "count": 4267,
+        "percent": 42.67
+      },
+      {
+        "feature_idx": 9756,
+        "count": 3929,
+        "percent": 39.29
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3306,
+        "percent": 33.06
+      },
+      {
+        "feature_idx": 23687,
+        "count": 3171,
+        "percent": 31.71
+      },
+      {
+        "feature_idx": 19167,
+        "count": 3161,
+        "percent": 31.61
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3075,
+        "percent": 30.75
+      },
+      {
+        "feature_idx": 23335,
+        "count": 2466,
+        "percent": 24.66
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2457,
+        "percent": 24.57
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2418,
+        "percent": 24.18
+      },
+      {
+        "feature_idx": 14723,
+        "count": 2229,
+        "percent": 22.29
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2151,
+        "percent": 21.51
+      },
+      {
+        "feature_idx": 3937,
+        "count": 2148,
+        "percent": 21.48
+      },
+      {
+        "feature_idx": 6278,
+        "count": 2013,
+        "percent": 20.13
+      },
+      {
+        "feature_idx": 748,
+        "count": 2012,
+        "percent": 20.12
+      },
+      {
+        "feature_idx": 21630,
+        "count": 1994,
+        "percent": 19.94
+      },
+      {
+        "feature_idx": 13720,
+        "count": 1972,
+        "percent": 19.72
+      },
+      {
+        "feature_idx": 5496,
+        "count": 1972,
+        "percent": 19.72
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3800000,
+      "corpus_coverage": 0.0735
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3078,
+        "percent": 30.78
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1993,
+        "percent": 19.93
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1767,
+        "percent": 17.67
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1759,
+        "percent": 17.59
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1403,
+        "percent": 14.03
+      }
+    ],
+    "mean_position": 0.4215,
+    "std_position": 0.2951
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 260,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0215,
+      "p25": 0.0287,
+      "p50": 0.044,
+      "p75": 0.0821,
+      "p90": 0.1582,
+      "p95": 0.17,
+      "p99": 0.1945
+    },
+    "skewness": 1.2231,
+    "kurtosis": 0.1967,
+    "min": 0.0128,
+    "max": 0.2045,
+    "mean": 0.0651,
+    "std": 0.0505
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 260,
+      "unique_tokens_found": 115
+    },
+    "tokens": [
+      {
+        "token": " I",
+        "count": 47,
+        "mean_activation": 0.1493
+      },
+      {
+        "token": " us",
+        "count": 21,
+        "mean_activation": 0.0733
+      },
+      {
+        "token": " all",
+        "count": 13,
+        "mean_activation": 0.0545
+      },
+      {
+        "token": ",",
+        "count": 13,
+        "mean_activation": 0.0534
+      },
+      {
+        "token": " both",
+        "count": 5,
+        "mean_activation": 0.031
+      },
+      {
+        "token": " staff",
+        "count": 5,
+        "mean_activation": 0.0588
+      },
+      {
+        "token": " friend",
+        "count": 4,
+        "mean_activation": 0.0351
+      },
+      {
+        "token": ")",
+        "count": 4,
+        "mean_activation": 0.0603
+      },
+      {
+        "token": "er",
+        "count": 4,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " wife",
+        "count": 4,
+        "mean_activation": 0.0476
+      }
+    ]
+  }
+}

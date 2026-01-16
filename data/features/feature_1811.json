@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1811,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 39,
+    "mean_when_active": 0.044020628317808494,
+    "max_activation": 0.1983642578125,
+    "std_when_active": 0.03933532396942384,
+    "activation_rate": 0.00039
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 23322,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " high",
+        "count": 5041,
+        "mean_activation": 0.11797628646756751
+      },
+      {
+        "token": " small",
+        "count": 2040,
+        "mean_activation": 0.03554887584611481
+      },
+      {
+        "token": " low",
+        "count": 1449,
+        "mean_activation": 0.08453750873615694
+      },
+      {
+        "token": " large",
+        "count": 1267,
+        "mean_activation": 0.034210698851093874
+      },
+      {
+        "token": " higher",
+        "count": 1096,
+        "mean_activation": 0.08858327795989322
+      },
+      {
+        "token": " huge",
+        "count": 629,
+        "mean_activation": 0.03054355930637669
+      },
+      {
+        "token": " over",
+        "count": 595,
+        "mean_activation": 0.03669328449153099
+      },
+      {
+        "token": " up",
+        "count": 574,
+        "mean_activation": 0.06036206820285279
+      },
+      {
+        "token": " cheap",
+        "count": 548,
+        "mean_activation": 0.041827013892849
+      },
+      {
+        "token": " average",
+        "count": 490,
+        "mean_activation": 0.03351692666812819
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 23322,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...d the price is a bit** high** considering the food...",
+        "active_token": " high",
+        "activation": 0.231689453125,
+        "review_id": "dsXzGtyfSBsprKIZ-fvSxg",
+        "position": 94
+      },
+      {
+        "context": "...he price is somewhat** high**. What's nice is that...",
+        "active_token": " high",
+        "activation": 0.2200927734375,
+        "review_id": "X4otSXzAZV-4hZMJAigNRQ",
+        "position": 160
+      },
+      {
+        "context": "...nt ratio is a little** high**, and their current s...",
+        "active_token": " high",
+        "activation": 0.2198486328125,
+        "review_id": "m7RsAbePJKiZeQEN7R4XSQ",
+        "position": 32
+      },
+      {
+        "context": "...ese prices are a bit** high** for a simple takeout...",
+        "active_token": " high",
+        "activation": 0.2197265625,
+        "review_id": "MdVVpHATKByQRb5VcStA2A",
+        "position": 203
+      },
+      {
+        "context": "... prices are a little** high**, but we were able to...",
+        "active_token": " high",
+        "activation": 0.2193603515625,
+        "review_id": "ayhSxp60UR_kx-6vHp1uIQ",
+        "position": 115
+      },
+      {
+        "context": ".... Price was a little** high** but it came with an ...",
+        "active_token": " high",
+        "activation": 0.2183837890625,
+        "review_id": "ZaFpJy13a1mes1B99jntSg",
+        "position": 43
+      },
+      {
+        "context": "... prices are a little** high**. But the quality of ...",
+        "active_token": " high",
+        "activation": 0.2181396484375,
+        "review_id": "J9g47UkCUUpJHRaa7VXjpQ",
+        "position": 112
+      },
+      {
+        "context": "...iced. Price is a bit** high** considering the qual...",
+        "active_token": " high",
+        "activation": 0.2174072265625,
+        "review_id": "oJQiHOCTMAPp0cLQiJ0dsA",
+        "position": 44
+      },
+      {
+        "context": "...he price is a little** high** in my opinion and fo...",
+        "active_token": " high",
+        "activation": 0.2169189453125,
+        "review_id": "1MqKuIXRWgTrYI-I-EwdPQ",
+        "position": 110
+      },
+      {
+        "context": "...st per taco is a bit** high**, but not overly pric...",
+        "active_token": " high",
+        "activation": 0.2166748046875,
+        "review_id": "vBDI80tvm87mGK4NbrlQwA",
+        "position": 113
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1811,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1942,
+        "max": 0.2317,
+        "mean": 0.2021
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " little"
+          ],
+          "ngram_str": " a little",
+          "count": 242,
+          "percent": 48.4
+        },
+        {
+          "ngram": [
+            " little",
+            " high"
+          ],
+          "ngram_str": " little high",
+          "count": 231,
+          "percent": 46.2
+        },
+        {
+          "ngram": [
+            " are",
+            " a"
+          ],
+          "ngram_str": " are a",
+          "count": 188,
+          "percent": 37.6
+        },
+        {
+          "ngram": [
+            " bit",
+            " high"
+          ],
+          "ngram_str": " bit high",
+          "count": 177,
+          "percent": 35.4
+        },
+        {
+          "ngram": [
+            " a",
+            " bit"
+          ],
+          "ngram_str": " a bit",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " high",
+            " for"
+          ],
+          "ngram_str": " high for",
+          "count": 153,
+          "percent": 30.6
+        },
+        {
+          "ngram": [
+            " prices",
+            " are"
+          ],
+          "ngram_str": " prices are",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            " high",
+            ","
+          ],
+          "ngram_str": " high,",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " were",
+            " a"
+          ],
+          "ngram_str": " were a",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " high",
+            "."
+          ],
+          "ngram_str": " high.",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " the",
+            " prices"
+          ],
+          "ngram_str": " the prices",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " high",
+            " but"
+          ],
+          "ngram_str": " high but",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " prices",
+            " were"
+          ],
+          "ngram_str": " prices were",
+          "count": 62,
+          "percent": 12.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " little",
+            " high"
+          ],
+          "ngram_str": " a little high",
+          "count": 231,
+          "percent": 46.2
+        },
+        {
+          "ngram": [
+            " a",
+            " bit",
+            " high"
+          ],
+          "ngram_str": " a bit high",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            " prices",
+            " are",
+            " a"
+          ],
+          "ngram_str": " prices are a",
+          "count": 124,
+          "percent": 24.8
+        },
+        {
+          "ngram": [
+            " are",
+            " a",
+            " little"
+          ],
+          "ngram_str": " are a little",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " high",
+            ",",
+            " but"
+          ],
+          "ngram_str": " high, but",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " are",
+            " a",
+            " bit"
+          ],
+          "ngram_str": " are a bit",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " little",
+            " high",
+            " for"
+          ],
+          "ngram_str": " little high for",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " bit",
+            " high",
+            " for"
+          ],
+          "ngram_str": " bit high for",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " high",
+            " for",
+            " the"
+          ],
+          "ngram_str": " high for the",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " prices",
+            " were",
+            " a"
+          ],
+          "ngram_str": " prices were a",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " little",
+            " high",
+            ","
+          ],
+          "ngram_str": " little high,",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " little",
+            " high",
+            " but"
+          ],
+          "ngram_str": " little high but",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " The",
+            " prices",
+            " are"
+          ],
+          "ngram_str": " The prices are",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " Prices",
+            " are",
+            " a"
+          ],
+          "ngram_str": " Prices are a",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " high",
+            " for",
+            " what"
+          ],
+          "ngram_str": " high for what",
+          "count": 39,
+          "percent": 7.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " are",
+            " a",
+            " little",
+            " high"
+          ],
+          "ngram_str": " are a little high",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            " are",
+            " a",
+            " bit",
+            " high"
+          ],
+          "ngram_str": " are a bit high",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " high",
+            " for"
+          ],
+          "ngram_str": " a little high for",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " prices",
+            " are",
+            " a",
+            " little"
+          ],
+          "ngram_str": " prices are a little",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " a",
+            " bit",
+            " high",
+            " for"
+          ],
+          "ngram_str": " a bit high for",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " high",
+            ","
+          ],
+          "ngram_str": " a little high,",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " prices",
+            " are",
+            " a",
+            " bit"
+          ],
+          "ngram_str": " prices are a bit",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " high",
+            " but"
+          ],
+          "ngram_str": " a little high but",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " The",
+            " prices",
+            " are",
+            " a"
+          ],
+          "ngram_str": " The prices are a",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " little",
+            " high",
+            ",",
+            " but"
+          ],
+          "ngram_str": " little high, but",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " were",
+            " a",
+            " little",
+            " high"
+          ],
+          "ngram_str": " were a little high",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " Prices",
+            " are",
+            " a",
+            " little"
+          ],
+          "ngram_str": " Prices are a little",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " little",
+            " high"
+          ],
+          "ngram_str": " is a little high",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Prices",
+            " are",
+            " a"
+          ],
+          "ngram_str": ". Prices are a",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " were",
+            " a",
+            " bit",
+            " high"
+          ],
+          "ngram_str": " were a bit high",
+          "count": 33,
+          "percent": 6.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 22100000,
+      "corpus_coverage": 0.4274
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 21683,
+        "count": 6457,
+        "percent": 64.57
+      },
+      {
+        "feature_idx": 4693,
+        "count": 5380,
+        "percent": 53.8
+      },
+      {
+        "feature_idx": 22992,
+        "count": 5271,
+        "percent": 52.71
+      },
+      {
+        "feature_idx": 16549,
+        "count": 4918,
+        "percent": 49.18
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4901,
+        "percent": 49.01
+      },
+      {
+        "feature_idx": 18022,
+        "count": 4491,
+        "percent": 44.91
+      },
+      {
+        "feature_idx": 9178,
+        "count": 4399,
+        "percent": 43.99
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4374,
+        "percent": 43.74
+      },
+      {
+        "feature_idx": 20403,
+        "count": 4266,
+        "percent": 42.66
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4095,
+        "percent": 40.95
+      },
+      {
+        "feature_idx": 13981,
+        "count": 3917,
+        "percent": 39.17
+      },
+      {
+        "feature_idx": 19995,
+        "count": 3814,
+        "percent": 38.14
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3654,
+        "percent": 36.54
+      },
+      {
+        "feature_idx": 11106,
+        "count": 3579,
+        "percent": 35.79
+      },
+      {
+        "feature_idx": 7440,
+        "count": 3539,
+        "percent": 35.39
+      },
+      {
+        "feature_idx": 9559,
+        "count": 3488,
+        "percent": 34.88
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2604,
+        "percent": 26.04
+      },
+      {
+        "feature_idx": 22403,
+        "count": 2561,
+        "percent": 25.61
+      },
+      {
+        "feature_idx": 16232,
+        "count": 2484,
+        "percent": 24.84
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2475,
+        "percent": 24.75
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 22100000,
+      "corpus_coverage": 0.4274
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1420,
+        "percent": 14.2
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1920,
+        "percent": 19.2
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2064,
+        "percent": 20.64
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2259,
+        "percent": 22.59
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2337,
+        "percent": 23.37
+      }
+    ],
+    "mean_position": 0.547,
+    "std_position": 0.2741
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 39,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0199,
+      "p25": 0.0233,
+      "p50": 0.0324,
+      "p75": 0.0442,
+      "p90": 0.0808,
+      "p95": 0.0977,
+      "p99": 0.194
+    },
+    "skewness": 2.7644,
+    "kurtosis": 7.7013,
+    "min": 0.0097,
+    "max": 0.1984,
+    "mean": 0.044,
+    "std": 0.0393
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 39,
+      "unique_tokens_found": 19
+    },
+    "tokens": [
+      {
+        "token": " small",
+        "count": 8,
+        "mean_activation": 0.0236
+      },
+      {
+        "token": " high",
+        "count": 7,
+        "mean_activation": 0.0801
+      },
+      {
+        "token": " higher",
+        "count": 4,
+        "mean_activation": 0.0706
+      },
+      {
+        "token": " thick",
+        "count": 2,
+        "mean_activation": 0.0237
+      },
+      {
+        "token": " cheap",
+        "count": 2,
+        "mean_activation": 0.0515
+      },
+      {
+        "token": " long",
+        "count": 2,
+        "mean_activation": 0.0264
+      },
+      {
+        "token": " large",
+        "count": 2,
+        "mean_activation": 0.0257
+      },
+      {
+        "token": " bad",
+        "count": 1,
+        "mean_activation": 0.0242
+      },
+      {
+        "token": " decent",
+        "count": 1,
+        "mean_activation": 0.028
+      },
+      {
+        "token": " big",
+        "count": 1,
+        "mean_activation": 0.0374
+      }
+    ]
+  }
+}

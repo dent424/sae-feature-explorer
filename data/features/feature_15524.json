@@ -1,0 +1,876 @@
+{
+  "feature_idx": 15524,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 54,
+    "mean_when_active": 0.07636345757378472,
+    "max_activation": 0.1788330078125,
+    "std_when_active": 0.03694672599298924,
+    "activation_rate": 0.00054
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 25609,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " stopped",
+        "count": 8078,
+        "mean_activation": 0.10951119196476929
+      },
+      {
+        "token": " stop",
+        "count": 7048,
+        "mean_activation": 0.07592815113392375
+      },
+      {
+        "token": "opped",
+        "count": 2638,
+        "mean_activation": 0.07262249441197463
+      },
+      {
+        "token": " Sorry",
+        "count": 1328,
+        "mean_activation": 0.055156707763671875
+      },
+      {
+        "token": " stopping",
+        "count": 904,
+        "mean_activation": 0.052229653417536645
+      },
+      {
+        "token": "pped",
+        "count": 635,
+        "mean_activation": 0.10405742014486959
+      },
+      {
+        "token": "Sorry",
+        "count": 470,
+        "mean_activation": 0.05965095682347075
+      },
+      {
+        "token": " sorry",
+        "count": 469,
+        "mean_activation": 0.037221392080473745
+      },
+      {
+        "token": " Stop",
+        "count": 456,
+        "mean_activation": 0.09181558040150425
+      },
+      {
+        "token": "sorry",
+        "count": 415,
+        "mean_activation": 0.0365386962890625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 25609,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... hour prices. So we** stopped** by for a quick lun...",
+        "active_token": " stopped",
+        "activation": 0.20849609375,
+        "review_id": "1loIc-x5IfMDfbS4V1PyKA",
+        "position": 35
+      },
+      {
+        "context": "... a quick snack so I** stopped** here and got a few...",
+        "active_token": " stopped",
+        "activation": 0.20166015625,
+        "review_id": "OzxrFfx7Ri6JUthZ1wBOyw",
+        "position": 26
+      },
+      {
+        "context": "...on of reviews so we** stopped** in. Disappointing....",
+        "active_token": " stopped",
+        "activation": 0.19677734375,
+        "review_id": "bZDv8AxjMGWlBaJwuNki5g",
+        "position": 8
+      },
+      {
+        "context": "...l ingredients so we** stopped** in.\\n\\nSunday evenin...",
+        "active_token": " stopped",
+        "activation": 0.1947021484375,
+        "review_id": "Iif7NUuMMOrzARDdZmdqhg",
+        "position": 50
+      },
+      {
+        "context": "... pear margaritas, I** stopped** and that's pretty ...",
+        "active_token": " stopped",
+        "activation": 0.1943359375,
+        "review_id": "r1EcDtHIYbgF5q_vyWkfGA",
+        "position": 49
+      },
+      {
+        "context": "...little food cart, I** stopped** going in favor of ...",
+        "active_token": " stopped",
+        "activation": 0.1942138671875,
+        "review_id": "YpVdhwYuTHwu1Uo2P3osQw",
+        "position": 17
+      },
+      {
+        "context": "...between meals so we** stopped** here.  The line wa...",
+        "active_token": " stopped",
+        "activation": 0.1925048828125,
+        "review_id": "0GB2jcbG_SdieYBWZpAzWQ",
+        "position": 18
+      },
+      {
+        "context": "...ith guacamole, so I** stopped** trying to make tha...",
+        "active_token": " stopped",
+        "activation": 0.1922607421875,
+        "review_id": "WGuxAZnCCcmIJtORuQT4hA",
+        "position": 108
+      },
+      {
+        "context": "...places popped up we** stopped** making the drive. ...",
+        "active_token": " stopped",
+        "activation": 0.1922607421875,
+        "review_id": "S7bskddfOMy_uvvPfLeOKA",
+        "position": 20
+      },
+      {
+        "context": "...periences there, we** stopped** going. We LOVE the...",
+        "active_token": " stopped",
+        "activation": 0.192138671875,
+        "review_id": "Qp9ocyMDGv5nqWcAIACACg",
+        "position": 34
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15524,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1586,
+        "max": 0.2085,
+        "mean": 0.1693
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " I",
+            " stopped"
+          ],
+          "ngram_str": " I stopped",
+          "count": 229,
+          "percent": 45.8
+        },
+        {
+          "ngram": [
+            " stopped",
+            " in"
+          ],
+          "ngram_str": " stopped in",
+          "count": 203,
+          "percent": 40.6
+        },
+        {
+          "ngram": [
+            " we",
+            " stopped"
+          ],
+          "ngram_str": " we stopped",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            " stopped",
+            " by"
+          ],
+          "ngram_str": " stopped by",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " in",
+            " for"
+          ],
+          "ngram_str": " in for",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " so",
+            " I"
+          ],
+          "ngram_str": " so I",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " on",
+            " a"
+          ],
+          "ngram_str": " on a",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " for",
+            " lunch"
+          ],
+          "ngram_str": " for lunch",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " stopped",
+            " here"
+          ],
+          "ngram_str": " stopped here",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " so",
+            " we"
+          ],
+          "ngram_str": " so we",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " stopped",
+            " in"
+          ],
+          "ngram_str": " I stopped in",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            " stopped",
+            " in",
+            " for"
+          ],
+          "ngram_str": " stopped in for",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": " and I stopped",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " I",
+            " stopped",
+            " by"
+          ],
+          "ngram_str": " I stopped by",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " so",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": " so I stopped",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " we",
+            " stopped",
+            " in"
+          ],
+          "ngram_str": " we stopped in",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": ". I stopped",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " so",
+            " we",
+            " stopped"
+          ],
+          "ngram_str": " so we stopped",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " stopped"
+          ],
+          "ngram_str": ". We stopped",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " stopped",
+            " by",
+            " for"
+          ],
+          "ngram_str": " stopped by for",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " for",
+            " a"
+          ],
+          "ngram_str": " in for a",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": "  I stopped",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": ", I stopped",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " and",
+            " I",
+            " stopped",
+            " in"
+          ],
+          "ngram_str": " and I stopped in",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " I",
+            " stopped",
+            " in",
+            " for"
+          ],
+          "ngram_str": " I stopped in for",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " stopped",
+            " in",
+            " for",
+            " a"
+          ],
+          "ngram_str": " stopped in for a",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " stopped",
+            " in"
+          ],
+          "ngram_str": ". I stopped in",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " so",
+            " I",
+            " stopped",
+            " in"
+          ],
+          "ngram_str": " so I stopped in",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " so",
+            " we",
+            " stopped",
+            " in"
+          ],
+          "ngram_str": " so we stopped in",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " husband",
+            " and",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": " husband and I stopped",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": ".  I stopped",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " we",
+            " stopped"
+          ],
+          "ngram_str": ", so we stopped",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " stopped",
+            " in",
+            " for",
+            " lunch"
+          ],
+          "ngram_str": " stopped in for lunch",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " I",
+            " stopped"
+          ],
+          "ngram_str": ", so I stopped",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " stopped",
+            " by"
+          ],
+          "ngram_str": " and I stopped by",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 20000000,
+      "corpus_coverage": 0.3868
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1866,
+        "count": 8088,
+        "percent": 80.88
+      },
+      {
+        "feature_idx": 21571,
+        "count": 7934,
+        "percent": 79.34
+      },
+      {
+        "feature_idx": 15858,
+        "count": 7903,
+        "percent": 79.03
+      },
+      {
+        "feature_idx": 21217,
+        "count": 6915,
+        "percent": 69.15
+      },
+      {
+        "feature_idx": 8858,
+        "count": 6841,
+        "percent": 68.41
+      },
+      {
+        "feature_idx": 3411,
+        "count": 6107,
+        "percent": 61.07
+      },
+      {
+        "feature_idx": 14710,
+        "count": 5858,
+        "percent": 58.58
+      },
+      {
+        "feature_idx": 3096,
+        "count": 5815,
+        "percent": 58.15
+      },
+      {
+        "feature_idx": 1443,
+        "count": 5731,
+        "percent": 57.31
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5452,
+        "percent": 54.52
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4859,
+        "percent": 48.59
+      },
+      {
+        "feature_idx": 7176,
+        "count": 4517,
+        "percent": 45.17
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4304,
+        "percent": 43.04
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4179,
+        "percent": 41.79
+      },
+      {
+        "feature_idx": 5837,
+        "count": 4120,
+        "percent": 41.2
+      },
+      {
+        "feature_idx": 2585,
+        "count": 3987,
+        "percent": 39.87
+      },
+      {
+        "feature_idx": 17430,
+        "count": 3584,
+        "percent": 35.84
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3499,
+        "percent": 34.99
+      },
+      {
+        "feature_idx": 9465,
+        "count": 3416,
+        "percent": 34.16
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2779,
+        "percent": 27.79
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 20000000,
+      "corpus_coverage": 0.3868
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4117,
+        "percent": 41.17
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1373,
+        "percent": 13.73
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1038,
+        "percent": 10.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1155,
+        "percent": 11.55
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2317,
+        "percent": 23.17
+      }
+    ],
+    "mean_position": 0.4106,
+    "std_position": 0.3518
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 54,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0252,
+      "p25": 0.0475,
+      "p50": 0.0707,
+      "p75": 0.102,
+      "p90": 0.1244,
+      "p95": 0.1339,
+      "p99": 0.1632
+    },
+    "skewness": 0.3573,
+    "kurtosis": -0.3032,
+    "min": 0.0161,
+    "max": 0.1788,
+    "mean": 0.0764,
+    "std": 0.0369
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 54,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " stop",
+        "count": 18,
+        "mean_activation": 0.081
+      },
+      {
+        "token": " stopped",
+        "count": 12,
+        "mean_activation": 0.108
+      },
+      {
+        "token": " Sorry",
+        "count": 5,
+        "mean_activation": 0.0567
+      },
+      {
+        "token": "opped",
+        "count": 4,
+        "mean_activation": 0.0707
+      },
+      {
+        "token": " stopping",
+        "count": 3,
+        "mean_activation": 0.0598
+      },
+      {
+        "token": " keep",
+        "count": 2,
+        "mean_activation": 0.0188
+      },
+      {
+        "token": "pped",
+        "count": 2,
+        "mean_activation": 0.1263
+      },
+      {
+        "token": " forgot",
+        "count": 1,
+        "mean_activation": 0.0353
+      },
+      {
+        "token": " moved",
+        "count": 1,
+        "mean_activation": 0.0196
+      },
+      {
+        "token": " bother",
+        "count": 1,
+        "mean_activation": 0.0228
+      }
+    ]
+  }
+}

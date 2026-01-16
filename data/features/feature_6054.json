@@ -1,0 +1,871 @@
+{
+  "feature_idx": 6054,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 38,
+    "mean_when_active": 0.09243352789627879,
+    "max_activation": 0.1688232421875,
+    "std_when_active": 0.04966218886448782,
+    "activation_rate": 0.00038
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 15057,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " made",
+        "count": 10670,
+        "mean_activation": 0.10250625252835417
+      },
+      {
+        "token": "made",
+        "count": 2124,
+        "mean_activation": 0.10506284034858315
+      },
+      {
+        "token": " make",
+        "count": 607,
+        "mean_activation": 0.03938962128841897
+      },
+      {
+        "token": " making",
+        "count": 201,
+        "mean_activation": 0.03618921687946984
+      },
+      {
+        "token": " crafted",
+        "count": 168,
+        "mean_activation": 0.03835024152483259
+      },
+      {
+        "token": " Made",
+        "count": 125,
+        "mean_activation": 0.05139434814453125
+      },
+      {
+        "token": " owned",
+        "count": 110,
+        "mean_activation": 0.023453868519176135
+      },
+      {
+        "token": " designed",
+        "count": 100,
+        "mean_activation": 0.036990814208984375
+      },
+      {
+        "token": " prepared",
+        "count": 77,
+        "mean_activation": 0.0258026123046875
+      },
+      {
+        "token": " homemade",
+        "count": 76,
+        "mean_activation": 0.021291130467465048
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 15057,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ing musicians, fresh** made** tortillas, great tas...",
+        "active_token": " made",
+        "activation": 0.201171875,
+        "review_id": "lMvWgn3rIJyN1Wtb9qO1Ww",
+        "position": 24
+      },
+      {
+        "context": "...lection to the fresh** made** guacamole and salsa ...",
+        "active_token": " made",
+        "activation": 0.1961669921875,
+        "review_id": "U0Njh__-LgGtb44ZBgzI9A",
+        "position": 23
+      },
+      {
+        "context": "...can place with fresh** made** to order food.  The ...",
+        "active_token": " made",
+        "activation": 0.19482421875,
+        "review_id": "UaW5GDAxHKl3KV6dka0Wiw",
+        "position": 45
+      },
+      {
+        "context": "...ared a bowl of fresh** made** guac with amazing ch...",
+        "active_token": " made",
+        "activation": 0.193603515625,
+        "review_id": "qfWm2EyptytZxRX_rucz9g",
+        "position": 56
+      },
+      {
+        "context": "... and come with fresh** made** tortilla chips.",
+        "active_token": " made",
+        "activation": 0.19287109375,
+        "review_id": "0bjcDLYsvpRTGm2bLShTlg",
+        "position": 105
+      },
+      {
+        "context": "... tortillas and fresh** made** guacamole. So delici...",
+        "active_token": " made",
+        "activation": 0.1927490234375,
+        "review_id": "Pk1qZojGwpm3b3ARmqxVVA",
+        "position": 35
+      },
+      {
+        "context": "...ritas and free fresh** made** tortilla chips with ...",
+        "active_token": " made",
+        "activation": 0.1923828125,
+        "review_id": "nYW1RrBjZgTdFToIFoiDlQ",
+        "position": 12
+      },
+      {
+        "context": "...ito comes with fresh** made** guacamole and homema...",
+        "active_token": " made",
+        "activation": 0.19189453125,
+        "review_id": "LuBWCzcgp-E2pJwjzRYc2A",
+        "position": 8
+      },
+      {
+        "context": "...o slathered in fresh** made** salsa in your hands,...",
+        "active_token": " made",
+        "activation": 0.1915283203125,
+        "review_id": "xYdxh0IH0n34BzxOylpkEw",
+        "position": 127
+      },
+      {
+        "context": "...the tacos with fresh** made** tortillas and they w...",
+        "active_token": " made",
+        "activation": 0.1912841796875,
+        "review_id": "dv0aftmg0Gzrad-VH0MzSw",
+        "position": 223
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6054,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1619,
+        "max": 0.2012,
+        "mean": 0.1709
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " fresh",
+            " made"
+          ],
+          "ngram_str": " fresh made",
+          "count": 228,
+          "percent": 45.6
+        },
+        {
+          "ngram": [
+            " house",
+            " made"
+          ],
+          "ngram_str": " house made",
+          "count": 157,
+          "percent": 31.4
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " tortillas",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " made",
+            " tort"
+          ],
+          "ngram_str": " made tort",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " made",
+            " chips"
+          ],
+          "ngram_str": " made chips",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "ac",
+            "am"
+          ],
+          "ngram_str": "acam",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " made",
+            " salsa"
+          ],
+          "ngram_str": " made salsa",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "am",
+            "ole"
+          ],
+          "ngram_str": "amole",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac"
+          ],
+          "ngram_str": " guac",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " made",
+            " gu"
+          ],
+          "ngram_str": " made gu",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " chips",
+            " and"
+          ],
+          "ngram_str": " chips and",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " tortilla",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " fresh"
+          ],
+          "ngram_str": " the fresh",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " freshly",
+            " made"
+          ],
+          "ngram_str": " freshly made",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " made",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " made tortillas",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " fresh",
+            " made",
+            " tort"
+          ],
+          "ngram_str": " fresh made tort",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": "acamole",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " made",
+            " gu",
+            "ac"
+          ],
+          "ngram_str": " made guac",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am"
+          ],
+          "ngram_str": " guacam",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " the",
+            " fresh",
+            " made"
+          ],
+          "ngram_str": " the fresh made",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " fresh",
+            " made",
+            " chips"
+          ],
+          "ngram_str": " fresh made chips",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " the",
+            " house",
+            " made"
+          ],
+          "ngram_str": " the house made",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " fresh",
+            " made",
+            " gu"
+          ],
+          "ngram_str": " fresh made gu",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " made",
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " made tortilla",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " with",
+            " fresh",
+            " made"
+          ],
+          "ngram_str": " with fresh made",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " chips"
+          ],
+          "ngram_str": " tortilla chips",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " made",
+            " chips",
+            " and"
+          ],
+          "ngram_str": " made chips and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " and",
+            " fresh",
+            " made"
+          ],
+          "ngram_str": " and fresh made",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " fresh",
+            " made",
+            " salsa"
+          ],
+          "ngram_str": " fresh made salsa",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " fresh",
+            " made",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " fresh made tortillas",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": " guacamole",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " made",
+            " gu",
+            "ac",
+            "am"
+          ],
+          "ngram_str": " made guacam",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " fresh",
+            " made",
+            " gu",
+            "ac"
+          ],
+          "ngram_str": " fresh made guac",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " made",
+            " tort",
+            "illa",
+            " chips"
+          ],
+          "ngram_str": " made tortilla chips",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " made",
+            " s",
+            "als",
+            "as"
+          ],
+          "ngram_str": " made salsas",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " made",
+            " corn",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " made corn tortillas",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " fresh",
+            " made",
+            " corn",
+            " tort"
+          ],
+          "ngram_str": " fresh made corn tort",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " made",
+            " tort",
+            "illas",
+            "."
+          ],
+          "ngram_str": " made tortillas.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " made",
+            " chips",
+            " and",
+            " salsa"
+          ],
+          "ngram_str": " made chips and salsa",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Fresh",
+            "ly",
+            " made"
+          ],
+          "ngram_str": ". Freshly made",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " made",
+            " tort",
+            "illas",
+            ","
+          ],
+          "ngram_str": " made tortillas,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole",
+            "."
+          ],
+          "ngram_str": "acamole.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " made",
+            " marg",
+            "ar",
+            "itas"
+          ],
+          "ngram_str": " made margaritas",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " house",
+            " made",
+            " s",
+            "als"
+          ],
+          "ngram_str": " house made sals",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 33200000,
+      "corpus_coverage": 0.6421
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1209,
+        "count": 9344,
+        "percent": 93.44
+      },
+      {
+        "feature_idx": 8966,
+        "count": 9252,
+        "percent": 92.52
+      },
+      {
+        "feature_idx": 4858,
+        "count": 8819,
+        "percent": 88.19
+      },
+      {
+        "feature_idx": 1390,
+        "count": 8315,
+        "percent": 83.15
+      },
+      {
+        "feature_idx": 20829,
+        "count": 5983,
+        "percent": 59.83
+      },
+      {
+        "feature_idx": 10025,
+        "count": 5858,
+        "percent": 58.58
+      },
+      {
+        "feature_idx": 9519,
+        "count": 5854,
+        "percent": 58.54
+      },
+      {
+        "feature_idx": 8074,
+        "count": 5679,
+        "percent": 56.79
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5322,
+        "percent": 53.22
+      },
+      {
+        "feature_idx": 555,
+        "count": 5125,
+        "percent": 51.25
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4345,
+        "percent": 43.45
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4092,
+        "percent": 40.92
+      },
+      {
+        "feature_idx": 16557,
+        "count": 3922,
+        "percent": 39.22
+      },
+      {
+        "feature_idx": 12039,
+        "count": 3721,
+        "percent": 37.21
+      },
+      {
+        "feature_idx": 24237,
+        "count": 3712,
+        "percent": 37.12
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3592,
+        "percent": 35.92
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3517,
+        "percent": 35.17
+      },
+      {
+        "feature_idx": 16957,
+        "count": 3397,
+        "percent": 33.97
+      },
+      {
+        "feature_idx": 3462,
+        "count": 3385,
+        "percent": 33.85
+      },
+      {
+        "feature_idx": 11922,
+        "count": 3325,
+        "percent": 33.25
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 33200000,
+      "corpus_coverage": 0.6421
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1388,
+        "percent": 13.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2389,
+        "percent": 23.89
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2559,
+        "percent": 25.59
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2224,
+        "percent": 22.24
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1440,
+        "percent": 14.4
+      }
+    ],
+    "mean_position": 0.4989,
+    "std_position": 0.2495
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 38,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0251,
+      "p25": 0.0353,
+      "p50": 0.1107,
+      "p75": 0.1352,
+      "p90": 0.1493,
+      "p95": 0.152,
+      "p99": 0.1629
+    },
+    "skewness": -0.3061,
+    "kurtosis": -1.4931,
+    "min": 0.0151,
+    "max": 0.1688,
+    "mean": 0.0924,
+    "std": 0.0497
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 38,
+      "unique_tokens_found": 9
+    },
+    "tokens": [
+      {
+        "token": " made",
+        "count": 27,
+        "mean_activation": 0.1113
+      },
+      {
+        "token": "made",
+        "count": 3,
+        "mean_activation": 0.0842
+      },
+      {
+        "token": " make",
+        "count": 2,
+        "mean_activation": 0.0369
+      },
+      {
+        "token": " Made",
+        "count": 1,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": "ed",
+        "count": 1,
+        "mean_activation": 0.0325
+      },
+      {
+        "token": "crafted",
+        "count": 1,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " owned",
+        "count": 1,
+        "mean_activation": 0.0198
+      },
+      {
+        "token": "designed",
+        "count": 1,
+        "mean_activation": 0.0351
+      },
+      {
+        "token": " crafted",
+        "count": 1,
+        "mean_activation": 0.0358
+      }
+    ]
+  }
+}

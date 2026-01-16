@@ -1,0 +1,831 @@
+{
+  "feature_idx": 18641,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.16966834435096154,
+    "max_activation": 0.1949462890625,
+    "std_when_active": 0.01596631599073344,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6788,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " downtown",
+        "count": 5746,
+        "mean_activation": 0.17008763441755678
+      },
+      {
+        "token": " Downtown",
+        "count": 420,
+        "mean_activation": 0.21122291201636906
+      },
+      {
+        "token": "owntown",
+        "count": 82,
+        "mean_activation": 0.18713974371189024
+      },
+      {
+        "token": " city",
+        "count": 45,
+        "mean_activation": 0.017151387532552083
+      },
+      {
+        "token": "own",
+        "count": 36,
+        "mean_activation": 0.034992218017578125
+      },
+      {
+        "token": " Central",
+        "count": 31,
+        "mean_activation": 0.022935928836945566
+      },
+      {
+        "token": " northeast",
+        "count": 25,
+        "mean_activation": 0.0327587890625
+      },
+      {
+        "token": " Mt",
+        "count": 23,
+        "mean_activation": 0.022058238153872284
+      },
+      {
+        "token": " southwest",
+        "count": 21,
+        "mean_activation": 0.026410784040178572
+      },
+      {
+        "token": " Joint",
+        "count": 21,
+        "mean_activation": 0.024686540876116072
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6788,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... east of Ashley in** Downtown** Tampa, just a coup...",
+        "active_token": " Downtown",
+        "activation": 0.253662109375,
+        "review_id": "aU5zF_bwI1rR-or3r8Aukg",
+        "position": 62
+      },
+      {
+        "context": "...t visit to El Rey,** Downtown** Nashville. \\n\\nThe f...",
+        "active_token": " Downtown",
+        "activation": 0.2470703125,
+        "review_id": "KCXEm5kVQbc06qeliSjkFw",
+        "position": 31
+      },
+      {
+        "context": "... Rec and Avenue in** Downtown** St Pete off 3rd St...",
+        "active_token": " Downtown",
+        "activation": 0.24658203125,
+        "review_id": "M-yxMtx-DfF9WX6bu5OEVw",
+        "position": 36
+      },
+      {
+        "context": "...nt Condominiums in** Downtown** Tampa. The best re...",
+        "active_token": " Downtown",
+        "activation": 0.24267578125,
+        "review_id": "zh4q0B3yCHp9oUaTb8QP3w",
+        "position": 46
+      },
+      {
+        "context": "...a Little Mexico in** Downtown** Norristown). See m...",
+        "active_token": " Downtown",
+        "activation": 0.240966796875,
+        "review_id": "VyBYHzk6GlEyKKyzkRcqsg",
+        "position": 62
+      },
+      {
+        "context": "...he nearby shops in** Downtown** Santa Barbara. A l...",
+        "active_token": " Downtown",
+        "activation": 0.239990234375,
+        "review_id": "WWLZFHoZoCtuiu9v5Umkvw",
+        "position": 76
+      },
+      {
+        "context": "... event going on in** Downtown** Santa Barbara, so ...",
+        "active_token": " Downtown",
+        "activation": 0.2384033203125,
+        "review_id": "NlKozl8TJTrZoAn-BkWvkA",
+        "position": 41
+      },
+      {
+        "context": "...elside district in** Downtown** Tampa area has ave...",
+        "active_token": " Downtown",
+        "activation": 0.238037109375,
+        "review_id": "1R6vEbtaIeVKAFdIqx_Wfw",
+        "position": 18
+      },
+      {
+        "context": "...La Arcada Plaza in** Downtown** Santa Barbara, Viv...",
+        "active_token": " Downtown",
+        "activation": 0.2373046875,
+        "review_id": "kGT-Cc2yLnM-dQipDg4drQ",
+        "position": 22
+      },
+      {
+        "context": "...ican Restaurant in** Downtown** Tampa with decent ...",
+        "active_token": " Downtown",
+        "activation": 0.236328125,
+        "review_id": "5-rXfLYwDFDvZCbIo01alA",
+        "position": 530
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 18641,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1997,
+        "max": 0.2537,
+        "mean": 0.2127
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " in",
+            " Downtown"
+          ],
+          "ngram_str": " in Downtown",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            " in",
+            " downtown"
+          ],
+          "ngram_str": " in downtown",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " Downtown",
+            "."
+          ],
+          "ngram_str": " Downtown.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " Tampa"
+          ],
+          "ngram_str": " Downtown Tampa",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Downtown"
+          ],
+          "ngram_str": ". Downtown",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " Santa Barbara",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Dun",
+            "edin"
+          ],
+          "ngram_str": " Dunedin",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " Santa"
+          ],
+          "ngram_str": " Downtown Santa",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " St",
+            "."
+          ],
+          "ngram_str": " St.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " of",
+            " Downtown"
+          ],
+          "ngram_str": " of Downtown",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Downtown"
+          ],
+          "ngram_str": " the Downtown",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " St"
+          ],
+          "ngram_str": " Downtown St",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " Downtown Santa Barbara",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Dev",
+            "our",
+            " Downtown"
+          ],
+          "ngram_str": " Devour Downtown",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " in",
+            " Downtown",
+            " Tampa"
+          ],
+          "ngram_str": " in Downtown Tampa",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " Dun",
+            "edin"
+          ],
+          "ngram_str": " Downtown Dunedin",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " St",
+            ".",
+            " Pete"
+          ],
+          "ngram_str": " St. Pete",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " in",
+            " Downtown",
+            " Santa"
+          ],
+          "ngram_str": " in Downtown Santa",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " spot",
+            " in",
+            " downtown"
+          ],
+          "ngram_str": " spot in downtown",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " in",
+            " Downtown",
+            " Dun"
+          ],
+          "ngram_str": " in Downtown Dun",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " Dun",
+            "edin",
+            "."
+          ],
+          "ngram_str": " Dunedin.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " for",
+            " Dev",
+            "our"
+          ],
+          "ngram_str": " for Devour",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " in",
+            " downtown",
+            "."
+          ],
+          "ngram_str": " in downtown.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " in",
+            " downtown",
+            " Tucson"
+          ],
+          "ngram_str": " in downtown Tucson",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " in",
+            " Downtown",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " in Downtown Santa Barbara",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " in",
+            " Downtown",
+            " Dun",
+            "edin"
+          ],
+          "ngram_str": " in Downtown Dunedin",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " for",
+            " Dev",
+            "our",
+            " Downtown"
+          ],
+          "ngram_str": " for Devour Downtown",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " heart",
+            " of",
+            " Downtown"
+          ],
+          "ngram_str": " the heart of Downtown",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " Santa",
+            " Barbara",
+            "."
+          ],
+          "ngram_str": " Downtown Santa Barbara.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " St",
+            ".",
+            " Pete"
+          ],
+          "ngram_str": " Downtown St. Pete",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " heart",
+            " of"
+          ],
+          "ngram_str": " in the heart of",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " Dev",
+            "our",
+            " Downtown",
+            "."
+          ],
+          "ngram_str": " Devour Downtown.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " in",
+            " downtown",
+            " Santa",
+            " Barbara"
+          ],
+          "ngram_str": " in downtown Santa Barbara",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " in",
+            " downtown",
+            " Indy",
+            "."
+          ],
+          "ngram_str": " in downtown Indy.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " Santa",
+            " Barbara",
+            ","
+          ],
+          "ngram_str": " Downtown Santa Barbara,",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " D",
+            "ining",
+            " Week"
+          ],
+          "ngram_str": " Downtown Dining Week",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " Downtown",
+            " Dun",
+            "edin",
+            "."
+          ],
+          "ngram_str": " Downtown Dunedin.",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6788,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 2459,
+        "count": 6456,
+        "percent": 95.11
+      },
+      {
+        "feature_idx": 2360,
+        "count": 6330,
+        "percent": 93.25
+      },
+      {
+        "feature_idx": 22805,
+        "count": 6330,
+        "percent": 93.25
+      },
+      {
+        "feature_idx": 4493,
+        "count": 6296,
+        "percent": 92.75
+      },
+      {
+        "feature_idx": 3041,
+        "count": 6296,
+        "percent": 92.75
+      },
+      {
+        "feature_idx": 23061,
+        "count": 5519,
+        "percent": 81.31
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4867,
+        "percent": 71.7
+      },
+      {
+        "feature_idx": 14050,
+        "count": 3315,
+        "percent": 48.84
+      },
+      {
+        "feature_idx": 3096,
+        "count": 3303,
+        "percent": 48.66
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3152,
+        "percent": 46.43
+      },
+      {
+        "feature_idx": 3952,
+        "count": 3138,
+        "percent": 46.23
+      },
+      {
+        "feature_idx": 18505,
+        "count": 3006,
+        "percent": 44.28
+      },
+      {
+        "feature_idx": 10662,
+        "count": 2878,
+        "percent": 42.4
+      },
+      {
+        "feature_idx": 8285,
+        "count": 2458,
+        "percent": 36.21
+      },
+      {
+        "feature_idx": 21472,
+        "count": 2370,
+        "percent": 34.91
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2317,
+        "percent": 34.13
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2018,
+        "percent": 29.73
+      },
+      {
+        "feature_idx": 22299,
+        "count": 1939,
+        "percent": 28.57
+      },
+      {
+        "feature_idx": 19274,
+        "count": 1900,
+        "percent": 27.99
+      },
+      {
+        "feature_idx": 13450,
+        "count": 1807,
+        "percent": 26.62
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6788,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2703,
+        "percent": 39.82
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 987,
+        "percent": 14.54
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 538,
+        "percent": 7.93
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 695,
+        "percent": 10.24
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1865,
+        "percent": 27.47
+      }
+    ],
+    "mean_position": 0.4429,
+    "std_position": 0.3568
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.1518,
+      "p25": 0.162,
+      "p50": 0.1748,
+      "p75": 0.1788,
+      "p90": 0.1834,
+      "p95": 0.1886,
+      "p99": 0.1937
+    },
+    "skewness": -0.8845,
+    "kurtosis": 0.5188,
+    "min": 0.1306,
+    "max": 0.1949,
+    "mean": 0.1697,
+    "std": 0.016
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 1
+    },
+    "tokens": [
+      {
+        "token": " downtown",
+        "count": 13,
+        "mean_activation": 0.1697
+      }
+    ]
+  }
+}

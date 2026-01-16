@@ -1,0 +1,836 @@
+{
+  "feature_idx": 24088,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.08242328350360577,
+    "max_activation": 0.1893310546875,
+    "std_when_active": 0.05326989445408459,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8018,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " with",
+        "count": 6802,
+        "mean_activation": 0.09516991085600972
+      },
+      {
+        "token": " of",
+        "count": 217,
+        "mean_activation": 0.035088745679723504
+      },
+      {
+        "token": " from",
+        "count": 203,
+        "mean_activation": 0.024278499809979218
+      },
+      {
+        "token": " Gr",
+        "count": 160,
+        "mean_activation": 0.01764707565307617
+      },
+      {
+        "token": " for",
+        "count": 132,
+        "mean_activation": 0.038848530162464485
+      },
+      {
+        "token": " by",
+        "count": 128,
+        "mean_activation": 0.028212308883666992
+      },
+      {
+        "token": " the",
+        "count": 63,
+        "mean_activation": 0.029754396468874008
+      },
+      {
+        "token": "ors",
+        "count": 58,
+        "mean_activation": 0.05905098750673492
+      },
+      {
+        "token": " without",
+        "count": 34,
+        "mean_activation": 0.042083740234375
+      },
+      {
+        "token": " using",
+        "count": 33,
+        "mean_activation": 0.040415445963541664
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8018,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...med like it was made** with** such simple ingredie...",
+        "active_token": " with",
+        "activation": 0.217041015625,
+        "review_id": "V5WsKQxr9xXzRHsAYcKCYg",
+        "position": 282
+      },
+      {
+        "context": "...d say they were made** with** like. And that's pre...",
+        "active_token": " with",
+        "activation": 0.2164306640625,
+        "review_id": "GeNEa0X0wQNA5sTDsHshug",
+        "position": 492
+      },
+      {
+        "context": "...r) was probably made** with** hipsters in mind. Th...",
+        "active_token": " with",
+        "activation": 0.2113037109375,
+        "review_id": "T_FIHYSkiTngc2pY8oQRwg",
+        "position": 58
+      },
+      {
+        "context": "...eels like it is made** with** love and the staff i...",
+        "active_token": " with",
+        "activation": 0.2100830078125,
+        "review_id": "UCMuIKf-T8hpLDFnI0lbFA",
+        "position": 61
+      },
+      {
+        "context": "...oks like it was made** with** me in mind - it's pi...",
+        "active_token": " with",
+        "activation": 0.209716796875,
+        "review_id": "7GwDDqYZRlOeo7AD09x7oQ",
+        "position": 37
+      },
+      {
+        "context": "...d they were not made** with** any sour mix. Everyt...",
+        "active_token": " with",
+        "activation": 0.2093505859375,
+        "review_id": "_RI5MVRmwsskCiKT02PYAw",
+        "position": 84
+      },
+      {
+        "context": "...h and obviously made** with** love:) As I was sitt...",
+        "active_token": " with",
+        "activation": 0.2093505859375,
+        "review_id": "YOC59-Sx6y9zKz9mAuXxFQ",
+        "position": 281
+      },
+      {
+        "context": "... like they were made** with** fresh lime juice, bu...",
+        "active_token": " with",
+        "activation": 0.208984375,
+        "review_id": "Vrntm8KyVtlICOIbj6_3cA",
+        "position": 227
+      },
+      {
+        "context": "... course, it was made** with** good booze (Patron G...",
+        "active_token": " with",
+        "activation": 0.2086181640625,
+        "review_id": "8EnEvwxuAImjpbwhENAtkw",
+        "position": 213
+      },
+      {
+        "context": "... stating it was made** with** salmon.  The waiter ...",
+        "active_token": " with",
+        "activation": 0.206298828125,
+        "review_id": "ChKn5iQglzp4FqKQzc84pA",
+        "position": 89
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 24088,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1741,
+        "max": 0.217,
+        "mean": 0.1855
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " made",
+            " with"
+          ],
+          "ngram_str": " made with",
+          "count": 483,
+          "percent": 96.6
+        },
+        {
+          "ngram": [
+            " was",
+            " made"
+          ],
+          "ngram_str": " was made",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " like",
+            " it"
+          ],
+          "ngram_str": " like it",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " are",
+            " made"
+          ],
+          "ngram_str": " are made",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " is",
+            " made"
+          ],
+          "ngram_str": " is made",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " with",
+            " love"
+          ],
+          "ngram_str": " with love",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " were",
+            " made"
+          ],
+          "ngram_str": " were made",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " with",
+            " fresh"
+          ],
+          "ngram_str": " with fresh",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " not",
+            " made"
+          ],
+          "ngram_str": " not made",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like"
+          ],
+          "ngram_str": " tasted like",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " they",
+            " were"
+          ],
+          "ngram_str": " they were",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " made"
+          ],
+          "ngram_str": "'s made",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " was",
+            " made",
+            " with"
+          ],
+          "ngram_str": " was made with",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " made"
+          ],
+          "ngram_str": " it was made",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " are",
+            " made",
+            " with"
+          ],
+          "ngram_str": " are made with",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " is",
+            " made",
+            " with"
+          ],
+          "ngram_str": " is made with",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " like",
+            " it",
+            " was"
+          ],
+          "ngram_str": " like it was",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " were",
+            " made",
+            " with"
+          ],
+          "ngram_str": " were made with",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " made",
+            " with",
+            " love"
+          ],
+          "ngram_str": " made with love",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " made",
+            " with",
+            " fresh"
+          ],
+          "ngram_str": " made with fresh",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " not",
+            " made",
+            " with"
+          ],
+          "ngram_str": " not made with",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " made",
+            " with",
+            " a"
+          ],
+          "ngram_str": " made with a",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "'s",
+            " made",
+            " with"
+          ],
+          "ngram_str": "'s made with",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " and",
+            " made",
+            " with"
+          ],
+          "ngram_str": " and made with",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " they",
+            " were",
+            " made"
+          ],
+          "ngram_str": " they were made",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " made",
+            " with",
+            " care"
+          ],
+          "ngram_str": " made with care",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " they",
+            " are",
+            " made"
+          ],
+          "ngram_str": " they are made",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " it",
+            " was",
+            " made",
+            " with"
+          ],
+          "ngram_str": " it was made with",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " like",
+            " it",
+            " was",
+            " made"
+          ],
+          "ngram_str": " like it was made",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " they",
+            " were",
+            " made",
+            " with"
+          ],
+          "ngram_str": " they were made with",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " they",
+            " are",
+            " made",
+            " with"
+          ],
+          "ngram_str": " they are made with",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like",
+            " it",
+            " was"
+          ],
+          "ngram_str": " tasted like it was",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " made",
+            " with"
+          ],
+          "ngram_str": " it's made with",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " made",
+            " with",
+            " love",
+            "."
+          ],
+          "ngram_str": " made with love.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " made",
+            " with",
+            " fresh",
+            " ingredients"
+          ],
+          "ngram_str": " made with fresh ingredients",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " is",
+            " made",
+            " with",
+            " love"
+          ],
+          "ngram_str": " is made with love",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " made",
+            " with"
+          ],
+          "ngram_str": " food is made with",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " it",
+            " is",
+            " made",
+            " with"
+          ],
+          "ngram_str": " it is made with",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " like",
+            " they",
+            " were",
+            " made"
+          ],
+          "ngram_str": " like they were made",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " they",
+            "'re",
+            " made",
+            " with"
+          ],
+          "ngram_str": " they're made with",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " was",
+            " made",
+            " with",
+            " a"
+          ],
+          "ngram_str": " was made with a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " made",
+            " with",
+            " love",
+            " and"
+          ],
+          "ngram_str": " made with love and",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8018,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 6754,
+        "count": 7038,
+        "percent": 87.78
+      },
+      {
+        "feature_idx": 9447,
+        "count": 6802,
+        "percent": 84.83
+      },
+      {
+        "feature_idx": 23923,
+        "count": 6764,
+        "percent": 84.36
+      },
+      {
+        "feature_idx": 3606,
+        "count": 6593,
+        "percent": 82.23
+      },
+      {
+        "feature_idx": 1390,
+        "count": 6436,
+        "percent": 80.27
+      },
+      {
+        "feature_idx": 17975,
+        "count": 6011,
+        "percent": 74.97
+      },
+      {
+        "feature_idx": 16273,
+        "count": 5954,
+        "percent": 74.26
+      },
+      {
+        "feature_idx": 3462,
+        "count": 5340,
+        "percent": 66.6
+      },
+      {
+        "feature_idx": 13261,
+        "count": 5155,
+        "percent": 64.29
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4994,
+        "percent": 62.28
+      },
+      {
+        "feature_idx": 17748,
+        "count": 4712,
+        "percent": 58.77
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4658,
+        "percent": 58.09
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3616,
+        "percent": 45.1
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3191,
+        "percent": 39.8
+      },
+      {
+        "feature_idx": 11922,
+        "count": 2888,
+        "percent": 36.02
+      },
+      {
+        "feature_idx": 22930,
+        "count": 2870,
+        "percent": 35.79
+      },
+      {
+        "feature_idx": 14343,
+        "count": 2834,
+        "percent": 35.35
+      },
+      {
+        "feature_idx": 23380,
+        "count": 2806,
+        "percent": 35.0
+      },
+      {
+        "feature_idx": 22215,
+        "count": 2775,
+        "percent": 34.61
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2702,
+        "percent": 33.7
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8018,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 942,
+        "percent": 11.75
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1822,
+        "percent": 22.72
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2177,
+        "percent": 27.15
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1936,
+        "percent": 24.15
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1141,
+        "percent": 14.23
+      }
+    ],
+    "mean_position": 0.512,
+    "std_position": 0.2423
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0318,
+      "p25": 0.0383,
+      "p50": 0.0596,
+      "p75": 0.1268,
+      "p90": 0.1546,
+      "p95": 0.1696,
+      "p99": 0.1854
+    },
+    "skewness": 0.6721,
+    "kurtosis": -0.93,
+    "min": 0.02,
+    "max": 0.1893,
+    "mean": 0.0824,
+    "std": 0.0533
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " with",
+        "count": 12,
+        "mean_activation": 0.0876
+      },
+      {
+        "token": " Gr",
+        "count": 1,
+        "mean_activation": 0.02
+      }
+    ]
+  }
+}

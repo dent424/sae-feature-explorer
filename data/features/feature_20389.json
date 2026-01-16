@@ -1,0 +1,876 @@
+{
+  "feature_idx": 20389,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 69,
+    "mean_when_active": 0.07672583538552989,
+    "max_activation": 0.268310546875,
+    "std_when_active": 0.061464443112479665,
+    "activation_rate": 0.00069
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 39008,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " set",
+        "count": 5273,
+        "mean_activation": 0.16697369348883018
+      },
+      {
+        "token": " the",
+        "count": 2582,
+        "mean_activation": 0.09092117888718775
+      },
+      {
+        "token": " up",
+        "count": 2141,
+        "mean_activation": 0.07403296479996205
+      },
+      {
+        "token": " setting",
+        "count": 2021,
+        "mean_activation": 0.11680717034129917
+      },
+      {
+        "token": " a",
+        "count": 1932,
+        "mean_activation": 0.05743049637377879
+      },
+      {
+        "token": " of",
+        "count": 1182,
+        "mean_activation": 0.05559806371905073
+      },
+      {
+        "token": " it",
+        "count": 1111,
+        "mean_activation": 0.08551241705591457
+      },
+      {
+        "token": " our",
+        "count": 1079,
+        "mean_activation": 0.042520913733057226
+      },
+      {
+        "token": " my",
+        "count": 1067,
+        "mean_activation": 0.056270552888135546
+      },
+      {
+        "token": " on",
+        "count": 991,
+        "mean_activation": 0.07651626787079813
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 39008,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ace definitely sets** itself** apart! I hate to us...",
+        "active_token": " itself",
+        "activation": 0.380859375,
+        "review_id": "o762b3k6p8JPtjeWpDhQRg",
+        "position": 54
+      },
+      {
+        "context": "...ng! This place sets** itself** apart from its Mexi...",
+        "active_token": " itself",
+        "activation": 0.365966796875,
+        "review_id": "Uxt_rW3HBKScxkT9Zzjzwg",
+        "position": 94
+      },
+      {
+        "context": "...g food definitely set** the** standard for the res...",
+        "active_token": " the",
+        "activation": 0.36572265625,
+        "review_id": "6VyknjqE-Gz0YI0ZC1lGGw",
+        "position": 13
+      },
+      {
+        "context": "... Verde definitely set** the** new standard. Servic...",
+        "active_token": " the",
+        "activation": 0.363525390625,
+        "review_id": "t00lbEWGyhfyOS1Lx-6ARQ",
+        "position": 27
+      },
+      {
+        "context": "... place clearly sets** itself** apart from other re...",
+        "active_token": " itself",
+        "activation": 0.363037109375,
+        "review_id": "biCkHhUBwAem0S0WoujSbA",
+        "position": 73
+      },
+      {
+        "context": "...e outstanding and set** the** bar high.\\n\\nThe only ...",
+        "active_token": " the",
+        "activation": 0.362060546875,
+        "review_id": "Oy9udvYSky5CwmPTcqq60g",
+        "position": 55
+      },
+      {
+        "context": "..., which certainly set** the** bar very high. Our s...",
+        "active_token": " the",
+        "activation": 0.36083984375,
+        "review_id": "oNO1ROGpzPknb8KW1QvNnQ",
+        "position": 52
+      },
+      {
+        "context": "...ular location has set** the** bar for me with faji...",
+        "active_token": " the",
+        "activation": 0.359130859375,
+        "review_id": "hNROmuyg7xaZehvyTzARGw",
+        "position": 19
+      },
+      {
+        "context": "...spot on. They set** themselves** apart from most o...",
+        "active_token": " themselves",
+        "activation": 0.3583984375,
+        "review_id": "8VORXlM-IjHdK250lSYLOA",
+        "position": 43
+      },
+      {
+        "context": "...place definitely sets** the** standard for legit N...",
+        "active_token": " the",
+        "activation": 0.358154296875,
+        "review_id": "CMchNq1L1GtjzeO5Kv1PFQ",
+        "position": 83
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20389,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.293,
+        "max": 0.3809,
+        "mean": 0.3168
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " set",
+            " the"
+          ],
+          "ngram_str": " set the",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            " sets",
+            " the"
+          ],
+          "ngram_str": " sets the",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " the",
+            " bar"
+          ],
+          "ngram_str": " the bar",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " set",
+            " a"
+          ],
+          "ngram_str": " set a",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " the",
+            " tone"
+          ],
+          "ngram_str": " the tone",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " tone",
+            " for"
+          ],
+          "ngram_str": " tone for",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " for",
+            " the"
+          ],
+          "ngram_str": " for the",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " really",
+            " set"
+          ],
+          "ngram_str": " really set",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " bar",
+            " for"
+          ],
+          "ngram_str": " bar for",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " the",
+            " mood"
+          ],
+          "ngram_str": " the mood",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " set",
+            "-"
+          ],
+          "ngram_str": " set-",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " to",
+            " set"
+          ],
+          "ngram_str": " to set",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "-",
+            "up"
+          ],
+          "ngram_str": "-up",
+          "count": 28,
+          "percent": 5.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " set",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " set the bar",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " the",
+            " tone",
+            " for"
+          ],
+          "ngram_str": " the tone for",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " set",
+            " the",
+            " tone"
+          ],
+          "ngram_str": " set the tone",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " tone",
+            " for",
+            " the"
+          ],
+          "ngram_str": " tone for the",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " set",
+            "-",
+            "up"
+          ],
+          "ngram_str": " set-up",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " really",
+            " set",
+            " the"
+          ],
+          "ngram_str": " really set the",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " sets",
+            " the",
+            " bar"
+          ],
+          "ngram_str": " sets the bar",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " sets",
+            " the",
+            " tone"
+          ],
+          "ngram_str": " sets the tone",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " the",
+            " bar",
+            " for"
+          ],
+          "ngram_str": " the bar for",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " sets",
+            " the",
+            " mood"
+          ],
+          "ngram_str": " sets the mood",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " the",
+            " bar",
+            " high"
+          ],
+          "ngram_str": " the bar high",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " to",
+            " set",
+            " the"
+          ],
+          "ngram_str": " to set the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " set",
+            " the",
+            " mood"
+          ],
+          "ngram_str": " set the mood",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " sets",
+            " itself",
+            " apart"
+          ],
+          "ngram_str": " sets itself apart",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " set",
+            " the",
+            " tone",
+            " for"
+          ],
+          "ngram_str": " set the tone for",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " the",
+            " tone",
+            " for",
+            " the"
+          ],
+          "ngram_str": " the tone for the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " sets",
+            " the",
+            " tone",
+            " for"
+          ],
+          "ngram_str": " sets the tone for",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " really",
+            " set",
+            " the",
+            " tone"
+          ],
+          "ngram_str": " really set the tone",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " for",
+            " the",
+            " rest",
+            " of"
+          ],
+          "ngram_str": " for the rest of",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " set",
+            " the",
+            " bar",
+            " high"
+          ],
+          "ngram_str": " set the bar high",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " set",
+            " the",
+            " bar",
+            " for"
+          ],
+          "ngram_str": " set the bar for",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " tone",
+            " for",
+            " the",
+            " rest"
+          ],
+          "ngram_str": " tone for the rest",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " sets",
+            " the",
+            " bar",
+            " for"
+          ],
+          "ngram_str": " sets the bar for",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " the",
+            " mood",
+            " for",
+            " a"
+          ],
+          "ngram_str": " the mood for a",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " sets",
+            " itself",
+            " apart",
+            " from"
+          ],
+          "ngram_str": " sets itself apart from",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " sets",
+            " the",
+            " standard",
+            " for"
+          ],
+          "ngram_str": " sets the standard for",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " bar",
+            " high",
+            " for"
+          ],
+          "ngram_str": " the bar high for",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " tone",
+            " for",
+            " a"
+          ],
+          "ngram_str": " the tone for a",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13300000,
+      "corpus_coverage": 0.2572
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4527,
+        "percent": 45.27
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3956,
+        "percent": 39.56
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3632,
+        "percent": 36.32
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2740,
+        "percent": 27.4
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2689,
+        "percent": 26.89
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2678,
+        "percent": 26.78
+      },
+      {
+        "feature_idx": 9916,
+        "count": 2272,
+        "percent": 22.72
+      },
+      {
+        "feature_idx": 5177,
+        "count": 2083,
+        "percent": 20.83
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2064,
+        "percent": 20.64
+      },
+      {
+        "feature_idx": 21982,
+        "count": 2063,
+        "percent": 20.63
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1982,
+        "percent": 19.82
+      },
+      {
+        "feature_idx": 16907,
+        "count": 1962,
+        "percent": 19.62
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1950,
+        "percent": 19.5
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1619,
+        "percent": 16.19
+      },
+      {
+        "feature_idx": 21250,
+        "count": 1451,
+        "percent": 14.51
+      },
+      {
+        "feature_idx": 20072,
+        "count": 1441,
+        "percent": 14.41
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1345,
+        "percent": 13.45
+      },
+      {
+        "feature_idx": 23368,
+        "count": 1249,
+        "percent": 12.49
+      },
+      {
+        "feature_idx": 6408,
+        "count": 1238,
+        "percent": 12.38
+      },
+      {
+        "feature_idx": 12440,
+        "count": 1236,
+        "percent": 12.36
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13300000,
+      "corpus_coverage": 0.2572
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2071,
+        "percent": 20.71
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2297,
+        "percent": 22.97
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1972,
+        "percent": 19.72
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1812,
+        "percent": 18.12
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1848,
+        "percent": 18.48
+      }
+    ],
+    "mean_position": 0.4821,
+    "std_position": 0.2834
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 69,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0255,
+      "p25": 0.0319,
+      "p50": 0.0434,
+      "p75": 0.1011,
+      "p90": 0.1772,
+      "p95": 0.1824,
+      "p99": 0.2399
+    },
+    "skewness": 1.2059,
+    "kurtosis": 0.4337,
+    "min": 0.0083,
+    "max": 0.2683,
+    "mean": 0.0767,
+    "std": 0.0615
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 69,
+      "unique_tokens_found": 38
+    },
+    "tokens": [
+      {
+        "token": " set",
+        "count": 9,
+        "mean_activation": 0.1569
+      },
+      {
+        "token": " setting",
+        "count": 8,
+        "mean_activation": 0.0909
+      },
+      {
+        "token": " your",
+        "count": 4,
+        "mean_activation": 0.0775
+      },
+      {
+        "token": " and",
+        "count": 3,
+        "mean_activation": 0.0324
+      },
+      {
+        "token": " up",
+        "count": 3,
+        "mean_activation": 0.0875
+      },
+      {
+        "token": " my",
+        "count": 3,
+        "mean_activation": 0.0318
+      },
+      {
+        "token": " them",
+        "count": 3,
+        "mean_activation": 0.0407
+      },
+      {
+        "token": " the",
+        "count": 2,
+        "mean_activation": 0.035
+      },
+      {
+        "token": " out",
+        "count": 2,
+        "mean_activation": 0.0927
+      },
+      {
+        "token": " sets",
+        "count": 2,
+        "mean_activation": 0.1393
+      }
+    ]
+  }
+}

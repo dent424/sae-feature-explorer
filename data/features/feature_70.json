@@ -1,0 +1,876 @@
+{
+  "feature_idx": 70,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 62,
+    "mean_when_active": 0.03435608648484753,
+    "max_activation": 0.121826171875,
+    "std_when_active": 0.023243843550618547,
+    "activation_rate": 0.00062
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 43162,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " you",
+        "count": 16677,
+        "mean_activation": 0.04038614734096794
+      },
+      {
+        "token": " people",
+        "count": 1883,
+        "mean_activation": 0.03405162468908698
+      },
+      {
+        "token": " so",
+        "count": 1799,
+        "mean_activation": 0.05208850158725334
+      },
+      {
+        "token": "'re",
+        "count": 1546,
+        "mean_activation": 0.026868450071031343
+      },
+      {
+        "token": " are",
+        "count": 1508,
+        "mean_activation": 0.0301745133943836
+      },
+      {
+        "token": " who",
+        "count": 1491,
+        "mean_activation": 0.048446742261839267
+      },
+      {
+        "token": " have",
+        "count": 1275,
+        "mean_activation": 0.04182970832375919
+      },
+      {
+        "token": " those",
+        "count": 1107,
+        "mean_activation": 0.05043310976933012
+      },
+      {
+        "token": " might",
+        "count": 963,
+        "mean_activation": 0.04182231265312662
+      },
+      {
+        "token": "'ve",
+        "count": 901,
+        "mean_activation": 0.03646451757433147
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 43162,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "..., I know what some of** you** are saying,  why wou...",
+        "active_token": " you",
+        "activation": 0.296630859375,
+        "review_id": "GcvlvlcuR08x7jZapI-VNA",
+        "position": 344
+      },
+      {
+        "context": "...orite. \\n\\nNow those of** you** who aren't me/don't ...",
+        "active_token": " you",
+        "activation": 0.294921875,
+        "review_id": "A5rv0zfvn9dkpW6n7jERZw",
+        "position": 63
+      },
+      {
+        "context": "...n Friday(For those of** you** who dont know choing...",
+        "active_token": " you",
+        "activation": 0.292724609375,
+        "review_id": "ENssbxElBZS-1kS9--oKGA",
+        "position": 41
+      },
+      {
+        "context": "... charge. \\nNow some of** you** are saying \"maybe th...",
+        "active_token": " you",
+        "activation": 0.2841796875,
+        "review_id": "vmfFCKLh6_5-zZmHF52-cg",
+        "position": 167
+      },
+      {
+        "context": "...\\nOh, and for those of** you** wondering about pric...",
+        "active_token": " you",
+        "activation": 0.27880859375,
+        "review_id": "73v6L9_89aFJB6APPlpIPg",
+        "position": 613
+      },
+      {
+        "context": "... Juan's.  To those of** you** looking at these rev...",
+        "active_token": " you",
+        "activation": 0.27880859375,
+        "review_id": "DNwbhozemVvmDddWEFCr1Q",
+        "position": 49
+      },
+      {
+        "context": "... Now I'm sure some of** you** will take that comme...",
+        "active_token": " you",
+        "activation": 0.278076171875,
+        "review_id": "nwp-v6h8rrzxjJ2X2bjlSw",
+        "position": 622
+      },
+      {
+        "context": "...ready\". (For those of** you** who don't know what ...",
+        "active_token": " you",
+        "activation": 0.27734375,
+        "review_id": "Z2lhYxX8X6GYKCkv3CUdiw",
+        "position": 89
+      },
+      {
+        "context": ".... Now, I know some of** you** might think this is ...",
+        "active_token": " you",
+        "activation": 0.277099609375,
+        "review_id": "oNQCUseS2paX4M3bkTY-gg",
+        "position": 104
+      },
+      {
+        "context": "...?  Well, for those of** you** who read my reviews ...",
+        "active_token": " you",
+        "activation": 0.2763671875,
+        "review_id": "dfFWfVc0Sr7GLp1v8-W-lw",
+        "position": 54
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 70,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1677,
+        "max": 0.2966,
+        "mean": 0.2323
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " of",
+            " you"
+          ],
+          "ngram_str": " of you",
+          "count": 480,
+          "percent": 96.0
+        },
+        {
+          "ngram": [
+            " those",
+            " of"
+          ],
+          "ngram_str": " those of",
+          "count": 282,
+          "percent": 56.4
+        },
+        {
+          "ngram": [
+            " you",
+            " who"
+          ],
+          "ngram_str": " you who",
+          "count": 157,
+          "percent": 31.4
+        },
+        {
+          "ngram": [
+            " for",
+            " those"
+          ],
+          "ngram_str": " for those",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " For",
+            " those"
+          ],
+          "ngram_str": " For those",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " you",
+            " that"
+          ],
+          "ngram_str": " you that",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            "For",
+            " those"
+          ],
+          "ngram_str": "For those",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " some",
+            " of"
+          ],
+          "ngram_str": " some of",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ".",
+            " For"
+          ],
+          "ngram_str": ". For",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " ",
+            " For"
+          ],
+          "ngram_str": "  For",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " don",
+            "'t"
+          ],
+          "ngram_str": " don't",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " all",
+            " of"
+          ],
+          "ngram_str": " all of",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " those",
+            " of",
+            " you"
+          ],
+          "ngram_str": " those of you",
+          "count": 282,
+          "percent": 56.4
+        },
+        {
+          "ngram": [
+            " of",
+            " you",
+            " who"
+          ],
+          "ngram_str": " of you who",
+          "count": 157,
+          "percent": 31.4
+        },
+        {
+          "ngram": [
+            " for",
+            " those",
+            " of"
+          ],
+          "ngram_str": " for those of",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " For",
+            " those",
+            " of"
+          ],
+          "ngram_str": " For those of",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " of",
+            " you",
+            " that"
+          ],
+          "ngram_str": " of you that",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            "For",
+            " those",
+            " of"
+          ],
+          "ngram_str": "For those of",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " some",
+            " of",
+            " you"
+          ],
+          "ngram_str": " some of you",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " For",
+            " those"
+          ],
+          "ngram_str": ". For those",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " ",
+            " For",
+            " those"
+          ],
+          "ngram_str": "  For those",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " all",
+            " of",
+            " you"
+          ],
+          "ngram_str": " all of you",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "For"
+          ],
+          "ngram_str": "\u00c4\u012cFor",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " For"
+          ],
+          "ngram_str": ".  For",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "For",
+            " those"
+          ],
+          "ngram_str": "\u012cFor those",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " those",
+            " of",
+            " you",
+            " who"
+          ],
+          "ngram_str": " those of you who",
+          "count": 138,
+          "percent": 27.6
+        },
+        {
+          "ngram": [
+            " for",
+            " those",
+            " of",
+            " you"
+          ],
+          "ngram_str": " for those of you",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " For",
+            " those",
+            " of",
+            " you"
+          ],
+          "ngram_str": " For those of you",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            " those",
+            " of",
+            " you",
+            " that"
+          ],
+          "ngram_str": " those of you that",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "For",
+            " those",
+            " of",
+            " you"
+          ],
+          "ngram_str": "For those of you",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " For",
+            " those",
+            " of"
+          ],
+          "ngram_str": ". For those of",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " ",
+            " For",
+            " those",
+            " of"
+          ],
+          "ngram_str": "  For those of",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "For"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cFor",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " For",
+            " those"
+          ],
+          "ngram_str": ".  For those",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "For",
+            " those"
+          ],
+          "ngram_str": "\u00c4\u012cFor those",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "For",
+            " those",
+            " of"
+          ],
+          "ngram_str": "\u012cFor those of",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " of",
+            " you",
+            " who",
+            " are"
+          ],
+          "ngram_str": " of you who are",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ",",
+            " for",
+            " those",
+            " of"
+          ],
+          "ngram_str": ", for those of",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " of",
+            " you",
+            " who",
+            " don"
+          ],
+          "ngram_str": " of you who don",
+          "count": 22,
+          "percent": 4.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11900000,
+      "corpus_coverage": 0.2302
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17492,
+        "count": 6836,
+        "percent": 68.36
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5053,
+        "percent": 50.53
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4265,
+        "percent": 42.65
+      },
+      {
+        "feature_idx": 9901,
+        "count": 4215,
+        "percent": 42.15
+      },
+      {
+        "feature_idx": 21933,
+        "count": 4148,
+        "percent": 41.48
+      },
+      {
+        "feature_idx": 15583,
+        "count": 3583,
+        "percent": 35.83
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3484,
+        "percent": 34.84
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3329,
+        "percent": 33.29
+      },
+      {
+        "feature_idx": 23800,
+        "count": 3250,
+        "percent": 32.5
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2963,
+        "percent": 29.63
+      },
+      {
+        "feature_idx": 20577,
+        "count": 2652,
+        "percent": 26.52
+      },
+      {
+        "feature_idx": 19820,
+        "count": 2568,
+        "percent": 25.68
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2194,
+        "percent": 21.94
+      },
+      {
+        "feature_idx": 20647,
+        "count": 2174,
+        "percent": 21.74
+      },
+      {
+        "feature_idx": 3586,
+        "count": 2145,
+        "percent": 21.45
+      },
+      {
+        "feature_idx": 307,
+        "count": 2123,
+        "percent": 21.23
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2103,
+        "percent": 21.03
+      },
+      {
+        "feature_idx": 20701,
+        "count": 2046,
+        "percent": 20.46
+      },
+      {
+        "feature_idx": 1918,
+        "count": 1901,
+        "percent": 19.01
+      },
+      {
+        "feature_idx": 4475,
+        "count": 1842,
+        "percent": 18.42
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11900000,
+      "corpus_coverage": 0.2302
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2949,
+        "percent": 29.49
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1534,
+        "percent": 15.34
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1472,
+        "percent": 14.72
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1795,
+        "percent": 17.95
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2250,
+        "percent": 22.5
+      }
+    ],
+    "mean_position": 0.4692,
+    "std_position": 0.3259
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 62,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0052,
+      "p25": 0.0205,
+      "p50": 0.0315,
+      "p75": 0.0466,
+      "p90": 0.0613,
+      "p95": 0.0751,
+      "p99": 0.1034
+    },
+    "skewness": 1.2147,
+    "kurtosis": 2.1256,
+    "min": 0.0052,
+    "max": 0.1218,
+    "mean": 0.0344,
+    "std": 0.0232
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 62,
+      "unique_tokens_found": 23
+    },
+    "tokens": [
+      {
+        "token": " you",
+        "count": 26,
+        "mean_activation": 0.0297
+      },
+      {
+        "token": " those",
+        "count": 3,
+        "mean_activation": 0.0399
+      },
+      {
+        "token": " probably",
+        "count": 3,
+        "mean_activation": 0.0628
+      },
+      {
+        "token": " have",
+        "count": 3,
+        "mean_activation": 0.0273
+      },
+      {
+        "token": " be",
+        "count": 3,
+        "mean_activation": 0.0551
+      },
+      {
+        "token": " people",
+        "count": 3,
+        "mean_activation": 0.0447
+      },
+      {
+        "token": " are",
+        "count": 2,
+        "mean_activation": 0.0138
+      },
+      {
+        "token": " likely",
+        "count": 2,
+        "mean_activation": 0.0413
+      },
+      {
+        "token": " who",
+        "count": 2,
+        "mean_activation": 0.0296
+      },
+      {
+        "token": "'re",
+        "count": 2,
+        "mean_activation": 0.0197
+      }
+    ]
+  }
+}

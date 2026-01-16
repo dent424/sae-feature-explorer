@@ -1,0 +1,831 @@
+{
+  "feature_idx": 20171,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 10,
+    "mean_when_active": 0.19508056640625,
+    "max_activation": 0.2352294921875,
+    "std_when_active": 0.020849698711981102,
+    "activation_rate": 0.0001
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6286,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Philly",
+        "count": 5193,
+        "mean_activation": 0.19885994367417678
+      },
+      {
+        "token": " NYC",
+        "count": 513,
+        "mean_activation": 0.06926121999878168
+      },
+      {
+        "token": " MIA",
+        "count": 110,
+        "mean_activation": 0.045413762872869315
+      },
+      {
+        "token": " Joey",
+        "count": 88,
+        "mean_activation": 0.048387007279829544
+      },
+      {
+        "token": " Philadelphia",
+        "count": 69,
+        "mean_activation": 0.018847700478374096
+      },
+      {
+        "token": " DIY",
+        "count": 68,
+        "mean_activation": 0.07453514547909007
+      },
+      {
+        "token": "illy",
+        "count": 63,
+        "mean_activation": 0.03465343656994048
+      },
+      {
+        "token": " NY",
+        "count": 18,
+        "mean_activation": 0.026117960611979168
+      },
+      {
+        "token": " busted",
+        "count": 16,
+        "mean_activation": 0.040139198303222656
+      },
+      {
+        "token": " ATL",
+        "count": 14,
+        "mean_activation": 0.048248291015625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6286,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...st--or at least the** Philly** area.  Excellent fo...",
+        "active_token": " Philly",
+        "activation": 0.259521484375,
+        "review_id": "RdNRFa2dtv2acNepcRkKpg",
+        "position": 32
+      },
+      {
+        "context": "...immy 2 times and my** Philly** steak and cheese wa...",
+        "active_token": " Philly",
+        "activation": 0.25927734375,
+        "review_id": "nbIVnrPPJ11sVK8kvLGoMw",
+        "position": 381
+      },
+      {
+        "context": "...od around including** Philly**!!!  Instead of goin...",
+        "active_token": " Philly",
+        "activation": 0.259033203125,
+        "review_id": "yWIr6duffEAKbRRb15wPAQ",
+        "position": 6
+      },
+      {
+        "context": "...Tik Tok posted by a** Philly** blogger, and the fo...",
+        "active_token": " Philly",
+        "activation": 0.2587890625,
+        "review_id": "mVnmc1jN_h9KXQYoiRiNWQ",
+        "position": 20
+      },
+      {
+        "context": "...I'm aware of in the** Philly** suburbs.  Excellent...",
+        "active_token": " Philly",
+        "activation": 0.2587890625,
+        "review_id": "ALBJLmYvH339UqszFiJalA",
+        "position": 48
+      },
+      {
+        "context": "...n, let alone in the** Philly** 'burbs, but the tea...",
+        "active_token": " Philly",
+        "activation": 0.25732421875,
+        "review_id": "lS75T8yi0G31tXV6qHBeHw",
+        "position": 32
+      },
+      {
+        "context": "...e region, including** Philly**.  Will definitely r...",
+        "active_token": " Philly",
+        "activation": 0.2568359375,
+        "review_id": "t74G5mTy4mXvDGZ9Un-rbQ",
+        "position": 62
+      },
+      {
+        "context": "...e\". I went with the** Philly** cheese on a toasted...",
+        "active_token": " Philly",
+        "activation": 0.25634765625,
+        "review_id": "RE000nCJvWk9yMMx6gFBkw",
+        "position": 58
+      },
+      {
+        "context": "...kiddos, as were the** Philly** pretzel bites with ...",
+        "active_token": " Philly",
+        "activation": 0.255126953125,
+        "review_id": "pmU-5nhZy7bZdFnvZl3c2w",
+        "position": 369
+      },
+      {
+        "context": "...Chimichanga and the** Philly** Steak burrito; all ...",
+        "active_token": " Philly",
+        "activation": 0.25341796875,
+        "review_id": "CyvXLvG3gzvQf-HQDOd9Qg",
+        "position": 46
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20171,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2258,
+        "max": 0.2595,
+        "mean": 0.2343
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " Philly"
+          ],
+          "ngram_str": " the Philly",
+          "count": 159,
+          "percent": 31.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " Philly",
+            " area"
+          ],
+          "ngram_str": " Philly area",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " in",
+            " Philly"
+          ],
+          "ngram_str": " in Philly",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " Philly",
+            "."
+          ],
+          "ngram_str": " Philly.",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "este",
+            "ak"
+          ],
+          "ngram_str": "esteak",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " area",
+            "."
+          ],
+          "ngram_str": " area.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " a",
+            " Philly"
+          ],
+          "ngram_str": " a Philly",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " chees",
+            "este"
+          ],
+          "ngram_str": " cheeseste",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " Philly",
+            ","
+          ],
+          "ngram_str": " Philly,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Philly",
+            " chees"
+          ],
+          "ngram_str": " Philly chees",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " of",
+            " Philly"
+          ],
+          "ngram_str": " of Philly",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Philly"
+          ],
+          "ngram_str": " in the Philly",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Philly",
+            " area"
+          ],
+          "ngram_str": " the Philly area",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " Philly",
+            " area",
+            "."
+          ],
+          "ngram_str": " Philly area.",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " chees",
+            "este",
+            "ak"
+          ],
+          "ngram_str": " cheesesteak",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Philly",
+            " chees",
+            "este"
+          ],
+          "ngram_str": " Philly cheeseste",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " Philly",
+            "."
+          ],
+          "ngram_str": " in Philly.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " Che",
+            "es",
+            "este"
+          ],
+          "ngram_str": " Cheeseste",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Philly",
+            " Che",
+            "es"
+          ],
+          "ngram_str": " Philly Chees",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "es",
+            "este",
+            "ak"
+          ],
+          "ngram_str": "esesteak",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " Philly"
+          ],
+          "ngram_str": " to the Philly",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Philly",
+            " bur"
+          ],
+          "ngram_str": " the Philly bur",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " Philly",
+            " cheese",
+            " steak"
+          ],
+          "ngram_str": " Philly cheese steak",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Philly",
+            " area"
+          ],
+          "ngram_str": " in the Philly area",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Philly",
+            " area",
+            "."
+          ],
+          "ngram_str": " the Philly area.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " Philly",
+            " chees",
+            "este",
+            "ak"
+          ],
+          "ngram_str": " Philly cheesesteak",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Philly",
+            " Che",
+            "es",
+            "este"
+          ],
+          "ngram_str": " Philly Cheeseste",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " Che",
+            "es",
+            "este",
+            "ak"
+          ],
+          "ngram_str": " Cheesesteak",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " the",
+            " Philly",
+            " bur",
+            "bs"
+          ],
+          "ngram_str": " the Philly burbs",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Philly",
+            " area",
+            ","
+          ],
+          "ngram_str": " the Philly area,",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " had",
+            " in",
+            " the",
+            " Philly"
+          ],
+          "ngram_str": " had in the Philly",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " a",
+            " Philly",
+            " chees",
+            "este"
+          ],
+          "ngram_str": " a Philly cheeseste",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Philly",
+            " area",
+            ".",
+            " "
+          ],
+          "ngram_str": " Philly area. ",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Philly",
+            " chees",
+            "este"
+          ],
+          "ngram_str": " the Philly cheeseste",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " food",
+            " in",
+            " the",
+            " Philly"
+          ],
+          "ngram_str": " food in the Philly",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6286,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14040,
+        "count": 5898,
+        "percent": 93.83
+      },
+      {
+        "feature_idx": 13102,
+        "count": 5850,
+        "percent": 93.06
+      },
+      {
+        "feature_idx": 2452,
+        "count": 5768,
+        "percent": 91.76
+      },
+      {
+        "feature_idx": 19274,
+        "count": 5449,
+        "percent": 86.68
+      },
+      {
+        "feature_idx": 6868,
+        "count": 5322,
+        "percent": 84.66
+      },
+      {
+        "feature_idx": 15689,
+        "count": 5289,
+        "percent": 84.14
+      },
+      {
+        "feature_idx": 16305,
+        "count": 5259,
+        "percent": 83.66
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4791,
+        "percent": 76.22
+      },
+      {
+        "feature_idx": 1084,
+        "count": 4527,
+        "percent": 72.02
+      },
+      {
+        "feature_idx": 18655,
+        "count": 4213,
+        "percent": 67.02
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3780,
+        "percent": 60.13
+      },
+      {
+        "feature_idx": 16850,
+        "count": 3723,
+        "percent": 59.23
+      },
+      {
+        "feature_idx": 21472,
+        "count": 3615,
+        "percent": 57.51
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3051,
+        "percent": 48.54
+      },
+      {
+        "feature_idx": 17260,
+        "count": 2780,
+        "percent": 44.23
+      },
+      {
+        "feature_idx": 3974,
+        "count": 2743,
+        "percent": 43.64
+      },
+      {
+        "feature_idx": 8477,
+        "count": 2641,
+        "percent": 42.01
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2415,
+        "percent": 38.42
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2250,
+        "percent": 35.79
+      },
+      {
+        "feature_idx": 8285,
+        "count": 2186,
+        "percent": 34.78
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6286,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2373,
+        "percent": 37.75
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1005,
+        "percent": 15.99
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 670,
+        "percent": 10.66
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 679,
+        "percent": 10.8
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1559,
+        "percent": 24.8
+      }
+    ],
+    "mean_position": 0.4391,
+    "std_position": 0.3467
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 10,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.1701,
+      "p25": 0.1852,
+      "p50": 0.1923,
+      "p75": 0.2035,
+      "p90": 0.2228,
+      "p95": 0.229,
+      "p99": 0.234
+    },
+    "skewness": 0.315,
+    "kurtosis": -0.4578,
+    "min": 0.1609,
+    "max": 0.2352,
+    "mean": 0.1951,
+    "std": 0.0208
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 10,
+      "unique_tokens_found": 1
+    },
+    "tokens": [
+      {
+        "token": " Philly",
+        "count": 10,
+        "mean_activation": 0.1951
+      }
+    ]
+  }
+}

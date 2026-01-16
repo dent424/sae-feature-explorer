@@ -1,0 +1,856 @@
+{
+  "feature_idx": 23,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 53,
+    "mean_when_active": 0.0824455405181309,
+    "max_activation": 0.243896484375,
+    "std_when_active": 0.057853123590278575,
+    "activation_rate": 0.00053
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 25209,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " still",
+        "count": 19776,
+        "mean_activation": 0.08204975251626814
+      },
+      {
+        "token": " Still",
+        "count": 1981,
+        "mean_activation": 0.17264778333622538
+      },
+      {
+        "token": " nonetheless",
+        "count": 530,
+        "mean_activation": 0.06375576954967571
+      },
+      {
+        "token": "Still",
+        "count": 351,
+        "mean_activation": 0.17121143830128205
+      },
+      {
+        "token": "still",
+        "count": 271,
+        "mean_activation": 0.09592102726447187
+      },
+      {
+        "token": " Nonetheless",
+        "count": 238,
+        "mean_activation": 0.06189387986639969
+      },
+      {
+        "token": " a",
+        "count": 236,
+        "mean_activation": 0.03553856025307865
+      },
+      {
+        "token": " definitely",
+        "count": 180,
+        "mean_activation": 0.02443741692437066
+      },
+      {
+        "token": " Nevertheless",
+        "count": 173,
+        "mean_activation": 0.060726628827221824
+      },
+      {
+        "token": " yet",
+        "count": 157,
+        "mean_activation": 0.03402496143511147
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 25209,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ily their fault, but** still**. \\n\\nThe service was ...",
+        "active_token": " still",
+        "activation": 0.30517578125,
+        "review_id": "e0IMwJLBsabDqgNy6yBClQ",
+        "position": 112
+      },
+      {
+        "context": "...nfair bias here. But** still**, I think it could b...",
+        "active_token": " still",
+        "activation": 0.2958984375,
+        "review_id": "yEw-nqiiLxvF5Aglm_LNvA",
+        "position": 254
+      },
+      {
+        "context": "...g glass bottles, but** still**, that was a little ...",
+        "active_token": " still",
+        "activation": 0.294189453125,
+        "review_id": "rBIzY76osZkFbcgwEdrqhw",
+        "position": 171
+      },
+      {
+        "context": ".... casual dining, but** still**.  It takes huevos t...",
+        "active_token": " still",
+        "activation": 0.2919921875,
+        "review_id": "nWwtGz8NzyF9JV_dq0GNfg",
+        "position": 149
+      },
+      {
+        "context": "...kind of a joke...but** still**! You should care mo...",
+        "active_token": " still",
+        "activation": 0.288818359375,
+        "review_id": "8Ch50OTDqOwedWPYkFSrlg",
+        "position": 180
+      },
+      {
+        "context": "...fast food joint. But** still**, why bother going o...",
+        "active_token": " still",
+        "activation": 0.287109375,
+        "review_id": "ekSHz_Z69VOSqfwKSulJ4g",
+        "position": 98
+      },
+      {
+        "context": "...ause of the law, but** still**...",
+        "active_token": " still",
+        "activation": 0.28662109375,
+        "review_id": "txLDEUtK9PXJrBnbbIpoBA",
+        "position": 107
+      },
+      {
+        "context": "...s from Colorado, but** still**). Margarita Mondays...",
+        "active_token": " still",
+        "activation": 0.2861328125,
+        "review_id": "_lEqXXRGGb2HH-FpZA7Hyg",
+        "position": 214
+      },
+      {
+        "context": "...t Chipotle does. But** still**, they have really d...",
+        "active_token": " still",
+        "activation": 0.282958984375,
+        "review_id": "o2VKKq6b5bU2pTUCcqRkTQ",
+        "position": 365
+      },
+      {
+        "context": "... unnacceptable.\\n\\nBut** still**... I can't hate thi...",
+        "active_token": " still",
+        "activation": 0.28271484375,
+        "review_id": "_HwxjDFyMohV4HrbqNnsBw",
+        "position": 143
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2247,
+        "max": 0.3052,
+        "mean": 0.2436
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " but",
+            " still"
+          ],
+          "ngram_str": " but still",
+          "count": 261,
+          "percent": 52.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 198,
+          "percent": 39.6
+        },
+        {
+          "ngram": [
+            " But",
+            " still"
+          ],
+          "ngram_str": " But still",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            ".",
+            " But"
+          ],
+          "ngram_str": ". But",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Still"
+          ],
+          "ngram_str": ". Still",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " still",
+            ","
+          ],
+          "ngram_str": " still,",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " Still",
+            ","
+          ],
+          "ngram_str": " Still,",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " still",
+            "."
+          ],
+          "ngram_str": " still.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " still",
+            " a"
+          ],
+          "ngram_str": " still a",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " good",
+            "."
+          ],
+          "ngram_str": " good.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ",",
+            " but",
+            " still"
+          ],
+          "ngram_str": ", but still",
+          "count": 195,
+          "percent": 39.0
+        },
+        {
+          "ngram": [
+            ".",
+            " But",
+            " still"
+          ],
+          "ngram_str": ". But still",
+          "count": 82,
+          "percent": 16.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            ","
+          ],
+          "ngram_str": ". Still,",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " but",
+            " still",
+            ","
+          ],
+          "ngram_str": " but still,",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " but",
+            " still",
+            "."
+          ],
+          "ngram_str": " but still.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " But",
+            " still",
+            ","
+          ],
+          "ngram_str": " But still,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " but",
+            " still",
+            " good"
+          ],
+          "ngram_str": " but still good",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " but",
+            " still",
+            " a"
+          ],
+          "ngram_str": " but still a",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " but",
+            " still",
+            "..."
+          ],
+          "ngram_str": " but still...",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " ",
+            " But",
+            " still"
+          ],
+          "ngram_str": "  But still",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " But"
+          ],
+          "ngram_str": ".  But",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " Still",
+            ",",
+            " I"
+          ],
+          "ngram_str": " Still, I",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ",",
+            " but",
+            " still",
+            ","
+          ],
+          "ngram_str": ", but still,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " still",
+            "."
+          ],
+          "ngram_str": ", but still.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " But",
+            " still",
+            ","
+          ],
+          "ngram_str": ". But still,",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " still",
+            " a"
+          ],
+          "ngram_str": ", but still a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " But",
+            " still"
+          ],
+          "ngram_str": ".  But still",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " still",
+            " good"
+          ],
+          "ngram_str": ", but still good",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "But",
+            " still"
+          ],
+          "ngram_str": "\u00c4\u012cBut still",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            ",",
+            " I"
+          ],
+          "ngram_str": ". Still, I",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " still",
+            "..."
+          ],
+          "ngram_str": ", but still...",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " still",
+            " very"
+          ],
+          "ngram_str": ", but still very",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "But"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cBut",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " but",
+            " still",
+            " good",
+            "."
+          ],
+          "ngram_str": " but still good.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            ",",
+            " the"
+          ],
+          "ngram_str": ". Still, the",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 20800000,
+      "corpus_coverage": 0.4023
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20209,
+        "count": 9139,
+        "percent": 91.39
+      },
+      {
+        "feature_idx": 17463,
+        "count": 8932,
+        "percent": 89.32
+      },
+      {
+        "feature_idx": 16597,
+        "count": 8925,
+        "percent": 89.25
+      },
+      {
+        "feature_idx": 7079,
+        "count": 8871,
+        "percent": 88.71
+      },
+      {
+        "feature_idx": 21602,
+        "count": 7979,
+        "percent": 79.79
+      },
+      {
+        "feature_idx": 11138,
+        "count": 6112,
+        "percent": 61.12
+      },
+      {
+        "feature_idx": 7151,
+        "count": 4561,
+        "percent": 45.61
+      },
+      {
+        "feature_idx": 15931,
+        "count": 4514,
+        "percent": 45.14
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4396,
+        "percent": 43.96
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4234,
+        "percent": 42.34
+      },
+      {
+        "feature_idx": 4255,
+        "count": 4150,
+        "percent": 41.5
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4136,
+        "percent": 41.36
+      },
+      {
+        "feature_idx": 14948,
+        "count": 4133,
+        "percent": 41.33
+      },
+      {
+        "feature_idx": 23119,
+        "count": 3943,
+        "percent": 39.43
+      },
+      {
+        "feature_idx": 16269,
+        "count": 3779,
+        "percent": 37.79
+      },
+      {
+        "feature_idx": 1665,
+        "count": 3638,
+        "percent": 36.38
+      },
+      {
+        "feature_idx": 2190,
+        "count": 3497,
+        "percent": 34.97
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3141,
+        "percent": 31.41
+      },
+      {
+        "feature_idx": 19788,
+        "count": 3123,
+        "percent": 31.23
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3091,
+        "percent": 30.91
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 20800000,
+      "corpus_coverage": 0.4023
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1347,
+        "percent": 13.47
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1645,
+        "percent": 16.45
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1905,
+        "percent": 19.05
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2238,
+        "percent": 22.38
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2865,
+        "percent": 28.65
+      }
+    ],
+    "mean_position": 0.5755,
+    "std_position": 0.2826
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 53,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0253,
+      "p25": 0.0346,
+      "p50": 0.0656,
+      "p75": 0.1058,
+      "p90": 0.1697,
+      "p95": 0.1867,
+      "p99": 0.2391
+    },
+    "skewness": 1.0543,
+    "kurtosis": 0.262,
+    "min": 0.0198,
+    "max": 0.2439,
+    "mean": 0.0824,
+    "std": 0.0579
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 53,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " still",
+        "count": 43,
+        "mean_activation": 0.0747
+      },
+      {
+        "token": " Still",
+        "count": 6,
+        "mean_activation": 0.1722
+      },
+      {
+        "token": " However",
+        "count": 1,
+        "mean_activation": 0.0277
+      },
+      {
+        "token": " anyways",
+        "count": 1,
+        "mean_activation": 0.0253
+      },
+      {
+        "token": " definitely",
+        "count": 1,
+        "mean_activation": 0.0385
+      },
+      {
+        "token": " nonetheless",
+        "count": 1,
+        "mean_activation": 0.0346
+      }
+    ]
+  }
+}

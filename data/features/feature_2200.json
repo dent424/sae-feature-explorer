@@ -1,0 +1,861 @@
+{
+  "feature_idx": 2200,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 7,
+    "mean_when_active": 0.08465794154575892,
+    "max_activation": 0.179443359375,
+    "std_when_active": 0.057196285367949296,
+    "activation_rate": 7e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8232,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " King",
+        "count": 1040,
+        "mean_activation": 0.17923249464768629
+      },
+      {
+        "token": " king",
+        "count": 324,
+        "mean_activation": 0.21869348596643517
+      },
+      {
+        "token": " Anna",
+        "count": 304,
+        "mean_activation": 0.052903325934159126
+      },
+      {
+        "token": " Prince",
+        "count": 212,
+        "mean_activation": 0.25318937481574294
+      },
+      {
+        "token": " coron",
+        "count": 147,
+        "mean_activation": 0.13943958931228742
+      },
+      {
+        "token": " Queen",
+        "count": 127,
+        "mean_activation": 0.19312388502706693
+      },
+      {
+        "token": " Tower",
+        "count": 125,
+        "mean_activation": 0.04332177734375
+      },
+      {
+        "token": " Drake",
+        "count": 114,
+        "mean_activation": 0.07243882564076207
+      },
+      {
+        "token": "rozen",
+        "count": 109,
+        "mean_activation": 0.042255226625215025
+      },
+      {
+        "token": " queen",
+        "count": 106,
+        "mean_activation": 0.17813801315595518
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8232,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...like I'm getting the** royal** treatment. I always...",
+        "active_token": " royal",
+        "activation": 0.29931640625,
+        "review_id": "53-FN3u3KA2-cpEs-kO8dA",
+        "position": 77
+      },
+      {
+        "context": "...our, ping pong, and** Prince**'s HOT chicken all o...",
+        "active_token": " Prince",
+        "activation": 0.296630859375,
+        "review_id": "B-Qv99KlNkkh3POO9s4f9A",
+        "position": 40
+      },
+      {
+        "context": "...lls, which must be a** royal** pain in the keester...",
+        "active_token": " royal",
+        "activation": 0.291015625,
+        "review_id": "2txK0QuEoAjak3bBW2giUA",
+        "position": 285
+      },
+      {
+        "context": "...ough if you want the** royal** meal. Buffet is hit...",
+        "active_token": " royal",
+        "activation": 0.290283203125,
+        "review_id": "Hhr2k5W9JyK-CJGGjmEb5g",
+        "position": 436
+      },
+      {
+        "context": "...drink :) service at** Prince** location is always ...",
+        "active_token": " Prince",
+        "activation": 0.2890625,
+        "review_id": "YZn-2ki_fDO5IbzCVWiXDw",
+        "position": 66
+      },
+      {
+        "context": "...n at the GG over on** Prince** and became somewhat...",
+        "active_token": " Prince",
+        "activation": 0.287841796875,
+        "review_id": "3R0cQplRq1cvmgHRzRyIXg",
+        "position": 8
+      },
+      {
+        "context": "...nd. The other being** Prince**'s Hot Chicken. Fran...",
+        "active_token": " Prince",
+        "activation": 0.283935546875,
+        "review_id": "NMw-ZEgYbM3anFO6LpqQbw",
+        "position": 33
+      },
+      {
+        "context": "...ole in the wall off** Prince** road. This is by fa...",
+        "active_token": " Prince",
+        "activation": 0.283203125,
+        "review_id": "D83U6V_rj7nKC9g3Rxb95A",
+        "position": 14
+      },
+      {
+        "context": "... in and they get the** royal** treatment drinks, t...",
+        "active_token": " royal",
+        "activation": 0.281005859375,
+        "review_id": "WsPk8Kgn5xMhRVo-NBojuA",
+        "position": 118
+      },
+      {
+        "context": "...to the location off** Prince** Road and never had ...",
+        "active_token": " Prince",
+        "activation": 0.280517578125,
+        "review_id": "UMF1nR1_7Eyj1jPGSKzImQ",
+        "position": 43
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 2200,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2412,
+        "max": 0.2993,
+        "mean": 0.2577
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " on",
+            " Prince"
+          ],
+          "ngram_str": " on Prince",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " Pr",
+            "ussia"
+          ],
+          "ngram_str": " Prussia",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " of",
+            " Pr"
+          ],
+          "ngram_str": " of Pr",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " King",
+            " of"
+          ],
+          "ngram_str": " King of",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " a",
+            " king"
+          ],
+          "ngram_str": " a king",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " like",
+            " a"
+          ],
+          "ngram_str": " like a",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " Prince",
+            "'s"
+          ],
+          "ngram_str": " Prince's",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " King",
+            " George"
+          ],
+          "ngram_str": " King George",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " king",
+            " of"
+          ],
+          "ngram_str": " king of",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Prince",
+            "."
+          ],
+          "ngram_str": " Prince.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Prince",
+            " Rd"
+          ],
+          "ngram_str": " Prince Rd",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "aj",
+            "ara"
+          ],
+          "ngram_str": "ajara",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " of",
+            " Pr",
+            "ussia"
+          ],
+          "ngram_str": " of Prussia",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " King",
+            " of",
+            " Pr"
+          ],
+          "ngram_str": " King of Pr",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " like",
+            " a",
+            " king"
+          ],
+          "ngram_str": " like a king",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " Hot",
+            " Chicken"
+          ],
+          "ngram_str": "'s Hot Chicken",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " eat",
+            " like",
+            " a"
+          ],
+          "ngram_str": " eat like a",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " in",
+            " King",
+            " of"
+          ],
+          "ngram_str": " in King of",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "adal",
+            "aj",
+            "ara"
+          ],
+          "ngram_str": "adalajara",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " Prince",
+            "'s",
+            " Hot"
+          ],
+          "ngram_str": " Prince's Hot",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " the",
+            " one",
+            " on"
+          ],
+          "ngram_str": " the one on",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " one",
+            " on",
+            " Prince"
+          ],
+          "ngram_str": " one on Prince",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Prince",
+            " Rd",
+            "."
+          ],
+          "ngram_str": " Prince Rd.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " location",
+            " on",
+            " Prince"
+          ],
+          "ngram_str": " location on Prince",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " on",
+            " Prince",
+            "."
+          ],
+          "ngram_str": " on Prince.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " king"
+          ],
+          "ngram_str": " for a king",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " King",
+            " of",
+            " Pr",
+            "ussia"
+          ],
+          "ngram_str": " King of Prussia",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " in",
+            " King",
+            " of",
+            " Pr"
+          ],
+          "ngram_str": " in King of Pr",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " eat",
+            " like",
+            " a",
+            " king"
+          ],
+          "ngram_str": " eat like a king",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Prince",
+            "'s",
+            " Hot",
+            " Chicken"
+          ],
+          "ngram_str": " Prince's Hot Chicken",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " one",
+            " on",
+            " Prince"
+          ],
+          "ngram_str": " the one on Prince",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " can",
+            " eat",
+            " like",
+            " a"
+          ],
+          "ngram_str": " can eat like a",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " of",
+            " Pr",
+            "ussia",
+            ","
+          ],
+          "ngram_str": " of Prussia,",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " of",
+            " Pr",
+            "ussia",
+            "."
+          ],
+          "ngram_str": " of Prussia.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " of",
+            " Pr",
+            "ussia",
+            " Mall"
+          ],
+          "ngram_str": " of Prussia Mall",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " fit",
+            " for",
+            " a",
+            " king"
+          ],
+          "ngram_str": " fit for a king",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Gu",
+            "adal",
+            "aj",
+            "ara"
+          ],
+          "ngram_str": " Guadalajara",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "adal",
+            "aj",
+            "ara",
+            " on"
+          ],
+          "ngram_str": "adalajara on",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "aj",
+            "ara",
+            " on",
+            " Prince"
+          ],
+          "ngram_str": "ajara on Prince",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " on",
+            " Prince",
+            " Rd",
+            "."
+          ],
+          "ngram_str": " on Prince Rd.",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8232,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5005,
+        "percent": 60.8
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2787,
+        "percent": 33.86
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2503,
+        "percent": 30.41
+      },
+      {
+        "feature_idx": 10007,
+        "count": 2203,
+        "percent": 26.76
+      },
+      {
+        "feature_idx": 4608,
+        "count": 2145,
+        "percent": 26.06
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2031,
+        "percent": 24.67
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1924,
+        "percent": 23.37
+      },
+      {
+        "feature_idx": 745,
+        "count": 1893,
+        "percent": 23.0
+      },
+      {
+        "feature_idx": 4380,
+        "count": 1862,
+        "percent": 22.62
+      },
+      {
+        "feature_idx": 1200,
+        "count": 1760,
+        "percent": 21.38
+      },
+      {
+        "feature_idx": 6071,
+        "count": 1736,
+        "percent": 21.09
+      },
+      {
+        "feature_idx": 6053,
+        "count": 1653,
+        "percent": 20.08
+      },
+      {
+        "feature_idx": 16022,
+        "count": 1582,
+        "percent": 19.22
+      },
+      {
+        "feature_idx": 13551,
+        "count": 1515,
+        "percent": 18.4
+      },
+      {
+        "feature_idx": 9688,
+        "count": 1499,
+        "percent": 18.21
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1375,
+        "percent": 16.7
+      },
+      {
+        "feature_idx": 5468,
+        "count": 1269,
+        "percent": 15.42
+      },
+      {
+        "feature_idx": 11491,
+        "count": 1268,
+        "percent": 15.4
+      },
+      {
+        "feature_idx": 8285,
+        "count": 1219,
+        "percent": 14.81
+      },
+      {
+        "feature_idx": 3089,
+        "count": 1218,
+        "percent": 14.8
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8232,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2274,
+        "percent": 27.62
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1533,
+        "percent": 18.62
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1327,
+        "percent": 16.12
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1375,
+        "percent": 16.7
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1723,
+        "percent": 20.93
+      }
+    ],
+    "mean_position": 0.4674,
+    "std_position": 0.3131
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 7,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0293,
+      "p25": 0.0401,
+      "p50": 0.0555,
+      "p75": 0.1246,
+      "p90": 0.1678,
+      "p95": 0.1736,
+      "p99": 0.1783
+    },
+    "skewness": 0.6649,
+    "kurtosis": -1.2083,
+    "min": 0.0282,
+    "max": 0.1794,
+    "mean": 0.0847,
+    "std": 0.0572
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 7,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " prize",
+        "count": 1,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " sister",
+        "count": 1,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " Castle",
+        "count": 1,
+        "mean_activation": 0.0892
+      },
+      {
+        "token": "rozen",
+        "count": 1,
+        "mean_activation": 0.0503
+      },
+      {
+        "token": " royalty",
+        "count": 1,
+        "mean_activation": 0.16
+      },
+      {
+        "token": " crown",
+        "count": 1,
+        "mean_activation": 0.1794
+      },
+      {
+        "token": "oon",
+        "count": 1,
+        "mean_activation": 0.0555
+      }
+    ]
+  }
+}

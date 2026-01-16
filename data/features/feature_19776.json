@@ -1,0 +1,876 @@
+{
+  "feature_idx": 19776,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 682,
+    "mean_when_active": 0.031077018581177833,
+    "max_activation": 0.11273193359375,
+    "std_when_active": 0.014225903645542683,
+    "activation_rate": 0.00682
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 6800000,
+      "corpus_coverage": 0.1315
+    },
+    "top_tokens": [
+      {
+        "token": ",",
+        "count": 3073,
+        "mean_activation": 0.03510221859317163
+      },
+      {
+        "token": " and",
+        "count": 2187,
+        "mean_activation": 0.03315474968497264
+      },
+      {
+        "token": " the",
+        "count": 1856,
+        "mean_activation": 0.04414890963455726
+      },
+      {
+        "token": " a",
+        "count": 1802,
+        "mean_activation": 0.0388735433529802
+      },
+      {
+        "token": ".",
+        "count": 1234,
+        "mean_activation": 0.028260711719383103
+      },
+      {
+        "token": " with",
+        "count": 1173,
+        "mean_activation": 0.036531928046991555
+      },
+      {
+        "token": " of",
+        "count": 737,
+        "mean_activation": 0.031198416183243937
+      },
+      {
+        "token": " tacos",
+        "count": 608,
+        "mean_activation": 0.02859832111157869
+      },
+      {
+        "token": " that",
+        "count": 576,
+        "mean_activation": 0.03406377633412679
+      },
+      {
+        "token": " for",
+        "count": 546,
+        "mean_activation": 0.04168641086899754
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 6800000,
+      "corpus_coverage": 0.1315
+    },
+    "activations": [
+      {
+        "context": "...ecessary. I opted for** all** the hot peppers and ...",
+        "active_token": " all",
+        "activation": 0.1318359375,
+        "review_id": "pecTYIH9ESXwmc0c9bU4Eg",
+        "position": 81
+      },
+      {
+        "context": "... so I opted for the** latter**.\\n\\nThe place is some...",
+        "active_token": " latter",
+        "activation": 0.124755859375,
+        "review_id": "hdKoOBJG1sjvz3BVbAm1Dw",
+        "position": 47
+      },
+      {
+        "context": "...chose the steak option**,** regular size (there's ...",
+        "active_token": ",",
+        "activation": 0.117431640625,
+        "review_id": "pXkHmmk4ZiKfrHOWRh1Peg",
+        "position": 125
+      },
+      {
+        "context": "...he reason I opted for** two** beef & one pork is b...",
+        "active_token": " two",
+        "activation": 0.1138916015625,
+        "review_id": "zb3xupeDy90QwNxvyUtOyQ",
+        "position": 104
+      },
+      {
+        "context": "...instead for tortillas** as** my vessel to stuff it...",
+        "active_token": " as",
+        "activation": 0.11273193359375,
+        "review_id": "pPKI8l5FuX3aOHCQAlsfsg",
+        "position": 172
+      },
+      {
+        "context": "...na colada BF opted for** a** beer from the draft s...",
+        "active_token": " a",
+        "activation": 0.112548828125,
+        "review_id": "exzquI3VmVCJPw4--4BszA",
+        "position": 102
+      },
+      {
+        "context": "...tic needs. I opted for** a** strawberry margarita ...",
+        "active_token": " a",
+        "activation": 0.11236572265625,
+        "review_id": "VS2cMTMPT3yeGaZKVPKHRg",
+        "position": 23
+      },
+      {
+        "context": "...; we went with indoors**,** and while they did hav...",
+        "active_token": ",",
+        "activation": 0.11199951171875,
+        "review_id": "yt1PHevbHVtW8xpyRygu9Q",
+        "position": 60
+      },
+      {
+        "context": "...ly opt for the B.R.C.** as** a meal because it's s...",
+        "active_token": " as",
+        "activation": 0.1109619140625,
+        "review_id": "bZ3iWyZ_gdw4gtB6P6ZcVg",
+        "position": 31
+      },
+      {
+        "context": "...with the Tijuana style**,** which has onion, cilan...",
+        "active_token": ",",
+        "activation": 0.10931396484375,
+        "review_id": "d0POL2HpkQAQ21ZHgm9AOQ",
+        "position": 181
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 19776,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 13500000,
+      "corpus_coverage": 0.2611,
+      "activation_range": {
+        "min": 0.0896,
+        "max": 0.1318,
+        "mean": 0.0969
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " went",
+            " with"
+          ],
+          "ngram_str": " went with",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " opted",
+            " for"
+          ],
+          "ngram_str": " opted for",
+          "count": 115,
+          "percent": 23.0
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " I",
+            " went"
+          ],
+          "ngram_str": " I went",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " go",
+            " with"
+          ],
+          "ngram_str": " go with",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " I",
+            " opted"
+          ],
+          "ngram_str": " I opted",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " with",
+            " the"
+          ],
+          "ngram_str": " with the",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " for",
+            " the"
+          ],
+          "ngram_str": " for the",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " to",
+            " go"
+          ],
+          "ngram_str": " to go",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " went",
+            " with"
+          ],
+          "ngram_str": " I went with",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " I",
+            " opted",
+            " for"
+          ],
+          "ngram_str": " I opted for",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " went",
+            " with",
+            " a"
+          ],
+          "ngram_str": " went with a",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " with"
+          ],
+          "ngram_str": " to go with",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " opted",
+            " for",
+            " a"
+          ],
+          "ngram_str": " opted for a",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " went"
+          ],
+          "ngram_str": ". I went",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " go",
+            " with",
+            " a"
+          ],
+          "ngram_str": " go with a",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " opted"
+          ],
+          "ngram_str": ". I opted",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " opted",
+            " for",
+            " the"
+          ],
+          "ngram_str": " opted for the",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "I",
+            " went",
+            " with"
+          ],
+          "ngram_str": "I went with",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " went",
+            " with",
+            " the"
+          ],
+          "ngram_str": " went with the",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            " went",
+            " with",
+            " a"
+          ],
+          "ngram_str": " I went with a",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " went",
+            " with"
+          ],
+          "ngram_str": ". I went with",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " opted",
+            " for"
+          ],
+          "ngram_str": ". I opted for",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " I",
+            " opted",
+            " for",
+            " a"
+          ],
+          "ngram_str": " I opted for a",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " go",
+            " with"
+          ],
+          "ngram_str": " decided to go with",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " went"
+          ],
+          "ngram_str": "\u00c4\u012cI went",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " went",
+            " with"
+          ],
+          "ngram_str": "\u012cI went with",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " with",
+            " a"
+          ],
+          "ngram_str": " to go with a",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " went",
+            " with"
+          ],
+          "ngram_str": "  I went with",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "I",
+            " went",
+            " with",
+            " a"
+          ],
+          "ngram_str": "I went with a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " opted",
+            " for"
+          ],
+          "ngram_str": "  I opted for",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " went"
+          ],
+          "ngram_str": ".  I went",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " I",
+            " decided",
+            " to",
+            " go"
+          ],
+          "ngram_str": " I decided to go",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1400000,
+      "corpus_coverage": 0.0271
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 5515,
+        "percent": 55.15
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4509,
+        "percent": 45.09
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3722,
+        "percent": 37.22
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3713,
+        "percent": 37.13
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3581,
+        "percent": 35.81
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2402,
+        "percent": 24.02
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2308,
+        "percent": 23.08
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2170,
+        "percent": 21.7
+      },
+      {
+        "feature_idx": 10350,
+        "count": 1709,
+        "percent": 17.09
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1652,
+        "percent": 16.52
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1642,
+        "percent": 16.42
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1591,
+        "percent": 15.91
+      },
+      {
+        "feature_idx": 7088,
+        "count": 1442,
+        "percent": 14.42
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1322,
+        "percent": 13.22
+      },
+      {
+        "feature_idx": 15605,
+        "count": 1310,
+        "percent": 13.1
+      },
+      {
+        "feature_idx": 5070,
+        "count": 1300,
+        "percent": 13.0
+      },
+      {
+        "feature_idx": 20464,
+        "count": 1080,
+        "percent": 10.8
+      },
+      {
+        "feature_idx": 21481,
+        "count": 999,
+        "percent": 9.99
+      },
+      {
+        "feature_idx": 1830,
+        "count": 981,
+        "percent": 9.81
+      },
+      {
+        "feature_idx": 1938,
+        "count": 975,
+        "percent": 9.75
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1400000,
+      "corpus_coverage": 0.0271
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1547,
+        "percent": 15.47
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2226,
+        "percent": 22.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2384,
+        "percent": 23.84
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1924,
+        "percent": 19.24
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1919,
+        "percent": 19.19
+      }
+    ],
+    "mean_position": 0.5104,
+    "std_position": 0.2721
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 682,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0174,
+      "p25": 0.0214,
+      "p50": 0.0272,
+      "p75": 0.0364,
+      "p90": 0.0504,
+      "p95": 0.0595,
+      "p99": 0.0813
+    },
+    "skewness": 1.5984,
+    "kurtosis": 3.4014,
+    "min": 0.0097,
+    "max": 0.1127,
+    "mean": 0.0311,
+    "std": 0.0142
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 682,
+      "unique_tokens_found": 300
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 51,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " a",
+        "count": 35,
+        "mean_activation": 0.0414
+      },
+      {
+        "token": " and",
+        "count": 25,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": ".",
+        "count": 22,
+        "mean_activation": 0.0281
+      },
+      {
+        "token": " the",
+        "count": 14,
+        "mean_activation": 0.0415
+      },
+      {
+        "token": " with",
+        "count": 14,
+        "mean_activation": 0.037
+      },
+      {
+        "token": " (",
+        "count": 12,
+        "mean_activation": 0.0263
+      },
+      {
+        "token": " that",
+        "count": 11,
+        "mean_activation": 0.0416
+      },
+      {
+        "token": " of",
+        "count": 10,
+        "mean_activation": 0.0287
+      },
+      {
+        "token": " tacos",
+        "count": 8,
+        "mean_activation": 0.0322
+      }
+    ]
+  }
+}

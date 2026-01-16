@@ -1,0 +1,846 @@
+{
+  "feature_idx": 14642,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 5,
+    "mean_when_active": 0.03765869140625,
+    "max_activation": 0.09002685546875,
+    "std_when_active": 0.026655906995353078,
+    "activation_rate": 5e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5890,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " expected",
+        "count": 2904,
+        "mean_activation": 0.08521410519098119
+      },
+      {
+        "token": " expect",
+        "count": 814,
+        "mean_activation": 0.03708934549617533
+      },
+      {
+        "token": " usual",
+        "count": 799,
+        "mean_activation": 0.06699557537131375
+      },
+      {
+        "token": " anticipated",
+        "count": 151,
+        "mean_activation": 0.05485494247335472
+      },
+      {
+        "token": ",",
+        "count": 96,
+        "mean_activation": 0.0343780517578125
+      },
+      {
+        "token": " always",
+        "count": 84,
+        "mean_activation": 0.028759910946800596
+      },
+      {
+        "token": " typical",
+        "count": 79,
+        "mean_activation": 0.027146930936016615
+      },
+      {
+        "token": " expecting",
+        "count": 76,
+        "mean_activation": 0.0249125832005551
+      },
+      {
+        "token": " Eater",
+        "count": 75,
+        "mean_activation": 0.039342244466145836
+      },
+      {
+        "token": " advertised",
+        "count": 69,
+        "mean_activation": 0.041191875070765396
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5890,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...nd the food is, as** expected**, exactly like ever...",
+        "active_token": " expected",
+        "activation": 0.273193359375,
+        "review_id": "B8Va1IhEvSEBklD4KxVMSA",
+        "position": 99
+      },
+      {
+        "context": "...ish tacos were, as** expected** (after stopping at...",
+        "active_token": " expected",
+        "activation": 0.272705078125,
+        "review_id": "4qfJtsa4Waaf3bGDfHT0rQ",
+        "position": 36
+      },
+      {
+        "context": "...as typical. And as** expected** with any restauran...",
+        "active_token": " expected",
+        "activation": 0.271484375,
+        "review_id": "ffKKHf3Q0JJF2DHBprj5LA",
+        "position": 216
+      },
+      {
+        "context": "...y were decent.  As** expected**, the meats were se...",
+        "active_token": " expected",
+        "activation": 0.270751953125,
+        "review_id": "UEZBnHw6IW5FZnNTq7gSOg",
+        "position": 236
+      },
+      {
+        "context": "...t disappointed. As** expected**, they were really ...",
+        "active_token": " expected",
+        "activation": 0.270263671875,
+        "review_id": "G795QznoZCc5prHnNLaWVQ",
+        "position": 46
+      },
+      {
+        "context": "...n dinner there. As** expected**, the food was good...",
+        "active_token": " expected",
+        "activation": 0.265869140625,
+        "review_id": "NqV5za9QHHv-Bef3GqWSVw",
+        "position": 127
+      },
+      {
+        "context": "...vibe is casual. As** expected**, the crowd happene...",
+        "active_token": " expected",
+        "activation": 0.26513671875,
+        "review_id": "YjJEOwdChi1olomMw0khyQ",
+        "position": 198
+      },
+      {
+        "context": "...simply weren't. As** expected**, they were three m...",
+        "active_token": " expected",
+        "activation": 0.264892578125,
+        "review_id": "AUbLcd3FPZK5naCRQlNZsw",
+        "position": 975
+      },
+      {
+        "context": "...to choose from. As** expected**, the table side gu...",
+        "active_token": " expected",
+        "activation": 0.2646484375,
+        "review_id": "mioRVwHzxP2LJZauf6vp-g",
+        "position": 71
+      },
+      {
+        "context": "....\\n\\nMy meal was, as** expected**, very savory and s...",
+        "active_token": " expected",
+        "activation": 0.263671875,
+        "review_id": "tSWH7jBmTkL59J6mh-IjHQ",
+        "position": 188
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 14642,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1404,
+        "max": 0.2732,
+        "mean": 0.2031
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " as",
+            " expected"
+          ],
+          "ngram_str": " as expected",
+          "count": 400,
+          "percent": 80.0
+        },
+        {
+          "ngram": [
+            " expected",
+            "."
+          ],
+          "ngram_str": " expected.",
+          "count": 170,
+          "percent": 34.0
+        },
+        {
+          "ngram": [
+            " expected",
+            ","
+          ],
+          "ngram_str": " expected,",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            " was",
+            " as"
+          ],
+          "ngram_str": " was as",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " As",
+            " expected"
+          ],
+          "ngram_str": " As expected",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " food",
+            " was"
+          ],
+          "ngram_str": " food was",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ",",
+            " as"
+          ],
+          "ngram_str": ", as",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " As"
+          ],
+          "ngram_str": ". As",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " expected",
+            " and"
+          ],
+          "ngram_str": " expected and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " as"
+          ],
+          "ngram_str": " and as",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " were",
+            " as"
+          ],
+          "ngram_str": " were as",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " as",
+            " expected",
+            "."
+          ],
+          "ngram_str": " as expected.",
+          "count": 158,
+          "percent": 31.6
+        },
+        {
+          "ngram": [
+            " as",
+            " expected",
+            ","
+          ],
+          "ngram_str": " as expected,",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " was",
+            " as",
+            " expected"
+          ],
+          "ngram_str": " was as expected",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            ",",
+            " as",
+            " expected"
+          ],
+          "ngram_str": ", as expected",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " expected",
+            ".",
+            " "
+          ],
+          "ngram_str": " expected. ",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " as",
+            " expected",
+            " and"
+          ],
+          "ngram_str": " as expected and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " As",
+            " expected"
+          ],
+          "ngram_str": ". As expected",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " and",
+            " as",
+            " expected"
+          ],
+          "ngram_str": " and as expected",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " As",
+            " expected",
+            ","
+          ],
+          "ngram_str": " As expected,",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " were",
+            " as",
+            " expected"
+          ],
+          "ngram_str": " were as expected",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " expected",
+            ".",
+            " The"
+          ],
+          "ngram_str": " expected. The",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " expected",
+            ",",
+            " the"
+          ],
+          "ngram_str": " expected, the",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " as",
+            " expected",
+            " for"
+          ],
+          "ngram_str": " as expected for",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " as",
+            " expected",
+            ".",
+            " "
+          ],
+          "ngram_str": " as expected. ",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " was",
+            " as",
+            " expected",
+            "."
+          ],
+          "ngram_str": " was as expected.",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " as",
+            " expected",
+            ".",
+            " The"
+          ],
+          "ngram_str": " as expected. The",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " As",
+            " expected",
+            ","
+          ],
+          "ngram_str": ". As expected,",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ",",
+            " as",
+            " expected",
+            "."
+          ],
+          "ngram_str": ", as expected.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " as",
+            " expected",
+            ".",
+            " I"
+          ],
+          "ngram_str": " as expected. I",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " was",
+            " as",
+            " expected",
+            ","
+          ],
+          "ngram_str": " was as expected,",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " as",
+            " expected",
+            ",",
+            " but"
+          ],
+          "ngram_str": " as expected, but",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            " was",
+            " as",
+            " expected"
+          ],
+          "ngram_str": " food was as expected",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " As",
+            " expected"
+          ],
+          "ngram_str": ".  As expected",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " As",
+            " expected",
+            ",",
+            " the"
+          ],
+          "ngram_str": " As expected, the",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " as",
+            " expected",
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": " as expected.\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " expected",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " expected.\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5890,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 8682,
+        "count": 4086,
+        "percent": 69.37
+      },
+      {
+        "feature_idx": 17818,
+        "count": 4018,
+        "percent": 68.22
+      },
+      {
+        "feature_idx": 15247,
+        "count": 3764,
+        "percent": 63.9
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3710,
+        "percent": 62.99
+      },
+      {
+        "feature_idx": 9282,
+        "count": 3231,
+        "percent": 54.86
+      },
+      {
+        "feature_idx": 14401,
+        "count": 3113,
+        "percent": 52.85
+      },
+      {
+        "feature_idx": 19995,
+        "count": 3016,
+        "percent": 51.21
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3008,
+        "percent": 51.07
+      },
+      {
+        "feature_idx": 2892,
+        "count": 2742,
+        "percent": 46.55
+      },
+      {
+        "feature_idx": 5879,
+        "count": 2520,
+        "percent": 42.78
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2486,
+        "percent": 42.21
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2383,
+        "percent": 40.46
+      },
+      {
+        "feature_idx": 14573,
+        "count": 2368,
+        "percent": 40.2
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2253,
+        "percent": 38.25
+      },
+      {
+        "feature_idx": 7116,
+        "count": 2232,
+        "percent": 37.89
+      },
+      {
+        "feature_idx": 3706,
+        "count": 2196,
+        "percent": 37.28
+      },
+      {
+        "feature_idx": 1879,
+        "count": 2193,
+        "percent": 37.23
+      },
+      {
+        "feature_idx": 13866,
+        "count": 2076,
+        "percent": 35.25
+      },
+      {
+        "feature_idx": 6374,
+        "count": 1990,
+        "percent": 33.79
+      },
+      {
+        "feature_idx": 4213,
+        "count": 1965,
+        "percent": 33.36
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5890,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1087,
+        "percent": 18.46
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1314,
+        "percent": 22.31
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1303,
+        "percent": 22.12
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1218,
+        "percent": 20.68
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 968,
+        "percent": 16.43
+      }
+    ],
+    "mean_position": 0.4894,
+    "std_position": 0.2719
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 5,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0196,
+      "p25": 0.0256,
+      "p50": 0.0261,
+      "p75": 0.031,
+      "p90": 0.0664,
+      "p95": 0.0782,
+      "p99": 0.0877
+    },
+    "skewness": 1.3653,
+    "kurtosis": 0.0893,
+    "min": 0.0156,
+    "max": 0.09,
+    "mean": 0.0377,
+    "std": 0.0267
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 5,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": " expect",
+        "count": 2,
+        "mean_activation": 0.0258
+      },
+      {
+        "token": " average",
+        "count": 1,
+        "mean_activation": 0.031
+      },
+      {
+        "token": " well",
+        "count": 1,
+        "mean_activation": 0.0156
+      },
+      {
+        "token": " usual",
+        "count": 1,
+        "mean_activation": 0.09
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 9713,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 57,
+    "mean_when_active": 0.1577989009388706,
+    "max_activation": 0.335205078125,
+    "std_when_active": 0.07741445750736706,
+    "activation_rate": 0.00057
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 29414,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " dining",
+        "count": 15094,
+        "mean_activation": 0.20092048407453914
+      },
+      {
+        "token": "ine",
+        "count": 4151,
+        "mean_activation": 0.16965452822338556
+      },
+      {
+        "token": "ined",
+        "count": 1807,
+        "mean_activation": 0.19905313260659502
+      },
+      {
+        "token": " eating",
+        "count": 925,
+        "mean_activation": 0.029167117557010135
+      },
+      {
+        "token": "ining",
+        "count": 584,
+        "mean_activation": 0.14237531897139877
+      },
+      {
+        "token": " dinner",
+        "count": 463,
+        "mean_activation": 0.019185883952525986
+      },
+      {
+        "token": " feast",
+        "count": 369,
+        "mean_activation": 0.08810453750899813
+      },
+      {
+        "token": "ipping",
+        "count": 348,
+        "mean_activation": 0.0830023316131241
+      },
+      {
+        "token": " eat",
+        "count": 325,
+        "mean_activation": 0.02287109375
+      },
+      {
+        "token": " sip",
+        "count": 240,
+        "mean_activation": 0.06502081553141276
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 29414,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...u feel like you are** dining** in grandma's backya...",
+        "active_token": " dining",
+        "activation": 0.367431640625,
+        "review_id": "CW7T0n7lVLNOKWokqejr7A",
+        "position": 25
+      },
+      {
+        "context": "...uld've been someone** dining** at the restaurant.....",
+        "active_token": " dining",
+        "activation": 0.362060546875,
+        "review_id": "Y-mzEvp57YeSUb53ME29Kw",
+        "position": 143
+      },
+      {
+        "context": "...t feels like you're** dining** in someone's house....",
+        "active_token": " dining",
+        "activation": 0.3583984375,
+        "review_id": "icDnUWDc1PuTn3jI4eoUEw",
+        "position": 175
+      },
+      {
+        "context": "...eeling that you are** dining** outdoors somewhere ...",
+        "active_token": " dining",
+        "activation": 0.358154296875,
+        "review_id": "O3tQ-b77Gx3ngB3WSqTKZg",
+        "position": 166
+      },
+      {
+        "context": "...ou feel like you're** dining** with the tables on ...",
+        "active_token": " dining",
+        "activation": 0.357666015625,
+        "review_id": "Wybn_gCtaDfnnDezl4q-7w",
+        "position": 214
+      },
+      {
+        "context": "....\\n\\nWhile I admit to** dining** at SFC about a coup...",
+        "active_token": " dining",
+        "activation": 0.356689453125,
+        "review_id": "L07qOVTgUdtB6b2htLQqmA",
+        "position": 499
+      },
+      {
+        "context": "...d waiting if you're** dining** inside.  There's ou...",
+        "active_token": " dining",
+        "activation": 0.35595703125,
+        "review_id": "K7I1GIxTAvhAEhB1MscdKA",
+        "position": 250
+      },
+      {
+        "context": ".... I felt like I was** dining** at a friends place....",
+        "active_token": " dining",
+        "activation": 0.354736328125,
+        "review_id": "Ixkww7d4MrC5n-pwU-mdhA",
+        "position": 221
+      },
+      {
+        "context": "...k good to customers** dining**. Know what I mean?\\n...",
+        "active_token": " dining",
+        "activation": 0.35302734375,
+        "review_id": "ThnTR3QYR9lQWhuplmvXFg",
+        "position": 122
+      },
+      {
+        "context": "...u feel like you are** dining** west coast style.\\n\\n...",
+        "active_token": " dining",
+        "activation": 0.3515625,
+        "review_id": "ycGmhKpNBwPmefe2s6ZczA",
+        "position": 191
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 9713,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3105,
+        "max": 0.3674,
+        "mean": 0.3229
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " dining",
+            " in"
+          ],
+          "ngram_str": " dining in",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            " was",
+            " dining"
+          ],
+          "ngram_str": " was dining",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " I",
+            " was"
+          ],
+          "ngram_str": " I was",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " you",
+            "'re"
+          ],
+          "ngram_str": " you're",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "'re",
+            " dining"
+          ],
+          "ngram_str": "'re dining",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " are",
+            " dining"
+          ],
+          "ngram_str": " are dining",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " dining",
+            " at"
+          ],
+          "ngram_str": " dining at",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " dining",
+            " with"
+          ],
+          "ngram_str": " dining with",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " if",
+            " you"
+          ],
+          "ngram_str": " if you",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " you",
+            " are"
+          ],
+          "ngram_str": " you are",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " were",
+            " dining"
+          ],
+          "ngram_str": " were dining",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " dining",
+            " here"
+          ],
+          "ngram_str": " dining here",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " of",
+            " dining"
+          ],
+          "ngram_str": " of dining",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " was",
+            " dining"
+          ],
+          "ngram_str": " I was dining",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " you",
+            "'re",
+            " dining"
+          ],
+          "ngram_str": " you're dining",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " you",
+            " are",
+            " dining"
+          ],
+          "ngram_str": " you are dining",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "'re",
+            " dining",
+            " in"
+          ],
+          "ngram_str": "'re dining in",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " dining",
+            " in",
+            "."
+          ],
+          "ngram_str": " dining in.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " dining",
+            " in",
+            ","
+          ],
+          "ngram_str": " dining in,",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " are",
+            " dining",
+            " in"
+          ],
+          "ngram_str": " are dining in",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            "'re"
+          ],
+          "ngram_str": " if you're",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " the",
+            " pleasure",
+            " of"
+          ],
+          "ngram_str": " the pleasure of",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " pleasure",
+            " of",
+            " dining"
+          ],
+          "ngram_str": " pleasure of dining",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " pleasure"
+          ],
+          "ngram_str": " had the pleasure",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " was",
+            " dining",
+            " alone"
+          ],
+          "ngram_str": " was dining alone",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " was",
+            " dining",
+            " with"
+          ],
+          "ngram_str": " was dining with",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            " are"
+          ],
+          "ngram_str": " if you are",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " you",
+            "'re",
+            " dining",
+            " in"
+          ],
+          "ngram_str": " you're dining in",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            "'re",
+            " dining"
+          ],
+          "ngram_str": " if you're dining",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " the",
+            " pleasure",
+            " of",
+            " dining"
+          ],
+          "ngram_str": " the pleasure of dining",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " pleasure",
+            " of"
+          ],
+          "ngram_str": " had the pleasure of",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " you",
+            " are",
+            " dining",
+            " in"
+          ],
+          "ngram_str": " you are dining in",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " dining",
+            " alone"
+          ],
+          "ngram_str": " I was dining alone",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            " are",
+            " dining"
+          ],
+          "ngram_str": " if you are dining",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " dining",
+            " with"
+          ],
+          "ngram_str": " I was dining with",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " you",
+            "'re",
+            " dining",
+            " with"
+          ],
+          "ngram_str": " you're dining with",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " dining",
+            " in"
+          ],
+          "ngram_str": " I was dining in",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " pleasure",
+            " of",
+            " dining",
+            " at"
+          ],
+          "ngram_str": " pleasure of dining at",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " like",
+            " you",
+            "'re",
+            " dining"
+          ],
+          "ngram_str": " like you're dining",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " my",
+            " first",
+            " time",
+            " dining"
+          ],
+          "ngram_str": " my first time dining",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17400000,
+      "corpus_coverage": 0.3365
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20367,
+        "count": 7547,
+        "percent": 75.47
+      },
+      {
+        "feature_idx": 19741,
+        "count": 6359,
+        "percent": 63.59
+      },
+      {
+        "feature_idx": 13274,
+        "count": 5647,
+        "percent": 56.47
+      },
+      {
+        "feature_idx": 22000,
+        "count": 5587,
+        "percent": 55.87
+      },
+      {
+        "feature_idx": 18702,
+        "count": 5542,
+        "percent": 55.42
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5503,
+        "percent": 55.03
+      },
+      {
+        "feature_idx": 2713,
+        "count": 5395,
+        "percent": 53.95
+      },
+      {
+        "feature_idx": 19071,
+        "count": 5291,
+        "percent": 52.91
+      },
+      {
+        "feature_idx": 1297,
+        "count": 5181,
+        "percent": 51.81
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4591,
+        "percent": 45.91
+      },
+      {
+        "feature_idx": 23589,
+        "count": 4493,
+        "percent": 44.93
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4150,
+        "percent": 41.5
+      },
+      {
+        "feature_idx": 905,
+        "count": 3701,
+        "percent": 37.01
+      },
+      {
+        "feature_idx": 601,
+        "count": 3520,
+        "percent": 35.2
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3308,
+        "percent": 33.08
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2951,
+        "percent": 29.51
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2693,
+        "percent": 26.93
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2408,
+        "percent": 24.08
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2326,
+        "percent": 23.26
+      },
+      {
+        "feature_idx": 7918,
+        "count": 2287,
+        "percent": 22.87
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17400000,
+      "corpus_coverage": 0.3365
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2647,
+        "percent": 26.47
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1902,
+        "percent": 19.02
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1524,
+        "percent": 15.24
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1620,
+        "percent": 16.2
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2307,
+        "percent": 23.07
+      }
+    ],
+    "mean_position": 0.4803,
+    "std_position": 0.3151
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 57,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.032,
+      "p25": 0.1148,
+      "p50": 0.1802,
+      "p75": 0.2017,
+      "p90": 0.2278,
+      "p95": 0.2756,
+      "p99": 0.3256
+    },
+    "skewness": -0.3176,
+    "kurtosis": -0.3779,
+    "min": 0.0189,
+    "max": 0.3352,
+    "mean": 0.1578,
+    "std": 0.0774
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 57,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " dining",
+        "count": 35,
+        "mean_activation": 0.1981
+      },
+      {
+        "token": "ine",
+        "count": 8,
+        "mean_activation": 0.1725
+      },
+      {
+        "token": " eating",
+        "count": 2,
+        "mean_activation": 0.0229
+      },
+      {
+        "token": " feast",
+        "count": 1,
+        "mean_activation": 0.0671
+      },
+      {
+        "token": " feed",
+        "count": 1,
+        "mean_activation": 0.0189
+      },
+      {
+        "token": " party",
+        "count": 1,
+        "mean_activation": 0.0425
+      },
+      {
+        "token": "ing",
+        "count": 1,
+        "mean_activation": 0.0456
+      },
+      {
+        "token": " serving",
+        "count": 1,
+        "mean_activation": 0.0206
+      },
+      {
+        "token": " riding",
+        "count": 1,
+        "mean_activation": 0.0489
+      },
+      {
+        "token": " resting",
+        "count": 1,
+        "mean_activation": 0.0401
+      }
+    ]
+  }
+}

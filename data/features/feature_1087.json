@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1087,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 108,
+    "mean_when_active": 0.08550262451171875,
+    "max_activation": 0.259521484375,
+    "std_when_active": 0.06459365377232623,
+    "activation_rate": 0.00108
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 46747,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " -",
+        "count": 23185,
+        "mean_activation": 0.04471884294139277
+      },
+      {
+        "token": "--",
+        "count": 9914,
+        "mean_activation": 0.17979963224502205
+      },
+      {
+        "token": " --",
+        "count": 6068,
+        "mean_activation": 0.11508369822995633
+      },
+      {
+        "token": "-",
+        "count": 2271,
+        "mean_activation": 0.039667869443570085
+      },
+      {
+        "token": "...",
+        "count": 2009,
+        "mean_activation": 0.03052137953063752
+      },
+      {
+        "token": "---",
+        "count": 653,
+        "mean_activation": 0.1220673214969372
+      },
+      {
+        "token": " (",
+        "count": 410,
+        "mean_activation": 0.027881622314453125
+      },
+      {
+        "token": " \u00e2\u0122",
+        "count": 326,
+        "mean_activation": 0.08126915305670053
+      },
+      {
+        "token": "....",
+        "count": 260,
+        "mean_activation": 0.02925312335674579
+      },
+      {
+        "token": " ---",
+        "count": 232,
+        "mean_activation": 0.08941209727320178
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 46747,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...\\n\\nAfter we were seated**--** our waitress was OK. ...",
+        "active_token": "--",
+        "activation": 0.3369140625,
+        "review_id": "aAY1z-h8k8rMcOMV6kvTfA",
+        "position": 177
+      },
+      {
+        "context": "... drained to its limits**--**it is a popular spot t...",
+        "active_token": "--",
+        "activation": 0.3369140625,
+        "review_id": "O1vF_CF8au1UKj5G5V_t5Q",
+        "position": 432
+      },
+      {
+        "context": "...0 minutes of searching**--**starving, feeling unva...",
+        "active_token": "--",
+        "activation": 0.3359375,
+        "review_id": "Q_2232t4KR0kEmYf-bbbRQ",
+        "position": 222
+      },
+      {
+        "context": "...ant to impress someone**--**or just be surrounded ...",
+        "active_token": "--",
+        "activation": 0.3359375,
+        "review_id": "8s-B92QjvWZLcDX1KLSY2Q",
+        "position": 149
+      },
+      {
+        "context": "...pulled myself together**--**after some mild hyperv...",
+        "active_token": "--",
+        "activation": 0.329345703125,
+        "review_id": "Wq16fiq5obihAZi00JkpyQ",
+        "position": 99
+      },
+      {
+        "context": "...late of nachos and got**--**literally--8 chips, I ...",
+        "active_token": "--",
+        "activation": 0.325439453125,
+        "review_id": "nd-ac5xNhySdmbdWnHhzPA",
+        "position": 123
+      },
+      {
+        "context": "...ut when we were seated**--**that's where they put ...",
+        "active_token": "--",
+        "activation": 0.32470703125,
+        "review_id": "iO08LCTO3fGnisvUjcVzSQ",
+        "position": 96
+      },
+      {
+        "context": "...moron. Perhaps one day**--**somewhere, somehow--tr...",
+        "active_token": "--",
+        "activation": 0.323486328125,
+        "review_id": "pf917SEpeAAOsgp3NMxdUw",
+        "position": 224
+      },
+      {
+        "context": "... to have a last supper**--**or brunch rather--I'm ...",
+        "active_token": "--",
+        "activation": 0.322021484375,
+        "review_id": "isXnZM-w4wY8AIZUOhhIOQ",
+        "position": 41
+      },
+      {
+        "context": "...time I pick up my food**--**the staff actively avo...",
+        "active_token": "--",
+        "activation": 0.31982421875,
+        "review_id": "7cGSB1D-BB81ac5lf1HJtw",
+        "position": 15
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1087,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2529,
+        "max": 0.3369,
+        "mean": 0.2726
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            "--",
+            "the"
+          ],
+          "ngram_str": "--the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "--",
+            "I"
+          ],
+          "ngram_str": "--I",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "--",
+            "and"
+          ],
+          "ngram_str": "--and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "--",
+            "it"
+          ],
+          "ngram_str": "--it",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "--",
+            " I"
+          ],
+          "ngram_str": "-- I",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " food",
+            "--"
+          ],
+          "ngram_str": " food--",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "--",
+            "they"
+          ],
+          "ngram_str": "--they",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "--",
+            "which"
+          ],
+          "ngram_str": "--which",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u00c4\u012cThe",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "--",
+            "it",
+            "'s"
+          ],
+          "ngram_str": "--it's",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            "--"
+          ],
+          "ngram_str": ", and--",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "--",
+            "which",
+            " is"
+          ],
+          "ngram_str": "--which is",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " the"
+          ],
+          "ngram_str": ", and the",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ".",
+            " And",
+            " the"
+          ],
+          "ngram_str": ". And the",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " was"
+          ],
+          "ngram_str": " the food was",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            "--",
+            "I",
+            "'ve"
+          ],
+          "ngram_str": "--I've",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "My"
+          ],
+          "ngram_str": "\u00c4\u012cMy",
+          "count": 3,
+          "percent": 0.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "My"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cMy",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " the",
+            " hype",
+            " about",
+            " Roberto"
+          ],
+          "ngram_str": " the hype about Roberto",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " hype",
+            " about",
+            " Roberto",
+            "'s"
+          ],
+          "ngram_str": " hype about Roberto's",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " about",
+            " Roberto",
+            "'s",
+            "--"
+          ],
+          "ngram_str": " about Roberto's--",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " Roberto",
+            "'s",
+            "--",
+            "it"
+          ],
+          "ngram_str": " Roberto's--it",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            "'s",
+            "--",
+            "it",
+            "'s"
+          ],
+          "ngram_str": "'s--it's",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            "--",
+            "it",
+            "'s",
+            " a"
+          ],
+          "ngram_str": "--it's a",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            "it",
+            "'s",
+            " a",
+            " decent"
+          ],
+          "ngram_str": "it's a decent",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            "'s",
+            " a",
+            " decent",
+            " average"
+          ],
+          "ngram_str": "'s a decent average",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " was",
+            " good",
+            ",",
+            " but"
+          ],
+          "ngram_str": " was good, but",
+          "count": 3,
+          "percent": 0.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16615,
+        "count": 8925,
+        "percent": 89.25
+      },
+      {
+        "feature_idx": 21920,
+        "count": 8659,
+        "percent": 86.59
+      },
+      {
+        "feature_idx": 20808,
+        "count": 7905,
+        "percent": 79.05
+      },
+      {
+        "feature_idx": 5210,
+        "count": 6176,
+        "percent": 61.76
+      },
+      {
+        "feature_idx": 14932,
+        "count": 5365,
+        "percent": 53.65
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5110,
+        "percent": 51.1
+      },
+      {
+        "feature_idx": 3943,
+        "count": 3976,
+        "percent": 39.76
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3957,
+        "percent": 39.57
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3802,
+        "percent": 38.02
+      },
+      {
+        "feature_idx": 19846,
+        "count": 3759,
+        "percent": 37.59
+      },
+      {
+        "feature_idx": 11839,
+        "count": 3254,
+        "percent": 32.54
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3240,
+        "percent": 32.4
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2849,
+        "percent": 28.49
+      },
+      {
+        "feature_idx": 22989,
+        "count": 2803,
+        "percent": 28.03
+      },
+      {
+        "feature_idx": 20634,
+        "count": 2781,
+        "percent": 27.81
+      },
+      {
+        "feature_idx": 20432,
+        "count": 2634,
+        "percent": 26.34
+      },
+      {
+        "feature_idx": 15877,
+        "count": 2449,
+        "percent": 24.49
+      },
+      {
+        "feature_idx": 11476,
+        "count": 2074,
+        "percent": 20.74
+      },
+      {
+        "feature_idx": 3510,
+        "count": 1718,
+        "percent": 17.18
+      },
+      {
+        "feature_idx": 8696,
+        "count": 1681,
+        "percent": 16.81
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1864,
+        "percent": 18.64
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2099,
+        "percent": 20.99
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2056,
+        "percent": 20.56
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2089,
+        "percent": 20.89
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1892,
+        "percent": 18.92
+      }
+    ],
+    "mean_position": 0.5,
+    "std_position": 0.2802
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 108,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0218,
+      "p25": 0.0328,
+      "p50": 0.0565,
+      "p75": 0.1406,
+      "p90": 0.1841,
+      "p95": 0.1985,
+      "p99": 0.2343
+    },
+    "skewness": 0.7515,
+    "kurtosis": -0.7675,
+    "min": 0.0152,
+    "max": 0.2595,
+    "mean": 0.0855,
+    "std": 0.0646
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 108,
+      "unique_tokens_found": 11
+    },
+    "tokens": [
+      {
+        "token": " -",
+        "count": 50,
+        "mean_activation": 0.0435
+      },
+      {
+        "token": "--",
+        "count": 24,
+        "mean_activation": 0.1787
+      },
+      {
+        "token": " --",
+        "count": 15,
+        "mean_activation": 0.1232
+      },
+      {
+        "token": "-",
+        "count": 8,
+        "mean_activation": 0.0317
+      },
+      {
+        "token": "...",
+        "count": 4,
+        "mean_activation": 0.0319
+      },
+      {
+        "token": "---",
+        "count": 2,
+        "mean_activation": 0.1472
+      },
+      {
+        "token": " table",
+        "count": 1,
+        "mean_activation": 0.0155
+      },
+      {
+        "token": ",",
+        "count": 1,
+        "mean_activation": 0.0251
+      },
+      {
+        "token": "----",
+        "count": 1,
+        "mean_activation": 0.0917
+      },
+      {
+        "token": "------",
+        "count": 1,
+        "mean_activation": 0.0442
+      }
+    ]
+  }
+}

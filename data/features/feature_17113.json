@@ -1,0 +1,856 @@
+{
+  "feature_idx": 17113,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 30,
+    "mean_when_active": 0.06580301920572916,
+    "max_activation": 0.138671875,
+    "std_when_active": 0.037445846365760524,
+    "activation_rate": 0.0003
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 20307,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " again",
+        "count": 17928,
+        "mean_activation": 0.05915394791105612
+      },
+      {
+        "token": " another",
+        "count": 727,
+        "mean_activation": 0.025611604588231817
+      },
+      {
+        "token": " time",
+        "count": 268,
+        "mean_activation": 0.035603281277329174
+      },
+      {
+        "token": " continue",
+        "count": 173,
+        "mean_activation": 0.02216546383896315
+      },
+      {
+        "token": " it",
+        "count": 162,
+        "mean_activation": 0.020731702262972607
+      },
+      {
+        "token": " Again",
+        "count": 123,
+        "mean_activation": 0.01820962797335493
+      },
+      {
+        "token": " next",
+        "count": 92,
+        "mean_activation": 0.025456884632939877
+      },
+      {
+        "token": " future",
+        "count": 69,
+        "mean_activation": 0.024877244147701538
+      },
+      {
+        "token": ",",
+        "count": 63,
+        "mean_activation": 0.030445886036706348
+      },
+      {
+        "token": " shame",
+        "count": 52,
+        "mean_activation": 0.03374393169696514
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 20307,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...o.  I would order it** again**.\\n\\nOn this occasion,...",
+        "active_token": " again",
+        "activation": 0.1864013671875,
+        "review_id": "_P4YyEHdMctzjnRZZE4EEg",
+        "position": 378
+      },
+      {
+        "context": "...  I would order them** again**...but they just see...",
+        "active_token": " again",
+        "activation": 0.1826171875,
+        "review_id": "k1ueF6c1TPcOEqPzX7sZyg",
+        "position": 88
+      },
+      {
+        "context": "...ly. I would order it** again** and again. I also h...",
+        "active_token": " again",
+        "activation": 0.1826171875,
+        "review_id": "l-NM-hiXmEKbhhYmDch-vQ",
+        "position": 222
+      },
+      {
+        "context": "...e.  I would order it** again** for sure.  Also had...",
+        "active_token": " again",
+        "activation": 0.179931640625,
+        "review_id": "JY9D69fUmkvN_qchgkdfvw",
+        "position": 701
+      },
+      {
+        "context": "...but I would order it** again** and, if I lived in ...",
+        "active_token": " again",
+        "activation": 0.1795654296875,
+        "review_id": "j6xJArQCw7qb4ZBv_NIgYA",
+        "position": 177
+      },
+      {
+        "context": "...d I would order them** again**.  Looking forward t...",
+        "active_token": " again",
+        "activation": 0.1795654296875,
+        "review_id": "5lqIVlWYkOwrIVgkYwJyEg",
+        "position": 360
+      },
+      {
+        "context": "...t I would order them** again**.  My friend got the...",
+        "active_token": " again",
+        "activation": 0.1768798828125,
+        "review_id": "X30Z3NkQdzCVYR_L8BtWKw",
+        "position": 97
+      },
+      {
+        "context": "...ll. I would order it** again**. \\nService was pleas...",
+        "active_token": " again",
+        "activation": 0.1767578125,
+        "review_id": "N7eE_utTcIboQk7cwLemxw",
+        "position": 172
+      },
+      {
+        "context": ".... I would order this** again**, but they were heav...",
+        "active_token": " again",
+        "activation": 0.1766357421875,
+        "review_id": "LxswExMPIHs-SWtQpsvJHQ",
+        "position": 249
+      },
+      {
+        "context": "...ked. I will order it** again**. We shared a strawb...",
+        "active_token": " again",
+        "activation": 0.176025390625,
+        "review_id": "uUEdw5yWkCXA9v_t8kdi0A",
+        "position": 54
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17113,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1421,
+        "max": 0.1864,
+        "mean": 0.1541
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " it",
+            " again"
+          ],
+          "ngram_str": " it again",
+          "count": 238,
+          "percent": 47.6
+        },
+        {
+          "ngram": [
+            " again",
+            "."
+          ],
+          "ngram_str": " again.",
+          "count": 216,
+          "percent": 43.2
+        },
+        {
+          "ngram": [
+            " I",
+            " would"
+          ],
+          "ngram_str": " I would",
+          "count": 187,
+          "percent": 37.4
+        },
+        {
+          "ngram": [
+            " would",
+            " order"
+          ],
+          "ngram_str": " would order",
+          "count": 155,
+          "percent": 31.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 143,
+          "percent": 28.6
+        },
+        {
+          "ngram": [
+            " order",
+            " it"
+          ],
+          "ngram_str": " order it",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " them",
+            " again"
+          ],
+          "ngram_str": " them again",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            " try",
+            " it"
+          ],
+          "ngram_str": " try it",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'d"
+          ],
+          "ngram_str": " I'd",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " order",
+            " again"
+          ],
+          "ngram_str": " order again",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "'d",
+            " order"
+          ],
+          "ngram_str": "'d order",
+          "count": 49,
+          "percent": 9.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " order",
+            " it",
+            " again"
+          ],
+          "ngram_str": " order it again",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " order"
+          ],
+          "ngram_str": " I would order",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            " it",
+            " again",
+            "."
+          ],
+          "ngram_str": " it again.",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            " try",
+            " it",
+            " again"
+          ],
+          "ngram_str": " try it again",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " would",
+            " order",
+            " it"
+          ],
+          "ngram_str": " would order it",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would"
+          ],
+          "ngram_str": ". I would",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " try",
+            " them",
+            " again"
+          ],
+          "ngram_str": " try them again",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " order"
+          ],
+          "ngram_str": " I'd order",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " order",
+            " them",
+            " again"
+          ],
+          "ngram_str": " order them again",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " them",
+            " again",
+            "."
+          ],
+          "ngram_str": " them again.",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " would"
+          ],
+          "ngram_str": " and I would",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " again",
+            ".",
+            " "
+          ],
+          "ngram_str": " again. ",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " would",
+            " order",
+            " again"
+          ],
+          "ngram_str": " would order again",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " try"
+          ],
+          "ngram_str": " I would try",
+          "count": 37,
+          "percent": 7.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " order",
+            " it",
+            " again",
+            "."
+          ],
+          "ngram_str": " order it again.",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " would",
+            " order",
+            " it",
+            " again"
+          ],
+          "ngram_str": " would order it again",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " would",
+            " order"
+          ],
+          "ngram_str": " and I would order",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " order",
+            " it"
+          ],
+          "ngram_str": " I would order it",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " order",
+            " them",
+            " again",
+            "."
+          ],
+          "ngram_str": " order them again.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would",
+            " order"
+          ],
+          "ngram_str": ". I would order",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "'d",
+            " order",
+            " it",
+            " again"
+          ],
+          "ngram_str": "'d order it again",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " would",
+            " order",
+            " again",
+            "."
+          ],
+          "ngram_str": " would order again.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " again",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " again.\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " would",
+            " try",
+            " it",
+            " again"
+          ],
+          "ngram_str": " would try it again",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'d",
+            " order",
+            " it"
+          ],
+          "ngram_str": " I'd order it",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " order",
+            " again"
+          ],
+          "ngram_str": " I would order again",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25700000,
+      "corpus_coverage": 0.4971
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3094,
+        "count": 8958,
+        "percent": 89.58
+      },
+      {
+        "feature_idx": 21111,
+        "count": 8932,
+        "percent": 89.32
+      },
+      {
+        "feature_idx": 5025,
+        "count": 8149,
+        "percent": 81.49
+      },
+      {
+        "feature_idx": 3634,
+        "count": 7866,
+        "percent": 78.66
+      },
+      {
+        "feature_idx": 342,
+        "count": 7713,
+        "percent": 77.13
+      },
+      {
+        "feature_idx": 17945,
+        "count": 7324,
+        "percent": 73.24
+      },
+      {
+        "feature_idx": 14534,
+        "count": 7085,
+        "percent": 70.85
+      },
+      {
+        "feature_idx": 23664,
+        "count": 5817,
+        "percent": 58.17
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5190,
+        "percent": 51.9
+      },
+      {
+        "feature_idx": 3305,
+        "count": 5070,
+        "percent": 50.7
+      },
+      {
+        "feature_idx": 23963,
+        "count": 4930,
+        "percent": 49.3
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4879,
+        "percent": 48.79
+      },
+      {
+        "feature_idx": 6789,
+        "count": 4859,
+        "percent": 48.59
+      },
+      {
+        "feature_idx": 9836,
+        "count": 4668,
+        "percent": 46.68
+      },
+      {
+        "feature_idx": 5432,
+        "count": 4532,
+        "percent": 45.32
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3305,
+        "percent": 33.05
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3239,
+        "percent": 32.39
+      },
+      {
+        "feature_idx": 3840,
+        "count": 3229,
+        "percent": 32.29
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3173,
+        "percent": 31.73
+      },
+      {
+        "feature_idx": 12906,
+        "count": 3113,
+        "percent": 31.13
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25700000,
+      "corpus_coverage": 0.4971
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 503,
+        "percent": 5.03
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 838,
+        "percent": 8.38
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1300,
+        "percent": 13.0
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1844,
+        "percent": 18.44
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 5515,
+        "percent": 55.15
+      }
+    ],
+    "mean_position": 0.7423,
+    "std_position": 0.2583
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 30,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0257,
+      "p25": 0.0353,
+      "p50": 0.0538,
+      "p75": 0.0863,
+      "p90": 0.1252,
+      "p95": 0.1339,
+      "p99": 0.1381
+    },
+    "skewness": 0.6043,
+    "kurtosis": -0.9641,
+    "min": 0.0206,
+    "max": 0.1387,
+    "mean": 0.0658,
+    "std": 0.0374
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 30,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " again",
+        "count": 25,
+        "mean_activation": 0.073
+      },
+      {
+        "token": " another",
+        "count": 1,
+        "mean_activation": 0.0368
+      },
+      {
+        "token": " time",
+        "count": 1,
+        "mean_activation": 0.0206
+      },
+      {
+        "token": ",",
+        "count": 1,
+        "mean_activation": 0.0367
+      },
+      {
+        "token": " often",
+        "count": 1,
+        "mean_activation": 0.0259
+      },
+      {
+        "token": " regularly",
+        "count": 1,
+        "mean_activation": 0.0282
+      }
+    ]
+  }
+}

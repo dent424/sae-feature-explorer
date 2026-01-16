@@ -1,0 +1,876 @@
+{
+  "feature_idx": 21187,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 300,
+    "mean_when_active": 0.04802457173665364,
+    "max_activation": 0.1561279296875,
+    "std_when_active": 0.027359924250158922,
+    "activation_rate": 0.003
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 16300000,
+      "corpus_coverage": 0.3153
+    },
+    "top_tokens": [
+      {
+        "token": " which",
+        "count": 14912,
+        "mean_activation": 0.04995707073948414
+      },
+      {
+        "token": " that",
+        "count": 12673,
+        "mean_activation": 0.06643619264939642
+      },
+      {
+        "token": " was",
+        "count": 3981,
+        "mean_activation": 0.039480144670338405
+      },
+      {
+        "token": " is",
+        "count": 1914,
+        "mean_activation": 0.03589658428259902
+      },
+      {
+        "token": " were",
+        "count": 1883,
+        "mean_activation": 0.0408298859112578
+      },
+      {
+        "token": " who",
+        "count": 1417,
+        "mean_activation": 0.04419145065878341
+      },
+      {
+        "token": " I",
+        "count": 1303,
+        "mean_activation": 0.03488201337508394
+      },
+      {
+        "token": "which",
+        "count": 824,
+        "mean_activation": 0.044055873907885505
+      },
+      {
+        "token": " are",
+        "count": 778,
+        "mean_activation": 0.04116888953358471
+      },
+      {
+        "token": " you",
+        "count": 557,
+        "mean_activation": 0.041245410857551616
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 16300000,
+      "corpus_coverage": 0.3153
+    },
+    "activations": [
+      {
+        "context": "...EST of mixed lettuce** that** I literally had to d...",
+        "active_token": " that",
+        "activation": 0.19970703125,
+        "review_id": "hTaHn8F74d0_lHQLms5NQg",
+        "position": 253
+      },
+      {
+        "context": "...cup of melted cheese** that** had been either over...",
+        "active_token": " that",
+        "activation": 0.1981201171875,
+        "review_id": "RYLtCaz4SV11mhoHE7ch4Q",
+        "position": 253
+      },
+      {
+        "context": "...ll plastic container** that** you'd use for takeaw...",
+        "active_token": " that",
+        "activation": 0.1968994140625,
+        "review_id": "jydHBOSXHBt1vaWUDwHW4g",
+        "position": 23
+      },
+      {
+        "context": "...rved in plastic cups** that** seemed like they wer...",
+        "active_token": " that",
+        "activation": 0.1961669921875,
+        "review_id": "9QHon72PZpkUi6ASfPyQdQ",
+        "position": 58
+      },
+      {
+        "context": "...-shell-sized circles** that** you could break apar...",
+        "active_token": " that",
+        "activation": 0.1959228515625,
+        "review_id": "Nwid6BA5TGqbYzU20EWb6A",
+        "position": 81
+      },
+      {
+        "context": "... in a thick tortilla** that**'s fried on the outsi...",
+        "active_token": " that",
+        "activation": 0.1942138671875,
+        "review_id": "b6dCzlF4P1tva1iIDOPcRw",
+        "position": 187
+      },
+      {
+        "context": "... rolled in tortillas** that** are baked with the e...",
+        "active_token": " that",
+        "activation": 0.190185546875,
+        "review_id": "SIwsQdy3L-lP-wpo2-zJeg",
+        "position": 226
+      },
+      {
+        "context": "... tostada  flat shell** that** must have been prepa...",
+        "active_token": " that",
+        "activation": 0.1895751953125,
+        "review_id": "xl2KckpgzT56ObcjOb9I8w",
+        "position": 282
+      },
+      {
+        "context": "...ve you a small towel** that** is too small for you...",
+        "active_token": " that",
+        "activation": 0.1888427734375,
+        "review_id": "p1P66gjDJ1eEt88ZDZCPjw",
+        "position": 63
+      },
+      {
+        "context": "...e with a paper straw** that** was already half dis...",
+        "active_token": " that",
+        "activation": 0.1885986328125,
+        "review_id": "_nOcRbPoxwlw8vwYjVRpzw",
+        "position": 19
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 21187,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 32600000,
+      "corpus_coverage": 0.6305,
+      "activation_range": {
+        "min": 0.1561,
+        "max": 0.2043,
+        "mean": 0.1675
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " that",
+            " was"
+          ],
+          "ngram_str": " that was",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " that",
+            " were"
+          ],
+          "ngram_str": " that were",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " tortillas",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " tortilla",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " that",
+            " are"
+          ],
+          "ngram_str": " that are",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " that",
+            " I"
+          ],
+          "ngram_str": " that I",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "illas",
+            " that"
+          ],
+          "ngram_str": "illas that",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " that",
+            " is"
+          ],
+          "ngram_str": " that is",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " that",
+            " you"
+          ],
+          "ngram_str": " that you",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " that",
+            " had"
+          ],
+          "ngram_str": " that had",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " chips",
+            " that"
+          ],
+          "ngram_str": " chips that",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "illa",
+            " that"
+          ],
+          "ngram_str": "illa that",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " beans",
+            " that"
+          ],
+          "ngram_str": " beans that",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " tort",
+            "illas",
+            " that"
+          ],
+          "ngram_str": " tortillas that",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " that"
+          ],
+          "ngram_str": " tortilla that",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "illas",
+            " that",
+            " were"
+          ],
+          "ngram_str": "illas that were",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " corn",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " corn tortillas",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " that",
+            " you",
+            " can"
+          ],
+          "ngram_str": " that you can",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " on",
+            " top",
+            " that"
+          ],
+          "ngram_str": " on top that",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " that",
+            " wasn",
+            "'t"
+          ],
+          "ngram_str": " that wasn't",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " ref",
+            "ried",
+            " beans"
+          ],
+          "ngram_str": " refried beans",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "ried",
+            " beans",
+            " that"
+          ],
+          "ngram_str": "ried beans that",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " a",
+            " side",
+            " of"
+          ],
+          "ngram_str": " a side of",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " chips"
+          ],
+          "ngram_str": " tortilla chips",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " that",
+            " had",
+            " a"
+          ],
+          "ngram_str": " that had a",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " beans",
+            " that",
+            " were"
+          ],
+          "ngram_str": " beans that were",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " chips",
+            " that",
+            " were"
+          ],
+          "ngram_str": " chips that were",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "illa",
+            " chips",
+            " that"
+          ],
+          "ngram_str": "illa chips that",
+          "count": 6,
+          "percent": 1.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " tort",
+            "illas",
+            " that",
+            " were"
+          ],
+          "ngram_str": " tortillas that were",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " corn",
+            " tort",
+            "illas",
+            " that"
+          ],
+          "ngram_str": " corn tortillas that",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " ref",
+            "ried",
+            " beans",
+            " that"
+          ],
+          "ngram_str": " refried beans that",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " chips",
+            " that"
+          ],
+          "ngram_str": " tortilla chips that",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas",
+            " that",
+            " are"
+          ],
+          "ngram_str": " tortillas that are",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " side",
+            " that"
+          ],
+          "ngram_str": " on the side that",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " side",
+            " of"
+          ],
+          "ngram_str": " with a side of",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " flour",
+            " tort",
+            "illa",
+            " that"
+          ],
+          "ngram_str": " flour tortilla that",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "al",
+            "ape",
+            "\u00c3\u0125",
+            "\u00c2\u00b1"
+          ],
+          "ngram_str": "alape\u00c3\u0125\u00c2\u00b1",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "ape",
+            "\u00c3\u0125",
+            "\u00c2\u00b1",
+            "o"
+          ],
+          "ngram_str": "ape\u00c3\u0125\u00c2\u00b1o",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " flour",
+            " tort",
+            "illas",
+            " that"
+          ],
+          "ngram_str": " flour tortillas that",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " that",
+            " wasn",
+            "'t",
+            " even"
+          ],
+          "ngram_str": " that wasn't even",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " rice",
+            " and",
+            " beans",
+            " that"
+          ],
+          "ngram_str": " rice and beans that",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " that",
+            " looked",
+            " like",
+            " it"
+          ],
+          "ngram_str": " that looked like it",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " that",
+            " compliment",
+            "ed",
+            " the"
+          ],
+          "ngram_str": " that complimented the",
+          "count": 3,
+          "percent": 0.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3300000,
+      "corpus_coverage": 0.0638
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 2392,
+        "count": 5993,
+        "percent": 59.93
+      },
+      {
+        "feature_idx": 1390,
+        "count": 5471,
+        "percent": 54.71
+      },
+      {
+        "feature_idx": 23760,
+        "count": 4899,
+        "percent": 48.99
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4649,
+        "percent": 46.49
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3887,
+        "percent": 38.87
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3824,
+        "percent": 38.24
+      },
+      {
+        "feature_idx": 10439,
+        "count": 3422,
+        "percent": 34.22
+      },
+      {
+        "feature_idx": 20181,
+        "count": 3398,
+        "percent": 33.98
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3310,
+        "percent": 33.1
+      },
+      {
+        "feature_idx": 21686,
+        "count": 3299,
+        "percent": 32.99
+      },
+      {
+        "feature_idx": 11635,
+        "count": 3244,
+        "percent": 32.44
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3242,
+        "percent": 32.42
+      },
+      {
+        "feature_idx": 20612,
+        "count": 2941,
+        "percent": 29.41
+      },
+      {
+        "feature_idx": 19766,
+        "count": 2705,
+        "percent": 27.05
+      },
+      {
+        "feature_idx": 17603,
+        "count": 2695,
+        "percent": 26.95
+      },
+      {
+        "feature_idx": 8148,
+        "count": 2657,
+        "percent": 26.57
+      },
+      {
+        "feature_idx": 10298,
+        "count": 2618,
+        "percent": 26.18
+      },
+      {
+        "feature_idx": 14688,
+        "count": 2611,
+        "percent": 26.11
+      },
+      {
+        "feature_idx": 20848,
+        "count": 2587,
+        "percent": 25.87
+      },
+      {
+        "feature_idx": 15956,
+        "count": 2561,
+        "percent": 25.61
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3300000,
+      "corpus_coverage": 0.0638
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1085,
+        "percent": 10.85
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2388,
+        "percent": 23.88
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2698,
+        "percent": 26.98
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2422,
+        "percent": 24.22
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1407,
+        "percent": 14.07
+      }
+    ],
+    "mean_position": 0.5139,
+    "std_position": 0.2365
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 300,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0216,
+      "p25": 0.0274,
+      "p50": 0.0396,
+      "p75": 0.06,
+      "p90": 0.0848,
+      "p95": 0.1066,
+      "p99": 0.1317
+    },
+    "skewness": 1.3262,
+    "kurtosis": 1.6917,
+    "min": 0.0121,
+    "max": 0.1561,
+    "mean": 0.048,
+    "std": 0.0274
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 300,
+      "unique_tokens_found": 50
+    },
+    "tokens": [
+      {
+        "token": " which",
+        "count": 90,
+        "mean_activation": 0.0524
+      },
+      {
+        "token": " that",
+        "count": 69,
+        "mean_activation": 0.0671
+      },
+      {
+        "token": " was",
+        "count": 19,
+        "mean_activation": 0.0366
+      },
+      {
+        "token": " were",
+        "count": 13,
+        "mean_activation": 0.0411
+      },
+      {
+        "token": " who",
+        "count": 9,
+        "mean_activation": 0.0365
+      },
+      {
+        "token": " I",
+        "count": 7,
+        "mean_activation": 0.0402
+      },
+      {
+        "token": "which",
+        "count": 7,
+        "mean_activation": 0.0382
+      },
+      {
+        "token": " are",
+        "count": 6,
+        "mean_activation": 0.0416
+      },
+      {
+        "token": " can",
+        "count": 6,
+        "mean_activation": 0.0413
+      },
+      {
+        "token": " is",
+        "count": 6,
+        "mean_activation": 0.0437
+      }
+    ]
+  }
+}

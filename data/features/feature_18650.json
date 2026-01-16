@@ -1,0 +1,871 @@
+{
+  "feature_idx": 18650,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 28,
+    "mean_when_active": 0.06573159354073661,
+    "max_activation": 0.276611328125,
+    "std_when_active": 0.05610215751449165,
+    "activation_rate": 0.00028
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 12913,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " anything",
+        "count": 4609,
+        "mean_activation": 0.09249836877618857
+      },
+      {
+        "token": " something",
+        "count": 3630,
+        "mean_activation": 0.04657673901434444
+      },
+      {
+        "token": " else",
+        "count": 638,
+        "mean_activation": 0.07482675773596689
+      },
+      {
+        "token": " any",
+        "count": 335,
+        "mean_activation": 0.05141127856809701
+      },
+      {
+        "token": " more",
+        "count": 293,
+        "mean_activation": 0.040466100282636516
+      },
+      {
+        "token": " questions",
+        "count": 286,
+        "mean_activation": 0.053297296270623906
+      },
+      {
+        "token": " things",
+        "count": 278,
+        "mean_activation": 0.03950659662699528
+      },
+      {
+        "token": " needed",
+        "count": 274,
+        "mean_activation": 0.0356694799270073
+      },
+      {
+        "token": " nothing",
+        "count": 254,
+        "mean_activation": 0.050100461704524486
+      },
+      {
+        "token": " it",
+        "count": 235,
+        "mean_activation": 0.043161757448886305
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 12913,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...s and if we needed** anything**. More chips, more ...",
+        "active_token": " anything",
+        "activation": 0.301025390625,
+        "review_id": "K2Nvx2MpiTtAa6aQwGxswA",
+        "position": 828
+      },
+      {
+        "context": "...doing/if we needed** anything**. We also had a cha...",
+        "active_token": " anything",
+        "activation": 0.292236328125,
+        "review_id": "gov8SRiL3eoC49M2Oim8eA",
+        "position": 50
+      },
+      {
+        "context": "...sk us if we needed** anything**. The manager paid ...",
+        "active_token": " anything",
+        "activation": 0.290283203125,
+        "review_id": "ffQslHHLtBgowkZ0zPRXAQ",
+        "position": 43
+      },
+      {
+        "context": "...s and if we needed** anything**. She was more inte...",
+        "active_token": " anything",
+        "activation": 0.28955078125,
+        "review_id": "NaTOeEqO0Zpw03na_2XB_A",
+        "position": 121
+      },
+      {
+        "context": "... once if we needed** anything**. It was 230 on Sat...",
+        "active_token": " anything",
+        "activation": 0.289306640625,
+        "review_id": "KSc4A0mQRILPkeMeuVLRww",
+        "position": 118
+      },
+      {
+        "context": "...as and if I needed** anything**, which I did need ...",
+        "active_token": " anything",
+        "activation": 0.289306640625,
+        "review_id": "6KaV2AfppMdHwG5E0qjZAg",
+        "position": 156
+      },
+      {
+        "context": "...ng or if we needed** anything** else (we did). No ...",
+        "active_token": " anything",
+        "activation": 0.2880859375,
+        "review_id": "9FjDhB1--_sD9c3z5LzvJw",
+        "position": 362
+      },
+      {
+        "context": "...ng or if we needed** anything**. We didn't realize...",
+        "active_token": " anything",
+        "activation": 0.287841796875,
+        "review_id": "cyH-3njkGqEY4iVg9qvtOA",
+        "position": 60
+      },
+      {
+        "context": "...on us if we needed** anything**. Food was delish a...",
+        "active_token": " anything",
+        "activation": 0.287841796875,
+        "review_id": "rOL7rC-BcFNXxA098JQCKQ",
+        "position": 42
+      },
+      {
+        "context": "...e know if you need** anything** else\" I returned t...",
+        "active_token": " anything",
+        "activation": 0.287109375,
+        "review_id": "ugwJ8yZKiDBoDSO69fSXYA",
+        "position": 151
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 18650,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2439,
+        "max": 0.301,
+        "mean": 0.2608
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " needed",
+            " anything"
+          ],
+          "ngram_str": " needed anything",
+          "count": 411,
+          "percent": 82.2
+        },
+        {
+          "ngram": [
+            " if",
+            " we"
+          ],
+          "ngram_str": " if we",
+          "count": 347,
+          "percent": 69.4
+        },
+        {
+          "ngram": [
+            " we",
+            " needed"
+          ],
+          "ngram_str": " we needed",
+          "count": 330,
+          "percent": 66.0
+        },
+        {
+          "ngram": [
+            " anything",
+            "."
+          ],
+          "ngram_str": " anything.",
+          "count": 215,
+          "percent": 43.0
+        },
+        {
+          "ngram": [
+            " see",
+            " if"
+          ],
+          "ngram_str": " see if",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " anything",
+            " else"
+          ],
+          "ngram_str": " anything else",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " to",
+            " see"
+          ],
+          "ngram_str": " to see",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " need",
+            " anything"
+          ],
+          "ngram_str": " need anything",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " if",
+            " I"
+          ],
+          "ngram_str": " if I",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " ask",
+            " if"
+          ],
+          "ngram_str": " ask if",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " asked",
+            " if"
+          ],
+          "ngram_str": " asked if",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " I",
+            " needed"
+          ],
+          "ngram_str": " I needed",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " else",
+            "."
+          ],
+          "ngram_str": " else.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " or",
+            " if"
+          ],
+          "ngram_str": " or if",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " if",
+            " you"
+          ],
+          "ngram_str": " if you",
+          "count": 54,
+          "percent": 10.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " we",
+            " needed",
+            " anything"
+          ],
+          "ngram_str": " we needed anything",
+          "count": 330,
+          "percent": 66.0
+        },
+        {
+          "ngram": [
+            " if",
+            " we",
+            " needed"
+          ],
+          "ngram_str": " if we needed",
+          "count": 327,
+          "percent": 65.4
+        },
+        {
+          "ngram": [
+            " needed",
+            " anything",
+            "."
+          ],
+          "ngram_str": " needed anything.",
+          "count": 182,
+          "percent": 36.4
+        },
+        {
+          "ngram": [
+            " to",
+            " see",
+            " if"
+          ],
+          "ngram_str": " to see if",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " see",
+            " if",
+            " we"
+          ],
+          "ngram_str": " see if we",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            " needed",
+            " anything",
+            " else"
+          ],
+          "ngram_str": " needed anything else",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " I",
+            " needed",
+            " anything"
+          ],
+          "ngram_str": " I needed anything",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " anything",
+            " else",
+            "."
+          ],
+          "ngram_str": " anything else.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " if",
+            " I",
+            " needed"
+          ],
+          "ngram_str": " if I needed",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " asked",
+            " if",
+            " we"
+          ],
+          "ngram_str": " asked if we",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            " need"
+          ],
+          "ngram_str": " if you need",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " you",
+            " need",
+            " anything"
+          ],
+          "ngram_str": " you need anything",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " anything",
+            ".",
+            " "
+          ],
+          "ngram_str": " anything. ",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " or",
+            " if",
+            " we"
+          ],
+          "ngram_str": " or if we",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " us",
+            " if",
+            " we"
+          ],
+          "ngram_str": " us if we",
+          "count": 39,
+          "percent": 7.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " if",
+            " we",
+            " needed",
+            " anything"
+          ],
+          "ngram_str": " if we needed anything",
+          "count": 327,
+          "percent": 65.4
+        },
+        {
+          "ngram": [
+            " we",
+            " needed",
+            " anything",
+            "."
+          ],
+          "ngram_str": " we needed anything.",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            " see",
+            " if",
+            " we",
+            " needed"
+          ],
+          "ngram_str": " see if we needed",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " to",
+            " see",
+            " if",
+            " we"
+          ],
+          "ngram_str": " to see if we",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " we",
+            " needed",
+            " anything",
+            " else"
+          ],
+          "ngram_str": " we needed anything else",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " if",
+            " I",
+            " needed",
+            " anything"
+          ],
+          "ngram_str": " if I needed anything",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " needed",
+            " anything",
+            " else",
+            "."
+          ],
+          "ngram_str": " needed anything else.",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " if",
+            " you",
+            " need",
+            " anything"
+          ],
+          "ngram_str": " if you need anything",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " asked",
+            " if",
+            " we",
+            " needed"
+          ],
+          "ngram_str": " asked if we needed",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " needed",
+            " anything",
+            ".",
+            " "
+          ],
+          "ngram_str": " needed anything. ",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " us",
+            " if",
+            " we",
+            " needed"
+          ],
+          "ngram_str": " us if we needed",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " or",
+            " if",
+            " we",
+            " needed"
+          ],
+          "ngram_str": " or if we needed",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " ask",
+            " if",
+            " we",
+            " needed"
+          ],
+          "ngram_str": " ask if we needed",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " asking",
+            " if",
+            " we",
+            " needed"
+          ],
+          "ngram_str": " asking if we needed",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " I",
+            " needed",
+            " anything",
+            "."
+          ],
+          "ngram_str": " I needed anything.",
+          "count": 21,
+          "percent": 4.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 40400000,
+      "corpus_coverage": 0.7814
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 2008,
+        "count": 7570,
+        "percent": 75.7
+      },
+      {
+        "feature_idx": 9435,
+        "count": 6777,
+        "percent": 67.77
+      },
+      {
+        "feature_idx": 20172,
+        "count": 6776,
+        "percent": 67.76
+      },
+      {
+        "feature_idx": 17661,
+        "count": 6042,
+        "percent": 60.42
+      },
+      {
+        "feature_idx": 1187,
+        "count": 4807,
+        "percent": 48.07
+      },
+      {
+        "feature_idx": 987,
+        "count": 4474,
+        "percent": 44.74
+      },
+      {
+        "feature_idx": 5984,
+        "count": 4396,
+        "percent": 43.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4371,
+        "percent": 43.71
+      },
+      {
+        "feature_idx": 11738,
+        "count": 4239,
+        "percent": 42.39
+      },
+      {
+        "feature_idx": 22849,
+        "count": 4151,
+        "percent": 41.51
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3939,
+        "percent": 39.39
+      },
+      {
+        "feature_idx": 18485,
+        "count": 3690,
+        "percent": 36.9
+      },
+      {
+        "feature_idx": 2848,
+        "count": 3475,
+        "percent": 34.75
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3411,
+        "percent": 34.11
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3342,
+        "percent": 33.42
+      },
+      {
+        "feature_idx": 10864,
+        "count": 3249,
+        "percent": 32.49
+      },
+      {
+        "feature_idx": 19167,
+        "count": 3107,
+        "percent": 31.07
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2848,
+        "percent": 28.48
+      },
+      {
+        "feature_idx": 13165,
+        "count": 2677,
+        "percent": 26.77
+      },
+      {
+        "feature_idx": 1830,
+        "count": 2640,
+        "percent": 26.4
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 40400000,
+      "corpus_coverage": 0.7814
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1083,
+        "percent": 10.83
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1942,
+        "percent": 19.42
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2231,
+        "percent": 22.31
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2364,
+        "percent": 23.64
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2380,
+        "percent": 23.8
+      }
+    ],
+    "mean_position": 0.5627,
+    "std_position": 0.264
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 28,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.024,
+      "p25": 0.03,
+      "p50": 0.0438,
+      "p75": 0.083,
+      "p90": 0.1312,
+      "p95": 0.1561,
+      "p99": 0.2466
+    },
+    "skewness": 2.1103,
+    "kurtosis": 4.7733,
+    "min": 0.0202,
+    "max": 0.2766,
+    "mean": 0.0657,
+    "std": 0.0561
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 28,
+      "unique_tokens_found": 9
+    },
+    "tokens": [
+      {
+        "token": " anything",
+        "count": 13,
+        "mean_activation": 0.0823
+      },
+      {
+        "token": " something",
+        "count": 7,
+        "mean_activation": 0.0625
+      },
+      {
+        "token": " else",
+        "count": 2,
+        "mean_activation": 0.0425
+      },
+      {
+        "token": " special",
+        "count": 1,
+        "mean_activation": 0.0307
+      },
+      {
+        "token": " item",
+        "count": 1,
+        "mean_activation": 0.0207
+      },
+      {
+        "token": " any",
+        "count": 1,
+        "mean_activation": 0.0202
+      },
+      {
+        "token": " questions",
+        "count": 1,
+        "mean_activation": 0.0936
+      },
+      {
+        "token": " needed",
+        "count": 1,
+        "mean_activation": 0.0293
+      },
+      {
+        "token": " items",
+        "count": 1,
+        "mean_activation": 0.0542
+      }
+    ]
+  }
+}

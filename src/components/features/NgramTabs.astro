@@ -1,0 +1,109 @@
+---
+interface NgramEntry {
+  ngram_str: string;
+  count: number;
+  percent: number;
+}
+
+interface Props {
+  ngrams: {
+    '2grams': NgramEntry[];
+    '3grams': NgramEntry[];
+    '4grams': NgramEntry[];
+  };
+}
+
+const { ngrams } = Astro.props;
+
+// Format ngram string to show special characters
+function formatNgram(str: string): string {
+  return str
+    .replace(/\\n/g, '[NL]')
+    .replace(/\\t/g, '[TAB]')
+    .replace(/\\r/g, '[CR]');
+}
+---
+
+<div x-data="{ activeTab: '2grams' }" class="border border-gray-200 rounded-lg">
+  <!-- Tab Buttons -->
+  <div class="flex border-b border-gray-200 bg-gray-50 rounded-t-lg">
+    <button
+      @click="activeTab = '2grams'"
+      :class="activeTab === '2grams' ? 'bg-white border-b-2 border-blue-500 text-blue-600' : 'text-gray-500 hover:text-gray-700'"
+      class="px-4 py-2 text-sm font-medium transition-colors"
+    >
+      2-grams ({ngrams['2grams']?.length || 0})
+    </button>
+    <button
+      @click="activeTab = '3grams'"
+      :class="activeTab === '3grams' ? 'bg-white border-b-2 border-blue-500 text-blue-600' : 'text-gray-500 hover:text-gray-700'"
+      class="px-4 py-2 text-sm font-medium transition-colors"
+    >
+      3-grams ({ngrams['3grams']?.length || 0})
+    </button>
+    <button
+      @click="activeTab = '4grams'"
+      :class="activeTab === '4grams' ? 'bg-white border-b-2 border-blue-500 text-blue-600' : 'text-gray-500 hover:text-gray-700'"
+      class="px-4 py-2 text-sm font-medium transition-colors"
+    >
+      4-grams ({ngrams['4grams']?.length || 0})
+    </button>
+  </div>
+
+  <!-- Tab Content -->
+  <div class="p-4">
+    {['2grams', '3grams', '4grams'].map((key) => (
+      <div x-show={`activeTab === '${key}'`} class="space-y-2">
+        {(ngrams[key as keyof typeof ngrams] || []).slice(0, 15).map((ng) => (
+          <div class="flex items-center justify-between py-1 border-b border-gray-100 last:border-0">
+            <span class="font-mono text-sm bg-gray-100 px-2 py-1 rounded">
+              {formatNgram(ng.ngram_str)}
+            </span>
+            <div class="flex items-center space-x-4 text-sm text-gray-600">
+              <span>{ng.count.toLocaleString()}</span>
+              <span class="text-gray-400">({ng.percent.toFixed(1)}%)</span>
+            </div>
+          </div>
+        ))}
+        {(ngrams[key as keyof typeof ngrams] || []).length === 0 && (
+          <p class="text-gray-400 text-sm">No {key.replace('grams', '-gram')} data available</p>
+        )}
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  // Simple tab switching without Alpine.js
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('[x-data]');
+    if (!container) return;
+
+    const buttons = container.querySelectorAll('button');
+    const panels = container.querySelectorAll('[x-show]');
+
+    // Show first panel by default
+    panels.forEach((panel, idx) => {
+      (panel as HTMLElement).style.display = idx === 0 ? 'block' : 'none';
+    });
+
+    buttons.forEach((btn, idx) => {
+      btn.addEventListener('click', () => {
+        // Update button styles
+        buttons.forEach((b, i) => {
+          if (i === idx) {
+            b.classList.add('bg-white', 'border-b-2', 'border-blue-500', 'text-blue-600');
+            b.classList.remove('text-gray-500', 'hover:text-gray-700');
+          } else {
+            b.classList.remove('bg-white', 'border-b-2', 'border-blue-500', 'text-blue-600');
+            b.classList.add('text-gray-500', 'hover:text-gray-700');
+          }
+        });
+        // Show/hide panels
+        panels.forEach((panel, i) => {
+          (panel as HTMLElement).style.display = i === idx ? 'block' : 'none';
+        });
+      });
+    });
+  });
+</script>

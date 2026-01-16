@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5804,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 24,
+    "mean_when_active": 0.042261759440104164,
+    "max_activation": 0.119140625,
+    "std_when_active": 0.028708810693261172,
+    "activation_rate": 0.00024
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 12015,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 1782,
+        "mean_activation": 0.033706493784415335
+      },
+      {
+        "token": " I",
+        "count": 1518,
+        "mean_activation": 0.036175688893113365
+      },
+      {
+        "token": " however",
+        "count": 1005,
+        "mean_activation": 0.09339024178424285
+      },
+      {
+        "token": " it",
+        "count": 666,
+        "mean_activation": 0.03185663996516047
+      },
+      {
+        "token": " they",
+        "count": 511,
+        "mean_activation": 0.03245541447529354
+      },
+      {
+        "token": " we",
+        "count": 371,
+        "mean_activation": 0.03394821454893868
+      },
+      {
+        "token": " ",
+        "count": 292,
+        "mean_activation": 0.0375253337703339
+      },
+      {
+        "token": " a",
+        "count": 264,
+        "mean_activation": 0.03521919250488281
+      },
+      {
+        "token": " my",
+        "count": 261,
+        "mean_activation": 0.03422590233813757
+      },
+      {
+        "token": " you",
+        "count": 224,
+        "mean_activation": 0.03618461745125907
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 12015,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ce was not typical;** however**, we will never con...",
+        "active_token": " however",
+        "activation": 0.18505859375,
+        "review_id": "8E4vFgPz6Yy-APKVLngETg",
+        "position": 150
+      },
+      {
+        "context": "...hen hey, your loss;** however**, they do also offe...",
+        "active_token": " however",
+        "activation": 0.1734619140625,
+        "review_id": "mQIMmSB-_8XAMw4XkNQblA",
+        "position": 196
+      },
+      {
+        "context": "...ave not eaten here;** however**, I needed to share...",
+        "active_token": " however",
+        "activation": 0.17236328125,
+        "review_id": "iejHYium3EO_S3I73CGfNg",
+        "position": 16
+      },
+      {
+        "context": "...y had not yet paid;** however**, he still left wit...",
+        "active_token": " however",
+        "activation": 0.1717529296875,
+        "review_id": "kBLSPmxDLXPZ7KupghU5Qg",
+        "position": 586
+      },
+      {
+        "context": "...en an issue for me;** however** when you issue som...",
+        "active_token": " however",
+        "activation": 0.1717529296875,
+        "review_id": "4jrDohkFrqvcydtSjdQtWw",
+        "position": 137
+      },
+      {
+        "context": "...r the uneaten meal;** however** the owner with a n...",
+        "active_token": " however",
+        "activation": 0.171630859375,
+        "review_id": "acixah3A2DpxE2EgYWbbyA",
+        "position": 909
+      },
+      {
+        "context": "...le in a short time;** however**, people who came i...",
+        "active_token": " however",
+        "activation": 0.1715087890625,
+        "review_id": "1oqtlWZfoPB1jmz4Z6_XvQ",
+        "position": 82
+      },
+      {
+        "context": "...o, bowl, or nachos;** however**, at first glance t...",
+        "active_token": " however",
+        "activation": 0.1712646484375,
+        "review_id": "4D4RrpVQy_OdCygihoDQUg",
+        "position": 70
+      },
+      {
+        "context": "... more dissatisfied;** however** the manager there ...",
+        "active_token": " however",
+        "activation": 0.1705322265625,
+        "review_id": "g1cDksrYhbIUQUtePQKFHg",
+        "position": 146
+      },
+      {
+        "context": "...re once for dinner;** however**, it was on Mother'...",
+        "active_token": " however",
+        "activation": 0.17041015625,
+        "review_id": "hGAoycFBSGjDGkDGRzYOfQ",
+        "position": 141
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5804,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1183,
+        "max": 0.1851,
+        "mean": 0.1392
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ";",
+            " however"
+          ],
+          "ngram_str": "; however",
+          "count": 486,
+          "percent": 97.2
+        },
+        {
+          "ngram": [
+            " however",
+            ","
+          ],
+          "ngram_str": " however,",
+          "count": 417,
+          "percent": 83.4
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            ",",
+            " it"
+          ],
+          "ngram_str": ", it",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " however",
+            " the"
+          ],
+          "ngram_str": " however the",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ",",
+            " they"
+          ],
+          "ngram_str": ", they",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " we"
+          ],
+          "ngram_str": ", we",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " this"
+          ],
+          "ngram_str": ", this",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " good",
+            ";"
+          ],
+          "ngram_str": " good;",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " food",
+            " was"
+          ],
+          "ngram_str": " food was",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " food",
+            ";"
+          ],
+          "ngram_str": " food;",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " there"
+          ],
+          "ngram_str": ", there",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " the",
+            " service"
+          ],
+          "ngram_str": " the service",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ";",
+            " however",
+            ","
+          ],
+          "ngram_str": "; however,",
+          "count": 406,
+          "percent": 81.2
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " the"
+          ],
+          "ngram_str": " however, the",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " I"
+          ],
+          "ngram_str": " however, I",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " it"
+          ],
+          "ngram_str": " however, it",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            " the"
+          ],
+          "ngram_str": "; however the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " they"
+          ],
+          "ngram_str": " however, they",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " we"
+          ],
+          "ngram_str": " however, we",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " this"
+          ],
+          "ngram_str": " however, this",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " good",
+            ";",
+            " however"
+          ],
+          "ngram_str": " good; however",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " food",
+            ";",
+            " however"
+          ],
+          "ngram_str": " food; however",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " there"
+          ],
+          "ngram_str": " however, there",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " the",
+            " service"
+          ],
+          "ngram_str": ", the service",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " my"
+          ],
+          "ngram_str": " however, my",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " if"
+          ],
+          "ngram_str": " however, if",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " if",
+            " you"
+          ],
+          "ngram_str": ", if you",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " the"
+          ],
+          "ngram_str": "; however, the",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " I"
+          ],
+          "ngram_str": "; however, I",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " it"
+          ],
+          "ngram_str": "; however, it",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " they"
+          ],
+          "ngram_str": "; however, they",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " we"
+          ],
+          "ngram_str": "; however, we",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " this"
+          ],
+          "ngram_str": "; however, this",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " there"
+          ],
+          "ngram_str": "; however, there",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " good",
+            ";",
+            " however",
+            ","
+          ],
+          "ngram_str": " good; however,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " food",
+            ";",
+            " however",
+            ","
+          ],
+          "ngram_str": " food; however,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " the",
+            " service"
+          ],
+          "ngram_str": " however, the service",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " if"
+          ],
+          "ngram_str": "; however, if",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ";",
+            " however",
+            ",",
+            " my"
+          ],
+          "ngram_str": "; however, my",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " if",
+            " you"
+          ],
+          "ngram_str": " however, if you",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " however",
+            ",",
+            " the",
+            " food"
+          ],
+          "ngram_str": " however, the food",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " nice",
+            ";",
+            " however",
+            ","
+          ],
+          "ngram_str": " nice; however,",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 42900000,
+      "corpus_coverage": 0.8297
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1929,
+        "count": 5172,
+        "percent": 51.72
+      },
+      {
+        "feature_idx": 1888,
+        "count": 4772,
+        "percent": 47.72
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4710,
+        "percent": 47.1
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3840,
+        "percent": 38.4
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3318,
+        "percent": 33.18
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2995,
+        "percent": 29.95
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2951,
+        "percent": 29.51
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2799,
+        "percent": 27.99
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2667,
+        "percent": 26.67
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2537,
+        "percent": 25.37
+      },
+      {
+        "feature_idx": 5556,
+        "count": 2480,
+        "percent": 24.8
+      },
+      {
+        "feature_idx": 16789,
+        "count": 2396,
+        "percent": 23.96
+      },
+      {
+        "feature_idx": 11839,
+        "count": 2049,
+        "percent": 20.49
+      },
+      {
+        "feature_idx": 1086,
+        "count": 2012,
+        "percent": 20.12
+      },
+      {
+        "feature_idx": 1018,
+        "count": 1840,
+        "percent": 18.4
+      },
+      {
+        "feature_idx": 21316,
+        "count": 1827,
+        "percent": 18.27
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1655,
+        "percent": 16.55
+      },
+      {
+        "feature_idx": 15956,
+        "count": 1644,
+        "percent": 16.44
+      },
+      {
+        "feature_idx": 22187,
+        "count": 1548,
+        "percent": 15.48
+      },
+      {
+        "feature_idx": 22423,
+        "count": 1521,
+        "percent": 15.21
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 42900000,
+      "corpus_coverage": 0.8297
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1717,
+        "percent": 17.17
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2277,
+        "percent": 22.77
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2270,
+        "percent": 22.7
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2043,
+        "percent": 20.43
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1693,
+        "percent": 16.93
+      }
+    ],
+    "mean_position": 0.4949,
+    "std_position": 0.267
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 24,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0172,
+      "p25": 0.0294,
+      "p50": 0.0332,
+      "p75": 0.0424,
+      "p90": 0.0917,
+      "p95": 0.1133,
+      "p99": 0.118
+    },
+    "skewness": 1.7897,
+    "kurtosis": 2.0213,
+    "min": 0.0137,
+    "max": 0.1191,
+    "mean": 0.0423,
+    "std": 0.0287
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 24,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " I",
+        "count": 4,
+        "mean_activation": 0.0364
+      },
+      {
+        "token": " the",
+        "count": 3,
+        "mean_activation": 0.03
+      },
+      {
+        "token": " however",
+        "count": 3,
+        "mean_activation": 0.1136
+      },
+      {
+        "token": " a",
+        "count": 2,
+        "mean_activation": 0.0352
+      },
+      {
+        "token": " course",
+        "count": 2,
+        "mean_activation": 0.0234
+      },
+      {
+        "token": " However",
+        "count": 1,
+        "mean_activation": 0.0177
+      },
+      {
+        "token": " you",
+        "count": 1,
+        "mean_activation": 0.0554
+      },
+      {
+        "token": " here",
+        "count": 1,
+        "mean_activation": 0.0277
+      },
+      {
+        "token": " if",
+        "count": 1,
+        "mean_activation": 0.0505
+      },
+      {
+        "token": " they",
+        "count": 1,
+        "mean_activation": 0.0347
+      }
+    ]
+  }
+}

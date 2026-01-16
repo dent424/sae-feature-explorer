@@ -1,0 +1,876 @@
+{
+  "feature_idx": 13279,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 76,
+    "mean_when_active": 0.06471955148797286,
+    "max_activation": 0.172119140625,
+    "std_when_active": 0.039068641731959654,
+    "activation_rate": 0.00076
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 46535,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " tables",
+        "count": 19621,
+        "mean_activation": 0.1019296013770024
+      },
+      {
+        "token": " table",
+        "count": 9683,
+        "mean_activation": 0.03604500000479053
+      },
+      {
+        "token": " booths",
+        "count": 1704,
+        "mean_activation": 0.06147418671370672
+      },
+      {
+        "token": " plates",
+        "count": 1239,
+        "mean_activation": 0.030206570998615945
+      },
+      {
+        "token": " chairs",
+        "count": 984,
+        "mean_activation": 0.0412003742000921
+      },
+      {
+        "token": " seats",
+        "count": 754,
+        "mean_activation": 0.0436088804857168
+      },
+      {
+        "token": " servers",
+        "count": 601,
+        "mean_activation": 0.03474120332079997
+      },
+      {
+        "token": " places",
+        "count": 592,
+        "mean_activation": 0.031225565317514782
+      },
+      {
+        "token": " bathrooms",
+        "count": 509,
+        "mean_activation": 0.03327720057519339
+      },
+      {
+        "token": " doors",
+        "count": 470,
+        "mean_activation": 0.04899934809258644
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 46535,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...seating and several** tables** with umbrellas. We ...",
+        "active_token": " tables",
+        "activation": 0.2174072265625,
+        "review_id": "10C4c03CzLJIuF9p_DDtCQ",
+        "position": 166
+      },
+      {
+        "context": "...l room with about 5** tables**, quiet, private, in...",
+        "active_token": " tables",
+        "activation": 0.2098388671875,
+        "review_id": "mzfGXVL6Y_V7YO19V3b2hg",
+        "position": 41
+      },
+      {
+        "context": "...g room, a couple of** tables** outside, and Bar. G...",
+        "active_token": " tables",
+        "activation": 0.2093505859375,
+        "review_id": "egWyf-3wFxJT1dnr2_zb1w",
+        "position": 95
+      },
+      {
+        "context": "...here were about ten** tables** that were spread ou...",
+        "active_token": " tables",
+        "activation": 0.209228515625,
+        "review_id": "LPQVt0o9s5iPcYBoOWMdHw",
+        "position": 41
+      },
+      {
+        "context": "... as well as several** tables** indoor. Come as ear...",
+        "active_token": " tables",
+        "activation": 0.2091064453125,
+        "review_id": "t61XojJ-Mr5b9thKpbToTg",
+        "position": 50
+      },
+      {
+        "context": "...ar stools and a few** tables**. Most people were s...",
+        "active_token": " tables",
+        "activation": 0.2080078125,
+        "review_id": "7KuwDO1prcckI_AmuaGGgw",
+        "position": 60
+      },
+      {
+        "context": "...wooden booths a few** tables**, wood paneling and ...",
+        "active_token": " tables",
+        "activation": 0.207275390625,
+        "review_id": "cXpT7rHjKsMlzDpnX3t3PQ",
+        "position": 34
+      },
+      {
+        "context": "...ew booths and a few** tables**.  Just next to this...",
+        "active_token": " tables",
+        "activation": 0.206787109375,
+        "review_id": "T4YKwboQp43UI38vstqr3Q",
+        "position": 97
+      },
+      {
+        "context": "...h benches and a few** tables** that was very nice....",
+        "active_token": " tables",
+        "activation": 0.20654296875,
+        "review_id": "QSh3SzdTGHgF97fqCMjJIw",
+        "position": 126
+      },
+      {
+        "context": "...er bar with several** tables**, bar seating and ou...",
+        "active_token": " tables",
+        "activation": 0.2054443359375,
+        "review_id": "93XtV_iSXzeC8N7_b8jmLw",
+        "position": 91
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13279,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1788,
+        "max": 0.2174,
+        "mean": 0.1877
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " few"
+          ],
+          "ngram_str": " a few",
+          "count": 157,
+          "percent": 31.4
+        },
+        {
+          "ngram": [
+            " few",
+            " tables"
+          ],
+          "ngram_str": " few tables",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            " tables",
+            "."
+          ],
+          "ngram_str": " tables.",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " tables",
+            " and"
+          ],
+          "ngram_str": " tables and",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            ".",
+            " There"
+          ],
+          "ngram_str": ". There",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " There",
+            " are"
+          ],
+          "ngram_str": " There are",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " and",
+            " a"
+          ],
+          "ngram_str": " and a",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " tables",
+            ","
+          ],
+          "ngram_str": " tables,",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " of",
+            " tables"
+          ],
+          "ngram_str": " of tables",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " several",
+            " tables"
+          ],
+          "ngram_str": " several tables",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " are",
+            " a"
+          ],
+          "ngram_str": " are a",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " tables",
+            " outside"
+          ],
+          "ngram_str": " tables outside",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " there",
+            " are"
+          ],
+          "ngram_str": " there are",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " a few tables",
+          "count": 147,
+          "percent": 29.4
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " few"
+          ],
+          "ngram_str": " with a few",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " There",
+            " are"
+          ],
+          "ngram_str": ". There are",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " are",
+            " a",
+            " few"
+          ],
+          "ngram_str": " are a few",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " There",
+            " are",
+            " a"
+          ],
+          "ngram_str": " There are a",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " few",
+            " tables",
+            "."
+          ],
+          "ngram_str": " few tables.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " and",
+            " a",
+            " few"
+          ],
+          "ngram_str": " and a few",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " tables",
+            ".",
+            " "
+          ],
+          "ngram_str": " tables. ",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " couple",
+            " of"
+          ],
+          "ngram_str": " a couple of",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " couple",
+            " of",
+            " tables"
+          ],
+          "ngram_str": " couple of tables",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " few",
+            " tables",
+            " and"
+          ],
+          "ngram_str": " few tables and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " There",
+            " were"
+          ],
+          "ngram_str": ". There were",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " few",
+            " tables",
+            " outside"
+          ],
+          "ngram_str": " few tables outside",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " tables",
+            " and",
+            " a"
+          ],
+          "ngram_str": " tables and a",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " few",
+            " tables",
+            ","
+          ],
+          "ngram_str": " few tables,",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " with",
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " with a few tables",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " are",
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " are a few tables",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " tables",
+            "."
+          ],
+          "ngram_str": " a few tables.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " a",
+            " couple",
+            " of",
+            " tables"
+          ],
+          "ngram_str": " a couple of tables",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " tables",
+            " and"
+          ],
+          "ngram_str": " a few tables and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " and",
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " and a few tables",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " tables",
+            " outside"
+          ],
+          "ngram_str": " a few tables outside",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " There",
+            " are",
+            " a",
+            " few"
+          ],
+          "ngram_str": " There are a few",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " tables",
+            ","
+          ],
+          "ngram_str": " a few tables,",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " There",
+            " are",
+            " a"
+          ],
+          "ngram_str": ". There are a",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " only",
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " only a few tables",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " just",
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " just a few tables",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " were",
+            " a",
+            " few",
+            " tables"
+          ],
+          "ngram_str": " were a few tables",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " there",
+            " are",
+            " a",
+            " few"
+          ],
+          "ngram_str": " there are a few",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " few",
+            " tables",
+            " outside",
+            "."
+          ],
+          "ngram_str": " few tables outside.",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 15082,
+        "count": 7493,
+        "percent": 74.93
+      },
+      {
+        "feature_idx": 18503,
+        "count": 7415,
+        "percent": 74.15
+      },
+      {
+        "feature_idx": 12955,
+        "count": 6337,
+        "percent": 63.37
+      },
+      {
+        "feature_idx": 13073,
+        "count": 6064,
+        "percent": 60.64
+      },
+      {
+        "feature_idx": 7530,
+        "count": 5882,
+        "percent": 58.82
+      },
+      {
+        "feature_idx": 12001,
+        "count": 5753,
+        "percent": 57.53
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4221,
+        "percent": 42.21
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4033,
+        "percent": 40.33
+      },
+      {
+        "feature_idx": 5630,
+        "count": 4025,
+        "percent": 40.25
+      },
+      {
+        "feature_idx": 3950,
+        "count": 3913,
+        "percent": 39.13
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3584,
+        "percent": 35.84
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3567,
+        "percent": 35.67
+      },
+      {
+        "feature_idx": 24017,
+        "count": 3533,
+        "percent": 35.33
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3181,
+        "percent": 31.81
+      },
+      {
+        "feature_idx": 16911,
+        "count": 3133,
+        "percent": 31.33
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3086,
+        "percent": 30.86
+      },
+      {
+        "feature_idx": 3398,
+        "count": 2791,
+        "percent": 27.91
+      },
+      {
+        "feature_idx": 1775,
+        "count": 2761,
+        "percent": 27.61
+      },
+      {
+        "feature_idx": 14120,
+        "count": 2745,
+        "percent": 27.45
+      },
+      {
+        "feature_idx": 21898,
+        "count": 2686,
+        "percent": 26.86
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11100000,
+      "corpus_coverage": 0.2147
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2064,
+        "percent": 20.64
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2731,
+        "percent": 27.31
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1834,
+        "percent": 18.34
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1765,
+        "percent": 17.65
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1606,
+        "percent": 16.06
+      }
+    ],
+    "mean_position": 0.464,
+    "std_position": 0.2705
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 76,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0254,
+      "p25": 0.0348,
+      "p50": 0.0544,
+      "p75": 0.0831,
+      "p90": 0.1218,
+      "p95": 0.1461,
+      "p99": 0.1678
+    },
+    "skewness": 1.0265,
+    "kurtosis": 0.3606,
+    "min": 0.0172,
+    "max": 0.1721,
+    "mean": 0.0647,
+    "std": 0.0391
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 76,
+      "unique_tokens_found": 27
+    },
+    "tokens": [
+      {
+        "token": " tables",
+        "count": 33,
+        "mean_activation": 0.0956
+      },
+      {
+        "token": " table",
+        "count": 13,
+        "mean_activation": 0.0387
+      },
+      {
+        "token": " doors",
+        "count": 2,
+        "mean_activation": 0.0727
+      },
+      {
+        "token": " seats",
+        "count": 2,
+        "mean_activation": 0.0578
+      },
+      {
+        "token": " booths",
+        "count": 2,
+        "mean_activation": 0.0803
+      },
+      {
+        "token": " rooms",
+        "count": 2,
+        "mean_activation": 0.0279
+      },
+      {
+        "token": " servers",
+        "count": 2,
+        "mean_activation": 0.039
+      },
+      {
+        "token": " sleeves",
+        "count": 1,
+        "mean_activation": 0.0402
+      },
+      {
+        "token": " machines",
+        "count": 1,
+        "mean_activation": 0.0346
+      },
+      {
+        "token": " we",
+        "count": 1,
+        "mean_activation": 0.0212
+      }
+    ]
+  }
+}

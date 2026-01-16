@@ -1,0 +1,861 @@
+{
+  "feature_idx": 10320,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 37,
+    "mean_when_active": 0.04843758247994088,
+    "max_activation": 0.1884765625,
+    "std_when_active": 0.03429643242725534,
+    "activation_rate": 0.00037
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 19180,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " with",
+        "count": 6636,
+        "mean_activation": 0.044749802031238226
+      },
+      {
+        "token": " by",
+        "count": 5564,
+        "mean_activation": 0.07639098835882739
+      },
+      {
+        "token": " a",
+        "count": 1797,
+        "mean_activation": 0.03404789469808622
+      },
+      {
+        "token": " the",
+        "count": 1535,
+        "mean_activation": 0.03240520961898158
+      },
+      {
+        "token": " in",
+        "count": 464,
+        "mean_activation": 0.042517366080448545
+      },
+      {
+        "token": " to",
+        "count": 423,
+        "mean_activation": 0.040021531125332445
+      },
+      {
+        "token": " of",
+        "count": 348,
+        "mean_activation": 0.028505171852550287
+      },
+      {
+        "token": " accompanying",
+        "count": 307,
+        "mean_activation": 0.05987697936812907
+      },
+      {
+        "token": " accompanied",
+        "count": 159,
+        "mean_activation": 0.035420735677083336
+      },
+      {
+        "token": " as",
+        "count": 146,
+        "mean_activation": 0.028102299938463186
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 19180,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...rienced pain followed** by** loss of taste and sen...",
+        "active_token": " by",
+        "activation": 0.237060546875,
+        "review_id": "CVtJ4sMOwwfUW3jdusKdVw",
+        "position": 31
+      },
+      {
+        "context": "... immediately followed** by** a trip to the trash c...",
+        "active_token": " by",
+        "activation": 0.2291259765625,
+        "review_id": "v81iK6jymqNoHVaJUd_6BA",
+        "position": 111
+      },
+      {
+        "context": "...y week, only preceded** by** yesterday when I had ...",
+        "active_token": " by",
+        "activation": 0.2279052734375,
+        "review_id": "CXdR9k9PxSsC9gN90kVYvQ",
+        "position": 46
+      },
+      {
+        "context": "...ness is only preceded** by** its reputation. Mello...",
+        "active_token": " by",
+        "activation": 0.221923828125,
+        "review_id": "I210jzYcF0d0XC7Cn_rY8A",
+        "position": 18
+      },
+      {
+        "context": "...ffle were accompanied** by** the zesty flavor of w...",
+        "active_token": " by",
+        "activation": 0.2203369140625,
+        "review_id": "T7_onyiT2AFdqA-iCF9YQQ",
+        "position": 251
+      },
+      {
+        "context": "...p I took was followed** by** a \"yum\" sound of some...",
+        "active_token": " by",
+        "activation": 0.2200927734375,
+        "review_id": "UYveFvWcjuo8T36uafb-5A",
+        "position": 35
+      },
+      {
+        "context": "...e plates, accompanied** by** saut\u00c3\u00a9ed onions and p...",
+        "active_token": " by",
+        "activation": 0.218994140625,
+        "review_id": "BaxgfGwbSNUerdtLXxK6yw",
+        "position": 186
+      },
+      {
+        "context": "...erm that was preceded** by** a five-minute dissert...",
+        "active_token": " by",
+        "activation": 0.2181396484375,
+        "review_id": "XgfJTdF_6jSFktT3G1ZIkA",
+        "position": 229
+      },
+      {
+        "context": "... a tortilla, preceded** by** chips and salsa. The ...",
+        "active_token": " by",
+        "activation": 0.2166748046875,
+        "review_id": "wpUJeNrP0TeIsiXYgWY1Jw",
+        "position": 18
+      },
+      {
+        "context": "...e will be accompanied** by** further rude behavior...",
+        "active_token": " by",
+        "activation": 0.2161865234375,
+        "review_id": "aMsfoyPcFRV7t7iMnsR-HQ",
+        "position": 211
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10320,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1729,
+        "max": 0.2371,
+        "mean": 0.1874
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": " accompanied by",
+          "count": 268,
+          "percent": 53.6
+        },
+        {
+          "ngram": [
+            " followed",
+            " by"
+          ],
+          "ngram_str": " followed by",
+          "count": 174,
+          "percent": 34.8
+        },
+        {
+          "ngram": [
+            " by",
+            " a"
+          ],
+          "ngram_str": " by a",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            " by",
+            " the"
+          ],
+          "ngram_str": " by the",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " was",
+            " accompanied"
+          ],
+          "ngram_str": " was accompanied",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            ",",
+            " followed"
+          ],
+          "ngram_str": ", followed",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ",",
+            " accompanied"
+          ],
+          "ngram_str": ", accompanied",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " It",
+            " was"
+          ],
+          "ngram_str": " It was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " It"
+          ],
+          "ngram_str": ". It",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " were",
+            " accompanied"
+          ],
+          "ngram_str": " were accompanied",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " is",
+            " accompanied"
+          ],
+          "ngram_str": " is accompanied",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " accompanied"
+          ],
+          "ngram_str": " and accompanied",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "ed",
+            " by"
+          ],
+          "ngram_str": "ed by",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " a"
+          ],
+          "ngram_str": " accompanied by a",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " was",
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": " was accompanied by",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " followed",
+            " by",
+            " a"
+          ],
+          "ngram_str": " followed by a",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ",",
+            " followed",
+            " by"
+          ],
+          "ngram_str": ", followed by",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ",",
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": ", accompanied by",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " followed",
+            " by",
+            " the"
+          ],
+          "ngram_str": " followed by the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " It",
+            " was",
+            " accompanied"
+          ],
+          "ngram_str": " It was accompanied",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " was"
+          ],
+          "ngram_str": ". It was",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " were",
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": " were accompanied by",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " is",
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": " is accompanied by",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": " and accompanied by",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Follow",
+            "ed",
+            " by"
+          ],
+          "ngram_str": " Followed by",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " the"
+          ],
+          "ngram_str": " accompanied by the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " was",
+            " followed",
+            " by"
+          ],
+          "ngram_str": " was followed by",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " rice"
+          ],
+          "ngram_str": " accompanied by rice",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " It",
+            " was",
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": " It was accompanied by",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " was",
+            " accompanied",
+            " by",
+            " a"
+          ],
+          "ngram_str": " was accompanied by a",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " was",
+            " accompanied"
+          ],
+          "ngram_str": ". It was accompanied",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " followed",
+            " by",
+            " the"
+          ],
+          "ngram_str": ", followed by the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ",",
+            " accompanied",
+            " by",
+            " a"
+          ],
+          "ngram_str": ", accompanied by a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " followed",
+            " by",
+            " a"
+          ],
+          "ngram_str": ", followed by a",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Follow",
+            "ed",
+            " by"
+          ],
+          "ngram_str": ". Followed by",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " rice",
+            " and"
+          ],
+          "ngram_str": " accompanied by rice and",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " rice",
+            ","
+          ],
+          "ngram_str": " accompanied by rice,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " a",
+            " generous"
+          ],
+          "ngram_str": " accompanied by a generous",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " is",
+            " accompanied",
+            " by",
+            " a"
+          ],
+          "ngram_str": " is accompanied by a",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " and",
+            " was",
+            " accompanied",
+            " by"
+          ],
+          "ngram_str": " and was accompanied by",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " by",
+            " rice",
+            ",",
+            " beans"
+          ],
+          "ngram_str": " by rice, beans",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " a",
+            " small"
+          ],
+          "ngram_str": " accompanied by a small",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " accompanied",
+            " by",
+            " ref",
+            "ried"
+          ],
+          "ngram_str": " accompanied by refried",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 26400000,
+      "corpus_coverage": 0.5106
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5053,
+        "percent": 50.53
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4245,
+        "percent": 42.45
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3893,
+        "percent": 38.93
+      },
+      {
+        "feature_idx": 9447,
+        "count": 3767,
+        "percent": 37.67
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3660,
+        "percent": 36.6
+      },
+      {
+        "feature_idx": 6815,
+        "count": 3155,
+        "percent": 31.55
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3016,
+        "percent": 30.16
+      },
+      {
+        "feature_idx": 10193,
+        "count": 2967,
+        "percent": 29.67
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2948,
+        "percent": 29.48
+      },
+      {
+        "feature_idx": 7196,
+        "count": 2903,
+        "percent": 29.03
+      },
+      {
+        "feature_idx": 23380,
+        "count": 2868,
+        "percent": 28.68
+      },
+      {
+        "feature_idx": 14637,
+        "count": 2624,
+        "percent": 26.24
+      },
+      {
+        "feature_idx": 14343,
+        "count": 2556,
+        "percent": 25.56
+      },
+      {
+        "feature_idx": 23923,
+        "count": 2536,
+        "percent": 25.36
+      },
+      {
+        "feature_idx": 18511,
+        "count": 2443,
+        "percent": 24.43
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2227,
+        "percent": 22.27
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2187,
+        "percent": 21.87
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2164,
+        "percent": 21.64
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2128,
+        "percent": 21.28
+      },
+      {
+        "feature_idx": 21278,
+        "count": 2078,
+        "percent": 20.78
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 26400000,
+      "corpus_coverage": 0.5106
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1635,
+        "percent": 16.35
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2266,
+        "percent": 22.66
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2390,
+        "percent": 23.9
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2175,
+        "percent": 21.75
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1534,
+        "percent": 15.34
+      }
+    ],
+    "mean_position": 0.4937,
+    "std_position": 0.2597
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 37,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0196,
+      "p25": 0.0252,
+      "p50": 0.0381,
+      "p75": 0.0588,
+      "p90": 0.0857,
+      "p95": 0.1015,
+      "p99": 0.1644
+    },
+    "skewness": 2.1123,
+    "kurtosis": 5.4629,
+    "min": 0.0158,
+    "max": 0.1885,
+    "mean": 0.0484,
+    "std": 0.0343
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 37,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " with",
+        "count": 16,
+        "mean_activation": 0.0589
+      },
+      {
+        "token": " by",
+        "count": 8,
+        "mean_activation": 0.0555
+      },
+      {
+        "token": " a",
+        "count": 5,
+        "mean_activation": 0.0277
+      },
+      {
+        "token": " an",
+        "count": 3,
+        "mean_activation": 0.0389
+      },
+      {
+        "token": " the",
+        "count": 3,
+        "mean_activation": 0.0267
+      },
+      {
+        "token": " of",
+        "count": 1,
+        "mean_activation": 0.0162
+      },
+      {
+        "token": " accompanying",
+        "count": 1,
+        "mean_activation": 0.0544
+      }
+    ]
+  }
+}

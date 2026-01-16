@@ -1,0 +1,876 @@
+{
+  "feature_idx": 21409,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 205,
+    "mean_when_active": 0.05788994765863186,
+    "max_activation": 0.14453125,
+    "std_when_active": 0.02575418684607859,
+    "activation_rate": 0.00205
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 25100000,
+      "corpus_coverage": 0.4855
+    },
+    "top_tokens": [
+      {
+        "token": " always",
+        "count": 5128,
+        "mean_activation": 0.07340350872640862
+      },
+      {
+        "token": " usually",
+        "count": 3304,
+        "mean_activation": 0.060174983581099614
+      },
+      {
+        "token": " never",
+        "count": 3039,
+        "mean_activation": 0.07515522240415613
+      },
+      {
+        "token": " only",
+        "count": 2454,
+        "mean_activation": 0.05048071590010092
+      },
+      {
+        "token": " still",
+        "count": 2345,
+        "mean_activation": 0.06931434094524587
+      },
+      {
+        "token": " definitely",
+        "count": 2176,
+        "mean_activation": 0.07340603716233197
+      },
+      {
+        "token": " finally",
+        "count": 2170,
+        "mean_activation": 0.051005965553670436
+      },
+      {
+        "token": " probably",
+        "count": 2040,
+        "mean_activation": 0.09605470545151655
+      },
+      {
+        "token": " ever",
+        "count": 1639,
+        "mean_activation": 0.07236531451389948
+      },
+      {
+        "token": " even",
+        "count": 1521,
+        "mean_activation": 0.04425430047049638
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 25100000,
+      "corpus_coverage": 0.4855
+    },
+    "activations": [
+      {
+        "context": "... for longer than I** probably** should.  I'll miss...",
+        "active_token": " probably",
+        "activation": 0.177001953125,
+        "review_id": "xnNKGZspxYm4zmsDXvkq0w",
+        "position": 595
+      },
+      {
+        "context": "... there more than I** probably** should.",
+        "active_token": " probably",
+        "activation": 0.176513671875,
+        "review_id": "ddl8dCQZMODKRFrf4f0HtQ",
+        "position": 219
+      },
+      {
+        "context": "...-mex meal however I** likely** won't be back. I wa...",
+        "active_token": " likely",
+        "activation": 0.173095703125,
+        "review_id": "Yh8DG2Y1GRSvoq2WpFIdRQ",
+        "position": 52
+      },
+      {
+        "context": "... chips and salsa I** probably** should be dining a...",
+        "active_token": " probably",
+        "activation": 0.169677734375,
+        "review_id": "xb7bLQL649awiYQ0AVmevQ",
+        "position": 202
+      },
+      {
+        "context": "...chips (of course I** probably** didn't have to add...",
+        "active_token": " probably",
+        "activation": 0.16943359375,
+        "review_id": "jZ3TJObZXrQgQyRwnP3-WA",
+        "position": 103
+      },
+      {
+        "context": "...a refund (which we** probably** won't receive for ...",
+        "active_token": " probably",
+        "activation": 0.1678466796875,
+        "review_id": "JUeAmDrUi6vrTMBKAIyQjA",
+        "position": 214
+      },
+      {
+        "context": "...uite as often as I** probably** should, sometime I...",
+        "active_token": " probably",
+        "activation": 0.16748046875,
+        "review_id": "ePJjVB5kUlx-4hhTKSM-Ag",
+        "position": 263
+      },
+      {
+        "context": "... towards the one I** probably** wouldn't have orde...",
+        "active_token": " probably",
+        "activation": 0.1673583984375,
+        "review_id": "RKV0JP2u3qMoSbMQPpPcPQ",
+        "position": 355
+      },
+      {
+        "context": "...something that you** probably** don't see while yo...",
+        "active_token": " probably",
+        "activation": 0.1666259765625,
+        "review_id": "DemPeQ29KN7kKJ_apYjgOQ",
+        "position": 927
+      },
+      {
+        "context": "... Cup Final loss, I** probably** would have given i...",
+        "active_token": " probably",
+        "activation": 0.1666259765625,
+        "review_id": "BGUxeUoUWUaEi3jRTX8DFQ",
+        "position": 471
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 21409,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 50000000,
+      "corpus_coverage": 0.9671,
+      "activation_range": {
+        "min": 0.1439,
+        "max": 0.1899,
+        "mean": 0.1514
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " I",
+            " probably"
+          ],
+          "ngram_str": " I probably",
+          "count": 405,
+          "percent": 81.0
+        },
+        {
+          "ngram": [
+            " won",
+            "'t"
+          ],
+          "ngram_str": " won't",
+          "count": 134,
+          "percent": 26.8
+        },
+        {
+          "ngram": [
+            " probably",
+            " won"
+          ],
+          "ngram_str": " probably won",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " probably",
+            " would"
+          ],
+          "ngram_str": " probably would",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " probably",
+            " wouldn"
+          ],
+          "ngram_str": " probably wouldn",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " wouldn",
+            "'t"
+          ],
+          "ngram_str": " wouldn't",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " be"
+          ],
+          "ngram_str": "'t be",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " probably",
+            " should"
+          ],
+          "ngram_str": " probably should",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " we",
+            " probably"
+          ],
+          "ngram_str": " we probably",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " but",
+            " I"
+          ],
+          "ngram_str": " but I",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " back",
+            "."
+          ],
+          "ngram_str": " back.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " be",
+            " back"
+          ],
+          "ngram_str": " be back",
+          "count": 39,
+          "percent": 7.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " probably",
+            " won",
+            "'t"
+          ],
+          "ngram_str": " probably won't",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " won"
+          ],
+          "ngram_str": " I probably won",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " probably"
+          ],
+          "ngram_str": ". I probably",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " probably",
+            " wouldn",
+            "'t"
+          ],
+          "ngram_str": " probably wouldn't",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " wouldn"
+          ],
+          "ngram_str": " I probably wouldn",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " would"
+          ],
+          "ngram_str": " I probably would",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " probably"
+          ],
+          "ngram_str": ", I probably",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " won",
+            "'t",
+            " be"
+          ],
+          "ngram_str": " won't be",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " probably"
+          ],
+          "ngram_str": " and I probably",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " should"
+          ],
+          "ngram_str": " I probably should",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " but",
+            " I",
+            " probably"
+          ],
+          "ngram_str": " but I probably",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " be",
+            " back"
+          ],
+          "ngram_str": "'t be back",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " probably",
+            " should",
+            " have"
+          ],
+          "ngram_str": " probably should have",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " probably",
+            " would",
+            " have"
+          ],
+          "ngram_str": " probably would have",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " could"
+          ],
+          "ngram_str": " I probably could",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " won",
+            "'t"
+          ],
+          "ngram_str": " I probably won't",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " wouldn",
+            "'t"
+          ],
+          "ngram_str": " I probably wouldn't",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " probably",
+            " won",
+            "'t",
+            " be"
+          ],
+          "ngram_str": " probably won't be",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " won",
+            "'t",
+            " be",
+            " back"
+          ],
+          "ngram_str": " won't be back",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " probably",
+            " won"
+          ],
+          "ngram_str": ". I probably won",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " should",
+            " have"
+          ],
+          "ngram_str": " I probably should have",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " could",
+            " have"
+          ],
+          "ngram_str": " I probably could have",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " I",
+            " probably"
+          ],
+          "ngram_str": ", but I probably",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            " probably",
+            " would",
+            " have"
+          ],
+          "ngram_str": " I probably would have",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " probably"
+          ],
+          "ngram_str": ".  I probably",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " be",
+            " back",
+            "."
+          ],
+          "ngram_str": "'t be back.",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " we",
+            " probably",
+            " won",
+            "'t"
+          ],
+          "ngram_str": " we probably won't",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " probably",
+            " won",
+            "'t",
+            " go"
+          ],
+          "ngram_str": " probably won't go",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " but",
+            " I",
+            " probably",
+            " won"
+          ],
+          "ngram_str": " but I probably won",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " probably",
+            " wouldn",
+            "'t",
+            " have"
+          ],
+          "ngram_str": " probably wouldn't have",
+          "count": 15,
+          "percent": 3.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5100000,
+      "corpus_coverage": 0.0986
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16269,
+        "count": 9668,
+        "percent": 96.68
+      },
+      {
+        "feature_idx": 17430,
+        "count": 7363,
+        "percent": 73.63
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4619,
+        "percent": 46.19
+      },
+      {
+        "feature_idx": 12902,
+        "count": 4219,
+        "percent": 42.19
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4205,
+        "percent": 42.05
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3901,
+        "percent": 39.01
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3802,
+        "percent": 38.02
+      },
+      {
+        "feature_idx": 1982,
+        "count": 3200,
+        "percent": 32.0
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3056,
+        "percent": 30.56
+      },
+      {
+        "feature_idx": 9465,
+        "count": 2879,
+        "percent": 28.79
+      },
+      {
+        "feature_idx": 2259,
+        "count": 2861,
+        "percent": 28.61
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2745,
+        "percent": 27.45
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2701,
+        "percent": 27.01
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2511,
+        "percent": 25.11
+      },
+      {
+        "feature_idx": 18229,
+        "count": 2482,
+        "percent": 24.82
+      },
+      {
+        "feature_idx": 8202,
+        "count": 2374,
+        "percent": 23.74
+      },
+      {
+        "feature_idx": 5165,
+        "count": 2289,
+        "percent": 22.89
+      },
+      {
+        "feature_idx": 11950,
+        "count": 1980,
+        "percent": 19.8
+      },
+      {
+        "feature_idx": 3848,
+        "count": 1950,
+        "percent": 19.5
+      },
+      {
+        "feature_idx": 6421,
+        "count": 1905,
+        "percent": 19.05
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5100000,
+      "corpus_coverage": 0.0986
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2248,
+        "percent": 22.48
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1968,
+        "percent": 19.68
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1992,
+        "percent": 19.92
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2013,
+        "percent": 20.13
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1779,
+        "percent": 17.79
+      }
+    ],
+    "mean_position": 0.4782,
+    "std_position": 0.2909
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 205,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.023,
+      "p25": 0.0385,
+      "p50": 0.0567,
+      "p75": 0.0789,
+      "p90": 0.0921,
+      "p95": 0.1025,
+      "p99": 0.1212
+    },
+    "skewness": 0.3214,
+    "kurtosis": -0.2305,
+    "min": 0.0106,
+    "max": 0.1445,
+    "mean": 0.0579,
+    "std": 0.0258
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 205,
+      "unique_tokens_found": 56
+    },
+    "tokens": [
+      {
+        "token": " never",
+        "count": 20,
+        "mean_activation": 0.0807
+      },
+      {
+        "token": " always",
+        "count": 18,
+        "mean_activation": 0.0666
+      },
+      {
+        "token": " usually",
+        "count": 15,
+        "mean_activation": 0.054
+      },
+      {
+        "token": " still",
+        "count": 12,
+        "mean_activation": 0.0705
+      },
+      {
+        "token": " only",
+        "count": 12,
+        "mean_activation": 0.0531
+      },
+      {
+        "token": " finally",
+        "count": 12,
+        "mean_activation": 0.0537
+      },
+      {
+        "token": " also",
+        "count": 7,
+        "mean_activation": 0.0205
+      },
+      {
+        "token": " probably",
+        "count": 6,
+        "mean_activation": 0.0767
+      },
+      {
+        "token": " even",
+        "count": 6,
+        "mean_activation": 0.0447
+      },
+      {
+        "token": " ever",
+        "count": 5,
+        "mean_activation": 0.0773
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17354,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 20,
+    "mean_when_active": 0.07890396118164063,
+    "max_activation": 0.309326171875,
+    "std_when_active": 0.07865682611343391,
+    "activation_rate": 0.0002
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6676,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " thing",
+        "count": 1537,
+        "mean_activation": 0.14867984372140838
+      },
+      {
+        "token": " of",
+        "count": 351,
+        "mean_activation": 0.04923837341134704
+      },
+      {
+        "token": " stuff",
+        "count": 297,
+        "mean_activation": 0.04991720180318813
+      },
+      {
+        "token": " experience",
+        "count": 212,
+        "mean_activation": 0.040741182723135316
+      },
+      {
+        "token": " number",
+        "count": 188,
+        "mean_activation": 0.045777665807845744
+      },
+      {
+        "token": " kind",
+        "count": 184,
+        "mean_activation": 0.06788643546726393
+      },
+      {
+        "token": " problem",
+        "count": 171,
+        "mean_activation": 0.07129392568130939
+      },
+      {
+        "token": " style",
+        "count": 170,
+        "mean_activation": 0.07568278593175551
+      },
+      {
+        "token": " turn",
+        "count": 130,
+        "mean_activation": 0.08391066331129808
+      },
+      {
+        "token": " name",
+        "count": 118,
+        "mean_activation": 0.03580397266452595
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6676,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... tamales aren't your** thing**, the tortas have mo...",
+        "active_token": " thing",
+        "activation": 0.345947265625,
+        "review_id": "OrgpxWOHsClllnoxb4VSEg",
+        "position": 165
+      },
+      {
+        "context": ".... If that isn't your** thing**, please do the rest...",
+        "active_token": " thing",
+        "activation": 0.343505859375,
+        "review_id": "-IVHPDd4O_DMA0q_E32xkg",
+        "position": 54
+      },
+      {
+        "context": "... if they aren't your** thing**, the tacos and nach...",
+        "active_token": " thing",
+        "activation": 0.342041015625,
+        "review_id": "MUGXWa__48g52gtppdfj8Q",
+        "position": 36
+      },
+      {
+        "context": "...bout. If that's your** thing**, stick to Moe's or ...",
+        "active_token": " thing",
+        "activation": 0.3408203125,
+        "review_id": "onfWvFhrheO0bgxwYh5N0g",
+        "position": 53
+      },
+      {
+        "context": "... buffets aren't your** thing** try the cilantro bu...",
+        "active_token": " thing",
+        "activation": 0.33984375,
+        "review_id": "7DTf79IBfLaASSKwgPbFYw",
+        "position": 51
+      },
+      {
+        "context": "...If Taco Bell is your** thing**, you need to step u...",
+        "active_token": " thing",
+        "activation": 0.33984375,
+        "review_id": "4knKJBtb2CcLd_c3cEeU_g",
+        "position": 171
+      },
+      {
+        "context": "... bowls are more your** thing** though, no worries ...",
+        "active_token": " thing",
+        "activation": 0.33935546875,
+        "review_id": "cQQ4fKsuFKPoJQlM2a0dAw",
+        "position": 502
+      },
+      {
+        "context": "...avocados aren't your** thing**, the mama nachos ar...",
+        "active_token": " thing",
+        "activation": 0.3388671875,
+        "review_id": "3oU34huIMDAWj9tvsZesCQ",
+        "position": 44
+      },
+      {
+        "context": ".... If tequila is your** thing**, this is the place ...",
+        "active_token": " thing",
+        "activation": 0.3359375,
+        "review_id": "2EWNUb2bpBfdGL5gQzzRAA",
+        "position": 43
+      },
+      {
+        "context": "...oscow mules are your** thing**, definitely don't m...",
+        "active_token": " thing",
+        "activation": 0.3359375,
+        "review_id": "9stgNohT7DQGhTrJx3l54A",
+        "position": 78
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17354,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2576,
+        "max": 0.3459,
+        "mean": 0.2945
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " your",
+            " thing"
+          ],
+          "ngram_str": " your thing",
+          "count": 298,
+          "percent": 59.6
+        },
+        {
+          "ngram": [
+            " thing",
+            "."
+          ],
+          "ngram_str": " thing.",
+          "count": 194,
+          "percent": 38.8
+        },
+        {
+          "ngram": [
+            " my",
+            " thing"
+          ],
+          "ngram_str": " my thing",
+          "count": 184,
+          "percent": 36.8
+        },
+        {
+          "ngram": [
+            " thing",
+            ","
+          ],
+          "ngram_str": " thing,",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " that",
+            "'s"
+          ],
+          "ngram_str": " that's",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " if",
+            " that"
+          ],
+          "ngram_str": " if that",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " your"
+          ],
+          "ngram_str": "'s your",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " not",
+            " my"
+          ],
+          "ngram_str": " not my",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " isn",
+            "'t"
+          ],
+          "ngram_str": " isn't",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " is",
+            " your"
+          ],
+          "ngram_str": " is your",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " your"
+          ],
+          "ngram_str": "'t your",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " not",
+            " your"
+          ],
+          "ngram_str": " not your",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " my"
+          ],
+          "ngram_str": "'t my",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 44,
+          "percent": 8.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " if",
+            " that",
+            "'s"
+          ],
+          "ngram_str": " if that's",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " that",
+            "'s",
+            " your"
+          ],
+          "ngram_str": " that's your",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " your",
+            " thing"
+          ],
+          "ngram_str": "'s your thing",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            " your",
+            " thing",
+            ","
+          ],
+          "ngram_str": " your thing,",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " your",
+            " thing",
+            "."
+          ],
+          "ngram_str": " your thing.",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " my",
+            " thing",
+            "."
+          ],
+          "ngram_str": " my thing.",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " not",
+            " my",
+            " thing"
+          ],
+          "ngram_str": " not my thing",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " is",
+            " your",
+            " thing"
+          ],
+          "ngram_str": " is your thing",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "'t",
+            " your",
+            " thing"
+          ],
+          "ngram_str": "'t your thing",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " not",
+            " your",
+            " thing"
+          ],
+          "ngram_str": " not your thing",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " my",
+            " thing"
+          ],
+          "ngram_str": "'t my thing",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " my",
+            " thing",
+            ","
+          ],
+          "ngram_str": " my thing,",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " isn",
+            "'t",
+            " your"
+          ],
+          "ngram_str": " isn't your",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " thing",
+            ".",
+            " "
+          ],
+          "ngram_str": " thing. ",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " that",
+            "'s",
+            " your",
+            " thing"
+          ],
+          "ngram_str": " that's your thing",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            " if",
+            " that",
+            "'s",
+            " your"
+          ],
+          "ngram_str": " if that's your",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " your",
+            " thing",
+            "."
+          ],
+          "ngram_str": "'s your thing.",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " not",
+            " my",
+            " thing",
+            "."
+          ],
+          "ngram_str": " not my thing.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " isn",
+            "'t",
+            " your",
+            " thing"
+          ],
+          "ngram_str": " isn't your thing",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " is",
+            " your",
+            " thing",
+            ","
+          ],
+          "ngram_str": " is your thing,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "'s",
+            " your",
+            " thing",
+            ","
+          ],
+          "ngram_str": "'s your thing,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " just",
+            " not",
+            " my",
+            " thing"
+          ],
+          "ngram_str": " just not my thing",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "'t",
+            " your",
+            " thing",
+            ","
+          ],
+          "ngram_str": "'t your thing,",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " not",
+            " your",
+            " thing",
+            ","
+          ],
+          "ngram_str": " not your thing,",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " my",
+            " thing",
+            "."
+          ],
+          "ngram_str": "'t my thing.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " wasn",
+            "'t",
+            " my",
+            " thing"
+          ],
+          "ngram_str": " wasn't my thing",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " thing",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " thing.\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6676,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14723,
+        "count": 5433,
+        "percent": 81.38
+      },
+      {
+        "feature_idx": 8447,
+        "count": 3471,
+        "percent": 51.99
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2880,
+        "percent": 43.14
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2693,
+        "percent": 40.34
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2586,
+        "percent": 38.74
+      },
+      {
+        "feature_idx": 305,
+        "count": 2379,
+        "percent": 35.64
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2326,
+        "percent": 34.84
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2119,
+        "percent": 31.74
+      },
+      {
+        "feature_idx": 11738,
+        "count": 2030,
+        "percent": 30.41
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1887,
+        "percent": 28.27
+      },
+      {
+        "feature_idx": 19386,
+        "count": 1853,
+        "percent": 27.76
+      },
+      {
+        "feature_idx": 13883,
+        "count": 1793,
+        "percent": 26.86
+      },
+      {
+        "feature_idx": 10656,
+        "count": 1690,
+        "percent": 25.31
+      },
+      {
+        "feature_idx": 7816,
+        "count": 1665,
+        "percent": 24.94
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1657,
+        "percent": 24.82
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1634,
+        "percent": 24.48
+      },
+      {
+        "feature_idx": 12592,
+        "count": 1625,
+        "percent": 24.34
+      },
+      {
+        "feature_idx": 19810,
+        "count": 1316,
+        "percent": 19.71
+      },
+      {
+        "feature_idx": 23185,
+        "count": 1266,
+        "percent": 18.96
+      },
+      {
+        "feature_idx": 17492,
+        "count": 1266,
+        "percent": 18.96
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6676,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 994,
+        "percent": 14.89
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1267,
+        "percent": 18.98
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1294,
+        "percent": 19.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1400,
+        "percent": 20.97
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1721,
+        "percent": 25.78
+      }
+    ],
+    "mean_position": 0.5519,
+    "std_position": 0.2883
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 20,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0263,
+      "p25": 0.0319,
+      "p50": 0.0438,
+      "p75": 0.0915,
+      "p90": 0.1484,
+      "p95": 0.2808,
+      "p99": 0.3036
+    },
+    "skewness": 1.9877,
+    "kurtosis": 2.8799,
+    "min": 0.0201,
+    "max": 0.3093,
+    "mean": 0.0789,
+    "std": 0.0787
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 20,
+      "unique_tokens_found": 16
+    },
+    "tokens": [
+      {
+        "token": " thing",
+        "count": 3,
+        "mean_activation": 0.2099
+      },
+      {
+        "token": " type",
+        "count": 2,
+        "mean_activation": 0.1187
+      },
+      {
+        "token": " of",
+        "count": 2,
+        "mean_activation": 0.0822
+      },
+      {
+        "token": " spot",
+        "count": 1,
+        "mean_activation": 0.0319
+      },
+      {
+        "token": " preference",
+        "count": 1,
+        "mean_activation": 0.0352
+      },
+      {
+        "token": " number",
+        "count": 1,
+        "mean_activation": 0.0244
+      },
+      {
+        "token": "tick",
+        "count": 1,
+        "mean_activation": 0.0434
+      },
+      {
+        "token": " issue",
+        "count": 1,
+        "mean_activation": 0.0265
+      },
+      {
+        "token": " real",
+        "count": 1,
+        "mean_activation": 0.0443
+      },
+      {
+        "token": " name",
+        "count": 1,
+        "mean_activation": 0.0277
+      }
+    ]
+  }
+}

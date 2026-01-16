@@ -1,0 +1,851 @@
+{
+  "feature_idx": 17406,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 24,
+    "mean_when_active": 0.03754997253417969,
+    "max_activation": 0.1361083984375,
+    "std_when_active": 0.02352613476047867,
+    "activation_rate": 0.00024
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 13281,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " a",
+        "count": 11087,
+        "mean_activation": 0.049000542985529576
+      },
+      {
+        "token": " an",
+        "count": 649,
+        "mean_activation": 0.046147409683015936
+      },
+      {
+        "token": " the",
+        "count": 367,
+        "mean_activation": 0.04406172832935967
+      },
+      {
+        "token": " it",
+        "count": 325,
+        "mean_activation": 0.0345367666391226
+      },
+      {
+        "token": " \"",
+        "count": 172,
+        "mean_activation": 0.03147994640261628
+      },
+      {
+        "token": " my",
+        "count": 100,
+        "mean_activation": 0.04157989501953125
+      },
+      {
+        "token": " day",
+        "count": 53,
+        "mean_activation": 0.037917802918632074
+      },
+      {
+        "token": " few",
+        "count": 38,
+        "mean_activation": 0.04215601870888158
+      },
+      {
+        "token": " traditional",
+        "count": 33,
+        "mean_activation": 0.020812294699928978
+      },
+      {
+        "token": " that",
+        "count": 29,
+        "mean_activation": 0.040006966426454744
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 13281,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ak burrito and call it** a** day.",
+        "active_token": " a",
+        "activation": 0.31787109375,
+        "review_id": "6YUn0OyB52S2sah3U6lCAQ",
+        "position": 812
+      },
+      {
+        "context": "...difference and call it** a** three.",
+        "active_token": " a",
+        "activation": 0.31640625,
+        "review_id": "Sxwz535R4i9k3l4IP_Jmkg",
+        "position": 318
+      },
+      {
+        "context": "... a burrito and call it** a** California burrito.  ...",
+        "active_token": " a",
+        "activation": 0.3154296875,
+        "review_id": "d3Q_g5t1hxbLvWm0Hwlqfw",
+        "position": 291
+      },
+      {
+        "context": "...te karaoke and call it** a** night!!! Had a great ...",
+        "active_token": " a",
+        "activation": 0.31005859375,
+        "review_id": "a-Pj4g9p0zE2Z6YCnF-1aA",
+        "position": 20
+      },
+      {
+        "context": "... that meat and call it** a** day miss burrito bowl...",
+        "active_token": " a",
+        "activation": 0.306640625,
+        "review_id": "eZvzcyedUx4FPyUgSCtulQ",
+        "position": 59
+      },
+      {
+        "context": "... the side, and call it** a** night when you're don...",
+        "active_token": " a",
+        "activation": 0.30517578125,
+        "review_id": "ZrJS3LJmlgwdoHiaqTRQfQ",
+        "position": 184
+      },
+      {
+        "context": "...d carnitas and call it** a** meal!!! It was served...",
+        "active_token": " a",
+        "activation": 0.29833984375,
+        "review_id": "lQVXDwtC2SEVDhk6dAZIZg",
+        "position": 93
+      },
+      {
+        "context": "...or a drink and call it** a** day. I've tried sever...",
+        "active_token": " a",
+        "activation": 0.29736328125,
+        "review_id": "MkK-ghAnXhmdfWhtnE7Jjg",
+        "position": 52
+      },
+      {
+        "context": "... and chips and call it** a** day (don't judge me)....",
+        "active_token": " a",
+        "activation": 0.297119140625,
+        "review_id": "3GXsL7RhJxRS7KpQQm8CkA",
+        "position": 334
+      },
+      {
+        "context": "...3 things and called it** a** day. I started with t...",
+        "active_token": " a",
+        "activation": 0.296142578125,
+        "review_id": "aLTyHul8hRtVuyALT9nD4g",
+        "position": 114
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17406,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1532,
+        "max": 0.3179,
+        "mean": 0.1997
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " it",
+            " a"
+          ],
+          "ngram_str": " it a",
+          "count": 239,
+          "percent": 47.8
+        },
+        {
+          "ngram": [
+            " call",
+            " it"
+          ],
+          "ngram_str": " call it",
+          "count": 153,
+          "percent": 30.6
+        },
+        {
+          "ngram": [
+            " a",
+            " day"
+          ],
+          "ngram_str": " a day",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " and",
+            " call"
+          ],
+          "ngram_str": " and call",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " me",
+            " a"
+          ],
+          "ngram_str": " me a",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " called",
+            " it"
+          ],
+          "ngram_str": " called it",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " day",
+            "."
+          ],
+          "ngram_str": " day.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " a",
+            " lot"
+          ],
+          "ngram_str": " a lot",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " to",
+            " call"
+          ],
+          "ngram_str": " to call",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " and",
+            " called"
+          ],
+          "ngram_str": " and called",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " called",
+            " a"
+          ],
+          "ngram_str": " called a",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " saying",
+            " a"
+          ],
+          "ngram_str": " saying a",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " call",
+            " it",
+            " a"
+          ],
+          "ngram_str": " call it a",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            " it",
+            " a",
+            " day"
+          ],
+          "ngram_str": " it a day",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " and",
+            " call",
+            " it"
+          ],
+          "ngram_str": " and call it",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " called",
+            " it",
+            " a"
+          ],
+          "ngram_str": " called it a",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " a",
+            " day",
+            "."
+          ],
+          "ngram_str": " a day.",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " and",
+            " called",
+            " it"
+          ],
+          "ngram_str": " and called it",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " saying",
+            " a",
+            " lot"
+          ],
+          "ngram_str": " saying a lot",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " it",
+            " a",
+            " night"
+          ],
+          "ngram_str": " it a night",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " saying",
+            " a"
+          ],
+          "ngram_str": "'s saying a",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " to",
+            " call",
+            " it"
+          ],
+          "ngram_str": " to call it",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " calling",
+            " it",
+            " a"
+          ],
+          "ngram_str": " calling it a",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " that",
+            "'s",
+            " saying"
+          ],
+          "ngram_str": " that's saying",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " says",
+            " a",
+            " lot"
+          ],
+          "ngram_str": " says a lot",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " lot",
+            "."
+          ],
+          "ngram_str": " a lot.",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " and",
+            " call",
+            " it",
+            " a"
+          ],
+          "ngram_str": " and call it a",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " it",
+            " a",
+            " day",
+            "."
+          ],
+          "ngram_str": " it a day.",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " call",
+            " it",
+            " a",
+            " day"
+          ],
+          "ngram_str": " call it a day",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " and",
+            " called",
+            " it",
+            " a"
+          ],
+          "ngram_str": " and called it a",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " called",
+            " it",
+            " a",
+            " day"
+          ],
+          "ngram_str": " called it a day",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " to",
+            " call",
+            " it",
+            " a"
+          ],
+          "ngram_str": " to call it a",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " saying",
+            " a",
+            " lot"
+          ],
+          "ngram_str": "'s saying a lot",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " that",
+            "'s",
+            " saying",
+            " a"
+          ],
+          "ngram_str": " that's saying a",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " it",
+            " a",
+            " night",
+            "."
+          ],
+          "ngram_str": " it a night.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " and",
+            " that",
+            "'s",
+            " saying"
+          ],
+          "ngram_str": " and that's saying",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " that",
+            " says",
+            " a",
+            " lot"
+          ],
+          "ngram_str": " that says a lot",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " call",
+            " it",
+            " a",
+            " night"
+          ],
+          "ngram_str": " call it a night",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " saying",
+            " a",
+            " lot",
+            "."
+          ],
+          "ngram_str": " saying a lot.",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 38900000,
+      "corpus_coverage": 0.7524
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20728,
+        "count": 8874,
+        "percent": 88.74
+      },
+      {
+        "feature_idx": 14446,
+        "count": 8461,
+        "percent": 84.61
+      },
+      {
+        "feature_idx": 11252,
+        "count": 8415,
+        "percent": 84.15
+      },
+      {
+        "feature_idx": 508,
+        "count": 5871,
+        "percent": 58.71
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5201,
+        "percent": 52.01
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3954,
+        "percent": 39.54
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3890,
+        "percent": 38.9
+      },
+      {
+        "feature_idx": 6161,
+        "count": 3432,
+        "percent": 34.32
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3220,
+        "percent": 32.2
+      },
+      {
+        "feature_idx": 16248,
+        "count": 3077,
+        "percent": 30.77
+      },
+      {
+        "feature_idx": 7648,
+        "count": 2913,
+        "percent": 29.13
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2857,
+        "percent": 28.57
+      },
+      {
+        "feature_idx": 9959,
+        "count": 2709,
+        "percent": 27.09
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2598,
+        "percent": 25.98
+      },
+      {
+        "feature_idx": 11950,
+        "count": 2441,
+        "percent": 24.41
+      },
+      {
+        "feature_idx": 6580,
+        "count": 2418,
+        "percent": 24.18
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2319,
+        "percent": 23.19
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2202,
+        "percent": 22.02
+      },
+      {
+        "feature_idx": 23403,
+        "count": 2136,
+        "percent": 21.36
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1909,
+        "percent": 19.09
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 38900000,
+      "corpus_coverage": 0.7524
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1829,
+        "percent": 18.29
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1931,
+        "percent": 19.31
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1842,
+        "percent": 18.42
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1926,
+        "percent": 19.26
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2472,
+        "percent": 24.72
+      }
+    ],
+    "mean_position": 0.5277,
+    "std_position": 0.2951
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 24,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.021,
+      "p25": 0.0263,
+      "p50": 0.0304,
+      "p75": 0.0412,
+      "p90": 0.0528,
+      "p95": 0.0646,
+      "p99": 0.12
+    },
+    "skewness": 3.0483,
+    "kurtosis": 10.0207,
+    "min": 0.0159,
+    "max": 0.1361,
+    "mean": 0.0375,
+    "std": 0.0235
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 24,
+      "unique_tokens_found": 5
+    },
+    "tokens": [
+      {
+        "token": " a",
+        "count": 19,
+        "mean_activation": 0.0375
+      },
+      {
+        "token": " an",
+        "count": 2,
+        "mean_activation": 0.049
+      },
+      {
+        "token": " the",
+        "count": 1,
+        "mean_activation": 0.041
+      },
+      {
+        "token": " that",
+        "count": 1,
+        "mean_activation": 0.0278
+      },
+      {
+        "token": " .",
+        "count": 1,
+        "mean_activation": 0.0215
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 20868,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 1269,
+    "mean_when_active": 0.034064413901855856,
+    "max_activation": 0.141845703125,
+    "std_when_active": 0.019911767896061285,
+    "activation_rate": 0.01269
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 4300000,
+      "corpus_coverage": 0.0832
+    },
+    "top_tokens": [
+      {
+        "token": ".",
+        "count": 3519,
+        "mean_activation": 0.03153054664744068
+      },
+      {
+        "token": " the",
+        "count": 2841,
+        "mean_activation": 0.03238188150440124
+      },
+      {
+        "token": ",",
+        "count": 2773,
+        "mean_activation": 0.03878592688212788
+      },
+      {
+        "token": " and",
+        "count": 2548,
+        "mean_activation": 0.03840518035170048
+      },
+      {
+        "token": " The",
+        "count": 1648,
+        "mean_activation": 0.022311233779759083
+      },
+      {
+        "token": " is",
+        "count": 1436,
+        "mean_activation": 0.04549580629821608
+      },
+      {
+        "token": " a",
+        "count": 1111,
+        "mean_activation": 0.03281170478498045
+      },
+      {
+        "token": " decor",
+        "count": 1048,
+        "mean_activation": 0.11049885058221016
+      },
+      {
+        "token": " was",
+        "count": 859,
+        "mean_activation": 0.036806304185576434
+      },
+      {
+        "token": "\\n",
+        "count": 850,
+        "mean_activation": 0.020308142269358915
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 4300000,
+      "corpus_coverage": 0.0832
+    },
+    "activations": [
+      {
+        "context": "...corated, with modern** decor**, and lots of televi...",
+        "active_token": " decor",
+        "activation": 0.179931640625,
+        "review_id": "cTlij0vw_8l1iLEtlL-FPw",
+        "position": 26
+      },
+      {
+        "context": "Food: 3.5\\nDecor**:** 3.5\\nAmbiance: 4\\nService",
+        "active_token": ":",
+        "activation": 0.176025390625,
+        "review_id": "sBhDE7ukJW81gHGA52AyDg",
+        "position": 8
+      },
+      {
+        "context": "Food: 3\\nDecor**:** 4\\nAmbiance: 3.5\\nService",
+        "active_token": ":",
+        "activation": 0.17431640625,
+        "review_id": "_sScssGpXLa_7qcE3Z96JA",
+        "position": 6
+      },
+      {
+        "context": "Food: 4\\nDecor**:** 4\\nAmbiance: 3.5\\nService",
+        "active_token": ":",
+        "activation": 0.17138671875,
+        "review_id": "OUMFV-UYrMSBxjf0Fp7UgQ",
+        "position": 6
+      },
+      {
+        "context": "Food: 4\\nDecor**:** 2\\nService: 4\\n\\nCame here",
+        "active_token": ":",
+        "activation": 0.17138671875,
+        "review_id": "5aLVLzmVmxIo3Z0vOV6UjA",
+        "position": 6
+      },
+      {
+        "context": "...n inside with modern** decor**. They had latin muz...",
+        "active_token": " decor",
+        "activation": 0.170654296875,
+        "review_id": "r9PF5PBAlZ-iiNhh0kTUsg",
+        "position": 11
+      },
+      {
+        "context": "...areas were decorated** with** Christmas lights and...",
+        "active_token": " with",
+        "activation": 0.1676025390625,
+        "review_id": "5lqIVlWYkOwrIVgkYwJyEg",
+        "position": 61
+      },
+      {
+        "context": "...bilia; grand wall mur**als**; outstanding woodwork...",
+        "active_token": "als",
+        "activation": 0.166259765625,
+        "review_id": "_rP23VE7EthILcen7-hmfg",
+        "position": 235
+      },
+      {
+        "context": "... and some sculptural** decor** and lighting make t...",
+        "active_token": " decor",
+        "activation": 0.1650390625,
+        "review_id": "fHy9ouDgySpTZSOS8pPg1g",
+        "position": 188
+      },
+      {
+        "context": "...s, chairs, paint and** decor**. The tables and cha...",
+        "active_token": " decor",
+        "activation": 0.1636962890625,
+        "review_id": "syesHQfQWVZMRX94vxCkeg",
+        "position": 24
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20868,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 8700000,
+      "corpus_coverage": 0.1683,
+      "activation_range": {
+        "min": 0.1304,
+        "max": 0.1799,
+        "mean": 0.1407
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " decor",
+            "."
+          ],
+          "ngram_str": " decor.",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " decor",
+            ","
+          ],
+          "ngram_str": " decor,",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " Dec",
+            "or"
+          ],
+          "ngram_str": " Decor",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " mur",
+            "als"
+          ],
+          "ngram_str": " murals",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " decor",
+            " is"
+          ],
+          "ngram_str": " decor is",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Dec"
+          ],
+          "ngram_str": ". Dec",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " decor"
+          ],
+          "ngram_str": " the decor",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " decor",
+            " and"
+          ],
+          "ngram_str": " decor and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Dec"
+          ],
+          "ngram_str": "\u012cDec",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "Dec",
+            "or"
+          ],
+          "ngram_str": "Decor",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Dec",
+            "or"
+          ],
+          "ngram_str": ". Decor",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Dec"
+          ],
+          "ngram_str": "\u00c4\u012cDec",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Dec",
+            "or"
+          ],
+          "ngram_str": "\u012cDecor",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            "5",
+            "\u00c4"
+          ],
+          "ngram_str": ".5\u00c4",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "5",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "5\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "Dec",
+            "or",
+            ":"
+          ],
+          "ngram_str": "Decor:",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " Dec",
+            "or",
+            " is"
+          ],
+          "ngram_str": " Decor is",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Amb"
+          ],
+          "ngram_str": "\u00c4\u012cAmb",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " walls"
+          ],
+          "ngram_str": " on the walls",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " decor"
+          ],
+          "ngram_str": ". The decor",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " decor",
+            ".",
+            " "
+          ],
+          "ngram_str": " decor. ",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " decorated",
+            " in",
+            " a"
+          ],
+          "ngram_str": " decorated in a",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Dec",
+            "or"
+          ],
+          "ngram_str": "\u00c4\u012cDecor",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            "5",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".5\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Dec",
+            "or",
+            ":"
+          ],
+          "ngram_str": "\u012cDecor:",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Dec",
+            "or",
+            " is"
+          ],
+          "ngram_str": ". Decor is",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "5",
+            "\u00c4",
+            "\u012c",
+            "Dec"
+          ],
+          "ngram_str": "5\u00c4\u012cDec",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " 3",
+            ".",
+            "5",
+            "\u00c4"
+          ],
+          "ngram_str": " 3.5\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Amb",
+            "iance"
+          ],
+          "ngram_str": "\u00c4\u012cAmbiance",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "Dec",
+            "or",
+            ":",
+            " 3"
+          ],
+          "ngram_str": "Decor: 3",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ":",
+            " 4",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ": 4\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " mur",
+            "als",
+            " on",
+            " the"
+          ],
+          "ngram_str": " murals on the",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " is",
+            " decorated",
+            " very",
+            " nicely"
+          ],
+          "ngram_str": " is decorated very nicely",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Amb",
+            "iance",
+            ":"
+          ],
+          "ngram_str": "\u012cAmbiance:",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 900000,
+      "corpus_coverage": 0.0174
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4742,
+        "percent": 47.42
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4041,
+        "percent": 40.41
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3717,
+        "percent": 37.17
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3317,
+        "percent": 33.17
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2801,
+        "percent": 28.01
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2712,
+        "percent": 27.12
+      },
+      {
+        "feature_idx": 15310,
+        "count": 2683,
+        "percent": 26.83
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2623,
+        "percent": 26.23
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1985,
+        "percent": 19.85
+      },
+      {
+        "feature_idx": 13566,
+        "count": 1747,
+        "percent": 17.47
+      },
+      {
+        "feature_idx": 5070,
+        "count": 1730,
+        "percent": 17.3
+      },
+      {
+        "feature_idx": 11839,
+        "count": 1726,
+        "percent": 17.26
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1714,
+        "percent": 17.14
+      },
+      {
+        "feature_idx": 24017,
+        "count": 1470,
+        "percent": 14.7
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1442,
+        "percent": 14.42
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1334,
+        "percent": 13.34
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1321,
+        "percent": 13.21
+      },
+      {
+        "feature_idx": 15956,
+        "count": 1306,
+        "percent": 13.06
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1299,
+        "percent": 12.99
+      },
+      {
+        "feature_idx": 6329,
+        "count": 1182,
+        "percent": 11.82
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 900000,
+      "corpus_coverage": 0.0174
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2312,
+        "percent": 23.12
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2272,
+        "percent": 22.72
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1873,
+        "percent": 18.73
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1876,
+        "percent": 18.76
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1667,
+        "percent": 16.67
+      }
+    ],
+    "mean_position": 0.4669,
+    "std_position": 0.2817
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 1269,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0175,
+      "p25": 0.0216,
+      "p50": 0.0285,
+      "p75": 0.0384,
+      "p90": 0.0588,
+      "p95": 0.0761,
+      "p99": 0.1111
+    },
+    "skewness": 2.1152,
+    "kurtosis": 5.5471,
+    "min": 0.0071,
+    "max": 0.1418,
+    "mean": 0.0341,
+    "std": 0.0199
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 1269,
+      "unique_tokens_found": 365
+    },
+    "tokens": [
+      {
+        "token": ".",
+        "count": 97,
+        "mean_activation": 0.0308
+      },
+      {
+        "token": ",",
+        "count": 82,
+        "mean_activation": 0.0344
+      },
+      {
+        "token": " the",
+        "count": 65,
+        "mean_activation": 0.0302
+      },
+      {
+        "token": " and",
+        "count": 56,
+        "mean_activation": 0.0382
+      },
+      {
+        "token": " The",
+        "count": 41,
+        "mean_activation": 0.0231
+      },
+      {
+        "token": " is",
+        "count": 34,
+        "mean_activation": 0.0334
+      },
+      {
+        "token": " a",
+        "count": 33,
+        "mean_activation": 0.0329
+      },
+      {
+        "token": "\\n",
+        "count": 30,
+        "mean_activation": 0.021
+      },
+      {
+        "token": " of",
+        "count": 21,
+        "mean_activation": 0.0493
+      },
+      {
+        "token": " it",
+        "count": 20,
+        "mean_activation": 0.0283
+      }
+    ]
+  }
+}

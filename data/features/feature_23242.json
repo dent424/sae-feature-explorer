@@ -1,0 +1,846 @@
+{
+  "feature_idx": 23242,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 82,
+    "mean_when_active": 0.0402498012635766,
+    "max_activation": 0.093017578125,
+    "std_when_active": 0.018880269733212093,
+    "activation_rate": 0.00082
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 50500000,
+      "corpus_coverage": 0.9767
+    },
+    "top_tokens": [
+      {
+        "token": " in",
+        "count": 44424,
+        "mean_activation": 0.04381632268181926
+      },
+      {
+        "token": " the",
+        "count": 1724,
+        "mean_activation": 0.0300173084586513
+      },
+      {
+        "token": " on",
+        "count": 1080,
+        "mean_activation": 0.03404394785563151
+      },
+      {
+        "token": " at",
+        "count": 418,
+        "mean_activation": 0.032343157170491924
+      },
+      {
+        "token": " of",
+        "count": 288,
+        "mean_activation": 0.03315191798739963
+      },
+      {
+        "token": " In",
+        "count": 264,
+        "mean_activation": 0.021465301513671875
+      },
+      {
+        "token": " (",
+        "count": 249,
+        "mean_activation": 0.024620914076226783
+      },
+      {
+        "token": " a",
+        "count": 245,
+        "mean_activation": 0.026125226702008928
+      },
+      {
+        "token": "in",
+        "count": 216,
+        "mean_activation": 0.03748349790219908
+      },
+      {
+        "token": " out",
+        "count": 105,
+        "mean_activation": 0.03148135230654762
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 50500000,
+      "corpus_coverage": 0.9767
+    },
+    "activations": [
+      {
+        "context": "...s a semi-private room** in** the restaurant but fo...",
+        "active_token": " in",
+        "activation": 0.1763916015625,
+        "review_id": "a6Dfbd-HaBoawGntb52fKQ",
+        "position": 92
+      },
+      {
+        "context": "...gh a humungous window** in** the bar.  Cool additi...",
+        "active_token": " in",
+        "activation": 0.1739501953125,
+        "review_id": "qZWirYud59YKINMBbhg2uA",
+        "position": 58
+      },
+      {
+        "context": "...There is a great room** in** the back for large pa...",
+        "active_token": " in",
+        "activation": 0.1650390625,
+        "review_id": "37fAlEhCulO8qVs4CHT4ow",
+        "position": 144
+      },
+      {
+        "context": "...here is a small patio** in** the side of the resta...",
+        "active_token": " in",
+        "activation": 0.16455078125,
+        "review_id": "31awq8iezIfz3fhy3auh9g",
+        "position": 164
+      },
+      {
+        "context": "...ating (there's a room** in** the back) and the sta...",
+        "active_token": " in",
+        "activation": 0.1639404296875,
+        "review_id": "eEGj7h8CCs770eK2pw16jQ",
+        "position": 51
+      },
+      {
+        "context": "...s also a smaller room** in** the back with no TV's...",
+        "active_token": " in",
+        "activation": 0.16015625,
+        "review_id": "m4klukKHyr1ST3fqHqQu6w",
+        "position": 92
+      },
+      {
+        "context": "... a larger dining room** in** the back, but I was a...",
+        "active_token": " in",
+        "activation": 0.1600341796875,
+        "review_id": "Hlfs7VSLLXHga2NwoEJGmA",
+        "position": 141
+      },
+      {
+        "context": "...s there is a bar area** in** the back. There is in...",
+        "active_token": " in",
+        "activation": 0.1600341796875,
+        "review_id": "1iHuoacsAdDg0Rf_M5lJVQ",
+        "position": 170
+      },
+      {
+        "context": "...there is a party room** in** the back and the food...",
+        "active_token": " in",
+        "activation": 0.1600341796875,
+        "review_id": "ndZoqm6cnc-q85lEDdkc2Q",
+        "position": 57
+      },
+      {
+        "context": "...hey have a large room** in** the back), and their ...",
+        "active_token": " in",
+        "activation": 0.1590576171875,
+        "review_id": "S9Ur8titEwgRKz3NXO89Zg",
+        "position": 183
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23242,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1192,
+        "max": 0.1764,
+        "mean": 0.132
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 368,
+          "percent": 73.6
+        },
+        {
+          "ngram": [
+            " the",
+            " back"
+          ],
+          "ngram_str": " the back",
+          "count": 167,
+          "percent": 33.4
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " area",
+            " in"
+          ],
+          "ngram_str": " area in",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " have",
+            " a"
+          ],
+          "ngram_str": " have a",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " bar",
+            " in"
+          ],
+          "ngram_str": " bar in",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " the",
+            " restaurant"
+          ],
+          "ngram_str": " the restaurant",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " parking lot",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " lot",
+            " in"
+          ],
+          "ngram_str": " lot in",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " back",
+            "."
+          ],
+          "ngram_str": " back.",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " room",
+            " in"
+          ],
+          "ngram_str": " room in",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " a",
+            " small"
+          ],
+          "ngram_str": " a small",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " patio",
+            " in"
+          ],
+          "ngram_str": " patio in",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " in",
+            " front"
+          ],
+          "ngram_str": " in front",
+          "count": 37,
+          "percent": 7.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " in the back",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " area",
+            " in",
+            " the"
+          ],
+          "ngram_str": " area in the",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " bar",
+            " in",
+            " the"
+          ],
+          "ngram_str": " bar in the",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            " in"
+          ],
+          "ngram_str": " parking lot in",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " restaurant"
+          ],
+          "ngram_str": " of the restaurant",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " the",
+            " back",
+            "."
+          ],
+          "ngram_str": " the back.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " room",
+            " in",
+            " the"
+          ],
+          "ngram_str": " room in the",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " front"
+          ],
+          "ngram_str": " in the front",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " middle"
+          ],
+          "ngram_str": " in the middle",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " lot",
+            " in",
+            " the"
+          ],
+          "ngram_str": " lot in the",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " patio",
+            " in",
+            " the"
+          ],
+          "ngram_str": " patio in the",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " There",
+            " is",
+            " a"
+          ],
+          "ngram_str": " There is a",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " there",
+            " is",
+            " a"
+          ],
+          "ngram_str": " there is a",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " a",
+            " bar",
+            " in"
+          ],
+          "ngram_str": " a bar in",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " seating",
+            " area",
+            " in"
+          ],
+          "ngram_str": " seating area in",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " back",
+            "."
+          ],
+          "ngram_str": " in the back.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " area",
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " area in the back",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            " in",
+            " the"
+          ],
+          "ngram_str": " parking lot in the",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " lot",
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " lot in the back",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " room",
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " room in the back",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " back",
+            " of"
+          ],
+          "ngram_str": " in the back of",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " middle",
+            " of"
+          ],
+          "ngram_str": " in the middle of",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " the",
+            " middle",
+            " of",
+            " the"
+          ],
+          "ngram_str": " the middle of the",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " a",
+            " bar",
+            " in",
+            " the"
+          ],
+          "ngram_str": " a bar in the",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " bar",
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " bar in the back",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " the",
+            " back",
+            " of",
+            " the"
+          ],
+          "ngram_str": " the back of the",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " back",
+            ","
+          ],
+          "ngram_str": " in the back,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " patio",
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " patio in the back",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " a",
+            " parking",
+            " lot",
+            " in"
+          ],
+          "ngram_str": " a parking lot in",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " front",
+            " of",
+            " the",
+            " restaurant"
+          ],
+          "ngram_str": " front of the restaurant",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10200000,
+      "corpus_coverage": 0.1973
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 13846,
+        "count": 9056,
+        "percent": 90.56
+      },
+      {
+        "feature_idx": 18439,
+        "count": 8908,
+        "percent": 89.08
+      },
+      {
+        "feature_idx": 12664,
+        "count": 7438,
+        "percent": 74.38
+      },
+      {
+        "feature_idx": 1683,
+        "count": 6494,
+        "percent": 64.94
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5501,
+        "percent": 55.01
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4069,
+        "percent": 40.69
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4023,
+        "percent": 40.23
+      },
+      {
+        "feature_idx": 15249,
+        "count": 3615,
+        "percent": 36.15
+      },
+      {
+        "feature_idx": 1589,
+        "count": 3253,
+        "percent": 32.53
+      },
+      {
+        "feature_idx": 12582,
+        "count": 3034,
+        "percent": 30.34
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2964,
+        "percent": 29.64
+      },
+      {
+        "feature_idx": 14445,
+        "count": 2875,
+        "percent": 28.75
+      },
+      {
+        "feature_idx": 5080,
+        "count": 2574,
+        "percent": 25.74
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2544,
+        "percent": 25.44
+      },
+      {
+        "feature_idx": 22966,
+        "count": 2524,
+        "percent": 25.24
+      },
+      {
+        "feature_idx": 15245,
+        "count": 2458,
+        "percent": 24.58
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2455,
+        "percent": 24.55
+      },
+      {
+        "feature_idx": 8508,
+        "count": 2425,
+        "percent": 24.25
+      },
+      {
+        "feature_idx": 5365,
+        "count": 2410,
+        "percent": 24.1
+      },
+      {
+        "feature_idx": 10458,
+        "count": 2215,
+        "percent": 22.15
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 10200000,
+      "corpus_coverage": 0.1973
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3063,
+        "percent": 30.63
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1949,
+        "percent": 19.49
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1480,
+        "percent": 14.8
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1532,
+        "percent": 15.32
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1976,
+        "percent": 19.76
+      }
+    ],
+    "mean_position": 0.4472,
+    "std_position": 0.3085
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 82,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0191,
+      "p25": 0.0258,
+      "p50": 0.0348,
+      "p75": 0.0522,
+      "p90": 0.066,
+      "p95": 0.0773,
+      "p99": 0.0922
+    },
+    "skewness": 0.8975,
+    "kurtosis": 0.2402,
+    "min": 0.0128,
+    "max": 0.093,
+    "mean": 0.0402,
+    "std": 0.0189
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 82,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": " in",
+        "count": 79,
+        "mean_activation": 0.0408
+      },
+      {
+        "token": " on",
+        "count": 1,
+        "mean_activation": 0.0257
+      },
+      {
+        "token": " especially",
+        "count": 1,
+        "mean_activation": 0.0171
+      },
+      {
+        "token": " upstairs",
+        "count": 1,
+        "mean_activation": 0.0342
+      }
+    ]
+  }
+}

@@ -1,0 +1,851 @@
+{
+  "feature_idx": 11130,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 24,
+    "mean_when_active": 0.09188397725423177,
+    "max_activation": 0.1744384765625,
+    "std_when_active": 0.054597639487859326,
+    "activation_rate": 0.00024
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 13538,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 11207,
+        "mean_activation": 0.10300611392324377
+      },
+      {
+        "token": " go",
+        "count": 699,
+        "mean_activation": 0.02284526688517078
+      },
+      {
+        "token": " wait",
+        "count": 366,
+        "mean_activation": 0.019478407062467982
+      },
+      {
+        "token": " for",
+        "count": 321,
+        "mean_activation": 0.05551789185711156
+      },
+      {
+        "token": " the",
+        "count": 145,
+        "mean_activation": 0.032484541268184265
+      },
+      {
+        "token": " be",
+        "count": 104,
+        "mean_activation": 0.05200884892390324
+      },
+      {
+        "token": " get",
+        "count": 101,
+        "mean_activation": 0.0362824543867961
+      },
+      {
+        "token": " until",
+        "count": 94,
+        "mean_activation": 0.04355978458485705
+      },
+      {
+        "token": " my",
+        "count": 67,
+        "mean_activation": 0.02875849026352612
+      },
+      {
+        "token": " have",
+        "count": 66,
+        "mean_activation": 0.04872258504231771
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 13538,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...he bowl. I can't wait** to** come back here again ...",
+        "active_token": " to",
+        "activation": 0.198974609375,
+        "review_id": "FtbfGkKfb17_h5Ag3F3w1Q",
+        "position": 80
+      },
+      {
+        "context": "...e spot.  I can't wait** to** go back, have another...",
+        "active_token": " to",
+        "activation": 0.197998046875,
+        "review_id": "NE0a1NsEj-NSyUjZcAddJQ",
+        "position": 228
+      },
+      {
+        "context": "...way out. I can't wait** to** come back here the ne...",
+        "active_token": " to",
+        "activation": 0.1953125,
+        "review_id": "wmXWqAKsQTges8iBloVuhA",
+        "position": 232
+      },
+      {
+        "context": "...ey were. I can't wait** to** go back and try more ...",
+        "active_token": " to",
+        "activation": 0.1949462890625,
+        "review_id": "8aPpoXilqQLFa_6gWB02qQ",
+        "position": 506
+      },
+      {
+        "context": "...mp taco! I can't wait** to** go back to try more. ...",
+        "active_token": " to",
+        "activation": 0.1939697265625,
+        "review_id": "plMqnh8T95KqxtiGuUY_Gw",
+        "position": 189
+      },
+      {
+        "context": "...s grown! I can't wait** to** see authentic chile r...",
+        "active_token": " to",
+        "activation": 0.193359375,
+        "review_id": "uacccxxFqEAlTg130HTAZw",
+        "position": 127
+      },
+      {
+        "context": "... it, and I can't wait** to** go back and get it ag...",
+        "active_token": " to",
+        "activation": 0.19287109375,
+        "review_id": "aUPTzKiOKW639SBedgpwzw",
+        "position": 155
+      },
+      {
+        "context": "...n sauce. I can't wait** to** try the lemon pepper ...",
+        "active_token": " to",
+        "activation": 0.1920166015625,
+        "review_id": "AIUFJDECD8je-OkOMVcxSQ",
+        "position": 157
+      },
+      {
+        "context": "...e by me. I can't wait** to** try the rest of the m...",
+        "active_token": " to",
+        "activation": 0.1920166015625,
+        "review_id": "X_nS1RzFhS3OqxwOTgJx4Q",
+        "position": 118
+      },
+      {
+        "context": "...yum yum! I can't wait** to** make an excuse to com...",
+        "active_token": " to",
+        "activation": 0.1915283203125,
+        "review_id": "nQ6dN2stNhqqfaEVg1H0kA",
+        "position": 230
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11130,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1729,
+        "max": 0.199,
+        "mean": 0.179
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " wait",
+            " to"
+          ],
+          "ngram_str": " wait to",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " wait"
+          ],
+          "ngram_str": "'t wait",
+          "count": 487,
+          "percent": 97.4
+        },
+        {
+          "ngram": [
+            " can",
+            "'t"
+          ],
+          "ngram_str": " can't",
+          "count": 480,
+          "percent": 96.0
+        },
+        {
+          "ngram": [
+            " I",
+            " can"
+          ],
+          "ngram_str": " I can",
+          "count": 412,
+          "percent": 82.4
+        },
+        {
+          "ngram": [
+            " to",
+            " go"
+          ],
+          "ngram_str": " to go",
+          "count": 232,
+          "percent": 46.4
+        },
+        {
+          "ngram": [
+            " go",
+            " back"
+          ],
+          "ngram_str": " go back",
+          "count": 218,
+          "percent": 43.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 199,
+          "percent": 39.8
+        },
+        {
+          "ngram": [
+            " back",
+            " and"
+          ],
+          "ngram_str": " back and",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " to",
+            " come"
+          ],
+          "ngram_str": " to come",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " come",
+            " back"
+          ],
+          "ngram_str": " come back",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " and",
+            " try"
+          ],
+          "ngram_str": " and try",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "!",
+            " I"
+          ],
+          "ngram_str": "! I",
+          "count": 61,
+          "percent": 12.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "'t",
+            " wait",
+            " to"
+          ],
+          "ngram_str": "'t wait to",
+          "count": 487,
+          "percent": 97.4
+        },
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " wait"
+          ],
+          "ngram_str": " can't wait",
+          "count": 480,
+          "percent": 96.0
+        },
+        {
+          "ngram": [
+            " I",
+            " can",
+            "'t"
+          ],
+          "ngram_str": " I can't",
+          "count": 406,
+          "percent": 81.2
+        },
+        {
+          "ngram": [
+            " wait",
+            " to",
+            " go"
+          ],
+          "ngram_str": " wait to go",
+          "count": 232,
+          "percent": 46.4
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " back"
+          ],
+          "ngram_str": " to go back",
+          "count": 218,
+          "percent": 43.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " can"
+          ],
+          "ngram_str": ". I can",
+          "count": 190,
+          "percent": 38.0
+        },
+        {
+          "ngram": [
+            " wait",
+            " to",
+            " come"
+          ],
+          "ngram_str": " wait to come",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " to",
+            " come",
+            " back"
+          ],
+          "ngram_str": " to come back",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " can"
+          ],
+          "ngram_str": "  I can",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " wait",
+            " to",
+            " try"
+          ],
+          "ngram_str": " wait to try",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " back",
+            " and",
+            " try"
+          ],
+          "ngram_str": " back and try",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " go",
+            " back",
+            " and"
+          ],
+          "ngram_str": " go back and",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "!",
+            " I",
+            " can"
+          ],
+          "ngram_str": "! I can",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            "I",
+            " can",
+            "'t"
+          ],
+          "ngram_str": "I can't",
+          "count": 55,
+          "percent": 11.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " can",
+            "'t",
+            " wait",
+            " to"
+          ],
+          "ngram_str": " can't wait to",
+          "count": 480,
+          "percent": 96.0
+        },
+        {
+          "ngram": [
+            " I",
+            " can",
+            "'t",
+            " wait"
+          ],
+          "ngram_str": " I can't wait",
+          "count": 406,
+          "percent": 81.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " wait",
+            " to",
+            " go"
+          ],
+          "ngram_str": "'t wait to go",
+          "count": 223,
+          "percent": 44.6
+        },
+        {
+          "ngram": [
+            " wait",
+            " to",
+            " go",
+            " back"
+          ],
+          "ngram_str": " wait to go back",
+          "count": 218,
+          "percent": 43.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " can",
+            "'t"
+          ],
+          "ngram_str": ". I can't",
+          "count": 187,
+          "percent": 37.4
+        },
+        {
+          "ngram": [
+            " wait",
+            " to",
+            " come",
+            " back"
+          ],
+          "ngram_str": " wait to come back",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            "'t",
+            " wait",
+            " to",
+            " come"
+          ],
+          "ngram_str": "'t wait to come",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " can",
+            "'t"
+          ],
+          "ngram_str": "  I can't",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            "'t",
+            " wait",
+            " to",
+            " try"
+          ],
+          "ngram_str": "'t wait to try",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " back",
+            " and"
+          ],
+          "ngram_str": " to go back and",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "!",
+            " I",
+            " can",
+            "'t"
+          ],
+          "ngram_str": "! I can't",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "I",
+            " can",
+            "'t",
+            " wait"
+          ],
+          "ngram_str": "I can't wait",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " can"
+          ],
+          "ngram_str": "\u00c4\u012cI can",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I",
+            " can",
+            "'t"
+          ],
+          "ngram_str": "\u012cI can't",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " go",
+            " back",
+            " and",
+            " try"
+          ],
+          "ngram_str": " go back and try",
+          "count": 50,
+          "percent": 10.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 38000000,
+      "corpus_coverage": 0.735
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 7797,
+        "count": 9545,
+        "percent": 95.45
+      },
+      {
+        "feature_idx": 14534,
+        "count": 9491,
+        "percent": 94.91
+      },
+      {
+        "feature_idx": 17430,
+        "count": 9194,
+        "percent": 91.94
+      },
+      {
+        "feature_idx": 15209,
+        "count": 9112,
+        "percent": 91.12
+      },
+      {
+        "feature_idx": 7306,
+        "count": 8900,
+        "percent": 89.0
+      },
+      {
+        "feature_idx": 16339,
+        "count": 8298,
+        "percent": 82.98
+      },
+      {
+        "feature_idx": 23664,
+        "count": 8269,
+        "percent": 82.69
+      },
+      {
+        "feature_idx": 18704,
+        "count": 7920,
+        "percent": 79.2
+      },
+      {
+        "feature_idx": 12976,
+        "count": 7261,
+        "percent": 72.61
+      },
+      {
+        "feature_idx": 24461,
+        "count": 7020,
+        "percent": 70.2
+      },
+      {
+        "feature_idx": 10548,
+        "count": 6325,
+        "percent": 63.25
+      },
+      {
+        "feature_idx": 15182,
+        "count": 6159,
+        "percent": 61.59
+      },
+      {
+        "feature_idx": 3433,
+        "count": 5868,
+        "percent": 58.68
+      },
+      {
+        "feature_idx": 11950,
+        "count": 5289,
+        "percent": 52.89
+      },
+      {
+        "feature_idx": 9148,
+        "count": 4989,
+        "percent": 49.89
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4976,
+        "percent": 49.76
+      },
+      {
+        "feature_idx": 24308,
+        "count": 4594,
+        "percent": 45.94
+      },
+      {
+        "feature_idx": 7907,
+        "count": 4510,
+        "percent": 45.1
+      },
+      {
+        "feature_idx": 9813,
+        "count": 4452,
+        "percent": 44.52
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4188,
+        "percent": 41.88
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 38000000,
+      "corpus_coverage": 0.735
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 481,
+        "percent": 4.81
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 411,
+        "percent": 4.11
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 642,
+        "percent": 6.42
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1416,
+        "percent": 14.16
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 7050,
+        "percent": 70.5
+      }
+    ],
+    "mean_position": 0.8049,
+    "std_position": 0.2342
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 24,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0223,
+      "p25": 0.0352,
+      "p50": 0.1152,
+      "p75": 0.1368,
+      "p90": 0.1591,
+      "p95": 0.161,
+      "p99": 0.1714
+    },
+    "skewness": -0.0734,
+    "kurtosis": -1.6254,
+    "min": 0.0157,
+    "max": 0.1744,
+    "mean": 0.0919,
+    "std": 0.0546
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 24,
+      "unique_tokens_found": 5
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 20,
+        "mean_activation": 0.1022
+      },
+      {
+        "token": " go",
+        "count": 1,
+        "mean_activation": 0.0195
+      },
+      {
+        "token": " be",
+        "count": 1,
+        "mean_activation": 0.0334
+      },
+      {
+        "token": " for",
+        "count": 1,
+        "mean_activation": 0.0645
+      },
+      {
+        "token": " my",
+        "count": 1,
+        "mean_activation": 0.0428
+      }
+    ]
+  }
+}

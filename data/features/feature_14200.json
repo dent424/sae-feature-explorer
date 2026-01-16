@@ -1,0 +1,866 @@
+{
+  "feature_idx": 14200,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 16,
+    "mean_when_active": 0.10770702362060547,
+    "max_activation": 0.18017578125,
+    "std_when_active": 0.0498551233478957,
+    "activation_rate": 0.00016
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7895,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " pup",
+        "count": 2360,
+        "mean_activation": 0.1642192258673199
+      },
+      {
+        "token": " draft",
+        "count": 1621,
+        "mean_activation": 0.0920760891894953
+      },
+      {
+        "token": "ce",
+        "count": 1363,
+        "mean_activation": 0.15296387480010204
+      },
+      {
+        "token": " drafts",
+        "count": 325,
+        "mean_activation": 0.07351712740384615
+      },
+      {
+        "token": " cider",
+        "count": 252,
+        "mean_activation": 0.06433601984902033
+      },
+      {
+        "token": "CE",
+        "count": 190,
+        "mean_activation": 0.045349924187911186
+      },
+      {
+        "token": " waist",
+        "count": 182,
+        "mean_activation": 0.05576936491243132
+      },
+      {
+        "token": "ces",
+        "count": 142,
+        "mean_activation": 0.041692062163017164
+      },
+      {
+        "token": " Draft",
+        "count": 90,
+        "mean_activation": 0.09104715983072917
+      },
+      {
+        "token": "oe",
+        "count": 83,
+        "mean_activation": 0.024574923228068524
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7895,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ng Colombian star, Mar**ce**la Pinella....oh my!\\n\\n...",
+        "active_token": "ce",
+        "activation": 0.2305908203125,
+        "review_id": "G35D-8Byw0ZPXxradf6Q0g",
+        "position": 571
+      },
+      {
+        "context": "...y to see Sandra or Mar**ce**la running around... g...",
+        "active_token": "ce",
+        "activation": 0.22802734375,
+        "review_id": "1gepFToeGmxcNUKnSi2YyA",
+        "position": 223
+      },
+      {
+        "context": "...f empanadas, tamales,** pup**usas revueltas. And I...",
+        "active_token": " pup",
+        "activation": 0.223876953125,
+        "review_id": "dmIR4tOsXRvNZ8Lv3OfyMQ",
+        "position": 40
+      },
+      {
+        "context": "...sy, lunch hour and Mar**ce**la let us know she cou...",
+        "active_token": "ce",
+        "activation": 0.2230224609375,
+        "review_id": "7cYJMqHjcKDtDHr73P44bw",
+        "position": 29
+      },
+      {
+        "context": "...makes everything from** pup**usas to pozole in a g...",
+        "active_token": " pup",
+        "activation": 0.222900390625,
+        "review_id": "3Cm3Xn0tgXfThtFP5bOnNw",
+        "position": 107
+      },
+      {
+        "context": "...reakfast kiss from Mar**ce**la :)",
+        "active_token": "ce",
+        "activation": 0.22265625,
+        "review_id": "tNK0e5wsUtasF00Qv0GwWA",
+        "position": 86
+      },
+      {
+        "context": "Her name is Mar**ce**la Davila.   She is a force",
+        "active_token": "ce",
+        "activation": 0.221923828125,
+        "review_id": "wppUyc7JnVZRK7kQd3_Xmw",
+        "position": 4
+      },
+      {
+        "context": "... tacos and chicharron** pup**usa. Every dish was p...",
+        "active_token": " pup",
+        "activation": 0.221923828125,
+        "review_id": "xB3nSbKSJmbBGbE9-_9WtQ",
+        "position": 50
+      },
+      {
+        "context": "...Gato Negro, Taceaux Lo**ce**aux food truck, Rum Ho...",
+        "active_token": "ce",
+        "activation": 0.2218017578125,
+        "review_id": "So8j0DgzqIL_kuGGRrNGkw",
+        "position": 314
+      },
+      {
+        "context": "...m scratch.  And at Mar**ce**la's it certainly turn...",
+        "active_token": "ce",
+        "activation": 0.2213134765625,
+        "review_id": "rSZUZWjQvDBKjUUmrbGDiA",
+        "position": 835
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 14200,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1914,
+        "max": 0.2306,
+        "mean": 0.2013
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " pup",
+            "us"
+          ],
+          "ngram_str": " pupus",
+          "count": 279,
+          "percent": 55.8
+        },
+        {
+          "ngram": [
+            "us",
+            "as"
+          ],
+          "ngram_str": "usas",
+          "count": 277,
+          "percent": 55.4
+        },
+        {
+          "ngram": [
+            " pup",
+            "usa"
+          ],
+          "ngram_str": " pupusa",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            "as",
+            ","
+          ],
+          "ngram_str": "as,",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " and",
+            " pup"
+          ],
+          "ngram_str": " and pup",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " the",
+            " pup"
+          ],
+          "ngram_str": " the pup",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "as",
+            "."
+          ],
+          "ngram_str": "as.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ",",
+            " pup"
+          ],
+          "ngram_str": ", pup",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "ce",
+            "aux"
+          ],
+          "ngram_str": "ceaux",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "ace",
+            "aux"
+          ],
+          "ngram_str": "aceaux",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " Lo",
+            "ce"
+          ],
+          "ngram_str": " Loce",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " cheese",
+            " pup"
+          ],
+          "ngram_str": " cheese pup",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "aux",
+            " Lo"
+          ],
+          "ngram_str": "aux Lo",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " T",
+            "ace"
+          ],
+          "ngram_str": " Tace",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": " pupusas",
+          "count": 276,
+          "percent": 55.2
+        },
+        {
+          "ngram": [
+            "us",
+            "as",
+            ","
+          ],
+          "ngram_str": "usas,",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "us",
+            "as",
+            "."
+          ],
+          "ngram_str": "usas.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " and",
+            " pup",
+            "us"
+          ],
+          "ngram_str": " and pupus",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " the",
+            " pup",
+            "us"
+          ],
+          "ngram_str": " the pupus",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " Lo",
+            "ce",
+            "aux"
+          ],
+          "ngram_str": " Loceaux",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ",",
+            " pup",
+            "us"
+          ],
+          "ngram_str": ", pupus",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "ace",
+            "aux",
+            " Lo"
+          ],
+          "ngram_str": "aceaux Lo",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "aux",
+            " Lo",
+            "ce"
+          ],
+          "ngram_str": "aux Loce",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " T",
+            "ace",
+            "aux"
+          ],
+          "ngram_str": " Taceaux",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " and",
+            " cheese",
+            " pup"
+          ],
+          "ngram_str": " and cheese pup",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "us",
+            "as",
+            " and"
+          ],
+          "ngram_str": "usas and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " tacos",
+            " and",
+            " pup"
+          ],
+          "ngram_str": " tacos and pup",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "us",
+            "as",
+            " are"
+          ],
+          "ngram_str": "usas are",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " cheese",
+            " pup",
+            "usa"
+          ],
+          "ngram_str": " cheese pupusa",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            ","
+          ],
+          "ngram_str": " pupusas,",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            "."
+          ],
+          "ngram_str": " pupusas.",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " and",
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": " and pupusas",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " the",
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": " the pupusas",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "ace",
+            "aux",
+            " Lo",
+            "ce"
+          ],
+          "ngram_str": "aceaux Loce",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "aux",
+            " Lo",
+            "ce",
+            "aux"
+          ],
+          "ngram_str": "aux Loceaux",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": ", pupusas",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " T",
+            "ace",
+            "aux",
+            " Lo"
+          ],
+          "ngram_str": " Taceaux Lo",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            " and"
+          ],
+          "ngram_str": " pupusas and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            " are"
+          ],
+          "ngram_str": " pupusas are",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " and",
+            " pup",
+            "us"
+          ],
+          "ngram_str": " tacos and pupus",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " and",
+            " cheese",
+            " pup",
+            "usa"
+          ],
+          "ngram_str": " and cheese pupusa",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "us",
+            "as",
+            ",",
+            " and"
+          ],
+          "ngram_str": "usas, and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " pup",
+            "us",
+            "as",
+            " were"
+          ],
+          "ngram_str": " pupusas were",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " The",
+            " pup",
+            "us",
+            "as"
+          ],
+          "ngram_str": " The pupusas",
+          "count": 14,
+          "percent": 2.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7895,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4071,
+        "percent": 51.56
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3807,
+        "percent": 48.22
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3717,
+        "percent": 47.08
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2632,
+        "percent": 33.34
+      },
+      {
+        "feature_idx": 469,
+        "count": 2427,
+        "percent": 30.74
+      },
+      {
+        "feature_idx": 22487,
+        "count": 2405,
+        "percent": 30.46
+      },
+      {
+        "feature_idx": 4027,
+        "count": 2397,
+        "percent": 30.36
+      },
+      {
+        "feature_idx": 3413,
+        "count": 2386,
+        "percent": 30.22
+      },
+      {
+        "feature_idx": 10671,
+        "count": 2379,
+        "percent": 30.13
+      },
+      {
+        "feature_idx": 7897,
+        "count": 2378,
+        "percent": 30.12
+      },
+      {
+        "feature_idx": 11397,
+        "count": 2371,
+        "percent": 30.03
+      },
+      {
+        "feature_idx": 16148,
+        "count": 2339,
+        "percent": 29.63
+      },
+      {
+        "feature_idx": 21600,
+        "count": 2333,
+        "percent": 29.55
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2276,
+        "percent": 28.83
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2224,
+        "percent": 28.17
+      },
+      {
+        "feature_idx": 9694,
+        "count": 2167,
+        "percent": 27.45
+      },
+      {
+        "feature_idx": 8431,
+        "count": 2084,
+        "percent": 26.4
+      },
+      {
+        "feature_idx": 3960,
+        "count": 2083,
+        "percent": 26.38
+      },
+      {
+        "feature_idx": 21340,
+        "count": 2082,
+        "percent": 26.37
+      },
+      {
+        "feature_idx": 15968,
+        "count": 2070,
+        "percent": 26.22
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7895,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1466,
+        "percent": 18.57
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1731,
+        "percent": 21.93
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1681,
+        "percent": 21.29
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1618,
+        "percent": 20.49
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1399,
+        "percent": 17.72
+      }
+    ],
+    "mean_position": 0.4922,
+    "std_position": 0.278
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 16,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0394,
+      "p25": 0.0634,
+      "p50": 0.1234,
+      "p75": 0.1469,
+      "p90": 0.1605,
+      "p95": 0.1704,
+      "p99": 0.1782
+    },
+    "skewness": -0.2912,
+    "kurtosis": -1.3815,
+    "min": 0.0261,
+    "max": 0.1802,
+    "mean": 0.1077,
+    "std": 0.0499
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 16,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " pup",
+        "count": 4,
+        "mean_activation": 0.157
+      },
+      {
+        "token": "ce",
+        "count": 4,
+        "mean_activation": 0.1477
+      },
+      {
+        "token": " draft",
+        "count": 3,
+        "mean_activation": 0.095
+      },
+      {
+        "token": "CE",
+        "count": 1,
+        "mean_activation": 0.045
+      },
+      {
+        "token": " Couch",
+        "count": 1,
+        "mean_activation": 0.0368
+      },
+      {
+        "token": " confess",
+        "count": 1,
+        "mean_activation": 0.042
+      },
+      {
+        "token": " drafts",
+        "count": 1,
+        "mean_activation": 0.0695
+      },
+      {
+        "token": " newborn",
+        "count": 1,
+        "mean_activation": 0.0261
+      }
+    ]
+  }
+}

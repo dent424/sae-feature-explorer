@@ -1,0 +1,876 @@
+{
+  "feature_idx": 2499,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 299,
+    "mean_when_active": 0.05113546824375523,
+    "max_activation": 0.1890869140625,
+    "std_when_active": 0.032316493889852874,
+    "activation_rate": 0.00299
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 14600000,
+      "corpus_coverage": 0.2824
+    },
+    "top_tokens": [
+      {
+        "token": " of",
+        "count": 2793,
+        "mean_activation": 0.06984287020215159
+      },
+      {
+        "token": " few",
+        "count": 2757,
+        "mean_activation": 0.09639579487919245
+      },
+      {
+        "token": " the",
+        "count": 1706,
+        "mean_activation": 0.0655476971499945
+      },
+      {
+        "token": " couple",
+        "count": 1326,
+        "mean_activation": 0.08528666546621654
+      },
+      {
+        "token": " times",
+        "count": 1221,
+        "mean_activation": 0.02664448881032133
+      },
+      {
+        "token": " several",
+        "count": 1153,
+        "mean_activation": 0.08608786458051008
+      },
+      {
+        "token": " many",
+        "count": 1109,
+        "mean_activation": 0.08635364253849893
+      },
+      {
+        "token": " other",
+        "count": 963,
+        "mean_activation": 0.06826845606787059
+      },
+      {
+        "token": " any",
+        "count": 848,
+        "mean_activation": 0.061102174363046324
+      },
+      {
+        "token": " little",
+        "count": 846,
+        "mean_activation": 0.044768114743785094
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 14600000,
+      "corpus_coverage": 0.2824
+    },
+    "activations": [
+      {
+        "context": "...stablishment a number** of** times, but never actu...",
+        "active_token": " of",
+        "activation": 0.2080078125,
+        "review_id": "vGSgB_miUcxM2oFLTCcIFg",
+        "position": 34
+      },
+      {
+        "context": "... restaurant a handful** of** times and any time I'...",
+        "active_token": " of",
+        "activation": 0.201171875,
+        "review_id": "YGipnZXhtm1zAslsX0zIMg",
+        "position": 10
+      },
+      {
+        "context": "...by this place a bunch** of** times and it's always...",
+        "active_token": " of",
+        "activation": 0.19775390625,
+        "review_id": "oDBgl7jJj-OzPcnD4hTAgg",
+        "position": 18
+      },
+      {
+        "context": "...his establishment a** number** of times, but never...",
+        "active_token": " number",
+        "activation": 0.194580078125,
+        "review_id": "vGSgB_miUcxM2oFLTCcIFg",
+        "position": 33
+      },
+      {
+        "context": "...his location a number** of** times.  While there i...",
+        "active_token": " of",
+        "activation": 0.1943359375,
+        "review_id": "ajhjtJYJ8jYfKuCDRV7tpA",
+        "position": 7
+      },
+      {
+        "context": "...o this place a couple** of** times because my frie...",
+        "active_token": " of",
+        "activation": 0.1943359375,
+        "review_id": "Q5VY_Z8FsqtK0rWnH2aA1A",
+        "position": 7
+      },
+      {
+        "context": "...yote Crossing a bunch** of** times over the past 1...",
+        "active_token": " of",
+        "activation": 0.1942138671875,
+        "review_id": "Cwi5FNM7z7wK1DWhrOiAzA",
+        "position": 9
+      },
+      {
+        "context": "...en to this place many** of** times and I am very s...",
+        "active_token": " of",
+        "activation": 0.194091796875,
+        "review_id": "7cGoXdxDp7e00M44Kk_mOQ",
+        "position": 7
+      },
+      {
+        "context": "...ast this place dozens** of** times in Rittenhouse ...",
+        "active_token": " of",
+        "activation": 0.19384765625,
+        "review_id": "jp_bCQlEQyNiuxUA_ORRLw",
+        "position": 43
+      },
+      {
+        "context": "...s restaurant a number** of** times and their food ...",
+        "active_token": " of",
+        "activation": 0.193115234375,
+        "review_id": "9y0t1kNRFnnoBSa9zf2mVA",
+        "position": 8
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 2499,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 28900000,
+      "corpus_coverage": 0.559,
+      "activation_range": {
+        "min": 0.1681,
+        "max": 0.2117,
+        "mean": 0.1755
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " of",
+            " times"
+          ],
+          "ngram_str": " of times",
+          "count": 312,
+          "percent": 62.4
+        },
+        {
+          "ngram": [
+            " here",
+            " a"
+          ],
+          "ngram_str": " here a",
+          "count": 234,
+          "percent": 46.8
+        },
+        {
+          "ngram": [
+            " a",
+            " few"
+          ],
+          "ngram_str": " a few",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " times",
+            " and"
+          ],
+          "ngram_str": " times and",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            " few",
+            " times"
+          ],
+          "ngram_str": " few times",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            " been",
+            " here"
+          ],
+          "ngram_str": " been here",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            " a",
+            " couple"
+          ],
+          "ngram_str": " a couple",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            " couple",
+            " of"
+          ],
+          "ngram_str": " couple of",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            "en",
+            " here"
+          ],
+          "ngram_str": "en here",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            "Be",
+            "en"
+          ],
+          "ngram_str": "Been",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " handful",
+            " of"
+          ],
+          "ngram_str": " handful of",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " a",
+            " handful"
+          ],
+          "ngram_str": " a handful",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " to",
+            " this"
+          ],
+          "ngram_str": " to this",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " number",
+            " of"
+          ],
+          "ngram_str": " number of",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " a",
+            " number"
+          ],
+          "ngram_str": " a number",
+          "count": 77,
+          "percent": 15.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " few",
+            " times"
+          ],
+          "ngram_str": " a few times",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            " a",
+            " couple",
+            " of"
+          ],
+          "ngram_str": " a couple of",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " of",
+            " times",
+            " and"
+          ],
+          "ngram_str": " of times and",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " been",
+            " here",
+            " a"
+          ],
+          "ngram_str": " been here a",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " here",
+            " a",
+            " few"
+          ],
+          "ngram_str": " here a few",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            "Be",
+            "en",
+            " here"
+          ],
+          "ngram_str": "Been here",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " a",
+            " handful",
+            " of"
+          ],
+          "ngram_str": " a handful of",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " couple",
+            " of",
+            " times"
+          ],
+          "ngram_str": " couple of times",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " handful",
+            " of",
+            " times"
+          ],
+          "ngram_str": " handful of times",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            "en",
+            " here",
+            " a"
+          ],
+          "ngram_str": "en here a",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " number",
+            " of",
+            " times"
+          ],
+          "ngram_str": " number of times",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " a",
+            " number",
+            " of"
+          ],
+          "ngram_str": " a number of",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            " a"
+          ],
+          "ngram_str": " this place a",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " of",
+            " times",
+            "."
+          ],
+          "ngram_str": " of times.",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " here",
+            " a",
+            " couple"
+          ],
+          "ngram_str": " here a couple",
+          "count": 45,
+          "percent": 9.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " a",
+            " couple",
+            " of",
+            " times"
+          ],
+          "ngram_str": " a couple of times",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            "Be",
+            "en",
+            " here",
+            " a"
+          ],
+          "ngram_str": "Been here a",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " a",
+            " handful",
+            " of",
+            " times"
+          ],
+          "ngram_str": " a handful of times",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " here",
+            " a",
+            " few",
+            " times"
+          ],
+          "ngram_str": " here a few times",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " a",
+            " number",
+            " of",
+            " times"
+          ],
+          "ngram_str": " a number of times",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            "en",
+            " here",
+            " a",
+            " few"
+          ],
+          "ngram_str": "en here a few",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " here",
+            " a",
+            " couple",
+            " of"
+          ],
+          "ngram_str": " here a couple of",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " here",
+            " a",
+            " handful",
+            " of"
+          ],
+          "ngram_str": " here a handful of",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " here",
+            " a",
+            " number",
+            " of"
+          ],
+          "ngram_str": " here a number of",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "'ve",
+            " been",
+            " here",
+            " a"
+          ],
+          "ngram_str": "'ve been here a",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " have",
+            " been",
+            " here",
+            " a"
+          ],
+          "ngram_str": " have been here a",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " times",
+            " and"
+          ],
+          "ngram_str": " a few times and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " handful",
+            " of",
+            " times",
+            " and"
+          ],
+          "ngram_str": " handful of times and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " been",
+            " here",
+            " a",
+            " handful"
+          ],
+          "ngram_str": " been here a handful",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " to",
+            " this",
+            " place",
+            " a"
+          ],
+          "ngram_str": " to this place a",
+          "count": 26,
+          "percent": 5.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3000000,
+      "corpus_coverage": 0.058
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11763,
+        "count": 7454,
+        "percent": 74.54
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5199,
+        "percent": 51.99
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4861,
+        "percent": 48.61
+      },
+      {
+        "feature_idx": 21583,
+        "count": 3795,
+        "percent": 37.95
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3540,
+        "percent": 35.4
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3329,
+        "percent": 33.29
+      },
+      {
+        "feature_idx": 19141,
+        "count": 3126,
+        "percent": 31.26
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2958,
+        "percent": 29.58
+      },
+      {
+        "feature_idx": 2108,
+        "count": 2937,
+        "percent": 29.37
+      },
+      {
+        "feature_idx": 15974,
+        "count": 2378,
+        "percent": 23.78
+      },
+      {
+        "feature_idx": 23429,
+        "count": 2193,
+        "percent": 21.93
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1869,
+        "percent": 18.69
+      },
+      {
+        "feature_idx": 540,
+        "count": 1864,
+        "percent": 18.64
+      },
+      {
+        "feature_idx": 11850,
+        "count": 1848,
+        "percent": 18.48
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1820,
+        "percent": 18.2
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1630,
+        "percent": 16.3
+      },
+      {
+        "feature_idx": 328,
+        "count": 1571,
+        "percent": 15.71
+      },
+      {
+        "feature_idx": 20597,
+        "count": 1539,
+        "percent": 15.39
+      },
+      {
+        "feature_idx": 753,
+        "count": 1339,
+        "percent": 13.39
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1320,
+        "percent": 13.2
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3000000,
+      "corpus_coverage": 0.058
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3148,
+        "percent": 31.48
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1841,
+        "percent": 18.41
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1590,
+        "percent": 15.9
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1577,
+        "percent": 15.77
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1844,
+        "percent": 18.44
+      }
+    ],
+    "mean_position": 0.4397,
+    "std_position": 0.3118
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 299,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0232,
+      "p25": 0.0281,
+      "p50": 0.0392,
+      "p75": 0.0648,
+      "p90": 0.1033,
+      "p95": 0.1216,
+      "p99": 0.1485
+    },
+    "skewness": 1.4472,
+    "kurtosis": 1.6865,
+    "min": 0.0132,
+    "max": 0.1891,
+    "mean": 0.0511,
+    "std": 0.0323
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 299,
+      "unique_tokens_found": 138
+    },
+    "tokens": [
+      {
+        "token": " few",
+        "count": 21,
+        "mean_activation": 0.0823
+      },
+      {
+        "token": " lot",
+        "count": 9,
+        "mean_activation": 0.0551
+      },
+      {
+        "token": " of",
+        "count": 9,
+        "mean_activation": 0.0463
+      },
+      {
+        "token": " much",
+        "count": 9,
+        "mean_activation": 0.0351
+      },
+      {
+        "token": " more",
+        "count": 8,
+        "mean_activation": 0.0443
+      },
+      {
+        "token": " the",
+        "count": 8,
+        "mean_activation": 0.0793
+      },
+      {
+        "token": " times",
+        "count": 7,
+        "mean_activation": 0.0316
+      },
+      {
+        "token": " many",
+        "count": 7,
+        "mean_activation": 0.1263
+      },
+      {
+        "token": " every",
+        "count": 6,
+        "mean_activation": 0.0373
+      },
+      {
+        "token": " next",
+        "count": 6,
+        "mean_activation": 0.0907
+      }
+    ]
+  }
+}

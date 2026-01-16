@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5005,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 50,
+    "mean_when_active": 0.147720947265625,
+    "max_activation": 0.24853515625,
+    "std_when_active": 0.06778444755619871,
+    "activation_rate": 0.0005
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 25551,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " parking",
+        "count": 12727,
+        "mean_activation": 0.17651520650609923
+      },
+      {
+        "token": " Parking",
+        "count": 1727,
+        "mean_activation": 0.21422689556040098
+      },
+      {
+        "token": " park",
+        "count": 1706,
+        "mean_activation": 0.14571857787799725
+      },
+      {
+        "token": "ing",
+        "count": 1031,
+        "mean_activation": 0.12005291114607329
+      },
+      {
+        "token": " parked",
+        "count": 771,
+        "mean_activation": 0.2020287420963035
+      },
+      {
+        "token": "Park",
+        "count": 759,
+        "mean_activation": 0.15533197978425559
+      },
+      {
+        "token": " pissed",
+        "count": 539,
+        "mean_activation": 0.06511137613781308
+      },
+      {
+        "token": " garden",
+        "count": 442,
+        "mean_activation": 0.04150521809159361
+      },
+      {
+        "token": " piss",
+        "count": 229,
+        "mean_activation": 0.06623313937124727
+      },
+      {
+        "token": " charging",
+        "count": 214,
+        "mean_activation": 0.03901009247681805
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 25551,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...h driving around or** parking** across the street ...",
+        "active_token": " parking",
+        "activation": 0.2880859375,
+        "review_id": "Lz7-QX53uGdtC8Vv9dZ3lQ",
+        "position": 160
+      },
+      {
+        "context": "...e and professional,** parking** was easy, the food...",
+        "active_token": " parking",
+        "activation": 0.282958984375,
+        "review_id": "X5Y-l97jc8FzjXWTkwm2rQ",
+        "position": 211
+      },
+      {
+        "context": "... so it's no problem** parking**.\\n\\nThe price isn't ...",
+        "active_token": " parking",
+        "activation": 0.28173828125,
+        "review_id": "0luHrXTFBWrgQOMsJ6SbGw",
+        "position": 345
+      },
+      {
+        "context": "...upon pulling up and** parking**, I saw a man leavi...",
+        "active_token": " parking",
+        "activation": 0.275634765625,
+        "review_id": "YOC59-Sx6y9zKz9mAuXxFQ",
+        "position": 22
+      },
+      {
+        "context": "...ly standing around,** parking** an issue if busy. ...",
+        "active_token": " parking",
+        "activation": 0.275146484375,
+        "review_id": "6VcoCaUIxLi_ZkaPIzNfhQ",
+        "position": 27
+      },
+      {
+        "context": "... prime, I recommend** parking** at the Amtrak stat...",
+        "active_token": " parking",
+        "activation": 0.275146484375,
+        "review_id": "sKOM04Hz-Zophw-si-Br5Q",
+        "position": 50
+      },
+      {
+        "context": "...low and I recommend** parking** in the back as the...",
+        "active_token": " parking",
+        "activation": 0.27392578125,
+        "review_id": "9WWJq_81CXcdNdat8HqO6g",
+        "position": 16
+      },
+      {
+        "context": "...mployees were nice,** parking** is awful, food is ...",
+        "active_token": " parking",
+        "activation": 0.27294921875,
+        "review_id": "BoD4mxyUXFWagEs4-fzQSw",
+        "position": 5
+      },
+      {
+        "context": "... busy time, plan on** parking** in the streets.",
+        "active_token": " parking",
+        "activation": 0.27294921875,
+        "review_id": "87WL6l93S0xzWrBaGuUjsQ",
+        "position": 254
+      },
+      {
+        "context": "...n the street\" after** parking** the car the same g...",
+        "active_token": " parking",
+        "activation": 0.27197265625,
+        "review_id": "FV4o5OulTF8rWgc8hZMMFQ",
+        "position": 58
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5005,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2411,
+        "max": 0.2881,
+        "mean": 0.2506
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ",",
+            " parking"
+          ],
+          "ngram_str": ", parking",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " parking",
+            " is"
+          ],
+          "ngram_str": " parking is",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking"
+          ],
+          "ngram_str": ". Parking",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " parking",
+            " was"
+          ],
+          "ngram_str": " parking was",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " and",
+            " parking"
+          ],
+          "ngram_str": " and parking",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " parking",
+            " on"
+          ],
+          "ngram_str": " parking on",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " can",
+            " be"
+          ],
+          "ngram_str": " can be",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " parking",
+            " in"
+          ],
+          "ngram_str": " parking in",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " street"
+          ],
+          "ngram_str": " the street",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " parking",
+            "."
+          ],
+          "ngram_str": " parking.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " parking",
+            " can",
+            " be"
+          ],
+          "ngram_str": " parking can be",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " parking",
+            " on",
+            " the"
+          ],
+          "ngram_str": " parking on the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " parking",
+            " in",
+            " the"
+          ],
+          "ngram_str": " parking in the",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " street"
+          ],
+          "ngram_str": " on the street",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " can",
+            " be",
+            " a"
+          ],
+          "ngram_str": " can be a",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " ended",
+            " up",
+            " parking"
+          ],
+          "ngram_str": " ended up parking",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " parking"
+          ],
+          "ngram_str": ", so parking",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " parking",
+            " is"
+          ],
+          "ngram_str": ", parking is",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " parked"
+          ],
+          "ngram_str": ". We parked",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking",
+            " is"
+          ],
+          "ngram_str": ". Parking is",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking",
+            " was"
+          ],
+          "ngram_str": ". Parking was",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ",",
+            " parking",
+            " was"
+          ],
+          "ngram_str": ", parking was",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " parking",
+            " was"
+          ],
+          "ngram_str": " and parking was",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " parking",
+            " on",
+            " the",
+            " street"
+          ],
+          "ngram_str": " parking on the street",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " parking",
+            " can",
+            " be",
+            " a"
+          ],
+          "ngram_str": " parking can be a",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ",",
+            " parking",
+            " can",
+            " be"
+          ],
+          "ngram_str": ", parking can be",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " parking",
+            " is"
+          ],
+          "ngram_str": ", so parking is",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " We",
+            " parked",
+            " in",
+            " the"
+          ],
+          "ngram_str": " We parked in the",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " street",
+            "."
+          ],
+          "ngram_str": " on the street.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " ended",
+            " up",
+            " parking",
+            " on"
+          ],
+          "ngram_str": " ended up parking on",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " parked",
+            " in"
+          ],
+          "ngram_str": ". We parked in",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking",
+            " is",
+            " a"
+          ],
+          "ngram_str": ". Parking is a",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking",
+            " can",
+            " be"
+          ],
+          "ngram_str": ". Parking can be",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " recommend",
+            " parking",
+            " in",
+            " the"
+          ],
+          "ngram_str": " recommend parking in the",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " I",
+            " ended",
+            " up",
+            " parking"
+          ],
+          "ngram_str": " I ended up parking",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " parking",
+            " was",
+            " a"
+          ],
+          "ngram_str": ", parking was a",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 20300000,
+      "corpus_coverage": 0.3926
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22858,
+        "count": 7518,
+        "percent": 75.18
+      },
+      {
+        "feature_idx": 18737,
+        "count": 7442,
+        "percent": 74.42
+      },
+      {
+        "feature_idx": 15553,
+        "count": 6344,
+        "percent": 63.44
+      },
+      {
+        "feature_idx": 19071,
+        "count": 6272,
+        "percent": 62.72
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6156,
+        "percent": 61.56
+      },
+      {
+        "feature_idx": 2213,
+        "count": 6141,
+        "percent": 61.41
+      },
+      {
+        "feature_idx": 646,
+        "count": 5962,
+        "percent": 59.62
+      },
+      {
+        "feature_idx": 8650,
+        "count": 5837,
+        "percent": 58.37
+      },
+      {
+        "feature_idx": 21898,
+        "count": 4857,
+        "percent": 48.57
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4496,
+        "percent": 44.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4022,
+        "percent": 40.22
+      },
+      {
+        "feature_idx": 19741,
+        "count": 3457,
+        "percent": 34.57
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3423,
+        "percent": 34.23
+      },
+      {
+        "feature_idx": 3096,
+        "count": 3354,
+        "percent": 33.54
+      },
+      {
+        "feature_idx": 3398,
+        "count": 3349,
+        "percent": 33.49
+      },
+      {
+        "feature_idx": 20238,
+        "count": 2812,
+        "percent": 28.12
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2800,
+        "percent": 28.0
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2766,
+        "percent": 27.66
+      },
+      {
+        "feature_idx": 13621,
+        "count": 2716,
+        "percent": 27.16
+      },
+      {
+        "feature_idx": 21005,
+        "count": 2669,
+        "percent": 26.69
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 20300000,
+      "corpus_coverage": 0.3926
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2252,
+        "percent": 22.52
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1774,
+        "percent": 17.74
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1221,
+        "percent": 12.21
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1785,
+        "percent": 17.85
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2968,
+        "percent": 29.68
+      }
+    ],
+    "mean_position": 0.5315,
+    "std_position": 0.3158
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 50,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0383,
+      "p25": 0.0934,
+      "p50": 0.1664,
+      "p75": 0.1971,
+      "p90": 0.2224,
+      "p95": 0.2345,
+      "p99": 0.2482
+    },
+    "skewness": -0.6239,
+    "kurtosis": -0.837,
+    "min": 0.0183,
+    "max": 0.2485,
+    "mean": 0.1477,
+    "std": 0.0678
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 50,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " parking",
+        "count": 30,
+        "mean_activation": 0.1842
+      },
+      {
+        "token": " park",
+        "count": 6,
+        "mean_activation": 0.1249
+      },
+      {
+        "token": " Parking",
+        "count": 2,
+        "mean_activation": 0.2104
+      },
+      {
+        "token": " walking",
+        "count": 1,
+        "mean_activation": 0.0244
+      },
+      {
+        "token": " PARK",
+        "count": 1,
+        "mean_activation": 0.0704
+      },
+      {
+        "token": " Park",
+        "count": 1,
+        "mean_activation": 0.0183
+      },
+      {
+        "token": " land",
+        "count": 1,
+        "mean_activation": 0.0389
+      },
+      {
+        "token": " sun",
+        "count": 1,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": "ing",
+        "count": 1,
+        "mean_activation": 0.0588
+      },
+      {
+        "token": " Charg",
+        "count": 1,
+        "mean_activation": 0.0535
+      }
+    ]
+  }
+}

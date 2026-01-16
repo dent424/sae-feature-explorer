@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17705,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.032548170823317304,
+    "max_activation": 0.058563232421875,
+    "std_when_active": 0.012372999147677897,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 14197,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "'s",
+        "count": 951,
+        "mean_activation": 0.04088144873971067
+      },
+      {
+        "token": ",",
+        "count": 896,
+        "mean_activation": 0.03803612504686628
+      },
+      {
+        "token": " and",
+        "count": 451,
+        "mean_activation": 0.03681057678357989
+      },
+      {
+        "token": ".",
+        "count": 422,
+        "mean_activation": 0.029500247177919506
+      },
+      {
+        "token": " was",
+        "count": 336,
+        "mean_activation": 0.033586161477225165
+      },
+      {
+        "token": " has",
+        "count": 315,
+        "mean_activation": 0.028207663884238593
+      },
+      {
+        "token": " is",
+        "count": 298,
+        "mean_activation": 0.03212266960400063
+      },
+      {
+        "token": " Child",
+        "count": 208,
+        "mean_activation": 0.04913183358999399
+      },
+      {
+        "token": " himself",
+        "count": 188,
+        "mean_activation": 0.04924270954537899
+      },
+      {
+        "token": " she",
+        "count": 184,
+        "mean_activation": 0.031209406645401665
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 14197,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...rmer President Bill** Clinton** ate there in 1999....",
+        "active_token": " Clinton",
+        "activation": 0.246826171875,
+        "review_id": "QYbDb4TAo7N0KHZGrpIdxQ",
+        "position": 42
+      },
+      {
+        "context": "...ing  Of Rock & Roll\"** Elvis** Presley!!! Highly r...",
+        "active_token": " Elvis",
+        "activation": 0.24072265625,
+        "review_id": "hAUMJPdpGkcFEfR4HgDw1Q",
+        "position": 44
+      },
+      {
+        "context": "... the fact that Bill** Clinton** stopped by for a m...",
+        "active_token": " Clinton",
+        "activation": 0.2393798828125,
+        "review_id": "GtPg26G_nVmZnXenTW3Nfg",
+        "position": 31
+      },
+      {
+        "context": "...ties including Bill** Clinton**, Enrique Iglesias,...",
+        "active_token": " Clinton",
+        "activation": 0.2388916015625,
+        "review_id": "0I9jsC1HDUhNVRQ8SdUudw",
+        "position": 57
+      },
+      {
+        "context": "... famous  was warn by** Elvis** Presley's The Gold ...",
+        "active_token": " Elvis",
+        "activation": 0.2384033203125,
+        "review_id": "bKPhbz9P9t68wefwbsp-8Q",
+        "position": 120
+      },
+      {
+        "context": "... fact? ex-President** Clinton** has eaten here as ...",
+        "active_token": " Clinton",
+        "activation": 0.2369384765625,
+        "review_id": "Lge8dKhqtCdvVwqsdODA2Q",
+        "position": 59
+      },
+      {
+        "context": "...f Rock & Roll\" Elvis** Pres**ley!!! Highly recomme...",
+        "active_token": " Pres",
+        "activation": 0.233642578125,
+        "review_id": "hAUMJPdpGkcFEfR4HgDw1Q",
+        "position": 45
+      },
+      {
+        "context": "...sted President Bill** Clinton**, among other celeb...",
+        "active_token": " Clinton",
+        "activation": 0.231689453125,
+        "review_id": "9_cMOhTSHrpCZxJKTNNfig",
+        "position": 30
+      },
+      {
+        "context": "...e is that President** Clinton** ordered a crapload...",
+        "active_token": " Clinton",
+        "activation": 0.2314453125,
+        "review_id": "2Aj7FAn8E0BPcuuUEIKKwQ",
+        "position": 39
+      },
+      {
+        "context": "...o fame is that Bill** Clinton** dined here long ag...",
+        "active_token": " Clinton",
+        "activation": 0.230712890625,
+        "review_id": "HeoGVDZa0dEPE2YyT3jC2Q",
+        "position": 56
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17705,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1181,
+        "max": 0.2468,
+        "mean": 0.1628
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Bill",
+            " Clinton"
+          ],
+          "ngram_str": " Bill Clinton",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " Elvis",
+            " Pres"
+          ],
+          "ngram_str": " Elvis Pres",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " Pres",
+            "ley"
+          ],
+          "ngram_str": " Presley",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Elvis"
+          ],
+          "ngram_str": " the Elvis",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "ley",
+            " Memorial"
+          ],
+          "ngram_str": "ley Memorial",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " President",
+            " Clinton"
+          ],
+          "ngram_str": " President Clinton",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " Memorial",
+            " Combo"
+          ],
+          "ngram_str": " Memorial Combo",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " Johnny",
+            " Cash"
+          ],
+          "ngram_str": " Johnny Cash",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " Clinton",
+            " ate"
+          ],
+          "ngram_str": " Clinton ate",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " Elvis",
+            " Pres",
+            "ley"
+          ],
+          "ngram_str": " Elvis Presley",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Elvis",
+            " Pres"
+          ],
+          "ngram_str": " the Elvis Pres",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " Pres",
+            "ley",
+            " Memorial"
+          ],
+          "ngram_str": " Presley Memorial",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "ley",
+            " Memorial",
+            " Combo"
+          ],
+          "ngram_str": "ley Memorial Combo",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " President",
+            " Bill",
+            " Clinton"
+          ],
+          "ngram_str": " President Bill Clinton",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " ordered",
+            " the",
+            " Elvis"
+          ],
+          "ngram_str": " ordered the Elvis",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Bill",
+            " Clinton",
+            " ate"
+          ],
+          "ngram_str": " Bill Clinton ate",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " Clinton",
+            " ate",
+            " here"
+          ],
+          "ngram_str": " Clinton ate here",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " Elvis"
+          ],
+          "ngram_str": ". The Elvis",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " The",
+            " Elvis",
+            " Pres"
+          ],
+          "ngram_str": " The Elvis Pres",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " Pres",
+            "ley",
+            " combo"
+          ],
+          "ngram_str": " Presley combo",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Memorial",
+            " Combo",
+            "."
+          ],
+          "ngram_str": " Memorial Combo.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Bill",
+            " Clinton"
+          ],
+          "ngram_str": " the Bill Clinton",
+          "count": 8,
+          "percent": 1.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " the",
+            " Elvis",
+            " Pres",
+            "ley"
+          ],
+          "ngram_str": " the Elvis Presley",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " Elvis",
+            " Pres",
+            "ley",
+            " Memorial"
+          ],
+          "ngram_str": " Elvis Presley Memorial",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Pres",
+            "ley",
+            " Memorial",
+            " Combo"
+          ],
+          "ngram_str": " Presley Memorial Combo",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " ordered",
+            " the",
+            " Elvis",
+            " Pres"
+          ],
+          "ngram_str": " ordered the Elvis Pres",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " The",
+            " Elvis",
+            " Pres",
+            "ley"
+          ],
+          "ngram_str": " The Elvis Presley",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " Elvis",
+            " Pres",
+            "ley",
+            " combo"
+          ],
+          "ngram_str": " Elvis Presley combo",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "ley",
+            " Memorial",
+            " Combo",
+            "."
+          ],
+          "ngram_str": "ley Memorial Combo.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Bill",
+            " Clinton",
+            " ate",
+            " here"
+          ],
+          "ngram_str": " Bill Clinton ate here",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " Elvis",
+            " Pres"
+          ],
+          "ngram_str": ". The Elvis Pres",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " like",
+            " Elvis",
+            " Pres",
+            "ley"
+          ],
+          "ngram_str": " like Elvis Presley",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " Elvis",
+            " Pres",
+            "ley",
+            "."
+          ],
+          "ngram_str": " Elvis Presley.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "I",
+            " ordered",
+            " the",
+            " Elvis"
+          ],
+          "ngram_str": "I ordered the Elvis",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "ley",
+            " Memorial",
+            " Combo",
+            " and"
+          ],
+          "ngram_str": "ley Memorial Combo and",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 39900000,
+      "corpus_coverage": 0.7717
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5838,
+        "percent": 58.38
+      },
+      {
+        "feature_idx": 20153,
+        "count": 3586,
+        "percent": 35.86
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2831,
+        "percent": 28.31
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2772,
+        "percent": 27.72
+      },
+      {
+        "feature_idx": 812,
+        "count": 2657,
+        "percent": 26.57
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2616,
+        "percent": 26.16
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2342,
+        "percent": 23.42
+      },
+      {
+        "feature_idx": 5596,
+        "count": 2280,
+        "percent": 22.8
+      },
+      {
+        "feature_idx": 3089,
+        "count": 2172,
+        "percent": 21.72
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2126,
+        "percent": 21.26
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2119,
+        "percent": 21.19
+      },
+      {
+        "feature_idx": 5949,
+        "count": 2021,
+        "percent": 20.21
+      },
+      {
+        "feature_idx": 3516,
+        "count": 1767,
+        "percent": 17.67
+      },
+      {
+        "feature_idx": 128,
+        "count": 1531,
+        "percent": 15.31
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1439,
+        "percent": 14.39
+      },
+      {
+        "feature_idx": 19444,
+        "count": 1363,
+        "percent": 13.63
+      },
+      {
+        "feature_idx": 4497,
+        "count": 1160,
+        "percent": 11.6
+      },
+      {
+        "feature_idx": 24280,
+        "count": 1159,
+        "percent": 11.59
+      },
+      {
+        "feature_idx": 23846,
+        "count": 1146,
+        "percent": 11.46
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1064,
+        "percent": 10.64
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 39900000,
+      "corpus_coverage": 0.7717
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2782,
+        "percent": 27.82
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1987,
+        "percent": 19.87
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1494,
+        "percent": 14.94
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1683,
+        "percent": 16.83
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2054,
+        "percent": 20.54
+      }
+    ],
+    "mean_position": 0.462,
+    "std_position": 0.3106
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0198,
+      "p25": 0.0219,
+      "p50": 0.0277,
+      "p75": 0.0395,
+      "p90": 0.0502,
+      "p95": 0.0547,
+      "p99": 0.0578
+    },
+    "skewness": 0.7501,
+    "kurtosis": -0.6471,
+    "min": 0.0192,
+    "max": 0.0586,
+    "mean": 0.0325,
+    "std": 0.0124
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 11
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 2,
+        "mean_activation": 0.0223
+      },
+      {
+        "token": " have",
+        "count": 2,
+        "mean_activation": 0.0353
+      },
+      {
+        "token": " and",
+        "count": 1,
+        "mean_activation": 0.024
+      },
+      {
+        "token": " herself",
+        "count": 1,
+        "mean_activation": 0.0521
+      },
+      {
+        "token": " is",
+        "count": 1,
+        "mean_activation": 0.0391
+      },
+      {
+        "token": " Don",
+        "count": 1,
+        "mean_activation": 0.0217
+      },
+      {
+        "token": "ting",
+        "count": 1,
+        "mean_activation": 0.0395
+      },
+      {
+        "token": " that",
+        "count": 1,
+        "mean_activation": 0.0193
+      },
+      {
+        "token": "ggy",
+        "count": 1,
+        "mean_activation": 0.0319
+      },
+      {
+        "token": ":",
+        "count": 1,
+        "mean_activation": 0.0219
+      }
+    ]
+  }
+}

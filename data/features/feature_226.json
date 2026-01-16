@@ -1,0 +1,876 @@
+{
+  "feature_idx": 226,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 516,
+    "mean_when_active": 0.04585388834162276,
+    "max_activation": 0.130859375,
+    "std_when_active": 0.02251705775926613,
+    "activation_rate": 0.00516
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 9200000,
+      "corpus_coverage": 0.1779
+    },
+    "top_tokens": [
+      {
+        "token": " and",
+        "count": 39344,
+        "mean_activation": 0.048547780431349524
+      },
+      {
+        "token": ",",
+        "count": 7187,
+        "mean_activation": 0.03388812828249737
+      },
+      {
+        "token": " &",
+        "count": 558,
+        "mean_activation": 0.0411764165406586
+      },
+      {
+        "token": " but",
+        "count": 337,
+        "mean_activation": 0.022570261969410702
+      },
+      {
+        "token": " or",
+        "count": 292,
+        "mean_activation": 0.036517783387066564
+      },
+      {
+        "token": ".",
+        "count": 254,
+        "mean_activation": 0.01904999740480438
+      },
+      {
+        "token": " as",
+        "count": 227,
+        "mean_activation": 0.030929666258690116
+      },
+      {
+        "token": " is",
+        "count": 166,
+        "mean_activation": 0.014590527637895331
+      },
+      {
+        "token": " was",
+        "count": 117,
+        "mean_activation": 0.014236808842063969
+      },
+      {
+        "token": " -",
+        "count": 96,
+        "mean_activation": 0.021304607391357422
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 9200000,
+      "corpus_coverage": 0.1779
+    },
+    "activations": [
+      {
+        "context": "... food is so inventive** and** tasty. I loved the u...",
+        "active_token": " and",
+        "activation": 0.148681640625,
+        "review_id": "8sEmMQrcKcqb_YUUD5NOLA",
+        "position": 19
+      },
+      {
+        "context": "... decor is so eclectic** and** interesting and the ...",
+        "active_token": " and",
+        "activation": 0.148681640625,
+        "review_id": "cSJgrNey-BZWMf_Esal5aQ",
+        "position": 23
+      },
+      {
+        "context": "...ervice is so friendly** and** helps with the picki...",
+        "active_token": " and",
+        "activation": 0.14501953125,
+        "review_id": "9HSZlheRwwj14GL2X2fUog",
+        "position": 10
+      },
+      {
+        "context": "...ruck. Its so creative** and** delicious and the ow...",
+        "active_token": " and",
+        "activation": 0.14306640625,
+        "review_id": "R7bekdr2o168fY8iYLir-w",
+        "position": 20
+      },
+      {
+        "context": "...he food is innovative** and** delicious. It is hig...",
+        "active_token": " and",
+        "activation": 0.142333984375,
+        "review_id": "MCsE_44zy9aepKViDZUrIw",
+        "position": 9
+      },
+      {
+        "context": "...mosphere is so cheery** and** has a lovely color s...",
+        "active_token": " and",
+        "activation": 0.1419677734375,
+        "review_id": "XHdlS1zRYfRRpCWp_TgixA",
+        "position": 20
+      },
+      {
+        "context": "... food is so delicious** and** the environment is s...",
+        "active_token": " and",
+        "activation": 0.1414794921875,
+        "review_id": "SVoRus4aNc6b2VjuTwQb4g",
+        "position": 21
+      },
+      {
+        "context": "...The food was so fresh** and** so delicious! Everyt...",
+        "active_token": " and",
+        "activation": 0.140625,
+        "review_id": "gQKJLIFPB1p4pVcUDizbyA",
+        "position": 11
+      },
+      {
+        "context": "...mosphere is so lovely** and** the service is great...",
+        "active_token": " and",
+        "activation": 0.13623046875,
+        "review_id": "MeafamUDnDtyXXhZVimBKw",
+        "position": 10
+      },
+      {
+        "context": "...hing was so flavorful** and** tasty. The salsa and...",
+        "active_token": " and",
+        "activation": 0.135498046875,
+        "review_id": "4M0Ph7ywmrYCmacWxg5Kng",
+        "position": 25
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 226,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 18400000,
+      "corpus_coverage": 0.3559,
+      "activation_range": {
+        "min": 0.1138,
+        "max": 0.1555,
+        "mean": 0.1214
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " food",
+            " is"
+          ],
+          "ngram_str": " food is",
+          "count": 181,
+          "percent": 36.2
+        },
+        {
+          "ngram": [
+            " The",
+            " food"
+          ],
+          "ngram_str": " The food",
+          "count": 137,
+          "percent": 27.4
+        },
+        {
+          "ngram": [
+            " is",
+            " so"
+          ],
+          "ngram_str": " is so",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " fresh",
+            " and"
+          ],
+          "ngram_str": " fresh and",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " atmosphere",
+            " is"
+          ],
+          "ngram_str": " atmosphere is",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " was",
+            " so"
+          ],
+          "ngram_str": " was so",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " authentic",
+            " and"
+          ],
+          "ngram_str": " authentic and",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " so",
+            " fresh"
+          ],
+          "ngram_str": " so fresh",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " food",
+            " was"
+          ],
+          "ngram_str": " food was",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " service",
+            " is"
+          ],
+          "ngram_str": " service is",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " menu",
+            " is"
+          ],
+          "ngram_str": " menu is",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " The",
+            " atmosphere"
+          ],
+          "ngram_str": " The atmosphere",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " The",
+            " food",
+            " is"
+          ],
+          "ngram_str": " The food is",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " so"
+          ],
+          "ngram_str": " food is so",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " is"
+          ],
+          "ngram_str": " the food is",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " so",
+            " fresh",
+            " and"
+          ],
+          "ngram_str": " so fresh and",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " The",
+            " atmosphere",
+            " is"
+          ],
+          "ngram_str": " The atmosphere is",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " food"
+          ],
+          "ngram_str": ". The food",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " is",
+            " so",
+            " fresh"
+          ],
+          "ngram_str": " is so fresh",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " The",
+            " menu",
+            " is"
+          ],
+          "ngram_str": " The menu is",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " is"
+          ],
+          "ngram_str": " the service is",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " is",
+            " authentic",
+            " and"
+          ],
+          "ngram_str": " is authentic and",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " The",
+            " food",
+            " was"
+          ],
+          "ngram_str": " The food was",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " food"
+          ],
+          "ngram_str": " and the food",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " delicious",
+            "."
+          ],
+          "ngram_str": " and delicious.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " authentic"
+          ],
+          "ngram_str": " food is authentic",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " so",
+            " flavorful",
+            " and"
+          ],
+          "ngram_str": " so flavorful and",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " The",
+            " food",
+            " is"
+          ],
+          "ngram_str": ". The food is",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " The",
+            " food",
+            " is",
+            " so"
+          ],
+          "ngram_str": " The food is so",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " is",
+            " so",
+            " fresh",
+            " and"
+          ],
+          "ngram_str": " is so fresh and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " authentic",
+            " and"
+          ],
+          "ngram_str": " food is authentic and",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " The",
+            " food",
+            " is",
+            " authentic"
+          ],
+          "ngram_str": " The food is authentic",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " menu",
+            " is"
+          ],
+          "ngram_str": ". The menu is",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " so",
+            " fresh"
+          ],
+          "ngram_str": " food is so fresh",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " The",
+            " food",
+            " was",
+            " so"
+          ],
+          "ngram_str": " The food was so",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " is",
+            " so"
+          ],
+          "ngram_str": " the food is so",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " food",
+            " is"
+          ],
+          "ngram_str": " and the food is",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "!",
+            " The",
+            " food",
+            " is"
+          ],
+          "ngram_str": "! The food is",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " amazing",
+            " and"
+          ],
+          "ngram_str": " food is amazing and",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " delicious",
+            " and"
+          ],
+          "ngram_str": " food is delicious and",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " Everything",
+            " is",
+            " so",
+            " fresh"
+          ],
+          "ngram_str": " Everything is so fresh",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " The",
+            " atmosphere",
+            " is",
+            " so"
+          ],
+          "ngram_str": " The atmosphere is so",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1900000,
+      "corpus_coverage": 0.0367
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 19938,
+        "count": 8097,
+        "percent": 80.97
+      },
+      {
+        "feature_idx": 3418,
+        "count": 7127,
+        "percent": 71.27
+      },
+      {
+        "feature_idx": 2255,
+        "count": 5884,
+        "percent": 58.84
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5473,
+        "percent": 54.73
+      },
+      {
+        "feature_idx": 23798,
+        "count": 5468,
+        "percent": 54.68
+      },
+      {
+        "feature_idx": 11839,
+        "count": 5312,
+        "percent": 53.12
+      },
+      {
+        "feature_idx": 6505,
+        "count": 5135,
+        "percent": 51.35
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5082,
+        "percent": 50.82
+      },
+      {
+        "feature_idx": 16376,
+        "count": 4885,
+        "percent": 48.85
+      },
+      {
+        "feature_idx": 12563,
+        "count": 4683,
+        "percent": 46.83
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4654,
+        "percent": 46.54
+      },
+      {
+        "feature_idx": 17488,
+        "count": 4187,
+        "percent": 41.87
+      },
+      {
+        "feature_idx": 20818,
+        "count": 4164,
+        "percent": 41.64
+      },
+      {
+        "feature_idx": 18135,
+        "count": 4005,
+        "percent": 40.05
+      },
+      {
+        "feature_idx": 12927,
+        "count": 3951,
+        "percent": 39.51
+      },
+      {
+        "feature_idx": 5868,
+        "count": 3940,
+        "percent": 39.4
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3840,
+        "percent": 38.4
+      },
+      {
+        "feature_idx": 16366,
+        "count": 3780,
+        "percent": 37.8
+      },
+      {
+        "feature_idx": 19590,
+        "count": 3759,
+        "percent": 37.59
+      },
+      {
+        "feature_idx": 12590,
+        "count": 3620,
+        "percent": 36.2
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1900000,
+      "corpus_coverage": 0.0367
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1663,
+        "percent": 16.63
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2505,
+        "percent": 25.05
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2243,
+        "percent": 22.43
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2015,
+        "percent": 20.15
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1574,
+        "percent": 15.74
+      }
+    ],
+    "mean_position": 0.4871,
+    "std_position": 0.2618
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 516,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.021,
+      "p25": 0.0278,
+      "p50": 0.0402,
+      "p75": 0.0611,
+      "p90": 0.0782,
+      "p95": 0.0883,
+      "p99": 0.1063
+    },
+    "skewness": 0.8608,
+    "kurtosis": 0.2149,
+    "min": 0.0124,
+    "max": 0.1309,
+    "mean": 0.0459,
+    "std": 0.0225
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 516,
+      "unique_tokens_found": 18
+    },
+    "tokens": [
+      {
+        "token": " and",
+        "count": 433,
+        "mean_activation": 0.0485
+      },
+      {
+        "token": ",",
+        "count": 59,
+        "mean_activation": 0.0335
+      },
+      {
+        "token": " &",
+        "count": 4,
+        "mean_activation": 0.0447
+      },
+      {
+        "token": " but",
+        "count": 3,
+        "mean_activation": 0.0183
+      },
+      {
+        "token": " as",
+        "count": 3,
+        "mean_activation": 0.0443
+      },
+      {
+        "token": ".",
+        "count": 2,
+        "mean_activation": 0.0183
+      },
+      {
+        "token": " is",
+        "count": 1,
+        "mean_activation": 0.0143
+      },
+      {
+        "token": " It",
+        "count": 1,
+        "mean_activation": 0.0149
+      },
+      {
+        "token": " was",
+        "count": 1,
+        "mean_activation": 0.0129
+      },
+      {
+        "token": " incredible",
+        "count": 1,
+        "mean_activation": 0.0155
+      }
+    ]
+  }
+}

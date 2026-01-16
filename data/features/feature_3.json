@@ -1,0 +1,861 @@
+{
+  "feature_idx": 3,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 16,
+    "mean_when_active": 0.06981563568115234,
+    "max_activation": 0.1827392578125,
+    "std_when_active": 0.04942593237853935,
+    "activation_rate": 0.00016
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5253,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " add",
+        "count": 3094,
+        "mean_activation": 0.06166518790227179
+      },
+      {
+        "token": " mention",
+        "count": 698,
+        "mean_activation": 0.04557358706236569
+      },
+      {
+        "token": " added",
+        "count": 282,
+        "mean_activation": 0.031284007620304186
+      },
+      {
+        "token": " micro",
+        "count": 245,
+        "mean_activation": 0.1897503288424745
+      },
+      {
+        "token": " word",
+        "count": 156,
+        "mean_activation": 0.06769150954026443
+      },
+      {
+        "token": " adding",
+        "count": 112,
+        "mean_activation": 0.03317512784685407
+      },
+      {
+        "token": " mentioning",
+        "count": 88,
+        "mean_activation": 0.03799334439364346
+      },
+      {
+        "token": " note",
+        "count": 77,
+        "mean_activation": 0.030694936777090096
+      },
+      {
+        "token": " say",
+        "count": 73,
+        "mean_activation": 0.02099348094365368
+      },
+      {
+        "token": "OUND",
+        "count": 46,
+        "mean_activation": 0.056710948114809784
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5253,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...on, carrying Dunedin** micro**brews. Also, try the...",
+        "active_token": " micro",
+        "activation": 0.21826171875,
+        "review_id": "DP9YYUN8CfaqLy9yJxS44A",
+        "position": 105
+      },
+      {
+        "context": "... and local beers and** micro**brews, many on tap. ...",
+        "active_token": " micro",
+        "activation": 0.2154541015625,
+        "review_id": "ZoLCpIHK93nbzWt60ALYgQ",
+        "position": 116
+      },
+      {
+        "context": "... hour and a range of** micro**/designer brews that...",
+        "active_token": " micro",
+        "activation": 0.2139892578125,
+        "review_id": "VXAT2AYpN4gOcsFViCwzgg",
+        "position": 89
+      },
+      {
+        "context": "... tap, mostly quality** micro**brews, and there's p...",
+        "active_token": " micro",
+        "activation": 0.2137451171875,
+        "review_id": "qPEpjDKhxuZgSzCqT438qQ",
+        "position": 139
+      },
+      {
+        "context": "...some of the greatest** micro**brews in the USA for...",
+        "active_token": " micro",
+        "activation": 0.213623046875,
+        "review_id": "bMkf_Q8cNiAGArCz3TISTw",
+        "position": 168
+      },
+      {
+        "context": "... and $6 Pennsylvania** micro**-brews on tap.  I lo...",
+        "active_token": " micro",
+        "activation": 0.21337890625,
+        "review_id": "61bCV53cUCJm44tJ1P11fA",
+        "position": 13
+      },
+      {
+        "context": "...vs such as Yards and** micro**brews from around th...",
+        "active_token": " micro",
+        "activation": 0.2132568359375,
+        "review_id": "meKPLcPYoOND9y4E7PBcWQ",
+        "position": 227
+      },
+      {
+        "context": "...st a margarita and a** micro** brew for 5 dollars ...",
+        "active_token": " micro",
+        "activation": 0.2113037109375,
+        "review_id": "0ax4zsqd4mTlOTFQo0X_DA",
+        "position": 29
+      },
+      {
+        "context": ".... Nachos decent good** micro** shredded cheese ble...",
+        "active_token": " micro",
+        "activation": 0.2110595703125,
+        "review_id": "r4NEDw6lAZ5y7OR8f3Q4XA",
+        "position": 103
+      },
+      {
+        "context": "... If you love wine or** micro** brews, I would defi...",
+        "active_token": " micro",
+        "activation": 0.210693359375,
+        "review_id": "ZOJ5A8oeeo7YAkayfy0Vog",
+        "position": 145
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1422,
+        "max": 0.2183,
+        "mean": 0.1732
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " add",
+            " that"
+          ],
+          "ngram_str": " add that",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " micro",
+            "brew"
+          ],
+          "ngram_str": " microbrew",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            "brew",
+            "s"
+          ],
+          "ngram_str": "brews",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " to",
+            " add"
+          ],
+          "ngram_str": " to add",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " I",
+            " add"
+          ],
+          "ngram_str": " I add",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " might",
+            " add"
+          ],
+          "ngram_str": " might add",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " that",
+            " the"
+          ],
+          "ngram_str": " that the",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " I",
+            " might"
+          ],
+          "ngram_str": " I might",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012cI",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " of",
+            " micro"
+          ],
+          "ngram_str": " of micro",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " micro",
+            "brew",
+            "s"
+          ],
+          "ngram_str": " microbrews",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " to",
+            " add",
+            " that"
+          ],
+          "ngram_str": " to add that",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " add",
+            " that",
+            " the"
+          ],
+          "ngram_str": " add that the",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " I",
+            " might",
+            " add"
+          ],
+          "ngram_str": " I might add",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " like",
+            " to",
+            " add"
+          ],
+          "ngram_str": " like to add",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " micro",
+            " brew",
+            "s"
+          ],
+          "ngram_str": " micro brews",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " add",
+            " that",
+            " I"
+          ],
+          "ngram_str": " add that I",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " I",
+            " should",
+            " add"
+          ],
+          "ngram_str": " I should add",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " should",
+            " add",
+            " that"
+          ],
+          "ngram_str": " should add that",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " have",
+            " to",
+            " add"
+          ],
+          "ngram_str": " have to add",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " I",
+            " will",
+            " add"
+          ],
+          "ngram_str": " I will add",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " micro",
+            "brew",
+            "ery"
+          ],
+          "ngram_str": " microbrewery",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " like",
+            " to",
+            " add",
+            " that"
+          ],
+          "ngram_str": " like to add that",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " I",
+            " should",
+            " add",
+            " that"
+          ],
+          "ngram_str": " I should add that",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " to",
+            " add",
+            " that",
+            " the"
+          ],
+          "ngram_str": " to add that the",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " of",
+            " micro",
+            "brew",
+            "s"
+          ],
+          "ngram_str": " of microbrews",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " have",
+            " to",
+            " add",
+            " that"
+          ],
+          "ngram_str": " have to add that",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " would",
+            " like",
+            " to",
+            " add"
+          ],
+          "ngram_str": " would like to add",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " I",
+            " might",
+            " add",
+            "."
+          ],
+          "ngram_str": " I might add.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " micro",
+            "brew",
+            "s",
+            "."
+          ],
+          "ngram_str": " microbrews.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " I",
+            " might",
+            " add"
+          ],
+          "ngram_str": ", I might add",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " I",
+            " have",
+            " to",
+            " add"
+          ],
+          "ngram_str": " I have to add",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " also",
+            " like",
+            " to",
+            " add"
+          ],
+          "ngram_str": " also like to add",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5253,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 4502,
+        "count": 3649,
+        "percent": 69.47
+      },
+      {
+        "feature_idx": 19313,
+        "count": 3563,
+        "percent": 67.83
+      },
+      {
+        "feature_idx": 13513,
+        "count": 3520,
+        "percent": 67.01
+      },
+      {
+        "feature_idx": 3853,
+        "count": 3518,
+        "percent": 66.97
+      },
+      {
+        "feature_idx": 10371,
+        "count": 2631,
+        "percent": 50.09
+      },
+      {
+        "feature_idx": 9470,
+        "count": 2576,
+        "percent": 49.04
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2561,
+        "percent": 48.75
+      },
+      {
+        "feature_idx": 2985,
+        "count": 2411,
+        "percent": 45.9
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2406,
+        "percent": 45.8
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2393,
+        "percent": 45.55
+      },
+      {
+        "feature_idx": 17837,
+        "count": 2250,
+        "percent": 42.83
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2182,
+        "percent": 41.54
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1966,
+        "percent": 37.43
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1922,
+        "percent": 36.59
+      },
+      {
+        "feature_idx": 12649,
+        "count": 1853,
+        "percent": 35.28
+      },
+      {
+        "feature_idx": 17736,
+        "count": 1802,
+        "percent": 34.3
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1740,
+        "percent": 33.12
+      },
+      {
+        "feature_idx": 4628,
+        "count": 1708,
+        "percent": 32.51
+      },
+      {
+        "feature_idx": 1454,
+        "count": 1608,
+        "percent": 30.61
+      },
+      {
+        "feature_idx": 13344,
+        "count": 1503,
+        "percent": 28.61
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5253,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 536,
+        "percent": 10.2
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 799,
+        "percent": 15.21
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1129,
+        "percent": 21.49
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1401,
+        "percent": 26.67
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1388,
+        "percent": 26.42
+      }
+    ],
+    "mean_position": 0.59,
+    "std_position": 0.2625
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 16,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0306,
+      "p25": 0.0402,
+      "p50": 0.052,
+      "p75": 0.0643,
+      "p90": 0.1617,
+      "p95": 0.181,
+      "p99": 0.1824
+    },
+    "skewness": 1.4951,
+    "kurtosis": 0.6822,
+    "min": 0.0282,
+    "max": 0.1827,
+    "mean": 0.0698,
+    "std": 0.0494
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 16,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " add",
+        "count": 5,
+        "mean_activation": 0.0913
+      },
+      {
+        "token": " word",
+        "count": 3,
+        "mean_activation": 0.059
+      },
+      {
+        "token": " note",
+        "count": 2,
+        "mean_activation": 0.0302
+      },
+      {
+        "token": " mention",
+        "count": 2,
+        "mean_activation": 0.0456
+      },
+      {
+        "token": " added",
+        "count": 2,
+        "mean_activation": 0.0495
+      },
+      {
+        "token": "OUND",
+        "count": 1,
+        "mean_activation": 0.0502
+      },
+      {
+        "token": " micro",
+        "count": 1,
+        "mean_activation": 0.1827
+      }
+    ]
+  }
+}

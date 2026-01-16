@@ -1,0 +1,876 @@
+{
+  "feature_idx": 21398,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 323,
+    "mean_when_active": 0.03373491505720298,
+    "max_activation": 0.1202392578125,
+    "std_when_active": 0.015704097841638245,
+    "activation_rate": 0.00323
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 13900000,
+      "corpus_coverage": 0.2688
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 3617,
+        "mean_activation": 0.03373760869893904
+      },
+      {
+        "token": " on",
+        "count": 2909,
+        "mean_activation": 0.03781887459648397
+      },
+      {
+        "token": " in",
+        "count": 2706,
+        "mean_activation": 0.03740897111688291
+      },
+      {
+        "token": " at",
+        "count": 2459,
+        "mean_activation": 0.04334777174271331
+      },
+      {
+        "token": " for",
+        "count": 1603,
+        "mean_activation": 0.03926375800196409
+      },
+      {
+        "token": ".",
+        "count": 1335,
+        "mean_activation": 0.026201015286677787
+      },
+      {
+        "token": " a",
+        "count": 1322,
+        "mean_activation": 0.03240619376639916
+      },
+      {
+        "token": ",",
+        "count": 1191,
+        "mean_activation": 0.03393082574673003
+      },
+      {
+        "token": " to",
+        "count": 1007,
+        "mean_activation": 0.03542515016951651
+      },
+      {
+        "token": " from",
+        "count": 965,
+        "mean_activation": 0.03444181452143378
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 13900000,
+      "corpus_coverage": 0.2688
+    },
+    "activations": [
+      {
+        "context": "...it of salt, available** at** each table. \\n\\nI loved...",
+        "active_token": " at",
+        "activation": 0.151611328125,
+        "review_id": "0E8ZJqaZo2p7hzzA2Hj_Pg",
+        "position": 259
+      },
+      {
+        "context": "... Mex is now available** at** many other joints.  I...",
+        "active_token": " at",
+        "activation": 0.151611328125,
+        "review_id": "3ptKlyewCmdBOYlWhAtnAA",
+        "position": 91
+      },
+      {
+        "context": "...   They are available** at** Indy Tacos as well, b...",
+        "active_token": " at",
+        "activation": 0.1512451171875,
+        "review_id": "x9o-j8yu489AbCwTw4bb7w",
+        "position": 340
+      },
+      {
+        "context": "... you can buy in a box** at** your local market.  H...",
+        "active_token": " at",
+        "activation": 0.150390625,
+        "review_id": "G9UNYVMn6Y4FVE7HLE4ZXg",
+        "position": 176
+      },
+      {
+        "context": "...aco shell you can buy** in** a box at your local m...",
+        "active_token": " in",
+        "activation": 0.145751953125,
+        "review_id": "G9UNYVMn6Y4FVE7HLE4ZXg",
+        "position": 173
+      },
+      {
+        "context": "...vailable for purchase** to** enjoy at home. \\n\\nAlso...",
+        "active_token": " to",
+        "activation": 0.14501953125,
+        "review_id": "hLoFAF9usU6mbPCRXgBq0w",
+        "position": 540
+      },
+      {
+        "context": "...ellent, and available** for** purchase to enjoy at...",
+        "active_token": " for",
+        "activation": 0.1436767578125,
+        "review_id": "hLoFAF9usU6mbPCRXgBq0w",
+        "position": 538
+      },
+      {
+        "context": "...le that is available** from** your favorite Costco...",
+        "active_token": " from",
+        "activation": 0.142822265625,
+        "review_id": "dwN7D-1xN6M1pWpsV5DlCA",
+        "position": 168
+      },
+      {
+        "context": "...es de mole (available** on** Saturday and Sunday. ...",
+        "active_token": " on",
+        "activation": 0.1427001953125,
+        "review_id": "Z0Q2V1afXpaTfclTyCkt0g",
+        "position": 36
+      },
+      {
+        "context": "...lso be available soon** to** our Reno customers.  ...",
+        "active_token": " to",
+        "activation": 0.140380859375,
+        "review_id": "iSa5b0PZIkCauSmcg4BHHQ",
+        "position": 75
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 21398,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 27400000,
+      "corpus_coverage": 0.53,
+      "activation_range": {
+        "min": 0.1019,
+        "max": 0.1583,
+        "mean": 0.1153
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " available",
+            " on"
+          ],
+          "ngram_str": " available on",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " available",
+            " at"
+          ],
+          "ngram_str": " available at",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " is",
+            " available"
+          ],
+          "ngram_str": " is available",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " available",
+            " for"
+          ],
+          "ngram_str": " available for",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " are",
+            " available"
+          ],
+          "ngram_str": " are available",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " available",
+            " in"
+          ],
+          "ngram_str": " available in",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " can",
+            " buy"
+          ],
+          "ngram_str": " can buy",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " only",
+            " available"
+          ],
+          "ngram_str": " only available",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " can",
+            " be"
+          ],
+          "ngram_str": " can be",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " available",
+            " on",
+            " the"
+          ],
+          "ngram_str": " available on the",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " buy"
+          ],
+          "ngram_str": " you can buy",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " available",
+            " at",
+            " the"
+          ],
+          "ngram_str": " available at the",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " only",
+            " available",
+            " on"
+          ],
+          "ngram_str": " only available on",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " can",
+            " buy",
+            " at"
+          ],
+          "ngram_str": " can buy at",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " available",
+            " for",
+            " purchase"
+          ],
+          "ngram_str": " available for purchase",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " that",
+            " you",
+            " can"
+          ],
+          "ngram_str": " that you can",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " can",
+            " buy",
+            " in"
+          ],
+          "ngram_str": " can buy in",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " buy",
+            " at",
+            " the"
+          ],
+          "ngram_str": " buy at the",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " available",
+            " in",
+            " the"
+          ],
+          "ngram_str": " available in the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " are",
+            " available",
+            " on"
+          ],
+          "ngram_str": " are available on",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " available",
+            " on",
+            " weekends"
+          ],
+          "ngram_str": " available on weekends",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " weekends"
+          ],
+          "ngram_str": " on the weekends",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " is",
+            " available",
+            " for"
+          ],
+          "ngram_str": " is available for",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " you",
+            " can",
+            " buy",
+            " at"
+          ],
+          "ngram_str": " you can buy at",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " buy",
+            " in"
+          ],
+          "ngram_str": " you can buy in",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " can",
+            " buy",
+            " at",
+            " the"
+          ],
+          "ngram_str": " can buy at the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " available",
+            " on",
+            " the",
+            " weekends"
+          ],
+          "ngram_str": " available on the weekends",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " grocery",
+            " store"
+          ],
+          "ngram_str": " at the grocery store",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " that",
+            " you",
+            " can",
+            " buy"
+          ],
+          "ngram_str": " that you can buy",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " is",
+            " only",
+            " available",
+            " on"
+          ],
+          "ngram_str": " is only available on",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " store",
+            "."
+          ],
+          "ngram_str": " at the store.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " are",
+            " available",
+            " on",
+            " the"
+          ],
+          "ngram_str": " are available on the",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " only",
+            " available",
+            " on",
+            " weekends"
+          ],
+          "ngram_str": " only available on weekends",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " available",
+            " at",
+            " the",
+            " salsa"
+          ],
+          "ngram_str": " available at the salsa",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " can",
+            " be",
+            " purchased",
+            " at"
+          ],
+          "ngram_str": " can be purchased at",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " salsa",
+            " bar"
+          ],
+          "ngram_str": " at the salsa bar",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2800000,
+      "corpus_coverage": 0.0542
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4455,
+        "percent": 44.55
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3792,
+        "percent": 37.92
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3684,
+        "percent": 36.84
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3670,
+        "percent": 36.7
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3324,
+        "percent": 33.24
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2743,
+        "percent": 27.43
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2428,
+        "percent": 24.28
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2101,
+        "percent": 21.01
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1869,
+        "percent": 18.69
+      },
+      {
+        "feature_idx": 16549,
+        "count": 1869,
+        "percent": 18.69
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1781,
+        "percent": 17.81
+      },
+      {
+        "feature_idx": 5070,
+        "count": 1629,
+        "percent": 16.29
+      },
+      {
+        "feature_idx": 18017,
+        "count": 1515,
+        "percent": 15.15
+      },
+      {
+        "feature_idx": 15044,
+        "count": 1513,
+        "percent": 15.13
+      },
+      {
+        "feature_idx": 9746,
+        "count": 1413,
+        "percent": 14.13
+      },
+      {
+        "feature_idx": 11839,
+        "count": 1388,
+        "percent": 13.88
+      },
+      {
+        "feature_idx": 12582,
+        "count": 1327,
+        "percent": 13.27
+      },
+      {
+        "feature_idx": 7918,
+        "count": 1299,
+        "percent": 12.99
+      },
+      {
+        "feature_idx": 22127,
+        "count": 1158,
+        "percent": 11.58
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1119,
+        "percent": 11.19
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2800000,
+      "corpus_coverage": 0.0542
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1261,
+        "percent": 12.61
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2053,
+        "percent": 20.53
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2202,
+        "percent": 22.02
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2180,
+        "percent": 21.8
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2304,
+        "percent": 23.04
+      }
+    ],
+    "mean_position": 0.549,
+    "std_position": 0.2695
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 323,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0193,
+      "p25": 0.0234,
+      "p50": 0.0301,
+      "p75": 0.0398,
+      "p90": 0.0527,
+      "p95": 0.0637,
+      "p99": 0.0877
+    },
+    "skewness": 1.8778,
+    "kurtosis": 5.1533,
+    "min": 0.0101,
+    "max": 0.1202,
+    "mean": 0.0337,
+    "std": 0.0157
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 323,
+      "unique_tokens_found": 122
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 25,
+        "mean_activation": 0.0317
+      },
+      {
+        "token": " at",
+        "count": 20,
+        "mean_activation": 0.0505
+      },
+      {
+        "token": " on",
+        "count": 20,
+        "mean_activation": 0.0331
+      },
+      {
+        "token": " in",
+        "count": 20,
+        "mean_activation": 0.0335
+      },
+      {
+        "token": ",",
+        "count": 15,
+        "mean_activation": 0.0356
+      },
+      {
+        "token": ".",
+        "count": 12,
+        "mean_activation": 0.0232
+      },
+      {
+        "token": " a",
+        "count": 11,
+        "mean_activation": 0.035
+      },
+      {
+        "token": " for",
+        "count": 9,
+        "mean_activation": 0.034
+      },
+      {
+        "token": " from",
+        "count": 7,
+        "mean_activation": 0.0381
+      },
+      {
+        "token": " (",
+        "count": 7,
+        "mean_activation": 0.0248
+      }
+    ]
+  }
+}

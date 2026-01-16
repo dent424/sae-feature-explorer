@@ -1,0 +1,841 @@
+{
+  "feature_idx": 15850,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 21,
+    "mean_when_active": 0.07131594703311012,
+    "max_activation": 0.18212890625,
+    "std_when_active": 0.050131378569645016,
+    "activation_rate": 0.00021
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 13116,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " of",
+        "count": 9261,
+        "mean_activation": 0.08327025839942873
+      },
+      {
+        "token": " the",
+        "count": 704,
+        "mean_activation": 0.0423374284397472
+      },
+      {
+        "token": ".",
+        "count": 445,
+        "mean_activation": 0.022597186485033356
+      },
+      {
+        "token": " with",
+        "count": 300,
+        "mean_activation": 0.035078633626302085
+      },
+      {
+        "token": " like",
+        "count": 211,
+        "mean_activation": 0.05149866619381294
+      },
+      {
+        "token": "/",
+        "count": 168,
+        "mean_activation": 0.03137397766113281
+      },
+      {
+        "token": ",",
+        "count": 162,
+        "mean_activation": 0.0322238309883777
+      },
+      {
+        "token": " that",
+        "count": 161,
+        "mean_activation": 0.03573072919194002
+      },
+      {
+        "token": " in",
+        "count": 132,
+        "mean_activation": 0.033981554435961174
+      },
+      {
+        "token": "o",
+        "count": 114,
+        "mean_activation": 0.08225089625308388
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 13116,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...h is RARE in the city** of** NOLA. \\n\\nWe ordered th...",
+        "active_token": " of",
+        "activation": 0.458984375,
+        "review_id": "trHxJznLNRCAC4YmIs1wRQ",
+        "position": 110
+      },
+      {
+        "context": "...za places in the city** of** Philadelphia. The oth...",
+        "active_token": " of",
+        "activation": 0.45751953125,
+        "review_id": "1mWtaibG8Mn9GTzxPocPqQ",
+        "position": 14
+      },
+      {
+        "context": "...estaurant in the city** of** Santa Barbara",
+        "active_token": " of",
+        "activation": 0.4560546875,
+        "review_id": "x2A7TPiy8jlHuLCUSWXwCA",
+        "position": 105
+      },
+      {
+        "context": "...tic tacos in the city** of** Santa Barbara. \\n\\nThe ...",
+        "active_token": " of",
+        "activation": 0.45458984375,
+        "review_id": "JtePIXfgWyORyntsQJdNuA",
+        "position": 53
+      },
+      {
+        "context": "...staurants in the city** of** Edmonton. It had auth...",
+        "active_token": " of",
+        "activation": 0.45361328125,
+        "review_id": "InIzcibw5rkmgh9jQNQDHg",
+        "position": 11
+      },
+      {
+        "context": "...best food in the city** of** Philadelphia, with a ...",
+        "active_token": " of",
+        "activation": 0.451904296875,
+        "review_id": "0IMFfG1lqihzqF61wnRM3w",
+        "position": 23
+      },
+      {
+        "context": "...t salsa's in the city** of** Philadelphia and that...",
+        "active_token": " of",
+        "activation": 0.451904296875,
+        "review_id": "chJWqEm6H8TxRY1udGyqLA",
+        "position": 72
+      },
+      {
+        "context": "...sway exit on the city** of** White House Tennessee...",
+        "active_token": " of",
+        "activation": 0.45166015625,
+        "review_id": "vP0VfUH4n1flbDPZAC0znQ",
+        "position": 22
+      },
+      {
+        "context": "...staurant\" in the city** of** Indianapolis, but the...",
+        "active_token": " of",
+        "activation": 0.451416015625,
+        "review_id": "eQfFJLdS7kLY_ASsCdu-uA",
+        "position": 46
+      },
+      {
+        "context": "... you find in the city** of** New Orleans. The taco...",
+        "active_token": " of",
+        "activation": 0.45068359375,
+        "review_id": "yzYap5Yhq5xYjz5qU6YuLQ",
+        "position": 154
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15850,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2488,
+        "max": 0.459,
+        "mean": 0.3344
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 193,
+          "percent": 38.6
+        },
+        {
+          "ngram": [
+            " city",
+            " of"
+          ],
+          "ngram_str": " city of",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " the",
+            " city"
+          ],
+          "ngram_str": " the city",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " state",
+            " of"
+          ],
+          "ngram_str": " state of",
+          "count": 106,
+          "percent": 21.2
+        },
+        {
+          "ngram": [
+            " the",
+            " state"
+          ],
+          "ngram_str": " the state",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " town",
+            " of"
+          ],
+          "ngram_str": " town of",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " City",
+            " of"
+          ],
+          "ngram_str": " City of",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " from",
+            " the"
+          ],
+          "ngram_str": " from the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " of",
+            " Philadelphia"
+          ],
+          "ngram_str": " of Philadelphia",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " of",
+            " Tucson"
+          ],
+          "ngram_str": " of Tucson",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " land",
+            " of"
+          ],
+          "ngram_str": " land of",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " city",
+            " of"
+          ],
+          "ngram_str": " the city of",
+          "count": 117,
+          "percent": 23.4
+        },
+        {
+          "ngram": [
+            " the",
+            " state",
+            " of"
+          ],
+          "ngram_str": " the state of",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " city"
+          ],
+          "ngram_str": " in the city",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " state"
+          ],
+          "ngram_str": " in the state",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " city",
+            " of",
+            " Philadelphia"
+          ],
+          "ngram_str": " city of Philadelphia",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " City",
+            " of"
+          ],
+          "ngram_str": " the City of",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " the",
+            " land",
+            " of"
+          ],
+          "ngram_str": " the land of",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " a",
+            " city",
+            " of"
+          ],
+          "ngram_str": " a city of",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " city",
+            " of",
+            " Tucson"
+          ],
+          "ngram_str": " city of Tucson",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " of",
+            " New",
+            " Orleans"
+          ],
+          "ngram_str": " of New Orleans",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " of",
+            " Tucson",
+            "."
+          ],
+          "ngram_str": " of Tucson.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " my",
+            " hometown",
+            " of"
+          ],
+          "ngram_str": " my hometown of",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " city",
+            " of",
+            " New"
+          ],
+          "ngram_str": " city of New",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " the",
+            " town",
+            " of"
+          ],
+          "ngram_str": " the town of",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " of",
+            " Philadelphia",
+            "."
+          ],
+          "ngram_str": " of Philadelphia.",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " city",
+            " of"
+          ],
+          "ngram_str": " in the city of",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " state",
+            " of"
+          ],
+          "ngram_str": " in the state of",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " the",
+            " city",
+            " of",
+            " Philadelphia"
+          ],
+          "ngram_str": " the city of Philadelphia",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " city",
+            " of",
+            " New",
+            " Orleans"
+          ],
+          "ngram_str": " city of New Orleans",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " state",
+            " of"
+          ],
+          "ngram_str": " of the state of",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " state",
+            " of",
+            " Florida"
+          ],
+          "ngram_str": " the state of Florida",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " state",
+            " of",
+            " Louisiana"
+          ],
+          "ngram_str": " the state of Louisiana",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " land",
+            " of"
+          ],
+          "ngram_str": " in the land of",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " city",
+            " of",
+            " New"
+          ],
+          "ngram_str": " the city of New",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " city",
+            " of",
+            " Tucson"
+          ],
+          "ngram_str": " the city of Tucson",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " city",
+            " of",
+            " Tucson",
+            "."
+          ],
+          "ngram_str": " city of Tucson.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " city",
+            " of"
+          ],
+          "ngram_str": " to the city of",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " city",
+            " of",
+            " Philadelphia",
+            "."
+          ],
+          "ngram_str": " city of Philadelphia.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " of",
+            " New",
+            " Orleans",
+            "."
+          ],
+          "ngram_str": " of New Orleans.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " City",
+            " of"
+          ],
+          "ngram_str": " in the City of",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 39400000,
+      "corpus_coverage": 0.762
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 9127,
+        "count": 7100,
+        "percent": 71.0
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6358,
+        "percent": 63.58
+      },
+      {
+        "feature_idx": 4081,
+        "count": 4158,
+        "percent": 41.58
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3760,
+        "percent": 37.6
+      },
+      {
+        "feature_idx": 8622,
+        "count": 3752,
+        "percent": 37.52
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3563,
+        "percent": 35.63
+      },
+      {
+        "feature_idx": 12664,
+        "count": 3217,
+        "percent": 32.17
+      },
+      {
+        "feature_idx": 12261,
+        "count": 2928,
+        "percent": 29.28
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2710,
+        "percent": 27.1
+      },
+      {
+        "feature_idx": 3571,
+        "count": 2587,
+        "percent": 25.87
+      },
+      {
+        "feature_idx": 968,
+        "count": 2555,
+        "percent": 25.55
+      },
+      {
+        "feature_idx": 20392,
+        "count": 2447,
+        "percent": 24.47
+      },
+      {
+        "feature_idx": 5285,
+        "count": 2405,
+        "percent": 24.05
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2399,
+        "percent": 23.99
+      },
+      {
+        "feature_idx": 3952,
+        "count": 2301,
+        "percent": 23.01
+      },
+      {
+        "feature_idx": 17554,
+        "count": 2141,
+        "percent": 21.41
+      },
+      {
+        "feature_idx": 24405,
+        "count": 2120,
+        "percent": 21.2
+      },
+      {
+        "feature_idx": 7241,
+        "count": 1922,
+        "percent": 19.22
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1906,
+        "percent": 19.06
+      },
+      {
+        "feature_idx": 6393,
+        "count": 1884,
+        "percent": 18.84
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 39400000,
+      "corpus_coverage": 0.762
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3169,
+        "percent": 31.69
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1822,
+        "percent": 18.22
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1364,
+        "percent": 13.64
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1472,
+        "percent": 14.72
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2173,
+        "percent": 21.73
+      }
+    ],
+    "mean_position": 0.4506,
+    "std_position": 0.3226
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 21,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0313,
+      "p25": 0.0393,
+      "p50": 0.0464,
+      "p75": 0.098,
+      "p90": 0.1682,
+      "p95": 0.1746,
+      "p99": 0.1806
+    },
+    "skewness": 1.1969,
+    "kurtosis": -0.0445,
+    "min": 0.0251,
+    "max": 0.1821,
+    "mean": 0.0713,
+    "std": 0.0501
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 21,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " of",
+        "count": 18,
+        "mean_activation": 0.0755
+      },
+      {
+        "token": " the",
+        "count": 2,
+        "mean_activation": 0.0497
+      },
+      {
+        "token": " center",
+        "count": 1,
+        "mean_activation": 0.0395
+      }
+    ]
+  }
+}

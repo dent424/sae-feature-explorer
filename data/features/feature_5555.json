@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5555,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 44,
+    "mean_when_active": 0.05853167447176846,
+    "max_activation": 0.1859130859375,
+    "std_when_active": 0.04144852117436907,
+    "activation_rate": 0.00044
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 17615,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " is",
+        "count": 5407,
+        "mean_activation": 0.06344513340183298
+      },
+      {
+        "token": " was",
+        "count": 4330,
+        "mean_activation": 0.06802410627898113
+      },
+      {
+        "token": " the",
+        "count": 2463,
+        "mean_activation": 0.0330898859517341
+      },
+      {
+        "token": ",",
+        "count": 1119,
+        "mean_activation": 0.04817788104482588
+      },
+      {
+        "token": " that",
+        "count": 740,
+        "mean_activation": 0.037192700360272384
+      },
+      {
+        "token": " part",
+        "count": 404,
+        "mean_activation": 0.020264276183477724
+      },
+      {
+        "token": " of",
+        "count": 214,
+        "mean_activation": 0.026681561336339078
+      },
+      {
+        "token": " SUPER",
+        "count": 203,
+        "mean_activation": 0.02401210991619843
+      },
+      {
+        "token": ".",
+        "count": 201,
+        "mean_activation": 0.03461141254178327
+      },
+      {
+        "token": " were",
+        "count": 184,
+        "mean_activation": 0.05469844652258832
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 17615,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ar frozen - best part** was** breadsticks and pop.",
+        "active_token": " was",
+        "activation": 0.220703125,
+        "review_id": "XLTy2_vV-0qrSEqFL6VioQ",
+        "position": 96
+      },
+      {
+        "context": "...t's it, the best part** was** the spicy dipping sa...",
+        "active_token": " was",
+        "activation": 0.2171630859375,
+        "review_id": "H41QX7B6U0A4iLTjkibbJQ",
+        "position": 50
+      },
+      {
+        "context": "... awful. The best part** was** the salt on the rim....",
+        "active_token": " was",
+        "activation": 0.2125244140625,
+        "review_id": "BKzxZK3fepCNSyaWD5N4DA",
+        "position": 90
+      },
+      {
+        "context": "...a roll. The best part** was** the faux crab salad....",
+        "active_token": " was",
+        "activation": 0.2113037109375,
+        "review_id": "PmoZ9jth650OPNzmM8uT_w",
+        "position": 39
+      },
+      {
+        "context": "...y good, the best part** is** that that they are no...",
+        "active_token": " is",
+        "activation": 0.2105712890625,
+        "review_id": "ePAtRsVlrLMPJxEimbQaeg",
+        "position": 19
+      },
+      {
+        "context": "... order. The best part** was** why she was so late....",
+        "active_token": " was",
+        "activation": 0.2105712890625,
+        "review_id": "ZcvYcw2reBVLXB3dEo43JQ",
+        "position": 49
+      },
+      {
+        "context": "...grease. The best part** was** the rice and beans. ...",
+        "active_token": " was",
+        "activation": 0.2099609375,
+        "review_id": "9reS3Z611nPkMOQJTB7SYw",
+        "position": 102
+      },
+      {
+        "context": "...some.   The best part** was** that the heat didn't...",
+        "active_token": " was",
+        "activation": 0.2098388671875,
+        "review_id": "Gsn7kO1bmZQ1Q_WO5YupsQ",
+        "position": 190
+      },
+      {
+        "context": "...wesome. The best part** was** the service. Very fr...",
+        "active_token": " was",
+        "activation": 0.208740234375,
+        "review_id": "Y_8IDUyelUfaRvOoMAWhMA",
+        "position": 38
+      },
+      {
+        "context": "...cos and the best part** is** that they are $2 each...",
+        "active_token": " is",
+        "activation": 0.2081298828125,
+        "review_id": "Uo7GeGI7pTD6LnJ-TLLm0g",
+        "position": 53
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5555,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1774,
+        "max": 0.2207,
+        "mean": 0.1905
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " best",
+            " part"
+          ],
+          "ngram_str": " best part",
+          "count": 414,
+          "percent": 82.8
+        },
+        {
+          "ngram": [
+            " part",
+            " is"
+          ],
+          "ngram_str": " part is",
+          "count": 275,
+          "percent": 55.0
+        },
+        {
+          "ngram": [
+            " The",
+            " best"
+          ],
+          "ngram_str": " The best",
+          "count": 242,
+          "percent": 48.4
+        },
+        {
+          "ngram": [
+            " part",
+            " was"
+          ],
+          "ngram_str": " part was",
+          "count": 225,
+          "percent": 45.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            " was",
+            " the"
+          ],
+          "ngram_str": " was the",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            " the",
+            " best"
+          ],
+          "ngram_str": " the best",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " is",
+            " that"
+          ],
+          "ngram_str": " is that",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " is",
+            " the"
+          ],
+          "ngram_str": " is the",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " Best",
+            " part"
+          ],
+          "ngram_str": " Best part",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " ",
+            " The"
+          ],
+          "ngram_str": "  The",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Best"
+          ],
+          "ngram_str": ". Best",
+          "count": 40,
+          "percent": 8.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " The",
+            " best",
+            " part"
+          ],
+          "ngram_str": " The best part",
+          "count": 242,
+          "percent": 48.4
+        },
+        {
+          "ngram": [
+            " best",
+            " part",
+            " is"
+          ],
+          "ngram_str": " best part is",
+          "count": 228,
+          "percent": 45.6
+        },
+        {
+          "ngram": [
+            " best",
+            " part",
+            " was"
+          ],
+          "ngram_str": " best part was",
+          "count": 186,
+          "percent": 37.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " best"
+          ],
+          "ngram_str": ". The best",
+          "count": 174,
+          "percent": 34.8
+        },
+        {
+          "ngram": [
+            " part",
+            " was",
+            " the"
+          ],
+          "ngram_str": " part was the",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            " the",
+            " best",
+            " part"
+          ],
+          "ngram_str": " the best part",
+          "count": 116,
+          "percent": 23.2
+        },
+        {
+          "ngram": [
+            " part",
+            " is",
+            " that"
+          ],
+          "ngram_str": " part is that",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " part",
+            " is",
+            " the"
+          ],
+          "ngram_str": " part is the",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " best"
+          ],
+          "ngram_str": "  The best",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Best",
+            " part"
+          ],
+          "ngram_str": ". Best part",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "The",
+            " best",
+            " part"
+          ],
+          "ngram_str": "The best part",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The",
+            " best"
+          ],
+          "ngram_str": "\u012cThe best",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " best"
+          ],
+          "ngram_str": " and the best",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " The",
+            " best",
+            " part"
+          ],
+          "ngram_str": ". The best part",
+          "count": 174,
+          "percent": 34.8
+        },
+        {
+          "ngram": [
+            " The",
+            " best",
+            " part",
+            " is"
+          ],
+          "ngram_str": " The best part is",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            " best",
+            " part",
+            " was",
+            " the"
+          ],
+          "ngram_str": " best part was the",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " The",
+            " best",
+            " part",
+            " was"
+          ],
+          "ngram_str": " The best part was",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " the",
+            " best",
+            " part",
+            " is"
+          ],
+          "ngram_str": " the best part is",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " best",
+            " part",
+            " is",
+            " that"
+          ],
+          "ngram_str": " best part is that",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " best",
+            " part",
+            " is",
+            " the"
+          ],
+          "ngram_str": " best part is the",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " best",
+            " part"
+          ],
+          "ngram_str": "  The best part",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " best",
+            " part",
+            " was"
+          ],
+          "ngram_str": " the best part was",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " best"
+          ],
+          "ngram_str": ".  The best",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The",
+            " best",
+            " part"
+          ],
+          "ngram_str": "\u012cThe best part",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " best",
+            " part"
+          ],
+          "ngram_str": " and the best part",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The",
+            " best"
+          ],
+          "ngram_str": "\u00c4\u012cThe best",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 30,
+          "percent": 6.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 29000000,
+      "corpus_coverage": 0.5609
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 18704,
+        "count": 7750,
+        "percent": 77.5
+      },
+      {
+        "feature_idx": 14007,
+        "count": 6588,
+        "percent": 65.88
+      },
+      {
+        "feature_idx": 21971,
+        "count": 6451,
+        "percent": 64.51
+      },
+      {
+        "feature_idx": 13585,
+        "count": 6102,
+        "percent": 61.02
+      },
+      {
+        "feature_idx": 14676,
+        "count": 5951,
+        "percent": 59.51
+      },
+      {
+        "feature_idx": 20619,
+        "count": 5710,
+        "percent": 57.1
+      },
+      {
+        "feature_idx": 6681,
+        "count": 5569,
+        "percent": 55.69
+      },
+      {
+        "feature_idx": 1227,
+        "count": 5275,
+        "percent": 52.75
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4892,
+        "percent": 48.92
+      },
+      {
+        "feature_idx": 23441,
+        "count": 4459,
+        "percent": 44.59
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4424,
+        "percent": 44.24
+      },
+      {
+        "feature_idx": 8059,
+        "count": 4116,
+        "percent": 41.16
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3947,
+        "percent": 39.47
+      },
+      {
+        "feature_idx": 20607,
+        "count": 3773,
+        "percent": 37.73
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3363,
+        "percent": 33.63
+      },
+      {
+        "feature_idx": 6329,
+        "count": 3337,
+        "percent": 33.37
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3319,
+        "percent": 33.19
+      },
+      {
+        "feature_idx": 6254,
+        "count": 3117,
+        "percent": 31.17
+      },
+      {
+        "feature_idx": 21407,
+        "count": 3046,
+        "percent": 30.46
+      },
+      {
+        "feature_idx": 14972,
+        "count": 2947,
+        "percent": 29.47
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 29000000,
+      "corpus_coverage": 0.5609
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1074,
+        "percent": 10.74
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1910,
+        "percent": 19.1
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2419,
+        "percent": 24.19
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2836,
+        "percent": 28.36
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1761,
+        "percent": 17.61
+      }
+    ],
+    "mean_position": 0.5453,
+    "std_position": 0.2461
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 44,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0208,
+      "p25": 0.0276,
+      "p50": 0.0444,
+      "p75": 0.0794,
+      "p90": 0.1189,
+      "p95": 0.1302,
+      "p99": 0.182
+    },
+    "skewness": 1.3591,
+    "kurtosis": 1.3508,
+    "min": 0.0171,
+    "max": 0.1859,
+    "mean": 0.0585,
+    "std": 0.0414
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 44,
+      "unique_tokens_found": 13
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 10,
+        "mean_activation": 0.0317
+      },
+      {
+        "token": " was",
+        "count": 10,
+        "mean_activation": 0.0767
+      },
+      {
+        "token": " is",
+        "count": 8,
+        "mean_activation": 0.0944
+      },
+      {
+        "token": ",",
+        "count": 5,
+        "mean_activation": 0.0366
+      },
+      {
+        "token": "...",
+        "count": 2,
+        "mean_activation": 0.0749
+      },
+      {
+        "token": " that",
+        "count": 2,
+        "mean_activation": 0.0311
+      },
+      {
+        "token": "-",
+        "count": 1,
+        "mean_activation": 0.0817
+      },
+      {
+        "token": "the",
+        "count": 1,
+        "mean_activation": 0.0662
+      },
+      {
+        "token": "..",
+        "count": 1,
+        "mean_activation": 0.0329
+      },
+      {
+        "token": " of",
+        "count": 1,
+        "mean_activation": 0.0455
+      }
+    ]
+  }
+}

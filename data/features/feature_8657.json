@@ -1,0 +1,876 @@
+{
+  "feature_idx": 8657,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 19,
+    "mean_when_active": 0.08142892937911184,
+    "max_activation": 0.251220703125,
+    "std_when_active": 0.06075416056698085,
+    "activation_rate": 0.00019
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 10777,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " opening",
+        "count": 3049,
+        "mean_activation": 0.16605886907880915
+      },
+      {
+        "token": " opened",
+        "count": 2516,
+        "mean_activation": 0.03494059224575995
+      },
+      {
+        "token": " closing",
+        "count": 2158,
+        "mean_activation": 0.102783747576695
+      },
+      {
+        "token": " open",
+        "count": 443,
+        "mean_activation": 0.02958779087454148
+      },
+      {
+        "token": " close",
+        "count": 352,
+        "mean_activation": 0.0396823449568315
+      },
+      {
+        "token": " opens",
+        "count": 172,
+        "mean_activation": 0.0434926055198492
+      },
+      {
+        "token": "opening",
+        "count": 165,
+        "mean_activation": 0.11501871744791667
+      },
+      {
+        "token": " day",
+        "count": 155,
+        "mean_activation": 0.06286542338709677
+      },
+      {
+        "token": " night",
+        "count": 126,
+        "mean_activation": 0.05276707240513393
+      },
+      {
+        "token": " closed",
+        "count": 106,
+        "mean_activation": 0.031078626524727298
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 10777,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...Cheese today on its** opening** day, and I have to...",
+        "active_token": " opening",
+        "activation": 0.30078125,
+        "review_id": "rX6XeupbY_95bYdxBARInQ",
+        "position": 29
+      },
+      {
+        "context": "... December 10th.  On** opening** night, we sat at t...",
+        "active_token": " opening",
+        "activation": 0.295166015625,
+        "review_id": "svZyWTQaxi2kFjZO1iWCFg",
+        "position": 35
+      },
+      {
+        "context": "Arrived on** opening** day...... Decided ...",
+        "active_token": " opening",
+        "activation": 0.29345703125,
+        "review_id": "7CDjmPlWthpgf_W9LQP_FA",
+        "position": 3
+      },
+      {
+        "context": "... out of the park on** opening** day. Taco Bus on F...",
+        "active_token": " opening",
+        "activation": 0.29248046875,
+        "review_id": "j5os_gwacyxxtUR_CHkeMw",
+        "position": 22
+      },
+      {
+        "context": "... an early dinner on** opening** night.  First impr...",
+        "active_token": " opening",
+        "activation": 0.290771484375,
+        "review_id": "EdiOf6SLJB494kzrx4pvzg",
+        "position": 22
+      },
+      {
+        "context": "...he door by 11:30 on** opening** day and they were ...",
+        "active_token": " opening",
+        "activation": 0.29052734375,
+        "review_id": "M0D9-ViBC2l_xodFOB6IUQ",
+        "position": 68
+      },
+      {
+        "context": "...re for breakfast on** opening** day. Ordered the b...",
+        "active_token": " opening",
+        "activation": 0.290283203125,
+        "review_id": "0t5CKvyrltMK1RVqE2tosw",
+        "position": 6
+      },
+      {
+        "context": "...able to swing by on** opening** day, not wait in a...",
+        "active_token": " opening",
+        "activation": 0.288818359375,
+        "review_id": "aN7I4m2gXIKezfKRUnNP4Q",
+        "position": 47
+      },
+      {
+        "context": "I went here during** opening** week where they we...",
+        "active_token": " opening",
+        "activation": 0.2880859375,
+        "review_id": "czamU1sI27FpgiqYioAcIw",
+        "position": 4
+      },
+      {
+        "context": "We came in on** opening** night, knowing it ...",
+        "active_token": " opening",
+        "activation": 0.28759765625,
+        "review_id": "LDWYhV9N8xA9MCpxVMMx9w",
+        "position": 4
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8657,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2314,
+        "max": 0.3008,
+        "mean": 0.2531
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " opening"
+          ],
+          "ngram_str": " the opening",
+          "count": 160,
+          "percent": 32.0
+        },
+        {
+          "ngram": [
+            " on",
+            " opening"
+          ],
+          "ngram_str": " on opening",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " their",
+            " opening"
+          ],
+          "ngram_str": " their opening",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " opening",
+            " of"
+          ],
+          "ngram_str": " opening of",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " opening",
+            " night"
+          ],
+          "ngram_str": " opening night",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " opening",
+            " day"
+          ],
+          "ngram_str": " opening day",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " opening",
+            " week"
+          ],
+          "ngram_str": " opening week",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " opening",
+            "."
+          ],
+          "ngram_str": " opening.",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " opening",
+            " and"
+          ],
+          "ngram_str": " opening and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " opening",
+            " weekend"
+          ],
+          "ngram_str": " opening weekend",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " for",
+            " the"
+          ],
+          "ngram_str": " for the",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " of",
+            " opening"
+          ],
+          "ngram_str": " of opening",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " opening",
+            " of"
+          ],
+          "ngram_str": " the opening of",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " day"
+          ],
+          "ngram_str": " on opening day",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " night"
+          ],
+          "ngram_str": " on opening night",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " for",
+            " the",
+            " opening"
+          ],
+          "ngram_str": " for the opening",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " opening",
+            " night",
+            "."
+          ],
+          "ngram_str": " opening night.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " opening",
+            " of",
+            " the"
+          ],
+          "ngram_str": " opening of the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " opening",
+            " of",
+            " this"
+          ],
+          "ngram_str": " opening of this",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " opening",
+            " day",
+            " and"
+          ],
+          "ngram_str": " opening day and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " opening"
+          ],
+          "ngram_str": " to the opening",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " opening",
+            " night",
+            ","
+          ],
+          "ngram_str": " opening night,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " opening",
+            " day",
+            "."
+          ],
+          "ngram_str": " opening day.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " opening",
+            " night",
+            " and"
+          ],
+          "ngram_str": " opening night and",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " opening",
+            " week",
+            "."
+          ],
+          "ngram_str": " opening week.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " on",
+            " their",
+            " opening"
+          ],
+          "ngram_str": " on their opening",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " during",
+            " opening",
+            " week"
+          ],
+          "ngram_str": " during opening week",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " the",
+            " opening",
+            " of",
+            " the"
+          ],
+          "ngram_str": " the opening of the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " the",
+            " opening",
+            " of",
+            " this"
+          ],
+          "ngram_str": " the opening of this",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " opening",
+            " of"
+          ],
+          "ngram_str": " to the opening of",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " day",
+            "."
+          ],
+          "ngram_str": " on opening day.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " day",
+            " and"
+          ],
+          "ngram_str": " on opening day and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " night",
+            ","
+          ],
+          "ngram_str": " on opening night,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " the",
+            " opening"
+          ],
+          "ngram_str": " forward to the opening",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " for",
+            " the",
+            " opening",
+            " of"
+          ],
+          "ngram_str": " for the opening of",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " opening",
+            " of",
+            " this",
+            " restaurant"
+          ],
+          "ngram_str": " opening of this restaurant",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " day",
+            ","
+          ],
+          "ngram_str": " on opening day,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " here",
+            " on",
+            " opening",
+            " night"
+          ],
+          "ngram_str": " here on opening night",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " looking",
+            " forward",
+            " to",
+            " the"
+          ],
+          "ngram_str": " looking forward to the",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " night",
+            "."
+          ],
+          "ngram_str": " on opening night.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " on",
+            " opening",
+            " night",
+            " and"
+          ],
+          "ngram_str": " on opening night and",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " been",
+            " anx",
+            "iously",
+            " awaiting"
+          ],
+          "ngram_str": " been anxiously awaiting",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 48100000,
+      "corpus_coverage": 0.9303
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 8978,
+        "count": 8259,
+        "percent": 82.59
+      },
+      {
+        "feature_idx": 8152,
+        "count": 8103,
+        "percent": 81.03
+      },
+      {
+        "feature_idx": 7411,
+        "count": 7448,
+        "percent": 74.48
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6531,
+        "percent": 65.31
+      },
+      {
+        "feature_idx": 13581,
+        "count": 6278,
+        "percent": 62.78
+      },
+      {
+        "feature_idx": 12132,
+        "count": 6172,
+        "percent": 61.72
+      },
+      {
+        "feature_idx": 9646,
+        "count": 6142,
+        "percent": 61.42
+      },
+      {
+        "feature_idx": 19741,
+        "count": 5316,
+        "percent": 53.16
+      },
+      {
+        "feature_idx": 4845,
+        "count": 5183,
+        "percent": 51.83
+      },
+      {
+        "feature_idx": 20172,
+        "count": 5166,
+        "percent": 51.66
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4878,
+        "percent": 48.78
+      },
+      {
+        "feature_idx": 7424,
+        "count": 4301,
+        "percent": 43.01
+      },
+      {
+        "feature_idx": 19598,
+        "count": 4045,
+        "percent": 40.45
+      },
+      {
+        "feature_idx": 19071,
+        "count": 3651,
+        "percent": 36.51
+      },
+      {
+        "feature_idx": 3119,
+        "count": 3418,
+        "percent": 34.18
+      },
+      {
+        "feature_idx": 23134,
+        "count": 3385,
+        "percent": 33.85
+      },
+      {
+        "feature_idx": 22993,
+        "count": 3227,
+        "percent": 32.27
+      },
+      {
+        "feature_idx": 15459,
+        "count": 3016,
+        "percent": 30.16
+      },
+      {
+        "feature_idx": 20698,
+        "count": 2987,
+        "percent": 29.87
+      },
+      {
+        "feature_idx": 2881,
+        "count": 2643,
+        "percent": 26.43
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 48100000,
+      "corpus_coverage": 0.9303
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4268,
+        "percent": 42.68
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1824,
+        "percent": 18.24
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1219,
+        "percent": 12.19
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1186,
+        "percent": 11.86
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1503,
+        "percent": 15.03
+      }
+    ],
+    "mean_position": 0.3702,
+    "std_position": 0.3102
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 19,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0244,
+      "p25": 0.0321,
+      "p50": 0.0572,
+      "p75": 0.1088,
+      "p90": 0.1448,
+      "p95": 0.1933,
+      "p99": 0.2396
+    },
+    "skewness": 1.219,
+    "kurtosis": 0.9903,
+    "min": 0.0189,
+    "max": 0.2512,
+    "mean": 0.0814,
+    "std": 0.0608
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 19,
+      "unique_tokens_found": 10
+    },
+    "tokens": [
+      {
+        "token": " opened",
+        "count": 6,
+        "mean_activation": 0.0389
+      },
+      {
+        "token": " closing",
+        "count": 5,
+        "mean_activation": 0.1036
+      },
+      {
+        "token": " highlight",
+        "count": 1,
+        "mean_activation": 0.025
+      },
+      {
+        "token": " Close",
+        "count": 1,
+        "mean_activation": 0.0257
+      },
+      {
+        "token": "osing",
+        "count": 1,
+        "mean_activation": 0.1064
+      },
+      {
+        "token": " founding",
+        "count": 1,
+        "mean_activation": 0.1277
+      },
+      {
+        "token": " Opening",
+        "count": 1,
+        "mean_activation": 0.1869
+      },
+      {
+        "token": "aming",
+        "count": 1,
+        "mean_activation": 0.0297
+      },
+      {
+        "token": " opening",
+        "count": 1,
+        "mean_activation": 0.2512
+      },
+      {
+        "token": "ens",
+        "count": 1,
+        "mean_activation": 0.0434
+      }
+    ]
+  }
+}

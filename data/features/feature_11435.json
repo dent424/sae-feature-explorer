@@ -1,0 +1,876 @@
+{
+  "feature_idx": 11435,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 564,
+    "mean_when_active": 0.03522418407683677,
+    "max_activation": 0.12939453125,
+    "std_when_active": 0.01829419289317544,
+    "activation_rate": 0.00564
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 8800000,
+      "corpus_coverage": 0.1702
+    },
+    "top_tokens": [
+      {
+        "token": ",",
+        "count": 1822,
+        "mean_activation": 0.031879425048828125
+      },
+      {
+        "token": " and",
+        "count": 1671,
+        "mean_activation": 0.03290602605832258
+      },
+      {
+        "token": " cheese",
+        "count": 1144,
+        "mean_activation": 0.04698670660699164
+      },
+      {
+        "token": " food",
+        "count": 1125,
+        "mean_activation": 0.02963338894314236
+      },
+      {
+        "token": " flavor",
+        "count": 898,
+        "mean_activation": 0.05495983879921962
+      },
+      {
+        "token": " sauce",
+        "count": 792,
+        "mean_activation": 0.04683169933280559
+      },
+      {
+        "token": " rice",
+        "count": 744,
+        "mean_activation": 0.03031189723681378
+      },
+      {
+        "token": " salsa",
+        "count": 738,
+        "mean_activation": 0.02671350825446731
+      },
+      {
+        "token": " beans",
+        "count": 700,
+        "mean_activation": 0.03235245840890067
+      },
+      {
+        "token": " a",
+        "count": 697,
+        "mean_activation": 0.04043121556811558
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 8800000,
+      "corpus_coverage": 0.1702
+    },
+    "activations": [
+      {
+        "context": "...ilthy and covered in** food** and napkins. I under...",
+        "active_token": " food",
+        "activation": 0.15380859375,
+        "review_id": "yCRs3mW687eRUSVoKrkzsQ",
+        "position": 112
+      },
+      {
+        "context": "... place was coated in** dust**, the pictures hung c...",
+        "active_token": " dust",
+        "activation": 0.142822265625,
+        "review_id": "pQFCzGc1kCN9fKOCq8uWVQ",
+        "position": 138
+      },
+      {
+        "context": "...y were stuffed with** cheese**.  This is a chicken...",
+        "active_token": " cheese",
+        "activation": 0.1358642578125,
+        "review_id": "SI0lMOlBHnTf5N7uE_uMeg",
+        "position": 308
+      },
+      {
+        "context": "...g are cluttered with** dust**/cobwebs, I am glad I",
+        "active_token": " dust",
+        "activation": 0.1351318359375,
+        "review_id": "GF4wMY_l2cA-hhxeY53QUg",
+        "position": 46
+      },
+      {
+        "context": "...to the brim with dry** goods** to the taqueria in ...",
+        "active_token": " goods",
+        "activation": 0.1317138671875,
+        "review_id": "AHwLPwfcniC6HZ6wcIJ3Rw",
+        "position": 315
+      },
+      {
+        "context": "...d. Stuffed full of** contents** just how I like it...",
+        "active_token": " contents",
+        "activation": 0.12939453125,
+        "review_id": "fxNp2WHz-0_j3kJnM4YY6Q",
+        "position": 142
+      },
+      {
+        "context": "...tensils covered with** food**. The server was rude...",
+        "active_token": " food",
+        "activation": 0.1279296875,
+        "review_id": "tQOx1PRkh2c5lbeUG-ATQQ",
+        "position": 25
+      },
+      {
+        "context": "...y and covered in topp**ings**. I would definitely ...",
+        "active_token": "ings",
+        "activation": 0.126708984375,
+        "review_id": "nRVajIx6NEq8OCL9Y88SVg",
+        "position": 646
+      },
+      {
+        "context": "...e walls riddled with** water** damage. I decided i...",
+        "active_token": " water",
+        "activation": 0.126220703125,
+        "review_id": "pQFCzGc1kCN9fKOCq8uWVQ",
+        "position": 150
+      },
+      {
+        "context": "... it was dripping with** oil**, some of the potatoe...",
+        "active_token": " oil",
+        "activation": 0.1248779296875,
+        "review_id": "e2iI-fEeYOG2XzftNP4acA",
+        "position": 70
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11435,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 17200000,
+      "corpus_coverage": 0.3327,
+      "activation_range": {
+        "min": 0.1044,
+        "max": 0.1538,
+        "mean": 0.1128
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " covered",
+            " in"
+          ],
+          "ngram_str": " covered in",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " with",
+            " meat"
+          ],
+          "ngram_str": " with meat",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " filled",
+            " with"
+          ],
+          "ngram_str": " filled with",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " packed",
+            " with"
+          ],
+          "ngram_str": " packed with",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " stuffed with",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " meat",
+            " and"
+          ],
+          "ngram_str": " meat and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " full",
+            " of"
+          ],
+          "ngram_str": " full of",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " was",
+            " covered"
+          ],
+          "ngram_str": " was covered",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " cheese",
+            "."
+          ],
+          "ngram_str": " cheese.",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " in",
+            " cheese"
+          ],
+          "ngram_str": " in cheese",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " with",
+            " meat",
+            " and"
+          ],
+          "ngram_str": " with meat and",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " meat"
+          ],
+          "ngram_str": " stuffed with meat",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " was",
+            " covered",
+            " in"
+          ],
+          "ngram_str": " was covered in",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " packed",
+            " with",
+            " meat"
+          ],
+          "ngram_str": " packed with meat",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " d",
+            "renched",
+            " in"
+          ],
+          "ngram_str": " drenched in",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " was",
+            " packed",
+            " with"
+          ],
+          "ngram_str": " was packed with",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " and",
+            " covered",
+            " in"
+          ],
+          "ngram_str": " and covered in",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " was"
+          ],
+          "ngram_str": ". It was",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " with",
+            " meat",
+            "."
+          ],
+          "ngram_str": " with meat.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " and",
+            " filled",
+            " with"
+          ],
+          "ngram_str": " and filled with",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " with",
+            " meat",
+            ","
+          ],
+          "ngram_str": " with meat,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " was",
+            " filled",
+            " with"
+          ],
+          "ngram_str": " was filled with",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " and",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " and stuffed with",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " meat",
+            " and"
+          ],
+          "ngram_str": " stuffed with meat and",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " sm",
+            "ot",
+            "hered",
+            " in"
+          ],
+          "ngram_str": " smothered in",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " with",
+            " meat",
+            " and",
+            " cheese"
+          ],
+          "ngram_str": " with meat and cheese",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " brim",
+            " with"
+          ],
+          "ngram_str": " to the brim with",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " and",
+            " covered",
+            " in",
+            " cheese"
+          ],
+          "ngram_str": " and covered in cheese",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " covered",
+            " in",
+            " cheese",
+            "."
+          ],
+          "ngram_str": " covered in cheese.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " meat",
+            ","
+          ],
+          "ngram_str": " stuffed with meat,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " was",
+            " d",
+            "renched",
+            " in"
+          ],
+          "ngram_str": " was drenched in",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " was",
+            " stuffed",
+            " with",
+            " meat"
+          ],
+          "ngram_str": " was stuffed with meat",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " was",
+            " packed",
+            " with",
+            " meat"
+          ],
+          "ngram_str": " was packed with meat",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " packed",
+            " with",
+            " meat",
+            " and"
+          ],
+          "ngram_str": " packed with meat and",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1800000,
+      "corpus_coverage": 0.0348
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 6879,
+        "percent": 68.79
+      },
+      {
+        "feature_idx": 20172,
+        "count": 5329,
+        "percent": 53.29
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4313,
+        "percent": 43.13
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4144,
+        "percent": 41.44
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4026,
+        "percent": 40.26
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3264,
+        "percent": 32.64
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3102,
+        "percent": 31.02
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3015,
+        "percent": 30.15
+      },
+      {
+        "feature_idx": 9513,
+        "count": 2839,
+        "percent": 28.39
+      },
+      {
+        "feature_idx": 21174,
+        "count": 2784,
+        "percent": 27.84
+      },
+      {
+        "feature_idx": 17654,
+        "count": 2582,
+        "percent": 25.82
+      },
+      {
+        "feature_idx": 3462,
+        "count": 2070,
+        "percent": 20.7
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2014,
+        "percent": 20.14
+      },
+      {
+        "feature_idx": 13450,
+        "count": 1984,
+        "percent": 19.84
+      },
+      {
+        "feature_idx": 966,
+        "count": 1974,
+        "percent": 19.74
+      },
+      {
+        "feature_idx": 12082,
+        "count": 1861,
+        "percent": 18.61
+      },
+      {
+        "feature_idx": 19995,
+        "count": 1826,
+        "percent": 18.26
+      },
+      {
+        "feature_idx": 9086,
+        "count": 1810,
+        "percent": 18.1
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1744,
+        "percent": 17.44
+      },
+      {
+        "feature_idx": 22000,
+        "count": 1652,
+        "percent": 16.52
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1800000,
+      "corpus_coverage": 0.0348
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1230,
+        "percent": 12.3
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2323,
+        "percent": 23.23
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2778,
+        "percent": 27.78
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2421,
+        "percent": 24.21
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1248,
+        "percent": 12.48
+      }
+    ],
+    "mean_position": 0.5042,
+    "std_position": 0.2396
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 564,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.018,
+      "p25": 0.0227,
+      "p50": 0.0304,
+      "p75": 0.0433,
+      "p90": 0.0591,
+      "p95": 0.072,
+      "p99": 0.0997
+    },
+    "skewness": 1.6339,
+    "kurtosis": 3.3424,
+    "min": 0.0031,
+    "max": 0.1294,
+    "mean": 0.0352,
+    "std": 0.0183
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 564,
+      "unique_tokens_found": 305
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 24,
+        "mean_activation": 0.0348
+      },
+      {
+        "token": " food",
+        "count": 19,
+        "mean_activation": 0.0267
+      },
+      {
+        "token": " flavor",
+        "count": 18,
+        "mean_activation": 0.0472
+      },
+      {
+        "token": " and",
+        "count": 15,
+        "mean_activation": 0.0315
+      },
+      {
+        "token": " cheese",
+        "count": 11,
+        "mean_activation": 0.0593
+      },
+      {
+        "token": " salsa",
+        "count": 10,
+        "mean_activation": 0.0242
+      },
+      {
+        "token": " chips",
+        "count": 10,
+        "mean_activation": 0.0325
+      },
+      {
+        "token": " rice",
+        "count": 10,
+        "mean_activation": 0.0256
+      },
+      {
+        "token": " sauce",
+        "count": 9,
+        "mean_activation": 0.0483
+      },
+      {
+        "token": " of",
+        "count": 8,
+        "mean_activation": 0.0303
+      }
+    ]
+  }
+}

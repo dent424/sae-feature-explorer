@@ -1,0 +1,876 @@
+{
+  "feature_idx": 11038,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 166,
+    "mean_when_active": 0.07930626926651921,
+    "max_activation": 0.1981201171875,
+    "std_when_active": 0.042497455844046586,
+    "activation_rate": 0.00166
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 29200000,
+      "corpus_coverage": 0.5648
+    },
+    "top_tokens": [
+      {
+        "token": " here",
+        "count": 42366,
+        "mean_activation": 0.08387940986711456
+      },
+      {
+        "token": " there",
+        "count": 2806,
+        "mean_activation": 0.03741814796192172
+      },
+      {
+        "token": " Here",
+        "count": 510,
+        "mean_activation": 0.0606501859777114
+      },
+      {
+        "token": " this",
+        "count": 338,
+        "mean_activation": 0.023600493662456083
+      },
+      {
+        "token": " place",
+        "count": 306,
+        "mean_activation": 0.01946841969209559
+      },
+      {
+        "token": " location",
+        "count": 266,
+        "mean_activation": 0.024850687586275257
+      },
+      {
+        "token": " menu",
+        "count": 227,
+        "mean_activation": 0.02336534004379474
+      },
+      {
+        "token": " them",
+        "count": 223,
+        "mean_activation": 0.025260548955121916
+      },
+      {
+        "token": " HERE",
+        "count": 172,
+        "mean_activation": 0.056033644565316135
+      },
+      {
+        "token": "Here",
+        "count": 158,
+        "mean_activation": 0.04258018203928501
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 29200000,
+      "corpus_coverage": 0.5648
+    },
+    "activations": [
+      {
+        "context": "...as particularly good** here** compared with other ...",
+        "active_token": " here",
+        "activation": 0.242431640625,
+        "review_id": "cF-0aRjFzfUL7q0s4u3pzg",
+        "position": 124
+      },
+      {
+        "context": "... people is very good** here**, and this is an exce...",
+        "active_token": " here",
+        "activation": 0.2386474609375,
+        "review_id": "f4PZC3vt5NVK1AiBJA0RTw",
+        "position": 183
+      },
+      {
+        "context": "...s way more flavorful** here**. The tacos were litt...",
+        "active_token": " here",
+        "activation": 0.2379150390625,
+        "review_id": "MWpyo-VtK0p9O5ztOJ96lw",
+        "position": 38
+      },
+      {
+        "context": "... food is really good** here** too. I tend to alway...",
+        "active_token": " here",
+        "activation": 0.2364501953125,
+        "review_id": "vcl1uI6C4Hx_CLizw0VG0A",
+        "position": 85
+      },
+      {
+        "context": "...e exceptionally good** here**.",
+        "active_token": " here",
+        "activation": 0.235107421875,
+        "review_id": "V2OHAvhbIrf7um9CN71IwQ",
+        "position": 24
+      },
+      {
+        "context": "... The food is amazing** here**.  Can't say I've eat...",
+        "active_token": " here",
+        "activation": 0.2327880859375,
+        "review_id": "oIedOV-OcoOiBVb398_9DA",
+        "position": 32
+      },
+      {
+        "context": "...ike) are outstanding** here**--the best I've ever ...",
+        "active_token": " here",
+        "activation": 0.2325439453125,
+        "review_id": "7BUm-lTYTflLC0ryq1FVlw",
+        "position": 101
+      },
+      {
+        "context": "...especially fantastic** here**, we finished everyth...",
+        "active_token": " here",
+        "activation": 0.2315673828125,
+        "review_id": "IeIM1f48n13jD8qqh-I81A",
+        "position": 35
+      },
+      {
+        "context": "... the food is amazing** here**. I love it very much...",
+        "active_token": " here",
+        "activation": 0.2298583984375,
+        "review_id": "AXf4PTMosK7Xu1bfyKAKag",
+        "position": 50
+      },
+      {
+        "context": "...he food is fantastic** here**! The prices are very...",
+        "active_token": " here",
+        "activation": 0.2293701171875,
+        "review_id": "2am3svzAIy11nFnwCeupvw",
+        "position": 149
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11038,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.205,
+        "max": 0.2424,
+        "mean": 0.2149
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " here",
+            "."
+          ],
+          "ngram_str": " here.",
+          "count": 207,
+          "percent": 41.4
+        },
+        {
+          "ngram": [
+            " good",
+            " here"
+          ],
+          "ngram_str": " good here",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " food",
+            " is"
+          ],
+          "ngram_str": " food is",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " here",
+            ","
+          ],
+          "ngram_str": " here,",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " great",
+            " here"
+          ],
+          "ngram_str": " great here",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " here",
+            " and"
+          ],
+          "ngram_str": " here and",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " amazing",
+            " here"
+          ],
+          "ngram_str": " amazing here",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " here",
+            "!"
+          ],
+          "ngram_str": " here!",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " service",
+            " is"
+          ],
+          "ngram_str": " service is",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " really",
+            " good"
+          ],
+          "ngram_str": " really good",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " is",
+            " great"
+          ],
+          "ngram_str": " is great",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " good",
+            " here",
+            "."
+          ],
+          "ngram_str": " good here.",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            " "
+          ],
+          "ngram_str": " here. ",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " really",
+            " good",
+            " here"
+          ],
+          "ngram_str": " really good here",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " is"
+          ],
+          "ngram_str": " the food is",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " is",
+            " great",
+            " here"
+          ],
+          "ngram_str": " is great here",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " The",
+            " food",
+            " is"
+          ],
+          "ngram_str": " The food is",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " pretty",
+            " good",
+            " here"
+          ],
+          "ngram_str": " pretty good here",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            " The"
+          ],
+          "ngram_str": " here. The",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " is",
+            " amazing",
+            " here"
+          ],
+          "ngram_str": " is amazing here",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " good",
+            " here",
+            ","
+          ],
+          "ngram_str": " good here,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " is",
+            " good",
+            " here"
+          ],
+          "ngram_str": " is good here",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " great",
+            " here",
+            "."
+          ],
+          "ngram_str": " great here.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " the",
+            " best",
+            " here"
+          ],
+          "ngram_str": " the best here",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " amazing",
+            " here",
+            "."
+          ],
+          "ngram_str": " amazing here.",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " very",
+            " good",
+            " here"
+          ],
+          "ngram_str": " very good here",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " is",
+            " pretty",
+            " good",
+            " here"
+          ],
+          "ngram_str": " is pretty good here",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " pretty",
+            " good",
+            " here",
+            "."
+          ],
+          "ngram_str": " pretty good here.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " really",
+            " good",
+            " here",
+            "."
+          ],
+          "ngram_str": " really good here.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " is",
+            " great",
+            " here",
+            "."
+          ],
+          "ngram_str": " is great here.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": " here.  I",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " is",
+            " amazing",
+            " here",
+            "."
+          ],
+          "ngram_str": " is amazing here.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " here",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " here.\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            " is",
+            " good",
+            " here"
+          ],
+          "ngram_str": " food is good here",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " very",
+            " good",
+            " here",
+            "."
+          ],
+          "ngram_str": " very good here.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " good",
+            " here",
+            ".",
+            " "
+          ],
+          "ngram_str": " good here. ",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " is",
+            " really",
+            " good",
+            " here"
+          ],
+          "ngram_str": " is really good here",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " are",
+            " the",
+            " best",
+            " here"
+          ],
+          "ngram_str": " are the best here",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " are",
+            " amazing",
+            " here"
+          ],
+          "ngram_str": " tacos are amazing here",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5800000,
+      "corpus_coverage": 0.1122
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 12289,
+        "count": 9221,
+        "percent": 92.21
+      },
+      {
+        "feature_idx": 23437,
+        "count": 9142,
+        "percent": 91.42
+      },
+      {
+        "feature_idx": 21756,
+        "count": 8758,
+        "percent": 87.58
+      },
+      {
+        "feature_idx": 807,
+        "count": 8703,
+        "percent": 87.03
+      },
+      {
+        "feature_idx": 12916,
+        "count": 6529,
+        "percent": 65.29
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6299,
+        "percent": 62.99
+      },
+      {
+        "feature_idx": 18709,
+        "count": 5902,
+        "percent": 59.02
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4773,
+        "percent": 47.73
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4602,
+        "percent": 46.02
+      },
+      {
+        "feature_idx": 9689,
+        "count": 4218,
+        "percent": 42.18
+      },
+      {
+        "feature_idx": 18649,
+        "count": 4205,
+        "percent": 42.05
+      },
+      {
+        "feature_idx": 13670,
+        "count": 3843,
+        "percent": 38.43
+      },
+      {
+        "feature_idx": 19995,
+        "count": 3484,
+        "percent": 34.84
+      },
+      {
+        "feature_idx": 347,
+        "count": 3452,
+        "percent": 34.52
+      },
+      {
+        "feature_idx": 4535,
+        "count": 3316,
+        "percent": 33.16
+      },
+      {
+        "feature_idx": 18083,
+        "count": 3139,
+        "percent": 31.39
+      },
+      {
+        "feature_idx": 24372,
+        "count": 3015,
+        "percent": 30.15
+      },
+      {
+        "feature_idx": 2014,
+        "count": 2941,
+        "percent": 29.41
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2885,
+        "percent": 28.85
+      },
+      {
+        "feature_idx": 868,
+        "count": 2873,
+        "percent": 28.73
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5800000,
+      "corpus_coverage": 0.1122
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3123,
+        "percent": 31.23
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1616,
+        "percent": 16.16
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1314,
+        "percent": 13.14
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1432,
+        "percent": 14.32
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2515,
+        "percent": 25.15
+      }
+    ],
+    "mean_position": 0.4722,
+    "std_position": 0.3348
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 166,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0251,
+      "p25": 0.0436,
+      "p50": 0.0775,
+      "p75": 0.1116,
+      "p90": 0.1376,
+      "p95": 0.1528,
+      "p99": 0.1732
+    },
+    "skewness": 0.3517,
+    "kurtosis": -0.7341,
+    "min": 0.0157,
+    "max": 0.1981,
+    "mean": 0.0793,
+    "std": 0.0425
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 166,
+      "unique_tokens_found": 18
+    },
+    "tokens": [
+      {
+        "token": " here",
+        "count": 143,
+        "mean_activation": 0.087
+      },
+      {
+        "token": " there",
+        "count": 6,
+        "mean_activation": 0.039
+      },
+      {
+        "token": " Here",
+        "count": 2,
+        "mean_activation": 0.0482
+      },
+      {
+        "token": " today",
+        "count": 1,
+        "mean_activation": 0.0293
+      },
+      {
+        "token": " theirs",
+        "count": 1,
+        "mean_activation": 0.0264
+      },
+      {
+        "token": " again",
+        "count": 1,
+        "mean_activation": 0.0268
+      },
+      {
+        "token": " restaurant",
+        "count": 1,
+        "mean_activation": 0.0179
+      },
+      {
+        "token": " me",
+        "count": 1,
+        "mean_activation": 0.0288
+      },
+      {
+        "token": " town",
+        "count": 1,
+        "mean_activation": 0.0161
+      },
+      {
+        "token": ".",
+        "count": 1,
+        "mean_activation": 0.0157
+      }
+    ]
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "feature_idx": 5378,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 11,
+    "mean_when_active": 0.08368336070667613,
+    "max_activation": 0.179443359375,
+    "std_when_active": 0.05615936736366697,
+    "activation_rate": 0.00011
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6410,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " to",
+        "count": 5675,
+        "mean_activation": 0.07132242076722536
+      },
+      {
+        "token": " like",
+        "count": 175,
+        "mean_activation": 0.026445138113839285
+      },
+      {
+        "token": " the",
+        "count": 120,
+        "mean_activation": 0.04077301025390625
+      },
+      {
+        "token": " from",
+        "count": 83,
+        "mean_activation": 0.04787178499152862
+      },
+      {
+        "token": " of",
+        "count": 69,
+        "mean_activation": 0.03310184202332427
+      },
+      {
+        "token": " a",
+        "count": 59,
+        "mean_activation": 0.03765972590042373
+      },
+      {
+        "token": " towards",
+        "count": 40,
+        "mean_activation": 0.04545669555664063
+      },
+      {
+        "token": " with",
+        "count": 22,
+        "mean_activation": 0.04140403053977273
+      },
+      {
+        "token": " than",
+        "count": 20,
+        "mean_activation": 0.02545166015625
+      },
+      {
+        "token": " at",
+        "count": 18,
+        "mean_activation": 0.0341432359483507
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6410,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... I wish it was closer** to** my house. I'd probabl...",
+        "active_token": " to",
+        "activation": 0.22265625,
+        "review_id": "AFrLdxX6TCQW5Y9oh9ff_g",
+        "position": 309
+      },
+      {
+        "context": "...I wish it were closer** to** my work/house, but it...",
+        "active_token": " to",
+        "activation": 0.2215576171875,
+        "review_id": "SH-59_Scsj1XRXrMAnB99g",
+        "position": 35
+      },
+      {
+        "context": "... I wish it was closer** to** my home!  I also wish...",
+        "active_token": " to",
+        "activation": 0.218505859375,
+        "review_id": "nShMonBkM0RzQ86Ub75KYA",
+        "position": 52
+      },
+      {
+        "context": "...I wish it were closer** to** where I live.  It wou...",
+        "active_token": " to",
+        "activation": 0.21826171875,
+        "review_id": "3f7dbKZqMzh8KG-E1qGAsQ",
+        "position": 72
+      },
+      {
+        "context": "...st wish it was closer** to** Fishtown.",
+        "active_token": " to",
+        "activation": 0.2149658203125,
+        "review_id": "Gz2_6Y7-zVCQKkogRnMNlg",
+        "position": 152
+      },
+      {
+        "context": "...I wish it were closer** to** my home.",
+        "active_token": " to",
+        "activation": 0.2147216796875,
+        "review_id": "Pom1UyXnIZxgvlOZF-yCqw",
+        "position": 53
+      },
+      {
+        "context": "...d, I'd give it closer** to** 3.5 stars for this ex...",
+        "active_token": " to",
+        "activation": 0.214111328125,
+        "review_id": "LoI1a-4osp2Q79DKV3vq3A",
+        "position": 254
+      },
+      {
+        "context": "... I wish it was closer** to** where I live, as then...",
+        "active_token": " to",
+        "activation": 0.2139892578125,
+        "review_id": "SsFt2nZN8GXcxl1SWXsIKA",
+        "position": 127
+      },
+      {
+        "context": "... I wish it was closer** to** me so I wouldn't have...",
+        "active_token": " to",
+        "activation": 0.2139892578125,
+        "review_id": "nICdcsZIqwumHMwHMPOmQw",
+        "position": 46
+      },
+      {
+        "context": "..., it was fine. Closer** to** a 3.5. The service wa...",
+        "active_token": " to",
+        "activation": 0.213134765625,
+        "review_id": "1HQlHBNHsouCL5UveBPE8g",
+        "position": 8
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5378,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1561,
+        "max": 0.2227,
+        "mean": 0.1791
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " closer",
+            " to"
+          ],
+          "ngram_str": " closer to",
+          "count": 480,
+          "percent": 96.0
+        },
+        {
+          "ngram": [
+            " was",
+            " closer"
+          ],
+          "ngram_str": " was closer",
+          "count": 151,
+          "percent": 30.2
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " to",
+            " home"
+          ],
+          "ngram_str": " to home",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " to",
+            " my"
+          ],
+          "ngram_str": " to my",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " is",
+            " closer"
+          ],
+          "ngram_str": " is closer",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " to",
+            " me"
+          ],
+          "ngram_str": " to me",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " wish",
+            " it"
+          ],
+          "ngram_str": " wish it",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " were",
+            " closer"
+          ],
+          "ngram_str": " were closer",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " home",
+            "."
+          ],
+          "ngram_str": " home.",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " my",
+            " house"
+          ],
+          "ngram_str": " my house",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " to",
+            " where"
+          ],
+          "ngram_str": " to where",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " closer"
+          ],
+          "ngram_str": "'s closer",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " was",
+            " closer",
+            " to"
+          ],
+          "ngram_str": " was closer to",
+          "count": 151,
+          "percent": 30.2
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " closer"
+          ],
+          "ngram_str": " it was closer",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " home"
+          ],
+          "ngram_str": " closer to home",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " my"
+          ],
+          "ngram_str": " closer to my",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " is",
+            " closer",
+            " to"
+          ],
+          "ngram_str": " is closer to",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " me"
+          ],
+          "ngram_str": " closer to me",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " were",
+            " closer",
+            " to"
+          ],
+          "ngram_str": " were closer to",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " the"
+          ],
+          "ngram_str": " closer to the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " wish",
+            " it",
+            " was"
+          ],
+          "ngram_str": " wish it was",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " house"
+          ],
+          "ngram_str": " to my house",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " where"
+          ],
+          "ngram_str": " closer to where",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " closer",
+            " to"
+          ],
+          "ngram_str": "'s closer to",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " to",
+            " home",
+            "."
+          ],
+          "ngram_str": " to home.",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " a"
+          ],
+          "ngram_str": " closer to a",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " to",
+            " where",
+            " I"
+          ],
+          "ngram_str": " to where I",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " it",
+            " was",
+            " closer",
+            " to"
+          ],
+          "ngram_str": " it was closer to",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " wish",
+            " it",
+            " was",
+            " closer"
+          ],
+          "ngram_str": " wish it was closer",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " my",
+            " house"
+          ],
+          "ngram_str": " closer to my house",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " home",
+            "."
+          ],
+          "ngram_str": " closer to home.",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " where",
+            " I"
+          ],
+          "ngram_str": " closer to where I",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " was",
+            " closer",
+            " to",
+            " home"
+          ],
+          "ngram_str": " was closer to home",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " was",
+            " closer",
+            " to",
+            " me"
+          ],
+          "ngram_str": " was closer to me",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " was",
+            " closer",
+            " to",
+            " my"
+          ],
+          "ngram_str": " was closer to my",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " they",
+            " were",
+            " closer",
+            " to"
+          ],
+          "ngram_str": " they were closer to",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " closer",
+            " to"
+          ],
+          "ngram_str": " it's closer to",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            " was",
+            " closer"
+          ],
+          "ngram_str": " this place was closer",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " place",
+            " was",
+            " closer",
+            " to"
+          ],
+          "ngram_str": " place was closer to",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " house",
+            "."
+          ],
+          "ngram_str": " to my house.",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " closer",
+            " to",
+            " my",
+            " home"
+          ],
+          "ngram_str": " closer to my home",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " was",
+            " closer",
+            " to",
+            " where"
+          ],
+          "ngram_str": " was closer to where",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6410,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16339,
+        "count": 5720,
+        "percent": 89.24
+      },
+      {
+        "feature_idx": 14590,
+        "count": 5390,
+        "percent": 84.09
+      },
+      {
+        "feature_idx": 22876,
+        "count": 5268,
+        "percent": 82.18
+      },
+      {
+        "feature_idx": 6419,
+        "count": 5082,
+        "percent": 79.28
+      },
+      {
+        "feature_idx": 1577,
+        "count": 4949,
+        "percent": 77.21
+      },
+      {
+        "feature_idx": 12580,
+        "count": 4131,
+        "percent": 64.45
+      },
+      {
+        "feature_idx": 16799,
+        "count": 3870,
+        "percent": 60.37
+      },
+      {
+        "feature_idx": 6169,
+        "count": 3699,
+        "percent": 57.71
+      },
+      {
+        "feature_idx": 19898,
+        "count": 3463,
+        "percent": 54.02
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3460,
+        "percent": 53.98
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3279,
+        "percent": 51.15
+      },
+      {
+        "feature_idx": 11488,
+        "count": 3018,
+        "percent": 47.08
+      },
+      {
+        "feature_idx": 19201,
+        "count": 2866,
+        "percent": 44.71
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2481,
+        "percent": 38.71
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2349,
+        "percent": 36.65
+      },
+      {
+        "feature_idx": 3706,
+        "count": 2099,
+        "percent": 32.75
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2080,
+        "percent": 32.45
+      },
+      {
+        "feature_idx": 7511,
+        "count": 2076,
+        "percent": 32.39
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1954,
+        "percent": 30.48
+      },
+      {
+        "feature_idx": 304,
+        "count": 1897,
+        "percent": 29.59
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6410,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1562,
+        "percent": 24.37
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1170,
+        "percent": 18.25
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 946,
+        "percent": 14.76
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1063,
+        "percent": 16.58
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1669,
+        "percent": 26.04
+      }
+    ],
+    "mean_position": 0.5065,
+    "std_position": 0.3137
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 11,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0311,
+      "p25": 0.0358,
+      "p50": 0.0397,
+      "p75": 0.1299,
+      "p90": 0.162,
+      "p95": 0.1707,
+      "p99": 0.1777
+    },
+    "skewness": 0.4408,
+    "kurtosis": -1.471,
+    "min": 0.0275,
+    "max": 0.1794,
+    "mean": 0.0837,
+    "std": 0.0562
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 11,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 10,
+        "mean_activation": 0.0881
+      },
+      {
+        "token": " the",
+        "count": 1,
+        "mean_activation": 0.0394
+      }
+    ]
+  }
+}

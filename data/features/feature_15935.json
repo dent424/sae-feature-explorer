@@ -1,0 +1,876 @@
+{
+  "feature_idx": 15935,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 139,
+    "mean_when_active": 0.05832227528524056,
+    "max_activation": 0.1617431640625,
+    "std_when_active": 0.0358182272270406,
+    "activation_rate": 0.00139
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 35400000,
+      "corpus_coverage": 0.6847
+    },
+    "top_tokens": [
+      {
+        "token": " their",
+        "count": 26104,
+        "mean_activation": 0.07113034046394051
+      },
+      {
+        "token": "'s",
+        "count": 6624,
+        "mean_activation": 0.040787286804494075
+      },
+      {
+        "token": " Their",
+        "count": 2094,
+        "mean_activation": 0.025484159773832976
+      },
+      {
+        "token": " them",
+        "count": 2090,
+        "mean_activation": 0.03653597672019849
+      },
+      {
+        "token": " they",
+        "count": 1814,
+        "mean_activation": 0.0387917532284704
+      },
+      {
+        "token": " her",
+        "count": 943,
+        "mean_activation": 0.042483882964731906
+      },
+      {
+        "token": " his",
+        "count": 772,
+        "mean_activation": 0.05410407861897365
+      },
+      {
+        "token": " there",
+        "count": 650,
+        "mean_activation": 0.02480432363656851
+      },
+      {
+        "token": " my",
+        "count": 626,
+        "mean_activation": 0.03672506557866788
+      },
+      {
+        "token": " it",
+        "count": 518,
+        "mean_activation": 0.024392013844375907
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 35400000,
+      "corpus_coverage": 0.6847
+    },
+    "activations": [
+      {
+        "context": "...back and try some of** their** other options inclu...",
+        "active_token": " their",
+        "activation": 0.212158203125,
+        "review_id": "5cyEgq6D3UuTzXS4L6nyYA",
+        "position": 288
+      },
+      {
+        "context": "...tly I came and tried** their** food. I was so surp...",
+        "active_token": " their",
+        "activation": 0.205322265625,
+        "review_id": "46dF4nZYJ6XMqPnL-HxfdQ",
+        "position": 166
+      },
+      {
+        "context": "...y should try some of** their** incredible tacos.",
+        "active_token": " their",
+        "activation": 0.203125,
+        "review_id": "lPLKD1fYM75ccJYQUXfB-Q",
+        "position": 51
+      },
+      {
+        "context": "... have tried a few of** their** dishes, but hands d...",
+        "active_token": " their",
+        "activation": 0.20166015625,
+        "review_id": "jxfhWgoT3sTMr0d3qY2GmQ",
+        "position": 36
+      },
+      {
+        "context": ".... I've tried lots of** their** menu but mainly sti...",
+        "active_token": " their",
+        "activation": 0.1981201171875,
+        "review_id": "jvRYjSoBuBgvjfJSAZ1MVw",
+        "position": 82
+      },
+      {
+        "context": "... tried almost all of** their** tacos because you c...",
+        "active_token": " their",
+        "activation": 0.19775390625,
+        "review_id": "bA_LzmJybzfvrlkVlhFQcw",
+        "position": 100
+      },
+      {
+        "context": "... have tried a lot of** their** menu, and everythin...",
+        "active_token": " their",
+        "activation": 0.19775390625,
+        "review_id": "3XmDLP4GbgbwEzBBOwr_Gw",
+        "position": 11
+      },
+      {
+        "context": "...uld recommend trying** their** online ordering so ...",
+        "active_token": " their",
+        "activation": 0.1962890625,
+        "review_id": "5AZ_lOjR43YSGvygoaNarQ",
+        "position": 534
+      },
+      {
+        "context": "...ve tried numerous of** their** tacos abd their por...",
+        "active_token": " their",
+        "activation": 0.195556640625,
+        "review_id": "-VmO7C6v9SPYIYdDkKxr_A",
+        "position": 62
+      },
+      {
+        "context": "...gain and try some of** their** tequilas. My collea...",
+        "active_token": " their",
+        "activation": 0.195556640625,
+        "review_id": "wWOjUX8cPvzo25bYXjh0kA",
+        "position": 92
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15935,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.166,
+        "max": 0.2122,
+        "mean": 0.175
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " of",
+            " their"
+          ],
+          "ngram_str": " of their",
+          "count": 347,
+          "percent": 69.4
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            " some",
+            " of"
+          ],
+          "ngram_str": " some of",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            " try",
+            " their"
+          ],
+          "ngram_str": " try their",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " try",
+            " some"
+          ],
+          "ngram_str": " try some",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " one",
+            " of"
+          ],
+          "ngram_str": " one of",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " their",
+            " other"
+          ],
+          "ngram_str": " their other",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " and",
+            " try"
+          ],
+          "ngram_str": " and try",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " more",
+            " of"
+          ],
+          "ngram_str": " more of",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " their",
+            " menu"
+          ],
+          "ngram_str": " their menu",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " try",
+            " one"
+          ],
+          "ngram_str": " try one",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "'ve",
+            " tried"
+          ],
+          "ngram_str": "'ve tried",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " any",
+            " of"
+          ],
+          "ngram_str": " any of",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " try",
+            " more"
+          ],
+          "ngram_str": " try more",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " some",
+            " of",
+            " their"
+          ],
+          "ngram_str": " some of their",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            " try",
+            " some",
+            " of"
+          ],
+          "ngram_str": " try some of",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " one",
+            " of",
+            " their"
+          ],
+          "ngram_str": " one of their",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " of",
+            " their",
+            " other"
+          ],
+          "ngram_str": " of their other",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " more",
+            " of",
+            " their"
+          ],
+          "ngram_str": " more of their",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " their"
+          ],
+          "ngram_str": " to try their",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " some"
+          ],
+          "ngram_str": " to try some",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " try",
+            " one",
+            " of"
+          ],
+          "ngram_str": " try one of",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " any",
+            " of",
+            " their"
+          ],
+          "ngram_str": " any of their",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " try",
+            " more",
+            " of"
+          ],
+          "ngram_str": " try more of",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " of",
+            " their",
+            " menu"
+          ],
+          "ngram_str": " of their menu",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " and",
+            " try",
+            " some"
+          ],
+          "ngram_str": " and try some",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " tried"
+          ],
+          "ngram_str": " I've tried",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " back",
+            " and",
+            " try"
+          ],
+          "ngram_str": " back and try",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " marg",
+            "ar",
+            "itas"
+          ],
+          "ngram_str": " margaritas",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " try",
+            " some",
+            " of",
+            " their"
+          ],
+          "ngram_str": " try some of their",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " some",
+            " of",
+            " their",
+            " other"
+          ],
+          "ngram_str": " some of their other",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " some",
+            " of"
+          ],
+          "ngram_str": " to try some of",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " try",
+            " one",
+            " of",
+            " their"
+          ],
+          "ngram_str": " try one of their",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " try",
+            " more",
+            " of",
+            " their"
+          ],
+          "ngram_str": " try more of their",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " more",
+            " of",
+            " their",
+            " menu"
+          ],
+          "ngram_str": " more of their menu",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " try",
+            " some",
+            " of"
+          ],
+          "ngram_str": " and try some of",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " more",
+            " of"
+          ],
+          "ngram_str": " to try more of",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " tried",
+            " some",
+            " of",
+            " their"
+          ],
+          "ngram_str": " tried some of their",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " try",
+            " any",
+            " of",
+            " their"
+          ],
+          "ngram_str": " try any of their",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " to",
+            " try",
+            " one",
+            " of"
+          ],
+          "ngram_str": " to try one of",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " tried",
+            " most",
+            " of",
+            " their"
+          ],
+          "ngram_str": " tried most of their",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " back",
+            " and",
+            " try",
+            " some"
+          ],
+          "ngram_str": " back and try some",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " their",
+            " marg",
+            "ar",
+            "itas"
+          ],
+          "ngram_str": " their margaritas",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " few",
+            " of",
+            " their"
+          ],
+          "ngram_str": " a few of their",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7200000,
+      "corpus_coverage": 0.1393
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16951,
+        "count": 7524,
+        "percent": 75.24
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6980,
+        "percent": 69.8
+      },
+      {
+        "feature_idx": 6787,
+        "count": 5996,
+        "percent": 59.96
+      },
+      {
+        "feature_idx": 13233,
+        "count": 5896,
+        "percent": 58.96
+      },
+      {
+        "feature_idx": 5302,
+        "count": 5522,
+        "percent": 55.22
+      },
+      {
+        "feature_idx": 19522,
+        "count": 5421,
+        "percent": 54.21
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5305,
+        "percent": 53.05
+      },
+      {
+        "feature_idx": 22894,
+        "count": 4953,
+        "percent": 49.53
+      },
+      {
+        "feature_idx": 23265,
+        "count": 4556,
+        "percent": 45.56
+      },
+      {
+        "feature_idx": 5683,
+        "count": 4448,
+        "percent": 44.48
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4156,
+        "percent": 41.56
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2861,
+        "percent": 28.61
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2860,
+        "percent": 28.6
+      },
+      {
+        "feature_idx": 15496,
+        "count": 2463,
+        "percent": 24.63
+      },
+      {
+        "feature_idx": 6329,
+        "count": 2405,
+        "percent": 24.05
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2391,
+        "percent": 23.91
+      },
+      {
+        "feature_idx": 17287,
+        "count": 2315,
+        "percent": 23.15
+      },
+      {
+        "feature_idx": 10970,
+        "count": 2234,
+        "percent": 22.34
+      },
+      {
+        "feature_idx": 7505,
+        "count": 1876,
+        "percent": 18.76
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1817,
+        "percent": 18.17
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7200000,
+      "corpus_coverage": 0.1393
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1953,
+        "percent": 19.53
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2126,
+        "percent": 21.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1890,
+        "percent": 18.9
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1758,
+        "percent": 17.58
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2273,
+        "percent": 22.73
+      }
+    ],
+    "mean_position": 0.5082,
+    "std_position": 0.2931
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 139,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.025,
+      "p25": 0.0307,
+      "p50": 0.0455,
+      "p75": 0.0789,
+      "p90": 0.1149,
+      "p95": 0.1361,
+      "p99": 0.153
+    },
+    "skewness": 1.0918,
+    "kurtosis": 0.2877,
+    "min": 0.013,
+    "max": 0.1617,
+    "mean": 0.0583,
+    "std": 0.0358
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 139,
+      "unique_tokens_found": 30
+    },
+    "tokens": [
+      {
+        "token": " their",
+        "count": 76,
+        "mean_activation": 0.075
+      },
+      {
+        "token": "'s",
+        "count": 16,
+        "mean_activation": 0.0414
+      },
+      {
+        "token": " they",
+        "count": 7,
+        "mean_activation": 0.0458
+      },
+      {
+        "token": " them",
+        "count": 4,
+        "mean_activation": 0.0261
+      },
+      {
+        "token": " her",
+        "count": 3,
+        "mean_activation": 0.0461
+      },
+      {
+        "token": " my",
+        "count": 3,
+        "mean_activation": 0.0549
+      },
+      {
+        "token": " great",
+        "count": 2,
+        "mean_activation": 0.033
+      },
+      {
+        "token": " your",
+        "count": 2,
+        "mean_activation": 0.0318
+      },
+      {
+        "token": " it",
+        "count": 2,
+        "mean_activation": 0.0361
+      },
+      {
+        "token": " his",
+        "count": 2,
+        "mean_activation": 0.0495
+      }
+    ]
+  }
+}

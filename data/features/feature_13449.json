@@ -1,0 +1,876 @@
+{
+  "feature_idx": 13449,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 17,
+    "mean_when_active": 0.08175389906939338,
+    "max_activation": 0.2498779296875,
+    "std_when_active": 0.06127720225019265,
+    "activation_rate": 0.00017
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 9833,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " product",
+        "count": 1005,
+        "mean_activation": 0.1143869580321051
+      },
+      {
+        "token": " products",
+        "count": 831,
+        "mean_activation": 0.08467384824970856
+      },
+      {
+        "token": " produce",
+        "count": 655,
+        "mean_activation": 0.23141735746660305
+      },
+      {
+        "token": " packaged",
+        "count": 552,
+        "mean_activation": 0.10658308388530344
+      },
+      {
+        "token": " package",
+        "count": 464,
+        "mean_activation": 0.1051233225855334
+      },
+      {
+        "token": " goods",
+        "count": 295,
+        "mean_activation": 0.04060725842492055
+      },
+      {
+        "token": " packaging",
+        "count": 220,
+        "mean_activation": 0.08409312855113636
+      },
+      {
+        "token": "aged",
+        "count": 212,
+        "mean_activation": 0.0784431313568691
+      },
+      {
+        "token": " produced",
+        "count": 203,
+        "mean_activation": 0.17844033828509853
+      },
+      {
+        "token": "VICE",
+        "count": 185,
+        "mean_activation": 0.0488475902660473
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 9833,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... tortillas, perfect** produce**, a great bakery (t...",
+        "active_token": " produce",
+        "activation": 0.296142578125,
+        "review_id": "LE6pdU5BOW568uoCBdeu_A",
+        "position": 45
+      },
+      {
+        "context": "...ine, from pastries,** produce**, and meats, to a m...",
+        "active_token": " produce",
+        "activation": 0.29443359375,
+        "review_id": "PcUak2dxmFlltSGQklv-zw",
+        "position": 28
+      },
+      {
+        "context": "...can products and or** produce** this is the place ...",
+        "active_token": " produce",
+        "activation": 0.290771484375,
+        "review_id": "q9VT394IcsX6HpSwA-rrqQ",
+        "position": 48
+      },
+      {
+        "context": "...ation is great, the** produce** is fresh, the prep...",
+        "active_token": " produce",
+        "activation": 0.288818359375,
+        "review_id": "Sdd2ATCcx1ypw6kwCAizsA",
+        "position": 15
+      },
+      {
+        "context": "...heir culture (think** produce**, spices, and goods...",
+        "active_token": " produce",
+        "activation": 0.28466796875,
+        "review_id": "rZm64O8t-WXRqnhBVPDJWQ",
+        "position": 173
+      },
+      {
+        "context": "...marinated carnitas,** produce**, etc.), but you wi...",
+        "active_token": " produce",
+        "activation": 0.282958984375,
+        "review_id": "rZm64O8t-WXRqnhBVPDJWQ",
+        "position": 375
+      },
+      {
+        "context": "... Situated among the** produce** stalls, this place...",
+        "active_token": " produce",
+        "activation": 0.282470703125,
+        "review_id": "bhf2PZfzdas7YUseaq9qow",
+        "position": 10
+      },
+      {
+        "context": "...hness of the patty,** produce** and buns. If you'r...",
+        "active_token": " produce",
+        "activation": 0.282470703125,
+        "review_id": "zpCZnHSac-dy0glSWafxLQ",
+        "position": 84
+      },
+      {
+        "context": "...nd walk through the** produce** stand.  They also ...",
+        "active_token": " produce",
+        "activation": 0.28125,
+        "review_id": "eXZGTLSMv6iwG4A7ZuPDBw",
+        "position": 77
+      },
+      {
+        "context": "...panish sausages and** produce**, LA Street candy a...",
+        "active_token": " produce",
+        "activation": 0.280029296875,
+        "review_id": "Co0wt8tcEWI9sCnvV7HKsw",
+        "position": 23
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13449,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2148,
+        "max": 0.2961,
+        "mean": 0.2443
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " produce"
+          ],
+          "ngram_str": " the produce",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " produce",
+            " and"
+          ],
+          "ngram_str": " produce and",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " produce",
+            ","
+          ],
+          "ngram_str": " produce,",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " produce",
+            "."
+          ],
+          "ngram_str": " produce.",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " fresh",
+            " produce"
+          ],
+          "ngram_str": " fresh produce",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " and",
+            " produce"
+          ],
+          "ngram_str": " and produce",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " produce",
+            " is"
+          ],
+          "ngram_str": " produce is",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " produce",
+            " section"
+          ],
+          "ngram_str": " produce section",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " local",
+            " produce"
+          ],
+          "ngram_str": " local produce",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " produce",
+            ",",
+            " and"
+          ],
+          "ngram_str": " produce, and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " produce"
+          ],
+          "ngram_str": ". The produce",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " produce"
+          ],
+          "ngram_str": " of the produce",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " the",
+            " produce",
+            " is"
+          ],
+          "ngram_str": " the produce is",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " produce",
+            "."
+          ],
+          "ngram_str": " and produce.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " fresh",
+            " produce",
+            ","
+          ],
+          "ngram_str": " fresh produce,",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " produce",
+            " and",
+            " meats"
+          ],
+          "ngram_str": " produce and meats",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " local",
+            " produce",
+            " and"
+          ],
+          "ngram_str": " local produce and",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " produce",
+            ","
+          ],
+          "ngram_str": ", produce,",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " as",
+            " well",
+            " as"
+          ],
+          "ngram_str": " as well as",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 8,
+          "percent": 1.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " produce"
+          ],
+          "ngram_str": ".  The produce",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " produce",
+            " and"
+          ],
+          "ngram_str": " of the produce and",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The",
+            " produce"
+          ],
+          "ngram_str": "\u00c4\u012cThe produce",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " fresh",
+            " produce",
+            ","
+          ],
+          "ngram_str": ", fresh produce,",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " produce",
+            ",",
+            " and"
+          ],
+          "ngram_str": ", produce, and",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " the",
+            " produce",
+            " is",
+            " fresh"
+          ],
+          "ngram_str": " the produce is fresh",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " produce",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " produce.\u00c4\u012c",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " of",
+            " fresh",
+            " produce",
+            ","
+          ],
+          "ngram_str": " of fresh produce,",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ",",
+            " the",
+            " produce",
+            " is"
+          ],
+          "ngram_str": ", the produce is",
+          "count": 3,
+          "percent": 0.6
+        },
+        {
+          "ngram": [
+            " the",
+            " produce",
+            " stand",
+            "."
+          ],
+          "ngram_str": " the produce stand.",
+          "count": 3,
+          "percent": 0.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9833,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4717,
+        "percent": 47.97
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3709,
+        "percent": 37.72
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3423,
+        "percent": 34.81
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3407,
+        "percent": 34.65
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2843,
+        "percent": 28.91
+      },
+      {
+        "feature_idx": 1841,
+        "count": 2799,
+        "percent": 28.47
+      },
+      {
+        "feature_idx": 10433,
+        "count": 2319,
+        "percent": 23.58
+      },
+      {
+        "feature_idx": 9484,
+        "count": 2313,
+        "percent": 23.52
+      },
+      {
+        "feature_idx": 18503,
+        "count": 2111,
+        "percent": 21.47
+      },
+      {
+        "feature_idx": 22844,
+        "count": 1932,
+        "percent": 19.65
+      },
+      {
+        "feature_idx": 18502,
+        "count": 1820,
+        "percent": 18.51
+      },
+      {
+        "feature_idx": 1225,
+        "count": 1784,
+        "percent": 18.14
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1781,
+        "percent": 18.11
+      },
+      {
+        "feature_idx": 8736,
+        "count": 1720,
+        "percent": 17.49
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1642,
+        "percent": 16.7
+      },
+      {
+        "feature_idx": 14918,
+        "count": 1636,
+        "percent": 16.64
+      },
+      {
+        "feature_idx": 22000,
+        "count": 1504,
+        "percent": 15.3
+      },
+      {
+        "feature_idx": 5070,
+        "count": 1476,
+        "percent": 15.01
+      },
+      {
+        "feature_idx": 2001,
+        "count": 1452,
+        "percent": 14.77
+      },
+      {
+        "feature_idx": 1390,
+        "count": 1416,
+        "percent": 14.4
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9833,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1412,
+        "percent": 14.36
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2018,
+        "percent": 20.52
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2202,
+        "percent": 22.39
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2115,
+        "percent": 21.51
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2086,
+        "percent": 21.21
+      }
+    ],
+    "mean_position": 0.5316,
+    "std_position": 0.2709
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 17,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0345,
+      "p25": 0.0387,
+      "p50": 0.0497,
+      "p75": 0.1261,
+      "p90": 0.1503,
+      "p95": 0.1746,
+      "p99": 0.2348
+    },
+    "skewness": 1.272,
+    "kurtosis": 0.7738,
+    "min": 0.0269,
+    "max": 0.2499,
+    "mean": 0.0818,
+    "std": 0.0613
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 17,
+      "unique_tokens_found": 14
+    },
+    "tokens": [
+      {
+        "token": " product",
+        "count": 3,
+        "mean_activation": 0.1291
+      },
+      {
+        "token": " goods",
+        "count": 2,
+        "mean_activation": 0.0385
+      },
+      {
+        "token": " source",
+        "count": 1,
+        "mean_activation": 0.0385
+      },
+      {
+        "token": " process",
+        "count": 1,
+        "mean_activation": 0.0393
+      },
+      {
+        "token": " produces",
+        "count": 1,
+        "mean_activation": 0.1558
+      },
+      {
+        "token": " maize",
+        "count": 1,
+        "mean_activation": 0.0269
+      },
+      {
+        "token": " shipping",
+        "count": 1,
+        "mean_activation": 0.0497
+      },
+      {
+        "token": " supermarket",
+        "count": 1,
+        "mean_activation": 0.0312
+      },
+      {
+        "token": "ase",
+        "count": 1,
+        "mean_activation": 0.0546
+      },
+      {
+        "token": " produce",
+        "count": 1,
+        "mean_activation": 0.2499
+      }
+    ]
+  }
+}

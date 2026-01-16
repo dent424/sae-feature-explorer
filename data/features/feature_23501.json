@@ -1,0 +1,836 @@
+{
+  "feature_idx": 23501,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 6,
+    "mean_when_active": 0.11498006184895833,
+    "max_activation": 0.1527099609375,
+    "std_when_active": 0.023796547792767374,
+    "activation_rate": 6e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5323,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " able",
+        "count": 3044,
+        "mean_activation": 0.08128803819613764
+      },
+      {
+        "token": " unable",
+        "count": 604,
+        "mean_activation": 0.1140965846990118
+      },
+      {
+        "token": " equal",
+        "count": 385,
+        "mean_activation": 0.17840211546266233
+      },
+      {
+        "token": " equivalent",
+        "count": 253,
+        "mean_activation": 0.11622637722332016
+      },
+      {
+        "token": " comparable",
+        "count": 222,
+        "mean_activation": 0.03462095518369932
+      },
+      {
+        "token": " akin",
+        "count": 127,
+        "mean_activation": 0.07222549558624508
+      },
+      {
+        "token": " equals",
+        "count": 91,
+        "mean_activation": 0.09377012148008242
+      },
+      {
+        "token": " inability",
+        "count": 65,
+        "mean_activation": 0.052001014122596154
+      },
+      {
+        "token": " incapable",
+        "count": 34,
+        "mean_activation": 0.04967812930836397
+      },
+      {
+        "token": " equate",
+        "count": 29,
+        "mean_activation": 0.05074652310075431
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5323,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ard tall glass. It's** equal** to two pint glasses...",
+        "active_token": " equal",
+        "activation": 0.2529296875,
+        "review_id": "if7keOaAnSKUBMNlh56pAA",
+        "position": 97
+      },
+      {
+        "context": "... mango salsa that is** equal** parts sweet and spi...",
+        "active_token": " equal",
+        "activation": 0.251953125,
+        "review_id": "cOJfaCPPKnK1h3uglQxtEg",
+        "position": 90
+      },
+      {
+        "context": "...entic Michelada, the** equal** to which you'd have...",
+        "active_token": " equal",
+        "activation": 0.24951171875,
+        "review_id": "gziGvgOSQhl_nxws6_jveg",
+        "position": 169
+      },
+      {
+        "context": "...y weight in burritos** equal** to that of at least...",
+        "active_token": " equal",
+        "activation": 0.248291015625,
+        "review_id": "4-lokkJ2yKAwLFL459Prjg",
+        "position": 167
+      },
+      {
+        "context": "...e Mexican restaurant** equal** to Las Palmas or so...",
+        "active_token": " equal",
+        "activation": 0.2471923828125,
+        "review_id": "1j-2eyzdIJMA7yht8FwGxA",
+        "position": 20
+      },
+      {
+        "context": "... margarita which was** equal** amounts delicious a...",
+        "active_token": " equal",
+        "activation": 0.2451171875,
+        "review_id": "0HPmw7INkcUh39gcR3nYag",
+        "position": 173
+      },
+      {
+        "context": "... drinks and a entree** equal** or greater value.\\n\\n...",
+        "active_token": " equal",
+        "activation": 0.2430419921875,
+        "review_id": "9dY0wAMveQZp22Bq6QK2xw",
+        "position": 105
+      },
+      {
+        "context": "...hipped cream; it was** equal** to any death by cho...",
+        "active_token": " equal",
+        "activation": 0.24267578125,
+        "review_id": "i33CqMDhUPGOb1tkv_9Gag",
+        "position": 92
+      },
+      {
+        "context": "...'ve had Mexican food** equal** to this is in Mexic...",
+        "active_token": " equal",
+        "activation": 0.2420654296875,
+        "review_id": "ilw7-k78QCfN6C_XMZWuIA",
+        "position": 23
+      },
+      {
+        "context": "... still not found its** equal**. Huge, delicious Me...",
+        "active_token": " equal",
+        "activation": 0.2415771484375,
+        "review_id": "llD79kg0ikXJDYLO6OHrkw",
+        "position": 21
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23501,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1416,
+        "max": 0.2529,
+        "mean": 0.1731
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " able",
+            " to"
+          ],
+          "ngram_str": " able to",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " equal",
+            " to"
+          ],
+          "ngram_str": " equal to",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " been",
+            " able"
+          ],
+          "ngram_str": " been able",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " equal",
+            "."
+          ],
+          "ngram_str": " equal.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " not",
+            " able"
+          ],
+          "ngram_str": " not able",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " been"
+          ],
+          "ngram_str": "'t been",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " created",
+            " equal"
+          ],
+          "ngram_str": " created equal",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " I",
+            " was"
+          ],
+          "ngram_str": " I was",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " haven",
+            "'t"
+          ],
+          "ngram_str": " haven't",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " was",
+            " not"
+          ],
+          "ngram_str": " was not",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " an",
+            " equal"
+          ],
+          "ngram_str": " an equal",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " not",
+            " equal"
+          ],
+          "ngram_str": " not equal",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " been",
+            " able",
+            " to"
+          ],
+          "ngram_str": " been able to",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " not",
+            " able",
+            " to"
+          ],
+          "ngram_str": " not able to",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " been",
+            " able"
+          ],
+          "ngram_str": "'t been able",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " haven",
+            "'t",
+            " been"
+          ],
+          "ngram_str": " haven't been",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " was",
+            " not",
+            " able"
+          ],
+          "ngram_str": " was not able",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " able",
+            " to"
+          ],
+          "ngram_str": "'t able to",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " equal",
+            " to",
+            " the"
+          ],
+          "ngram_str": " equal to the",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " are",
+            " created",
+            " equal"
+          ],
+          "ngram_str": " are created equal",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " not"
+          ],
+          "ngram_str": " I was not",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " wasn",
+            "'t",
+            " able"
+          ],
+          "ngram_str": " wasn't able",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " I",
+            " haven",
+            "'t"
+          ],
+          "ngram_str": " I haven't",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " does",
+            " not",
+            " equal"
+          ],
+          "ngram_str": " does not equal",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " I",
+            " wasn",
+            "'t"
+          ],
+          "ngram_str": " I wasn't",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " created",
+            " equal",
+            "."
+          ],
+          "ngram_str": " created equal.",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "'t",
+            " been",
+            " able",
+            " to"
+          ],
+          "ngram_str": "'t been able to",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " haven",
+            "'t",
+            " been",
+            " able"
+          ],
+          "ngram_str": " haven't been able",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " was",
+            " not",
+            " able",
+            " to"
+          ],
+          "ngram_str": " was not able to",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " not",
+            " able"
+          ],
+          "ngram_str": " I was not able",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " wasn",
+            "'t",
+            " able",
+            " to"
+          ],
+          "ngram_str": " wasn't able to",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " I",
+            " haven",
+            "'t",
+            " been"
+          ],
+          "ngram_str": " I haven't been",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " I",
+            " wasn",
+            "'t",
+            " able"
+          ],
+          "ngram_str": " I wasn't able",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " are",
+            " created",
+            " equal",
+            "."
+          ],
+          "ngram_str": " are created equal.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " been",
+            " able",
+            " to",
+            " find"
+          ],
+          "ngram_str": " been able to find",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " not",
+            " been",
+            " able",
+            " to"
+          ],
+          "ngram_str": " not been able to",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " have",
+            " not",
+            " been",
+            " able"
+          ],
+          "ngram_str": " have not been able",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " is",
+            " the",
+            " equivalent",
+            " of"
+          ],
+          "ngram_str": " is the equivalent of",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5323,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 15034,
+        "count": 3831,
+        "percent": 71.97
+      },
+      {
+        "feature_idx": 13651,
+        "count": 3728,
+        "percent": 70.04
+      },
+      {
+        "feature_idx": 6144,
+        "count": 3663,
+        "percent": 68.81
+      },
+      {
+        "feature_idx": 17751,
+        "count": 3635,
+        "percent": 68.29
+      },
+      {
+        "feature_idx": 3940,
+        "count": 3075,
+        "percent": 57.77
+      },
+      {
+        "feature_idx": 11918,
+        "count": 2721,
+        "percent": 51.12
+      },
+      {
+        "feature_idx": 20404,
+        "count": 2547,
+        "percent": 47.85
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2437,
+        "percent": 45.78
+      },
+      {
+        "feature_idx": 11738,
+        "count": 2395,
+        "percent": 44.99
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2370,
+        "percent": 44.52
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2289,
+        "percent": 43.0
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2229,
+        "percent": 41.87
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2170,
+        "percent": 40.77
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2005,
+        "percent": 37.67
+      },
+      {
+        "feature_idx": 18427,
+        "count": 1945,
+        "percent": 36.54
+      },
+      {
+        "feature_idx": 12609,
+        "count": 1927,
+        "percent": 36.2
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1405,
+        "percent": 26.39
+      },
+      {
+        "feature_idx": 14981,
+        "count": 1399,
+        "percent": 26.28
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1337,
+        "percent": 25.12
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1268,
+        "percent": 23.82
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5323,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 907,
+        "percent": 17.04
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1121,
+        "percent": 21.06
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1114,
+        "percent": 20.93
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1173,
+        "percent": 22.04
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1008,
+        "percent": 18.94
+      }
+    ],
+    "mean_position": 0.5109,
+    "std_position": 0.275
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 6,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0876,
+      "p25": 0.0934,
+      "p50": 0.1133,
+      "p75": 0.1311,
+      "p90": 0.1441,
+      "p95": 0.1484,
+      "p99": 0.1518
+    },
+    "skewness": 0.2569,
+    "kurtosis": -1.263,
+    "min": 0.0868,
+    "max": 0.1527,
+    "mean": 0.115,
+    "std": 0.0238
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 6,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " able",
+        "count": 4,
+        "mean_activation": 0.1209
+      },
+      {
+        "token": " unable",
+        "count": 2,
+        "mean_activation": 0.1031
+      }
+    ]
+  }
+}

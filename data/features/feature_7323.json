@@ -1,0 +1,876 @@
+{
+  "feature_idx": 7323,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 20,
+    "mean_when_active": 0.039308929443359376,
+    "max_activation": 0.0914306640625,
+    "std_when_active": 0.02089729421543212,
+    "activation_rate": 0.0002
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 11271,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " small",
+        "count": 933,
+        "mean_activation": 0.04734291166610145
+      },
+      {
+        "token": " smaller",
+        "count": 720,
+        "mean_activation": 0.08413308461507162
+      },
+      {
+        "token": "ier",
+        "count": 602,
+        "mean_activation": 0.09256052416424419
+      },
+      {
+        "token": " larger",
+        "count": 428,
+        "mean_activation": 0.04514856427629417
+      },
+      {
+        "token": " pricey",
+        "count": 360,
+        "mean_activation": 0.06315299140082466
+      },
+      {
+        "token": " expensive",
+        "count": 306,
+        "mean_activation": 0.06822488822189032
+      },
+      {
+        "token": " higher",
+        "count": 293,
+        "mean_activation": 0.07765458142798101
+      },
+      {
+        "token": " other",
+        "count": 283,
+        "mean_activation": 0.029273717226493485
+      },
+      {
+        "token": " more",
+        "count": 258,
+        "mean_activation": 0.04513248177461846
+      },
+      {
+        "token": " warmer",
+        "count": 216,
+        "mean_activation": 0.05187182956271701
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 11271,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...but it is on the pric**ier** size for tacos. I don...",
+        "active_token": "ier",
+        "activation": 0.1932373046875,
+        "review_id": "R1TMv8oJLG4nFDJk6U06Pg",
+        "position": 24
+      },
+      {
+        "context": "...and  it's on the pric**ier** side. Regardless, it'...",
+        "active_token": "ier",
+        "activation": 0.19189453125,
+        "review_id": "Czx_eosZsOl8VayB7-GOEw",
+        "position": 63
+      },
+      {
+        "context": "... place is on the pric**ier** side of other Mexican...",
+        "active_token": "ier",
+        "activation": 0.1905517578125,
+        "review_id": "pd9FsElsIPaZT87PtdBUOg",
+        "position": 255
+      },
+      {
+        "context": "...eap; it's on the pric**ier** side as far a fast fo...",
+        "active_token": "ier",
+        "activation": 0.1883544921875,
+        "review_id": "Jaj3GPLmC1mABqkWfYmo6A",
+        "position": 200
+      },
+      {
+        "context": "...te. It is on the pric**ier** side, but I thought i...",
+        "active_token": "ier",
+        "activation": 0.1866455078125,
+        "review_id": "xPDeA7hs8bilvyXFEUbD-A",
+        "position": 94
+      },
+      {
+        "context": "...ng! It is on the fatt**ier** side and the dressing...",
+        "active_token": "ier",
+        "activation": 0.1861572265625,
+        "review_id": "mFrImHA5rcxdu8IVkefAhw",
+        "position": 280
+      },
+      {
+        "context": "...us! \\n\\nits on the pric**ier** side, but its well wo...",
+        "active_token": "ier",
+        "activation": 0.1849365234375,
+        "review_id": "tkjEb4ILaE0YCkAoGrcDPA",
+        "position": 39
+      },
+      {
+        "context": "...rinks are on the pric**ier** side. Large place, gr...",
+        "active_token": "ier",
+        "activation": 0.1842041015625,
+        "review_id": "EMp2ztfLJDFFLcB8WvsQAw",
+        "position": 21
+      },
+      {
+        "context": "...efinitely on the pric**ier** side. The restaurant ...",
+        "active_token": "ier",
+        "activation": 0.18408203125,
+        "review_id": "ypLeh1iaxNOtDugh2EYqLg",
+        "position": 25
+      },
+      {
+        "context": "...rtunately on the pric**ier** side! But you'll find...",
+        "active_token": "ier",
+        "activation": 0.1837158203125,
+        "review_id": "2KlybjNhkMFpdwgzzrZR3Q",
+        "position": 104
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 7323,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.142,
+        "max": 0.1932,
+        "mean": 0.1561
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 494,
+          "percent": 98.8
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " the smaller",
+          "count": 198,
+          "percent": 39.6
+        },
+        {
+          "ngram": [
+            " smaller",
+            " side"
+          ],
+          "ngram_str": " smaller side",
+          "count": 177,
+          "percent": 35.4
+        },
+        {
+          "ngram": [
+            "ier",
+            " side"
+          ],
+          "ngram_str": "ier side",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " pric",
+            "ier"
+          ],
+          "ngram_str": " pricier",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " the",
+            " pric"
+          ],
+          "ngram_str": " the pric",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " side",
+            ","
+          ],
+          "ngram_str": " side,",
+          "count": 124,
+          "percent": 24.8
+        },
+        {
+          "ngram": [
+            " are",
+            " on"
+          ],
+          "ngram_str": " are on",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " side",
+            "."
+          ],
+          "ngram_str": " side.",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " is",
+            " on"
+          ],
+          "ngram_str": " is on",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " a",
+            " little"
+          ],
+          "ngram_str": " a little",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " side",
+            " but"
+          ],
+          "ngram_str": " side but",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " little",
+            " on"
+          ],
+          "ngram_str": " little on",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " bit",
+            " on"
+          ],
+          "ngram_str": " bit on",
+          "count": 47,
+          "percent": 9.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " on the smaller",
+          "count": 198,
+          "percent": 39.6
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side"
+          ],
+          "ngram_str": " the smaller side",
+          "count": 176,
+          "percent": 35.2
+        },
+        {
+          "ngram": [
+            " the",
+            " pric",
+            "ier"
+          ],
+          "ngram_str": " the pricier",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " pric"
+          ],
+          "ngram_str": " on the pric",
+          "count": 140,
+          "percent": 28.0
+        },
+        {
+          "ngram": [
+            " pric",
+            "ier",
+            " side"
+          ],
+          "ngram_str": " pricier side",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " are",
+            " on",
+            " the"
+          ],
+          "ngram_str": " are on the",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " is",
+            " on",
+            " the"
+          ],
+          "ngram_str": " is on the",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " smaller",
+            " side",
+            ","
+          ],
+          "ngram_str": " smaller side,",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " side",
+            ",",
+            " but"
+          ],
+          "ngram_str": " side, but",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " little",
+            " on",
+            " the"
+          ],
+          "ngram_str": " little on the",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " bit",
+            " on",
+            " the"
+          ],
+          "ngram_str": " bit on the",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " was",
+            " on",
+            " the"
+          ],
+          "ngram_str": " was on the",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "ier",
+            " side",
+            ","
+          ],
+          "ngram_str": "ier side,",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " on"
+          ],
+          "ngram_str": " a little on",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " smaller",
+            " side",
+            "."
+          ],
+          "ngram_str": " smaller side.",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " smaller",
+            " side"
+          ],
+          "ngram_str": " on the smaller side",
+          "count": 176,
+          "percent": 35.2
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " pric",
+            "ier"
+          ],
+          "ngram_str": " on the pricier",
+          "count": 140,
+          "percent": 28.0
+        },
+        {
+          "ngram": [
+            " the",
+            " pric",
+            "ier",
+            " side"
+          ],
+          "ngram_str": " the pricier side",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " are",
+            " on",
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " are on the smaller",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side",
+            ","
+          ],
+          "ngram_str": " the smaller side,",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " on",
+            " the"
+          ],
+          "ngram_str": " a little on the",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side",
+            "."
+          ],
+          "ngram_str": " the smaller side.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " is",
+            " on",
+            " the",
+            " smaller"
+          ],
+          "ngram_str": " is on the smaller",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " a",
+            " bit",
+            " on",
+            " the"
+          ],
+          "ngram_str": " a bit on the",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " pric",
+            "ier",
+            " side",
+            ","
+          ],
+          "ngram_str": " pricier side,",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " smaller",
+            " side",
+            ",",
+            " but"
+          ],
+          "ngram_str": " smaller side, but",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " little",
+            " on",
+            " the",
+            " pric"
+          ],
+          "ngram_str": " little on the pric",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " the",
+            " smaller",
+            " side",
+            " but"
+          ],
+          "ngram_str": " the smaller side but",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " swe",
+            "eter"
+          ],
+          "ngram_str": " on the sweeter",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " tacos",
+            " are",
+            " on",
+            " the"
+          ],
+          "ngram_str": " tacos are on the",
+          "count": 23,
+          "percent": 4.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 45400000,
+      "corpus_coverage": 0.8781
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22001,
+        "count": 8111,
+        "percent": 81.11
+      },
+      {
+        "feature_idx": 6848,
+        "count": 7257,
+        "percent": 72.57
+      },
+      {
+        "feature_idx": 11763,
+        "count": 5057,
+        "percent": 50.57
+      },
+      {
+        "feature_idx": 23714,
+        "count": 4770,
+        "percent": 47.7
+      },
+      {
+        "feature_idx": 7672,
+        "count": 4705,
+        "percent": 47.05
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4365,
+        "percent": 43.65
+      },
+      {
+        "feature_idx": 3676,
+        "count": 4179,
+        "percent": 41.79
+      },
+      {
+        "feature_idx": 15605,
+        "count": 4176,
+        "percent": 41.76
+      },
+      {
+        "feature_idx": 12278,
+        "count": 3983,
+        "percent": 39.83
+      },
+      {
+        "feature_idx": 19167,
+        "count": 3958,
+        "percent": 39.58
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3831,
+        "percent": 38.31
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3347,
+        "percent": 33.47
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3011,
+        "percent": 30.11
+      },
+      {
+        "feature_idx": 10297,
+        "count": 3004,
+        "percent": 30.04
+      },
+      {
+        "feature_idx": 11913,
+        "count": 2981,
+        "percent": 29.81
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2926,
+        "percent": 29.26
+      },
+      {
+        "feature_idx": 7201,
+        "count": 2707,
+        "percent": 27.07
+      },
+      {
+        "feature_idx": 14173,
+        "count": 2573,
+        "percent": 25.73
+      },
+      {
+        "feature_idx": 9519,
+        "count": 2555,
+        "percent": 25.55
+      },
+      {
+        "feature_idx": 19450,
+        "count": 2266,
+        "percent": 22.66
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 45400000,
+      "corpus_coverage": 0.8781
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1357,
+        "percent": 13.57
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2071,
+        "percent": 20.71
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2106,
+        "percent": 21.06
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2301,
+        "percent": 23.01
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2165,
+        "percent": 21.65
+      }
+    ],
+    "mean_position": 0.5395,
+    "std_position": 0.2696
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 20,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0207,
+      "p25": 0.0229,
+      "p50": 0.0336,
+      "p75": 0.0446,
+      "p90": 0.0749,
+      "p95": 0.0833,
+      "p99": 0.0898
+    },
+    "skewness": 1.1855,
+    "kurtosis": 0.5327,
+    "min": 0.0144,
+    "max": 0.0914,
+    "mean": 0.0393,
+    "std": 0.0209
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 20,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " small",
+        "count": 4,
+        "mean_activation": 0.0472
+      },
+      {
+        "token": "y",
+        "count": 3,
+        "mean_activation": 0.0372
+      },
+      {
+        "token": " more",
+        "count": 1,
+        "mean_activation": 0.0211
+      },
+      {
+        "token": " American",
+        "count": 1,
+        "mean_activation": 0.0225
+      },
+      {
+        "token": " spicy",
+        "count": 1,
+        "mean_activation": 0.023
+      },
+      {
+        "token": " expensive",
+        "count": 1,
+        "mean_activation": 0.0508
+      },
+      {
+        "token": " size",
+        "count": 1,
+        "mean_activation": 0.0443
+      },
+      {
+        "token": " better",
+        "count": 1,
+        "mean_activation": 0.0211
+      },
+      {
+        "token": " pricey",
+        "count": 1,
+        "mean_activation": 0.0244
+      },
+      {
+        "token": " newer",
+        "count": 1,
+        "mean_activation": 0.0914
+      }
+    ]
+  }
+}

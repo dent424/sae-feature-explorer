@@ -1,0 +1,841 @@
+{
+  "feature_idx": 21813,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.033652085524338946,
+    "max_activation": 0.11224365234375,
+    "std_when_active": 0.024305479570291336,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7960,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "\\n",
+        "count": 5822,
+        "mean_activation": 0.047315131016753866
+      },
+      {
+        "token": " -",
+        "count": 549,
+        "mean_activation": 0.05403976579398623
+      },
+      {
+        "token": " and",
+        "count": 354,
+        "mean_activation": 0.05369537698347016
+      },
+      {
+        "token": ",",
+        "count": 171,
+        "mean_activation": 0.05085575929162098
+      },
+      {
+        "token": "-",
+        "count": 170,
+        "mean_activation": 0.037810650993795956
+      },
+      {
+        "token": " PM",
+        "count": 73,
+        "mean_activation": 0.054015068158711474
+      },
+      {
+        "token": " to",
+        "count": 65,
+        "mean_activation": 0.033806903545673075
+      },
+      {
+        "token": ".",
+        "count": 64,
+        "mean_activation": 0.038360595703125
+      },
+      {
+        "token": "mosp",
+        "count": 52,
+        "mean_activation": 0.019204213069035456
+      },
+      {
+        "token": " ",
+        "count": 45,
+        "mean_activation": 0.046769205729166666
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7960,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...M for dinner \\n2 adults**\\n**\\nAtmosphere - 4 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.284912109375,
+        "review_id": "W1lIdHuJMoUUm9ZK23dwZQ",
+        "position": 16
+      },
+      {
+        "context": "... PM for lunch\\n3 adults**\\n**\\nAtmosphere - 5 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.27734375,
+        "review_id": "BvwJCucP_Yx3N--OSTuk5w",
+        "position": 15
+      },
+      {
+        "context": "...PM for dinner\\n3 adults**\\n**\\nAtmosphere - 4 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.277099609375,
+        "review_id": "uSc1hkmmHUIvH-hQn9tinA",
+        "position": 15
+      },
+      {
+        "context": "...PM for dinner\\n3 adults**\\n**\\nAtmosphere - 4 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.2763671875,
+        "review_id": "yhBxcKWgpLagfapEeMOqIw",
+        "position": 15
+      },
+      {
+        "context": "...PM for dinner\\n2 adults**\\n**\\nAtmosphere - 5 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.273681640625,
+        "review_id": "tYdLDmE9CQBs_coDoxjaCg",
+        "position": 13
+      },
+      {
+        "context": "... for a dinner\\n2 Adults**\\n**\\nAtmosphere - 5 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.2724609375,
+        "review_id": "i-YaVw1FT7QHhOzfrnOdgg",
+        "position": 16
+      },
+      {
+        "context": "...r a breakfast\\n2 Adults**\\n**\\nAtmosphere - 4 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.27197265625,
+        "review_id": "YQUDgNhNZttmc0ExW3EF3g",
+        "position": 16
+      },
+      {
+        "context": "... for a dinner\\n2 adults**\\n**\\nAtmosphere - 4 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.271484375,
+        "review_id": "6JVXYGreN-O2BWYVaD_MBg",
+        "position": 16
+      },
+      {
+        "context": "...PM for dinner\\n2 adults**\\n**\\nAtmosphere - 4 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.27001953125,
+        "review_id": "BOd47ebCjj7uOOHcpvmy_w",
+        "position": 15
+      },
+      {
+        "context": "...for breakfast\\n2 Adults**\\n**\\nAtmosphere - 5 stars\\nF...",
+        "active_token": "\\n",
+        "activation": 0.269775390625,
+        "review_id": "V4AK35elUpomg14hp4yAGw",
+        "position": 13
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 21813,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0964,
+        "max": 0.2849,
+        "mean": 0.1588
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 1063,
+          "percent": 212.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 328,
+          "percent": 65.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "At"
+          ],
+          "ngram_str": "\u012cAt",
+          "count": 241,
+          "percent": 48.2
+        },
+        {
+          "ngram": [
+            "At",
+            "mosp"
+          ],
+          "ngram_str": "Atmosp",
+          "count": 175,
+          "percent": 35.0
+        },
+        {
+          "ngram": [
+            "mosp",
+            "here"
+          ],
+          "ngram_str": "mosphere",
+          "count": 174,
+          "percent": 34.8
+        },
+        {
+          "ngram": [
+            "here",
+            " -"
+          ],
+          "ngram_str": "here -",
+          "count": 171,
+          "percent": 34.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "2"
+          ],
+          "ngram_str": "\u012c2",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            " PM",
+            "\u00c4"
+          ],
+          "ngram_str": " PM\u00c4",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            "2",
+            " adults"
+          ],
+          "ngram_str": "2 adults",
+          "count": 91,
+          "percent": 18.2
+        },
+        {
+          "ngram": [
+            " adults",
+            "\u00c4"
+          ],
+          "ngram_str": " adults\u00c4",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " dinner",
+            "\u00c4"
+          ],
+          "ngram_str": " dinner\u00c4",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " Adults",
+            "\u00c4"
+          ],
+          "ngram_str": " Adults\u00c4",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            ":",
+            "00"
+          ],
+          "ngram_str": ":00",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "3"
+          ],
+          "ngram_str": "\u012c3",
+          "count": 50,
+          "percent": 10.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 328,
+          "percent": 65.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 285,
+          "percent": 57.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "At"
+          ],
+          "ngram_str": "\u00c4\u012cAt",
+          "count": 241,
+          "percent": 48.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "At",
+            "mosp"
+          ],
+          "ngram_str": "\u012cAtmosp",
+          "count": 175,
+          "percent": 35.0
+        },
+        {
+          "ngram": [
+            "At",
+            "mosp",
+            "here"
+          ],
+          "ngram_str": "Atmosphere",
+          "count": 174,
+          "percent": 34.8
+        },
+        {
+          "ngram": [
+            "mosp",
+            "here",
+            " -"
+          ],
+          "ngram_str": "mosphere -",
+          "count": 170,
+          "percent": 34.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "2"
+          ],
+          "ngram_str": "\u00c4\u012c2",
+          "count": 143,
+          "percent": 28.6
+        },
+        {
+          "ngram": [
+            " PM",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " PM\u00c4\u012c",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "2",
+            " adults"
+          ],
+          "ngram_str": "\u012c2 adults",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " adults",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " adults\u00c4\u012c",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " dinner",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " dinner\u00c4\u012c",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " Adults",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " Adults\u00c4\u012c",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "2",
+            " adults",
+            "\u00c4"
+          ],
+          "ngram_str": "2 adults\u00c4",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "2",
+            " Adults"
+          ],
+          "ngram_str": "\u012c2 Adults",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "3"
+          ],
+          "ngram_str": "\u00c4\u012c3",
+          "count": 47,
+          "percent": 9.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 285,
+          "percent": 57.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "At"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cAt",
+          "count": 241,
+          "percent": 48.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "At",
+            "mosp"
+          ],
+          "ngram_str": "\u00c4\u012cAtmosp",
+          "count": 175,
+          "percent": 35.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "At",
+            "mosp",
+            "here"
+          ],
+          "ngram_str": "\u012cAtmosphere",
+          "count": 174,
+          "percent": 34.8
+        },
+        {
+          "ngram": [
+            "At",
+            "mosp",
+            "here",
+            " -"
+          ],
+          "ngram_str": "Atmosphere -",
+          "count": 170,
+          "percent": 34.0
+        },
+        {
+          "ngram": [
+            " adults",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " adults\u00c4\u012c\u00c4",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "2",
+            " adults"
+          ],
+          "ngram_str": "\u00c4\u012c2 adults",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " Adults",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " Adults\u00c4\u012c\u00c4",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "2",
+            " adults",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c2 adults\u00c4",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            "2",
+            " adults",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "2 adults\u00c4\u012c",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "2",
+            " Adults"
+          ],
+          "ngram_str": "\u00c4\u012c2 Adults",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "2",
+            " Adults",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c2 Adults\u00c4",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "2",
+            " Adults",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "2 Adults\u00c4\u012c",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " dinner",
+            "\u00c4",
+            "\u012c",
+            "2"
+          ],
+          "ngram_str": " dinner\u00c4\u012c2",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " PM",
+            "\u00c4",
+            "\u012c",
+            "2"
+          ],
+          "ngram_str": " PM\u00c4\u012c2",
+          "count": 45,
+          "percent": 9.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7960,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 13559,
+        "count": 5243,
+        "percent": 65.87
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5221,
+        "percent": 65.59
+      },
+      {
+        "feature_idx": 24293,
+        "count": 4593,
+        "percent": 57.7
+      },
+      {
+        "feature_idx": 7785,
+        "count": 4529,
+        "percent": 56.9
+      },
+      {
+        "feature_idx": 7327,
+        "count": 4522,
+        "percent": 56.81
+      },
+      {
+        "feature_idx": 13038,
+        "count": 4521,
+        "percent": 56.8
+      },
+      {
+        "feature_idx": 18703,
+        "count": 4485,
+        "percent": 56.34
+      },
+      {
+        "feature_idx": 12504,
+        "count": 4354,
+        "percent": 54.7
+      },
+      {
+        "feature_idx": 21095,
+        "count": 4132,
+        "percent": 51.91
+      },
+      {
+        "feature_idx": 1838,
+        "count": 3752,
+        "percent": 47.14
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3227,
+        "percent": 40.54
+      },
+      {
+        "feature_idx": 20544,
+        "count": 3152,
+        "percent": 39.6
+      },
+      {
+        "feature_idx": 1267,
+        "count": 3131,
+        "percent": 39.33
+      },
+      {
+        "feature_idx": 24086,
+        "count": 3129,
+        "percent": 39.31
+      },
+      {
+        "feature_idx": 545,
+        "count": 3099,
+        "percent": 38.93
+      },
+      {
+        "feature_idx": 4430,
+        "count": 2861,
+        "percent": 35.94
+      },
+      {
+        "feature_idx": 3326,
+        "count": 2781,
+        "percent": 34.94
+      },
+      {
+        "feature_idx": 4374,
+        "count": 2300,
+        "percent": 28.89
+      },
+      {
+        "feature_idx": 19095,
+        "count": 2129,
+        "percent": 26.75
+      },
+      {
+        "feature_idx": 4546,
+        "count": 2098,
+        "percent": 26.36
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7960,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3413,
+        "percent": 42.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1191,
+        "percent": 14.96
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 972,
+        "percent": 12.21
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1032,
+        "percent": 12.96
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1352,
+        "percent": 16.98
+      }
+    ],
+    "mean_position": 0.381,
+    "std_position": 0.3233
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0167,
+      "p25": 0.0241,
+      "p50": 0.0277,
+      "p75": 0.0309,
+      "p90": 0.047,
+      "p95": 0.0753,
+      "p99": 0.1049
+    },
+    "skewness": 2.5251,
+    "kurtosis": 5.5019,
+    "min": 0.0129,
+    "max": 0.1122,
+    "mean": 0.0337,
+    "std": 0.0243
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": "\\n",
+        "count": 10,
+        "mean_activation": 0.0325
+      },
+      {
+        "token": "-",
+        "count": 2,
+        "mean_activation": 0.031
+      },
+      {
+        "token": " -",
+        "count": 1,
+        "mean_activation": 0.0507
+      }
+    ]
+  }
+}

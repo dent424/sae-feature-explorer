@@ -1,0 +1,846 @@
+{
+  "feature_idx": 7391,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 15,
+    "mean_when_active": 0.12590840657552083,
+    "max_activation": 0.268310546875,
+    "std_when_active": 0.08046278269152578,
+    "activation_rate": 0.00015
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6736,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "inated",
+        "count": 2608,
+        "mean_activation": 0.07908093856156238
+      },
+      {
+        "token": " house",
+        "count": 1540,
+        "mean_activation": 0.14384351457868302
+      },
+      {
+        "token": "house",
+        "count": 499,
+        "mean_activation": 0.22502261603284696
+      },
+      {
+        "token": " site",
+        "count": 416,
+        "mean_activation": 0.059175271254319414
+      },
+      {
+        "token": "site",
+        "count": 178,
+        "mean_activation": 0.10826230852791432
+      },
+      {
+        "token": "season",
+        "count": 148,
+        "mean_activation": 0.035572773701435814
+      },
+      {
+        "token": "inate",
+        "count": 135,
+        "mean_activation": 0.0563457347728588
+      },
+      {
+        "token": "line",
+        "count": 67,
+        "mean_activation": 0.055543358646222014
+      },
+      {
+        "token": " sourced",
+        "count": 59,
+        "mean_activation": 0.03625203795352225
+      },
+      {
+        "token": "-",
+        "count": 48,
+        "mean_activation": 0.025272369384765625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6736,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ili salt is made in-**house**, and really compleme...",
+        "active_token": "house",
+        "activation": 0.294677734375,
+        "review_id": "oUnycUMJnR3inenco4e3ew",
+        "position": 54
+      },
+      {
+        "context": "...a chips are made in-**house** and we could have ea...",
+        "active_token": "house",
+        "activation": 0.2890625,
+        "review_id": "yQ0xyCIAv712chlnFqb7vg",
+        "position": 224
+      },
+      {
+        "context": "..., that they make in-**house** and it kicks arss.  ...",
+        "active_token": "house",
+        "activation": 0.287841796875,
+        "review_id": "UA5P2b5oL3z7ClY6jGbT5g",
+        "position": 125
+      },
+      {
+        "context": "...cellend and made in-**house**, but that day, he re...",
+        "active_token": "house",
+        "activation": 0.287109375,
+        "review_id": "QinKmmTfiqE9wxFZap-yeA",
+        "position": 118
+      },
+      {
+        "context": "..., obviously made in-**house**, contained fresh oni...",
+        "active_token": "house",
+        "activation": 0.286865234375,
+        "review_id": "Sfos4yZtb-cke3JMtjyoIg",
+        "position": 61
+      },
+      {
+        "context": "...Ice cream \\n-Made in-**house** \\n-Huge selection wit...",
+        "active_token": "house",
+        "activation": 0.286865234375,
+        "review_id": "nD76-eZ9ikvSWpdL-0RyLg",
+        "position": 164
+      },
+      {
+        "context": "...an patty is made in-**house** and takes a little l...",
+        "active_token": "house",
+        "activation": 0.28662109375,
+        "review_id": "nTlF9gdVGURG9LkowYFN5A",
+        "position": 95
+      },
+      {
+        "context": "...dressing was made in**house** and was amazing. Thi...",
+        "active_token": "house",
+        "activation": 0.286376953125,
+        "review_id": "ViMSCtgisJqHQ8AsaIQItA",
+        "position": 46
+      },
+      {
+        "context": "...and salsa,  made in-**house**. \\nI've noticed there...",
+        "active_token": "house",
+        "activation": 0.286376953125,
+        "review_id": "4UsVCTtIA4DPHSsWrRifdg",
+        "position": 32
+      },
+      {
+        "context": "...ero sorbet, made in-**house**.  Bring a good wine....",
+        "active_token": "house",
+        "activation": 0.285888671875,
+        "review_id": "YSJL84DRt3RxJWhTIjPXeg",
+        "position": 48
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 7391,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1946,
+        "max": 0.2947,
+        "mean": 0.2435
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "-",
+            "house"
+          ],
+          "ngram_str": "-house",
+          "count": 421,
+          "percent": 84.2
+        },
+        {
+          "ngram": [
+            " in",
+            "-"
+          ],
+          "ngram_str": " in-",
+          "count": 404,
+          "percent": 80.8
+        },
+        {
+          "ngram": [
+            " made",
+            " in"
+          ],
+          "ngram_str": " made in",
+          "count": 257,
+          "percent": 51.4
+        },
+        {
+          "ngram": [
+            "house",
+            "."
+          ],
+          "ngram_str": "house.",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " are",
+            " made"
+          ],
+          "ngram_str": " are made",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " in",
+            " house"
+          ],
+          "ngram_str": " in house",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            "house",
+            ","
+          ],
+          "ngram_str": "house,",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " is",
+            " made"
+          ],
+          "ngram_str": " is made",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " tortillas",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            "house",
+            " and"
+          ],
+          "ngram_str": "house and",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "house",
+            " made"
+          ],
+          "ngram_str": "house made",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            "-",
+            "house"
+          ],
+          "ngram_str": " in-house",
+          "count": 404,
+          "percent": 80.8
+        },
+        {
+          "ngram": [
+            " made",
+            " in",
+            "-"
+          ],
+          "ngram_str": " made in-",
+          "count": 185,
+          "percent": 37.0
+        },
+        {
+          "ngram": [
+            "-",
+            "house",
+            "."
+          ],
+          "ngram_str": "-house.",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " are",
+            " made",
+            " in"
+          ],
+          "ngram_str": " are made in",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " made",
+            " in",
+            " house"
+          ],
+          "ngram_str": " made in house",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            "-",
+            "house",
+            ","
+          ],
+          "ngram_str": "-house,",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " is",
+            " made",
+            " in"
+          ],
+          "ngram_str": " is made in",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "-",
+            "house",
+            " and"
+          ],
+          "ngram_str": "-house and",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "-",
+            "house",
+            " made"
+          ],
+          "ngram_str": "-house made",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "house",
+            ",",
+            " and"
+          ],
+          "ngram_str": "house, and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "house",
+            ".",
+            " "
+          ],
+          "ngram_str": "house. ",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " fresh",
+            " in",
+            "-"
+          ],
+          "ngram_str": " fresh in-",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " house",
+            "."
+          ],
+          "ngram_str": " in house.",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " house",
+            " and"
+          ],
+          "ngram_str": " in house and",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " made",
+            " in",
+            "-",
+            "house"
+          ],
+          "ngram_str": " made in-house",
+          "count": 185,
+          "percent": 37.0
+        },
+        {
+          "ngram": [
+            " in",
+            "-",
+            "house",
+            "."
+          ],
+          "ngram_str": " in-house.",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " in",
+            "-",
+            "house",
+            ","
+          ],
+          "ngram_str": " in-house,",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " are",
+            " made",
+            " in",
+            "-"
+          ],
+          "ngram_str": " are made in-",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " in",
+            "-",
+            "house",
+            " and"
+          ],
+          "ngram_str": " in-house and",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " is",
+            " made",
+            " in",
+            "-"
+          ],
+          "ngram_str": " is made in-",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " in",
+            "-",
+            "house",
+            " made"
+          ],
+          "ngram_str": " in-house made",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " are",
+            " made",
+            " in",
+            " house"
+          ],
+          "ngram_str": " are made in house",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "-",
+            "house",
+            ",",
+            " and"
+          ],
+          "ngram_str": "-house, and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "-",
+            "house",
+            ".",
+            " "
+          ],
+          "ngram_str": "-house. ",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " fresh",
+            " in",
+            "-",
+            "house"
+          ],
+          "ngram_str": " fresh in-house",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " made",
+            " in",
+            " house",
+            "."
+          ],
+          "ngram_str": " made in house.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " made",
+            " in",
+            " house",
+            " and"
+          ],
+          "ngram_str": " made in house and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " chips",
+            " are",
+            " made",
+            " in"
+          ],
+          "ngram_str": " chips are made in",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "illas",
+            " are",
+            " made",
+            " in"
+          ],
+          "ngram_str": "illas are made in",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6736,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 4387,
+        "percent": 65.13
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3091,
+        "percent": 45.89
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3062,
+        "percent": 45.46
+      },
+      {
+        "feature_idx": 22211,
+        "count": 2979,
+        "percent": 44.23
+      },
+      {
+        "feature_idx": 10323,
+        "count": 2922,
+        "percent": 43.38
+      },
+      {
+        "feature_idx": 18964,
+        "count": 2837,
+        "percent": 42.12
+      },
+      {
+        "feature_idx": 4858,
+        "count": 2820,
+        "percent": 41.86
+      },
+      {
+        "feature_idx": 6333,
+        "count": 2818,
+        "percent": 41.83
+      },
+      {
+        "feature_idx": 17692,
+        "count": 2774,
+        "percent": 41.18
+      },
+      {
+        "feature_idx": 13465,
+        "count": 2770,
+        "percent": 41.12
+      },
+      {
+        "feature_idx": 9989,
+        "count": 2701,
+        "percent": 40.1
+      },
+      {
+        "feature_idx": 5871,
+        "count": 2638,
+        "percent": 39.16
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2553,
+        "percent": 37.9
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2544,
+        "percent": 37.77
+      },
+      {
+        "feature_idx": 12179,
+        "count": 2442,
+        "percent": 36.25
+      },
+      {
+        "feature_idx": 9519,
+        "count": 2350,
+        "percent": 34.89
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2331,
+        "percent": 34.61
+      },
+      {
+        "feature_idx": 7033,
+        "count": 2270,
+        "percent": 33.7
+      },
+      {
+        "feature_idx": 13261,
+        "count": 2195,
+        "percent": 32.59
+      },
+      {
+        "feature_idx": 4686,
+        "count": 2131,
+        "percent": 31.64
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6736,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 663,
+        "percent": 9.84
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1557,
+        "percent": 23.11
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1904,
+        "percent": 28.27
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1647,
+        "percent": 24.45
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 965,
+        "percent": 14.33
+      }
+    ],
+    "mean_position": 0.5222,
+    "std_position": 0.2361
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 15,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0431,
+      "p25": 0.0652,
+      "p50": 0.0832,
+      "p75": 0.1716,
+      "p90": 0.2548,
+      "p95": 0.2589,
+      "p99": 0.2664
+    },
+    "skewness": 0.5601,
+    "kurtosis": -1.05,
+    "min": 0.0221,
+    "max": 0.2683,
+    "mean": 0.1259,
+    "std": 0.0805
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 15,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": "inated",
+        "count": 6,
+        "mean_activation": 0.0622
+      },
+      {
+        "token": " house",
+        "count": 5,
+        "mean_activation": 0.1431
+      },
+      {
+        "token": "house",
+        "count": 3,
+        "mean_activation": 0.2593
+      },
+      {
+        "token": " scratch",
+        "count": 1,
+        "mean_activation": 0.0221
+      }
+    ]
+  }
+}

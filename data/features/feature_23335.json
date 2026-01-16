@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23335,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 152,
+    "mean_when_active": 0.041233564677991365,
+    "max_activation": 0.12939453125,
+    "std_when_active": 0.02062313600177639,
+    "activation_rate": 0.00152
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 39700000,
+      "corpus_coverage": 0.7678
+    },
+    "top_tokens": [
+      {
+        "token": " I",
+        "count": 14505,
+        "mean_activation": 0.045014651698599355
+      },
+      {
+        "token": " friends",
+        "count": 4549,
+        "mean_activation": 0.051957347414524485
+      },
+      {
+        "token": " people",
+        "count": 3423,
+        "mean_activation": 0.03929636780016958
+      },
+      {
+        "token": " us",
+        "count": 3307,
+        "mean_activation": 0.04426448281019665
+      },
+      {
+        "token": " family",
+        "count": 1596,
+        "mean_activation": 0.04322004198729245
+      },
+      {
+        "token": " and",
+        "count": 1404,
+        "mean_activation": 0.03265230879824386
+      },
+      {
+        "token": " kids",
+        "count": 1006,
+        "mean_activation": 0.04646371041330144
+      },
+      {
+        "token": ",",
+        "count": 993,
+        "mean_activation": 0.03825245499010653
+      },
+      {
+        "token": " friend",
+        "count": 961,
+        "mean_activation": 0.041330438746870125
+      },
+      {
+        "token": " wife",
+        "count": 765,
+        "mean_activation": 0.040997334399254494
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 39700000,
+      "corpus_coverage": 0.7678
+    },
+    "activations": [
+      {
+        "context": "... p.m., myself and 5** friends** decided to grab so...",
+        "active_token": " friends",
+        "activation": 0.1693115234375,
+        "review_id": "7r4k0inw-g0yofueWP9WEg",
+        "position": 147
+      },
+      {
+        "context": "... of 6 coworkers and** friends** to introduce them ...",
+        "active_token": " friends",
+        "activation": 0.1534423828125,
+        "review_id": "cgiBQyZ31FUbmxcdqeeQFQ",
+        "position": 8
+      },
+      {
+        "context": "Soo.. me and three** friends** decided we wanted ...",
+        "active_token": " friends",
+        "activation": 0.1531982421875,
+        "review_id": "jEfubqXbMffPYV93da09Ew",
+        "position": 6
+      },
+      {
+        "context": "...m, myself and a few** friends** came by. We asked ...",
+        "active_token": " friends",
+        "activation": 0.1529541015625,
+        "review_id": "m8qvr6Pci_W5dnx4orLSBg",
+        "position": 331
+      },
+      {
+        "context": "...ladelphia me and my** friends** were hoping to fin...",
+        "active_token": " friends",
+        "activation": 0.1517333984375,
+        "review_id": "E0TfSSOhQyalhBvvraaWPA",
+        "position": 13
+      },
+      {
+        "context": "...end and five of his** friends**. The food was aver...",
+        "active_token": " friends",
+        "activation": 0.1475830078125,
+        "review_id": "3iy0Vl6DUX2CSowPlciSlg",
+        "position": 10
+      },
+      {
+        "context": "..., me and a group of** friends** ate here this past...",
+        "active_token": " friends",
+        "activation": 0.1474609375,
+        "review_id": "ZW6C0S9HFYvCDGFWMUIO9Q",
+        "position": 12
+      },
+      {
+        "context": "...p of 6 of me and my** friends** went here and sat ...",
+        "active_token": " friends",
+        "activation": 0.1474609375,
+        "review_id": "yWuCfEdJ_Vg2YUQLJ0GB9Q",
+        "position": 26
+      },
+      {
+        "context": "...group of family and** friends** from out of town. ...",
+        "active_token": " friends",
+        "activation": 0.1444091796875,
+        "review_id": "UwTKCq6JcwArQ_JU1uHhYw",
+        "position": 8
+      },
+      {
+        "context": "...yfriend and our two** friends**. We had a reservat...",
+        "active_token": " friends",
+        "activation": 0.143798828125,
+        "review_id": "n6IZMtB_HtzLCjG_nXcurw",
+        "position": 16
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23335,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1076,
+        "max": 0.1693,
+        "mean": 0.1183
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            " my",
+            " husband"
+          ],
+          "ngram_str": " my husband",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " husband",
+            " and"
+          ],
+          "ngram_str": " husband and",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " and",
+            " my"
+          ],
+          "ngram_str": " and my",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " group",
+            " of"
+          ],
+          "ngram_str": " group of",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            ",",
+            " my"
+          ],
+          "ngram_str": ", my",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " me",
+            " and"
+          ],
+          "ngram_str": " me and",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " wife",
+            " and"
+          ],
+          "ngram_str": " wife and",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " a",
+            " group"
+          ],
+          "ngram_str": " a group",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " my",
+            " wife"
+          ],
+          "ngram_str": " my wife",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " friends",
+            "."
+          ],
+          "ngram_str": " friends.",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " and",
+            " his"
+          ],
+          "ngram_str": " and his",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " of",
+            " friends"
+          ],
+          "ngram_str": " of friends",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " with",
+            " my"
+          ],
+          "ngram_str": " with my",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 40,
+          "percent": 8.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " my",
+            " husband",
+            " and"
+          ],
+          "ngram_str": " my husband and",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " a",
+            " group",
+            " of"
+          ],
+          "ngram_str": " a group of",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " my",
+            " wife",
+            " and"
+          ],
+          "ngram_str": " my wife and",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " husband",
+            " and",
+            " I"
+          ],
+          "ngram_str": " husband and I",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " group",
+            " of",
+            " friends"
+          ],
+          "ngram_str": " group of friends",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " me",
+            " and",
+            " my"
+          ],
+          "ngram_str": " me and my",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " wife",
+            " and",
+            " I"
+          ],
+          "ngram_str": " wife and I",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " group"
+          ],
+          "ngram_str": " with a group",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " family",
+            " and",
+            " friends"
+          ],
+          "ngram_str": " family and friends",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " decided"
+          ],
+          "ngram_str": " and I decided",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " his",
+            " crew"
+          ],
+          "ngram_str": " and his crew",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " of",
+            " friends",
+            "."
+          ],
+          "ngram_str": " of friends.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " my",
+            " husband"
+          ],
+          "ngram_str": ", my husband",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " I",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " I decided to",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " my",
+            " boyfriend",
+            " and"
+          ],
+          "ngram_str": " my boyfriend and",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " my",
+            " husband",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my husband and I",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " a",
+            " group",
+            " of",
+            " friends"
+          ],
+          "ngram_str": " a group of friends",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " group",
+            " of"
+          ],
+          "ngram_str": " with a group of",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " my",
+            " wife",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my wife and I",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " group",
+            " of",
+            " friends",
+            "."
+          ],
+          "ngram_str": " group of friends.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " my",
+            " husband",
+            " and"
+          ],
+          "ngram_str": ", my husband and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " and I decided to",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " my",
+            " wife",
+            " and"
+          ],
+          "ngram_str": ", my wife and",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " with",
+            " my",
+            " husband",
+            " and"
+          ],
+          "ngram_str": " with my husband and",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " me",
+            " and",
+            " my",
+            " friends"
+          ],
+          "ngram_str": " me and my friends",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " my",
+            " boyfriend",
+            " and",
+            " I"
+          ],
+          "ngram_str": " my boyfriend and I",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " and",
+            " a",
+            " few",
+            " friends"
+          ],
+          "ngram_str": " and a few friends",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " night",
+            " with",
+            " a",
+            " group"
+          ],
+          "ngram_str": " night with a group",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " and",
+            " a",
+            " group",
+            " of"
+          ],
+          "ngram_str": " and a group of",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " husband",
+            " and",
+            " I",
+            " went"
+          ],
+          "ngram_str": " husband and I went",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7800000,
+      "corpus_coverage": 0.1509
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 6795,
+        "percent": 67.95
+      },
+      {
+        "feature_idx": 9465,
+        "count": 5934,
+        "percent": 59.34
+      },
+      {
+        "feature_idx": 22801,
+        "count": 5203,
+        "percent": 52.03
+      },
+      {
+        "feature_idx": 9756,
+        "count": 4978,
+        "percent": 49.78
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4810,
+        "percent": 48.1
+      },
+      {
+        "feature_idx": 5496,
+        "count": 4284,
+        "percent": 42.84
+      },
+      {
+        "feature_idx": 24308,
+        "count": 3828,
+        "percent": 38.28
+      },
+      {
+        "feature_idx": 23687,
+        "count": 3775,
+        "percent": 37.75
+      },
+      {
+        "feature_idx": 8905,
+        "count": 3506,
+        "percent": 35.06
+      },
+      {
+        "feature_idx": 11584,
+        "count": 3428,
+        "percent": 34.28
+      },
+      {
+        "feature_idx": 6278,
+        "count": 3077,
+        "percent": 30.77
+      },
+      {
+        "feature_idx": 19167,
+        "count": 3072,
+        "percent": 30.72
+      },
+      {
+        "feature_idx": 19600,
+        "count": 3057,
+        "percent": 30.57
+      },
+      {
+        "feature_idx": 3937,
+        "count": 3052,
+        "percent": 30.52
+      },
+      {
+        "feature_idx": 21630,
+        "count": 3025,
+        "percent": 30.25
+      },
+      {
+        "feature_idx": 748,
+        "count": 3004,
+        "percent": 30.04
+      },
+      {
+        "feature_idx": 14723,
+        "count": 2951,
+        "percent": 29.51
+      },
+      {
+        "feature_idx": 10231,
+        "count": 2827,
+        "percent": 28.27
+      },
+      {
+        "feature_idx": 19394,
+        "count": 2764,
+        "percent": 27.64
+      },
+      {
+        "feature_idx": 15111,
+        "count": 2738,
+        "percent": 27.38
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7800000,
+      "corpus_coverage": 0.1509
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4904,
+        "percent": 49.04
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1944,
+        "percent": 19.44
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1152,
+        "percent": 11.52
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1046,
+        "percent": 10.46
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 954,
+        "percent": 9.54
+      }
+    ],
+    "mean_position": 0.3124,
+    "std_position": 0.2862
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 152,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0227,
+      "p25": 0.0271,
+      "p50": 0.0354,
+      "p75": 0.0491,
+      "p90": 0.0668,
+      "p95": 0.0914,
+      "p99": 0.1101
+    },
+    "skewness": 1.7442,
+    "kurtosis": 3.3529,
+    "min": 0.0165,
+    "max": 0.1294,
+    "mean": 0.0412,
+    "std": 0.0206
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 152,
+      "unique_tokens_found": 53
+    },
+    "tokens": [
+      {
+        "token": " I",
+        "count": 36,
+        "mean_activation": 0.0425
+      },
+      {
+        "token": " us",
+        "count": 14,
+        "mean_activation": 0.0442
+      },
+      {
+        "token": " people",
+        "count": 13,
+        "mean_activation": 0.0429
+      },
+      {
+        "token": " and",
+        "count": 12,
+        "mean_activation": 0.0291
+      },
+      {
+        "token": " friends",
+        "count": 11,
+        "mean_activation": 0.0501
+      },
+      {
+        "token": " kids",
+        "count": 3,
+        "mean_activation": 0.0493
+      },
+      {
+        "token": " staff",
+        "count": 3,
+        "mean_activation": 0.0222
+      },
+      {
+        "token": " husband",
+        "count": 3,
+        "mean_activation": 0.0594
+      },
+      {
+        "token": " family",
+        "count": 3,
+        "mean_activation": 0.0405
+      },
+      {
+        "token": " wife",
+        "count": 3,
+        "mean_activation": 0.0501
+      }
+    ]
+  }
+}

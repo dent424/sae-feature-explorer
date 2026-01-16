@@ -1,0 +1,876 @@
+{
+  "feature_idx": 18229,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 184,
+    "mean_when_active": 0.05060817884362262,
+    "max_activation": 0.157470703125,
+    "std_when_active": 0.030093027317401985,
+    "activation_rate": 0.00184
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 26300000,
+      "corpus_coverage": 0.5087
+    },
+    "top_tokens": [
+      {
+        "token": " really",
+        "count": 7878,
+        "mean_activation": 0.06490081395858373
+      },
+      {
+        "token": " highly",
+        "count": 4013,
+        "mean_activation": 0.0939346149975957
+      },
+      {
+        "token": " definitely",
+        "count": 3475,
+        "mean_activation": 0.041187210631885116
+      },
+      {
+        "token": " absolutely",
+        "count": 1902,
+        "mean_activation": 0.08095086435664967
+      },
+      {
+        "token": " so",
+        "count": 1756,
+        "mean_activation": 0.044129395539233784
+      },
+      {
+        "token": " pretty",
+        "count": 1238,
+        "mean_activation": 0.05718981815270345
+      },
+      {
+        "token": " probably",
+        "count": 1201,
+        "mean_activation": 0.04514246677776657
+      },
+      {
+        "token": " honestly",
+        "count": 1084,
+        "mean_activation": 0.07445554275794222
+      },
+      {
+        "token": " very",
+        "count": 1017,
+        "mean_activation": 0.049382100063087665
+      },
+      {
+        "token": " totally",
+        "count": 860,
+        "mean_activation": 0.07871027214582577
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 26300000,
+      "corpus_coverage": 0.5087
+    },
+    "activations": [
+      {
+        "context": "...mazing location. I** seriously** considered going ...",
+        "active_token": " seriously",
+        "activation": 0.1844482421875,
+        "review_id": "7XMhn02u79RQ9DRJHKTdlQ",
+        "position": 58
+      },
+      {
+        "context": "...ue if there own. I** seriously** have come here ju...",
+        "active_token": " seriously",
+        "activation": 0.177490234375,
+        "review_id": "8yIOos8YOMazWxCCoBZ38g",
+        "position": 33
+      },
+      {
+        "context": "...ways d%^n good.  I** seriously** haven't had a bow...",
+        "active_token": " seriously",
+        "activation": 0.1763916015625,
+        "review_id": "90TUAgxHWi9z5UOIozbfFg",
+        "position": 184
+      },
+      {
+        "context": "...t Rincon Sabroso. I** totally** took it for grante...",
+        "active_token": " totally",
+        "activation": 0.17626953125,
+        "review_id": "CHhBoyv7FiuHYfGGANIFzA",
+        "position": 126
+      },
+      {
+        "context": "...s to bring home. I** seriously** think it's enough...",
+        "active_token": " seriously",
+        "activation": 0.1756591796875,
+        "review_id": "a2XJUiNHYLcLGoacj1L5Sg",
+        "position": 167
+      },
+      {
+        "context": "... rude FOH staff. I** seriously** suggest you go el...",
+        "active_token": " seriously",
+        "activation": 0.173828125,
+        "review_id": "kW1j3hwaIjgj64Hhmmj6qg",
+        "position": 40
+      },
+      {
+        "context": "... at home for us.  I** totally** agree.  I ordered ...",
+        "active_token": " totally",
+        "activation": 0.1732177734375,
+        "review_id": "T4wWDRbndNLqOvjYwPwApw",
+        "position": 183
+      },
+      {
+        "context": "... cannot be beat. I** seriously** could have eaten ...",
+        "active_token": " seriously",
+        "activation": 0.1728515625,
+        "review_id": "1XDC0YQNf9ieEz4-q0evxg",
+        "position": 311
+      },
+      {
+        "context": "... of Carmelita's. I** seriously** can't wait for an...",
+        "active_token": " seriously",
+        "activation": 0.1727294921875,
+        "review_id": "6Z2QgGW1JEhNTyv-80gq3A",
+        "position": 376
+      },
+      {
+        "context": "...visit this place. I** totally** recommend it!",
+        "active_token": " totally",
+        "activation": 0.172119140625,
+        "review_id": "Rk79ga6fg3Z9QZ7jBannvQ",
+        "position": 78
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 18229,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1448,
+        "max": 0.1855,
+        "mean": 0.155
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 241,
+          "percent": 48.2
+        },
+        {
+          "ngram": [
+            " I",
+            " totally"
+          ],
+          "ngram_str": " I totally",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            " I",
+            " seriously"
+          ],
+          "ngram_str": " I seriously",
+          "count": 126,
+          "percent": 25.2
+        },
+        {
+          "ngram": [
+            " I",
+            " absolutely"
+          ],
+          "ngram_str": " I absolutely",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " totally",
+            " recommend"
+          ],
+          "ngram_str": " totally recommend",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " absolutely",
+            " love"
+          ],
+          "ngram_str": " absolutely love",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "!",
+            " I"
+          ],
+          "ngram_str": "! I",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " recommend",
+            " this"
+          ],
+          "ngram_str": " recommend this",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012cI",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " I",
+            " seriously"
+          ],
+          "ngram_str": ". I seriously",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " totally"
+          ],
+          "ngram_str": ". I totally",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " absolutely"
+          ],
+          "ngram_str": ". I absolutely",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " I",
+            " totally",
+            " recommend"
+          ],
+          "ngram_str": " I totally recommend",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " I",
+            " absolutely",
+            " love"
+          ],
+          "ngram_str": " I absolutely love",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " totally",
+            " recommend",
+            " this"
+          ],
+          "ngram_str": " totally recommend this",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " recommend",
+            " this",
+            " place"
+          ],
+          "ngram_str": " recommend this place",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " seriously"
+          ],
+          "ngram_str": "  I seriously",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " totally"
+          ],
+          "ngram_str": "  I totally",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " absolutely",
+            " love",
+            " the"
+          ],
+          "ngram_str": " absolutely love the",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " I",
+            " absolutely",
+            " love"
+          ],
+          "ngram_str": ". I absolutely love",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " totally",
+            " recommend"
+          ],
+          "ngram_str": ". I totally recommend",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " I",
+            " totally",
+            " recommend",
+            " this"
+          ],
+          "ngram_str": " I totally recommend this",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " totally",
+            " recommend",
+            " this",
+            " place"
+          ],
+          "ngram_str": " totally recommend this place",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " seriously"
+          ],
+          "ngram_str": ".  I seriously",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " absolutely"
+          ],
+          "ngram_str": ".  I absolutely",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " I",
+            " absolutely",
+            " love",
+            " the"
+          ],
+          "ngram_str": " I absolutely love the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " I",
+            " absolutely",
+            " love",
+            " their"
+          ],
+          "ngram_str": " I absolutely love their",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " totally"
+          ],
+          "ngram_str": "\u00c4\u012cI totally",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " totally"
+          ],
+          "ngram_str": ".  I totally",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I",
+            " seriously"
+          ],
+          "ngram_str": "\u00c4\u012cI seriously",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5100000,
+      "corpus_coverage": 0.0986
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17430,
+        "count": 8674,
+        "percent": 86.74
+      },
+      {
+        "feature_idx": 16269,
+        "count": 5352,
+        "percent": 53.52
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4858,
+        "percent": 48.58
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4604,
+        "percent": 46.04
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4088,
+        "percent": 40.88
+      },
+      {
+        "feature_idx": 1982,
+        "count": 4038,
+        "percent": 40.38
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3639,
+        "percent": 36.39
+      },
+      {
+        "feature_idx": 23664,
+        "count": 3379,
+        "percent": 33.79
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3103,
+        "percent": 31.03
+      },
+      {
+        "feature_idx": 21933,
+        "count": 3072,
+        "percent": 30.72
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2783,
+        "percent": 27.83
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2754,
+        "percent": 27.54
+      },
+      {
+        "feature_idx": 9038,
+        "count": 2549,
+        "percent": 25.49
+      },
+      {
+        "feature_idx": 21409,
+        "count": 2498,
+        "percent": 24.98
+      },
+      {
+        "feature_idx": 23468,
+        "count": 2448,
+        "percent": 24.48
+      },
+      {
+        "feature_idx": 2770,
+        "count": 2443,
+        "percent": 24.43
+      },
+      {
+        "feature_idx": 435,
+        "count": 2306,
+        "percent": 23.06
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2294,
+        "percent": 22.94
+      },
+      {
+        "feature_idx": 11950,
+        "count": 2100,
+        "percent": 21.0
+      },
+      {
+        "feature_idx": 19716,
+        "count": 2065,
+        "percent": 20.65
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5100000,
+      "corpus_coverage": 0.0986
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2138,
+        "percent": 21.38
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1516,
+        "percent": 15.16
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1610,
+        "percent": 16.1
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1899,
+        "percent": 18.99
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2837,
+        "percent": 28.37
+      }
+    ],
+    "mean_position": 0.533,
+    "std_position": 0.3172
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 184,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0211,
+      "p25": 0.0291,
+      "p50": 0.0429,
+      "p75": 0.0614,
+      "p90": 0.0997,
+      "p95": 0.1099,
+      "p99": 0.1347
+    },
+    "skewness": 1.2038,
+    "kurtosis": 0.7847,
+    "min": 0.013,
+    "max": 0.1575,
+    "mean": 0.0506,
+    "std": 0.0301
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 184,
+      "unique_tokens_found": 70
+    },
+    "tokens": [
+      {
+        "token": " really",
+        "count": 34,
+        "mean_activation": 0.0598
+      },
+      {
+        "token": " highly",
+        "count": 13,
+        "mean_activation": 0.0946
+      },
+      {
+        "token": " definitely",
+        "count": 11,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": " absolutely",
+        "count": 10,
+        "mean_activation": 0.0802
+      },
+      {
+        "token": " so",
+        "count": 6,
+        "mean_activation": 0.0427
+      },
+      {
+        "token": " probably",
+        "count": 5,
+        "mean_activation": 0.0348
+      },
+      {
+        "token": " super",
+        "count": 5,
+        "mean_activation": 0.0441
+      },
+      {
+        "token": " literally",
+        "count": 4,
+        "mean_activation": 0.0462
+      },
+      {
+        "token": " honestly",
+        "count": 4,
+        "mean_activation": 0.0791
+      },
+      {
+        "token": " I",
+        "count": 4,
+        "mean_activation": 0.0327
+      }
+    ]
+  }
+}

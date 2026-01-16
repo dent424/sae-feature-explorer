@@ -1,0 +1,841 @@
+{
+  "feature_idx": 12165,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 12,
+    "mean_when_active": 0.10028076171875,
+    "max_activation": 0.1337890625,
+    "std_when_active": 0.0329420352258884,
+    "activation_rate": 0.00012
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 10711,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " soon",
+        "count": 7218,
+        "mean_activation": 0.10835042453003775
+      },
+      {
+        "token": "on",
+        "count": 1317,
+        "mean_activation": 0.11456348648013359
+      },
+      {
+        "token": " shortly",
+        "count": 650,
+        "mean_activation": 0.05145500769981971
+      },
+      {
+        "token": " future",
+        "count": 180,
+        "mean_activation": 0.02362683614095052
+      },
+      {
+        "token": " later",
+        "count": 169,
+        "mean_activation": 0.031538923816568046
+      },
+      {
+        "token": " quickly",
+        "count": 143,
+        "mean_activation": 0.027387338918405814
+      },
+      {
+        "token": " Soon",
+        "count": 129,
+        "mean_activation": 0.08627390307049419
+      },
+      {
+        "token": " someday",
+        "count": 111,
+        "mean_activation": 0.04862549927857545
+      },
+      {
+        "token": " eventually",
+        "count": 65,
+        "mean_activation": 0.04713017390324519
+      },
+      {
+        "token": " now",
+        "count": 64,
+        "mean_activation": 0.02845907211303711
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 10711,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...back to Gentle Ben's** soon**!",
+        "active_token": " soon",
+        "activation": 0.18603515625,
+        "review_id": "BA2BFgJrsnBpyAL9auAugg",
+        "position": 266
+      },
+      {
+        "context": "...ng at the restaurant** soon**!",
+        "active_token": " soon",
+        "activation": 0.1834716796875,
+        "review_id": "7k7_gaD33mEG5B_R2FPUOQ",
+        "position": 42
+      },
+      {
+        "context": "...on Strange Addiction** soon**, softly stroking my ...",
+        "active_token": " soon",
+        "activation": 0.183349609375,
+        "review_id": "9N8lu_XcUXd9piHLhsog5g",
+        "position": 102
+      },
+      {
+        "context": "...y behind the cooking** soon**.",
+        "active_token": " soon",
+        "activation": 0.182861328125,
+        "review_id": "7MR4R3JU_2TNLrT5SBtlgg",
+        "position": 190
+      },
+      {
+        "context": "...try the birria ramen** soon**.",
+        "active_token": " soon",
+        "activation": 0.1807861328125,
+        "review_id": "5o3gO9_ghojPlQtwutbfaA",
+        "position": 97
+      },
+      {
+        "context": "...y out their burritos** soon**...I might throw in a...",
+        "active_token": " soon",
+        "activation": 0.1800537109375,
+        "review_id": "Eg42GuMmZxxSagMRJo8amg",
+        "position": 243
+      },
+      {
+        "context": "...back to King Burrito** soon** and this time we'll ...",
+        "active_token": " soon",
+        "activation": 0.179931640625,
+        "review_id": "0jEo0P8fN0E9EnB7JXKd0Q",
+        "position": 353
+      },
+      {
+        "context": "...joy a meal at Gringo** soon**!  Chef John is a cul...",
+        "active_token": " soon",
+        "activation": 0.1795654296875,
+        "review_id": "waYDF7DnLP8UmfQOvfGdaA",
+        "position": 143
+      },
+      {
+        "context": "... here for happy hour** soon**.",
+        "active_token": " soon",
+        "activation": 0.178955078125,
+        "review_id": "ogzVAZ3uaBCiviVsxbzNTA",
+        "position": 168
+      },
+      {
+        "context": "... favor and get there** soon**!",
+        "active_token": " soon",
+        "activation": 0.1781005859375,
+        "review_id": "ElXDmCWBiWJV3np8ubntmw",
+        "position": 32
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 12165,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1508,
+        "max": 0.186,
+        "mean": 0.1591
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " soon",
+            "."
+          ],
+          "ngram_str": " soon.",
+          "count": 200,
+          "percent": 40.0
+        },
+        {
+          "ngram": [
+            " soon",
+            "!"
+          ],
+          "ngram_str": " soon!",
+          "count": 142,
+          "percent": 28.4
+        },
+        {
+          "ngram": [
+            " again",
+            " soon"
+          ],
+          "ngram_str": " again soon",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " forward",
+            " to"
+          ],
+          "ngram_str": " forward to",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " here",
+            " soon"
+          ],
+          "ngram_str": " here soon",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " be",
+            " back"
+          ],
+          "ngram_str": " be back",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " returning",
+            " soon"
+          ],
+          "ngram_str": " returning soon",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " will",
+            " be"
+          ],
+          "ngram_str": " will be",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " back",
+            " to"
+          ],
+          "ngram_str": " back to",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " soon",
+            " and"
+          ],
+          "ngram_str": " soon and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " back",
+            " here"
+          ],
+          "ngram_str": " back here",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " there",
+            " soon"
+          ],
+          "ngram_str": " there soon",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " again",
+            " soon",
+            "."
+          ],
+          "ngram_str": " again soon.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " again",
+            " soon",
+            "!"
+          ],
+          "ngram_str": " again soon!",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " returning"
+          ],
+          "ngram_str": " forward to returning",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " here",
+            " again",
+            " soon"
+          ],
+          "ngram_str": " here again soon",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " to",
+            " returning",
+            " soon"
+          ],
+          "ngram_str": " to returning soon",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " soon",
+            ".",
+            " "
+          ],
+          "ngram_str": " soon. ",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " here",
+            " soon",
+            "."
+          ],
+          "ngram_str": " here soon.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " back",
+            " here",
+            " soon"
+          ],
+          "ngram_str": " back here soon",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " returning",
+            " soon",
+            "."
+          ],
+          "ngram_str": " returning soon.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " look",
+            " forward",
+            " to"
+          ],
+          "ngram_str": " look forward to",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " soon",
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": " soon.\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " there",
+            " soon",
+            "!"
+          ],
+          "ngram_str": " there soon!",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " returning",
+            " soon"
+          ],
+          "ngram_str": " forward to returning soon",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " soon",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " soon.\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " look",
+            " forward",
+            " to",
+            " returning"
+          ],
+          "ngram_str": " look forward to returning",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " here",
+            " again",
+            " soon",
+            "."
+          ],
+          "ngram_str": " here again soon.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " to",
+            " returning",
+            " soon",
+            "."
+          ],
+          "ngram_str": " to returning soon.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " soon",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " soon. \u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " back",
+            " here",
+            " soon",
+            "."
+          ],
+          "ngram_str": " back here soon.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " for",
+            " happy",
+            " hour",
+            " soon"
+          ],
+          "ngram_str": " for happy hour soon",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " here",
+            " again",
+            " soon",
+            "!"
+          ],
+          "ngram_str": " here again soon!",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " soon",
+            "!",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " soon!\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "!",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "!\u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 48400000,
+      "corpus_coverage": 0.9361
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 14984,
+        "count": 7886,
+        "percent": 78.86
+      },
+      {
+        "feature_idx": 6631,
+        "count": 7813,
+        "percent": 78.13
+      },
+      {
+        "feature_idx": 14317,
+        "count": 7719,
+        "percent": 77.19
+      },
+      {
+        "feature_idx": 5025,
+        "count": 7494,
+        "percent": 74.94
+      },
+      {
+        "feature_idx": 13504,
+        "count": 7468,
+        "percent": 74.68
+      },
+      {
+        "feature_idx": 14534,
+        "count": 7183,
+        "percent": 71.83
+      },
+      {
+        "feature_idx": 4897,
+        "count": 6826,
+        "percent": 68.26
+      },
+      {
+        "feature_idx": 10943,
+        "count": 5905,
+        "percent": 59.05
+      },
+      {
+        "feature_idx": 15324,
+        "count": 5427,
+        "percent": 54.27
+      },
+      {
+        "feature_idx": 22412,
+        "count": 5353,
+        "percent": 53.53
+      },
+      {
+        "feature_idx": 5432,
+        "count": 5187,
+        "percent": 51.87
+      },
+      {
+        "feature_idx": 2108,
+        "count": 4831,
+        "percent": 48.31
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4516,
+        "percent": 45.16
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4268,
+        "percent": 42.68
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4255,
+        "percent": 42.55
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3887,
+        "percent": 38.87
+      },
+      {
+        "feature_idx": 9092,
+        "count": 3653,
+        "percent": 36.53
+      },
+      {
+        "feature_idx": 12508,
+        "count": 3494,
+        "percent": 34.94
+      },
+      {
+        "feature_idx": 18099,
+        "count": 2991,
+        "percent": 29.91
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2902,
+        "percent": 29.02
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 48400000,
+      "corpus_coverage": 0.9361
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1040,
+        "percent": 10.4
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 944,
+        "percent": 9.44
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 894,
+        "percent": 8.94
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1089,
+        "percent": 10.89
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 6033,
+        "percent": 60.33
+      }
+    ],
+    "mean_position": 0.7357,
+    "std_position": 0.312
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 12,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.046,
+      "p25": 0.08,
+      "p50": 0.1173,
+      "p75": 0.1251,
+      "p90": 0.1309,
+      "p95": 0.1324,
+      "p99": 0.1335
+    },
+    "skewness": -0.8008,
+    "kurtosis": -0.8954,
+    "min": 0.0388,
+    "max": 0.1338,
+    "mean": 0.1003,
+    "std": 0.0329
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 12,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " soon",
+        "count": 8,
+        "mean_activation": 0.0974
+      },
+      {
+        "token": "on",
+        "count": 3,
+        "mean_activation": 0.1285
+      },
+      {
+        "token": " later",
+        "count": 1,
+        "mean_activation": 0.0388
+      }
+    ]
+  }
+}

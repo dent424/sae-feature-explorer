@@ -1,0 +1,876 @@
+{
+  "feature_idx": 3455,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 570,
+    "mean_when_active": 0.05910981830797697,
+    "max_activation": 0.185546875,
+    "std_when_active": 0.038248661841030034,
+    "activation_rate": 0.0057
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 7900000,
+      "corpus_coverage": 0.1528
+    },
+    "top_tokens": [
+      {
+        "token": " big",
+        "count": 3174,
+        "mean_activation": 0.13024794657273944
+      },
+      {
+        "token": " large",
+        "count": 2900,
+        "mean_activation": 0.10988450675175107
+      },
+      {
+        "token": " huge",
+        "count": 2605,
+        "mean_activation": 0.11646457899097289
+      },
+      {
+        "token": " of",
+        "count": 1235,
+        "mean_activation": 0.04359571943398912
+      },
+      {
+        "token": " size",
+        "count": 948,
+        "mean_activation": 0.04406195049044452
+      },
+      {
+        "token": " portions",
+        "count": 718,
+        "mean_activation": 0.0695675926952309
+      },
+      {
+        "token": " food",
+        "count": 628,
+        "mean_activation": 0.02717716071256407
+      },
+      {
+        "token": " and",
+        "count": 621,
+        "mean_activation": 0.04294188126273777
+      },
+      {
+        "token": " portion",
+        "count": 489,
+        "mean_activation": 0.06587122505671651
+      },
+      {
+        "token": " fan",
+        "count": 470,
+        "mean_activation": 0.04423462888027759
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 7900000,
+      "corpus_coverage": 0.1528
+    },
+    "activations": [
+      {
+        "context": "...illy lotsa beef, huge** big** pastrami, sandwiches...",
+        "active_token": " big",
+        "activation": 0.2451171875,
+        "review_id": "ImNtubnEcUZQvImcbw7SGw",
+        "position": 58
+      },
+      {
+        "context": "...tly rice.  He is a big**-**time meat man.  Anyway,...",
+        "active_token": "-",
+        "activation": 0.2381591796875,
+        "review_id": "o2Eejxj49l3Wd_vSm6XdXg",
+        "position": 286
+      },
+      {
+        "context": "...y not turn off the big**-**screen TV and eliminate...",
+        "active_token": "-",
+        "activation": 0.22900390625,
+        "review_id": "XX3zQNixDarms1epdKaxCw",
+        "position": 221
+      },
+      {
+        "context": "...e were old school, big**-**ass tacos. Skewers were...",
+        "active_token": "-",
+        "activation": 0.2265625,
+        "review_id": "WZAIWN_cW5ptosqz8e-a-w",
+        "position": 323
+      },
+      {
+        "context": "...y're just like the big**-**box stores of Home Depo...",
+        "active_token": "-",
+        "activation": 0.22314453125,
+        "review_id": "OTcMtIczDe683r79orgLJA",
+        "position": 40
+      },
+      {
+        "context": "...(it feels like any big**-**ish restaurant), the fo...",
+        "active_token": "-",
+        "activation": 0.2222900390625,
+        "review_id": "ceD5Y3BMwyV6dEKvG3JCkw",
+        "position": 79
+      },
+      {
+        "context": "...n delivered - a great** big** glass of orange juic...",
+        "active_token": " big",
+        "activation": 0.220703125,
+        "review_id": "oFJ58DSXFy3OUlMSvW0wbA",
+        "position": 186
+      },
+      {
+        "context": "...hting off the post-big**-**meal-nap-syndrome.",
+        "active_token": "-",
+        "activation": 0.2164306640625,
+        "review_id": "A5VBE73i-QfQcue82mdtlw",
+        "position": 135
+      },
+      {
+        "context": "...s of sweet tea. Huge** huge** glass.\\n\\nWaiters? The...",
+        "active_token": " huge",
+        "activation": 0.2110595703125,
+        "review_id": "hgqeJEth5oG8X4eHqBivQw",
+        "position": 162
+      },
+      {
+        "context": "...t for burritos. Huge** huge** burritos. Great port...",
+        "active_token": " huge",
+        "activation": 0.208984375,
+        "review_id": "KSHqTmEqt_JaIPkGMvNLcw",
+        "position": 29
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 3455,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 15500000,
+      "corpus_coverage": 0.2998,
+      "activation_range": {
+        "min": 0.1617,
+        "max": 0.2524,
+        "mean": 0.1774
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " big"
+          ],
+          "ngram_str": " a big",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a"
+          ],
+          "ngram_str": " of a",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " big",
+            " of"
+          ],
+          "ngram_str": " big of",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " nice",
+            " big"
+          ],
+          "ngram_str": " nice big",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " was",
+            " a"
+          ],
+          "ngram_str": " was a",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " that",
+            " big"
+          ],
+          "ngram_str": " that big",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " a",
+            " nice"
+          ],
+          "ngram_str": " a nice",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " A",
+            " big"
+          ],
+          "ngram_str": " A big",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " a",
+            " deal"
+          ],
+          "ngram_str": " a deal",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " A"
+          ],
+          "ngram_str": ". A",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " big",
+            "-"
+          ],
+          "ngram_str": " big-",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " big",
+            " of",
+            " a"
+          ],
+          "ngram_str": " big of a",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " that",
+            " big",
+            " of"
+          ],
+          "ngram_str": " that big of",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " a",
+            " nice",
+            " big"
+          ],
+          "ngram_str": " a nice big",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " deal"
+          ],
+          "ngram_str": " of a deal",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " big"
+          ],
+          "ngram_str": " was a big",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " A",
+            " big"
+          ],
+          "ngram_str": ". A big",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " big"
+          ],
+          "ngram_str": " in a big",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " big"
+          ],
+          "ngram_str": " is a big",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " pretty",
+            " big"
+          ],
+          "ngram_str": " a pretty big",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " a"
+          ],
+          "ngram_str": " it was a",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " deal",
+            "."
+          ],
+          "ngram_str": " a deal.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " not",
+            " that",
+            " big"
+          ],
+          "ngram_str": " not that big",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " that",
+            " big",
+            " of",
+            " a"
+          ],
+          "ngram_str": " that big of a",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " big",
+            " of",
+            " a",
+            " deal"
+          ],
+          "ngram_str": " big of a deal",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " not",
+            " that",
+            " big",
+            " of"
+          ],
+          "ngram_str": " not that big of",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " deal",
+            "."
+          ],
+          "ngram_str": " of a deal.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " deal",
+            ","
+          ],
+          "ngram_str": " of a deal,",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "'t",
+            " that",
+            " big",
+            " of"
+          ],
+          "ngram_str": "'t that big of",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " big",
+            " of",
+            " a",
+            " fan"
+          ],
+          "ngram_str": " big of a fan",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " a",
+            " big"
+          ],
+          "ngram_str": " it was a big",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " nice",
+            " big"
+          ],
+          "ngram_str": " was a nice big",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " was",
+            " a"
+          ],
+          "ngram_str": ". It was a",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " fan",
+            " of"
+          ],
+          "ngram_str": " of a fan of",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " pretty",
+            " big"
+          ],
+          "ngram_str": " was a pretty big",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " a",
+            " big",
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " a big burrito",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1600000,
+      "corpus_coverage": 0.0309
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4696,
+        "percent": 46.96
+      },
+      {
+        "feature_idx": 14918,
+        "count": 4011,
+        "percent": 40.11
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3783,
+        "percent": 37.83
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3704,
+        "percent": 37.04
+      },
+      {
+        "feature_idx": 1938,
+        "count": 3516,
+        "percent": 35.16
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3389,
+        "percent": 33.89
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3227,
+        "percent": 32.27
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2723,
+        "percent": 27.23
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2647,
+        "percent": 26.47
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2383,
+        "percent": 23.83
+      },
+      {
+        "feature_idx": 6,
+        "count": 2375,
+        "percent": 23.75
+      },
+      {
+        "feature_idx": 19450,
+        "count": 2304,
+        "percent": 23.04
+      },
+      {
+        "feature_idx": 13872,
+        "count": 2068,
+        "percent": 20.68
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1944,
+        "percent": 19.44
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1878,
+        "percent": 18.78
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1736,
+        "percent": 17.36
+      },
+      {
+        "feature_idx": 24069,
+        "count": 1637,
+        "percent": 16.37
+      },
+      {
+        "feature_idx": 7201,
+        "count": 1522,
+        "percent": 15.22
+      },
+      {
+        "feature_idx": 13566,
+        "count": 1514,
+        "percent": 15.14
+      },
+      {
+        "feature_idx": 23735,
+        "count": 1435,
+        "percent": 14.35
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1600000,
+      "corpus_coverage": 0.0309
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1863,
+        "percent": 18.63
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2132,
+        "percent": 21.32
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2263,
+        "percent": 22.63
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2047,
+        "percent": 20.47
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1695,
+        "percent": 16.95
+      }
+    ],
+    "mean_position": 0.4917,
+    "std_position": 0.2757
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 570,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0211,
+      "p25": 0.0277,
+      "p50": 0.0447,
+      "p75": 0.0888,
+      "p90": 0.1189,
+      "p95": 0.1314,
+      "p99": 0.1498
+    },
+    "skewness": 0.8115,
+    "kurtosis": -0.4909,
+    "min": 0.0109,
+    "max": 0.1855,
+    "mean": 0.0591,
+    "std": 0.0382
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 570,
+      "unique_tokens_found": 283
+    },
+    "tokens": [
+      {
+        "token": " big",
+        "count": 33,
+        "mean_activation": 0.1269
+      },
+      {
+        "token": " large",
+        "count": 32,
+        "mean_activation": 0.111
+      },
+      {
+        "token": " huge",
+        "count": 32,
+        "mean_activation": 0.1189
+      },
+      {
+        "token": " of",
+        "count": 15,
+        "mean_activation": 0.0399
+      },
+      {
+        "token": " size",
+        "count": 14,
+        "mean_activation": 0.0445
+      },
+      {
+        "token": " food",
+        "count": 11,
+        "mean_activation": 0.0303
+      },
+      {
+        "token": " portions",
+        "count": 10,
+        "mean_activation": 0.0738
+      },
+      {
+        "token": ",",
+        "count": 9,
+        "mean_activation": 0.0649
+      },
+      {
+        "token": " group",
+        "count": 7,
+        "mean_activation": 0.075
+      },
+      {
+        "token": " fan",
+        "count": 6,
+        "mean_activation": 0.0472
+      }
+    ]
+  }
+}

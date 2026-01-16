@@ -1,0 +1,856 @@
+{
+  "feature_idx": 10885,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 25,
+    "mean_when_active": 0.0817681884765625,
+    "max_activation": 0.1754150390625,
+    "std_when_active": 0.05452048125686003,
+    "activation_rate": 0.00025
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 14075,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " my",
+        "count": 3540,
+        "mean_activation": 0.06802642520538157
+      },
+      {
+        "token": " the",
+        "count": 2685,
+        "mean_activation": 0.06629760571698237
+      },
+      {
+        "token": " your",
+        "count": 2604,
+        "mean_activation": 0.09658473318073607
+      },
+      {
+        "token": " our",
+        "count": 2172,
+        "mean_activation": 0.07216521345668954
+      },
+      {
+        "token": " a",
+        "count": 1496,
+        "mean_activation": 0.04266271744182403
+      },
+      {
+        "token": " their",
+        "count": 393,
+        "mean_activation": 0.07252283072046954
+      },
+      {
+        "token": " her",
+        "count": 150,
+        "mean_activation": 0.058070475260416664
+      },
+      {
+        "token": " his",
+        "count": 127,
+        "mean_activation": 0.06478172963059793
+      },
+      {
+        "token": " own",
+        "count": 125,
+        "mean_activation": 0.0230313720703125
+      },
+      {
+        "token": " all",
+        "count": 90,
+        "mean_activation": 0.03275502522786458
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 14075,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...!  Oh, you can bring** your** own beer as they ser...",
+        "active_token": " your",
+        "activation": 0.2034912109375,
+        "review_id": "APmRvXPBoBwhx7CilZGLcg",
+        "position": 107
+      },
+      {
+        "context": "...t beat a BYOT, bring** your** own tequila!",
+        "active_token": " your",
+        "activation": 0.2027587890625,
+        "review_id": "ad3yFIBIGMSVJYzhtP_lng",
+        "position": 33
+      },
+      {
+        "context": "...stars! You can bring** your** own tequila and then...",
+        "active_token": " your",
+        "activation": 0.2017822265625,
+        "review_id": "Zy709FFqdbcGaWd8shbQxg",
+        "position": 18
+      },
+      {
+        "context": "... well. You can bring** your** old auntie here for ...",
+        "active_token": " your",
+        "activation": 0.2000732421875,
+        "review_id": "B257sHFshR74bHqE9oebBw",
+        "position": 30
+      },
+      {
+        "context": ".... Plus you can bring** your** dog.",
+        "active_token": " your",
+        "activation": 0.19970703125,
+        "review_id": "nkr9ZJNV9n4H1AdVHyTF7g",
+        "position": 39
+      },
+      {
+        "context": "...ing... you can bring** your** own wine!\\n\\nService w...",
+        "active_token": " your",
+        "activation": 0.19775390625,
+        "review_id": "jJO9N49naQgXtdvB16LOkw",
+        "position": 170
+      },
+      {
+        "context": "...tside, you can bring** your** dog too. If only thi...",
+        "active_token": " your",
+        "activation": 0.1973876953125,
+        "review_id": "dsXBFvR8IcYe2jIKlqZTpA",
+        "position": 251
+      },
+      {
+        "context": "...s. Yes you can bring** your** dogs which I love an...",
+        "active_token": " your",
+        "activation": 0.1966552734375,
+        "review_id": "lPHfWhW1ewPc0eY-QYa_Jw",
+        "position": 305
+      },
+      {
+        "context": "... think you can bring** your** own in maybe. I high...",
+        "active_token": " your",
+        "activation": 0.195556640625,
+        "review_id": "s2eHT0hft1h4HFLspQRIug",
+        "position": 171
+      },
+      {
+        "context": "...always.You can bring** your** kids here even if th...",
+        "active_token": " your",
+        "activation": 0.195068359375,
+        "review_id": "f53SjiRA85oguRXgA4iX7Q",
+        "position": 58
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10885,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1672,
+        "max": 0.2035,
+        "mean": 0.1772
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " bring",
+            " your"
+          ],
+          "ngram_str": " bring your",
+          "count": 289,
+          "percent": 57.8
+        },
+        {
+          "ngram": [
+            " your",
+            " own"
+          ],
+          "ngram_str": " your own",
+          "count": 206,
+          "percent": 41.2
+        },
+        {
+          "ngram": [
+            " can",
+            " bring"
+          ],
+          "ngram_str": " can bring",
+          "count": 127,
+          "percent": 25.4
+        },
+        {
+          "ngram": [
+            " Bring",
+            " your"
+          ],
+          "ngram_str": " Bring your",
+          "count": 117,
+          "percent": 23.4
+        },
+        {
+          "ngram": [
+            " you",
+            " can"
+          ],
+          "ngram_str": " you can",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            " te",
+            "quila"
+          ],
+          "ngram_str": " tequila",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " own",
+            " te"
+          ],
+          "ngram_str": " own te",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Bring"
+          ],
+          "ngram_str": ". Bring",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " to",
+            " bring"
+          ],
+          "ngram_str": " to bring",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " your",
+            " appetite"
+          ],
+          "ngram_str": " your appetite",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " your",
+            " dog"
+          ],
+          "ngram_str": " your dog",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ",",
+            " bring"
+          ],
+          "ngram_str": ", bring",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " bring",
+            " your",
+            " own"
+          ],
+          "ngram_str": " bring your own",
+          "count": 151,
+          "percent": 30.2
+        },
+        {
+          "ngram": [
+            " can",
+            " bring",
+            " your"
+          ],
+          "ngram_str": " can bring your",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " you",
+            " can",
+            " bring"
+          ],
+          "ngram_str": " you can bring",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " your",
+            " own",
+            " te"
+          ],
+          "ngram_str": " your own te",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " own",
+            " te",
+            "quila"
+          ],
+          "ngram_str": " own tequila",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Bring",
+            " your"
+          ],
+          "ngram_str": ". Bring your",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " to",
+            " bring",
+            " your"
+          ],
+          "ngram_str": " to bring your",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " Bring",
+            " your",
+            " own"
+          ],
+          "ngram_str": " Bring your own",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ",",
+            " bring",
+            " your"
+          ],
+          "ngram_str": ", bring your",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " te",
+            "quila",
+            " and"
+          ],
+          "ngram_str": " tequila and",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " bring",
+            " your",
+            " dog"
+          ],
+          "ngram_str": " bring your dog",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Bring",
+            " your"
+          ],
+          "ngram_str": "  Bring your",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " you",
+            " bring",
+            " your"
+          ],
+          "ngram_str": " you bring your",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " Bring",
+            " your",
+            " appetite"
+          ],
+          "ngram_str": " Bring your appetite",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " you",
+            " can",
+            " bring",
+            " your"
+          ],
+          "ngram_str": " you can bring your",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " your",
+            " own",
+            " te",
+            "quila"
+          ],
+          "ngram_str": " your own tequila",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " can",
+            " bring",
+            " your",
+            " own"
+          ],
+          "ngram_str": " can bring your own",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " bring",
+            " your",
+            " own",
+            " te"
+          ],
+          "ngram_str": " bring your own te",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " own",
+            " te",
+            "quila",
+            " and"
+          ],
+          "ngram_str": " own tequila and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " to",
+            " bring",
+            " your",
+            " own"
+          ],
+          "ngram_str": " to bring your own",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Bring",
+            " your"
+          ],
+          "ngram_str": ".  Bring your",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " can",
+            " bring",
+            " your",
+            " dog"
+          ],
+          "ngram_str": " can bring your dog",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Bring",
+            " your",
+            " own"
+          ],
+          "ngram_str": ". Bring your own",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " you",
+            " bring",
+            " your",
+            " own"
+          ],
+          "ngram_str": " you bring your own",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Bring",
+            " your"
+          ],
+          "ngram_str": "\u00c4\u012cBring your",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " You",
+            " can",
+            " bring",
+            " your"
+          ],
+          "ngram_str": " You can bring your",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " own",
+            " te",
+            "quila",
+            ","
+          ],
+          "ngram_str": " own tequila,",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " and",
+            " you",
+            " can",
+            " bring"
+          ],
+          "ngram_str": " and you can bring",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36900000,
+      "corpus_coverage": 0.7137
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3388,
+        "count": 8299,
+        "percent": 82.99
+      },
+      {
+        "feature_idx": 16951,
+        "count": 6487,
+        "percent": 64.87
+      },
+      {
+        "feature_idx": 22128,
+        "count": 6441,
+        "percent": 64.41
+      },
+      {
+        "feature_idx": 17088,
+        "count": 4841,
+        "percent": 48.41
+      },
+      {
+        "feature_idx": 19940,
+        "count": 4518,
+        "percent": 45.18
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4491,
+        "percent": 44.91
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4158,
+        "percent": 41.58
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4112,
+        "percent": 41.12
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3504,
+        "percent": 35.04
+      },
+      {
+        "feature_idx": 10970,
+        "count": 3350,
+        "percent": 33.5
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3324,
+        "percent": 33.24
+      },
+      {
+        "feature_idx": 3513,
+        "count": 3195,
+        "percent": 31.95
+      },
+      {
+        "feature_idx": 12371,
+        "count": 3187,
+        "percent": 31.87
+      },
+      {
+        "feature_idx": 16303,
+        "count": 3176,
+        "percent": 31.76
+      },
+      {
+        "feature_idx": 20624,
+        "count": 3115,
+        "percent": 31.15
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3017,
+        "percent": 30.17
+      },
+      {
+        "feature_idx": 15751,
+        "count": 2926,
+        "percent": 29.26
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2907,
+        "percent": 29.07
+      },
+      {
+        "feature_idx": 20021,
+        "count": 2599,
+        "percent": 25.99
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2483,
+        "percent": 24.83
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36900000,
+      "corpus_coverage": 0.7137
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1688,
+        "percent": 16.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2014,
+        "percent": 20.14
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2144,
+        "percent": 21.44
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2061,
+        "percent": 20.61
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2093,
+        "percent": 20.93
+      }
+    ],
+    "mean_position": 0.518,
+    "std_position": 0.279
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 25,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0222,
+      "p25": 0.0265,
+      "p50": 0.0668,
+      "p75": 0.1464,
+      "p90": 0.1601,
+      "p95": 0.1653,
+      "p99": 0.1732
+    },
+    "skewness": 0.4101,
+    "kurtosis": -1.3684,
+    "min": 0.0188,
+    "max": 0.1754,
+    "mean": 0.0818,
+    "std": 0.0545
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 25,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " my",
+        "count": 10,
+        "mean_activation": 0.0799
+      },
+      {
+        "token": " the",
+        "count": 7,
+        "mean_activation": 0.0638
+      },
+      {
+        "token": " a",
+        "count": 3,
+        "mean_activation": 0.0434
+      },
+      {
+        "token": " your",
+        "count": 2,
+        "mean_activation": 0.1685
+      },
+      {
+        "token": " our",
+        "count": 2,
+        "mean_activation": 0.1563
+      },
+      {
+        "token": " own",
+        "count": 1,
+        "mean_activation": 0.0188
+      }
+    ]
+  }
+}

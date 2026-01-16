@@ -1,0 +1,851 @@
+{
+  "feature_idx": 6185,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 12,
+    "mean_when_active": 0.06741714477539062,
+    "max_activation": 0.130126953125,
+    "std_when_active": 0.027831299340651986,
+    "activation_rate": 0.00012
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8572,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ua",
+        "count": 1186,
+        "mean_activation": 0.18241260908104315
+      },
+      {
+        "token": "as",
+        "count": 1075,
+        "mean_activation": 0.08468360368595566
+      },
+      {
+        "token": "u",
+        "count": 909,
+        "mean_activation": 0.21084849879030873
+      },
+      {
+        "token": "ave",
+        "count": 778,
+        "mean_activation": 0.04916827047392151
+      },
+      {
+        "token": "a",
+        "count": 506,
+        "mean_activation": 0.04217865533037148
+      },
+      {
+        "token": "us",
+        "count": 484,
+        "mean_activation": 0.061714030494374676
+      },
+      {
+        "token": "aves",
+        "count": 290,
+        "mean_activation": 0.027797041268184268
+      },
+      {
+        "token": "o",
+        "count": 272,
+        "mean_activation": 0.0874472225413603
+      },
+      {
+        "token": "i",
+        "count": 213,
+        "mean_activation": 0.045509875660211266
+      },
+      {
+        "token": "ach",
+        "count": 90,
+        "mean_activation": 0.07718471950954861
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8572,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... of their delicious ag**u**as frescas to go.",
+        "active_token": "u",
+        "activation": 0.4296875,
+        "review_id": "csfSeeWtLkAGgvaxaxPOkg",
+        "position": 337
+      },
+      {
+        "context": "...substitute for real ag**u**as frescas, but I still...",
+        "active_token": "u",
+        "activation": 0.42626953125,
+        "review_id": "dMThZGMqXWMifXmtzvbRIA",
+        "position": 104
+      },
+      {
+        "context": "... plentiful, and the ag**u**as frescas de fresas ar...",
+        "active_token": "u",
+        "activation": 0.425048828125,
+        "review_id": "HfgKdriCVuFUvmhFV667cA",
+        "position": 42
+      },
+      {
+        "context": "...e, try one of their ag**u**as frescas.",
+        "active_token": "u",
+        "activation": 0.423828125,
+        "review_id": "BS-BCf672BhG22C8ozi1_g",
+        "position": 38
+      },
+      {
+        "context": "...icious food and and ag**u**as frescas.  It's all g...",
+        "active_token": "u",
+        "activation": 0.423583984375,
+        "review_id": "CtEH601StZNjKZr_kDP2Gg",
+        "position": 10
+      },
+      {
+        "context": "...ke their many other ag**u**as frescas that they of...",
+        "active_token": "u",
+        "activation": 0.422119140625,
+        "review_id": "MgprTCM3spqFscvk2pmYDg",
+        "position": 250
+      },
+      {
+        "context": "... enchiladas and the ag**u**as frescas.  It's refre...",
+        "active_token": "u",
+        "activation": 0.421875,
+        "review_id": "uki8GoZDV5R2ZlnnfBNLnA",
+        "position": 68
+      },
+      {
+        "context": "...e lots of different ag**u**as frescas and flavors ...",
+        "active_token": "u",
+        "activation": 0.421875,
+        "review_id": "BpI_2tKqwoRAahYTzXrAuw",
+        "position": 164
+      },
+      {
+        "context": "...shrimp cocktail and ag**u**as frescas are INCREDIB...",
+        "active_token": "u",
+        "activation": 0.421630859375,
+        "review_id": "A9xI6dpaIR9wOWnmUz9OQg",
+        "position": 5
+      },
+      {
+        "context": "...as their fresh made ag**u**as frescas. Not to ment...",
+        "active_token": "u",
+        "activation": 0.4208984375,
+        "review_id": "CZVd1dfue3ldVA1ezezC9Q",
+        "position": 260
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6185,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2178,
+        "max": 0.4297,
+        "mean": 0.36
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " ag",
+            "u"
+          ],
+          "ngram_str": " agu",
+          "count": 392,
+          "percent": 78.4
+        },
+        {
+          "ngram": [
+            "u",
+            "as"
+          ],
+          "ngram_str": "uas",
+          "count": 278,
+          "percent": 55.6
+        },
+        {
+          "ngram": [
+            " fres",
+            "cas"
+          ],
+          "ngram_str": " frescas",
+          "count": 234,
+          "percent": 46.8
+        },
+        {
+          "ngram": [
+            "as",
+            " fres"
+          ],
+          "ngram_str": "as fres",
+          "count": 228,
+          "percent": 45.6
+        },
+        {
+          "ngram": [
+            " the",
+            " ag"
+          ],
+          "ngram_str": " the ag",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " ag",
+            "ua"
+          ],
+          "ngram_str": " agua",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "u",
+            "ach"
+          ],
+          "ngram_str": "uach",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "ua",
+            " fres"
+          ],
+          "ngram_str": "ua fres",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " fres",
+            "ca"
+          ],
+          "ngram_str": " fresca",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " and",
+            " ag"
+          ],
+          "ngram_str": " and ag",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "ac",
+            "ate"
+          ],
+          "ngram_str": "acate",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "u",
+            "ac"
+          ],
+          "ngram_str": "uac",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "ach",
+            "ile"
+          ],
+          "ngram_str": "achile",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "cas",
+            "."
+          ],
+          "ngram_str": "cas.",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " ag",
+            "u",
+            "as"
+          ],
+          "ngram_str": " aguas",
+          "count": 278,
+          "percent": 55.6
+        },
+        {
+          "ngram": [
+            "u",
+            "as",
+            " fres"
+          ],
+          "ngram_str": "uas fres",
+          "count": 228,
+          "percent": 45.6
+        },
+        {
+          "ngram": [
+            "as",
+            " fres",
+            "cas"
+          ],
+          "ngram_str": "as frescas",
+          "count": 215,
+          "percent": 43.0
+        },
+        {
+          "ngram": [
+            " ag",
+            "u",
+            "ach"
+          ],
+          "ngram_str": " aguach",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " the",
+            " ag",
+            "u"
+          ],
+          "ngram_str": " the agu",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " ag",
+            "ua",
+            " fres"
+          ],
+          "ngram_str": " agua fres",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " ag",
+            "u",
+            "ac"
+          ],
+          "ngram_str": " aguac",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "u",
+            "ac",
+            "ate"
+          ],
+          "ngram_str": "uacate",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "u",
+            "ach",
+            "ile"
+          ],
+          "ngram_str": "uachile",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " and",
+            " ag",
+            "u"
+          ],
+          "ngram_str": " and agu",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " fres",
+            "cas",
+            "."
+          ],
+          "ngram_str": " frescas.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " fres",
+            "cas",
+            " are"
+          ],
+          "ngram_str": " frescas are",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "ua",
+            " fres",
+            "ca"
+          ],
+          "ngram_str": "ua fresca",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " fres",
+            "cas",
+            ","
+          ],
+          "ngram_str": " frescas,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ",",
+            " ag",
+            "u"
+          ],
+          "ngram_str": ", agu",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " ag",
+            "u",
+            "as",
+            " fres"
+          ],
+          "ngram_str": " aguas fres",
+          "count": 228,
+          "percent": 45.6
+        },
+        {
+          "ngram": [
+            "u",
+            "as",
+            " fres",
+            "cas"
+          ],
+          "ngram_str": "uas frescas",
+          "count": 215,
+          "percent": 43.0
+        },
+        {
+          "ngram": [
+            " ag",
+            "u",
+            "ac",
+            "ate"
+          ],
+          "ngram_str": " aguacate",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " ag",
+            "u",
+            "ach",
+            "ile"
+          ],
+          "ngram_str": " aguachile",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " the",
+            " ag",
+            "u",
+            "as"
+          ],
+          "ngram_str": " the aguas",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " ag",
+            "ua",
+            " fres",
+            "ca"
+          ],
+          "ngram_str": " agua fresca",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "as",
+            " fres",
+            "cas",
+            "."
+          ],
+          "ngram_str": "as frescas.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "as",
+            " fres",
+            "cas",
+            " are"
+          ],
+          "ngram_str": "as frescas are",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " and",
+            " ag",
+            "u",
+            "as"
+          ],
+          "ngram_str": " and aguas",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "as",
+            " fres",
+            "cas",
+            ","
+          ],
+          "ngram_str": "as frescas,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "as",
+            " fres",
+            "cas",
+            " and"
+          ],
+          "ngram_str": "as frescas and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " The",
+            " ag",
+            "u",
+            "as"
+          ],
+          "ngram_str": " The aguas",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " ag",
+            "ua",
+            " fres",
+            "cas"
+          ],
+          "ngram_str": " agua frescas",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " their",
+            " ag",
+            "u",
+            "as"
+          ],
+          "ngram_str": " their aguas",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " of",
+            " ag",
+            "u",
+            "as"
+          ],
+          "ngram_str": " of aguas",
+          "count": 17,
+          "percent": 3.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8572,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 3936,
+        "percent": 45.92
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3783,
+        "percent": 44.13
+      },
+      {
+        "feature_idx": 1933,
+        "count": 3729,
+        "percent": 43.5
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3452,
+        "percent": 40.27
+      },
+      {
+        "feature_idx": 21958,
+        "count": 3416,
+        "percent": 39.85
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3154,
+        "percent": 36.79
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2819,
+        "percent": 32.89
+      },
+      {
+        "feature_idx": 912,
+        "count": 2687,
+        "percent": 31.35
+      },
+      {
+        "feature_idx": 21600,
+        "count": 2687,
+        "percent": 31.35
+      },
+      {
+        "feature_idx": 19926,
+        "count": 2476,
+        "percent": 28.88
+      },
+      {
+        "feature_idx": 9034,
+        "count": 2241,
+        "percent": 26.14
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2233,
+        "percent": 26.05
+      },
+      {
+        "feature_idx": 2761,
+        "count": 2196,
+        "percent": 25.62
+      },
+      {
+        "feature_idx": 20913,
+        "count": 2174,
+        "percent": 25.36
+      },
+      {
+        "feature_idx": 2467,
+        "count": 2040,
+        "percent": 23.8
+      },
+      {
+        "feature_idx": 10630,
+        "count": 2002,
+        "percent": 23.36
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1898,
+        "percent": 22.14
+      },
+      {
+        "feature_idx": 23279,
+        "count": 1847,
+        "percent": 21.55
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1846,
+        "percent": 21.54
+      },
+      {
+        "feature_idx": 9231,
+        "count": 1772,
+        "percent": 20.67
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8572,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1653,
+        "percent": 19.28
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1651,
+        "percent": 19.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1905,
+        "percent": 22.22
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1775,
+        "percent": 20.71
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1588,
+        "percent": 18.53
+      }
+    ],
+    "mean_position": 0.4993,
+    "std_position": 0.2821
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 12,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0415,
+      "p25": 0.0496,
+      "p50": 0.0616,
+      "p75": 0.0809,
+      "p90": 0.0979,
+      "p95": 0.1129,
+      "p99": 0.1267
+    },
+    "skewness": 0.6505,
+    "kurtosis": -0.0449,
+    "min": 0.0235,
+    "max": 0.1301,
+    "mean": 0.0674,
+    "std": 0.0278
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 12,
+      "unique_tokens_found": 5
+    },
+    "tokens": [
+      {
+        "token": "ave",
+        "count": 5,
+        "mean_activation": 0.0684
+      },
+      {
+        "token": "as",
+        "count": 3,
+        "mean_activation": 0.1018
+      },
+      {
+        "token": "a",
+        "count": 2,
+        "mean_activation": 0.0323
+      },
+      {
+        "token": "o",
+        "count": 1,
+        "mean_activation": 0.0455
+      },
+      {
+        "token": "e",
+        "count": 1,
+        "mean_activation": 0.0518
+      }
+    ]
+  }
+}

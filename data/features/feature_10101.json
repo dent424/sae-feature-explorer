@@ -1,0 +1,876 @@
+{
+  "feature_idx": 10101,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 116,
+    "mean_when_active": 0.04035436696019666,
+    "max_activation": 0.11663818359375,
+    "std_when_active": 0.0186681363159411,
+    "activation_rate": 0.00116
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 37300000,
+      "corpus_coverage": 0.7214
+    },
+    "top_tokens": [
+      {
+        "token": "ita",
+        "count": 2459,
+        "mean_activation": 0.06703539425980613
+      },
+      {
+        "token": "o",
+        "count": 1766,
+        "mean_activation": 0.05027757603611843
+      },
+      {
+        "token": "ada",
+        "count": 1581,
+        "mean_activation": 0.041520897456922536
+      },
+      {
+        "token": "adas",
+        "count": 1354,
+        "mean_activation": 0.03857886738403861
+      },
+      {
+        "token": "itas",
+        "count": 841,
+        "mean_activation": 0.034808228047084014
+      },
+      {
+        "token": "a",
+        "count": 809,
+        "mean_activation": 0.04178628815413995
+      },
+      {
+        "token": "ito",
+        "count": 772,
+        "mean_activation": 0.048946716624838085
+      },
+      {
+        "token": "ipe",
+        "count": 754,
+        "mean_activation": 0.11456622622057361
+      },
+      {
+        "token": "os",
+        "count": 679,
+        "mean_activation": 0.042206765625719116
+      },
+      {
+        "token": " Miguel",
+        "count": 648,
+        "mean_activation": 0.04672978248125241
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 37300000,
+      "corpus_coverage": 0.7214
+    },
+    "activations": [
+      {
+        "context": "...lk to the manager Edu**ardo** who was also great! ...",
+        "active_token": "ardo",
+        "activation": 0.2464599609375,
+        "review_id": "Hbh0-5r35KV2uoiVNnpi0A",
+        "position": 70
+      },
+      {
+        "context": "...ite being packed, Edu**ardo** (manager), upon hear...",
+        "active_token": "ardo",
+        "activation": 0.228515625,
+        "review_id": "LSpjYQc4WLz_yJtX2y8M9Q",
+        "position": 66
+      },
+      {
+        "context": "...sit down include Ale**jandro**'s, Little Poca Cosa...",
+        "active_token": "jandro",
+        "activation": 0.227783203125,
+        "review_id": "q0qQZj5D1tyA9G5UkccG0A",
+        "position": 197
+      },
+      {
+        "context": "...irst clue that Guiller**mo**'s was sub-par. We wer...",
+        "active_token": "mo",
+        "activation": 0.2269287109375,
+        "review_id": "x2fLctD62m6F5f2sIFnz2A",
+        "position": 16
+      },
+      {
+        "context": "...us. \\nOur server, Juan**ita**, on the other hand wa...",
+        "active_token": "ita",
+        "activation": 0.2254638671875,
+        "review_id": "qpiM1MxHo4o0ZVqe-idzSg",
+        "position": 130
+      },
+      {
+        "context": "...ther bagel head, Juan**ita**, tells everyone in th...",
+        "active_token": "ita",
+        "activation": 0.2254638671875,
+        "review_id": "zWs6JymsytpyOLsEcsPVng",
+        "position": 130
+      },
+      {
+        "context": "... descriptors.\\n\\nGuiller**mo**'s Double L: open sinc...",
+        "active_token": "mo",
+        "activation": 0.221435546875,
+        "review_id": "xEK689Ebh_CjGnmoJ2zjzA",
+        "position": 27
+      },
+      {
+        "context": "... Detroit and only Arm**ando** were good..you know?...",
+        "active_token": "ando",
+        "activation": 0.2174072265625,
+        "review_id": "ErB8KN9l-OEbc6qtkvLBPA",
+        "position": 20
+      },
+      {
+        "context": "...vorite server is Juan**ita**, she's so kind and re...",
+        "active_token": "ita",
+        "activation": 0.21728515625,
+        "review_id": "0K2hdTCkORjSjUesh909ww",
+        "position": 67
+      },
+      {
+        "context": "...lla Bellini, and Mass**imo**'s for CONSISTENTLY EX...",
+        "active_token": "imo",
+        "activation": 0.21728515625,
+        "review_id": "law4B2zJTL6DgSkVXIaBlg",
+        "position": 14
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10101,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1534,
+        "max": 0.2465,
+        "mean": 0.1716
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "ita",
+            "'s"
+          ],
+          "ngram_str": "ita's",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            "'s",
+            " is"
+          ],
+          "ngram_str": "'s is",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "ipe",
+            "'s"
+          ],
+          "ngram_str": "ipe's",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "al",
+            "ita"
+          ],
+          "ngram_str": "alita",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " Fel",
+            "ipe"
+          ],
+          "ngram_str": " Felipe",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "iller",
+            "mo"
+          ],
+          "ngram_str": "illermo",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " Gu",
+            "iller"
+          ],
+          "ngram_str": " Guiller",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "mo",
+            "'s"
+          ],
+          "ngram_str": "mo's",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " Juan",
+            "ita"
+          ],
+          "ngram_str": " Juanita",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " Arm",
+            "ando"
+          ],
+          "ngram_str": " Armando",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Edu",
+            "ardo"
+          ],
+          "ngram_str": " Eduardo",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "al",
+            "ita",
+            "'s"
+          ],
+          "ngram_str": "alita's",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " Fel",
+            "ipe",
+            "'s"
+          ],
+          "ngram_str": " Felipe's",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " Gu",
+            "iller",
+            "mo"
+          ],
+          "ngram_str": " Guillermo",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "iller",
+            "mo",
+            "'s"
+          ],
+          "ngram_str": "illermo's",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Ros",
+            "al",
+            "ita"
+          ],
+          "ngram_str": " Rosalita",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "Ros",
+            "al",
+            "ita"
+          ],
+          "ngram_str": "Rosalita",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Juan",
+            "ita",
+            "'s"
+          ],
+          "ngram_str": " Juanita's",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Ros",
+            "ario",
+            "'s"
+          ],
+          "ngram_str": " Rosario's",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "Leon",
+            "ardo",
+            "'s"
+          ],
+          "ngram_str": "Leonardo's",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "ita",
+            "'s",
+            " is"
+          ],
+          "ngram_str": "ita's is",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " is",
+            " a"
+          ],
+          "ngram_str": "'s is a",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " Gu",
+            "iller",
+            "mo",
+            "'s"
+          ],
+          "ngram_str": " Guillermo's",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Ros",
+            "al",
+            "ita",
+            "'s"
+          ],
+          "ngram_str": " Rosalita's",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "Ros",
+            "al",
+            "ita",
+            "'s"
+          ],
+          "ngram_str": "Rosalita's",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "al",
+            "ita",
+            "'s",
+            " Cant"
+          ],
+          "ngram_str": "alita's Cant",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "ita",
+            "'s",
+            " Cant",
+            "ina"
+          ],
+          "ngram_str": "ita's Cantina",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "Leon",
+            "ardo",
+            "'s",
+            " is"
+          ],
+          "ngram_str": "Leonardo's is",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "al",
+            "ita",
+            "'s",
+            " is"
+          ],
+          "ngram_str": "alita's is",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "Ant",
+            "on",
+            "io",
+            "'s"
+          ],
+          "ngram_str": "Antonio's",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " Fel",
+            "ipe",
+            "'s",
+            " is"
+          ],
+          "ngram_str": " Felipe's is",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " of",
+            " Ros",
+            "al",
+            "ita"
+          ],
+          "ngram_str": " of Rosalita",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Fel"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cFel",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Fel",
+            "ipe"
+          ],
+          "ngram_str": "\u00c4\u012cFelipe",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7800000,
+      "corpus_coverage": 0.1509
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 8178,
+        "percent": 81.78
+      },
+      {
+        "feature_idx": 7520,
+        "count": 4662,
+        "percent": 46.62
+      },
+      {
+        "feature_idx": 6335,
+        "count": 4566,
+        "percent": 45.66
+      },
+      {
+        "feature_idx": 912,
+        "count": 4142,
+        "percent": 41.42
+      },
+      {
+        "feature_idx": 23319,
+        "count": 3877,
+        "percent": 38.77
+      },
+      {
+        "feature_idx": 17839,
+        "count": 3727,
+        "percent": 37.27
+      },
+      {
+        "feature_idx": 16420,
+        "count": 3625,
+        "percent": 36.25
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3606,
+        "percent": 36.06
+      },
+      {
+        "feature_idx": 22322,
+        "count": 3467,
+        "percent": 34.67
+      },
+      {
+        "feature_idx": 21219,
+        "count": 3407,
+        "percent": 34.07
+      },
+      {
+        "feature_idx": 20913,
+        "count": 3353,
+        "percent": 33.53
+      },
+      {
+        "feature_idx": 8255,
+        "count": 3267,
+        "percent": 32.67
+      },
+      {
+        "feature_idx": 6053,
+        "count": 3255,
+        "percent": 32.55
+      },
+      {
+        "feature_idx": 3516,
+        "count": 3170,
+        "percent": 31.7
+      },
+      {
+        "feature_idx": 19420,
+        "count": 2665,
+        "percent": 26.65
+      },
+      {
+        "feature_idx": 3953,
+        "count": 2308,
+        "percent": 23.08
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2252,
+        "percent": 22.52
+      },
+      {
+        "feature_idx": 3089,
+        "count": 2239,
+        "percent": 22.39
+      },
+      {
+        "feature_idx": 5665,
+        "count": 2101,
+        "percent": 21.01
+      },
+      {
+        "feature_idx": 7991,
+        "count": 2027,
+        "percent": 20.27
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7800000,
+      "corpus_coverage": 0.1509
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3704,
+        "percent": 37.04
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1658,
+        "percent": 16.58
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1538,
+        "percent": 15.38
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1458,
+        "percent": 14.58
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1642,
+        "percent": 16.42
+      }
+    ],
+    "mean_position": 0.4004,
+    "std_position": 0.3216
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 116,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0201,
+      "p25": 0.0269,
+      "p50": 0.0365,
+      "p75": 0.049,
+      "p90": 0.0652,
+      "p95": 0.0731,
+      "p99": 0.0955
+    },
+    "skewness": 1.178,
+    "kurtosis": 1.8376,
+    "min": 0.0145,
+    "max": 0.1166,
+    "mean": 0.0404,
+    "std": 0.0187
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 116,
+      "unique_tokens_found": 76
+    },
+    "tokens": [
+      {
+        "token": "rina",
+        "count": 6,
+        "mean_activation": 0.0734
+      },
+      {
+        "token": "ito",
+        "count": 5,
+        "mean_activation": 0.05
+      },
+      {
+        "token": "adas",
+        "count": 4,
+        "mean_activation": 0.0227
+      },
+      {
+        "token": "itas",
+        "count": 4,
+        "mean_activation": 0.0344
+      },
+      {
+        "token": "ave",
+        "count": 4,
+        "mean_activation": 0.0263
+      },
+      {
+        "token": "icia",
+        "count": 4,
+        "mean_activation": 0.0592
+      },
+      {
+        "token": "ino",
+        "count": 3,
+        "mean_activation": 0.0272
+      },
+      {
+        "token": "as",
+        "count": 3,
+        "mean_activation": 0.0313
+      },
+      {
+        "token": "ita",
+        "count": 3,
+        "mean_activation": 0.0492
+      },
+      {
+        "token": "ina",
+        "count": 3,
+        "mean_activation": 0.0406
+      }
+    ]
+  }
+}

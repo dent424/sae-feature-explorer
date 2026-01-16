@@ -1,0 +1,861 @@
+{
+  "feature_idx": 2026,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 8,
+    "mean_when_active": 0.07354545593261719,
+    "max_activation": 0.2496337890625,
+    "std_when_active": 0.07285145503478363,
+    "activation_rate": 8e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 8272,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " greeted",
+        "count": 2158,
+        "mean_activation": 0.10570412283147011
+      },
+      {
+        "token": " greet",
+        "count": 1136,
+        "mean_activation": 0.23880660366004622
+      },
+      {
+        "token": " greeting",
+        "count": 736,
+        "mean_activation": 0.1885214266569718
+      },
+      {
+        "token": " hello",
+        "count": 631,
+        "mean_activation": 0.10623362400641344
+      },
+      {
+        "token": " welcoming",
+        "count": 430,
+        "mean_activation": 0.03349456787109375
+      },
+      {
+        "token": " to",
+        "count": 287,
+        "mean_activation": 0.03898636555422474
+      },
+      {
+        "token": " greets",
+        "count": 220,
+        "mean_activation": 0.17824290882457386
+      },
+      {
+        "token": " welcome",
+        "count": 206,
+        "mean_activation": 0.0458419207230355
+      },
+      {
+        "token": "reet",
+        "count": 199,
+        "mean_activation": 0.09765440974403267
+      },
+      {
+        "token": " welcomed",
+        "count": 195,
+        "mean_activation": 0.04784193772536058
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 8272,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...t he was only one to** greet** us and wish us a go...",
+        "active_token": " greet",
+        "activation": 0.299072265625,
+        "review_id": "j_2LjvnO_XpbSNjrJCJBWA",
+        "position": 117
+      },
+      {
+        "context": "...e person looks up to** greet** us or ask for our o...",
+        "active_token": " greet",
+        "activation": 0.2939453125,
+        "review_id": "Rwp01x1szPSknXTDkxOpBw",
+        "position": 27
+      },
+      {
+        "context": "... doesn't know how to** greet** customers, and even...",
+        "active_token": " greet",
+        "activation": 0.288818359375,
+        "review_id": "I5K0xRO7lLBMA-Vy3tdvHA",
+        "position": 53
+      },
+      {
+        "context": "...e did either of them** greet** us.  Our server sat...",
+        "active_token": " greet",
+        "activation": 0.2880859375,
+        "review_id": "NNxneBdXMBkXZsBMwl866g",
+        "position": 45
+      },
+      {
+        "context": "... barely looked up to** greet** me when I arrived a...",
+        "active_token": " greet",
+        "activation": 0.28759765625,
+        "review_id": "VmnHSk2GcSMw3PczRGBFZw",
+        "position": 87
+      },
+      {
+        "context": "...from their phones to** greet** us. If you have no ...",
+        "active_token": " greet",
+        "activation": 0.287109375,
+        "review_id": "Syr4BVgAsrt9U_B4ukytEA",
+        "position": 56
+      },
+      {
+        "context": "... was no one there to** greet** us. Eventually we w...",
+        "active_token": " greet",
+        "activation": 0.283203125,
+        "review_id": "H46uFR9F0gfrmdICM7dquw",
+        "position": 46
+      },
+      {
+        "context": "...an one employee will** greet** you as you sit. Ext...",
+        "active_token": " greet",
+        "activation": 0.283203125,
+        "review_id": "F29--WmcuEeaFzgnYGEnvw",
+        "position": 218
+      },
+      {
+        "context": "...hey didn't bother to** greet** us or ask us if we ...",
+        "active_token": " greet",
+        "activation": 0.282958984375,
+        "review_id": "_Kj90GlC8sRiMVb17p_qpg",
+        "position": 46
+      },
+      {
+        "context": "...ak to me she doesn't** greet** me very poor custom...",
+        "active_token": " greet",
+        "activation": 0.282958984375,
+        "review_id": "Bp4IJJGGsyZBdbzE-v_64g",
+        "position": 58
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 2026,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2474,
+        "max": 0.2991,
+        "mean": 0.2598
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " to",
+            " greet"
+          ],
+          "ngram_str": " to greet",
+          "count": 267,
+          "percent": 53.4
+        },
+        {
+          "ngram": [
+            " greet",
+            " us"
+          ],
+          "ngram_str": " greet us",
+          "count": 207,
+          "percent": 41.4
+        },
+        {
+          "ngram": [
+            " greet",
+            " you"
+          ],
+          "ngram_str": " greet you",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " us",
+            "."
+          ],
+          "ngram_str": " us.",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " greet",
+            " me"
+          ],
+          "ngram_str": " greet me",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t"
+          ],
+          "ngram_str": " didn't",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " us",
+            " and"
+          ],
+          "ngram_str": " us and",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " greet"
+          ],
+          "ngram_str": "'t greet",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " there",
+            " to"
+          ],
+          "ngram_str": " there to",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " even",
+            " greet"
+          ],
+          "ngram_str": " even greet",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " no",
+            " one"
+          ],
+          "ngram_str": " no one",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " door"
+          ],
+          "ngram_str": " the door",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " us",
+            ","
+          ],
+          "ngram_str": " us,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " us"
+          ],
+          "ngram_str": " to greet us",
+          "count": 135,
+          "percent": 27.0
+        },
+        {
+          "ngram": [
+            " greet",
+            " us",
+            "."
+          ],
+          "ngram_str": " greet us.",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " greet",
+            " us",
+            " and"
+          ],
+          "ngram_str": " greet us and",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " me"
+          ],
+          "ngram_str": " to greet me",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " you"
+          ],
+          "ngram_str": " to greet you",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " there",
+            " to",
+            " greet"
+          ],
+          "ngram_str": " there to greet",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " greet"
+          ],
+          "ngram_str": " didn't greet",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " greet",
+            " us",
+            ","
+          ],
+          "ngram_str": " greet us,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " even",
+            " greet",
+            " us"
+          ],
+          "ngram_str": " even greet us",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " one",
+            " to",
+            " greet"
+          ],
+          "ngram_str": " one to greet",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " greet",
+            " us",
+            " or"
+          ],
+          "ngram_str": " greet us or",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " did",
+            " not",
+            " greet"
+          ],
+          "ngram_str": " did not greet",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " door"
+          ],
+          "ngram_str": " at the door",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " out",
+            " to",
+            " greet"
+          ],
+          "ngram_str": " out to greet",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " greet",
+            " you",
+            "."
+          ],
+          "ngram_str": " greet you.",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " us",
+            "."
+          ],
+          "ngram_str": " to greet us.",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " us",
+            " and"
+          ],
+          "ngram_str": " to greet us and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " us",
+            ","
+          ],
+          "ngram_str": " to greet us,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " greet",
+            " us"
+          ],
+          "ngram_str": " didn't greet us",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " there",
+            " to",
+            " greet",
+            " us"
+          ],
+          "ngram_str": " there to greet us",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " came",
+            " out",
+            " to",
+            " greet"
+          ],
+          "ngram_str": " came out to greet",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " no",
+            " one",
+            " to",
+            " greet"
+          ],
+          "ngram_str": " no one to greet",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " us",
+            " or"
+          ],
+          "ngram_str": " to greet us or",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " was",
+            " there",
+            " to",
+            " greet"
+          ],
+          "ngram_str": " was there to greet",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " even",
+            " greet",
+            " us",
+            "."
+          ],
+          "ngram_str": " even greet us.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " one",
+            " to",
+            " greet",
+            " us"
+          ],
+          "ngram_str": " one to greet us",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " greet",
+            " us",
+            ".",
+            " "
+          ],
+          "ngram_str": " greet us. ",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " you",
+            "."
+          ],
+          "ngram_str": " to greet you.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " didn",
+            "'t",
+            " even",
+            " greet"
+          ],
+          "ngram_str": " didn't even greet",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " to",
+            " greet",
+            " me",
+            " and"
+          ],
+          "ngram_str": " to greet me and",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8272,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3844,
+        "count": 5464,
+        "percent": 66.05
+      },
+      {
+        "feature_idx": 7361,
+        "count": 5344,
+        "percent": 64.6
+      },
+      {
+        "feature_idx": 15530,
+        "count": 4970,
+        "percent": 60.08
+      },
+      {
+        "feature_idx": 9217,
+        "count": 3883,
+        "percent": 46.94
+      },
+      {
+        "feature_idx": 5359,
+        "count": 3842,
+        "percent": 46.45
+      },
+      {
+        "feature_idx": 16132,
+        "count": 3741,
+        "percent": 45.22
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3724,
+        "percent": 45.02
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3432,
+        "percent": 41.49
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2964,
+        "percent": 35.83
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2638,
+        "percent": 31.89
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2486,
+        "percent": 30.05
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2459,
+        "percent": 29.73
+      },
+      {
+        "feature_idx": 20153,
+        "count": 2417,
+        "percent": 29.22
+      },
+      {
+        "feature_idx": 11738,
+        "count": 2287,
+        "percent": 27.65
+      },
+      {
+        "feature_idx": 9470,
+        "count": 2136,
+        "percent": 25.82
+      },
+      {
+        "feature_idx": 14700,
+        "count": 2131,
+        "percent": 25.76
+      },
+      {
+        "feature_idx": 4197,
+        "count": 2124,
+        "percent": 25.68
+      },
+      {
+        "feature_idx": 22917,
+        "count": 1985,
+        "percent": 24.0
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1935,
+        "percent": 23.39
+      },
+      {
+        "feature_idx": 769,
+        "count": 1917,
+        "percent": 23.17
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 8272,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1961,
+        "percent": 23.71
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2401,
+        "percent": 29.03
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1541,
+        "percent": 18.63
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1250,
+        "percent": 15.11
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1119,
+        "percent": 13.53
+      }
+    ],
+    "mean_position": 0.4319,
+    "std_position": 0.2682
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 8,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0234,
+      "p25": 0.0307,
+      "p50": 0.0432,
+      "p75": 0.072,
+      "p90": 0.159,
+      "p95": 0.2043,
+      "p99": 0.2406
+    },
+    "skewness": 1.6631,
+    "kurtosis": 1.375,
+    "min": 0.0182,
+    "max": 0.2496,
+    "mean": 0.0735,
+    "std": 0.0729
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 8,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " greeted",
+        "count": 2,
+        "mean_activation": 0.0347
+      },
+      {
+        "token": " hi",
+        "count": 1,
+        "mean_activation": 0.0257
+      },
+      {
+        "token": " friendly",
+        "count": 1,
+        "mean_activation": 0.0182
+      },
+      {
+        "token": " toast",
+        "count": 1,
+        "mean_activation": 0.0492
+      },
+      {
+        "token": " welcomed",
+        "count": 1,
+        "mean_activation": 0.056
+      },
+      {
+        "token": " greeting",
+        "count": 1,
+        "mean_activation": 0.1202
+      },
+      {
+        "token": " greet",
+        "count": 1,
+        "mean_activation": 0.2496
+      }
+    ]
+  }
+}

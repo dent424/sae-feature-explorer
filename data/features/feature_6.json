@@ -1,0 +1,876 @@
+{
+  "feature_idx": 6,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 146,
+    "mean_when_active": 0.13176967673105736,
+    "max_activation": 0.2861328125,
+    "std_when_active": 0.06609635645575453,
+    "activation_rate": 0.00146
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 27700000,
+      "corpus_coverage": 0.5358
+    },
+    "top_tokens": [
+      {
+        "token": " big",
+        "count": 11295,
+        "mean_activation": 0.2134949432953948
+      },
+      {
+        "token": " large",
+        "count": 10290,
+        "mean_activation": 0.1082182295700088
+      },
+      {
+        "token": " huge",
+        "count": 9205,
+        "mean_activation": 0.16177266715079272
+      },
+      {
+        "token": " small",
+        "count": 1900,
+        "mean_activation": 0.025181358738949423
+      },
+      {
+        "token": " bigger",
+        "count": 1330,
+        "mean_activation": 0.11517174512820136
+      },
+      {
+        "token": " larger",
+        "count": 1215,
+        "mean_activation": 0.06512961054044496
+      },
+      {
+        "token": " HUGE",
+        "count": 1139,
+        "mean_activation": 0.13811974529638116
+      },
+      {
+        "token": " wide",
+        "count": 963,
+        "mean_activation": 0.0841856547481422
+      },
+      {
+        "token": " biggest",
+        "count": 944,
+        "mean_activation": 0.14813972731768074
+      },
+      {
+        "token": " Big",
+        "count": 939,
+        "mean_activation": 0.1430666012504992
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 27700000,
+      "corpus_coverage": 0.5358
+    },
+    "activations": [
+      {
+        "context": "...d and produce will be** big** fans as well. \\n\\nNice...",
+        "active_token": " big",
+        "activation": 0.319091796875,
+        "review_id": "LoBQLe4f5_CaZa1r3zB1xA",
+        "position": 120
+      },
+      {
+        "context": "...staurants and being a** big** Mex fan (frequent TX...",
+        "active_token": " big",
+        "activation": 0.319091796875,
+        "review_id": "9PdXP01qLzROufcWW1gK9A",
+        "position": 31
+      },
+      {
+        "context": "...liana and Herson were** big** players in building ...",
+        "active_token": " big",
+        "activation": 0.314208984375,
+        "review_id": "wLfiylolC-dwOeLD4KQ54A",
+        "position": 539
+      },
+      {
+        "context": "... delicious. We were a** big** fan of the salsa. La...",
+        "active_token": " big",
+        "activation": 0.312255859375,
+        "review_id": "JmET4JEVvWlPpCwm_6ovDg",
+        "position": 26
+      },
+      {
+        "context": "...fied.  Wife and I are** big** fans of potato panca...",
+        "active_token": " big",
+        "activation": 0.310302734375,
+        "review_id": "IVXWW1Rc269DDcH0C5upQQ",
+        "position": 48
+      },
+      {
+        "context": "...ch my boyfriend was a** big** fan of. He ordered t...",
+        "active_token": " big",
+        "activation": 0.31005859375,
+        "review_id": "q5lIJeIE2Re7UV1exdxLvw",
+        "position": 75
+      },
+      {
+        "context": "...s been awesome. We're** big** fans!",
+        "active_token": " big",
+        "activation": 0.309814453125,
+        "review_id": "T1hvlt1gYwf0wQ3ZzI0yNQ",
+        "position": 58
+      },
+      {
+        "context": "...s and salsa. Wasn't a** big** fan of the hot sauce...",
+        "active_token": " big",
+        "activation": 0.309814453125,
+        "review_id": "O-hReCl4U1fPk-eMoJznEg",
+        "position": 89
+      },
+      {
+        "context": "...d I have never been a** big** fan of mexican food ...",
+        "active_token": " big",
+        "activation": 0.30859375,
+        "review_id": "Qwte_IOldCBaG4jhpgU0FA",
+        "position": 32
+      },
+      {
+        "context": "...at choice and I was a** big** fan of the guacamole...",
+        "active_token": " big",
+        "activation": 0.307861328125,
+        "review_id": "aV5jjaP4frxRtaXw15-mNQ",
+        "position": 55
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2876,
+        "max": 0.322,
+        "mean": 0.2946
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " big"
+          ],
+          "ngram_str": " a big",
+          "count": 382,
+          "percent": 76.4
+        },
+        {
+          "ngram": [
+            " big",
+            " fan"
+          ],
+          "ngram_str": " big fan",
+          "count": 214,
+          "percent": 42.8
+        },
+        {
+          "ngram": [
+            " fan",
+            " of"
+          ],
+          "ngram_str": " fan of",
+          "count": 184,
+          "percent": 36.8
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'m"
+          ],
+          "ngram_str": " I'm",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            "'t",
+            " a"
+          ],
+          "ngram_str": "'t a",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " big",
+            " deal"
+          ],
+          "ngram_str": " big deal",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            "'m",
+            " a"
+          ],
+          "ngram_str": "'m a",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " wasn",
+            "'t"
+          ],
+          "ngram_str": " wasn't",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " not",
+            " a"
+          ],
+          "ngram_str": " not a",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " was",
+            " a"
+          ],
+          "ngram_str": " was a",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We"
+          ],
+          "ngram_str": ". We",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " big",
+            " fans"
+          ],
+          "ngram_str": " big fans",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " big",
+            " fan"
+          ],
+          "ngram_str": " a big fan",
+          "count": 211,
+          "percent": 42.2
+        },
+        {
+          "ngram": [
+            " big",
+            " fan",
+            " of"
+          ],
+          "ngram_str": " big fan of",
+          "count": 184,
+          "percent": 36.8
+        },
+        {
+          "ngram": [
+            " fan",
+            " of",
+            " the"
+          ],
+          "ngram_str": " fan of the",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            "'t",
+            " a",
+            " big"
+          ],
+          "ngram_str": "'t a big",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            "'m",
+            " a",
+            " big"
+          ],
+          "ngram_str": "'m a big",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " a"
+          ],
+          "ngram_str": " I'm a",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " not",
+            " a",
+            " big"
+          ],
+          "ngram_str": " not a big",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " wasn",
+            "'t",
+            " a"
+          ],
+          "ngram_str": " wasn't a",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " big"
+          ],
+          "ngram_str": " was a big",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'m"
+          ],
+          "ngram_str": ". I'm",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " a",
+            " big",
+            " deal"
+          ],
+          "ngram_str": " a big deal",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " I",
+            " wasn",
+            "'t"
+          ],
+          "ngram_str": " I wasn't",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " fan",
+            " of",
+            " their"
+          ],
+          "ngram_str": " fan of their",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " a",
+            " big",
+            " hit"
+          ],
+          "ngram_str": " a big hit",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " Not",
+            " a",
+            " big"
+          ],
+          "ngram_str": " Not a big",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " a",
+            " big",
+            " fan",
+            " of"
+          ],
+          "ngram_str": " a big fan of",
+          "count": 182,
+          "percent": 36.4
+        },
+        {
+          "ngram": [
+            " big",
+            " fan",
+            " of",
+            " the"
+          ],
+          "ngram_str": " big fan of the",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " a",
+            " big"
+          ],
+          "ngram_str": " I'm a big",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "'t",
+            " a",
+            " big",
+            " fan"
+          ],
+          "ngram_str": "'t a big fan",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " wasn",
+            "'t",
+            " a",
+            " big"
+          ],
+          "ngram_str": " wasn't a big",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "'m",
+            " a",
+            " big",
+            " fan"
+          ],
+          "ngram_str": "'m a big fan",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'m",
+            " a"
+          ],
+          "ngram_str": ". I'm a",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " I",
+            " wasn",
+            "'t",
+            " a"
+          ],
+          "ngram_str": " I wasn't a",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " not",
+            " a",
+            " big",
+            " fan"
+          ],
+          "ngram_str": " not a big fan",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " big",
+            " fan",
+            " of",
+            " their"
+          ],
+          "ngram_str": " big fan of their",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " been",
+            " a",
+            " big",
+            " fan"
+          ],
+          "ngram_str": " been a big fan",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " big",
+            " fan"
+          ],
+          "ngram_str": " was a big fan",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Not",
+            " a",
+            " big"
+          ],
+          "ngram_str": ". Not a big",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " I",
+            " am",
+            " a",
+            " big"
+          ],
+          "ngram_str": " I am a big",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " never",
+            " been",
+            " a",
+            " big"
+          ],
+          "ngram_str": " never been a big",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5800000,
+      "corpus_coverage": 0.1122
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3455,
+        "count": 8682,
+        "percent": 86.82
+      },
+      {
+        "feature_idx": 19450,
+        "count": 7556,
+        "percent": 75.56
+      },
+      {
+        "feature_idx": 13872,
+        "count": 7047,
+        "percent": 70.47
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4666,
+        "percent": 46.66
+      },
+      {
+        "feature_idx": 7201,
+        "count": 4258,
+        "percent": 42.58
+      },
+      {
+        "feature_idx": 11200,
+        "count": 4245,
+        "percent": 42.45
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4131,
+        "percent": 41.31
+      },
+      {
+        "feature_idx": 22472,
+        "count": 4086,
+        "percent": 40.86
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4053,
+        "percent": 40.53
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3962,
+        "percent": 39.62
+      },
+      {
+        "feature_idx": 15372,
+        "count": 3914,
+        "percent": 39.14
+      },
+      {
+        "feature_idx": 24557,
+        "count": 3875,
+        "percent": 38.75
+      },
+      {
+        "feature_idx": 3949,
+        "count": 3682,
+        "percent": 36.82
+      },
+      {
+        "feature_idx": 1938,
+        "count": 3609,
+        "percent": 36.09
+      },
+      {
+        "feature_idx": 19689,
+        "count": 3599,
+        "percent": 35.99
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3525,
+        "percent": 35.25
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3269,
+        "percent": 32.69
+      },
+      {
+        "feature_idx": 23066,
+        "count": 2688,
+        "percent": 26.88
+      },
+      {
+        "feature_idx": 9336,
+        "count": 2684,
+        "percent": 26.84
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2681,
+        "percent": 26.81
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5800000,
+      "corpus_coverage": 0.1122
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1652,
+        "percent": 16.52
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2180,
+        "percent": 21.8
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2290,
+        "percent": 22.9
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2155,
+        "percent": 21.55
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1723,
+        "percent": 17.23
+      }
+    ],
+    "mean_position": 0.5025,
+    "std_position": 0.2682
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 146,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0385,
+      "p25": 0.0891,
+      "p50": 0.1265,
+      "p75": 0.1837,
+      "p90": 0.2215,
+      "p95": 0.2359,
+      "p99": 0.2813
+    },
+    "skewness": 0.145,
+    "kurtosis": -0.7273,
+    "min": 0.0148,
+    "max": 0.2861,
+    "mean": 0.1318,
+    "std": 0.0661
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 146,
+      "unique_tokens_found": 30
+    },
+    "tokens": [
+      {
+        "token": " big",
+        "count": 33,
+        "mean_activation": 0.2135
+      },
+      {
+        "token": " large",
+        "count": 32,
+        "mean_activation": 0.1061
+      },
+      {
+        "token": " huge",
+        "count": 32,
+        "mean_activation": 0.1627
+      },
+      {
+        "token": " larger",
+        "count": 6,
+        "mean_activation": 0.0517
+      },
+      {
+        "token": " giant",
+        "count": 6,
+        "mean_activation": 0.1065
+      },
+      {
+        "token": " biggest",
+        "count": 3,
+        "mean_activation": 0.1605
+      },
+      {
+        "token": " wide",
+        "count": 3,
+        "mean_activation": 0.0713
+      },
+      {
+        "token": " great",
+        "count": 3,
+        "mean_activation": 0.0243
+      },
+      {
+        "token": " strong",
+        "count": 3,
+        "mean_activation": 0.0346
+      },
+      {
+        "token": " small",
+        "count": 3,
+        "mean_activation": 0.0357
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 13753,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 67,
+    "mean_when_active": 0.05827377091592817,
+    "max_activation": 0.2320556640625,
+    "std_when_active": 0.043600078861347036,
+    "activation_rate": 0.00067
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 30054,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " served",
+        "count": 5133,
+        "mean_activation": 0.05239598392952541
+      },
+      {
+        "token": " topped",
+        "count": 4488,
+        "mean_activation": 0.16199135737835618
+      },
+      {
+        "token": " filled",
+        "count": 1537,
+        "mean_activation": 0.04699384879197249
+      },
+      {
+        "token": " stuffed",
+        "count": 1266,
+        "mean_activation": 0.0433912593606524
+      },
+      {
+        "token": " covered",
+        "count": 954,
+        "mean_activation": 0.0525888486978143
+      },
+      {
+        "token": " grilled",
+        "count": 907,
+        "mean_activation": 0.028251319893665586
+      },
+      {
+        "token": " wrapped",
+        "count": 904,
+        "mean_activation": 0.05004333394818601
+      },
+      {
+        "token": " seasoned",
+        "count": 892,
+        "mean_activation": 0.03479532489862143
+      },
+      {
+        "token": " paired",
+        "count": 883,
+        "mean_activation": 0.07657995688415735
+      },
+      {
+        "token": " top",
+        "count": 641,
+        "mean_activation": 0.029556488656030618
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 30054,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ile and brown sugar** topped** with black bean and...",
+        "active_token": " topped",
+        "activation": 0.2724609375,
+        "review_id": "TyjhV_TIyxzMm4Iw14OMEA",
+        "position": 639
+      },
+      {
+        "context": "... onions and cheese,** topped** with green sauce, l...",
+        "active_token": " topped",
+        "activation": 0.2646484375,
+        "review_id": "Ua5ZQhHUXZKFCYdL6ShIXA",
+        "position": 227
+      },
+      {
+        "context": "... thin egg omelette,** topped** with red sauce and ...",
+        "active_token": " topped",
+        "activation": 0.2626953125,
+        "review_id": "pvjLe5AKB-AotCRAJCidkQ",
+        "position": 109
+      },
+      {
+        "context": "..., wrapped in bacon,** topped** with corn salsa and...",
+        "active_token": " topped",
+        "activation": 0.261962890625,
+        "review_id": "pc_VIFKMXDv04lyAKtyVmA",
+        "position": 54
+      },
+      {
+        "context": "...cy, flavorful meat,** topped** with shredded lettu...",
+        "active_token": " topped",
+        "activation": 0.261962890625,
+        "review_id": "Zxt8x2uj7qbuKrDzTicFig",
+        "position": 43
+      },
+      {
+        "context": "... spicy green sauce,** topped** with lettuce, fresh...",
+        "active_token": " topped",
+        "activation": 0.261474609375,
+        "review_id": "ig-fF83xtBe6YJOCUH_-2Q",
+        "position": 376
+      },
+      {
+        "context": "...o, a little carrot,** topped** with cheese and a l...",
+        "active_token": " topped",
+        "activation": 0.259521484375,
+        "review_id": "fwz69yFbp1mXTFfaq7PPZg",
+        "position": 175
+      },
+      {
+        "context": "...a soft tortilla and** topped** with cheese, the na...",
+        "active_token": " topped",
+        "activation": 0.259521484375,
+        "review_id": "mutJH1PpWqt6Z3Pf7quDIg",
+        "position": 186
+      },
+      {
+        "context": "...ng tomatillo salsa,** topped** with cheese and a s...",
+        "active_token": " topped",
+        "activation": 0.259033203125,
+        "review_id": "_HL_im2HbfwpzyV7lmPFaw",
+        "position": 62
+      },
+      {
+        "context": "...asoned ground meat,** topped** with a walnut cream...",
+        "active_token": " topped",
+        "activation": 0.258544921875,
+        "review_id": "ZGuhQ6u1ixR6SdQeHeIB0A",
+        "position": 54
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13753,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2234,
+        "max": 0.2725,
+        "mean": 0.2358
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " topped",
+            " with"
+          ],
+          "ngram_str": " topped with",
+          "count": 476,
+          "percent": 95.2
+        },
+        {
+          "ngram": [
+            ",",
+            " topped"
+          ],
+          "ngram_str": ", topped",
+          "count": 221,
+          "percent": 44.2
+        },
+        {
+          "ngram": [
+            " and",
+            " topped"
+          ],
+          "ngram_str": " and topped",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " with",
+            " cheese"
+          ],
+          "ngram_str": " with cheese",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " cheese",
+            " and"
+          ],
+          "ngram_str": " cheese and",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " cheese",
+            ","
+          ],
+          "ngram_str": " cheese,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " sauce",
+            " and"
+          ],
+          "ngram_str": " sauce and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " sauce",
+            ","
+          ],
+          "ngram_str": " sauce,",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " lettuce",
+            ","
+          ],
+          "ngram_str": " lettuce,",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " c",
+            "ilantro"
+          ],
+          "ngram_str": " cilantro",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " beans",
+            ","
+          ],
+          "ngram_str": " beans,",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " cheese",
+            "."
+          ],
+          "ngram_str": " cheese.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " onions",
+            " and"
+          ],
+          "ngram_str": " onions and",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ",",
+            " topped",
+            " with"
+          ],
+          "ngram_str": ", topped with",
+          "count": 212,
+          "percent": 42.4
+        },
+        {
+          "ngram": [
+            " and",
+            " topped",
+            " with"
+          ],
+          "ngram_str": " and topped with",
+          "count": 140,
+          "percent": 28.0
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " a"
+          ],
+          "ngram_str": " topped with a",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " cheese"
+          ],
+          "ngram_str": " topped with cheese",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " lettuce"
+          ],
+          "ngram_str": " topped with lettuce",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " cheese",
+            ",",
+            " topped"
+          ],
+          "ngram_str": " cheese, topped",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " sauce",
+            " and",
+            " topped"
+          ],
+          "ngram_str": " sauce and topped",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " with",
+            " cheese",
+            " and"
+          ],
+          "ngram_str": " with cheese and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " sauce",
+            ",",
+            " topped"
+          ],
+          "ngram_str": " sauce, topped",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " beans",
+            " topped",
+            " with"
+          ],
+          "ngram_str": " beans topped with",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "o"
+          ],
+          "ngram_str": " queso",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " ref",
+            "ried",
+            " beans"
+          ],
+          "ngram_str": " refried beans",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " with",
+            " cheese",
+            "."
+          ],
+          "ngram_str": " with cheese.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " c"
+          ],
+          "ngram_str": " topped with c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " meat",
+            ",",
+            " topped"
+          ],
+          "ngram_str": " meat, topped",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ",",
+            " topped",
+            " with",
+            " a"
+          ],
+          "ngram_str": ", topped with a",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " and",
+            " topped",
+            " with",
+            " a"
+          ],
+          "ngram_str": " and topped with a",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " sauce",
+            " and",
+            " topped",
+            " with"
+          ],
+          "ngram_str": " sauce and topped with",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " cheese",
+            ",",
+            " topped",
+            " with"
+          ],
+          "ngram_str": " cheese, topped with",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ",",
+            " topped",
+            " with",
+            " cheese"
+          ],
+          "ngram_str": ", topped with cheese",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " sauce",
+            ",",
+            " topped",
+            " with"
+          ],
+          "ngram_str": " sauce, topped with",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " cheese",
+            " and"
+          ],
+          "ngram_str": " topped with cheese and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " cheese",
+            "."
+          ],
+          "ngram_str": " topped with cheese.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " meat",
+            ",",
+            " topped",
+            " with"
+          ],
+          "ngram_str": " meat, topped with",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " lettuce",
+            ","
+          ],
+          "ngram_str": " topped with lettuce,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " qu",
+            "es"
+          ],
+          "ngram_str": " topped with ques",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " with",
+            " qu",
+            "es",
+            "o"
+          ],
+          "ngram_str": " with queso",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " and",
+            " topped",
+            " with",
+            " cheese"
+          ],
+          "ngram_str": " and topped with cheese",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " beans",
+            ",",
+            " topped",
+            " with"
+          ],
+          "ngram_str": " beans, topped with",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " c",
+            "ilantro"
+          ],
+          "ngram_str": " topped with cilantro",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17000000,
+      "corpus_coverage": 0.3288
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 9187,
+        "percent": 91.87
+      },
+      {
+        "feature_idx": 8074,
+        "count": 8618,
+        "percent": 86.18
+      },
+      {
+        "feature_idx": 4858,
+        "count": 8251,
+        "percent": 82.51
+      },
+      {
+        "feature_idx": 8034,
+        "count": 5328,
+        "percent": 53.28
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4795,
+        "percent": 47.95
+      },
+      {
+        "feature_idx": 10019,
+        "count": 3931,
+        "percent": 39.31
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3643,
+        "percent": 36.43
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3624,
+        "percent": 36.24
+      },
+      {
+        "feature_idx": 16549,
+        "count": 3596,
+        "percent": 35.96
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3504,
+        "percent": 35.04
+      },
+      {
+        "feature_idx": 10622,
+        "count": 3453,
+        "percent": 34.53
+      },
+      {
+        "feature_idx": 11500,
+        "count": 3122,
+        "percent": 31.22
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2998,
+        "percent": 29.98
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2966,
+        "percent": 29.66
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2951,
+        "percent": 29.51
+      },
+      {
+        "feature_idx": 19585,
+        "count": 2815,
+        "percent": 28.15
+      },
+      {
+        "feature_idx": 16957,
+        "count": 2767,
+        "percent": 27.67
+      },
+      {
+        "feature_idx": 12727,
+        "count": 2647,
+        "percent": 26.47
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2546,
+        "percent": 25.46
+      },
+      {
+        "feature_idx": 17859,
+        "count": 2496,
+        "percent": 24.96
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17000000,
+      "corpus_coverage": 0.3288
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 772,
+        "percent": 7.72
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2127,
+        "percent": 21.27
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 3101,
+        "percent": 31.01
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2802,
+        "percent": 28.02
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1198,
+        "percent": 11.98
+      }
+    ],
+    "mean_position": 0.5306,
+    "std_position": 0.2177
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 67,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0263,
+      "p25": 0.0337,
+      "p50": 0.0425,
+      "p75": 0.0669,
+      "p90": 0.0967,
+      "p95": 0.1665,
+      "p99": 0.2127
+    },
+    "skewness": 2.2342,
+    "kurtosis": 4.9301,
+    "min": 0.0168,
+    "max": 0.2321,
+    "mean": 0.0583,
+    "std": 0.0436
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 67,
+      "unique_tokens_found": 29
+    },
+    "tokens": [
+      {
+        "token": " served",
+        "count": 19,
+        "mean_activation": 0.0585
+      },
+      {
+        "token": " topped",
+        "count": 5,
+        "mean_activation": 0.17
+      },
+      {
+        "token": " made",
+        "count": 5,
+        "mean_activation": 0.0371
+      },
+      {
+        "token": " seasoned",
+        "count": 4,
+        "mean_activation": 0.0431
+      },
+      {
+        "token": " complete",
+        "count": 3,
+        "mean_activation": 0.0473
+      },
+      {
+        "token": " stuffed",
+        "count": 3,
+        "mean_activation": 0.0378
+      },
+      {
+        "token": " wrapped",
+        "count": 3,
+        "mean_activation": 0.0459
+      },
+      {
+        "token": " paired",
+        "count": 2,
+        "mean_activation": 0.1038
+      },
+      {
+        "token": " filled",
+        "count": 2,
+        "mean_activation": 0.0491
+      },
+      {
+        "token": " top",
+        "count": 2,
+        "mean_activation": 0.0262
+      }
+    ]
+  }
+}

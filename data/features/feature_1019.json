@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1019,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 741,
+    "mean_when_active": 0.17808914699374262,
+    "max_activation": 0.28466796875,
+    "std_when_active": 0.05683510732190739,
+    "activation_rate": 0.00741
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 6500000,
+      "corpus_coverage": 0.1257
+    },
+    "top_tokens": [
+      {
+        "token": " we",
+        "count": 28018,
+        "mean_activation": 0.18523409106387803
+      },
+      {
+        "token": " We",
+        "count": 15114,
+        "mean_activation": 0.20666366199565595
+      },
+      {
+        "token": "We",
+        "count": 2660,
+        "mean_activation": 0.1835134864749765
+      },
+      {
+        "token": " I",
+        "count": 1308,
+        "mean_activation": 0.0266124713676056
+      },
+      {
+        "token": " they",
+        "count": 1060,
+        "mean_activation": 0.033779964806898585
+      },
+      {
+        "token": "we",
+        "count": 500,
+        "mean_activation": 0.1979833984375
+      },
+      {
+        "token": " you",
+        "count": 320,
+        "mean_activation": 0.030467891693115236
+      },
+      {
+        "token": " us",
+        "count": 279,
+        "mean_activation": 0.0322347661500336
+      },
+      {
+        "token": " Our",
+        "count": 135,
+        "mean_activation": 0.02127606427228009
+      },
+      {
+        "token": " also",
+        "count": 106,
+        "mean_activation": 0.017734743514150945
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 6500000,
+      "corpus_coverage": 0.1257
+    },
+    "activations": [
+      {
+        "context": "...ay. New to the place,** we** took a few minutes to...",
+        "active_token": " we",
+        "activation": 0.2978515625,
+        "review_id": "frskat0IBnjNFcu3i5KIVw",
+        "position": 27
+      },
+      {
+        "context": "...ly owned restaurant -** we** were really made to f...",
+        "active_token": " we",
+        "activation": 0.296630859375,
+        "review_id": "OF-Yq2HekxGIf9lqqYyuRg",
+        "position": 127
+      },
+      {
+        "context": "...ime in Nashville, and** we** will definitely be co...",
+        "active_token": " we",
+        "activation": 0.291015625,
+        "review_id": "XKpM_3BzU8Uk0ku1pjEDFg",
+        "position": 17
+      },
+      {
+        "context": "...ecause lemme tell ya,** we**'re hooked!\\n\\nIf I had ...",
+        "active_token": " we",
+        "activation": 0.290283203125,
+        "review_id": "PlJo2daCEFM9x9DUyb1g2A",
+        "position": 53
+      },
+      {
+        "context": "...ng to Tucson Arizona,** we** were not ready for th...",
+        "active_token": " we",
+        "activation": 0.288818359375,
+        "review_id": "LGjtaafdHF6a7OzxhD9jCw",
+        "position": 32
+      },
+      {
+        "context": "...Estela's closed down.** We** had a really nice lun...",
+        "active_token": " We",
+        "activation": 0.28857421875,
+        "review_id": "v1lgbreko1cMVTYq7_WGYQ",
+        "position": 31
+      },
+      {
+        "context": "...n yelp..... otherwise** we** might have passed it ...",
+        "active_token": " we",
+        "activation": 0.28857421875,
+        "review_id": "ysjFT1eAClF7DMo1CpuFiQ",
+        "position": 22
+      },
+      {
+        "context": "...an who works nearby -** we** actually drove across...",
+        "active_token": " we",
+        "activation": 0.2880859375,
+        "review_id": "cGz0UV47lOdCN7SXGoTw1g",
+        "position": 48
+      },
+      {
+        "context": "...air indoors and out -** we** chose to sit outside....",
+        "active_token": " we",
+        "activation": 0.287841796875,
+        "review_id": "DGSHE7C2tNL9JeqrerzrJg",
+        "position": 28
+      },
+      {
+        "context": "...es, so what the heck,** we** thought.\\n\\nIt's small ...",
+        "active_token": " we",
+        "activation": 0.286376953125,
+        "review_id": "v0aSXtFrTFJdvmwc4WjBgg",
+        "position": 35
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1019,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 12900000,
+      "corpus_coverage": 0.2495,
+      "activation_range": {
+        "min": 0.2666,
+        "max": 0.2979,
+        "mean": 0.273
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " We"
+          ],
+          "ngram_str": ". We",
+          "count": 209,
+          "percent": 41.8
+        },
+        {
+          "ngram": [
+            ",",
+            " we"
+          ],
+          "ngram_str": ", we",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            " We",
+            " were"
+          ],
+          "ngram_str": " We were",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "!",
+            " We"
+          ],
+          "ngram_str": "! We",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " we",
+            " were"
+          ],
+          "ngram_str": " we were",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " and",
+            " we"
+          ],
+          "ngram_str": " and we",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " ",
+            " We"
+          ],
+          "ngram_str": "  We",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " We",
+            " ordered"
+          ],
+          "ngram_str": " We ordered",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " we",
+            " had"
+          ],
+          "ngram_str": " we had",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " We",
+            " had"
+          ],
+          "ngram_str": " We had",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " place",
+            "."
+          ],
+          "ngram_str": " place.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " be",
+            " back"
+          ],
+          "ngram_str": " be back",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " We",
+            " were"
+          ],
+          "ngram_str": ". We were",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " We"
+          ],
+          "ngram_str": ".  We",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " we",
+            " were"
+          ],
+          "ngram_str": ", we were",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " ordered"
+          ],
+          "ngram_str": ". We ordered",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            "."
+          ],
+          "ngram_str": " this place.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " had"
+          ],
+          "ngram_str": ". We had",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " restaurant",
+            ".",
+            " We"
+          ],
+          "ngram_str": " restaurant. We",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " place",
+            ".",
+            " We"
+          ],
+          "ngram_str": " place. We",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " we"
+          ],
+          "ngram_str": ", but we",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " will"
+          ],
+          "ngram_str": ". We will",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ",",
+            " we",
+            " had"
+          ],
+          "ngram_str": ", we had",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " will",
+            " definitely",
+            " be"
+          ],
+          "ngram_str": " will definitely be",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " this",
+            " restaurant",
+            "."
+          ],
+          "ngram_str": " this restaurant.",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            ".",
+            " We"
+          ],
+          "ngram_str": " this place. We",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " this",
+            " restaurant",
+            ".",
+            " We"
+          ],
+          "ngram_str": " this restaurant. We",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " will",
+            " definitely",
+            " be",
+            " back"
+          ],
+          "ngram_str": " will definitely be back",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " ordered",
+            " the"
+          ],
+          "ngram_str": ". We ordered the",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " We",
+            " were"
+          ],
+          "ngram_str": ".  We were",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " we",
+            " will",
+            " definitely",
+            " be"
+          ],
+          "ngram_str": " we will definitely be",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " were",
+            " not",
+            " disappointed",
+            "!"
+          ],
+          "ngram_str": " were not disappointed!",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " went",
+            " to"
+          ],
+          "ngram_str": ". We went to",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " try",
+            " this",
+            " restaurant",
+            "."
+          ],
+          "ngram_str": " try this restaurant.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " didn",
+            "'t"
+          ],
+          "ngram_str": ". We didn't",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " we",
+            " were",
+            " not",
+            " disappointed"
+          ],
+          "ngram_str": " we were not disappointed",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " restaurant",
+            ".",
+            " We",
+            " were"
+          ],
+          "ngram_str": " restaurant. We were",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " We",
+            " were",
+            " not",
+            " disappointed"
+          ],
+          "ngram_str": " We were not disappointed",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1400000,
+      "corpus_coverage": 0.0271
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 9465,
+        "count": 9456,
+        "percent": 94.56
+      },
+      {
+        "feature_idx": 13075,
+        "count": 9381,
+        "percent": 93.81
+      },
+      {
+        "feature_idx": 23659,
+        "count": 9375,
+        "percent": 93.75
+      },
+      {
+        "feature_idx": 21316,
+        "count": 6220,
+        "percent": 62.2
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4613,
+        "percent": 46.13
+      },
+      {
+        "feature_idx": 10673,
+        "count": 4113,
+        "percent": 41.13
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4065,
+        "percent": 40.65
+      },
+      {
+        "feature_idx": 6585,
+        "count": 3947,
+        "percent": 39.47
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3828,
+        "percent": 38.28
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3600,
+        "percent": 36.0
+      },
+      {
+        "feature_idx": 2256,
+        "count": 3534,
+        "percent": 35.34
+      },
+      {
+        "feature_idx": 17252,
+        "count": 3024,
+        "percent": 30.24
+      },
+      {
+        "feature_idx": 20528,
+        "count": 2958,
+        "percent": 29.58
+      },
+      {
+        "feature_idx": 1647,
+        "count": 2866,
+        "percent": 28.66
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2861,
+        "percent": 28.61
+      },
+      {
+        "feature_idx": 6666,
+        "count": 2832,
+        "percent": 28.32
+      },
+      {
+        "feature_idx": 18000,
+        "count": 2773,
+        "percent": 27.73
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2627,
+        "percent": 26.27
+      },
+      {
+        "feature_idx": 12601,
+        "count": 2600,
+        "percent": 26.0
+      },
+      {
+        "feature_idx": 291,
+        "count": 2573,
+        "percent": 25.73
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1400000,
+      "corpus_coverage": 0.0271
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2337,
+        "percent": 23.37
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2324,
+        "percent": 23.24
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1840,
+        "percent": 18.4
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1709,
+        "percent": 17.09
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1790,
+        "percent": 17.9
+      }
+    ],
+    "mean_position": 0.4663,
+    "std_position": 0.2857
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 741,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.1129,
+      "p25": 0.1593,
+      "p50": 0.1902,
+      "p75": 0.2146,
+      "p90": 0.2366,
+      "p95": 0.2474,
+      "p99": 0.2656
+    },
+    "skewness": -1.3297,
+    "kurtosis": 1.6097,
+    "min": 0.0115,
+    "max": 0.2847,
+    "mean": 0.1781,
+    "std": 0.0568
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 741,
+      "unique_tokens_found": 16
+    },
+    "tokens": [
+      {
+        "token": " we",
+        "count": 405,
+        "mean_activation": 0.1865
+      },
+      {
+        "token": " We",
+        "count": 217,
+        "mean_activation": 0.2053
+      },
+      {
+        "token": "We",
+        "count": 45,
+        "mean_activation": 0.1813
+      },
+      {
+        "token": " I",
+        "count": 26,
+        "mean_activation": 0.0274
+      },
+      {
+        "token": " they",
+        "count": 14,
+        "mean_activation": 0.0399
+      },
+      {
+        "token": " you",
+        "count": 10,
+        "mean_activation": 0.0296
+      },
+      {
+        "token": " us",
+        "count": 8,
+        "mean_activation": 0.0338
+      },
+      {
+        "token": "we",
+        "count": 7,
+        "mean_activation": 0.2163
+      },
+      {
+        "token": " also",
+        "count": 2,
+        "mean_activation": 0.0154
+      },
+      {
+        "token": " have",
+        "count": 1,
+        "mean_activation": 0.0214
+      }
+    ]
+  }
+}

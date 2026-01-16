@@ -1,0 +1,876 @@
+{
+  "feature_idx": 11444,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 96,
+    "mean_when_active": 0.06746029853820801,
+    "max_activation": 0.1568603515625,
+    "std_when_active": 0.0441097912042057,
+    "activation_rate": 0.00096
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 47326,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " terrible",
+        "count": 6674,
+        "mean_activation": 0.10269957929090501
+      },
+      {
+        "token": " bad",
+        "count": 5011,
+        "mean_activation": 0.05712831550861542
+      },
+      {
+        "token": " horrible",
+        "count": 4877,
+        "mean_activation": 0.09341880105327381
+      },
+      {
+        "token": " awful",
+        "count": 4143,
+        "mean_activation": 0.11530505600914759
+      },
+      {
+        "token": " mediocre",
+        "count": 3304,
+        "mean_activation": 0.05069804018403947
+      },
+      {
+        "token": " worst",
+        "count": 3231,
+        "mean_activation": 0.04827423001250701
+      },
+      {
+        "token": " great",
+        "count": 1920,
+        "mean_activation": 0.031190053621927897
+      },
+      {
+        "token": " good",
+        "count": 1504,
+        "mean_activation": 0.02570558101572889
+      },
+      {
+        "token": "rible",
+        "count": 1243,
+        "mean_activation": 0.06005667872900744
+      },
+      {
+        "token": " poor",
+        "count": 1157,
+        "mean_activation": 0.04831878213709351
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 47326,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...iced, the service is** awful**. Two of the three t...",
+        "active_token": " awful",
+        "activation": 0.19091796875,
+        "review_id": "6SGIryolmKtuBzLqDSMwfA",
+        "position": 43
+      },
+      {
+        "context": "... it. Your service is** awful** and unprofessional.",
+        "active_token": " awful",
+        "activation": 0.1904296875,
+        "review_id": "xvZbsFeTR3PQ13VDFIBc-Q",
+        "position": 102
+      },
+      {
+        "context": "...OK.  Margaritas were** awful**, give those a miss.",
+        "active_token": " awful",
+        "activation": 0.190185546875,
+        "review_id": "RD6NlfBE9J-rFABt8DGOuQ",
+        "position": 92
+      },
+      {
+        "context": "... customer service is** awful**. Also for the love ...",
+        "active_token": " awful",
+        "activation": 0.190185546875,
+        "review_id": "-QwwtRlmE9gDYwWq5unAHA",
+        "position": 110
+      },
+      {
+        "context": "...y bland. Texture was** awful**. The limes on the s...",
+        "active_token": " awful",
+        "activation": 0.189697265625,
+        "review_id": "WDv5QOy3jcBSvr-DywQ5Ig",
+        "position": 117
+      },
+      {
+        "context": "...dy, but the food was** awful**. I ordered the barb...",
+        "active_token": " awful",
+        "activation": 0.1893310546875,
+        "review_id": "v799PJMIBD-JlL3oS_nvQw",
+        "position": 104
+      },
+      {
+        "context": "... but this service is** awful**. They won't seat yo...",
+        "active_token": " awful",
+        "activation": 0.1888427734375,
+        "review_id": "_uP1H_bzSQcDebSVtcjkUw",
+        "position": 11
+      },
+      {
+        "context": "... but the service was** awful**!!!",
+        "active_token": " awful",
+        "activation": 0.188720703125,
+        "review_id": "dwGlCG3HdjnP6uSPQoyeKA",
+        "position": 100
+      },
+      {
+        "context": "...stomer experience is** awful**. The waiters and wa...",
+        "active_token": " awful",
+        "activation": 0.1883544921875,
+        "review_id": "77ZOWw4FmtYqyb5lWfuavg",
+        "position": 80
+      },
+      {
+        "context": "...at best, service was** awful**, and all that with ...",
+        "active_token": " awful",
+        "activation": 0.188232421875,
+        "review_id": "WO7hzcxazlVaHCMUus6iEw",
+        "position": 19
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11444,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1675,
+        "max": 0.1909,
+        "mean": 0.1742
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " awful",
+            "."
+          ],
+          "ngram_str": " awful.",
+          "count": 256,
+          "percent": 51.2
+        },
+        {
+          "ngram": [
+            " was",
+            " awful"
+          ],
+          "ngram_str": " was awful",
+          "count": 221,
+          "percent": 44.2
+        },
+        {
+          "ngram": [
+            " service",
+            " was"
+          ],
+          "ngram_str": " service was",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " is",
+            " awful"
+          ],
+          "ngram_str": " is awful",
+          "count": 110,
+          "percent": 22.0
+        },
+        {
+          "ngram": [
+            " the",
+            " service"
+          ],
+          "ngram_str": " the service",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " but",
+            " the"
+          ],
+          "ngram_str": " but the",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " service",
+            " is"
+          ],
+          "ngram_str": " service is",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " terrible",
+            "."
+          ],
+          "ngram_str": " terrible.",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " food",
+            " was"
+          ],
+          "ngram_str": " food was",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " was",
+            " terrible"
+          ],
+          "ngram_str": " was terrible",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " The",
+            " service"
+          ],
+          "ngram_str": " The service",
+          "count": 45,
+          "percent": 9.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " was",
+            " awful",
+            "."
+          ],
+          "ngram_str": " was awful.",
+          "count": 134,
+          "percent": 26.8
+        },
+        {
+          "ngram": [
+            " service",
+            " was",
+            " awful"
+          ],
+          "ngram_str": " service was awful",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " is",
+            " awful",
+            "."
+          ],
+          "ngram_str": " is awful.",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " was"
+          ],
+          "ngram_str": " the service was",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " service"
+          ],
+          "ngram_str": " but the service",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " service",
+            " is",
+            " awful"
+          ],
+          "ngram_str": " service is awful",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " food",
+            " was",
+            " awful"
+          ],
+          "ngram_str": " food was awful",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " is"
+          ],
+          "ngram_str": " the service is",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " service"
+          ],
+          "ngram_str": ". The service",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " awful",
+            ".",
+            " "
+          ],
+          "ngram_str": " awful. ",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " was"
+          ],
+          "ngram_str": " the food was",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " the"
+          ],
+          "ngram_str": ", but the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " food"
+          ],
+          "ngram_str": " but the food",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " awful",
+            ".",
+            " I"
+          ],
+          "ngram_str": " awful. I",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " was",
+            " terrible",
+            "."
+          ],
+          "ngram_str": " was terrible.",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " service",
+            " was",
+            " awful",
+            "."
+          ],
+          "ngram_str": " service was awful.",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " was",
+            " awful"
+          ],
+          "ngram_str": " the service was awful",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " service",
+            " is",
+            " awful",
+            "."
+          ],
+          "ngram_str": " service is awful.",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " service",
+            " was"
+          ],
+          "ngram_str": " but the service was",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " food",
+            " was",
+            " awful",
+            "."
+          ],
+          "ngram_str": " food was awful.",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " was",
+            " awful"
+          ],
+          "ngram_str": " the food was awful",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " service",
+            " was"
+          ],
+          "ngram_str": ". The service was",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " the",
+            " service"
+          ],
+          "ngram_str": ", but the service",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " is",
+            " awful"
+          ],
+          "ngram_str": " the service is awful",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " food",
+            " was"
+          ],
+          "ngram_str": " but the food was",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " service",
+            " is"
+          ],
+          "ngram_str": " but the service is",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " was",
+            " awful",
+            ".",
+            " "
+          ],
+          "ngram_str": " was awful. ",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " The",
+            " service",
+            " was",
+            " awful"
+          ],
+          "ngram_str": " The service was awful",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " was",
+            " awful",
+            ".",
+            " We"
+          ],
+          "ngram_str": " was awful. We",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " was",
+            " awful",
+            ".",
+            " I"
+          ],
+          "ngram_str": " was awful. I",
+          "count": 17,
+          "percent": 3.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11300000,
+      "corpus_coverage": 0.2186
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 23912,
+        "count": 8482,
+        "percent": 84.82
+      },
+      {
+        "feature_idx": 18880,
+        "count": 6250,
+        "percent": 62.5
+      },
+      {
+        "feature_idx": 20403,
+        "count": 5975,
+        "percent": 59.75
+      },
+      {
+        "feature_idx": 21683,
+        "count": 5370,
+        "percent": 53.7
+      },
+      {
+        "feature_idx": 19353,
+        "count": 5269,
+        "percent": 52.69
+      },
+      {
+        "feature_idx": 11476,
+        "count": 5114,
+        "percent": 51.14
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4938,
+        "percent": 49.38
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4426,
+        "percent": 44.26
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4091,
+        "percent": 40.91
+      },
+      {
+        "feature_idx": 4240,
+        "count": 4079,
+        "percent": 40.79
+      },
+      {
+        "feature_idx": 12818,
+        "count": 3669,
+        "percent": 36.69
+      },
+      {
+        "feature_idx": 13227,
+        "count": 3652,
+        "percent": 36.52
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3555,
+        "percent": 35.55
+      },
+      {
+        "feature_idx": 8626,
+        "count": 3209,
+        "percent": 32.09
+      },
+      {
+        "feature_idx": 22992,
+        "count": 3157,
+        "percent": 31.57
+      },
+      {
+        "feature_idx": 20043,
+        "count": 3139,
+        "percent": 31.39
+      },
+      {
+        "feature_idx": 19117,
+        "count": 3054,
+        "percent": 30.54
+      },
+      {
+        "feature_idx": 12050,
+        "count": 3039,
+        "percent": 30.39
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3005,
+        "percent": 30.05
+      },
+      {
+        "feature_idx": 1747,
+        "count": 2941,
+        "percent": 29.41
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11300000,
+      "corpus_coverage": 0.2186
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2391,
+        "percent": 23.91
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2102,
+        "percent": 21.02
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1873,
+        "percent": 18.73
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1737,
+        "percent": 17.37
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1897,
+        "percent": 18.97
+      }
+    ],
+    "mean_position": 0.4746,
+    "std_position": 0.2955
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 96,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0188,
+      "p25": 0.0321,
+      "p50": 0.0528,
+      "p75": 0.097,
+      "p90": 0.1455,
+      "p95": 0.1483,
+      "p99": 0.1544
+    },
+    "skewness": 0.7127,
+    "kurtosis": -0.8083,
+    "min": 0.0142,
+    "max": 0.1569,
+    "mean": 0.0675,
+    "std": 0.0441
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 96,
+      "unique_tokens_found": 29
+    },
+    "tokens": [
+      {
+        "token": " terrible",
+        "count": 14,
+        "mean_activation": 0.1089
+      },
+      {
+        "token": " bad",
+        "count": 12,
+        "mean_activation": 0.0657
+      },
+      {
+        "token": " horrible",
+        "count": 10,
+        "mean_activation": 0.1098
+      },
+      {
+        "token": " worst",
+        "count": 7,
+        "mean_activation": 0.0441
+      },
+      {
+        "token": " awful",
+        "count": 7,
+        "mean_activation": 0.1192
+      },
+      {
+        "token": " great",
+        "count": 7,
+        "mean_activation": 0.0303
+      },
+      {
+        "token": " mediocre",
+        "count": 7,
+        "mean_activation": 0.0552
+      },
+      {
+        "token": "rible",
+        "count": 5,
+        "mean_activation": 0.0744
+      },
+      {
+        "token": " good",
+        "count": 5,
+        "mean_activation": 0.0232
+      },
+      {
+        "token": " poor",
+        "count": 3,
+        "mean_activation": 0.0461
+      }
+    ]
+  }
+}

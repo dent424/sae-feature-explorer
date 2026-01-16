@@ -1,0 +1,876 @@
+{
+  "feature_idx": 15009,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 18,
+    "mean_when_active": 0.049452887641059026,
+    "max_activation": 0.106689453125,
+    "std_when_active": 0.025195840009559708,
+    "activation_rate": 0.00018
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6434,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ed",
+        "count": 739,
+        "mean_activation": 0.21394189155795415
+      },
+      {
+        "token": "o",
+        "count": 325,
+        "mean_activation": 0.060402972881610575
+      },
+      {
+        "token": "h",
+        "count": 277,
+        "mean_activation": 0.1211084028443705
+      },
+      {
+        "token": "t",
+        "count": 270,
+        "mean_activation": 0.18119727240668404
+      },
+      {
+        "token": "-",
+        "count": 247,
+        "mean_activation": 0.06711810030917889
+      },
+      {
+        "token": "b",
+        "count": 220,
+        "mean_activation": 0.15072486183860084
+      },
+      {
+        "token": "ban",
+        "count": 212,
+        "mean_activation": 0.019789317868790537
+      },
+      {
+        "token": "n",
+        "count": 203,
+        "mean_activation": 0.055729757976062194
+      },
+      {
+        "token": "quit",
+        "count": 188,
+        "mean_activation": 0.01679931802952543
+      },
+      {
+        "token": "a",
+        "count": 166,
+        "mean_activation": 0.04772287391754518
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6434,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... and the wolverine ben**ed**icts!   Amazing  great...",
+        "active_token": "ed",
+        "activation": 0.436279296875,
+        "review_id": "5VSLA-Xl_c8EZTs-BKviYA",
+        "position": 29
+      },
+      {
+        "context": "... the most creative ben**ed**icts I've ever seen (a...",
+        "active_token": "ed",
+        "activation": 0.430908203125,
+        "review_id": "SnvKD30DGm3CzGHq3P64Gw",
+        "position": 67
+      },
+      {
+        "context": "...ed one of the eggs ben**ed**icts (I got the \"Wilma...",
+        "active_token": "ed",
+        "activation": 0.4306640625,
+        "review_id": "BGOqxzsChPO5bdSIumaiKw",
+        "position": 19
+      },
+      {
+        "context": "... got the wolverine ben**ed**ict and loved it - I g...",
+        "active_token": "ed",
+        "activation": 0.429931640625,
+        "review_id": "2pzyTby8dTj68tg5IGGrlg",
+        "position": 34
+      },
+      {
+        "context": "...ad the black widow ben**ed**ict and thought it was...",
+        "active_token": "ed",
+        "activation": 0.4296875,
+        "review_id": "qMjoxrKIurK4TFRfAC4Jug",
+        "position": 354
+      },
+      {
+        "context": "...ody marys the crab ben**ed**ict onion rings everyt...",
+        "active_token": "ed",
+        "activation": 0.428955078125,
+        "review_id": "rohAGsRhMLtYWEluwyZDkA",
+        "position": 93
+      },
+      {
+        "context": "... the chipotle eggs ben**ed**icto, so I got the hue...",
+        "active_token": "ed",
+        "activation": 0.428466796875,
+        "review_id": "Ounxtd7-LD2iOjSqaZLxLw",
+        "position": 74
+      },
+      {
+        "context": "... had the crab cake ben**ed**ict which came with po...",
+        "active_token": "ed",
+        "activation": 0.427734375,
+        "review_id": "wo7TcxvxJKrU_gm8nfz8lw",
+        "position": 74
+      },
+      {
+        "context": "...ir version of eggs ben**ed**ict and were so full a...",
+        "active_token": "ed",
+        "activation": 0.427001953125,
+        "review_id": "FkoK-8BdTwUtGZGcY8mx6A",
+        "position": 84
+      },
+      {
+        "context": "...ns. The leprechaun ben**ed**ict is one of my favor...",
+        "active_token": "ed",
+        "activation": 0.426025390625,
+        "review_id": "qAyu7NG-sTarg22LIWcoWA",
+        "position": 139
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15009,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1982,
+        "max": 0.4363,
+        "mean": 0.3351
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " bened",
+          "count": 333,
+          "percent": 66.6
+        },
+        {
+          "ngram": [
+            "ed",
+            "ict"
+          ],
+          "ngram_str": "edict",
+          "count": 283,
+          "percent": 56.6
+        },
+        {
+          "ngram": [
+            " eggs",
+            " ben"
+          ],
+          "ngram_str": " eggs ben",
+          "count": 165,
+          "percent": 33.0
+        },
+        {
+          "ngram": [
+            "t",
+            "aste"
+          ],
+          "ngram_str": "taste",
+          "count": 132,
+          "percent": 26.4
+        },
+        {
+          "ngram": [
+            " after",
+            "t"
+          ],
+          "ngram_str": " aftert",
+          "count": 131,
+          "percent": 26.2
+        },
+        {
+          "ngram": [
+            "aste",
+            "."
+          ],
+          "ngram_str": "aste.",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            "ed",
+            "icts"
+          ],
+          "ngram_str": "edicts",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " eggs"
+          ],
+          "ngram_str": " the eggs",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "ict",
+            " and"
+          ],
+          "ngram_str": "ict and",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " had",
+            " a"
+          ],
+          "ngram_str": " had a",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "ict",
+            "."
+          ],
+          "ngram_str": "ict.",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "ict",
+            ","
+          ],
+          "ngram_str": "ict,",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " ben",
+            "ed",
+            "ict"
+          ],
+          "ngram_str": " benedict",
+          "count": 283,
+          "percent": 56.6
+        },
+        {
+          "ngram": [
+            " eggs",
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " eggs bened",
+          "count": 163,
+          "percent": 32.6
+        },
+        {
+          "ngram": [
+            " after",
+            "t",
+            "aste"
+          ],
+          "ngram_str": " aftertaste",
+          "count": 131,
+          "percent": 26.2
+        },
+        {
+          "ngram": [
+            "t",
+            "aste",
+            "."
+          ],
+          "ngram_str": "taste.",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " ben",
+            "ed",
+            "icts"
+          ],
+          "ngram_str": " benedicts",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " eggs",
+            " ben"
+          ],
+          "ngram_str": " the eggs ben",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "ed",
+            "ict",
+            " and"
+          ],
+          "ngram_str": "edict and",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "ed",
+            "ict",
+            "."
+          ],
+          "ngram_str": "edict.",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "ed",
+            "ict",
+            ","
+          ],
+          "ngram_str": "edict,",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "ed",
+            "ict",
+            " with"
+          ],
+          "ngram_str": "edict with",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " the",
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " the bened",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " weird",
+            " after",
+            "t"
+          ],
+          "ngram_str": " weird aftert",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " a",
+            " weird",
+            " after"
+          ],
+          "ngram_str": " a weird after",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " of",
+            " eggs",
+            " ben"
+          ],
+          "ngram_str": " of eggs ben",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " eggs",
+            " ben",
+            "ed",
+            "ict"
+          ],
+          "ngram_str": " eggs benedict",
+          "count": 159,
+          "percent": 31.8
+        },
+        {
+          "ngram": [
+            " after",
+            "t",
+            "aste",
+            "."
+          ],
+          "ngram_str": " aftertaste.",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " the",
+            " eggs",
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " the eggs bened",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " ben",
+            "ed",
+            "ict",
+            " and"
+          ],
+          "ngram_str": " benedict and",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " ben",
+            "ed",
+            "ict",
+            "."
+          ],
+          "ngram_str": " benedict.",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " ben",
+            "ed",
+            "ict",
+            ","
+          ],
+          "ngram_str": " benedict,",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " ben",
+            "ed",
+            "ict",
+            " with"
+          ],
+          "ngram_str": " benedict with",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " weird",
+            " after",
+            "t",
+            "aste"
+          ],
+          "ngram_str": " weird aftertaste",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " a",
+            " weird",
+            " after",
+            "t"
+          ],
+          "ngram_str": " a weird aftert",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " of",
+            " eggs",
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " of eggs bened",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " The",
+            " eggs",
+            " ben",
+            "ed"
+          ],
+          "ngram_str": " The eggs bened",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "t",
+            "aste",
+            ".",
+            " "
+          ],
+          "ngram_str": "taste. ",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " ordered",
+            " the",
+            " eggs",
+            " ben"
+          ],
+          "ngram_str": " ordered the eggs ben",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "t",
+            "aste",
+            ".",
+            " The"
+          ],
+          "ngram_str": "taste. The",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " eggs",
+            " ben"
+          ],
+          "ngram_str": ". The eggs ben",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6434,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 5196,
+        "count": 3743,
+        "percent": 58.18
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3270,
+        "percent": 50.82
+      },
+      {
+        "feature_idx": 17861,
+        "count": 3133,
+        "percent": 48.69
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2725,
+        "percent": 42.35
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2366,
+        "percent": 36.77
+      },
+      {
+        "feature_idx": 22490,
+        "count": 2147,
+        "percent": 33.37
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1707,
+        "percent": 26.53
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1658,
+        "percent": 25.77
+      },
+      {
+        "feature_idx": 16077,
+        "count": 1539,
+        "percent": 23.92
+      },
+      {
+        "feature_idx": 1390,
+        "count": 1537,
+        "percent": 23.89
+      },
+      {
+        "feature_idx": 19926,
+        "count": 1418,
+        "percent": 22.04
+      },
+      {
+        "feature_idx": 16236,
+        "count": 1368,
+        "percent": 21.26
+      },
+      {
+        "feature_idx": 8649,
+        "count": 1355,
+        "percent": 21.06
+      },
+      {
+        "feature_idx": 11260,
+        "count": 1344,
+        "percent": 20.89
+      },
+      {
+        "feature_idx": 14765,
+        "count": 1290,
+        "percent": 20.05
+      },
+      {
+        "feature_idx": 2761,
+        "count": 1193,
+        "percent": 18.54
+      },
+      {
+        "feature_idx": 2467,
+        "count": 1128,
+        "percent": 17.53
+      },
+      {
+        "feature_idx": 4086,
+        "count": 1037,
+        "percent": 16.12
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1021,
+        "percent": 15.87
+      },
+      {
+        "feature_idx": 10352,
+        "count": 1011,
+        "percent": 15.71
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6434,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1265,
+        "percent": 19.66
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1286,
+        "percent": 19.99
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1300,
+        "percent": 20.21
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1290,
+        "percent": 20.05
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1293,
+        "percent": 20.1
+      }
+    ],
+    "mean_position": 0.5033,
+    "std_position": 0.2906
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 18,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0284,
+      "p25": 0.0309,
+      "p50": 0.0359,
+      "p75": 0.0644,
+      "p90": 0.0887,
+      "p95": 0.1039,
+      "p99": 0.1061
+    },
+    "skewness": 1.1604,
+    "kurtosis": 0.0311,
+    "min": 0.0258,
+    "max": 0.1067,
+    "mean": 0.0495,
+    "std": 0.0252
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 18,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": "c",
+        "count": 3,
+        "mean_activation": 0.0331
+      },
+      {
+        "token": "bl",
+        "count": 2,
+        "mean_activation": 0.0929
+      },
+      {
+        "token": " and",
+        "count": 1,
+        "mean_activation": 0.0283
+      },
+      {
+        "token": "abe",
+        "count": 1,
+        "mean_activation": 0.0484
+      },
+      {
+        "token": "ber",
+        "count": 1,
+        "mean_activation": 0.0701
+      },
+      {
+        "token": "o",
+        "count": 1,
+        "mean_activation": 0.03
+      },
+      {
+        "token": "er",
+        "count": 1,
+        "mean_activation": 0.0491
+      },
+      {
+        "token": "no",
+        "count": 1,
+        "mean_activation": 0.1067
+      },
+      {
+        "token": "an",
+        "count": 1,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " after",
+        "count": 1,
+        "mean_activation": 0.0284
+      }
+    ]
+  }
+}

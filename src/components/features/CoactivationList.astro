@@ -1,0 +1,35 @@
+---
+interface CoactivationData {
+  feature_idx: number;
+  count: number;
+  percent: number;
+}
+
+interface Props {
+  coactivations: CoactivationData[];
+}
+
+const { coactivations } = Astro.props;
+---
+
+<div class="space-y-2">
+  {coactivations.slice(0, 15).map((co) => (
+    <div class="flex items-center justify-between py-2 border-b border-gray-100 last:border-0">
+      <a
+        href={`/features/${co.feature_idx}`}
+        class="text-blue-600 hover:text-blue-800 font-medium"
+      >
+        Feature {co.feature_idx}
+      </a>
+      <div class="flex items-center space-x-4 text-sm">
+        <span class="text-gray-600">{co.count.toLocaleString()} times</span>
+        <span class="bg-gray-100 px-2 py-0.5 rounded text-gray-500">
+          {co.percent.toFixed(2)}%
+        </span>
+      </div>
+    </div>
+  ))}
+  {coactivations.length === 0 && (
+    <p class="text-gray-400 text-sm">No coactivation data available</p>
+  )}
+</div>

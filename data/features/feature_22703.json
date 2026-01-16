@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22703,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 95,
+    "mean_when_active": 0.07727074874074835,
+    "max_activation": 0.16845703125,
+    "std_when_active": 0.04081320652831199,
+    "activation_rate": 0.00095
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 41889,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " prices",
+        "count": 23438,
+        "mean_activation": 0.08956121370973252
+      },
+      {
+        "token": " menus",
+        "count": 3451,
+        "mean_activation": 0.06456509647905498
+      },
+      {
+        "token": " Prices",
+        "count": 3158,
+        "mean_activation": 0.14335989876590702
+      },
+      {
+        "token": " price",
+        "count": 2506,
+        "mean_activation": 0.025358506040580733
+      },
+      {
+        "token": " pricing",
+        "count": 1726,
+        "mean_activation": 0.1715219084384958
+      },
+      {
+        "token": " menu",
+        "count": 1401,
+        "mean_activation": 0.01879626593361745
+      },
+      {
+        "token": " ordering",
+        "count": 950,
+        "mean_activation": 0.034142271343030425
+      },
+      {
+        "token": "ices",
+        "count": 716,
+        "mean_activation": 0.09576268968635432
+      },
+      {
+        "token": " priced",
+        "count": 455,
+        "mean_activation": 0.022145751282408997
+      },
+      {
+        "token": " are",
+        "count": 383,
+        "mean_activation": 0.0182340537287859
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 41889,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...Available items and** pricing** can be found on th...",
+        "active_token": " pricing",
+        "activation": 0.241455078125,
+        "review_id": "2lt-5acErh4RGIVLpVow-w",
+        "position": 105
+      },
+      {
+        "context": "...salad. Ingredients,** pricing**, taste and quality...",
+        "active_token": " pricing",
+        "activation": 0.2305908203125,
+        "review_id": "SRSguumcrTSaMuyzIQ0Cug",
+        "position": 802
+      },
+      {
+        "context": "...ood menu selection,** pricing** and quality of foo...",
+        "active_token": " pricing",
+        "activation": 0.22021484375,
+        "review_id": "Tu641swzqxdkiNONNGI2Iw",
+        "position": 26
+      },
+      {
+        "context": "... and spend more $$.** Pricing** for all items very...",
+        "active_token": " Pricing",
+        "activation": 0.219970703125,
+        "review_id": "ISpm8FpCUi3cPnjPYiJCaw",
+        "position": 206
+      },
+      {
+        "context": "...ine list very nice!** Pricing** commensurate with ...",
+        "active_token": " Pricing",
+        "activation": 0.217041015625,
+        "review_id": "ffCuUuZq9ZULtEDbTdvg8g",
+        "position": 158
+      },
+      {
+        "context": "... beef or pork) with** pricing** ranging from $1.25...",
+        "active_token": " pricing",
+        "activation": 0.2166748046875,
+        "review_id": "KDb47YoAvkSgikKL6atr3Q",
+        "position": 174
+      },
+      {
+        "context": "...hat they don't have** pricing** up outside. Maybe ...",
+        "active_token": " pricing",
+        "activation": 0.2166748046875,
+        "review_id": "fZt1wYGWFXLdYpMDC55NFw",
+        "position": 53
+      },
+      {
+        "context": "... free fill-up). The** pricing** on everything is m...",
+        "active_token": " pricing",
+        "activation": 0.2161865234375,
+        "review_id": "RoWJYt5MXMZ-LWfh2lOFbg",
+        "position": 93
+      },
+      {
+        "context": "...surcharges gone and** pricing** returns to normal ...",
+        "active_token": " pricing",
+        "activation": 0.2158203125,
+        "review_id": "FKogwccozk1SZOeRPMzCNQ",
+        "position": 169
+      },
+      {
+        "context": "...ervice, food ok and** pricing** is good for the fo...",
+        "active_token": " pricing",
+        "activation": 0.2154541015625,
+        "review_id": "O_2KKEULkheNTyQT-ZP68A",
+        "position": 46
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22703,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1842,
+        "max": 0.2415,
+        "mean": 0.1933
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " pricing",
+            " is"
+          ],
+          "ngram_str": " pricing is",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            " the",
+            " pricing"
+          ],
+          "ngram_str": " the pricing",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " The",
+            " pricing"
+          ],
+          "ngram_str": " The pricing",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Pricing"
+          ],
+          "ngram_str": ". Pricing",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " Pricing",
+            " is"
+          ],
+          "ngram_str": " Pricing is",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " pricing",
+            "."
+          ],
+          "ngram_str": " pricing.",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " pricing",
+            ","
+          ],
+          "ngram_str": " pricing,",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " pricing"
+          ],
+          "ngram_str": " and pricing",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " is",
+            " very"
+          ],
+          "ngram_str": " is very",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " for",
+            " the"
+          ],
+          "ngram_str": " for the",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " very",
+            " reasonable"
+          ],
+          "ngram_str": " very reasonable",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Pricing",
+            " is"
+          ],
+          "ngram_str": ". Pricing is",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " pricing"
+          ],
+          "ngram_str": ". The pricing",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " The",
+            " pricing",
+            " is"
+          ],
+          "ngram_str": " The pricing is",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " the",
+            " pricing",
+            " is"
+          ],
+          "ngram_str": " the pricing is",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " happy",
+            " hour",
+            " pricing"
+          ],
+          "ngram_str": " happy hour pricing",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " pricing"
+          ],
+          "ngram_str": " and the pricing",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " is",
+            " very",
+            " reasonable"
+          ],
+          "ngram_str": " is very reasonable",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " pricing",
+            " is",
+            " very"
+          ],
+          "ngram_str": " pricing is very",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " pricing",
+            " was"
+          ],
+          "ngram_str": " the pricing was",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " pricing",
+            " is",
+            " a"
+          ],
+          "ngram_str": " pricing is a",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " pricing"
+          ],
+          "ngram_str": "  The pricing",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Pricing"
+          ],
+          "ngram_str": ".  Pricing",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " The",
+            " pricing",
+            " is"
+          ],
+          "ngram_str": ". The pricing is",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " pricing",
+            " is"
+          ],
+          "ngram_str": " and the pricing is",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " pricing",
+            " is",
+            " very",
+            " reasonable"
+          ],
+          "ngram_str": " pricing is very reasonable",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " pricing",
+            " is"
+          ],
+          "ngram_str": "  The pricing is",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Pricing",
+            " is"
+          ],
+          "ngram_str": ".  Pricing is",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " pricing"
+          ],
+          "ngram_str": ".  The pricing",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The",
+            " pricing"
+          ],
+          "ngram_str": "\u00c4\u012cThe pricing",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " the",
+            " happy",
+            " hour",
+            " pricing"
+          ],
+          "ngram_str": " the happy hour pricing",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " pricing",
+            " is",
+            " a",
+            " little"
+          ],
+          "ngram_str": " pricing is a little",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " pricing",
+            " is",
+            " a",
+            " bit"
+          ],
+          "ngram_str": " pricing is a bit",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " The",
+            " pricing",
+            " is",
+            " very"
+          ],
+          "ngram_str": " The pricing is very",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Pricing",
+            " is",
+            " very"
+          ],
+          "ngram_str": ". Pricing is very",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11800000,
+      "corpus_coverage": 0.2282
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10806,
+        "count": 8000,
+        "percent": 80.0
+      },
+      {
+        "feature_idx": 16471,
+        "count": 7887,
+        "percent": 78.87
+      },
+      {
+        "feature_idx": 727,
+        "count": 7855,
+        "percent": 78.55
+      },
+      {
+        "feature_idx": 18503,
+        "count": 7718,
+        "percent": 77.18
+      },
+      {
+        "feature_idx": 5628,
+        "count": 7426,
+        "percent": 74.26
+      },
+      {
+        "feature_idx": 14559,
+        "count": 6873,
+        "percent": 68.73
+      },
+      {
+        "feature_idx": 12356,
+        "count": 6361,
+        "percent": 63.61
+      },
+      {
+        "feature_idx": 12830,
+        "count": 4964,
+        "percent": 49.64
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4742,
+        "percent": 47.42
+      },
+      {
+        "feature_idx": 1427,
+        "count": 4733,
+        "percent": 47.33
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4685,
+        "percent": 46.85
+      },
+      {
+        "feature_idx": 24267,
+        "count": 4683,
+        "percent": 46.83
+      },
+      {
+        "feature_idx": 11584,
+        "count": 4666,
+        "percent": 46.66
+      },
+      {
+        "feature_idx": 8036,
+        "count": 4446,
+        "percent": 44.46
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4098,
+        "percent": 40.98
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3904,
+        "percent": 39.04
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3836,
+        "percent": 38.36
+      },
+      {
+        "feature_idx": 4266,
+        "count": 3561,
+        "percent": 35.61
+      },
+      {
+        "feature_idx": 9212,
+        "count": 3292,
+        "percent": 32.92
+      },
+      {
+        "feature_idx": 9642,
+        "count": 2869,
+        "percent": 28.69
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11800000,
+      "corpus_coverage": 0.2282
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1615,
+        "percent": 16.15
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2043,
+        "percent": 20.43
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1840,
+        "percent": 18.4
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2017,
+        "percent": 20.17
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2485,
+        "percent": 24.85
+      }
+    ],
+    "mean_position": 0.5365,
+    "std_position": 0.2869
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 95,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0204,
+      "p25": 0.0339,
+      "p50": 0.0884,
+      "p75": 0.1046,
+      "p90": 0.125,
+      "p95": 0.1475,
+      "p99": 0.1683
+    },
+    "skewness": 0.0578,
+    "kurtosis": -0.8443,
+    "min": 0.0122,
+    "max": 0.1685,
+    "mean": 0.0773,
+    "std": 0.0408
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 95,
+      "unique_tokens_found": 22
+    },
+    "tokens": [
+      {
+        "token": " prices",
+        "count": 52,
+        "mean_activation": 0.0951
+      },
+      {
+        "token": " menu",
+        "count": 5,
+        "mean_activation": 0.0229
+      },
+      {
+        "token": " Prices",
+        "count": 5,
+        "mean_activation": 0.1452
+      },
+      {
+        "token": " menus",
+        "count": 5,
+        "mean_activation": 0.0731
+      },
+      {
+        "token": " price",
+        "count": 4,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " pricing",
+        "count": 3,
+        "mean_activation": 0.1555
+      },
+      {
+        "token": " ingredients",
+        "count": 2,
+        "mean_activation": 0.0234
+      },
+      {
+        "token": " ordering",
+        "count": 2,
+        "mean_activation": 0.041
+      },
+      {
+        "token": " are",
+        "count": 2,
+        "mean_activation": 0.0164
+      },
+      {
+        "token": " reasonable",
+        "count": 2,
+        "mean_activation": 0.018
+      }
+    ]
+  }
+}

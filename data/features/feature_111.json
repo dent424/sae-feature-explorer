@@ -1,0 +1,861 @@
+{
+  "feature_idx": 111,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 11,
+    "mean_when_active": 0.053285078568892044,
+    "max_activation": 0.1929931640625,
+    "std_when_active": 0.04729896308247417,
+    "activation_rate": 0.00011
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6185,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " at",
+        "count": 1631,
+        "mean_activation": 0.07936628518259503
+      },
+      {
+        "token": " the",
+        "count": 804,
+        "mean_activation": 0.03846612617151061
+      },
+      {
+        "token": " out",
+        "count": 445,
+        "mean_activation": 0.02976333103822858
+      },
+      {
+        "token": " about",
+        "count": 340,
+        "mean_activation": 0.052728765151079965
+      },
+      {
+        "token": " of",
+        "count": 292,
+        "mean_activation": 0.0901834148250214
+      },
+      {
+        "token": " it",
+        "count": 206,
+        "mean_activation": 0.050960688915067505
+      },
+      {
+        "token": " look",
+        "count": 167,
+        "mean_activation": 0.05379591159477919
+      },
+      {
+        "token": " watch",
+        "count": 145,
+        "mean_activation": 0.04786903118265086
+      },
+      {
+        "token": " consider",
+        "count": 138,
+        "mean_activation": 0.038809624271116394
+      },
+      {
+        "token": " to",
+        "count": 131,
+        "mean_activation": 0.04411362509691078
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6185,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...full! Seriously, look** at** the picture the Margs...",
+        "active_token": " at",
+        "activation": 0.26611328125,
+        "review_id": "Ij9z8QtR02IIrkR5EzTjXw",
+        "position": 45
+      },
+      {
+        "context": "...an most. I mean, look** at** the selection of tequ...",
+        "active_token": " at",
+        "activation": 0.26318359375,
+        "review_id": "IpA5VXeaRgwtnuWahyb67w",
+        "position": 103
+      },
+      {
+        "context": "...ry. I mean, just look** at** the picture! look at ...",
+        "active_token": " at",
+        "activation": 0.256591796875,
+        "review_id": "RXr4cl8HAKRR5VoIL33AwQ",
+        "position": 250
+      },
+      {
+        "context": "... industry...just look** at** Applebees 20 years ag...",
+        "active_token": " at",
+        "activation": 0.251953125,
+        "review_id": "rOYMj13WJYQfzpdHI59UWg",
+        "position": 283
+      },
+      {
+        "context": "...oly cow, though, look** at** all this food! I coul...",
+        "active_token": " at",
+        "activation": 0.2509765625,
+        "review_id": "VOQeLyTsJpP0zlXPqKIyDg",
+        "position": 173
+      },
+      {
+        "context": "...sgusting. \\n\\nJust look** at** the outrageous pricin...",
+        "active_token": " at",
+        "activation": 0.250244140625,
+        "review_id": "7i_YQL3CPe28iXnoLHgHCg",
+        "position": 117
+      },
+      {
+        "context": "...restaurant. \"Oh, look** at** this neighborhood! We...",
+        "active_token": " at",
+        "activation": 0.2496337890625,
+        "review_id": "nUIZijZTw584blHCLHBL4A",
+        "position": 437
+      },
+      {
+        "context": "... favorite drink. Look** at** that color!! \\n\\nThe fr...",
+        "active_token": " at",
+        "activation": 0.248779296875,
+        "review_id": "VRQ4JRHzoRM4GUJG9pSW0Q",
+        "position": 368
+      },
+      {
+        "context": "...enu, but really, look** at** the context. It's an ...",
+        "active_token": " at",
+        "activation": 0.24755859375,
+        "review_id": "6g9YxpZiNwKaU19dgT-KVA",
+        "position": 59
+      },
+      {
+        "context": "...esy though. Just look** at** the pictures for more...",
+        "active_token": " at",
+        "activation": 0.2467041015625,
+        "review_id": "C47xlSATL8ZOlyBNQAOKmg",
+        "position": 188
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 111,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1248,
+        "max": 0.2661,
+        "mean": 0.1713
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " look",
+            " at"
+          ],
+          "ngram_str": " look at",
+          "count": 163,
+          "percent": 32.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 160,
+          "percent": 32.0
+        },
+        {
+          "ngram": [
+            " Look",
+            " at"
+          ],
+          "ngram_str": " Look at",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " Think",
+            " of"
+          ],
+          "ngram_str": " Think of",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Look"
+          ],
+          "ngram_str": ". Look",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Think"
+          ],
+          "ngram_str": ". Think",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " lam",
+            "inated"
+          ],
+          "ngram_str": " laminated",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ",",
+            " look"
+          ],
+          "ngram_str": ", look",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " of",
+            " it"
+          ],
+          "ngram_str": " of it",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " at",
+            " my"
+          ],
+          "ngram_str": " at my",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " it",
+            " as"
+          ],
+          "ngram_str": " it as",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Think"
+          ],
+          "ngram_str": "  Think",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " look",
+            " at",
+            " the"
+          ],
+          "ngram_str": " look at the",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Look",
+            " at"
+          ],
+          "ngram_str": ". Look at",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " Look",
+            " at",
+            " the"
+          ],
+          "ngram_str": " Look at the",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Think",
+            " of"
+          ],
+          "ngram_str": ". Think of",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ",",
+            " look",
+            " at"
+          ],
+          "ngram_str": ", look at",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " of",
+            " it",
+            " as"
+          ],
+          "ngram_str": " of it as",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " Think",
+            " of",
+            " it"
+          ],
+          "ngram_str": " Think of it",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " ",
+            " Look",
+            " at"
+          ],
+          "ngram_str": "  Look at",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " ",
+            " Think",
+            " of"
+          ],
+          "ngram_str": "  Think of",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " just",
+            " look",
+            " at"
+          ],
+          "ngram_str": " just look at",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Just",
+            " look",
+            " at"
+          ],
+          "ngram_str": " Just look at",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Think"
+          ],
+          "ngram_str": ".  Think",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " pictures"
+          ],
+          "ngram_str": " at the pictures",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " Look",
+            " at",
+            " the"
+          ],
+          "ngram_str": ". Look at the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " Think",
+            " of",
+            " it",
+            " as"
+          ],
+          "ngram_str": " Think of it as",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Think",
+            " of"
+          ],
+          "ngram_str": ".  Think of",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Think",
+            " of",
+            " it"
+          ],
+          "ngram_str": ". Think of it",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ",",
+            " look",
+            " at",
+            " the"
+          ],
+          "ngram_str": ", look at the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " Just",
+            " look",
+            " at",
+            " the"
+          ],
+          "ngram_str": " Just look at the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Look",
+            " at"
+          ],
+          "ngram_str": ".  Look at",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " ",
+            " Look",
+            " at",
+            " the"
+          ],
+          "ngram_str": "  Look at the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " of",
+            " it",
+            " as",
+            " a"
+          ],
+          "ngram_str": " of it as a",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Just",
+            " look",
+            " at"
+          ],
+          "ngram_str": ". Just look at",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " look",
+            " at",
+            " the",
+            " pictures"
+          ],
+          "ngram_str": " look at the pictures",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " look",
+            " at",
+            " the",
+            " picture"
+          ],
+          "ngram_str": " look at the picture",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " look",
+            " at",
+            " the"
+          ],
+          "ngram_str": " a look at the",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " just",
+            " look",
+            " at",
+            " the"
+          ],
+          "ngram_str": " just look at the",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6185,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 19024,
+        "count": 3944,
+        "percent": 63.77
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3110,
+        "percent": 50.28
+      },
+      {
+        "feature_idx": 9001,
+        "count": 3079,
+        "percent": 49.78
+      },
+      {
+        "feature_idx": 7488,
+        "count": 2939,
+        "percent": 47.52
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2867,
+        "percent": 46.35
+      },
+      {
+        "feature_idx": 8374,
+        "count": 2807,
+        "percent": 45.38
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2397,
+        "percent": 38.76
+      },
+      {
+        "feature_idx": 19114,
+        "count": 2352,
+        "percent": 38.03
+      },
+      {
+        "feature_idx": 20765,
+        "count": 2287,
+        "percent": 36.98
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2275,
+        "percent": 36.78
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2029,
+        "percent": 32.81
+      },
+      {
+        "feature_idx": 19508,
+        "count": 1897,
+        "percent": 30.67
+      },
+      {
+        "feature_idx": 6525,
+        "count": 1855,
+        "percent": 29.99
+      },
+      {
+        "feature_idx": 17261,
+        "count": 1854,
+        "percent": 29.98
+      },
+      {
+        "feature_idx": 24308,
+        "count": 1649,
+        "percent": 26.66
+      },
+      {
+        "feature_idx": 14456,
+        "count": 1637,
+        "percent": 26.47
+      },
+      {
+        "feature_idx": 11950,
+        "count": 1556,
+        "percent": 25.16
+      },
+      {
+        "feature_idx": 6483,
+        "count": 1524,
+        "percent": 24.64
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1485,
+        "percent": 24.01
+      },
+      {
+        "feature_idx": 22911,
+        "count": 1218,
+        "percent": 19.69
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6185,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1127,
+        "percent": 18.22
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1030,
+        "percent": 16.65
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1112,
+        "percent": 17.98
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1244,
+        "percent": 20.11
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1672,
+        "percent": 27.03
+      }
+    ],
+    "mean_position": 0.5432,
+    "std_position": 0.2993
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 11,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0229,
+      "p25": 0.0258,
+      "p50": 0.0319,
+      "p75": 0.0605,
+      "p90": 0.0654,
+      "p95": 0.1292,
+      "p99": 0.1802
+    },
+    "skewness": 2.2232,
+    "kurtosis": 3.9994,
+    "min": 0.017,
+    "max": 0.193,
+    "mean": 0.0533,
+    "std": 0.0473
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 11,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " out",
+        "count": 3,
+        "mean_activation": 0.0278
+      },
+      {
+        "token": " at",
+        "count": 3,
+        "mean_activation": 0.1049
+      },
+      {
+        "token": " consider",
+        "count": 1,
+        "mean_activation": 0.0292
+      },
+      {
+        "token": " money",
+        "count": 1,
+        "mean_activation": 0.017
+      },
+      {
+        "token": " it",
+        "count": 1,
+        "mean_activation": 0.0541
+      },
+      {
+        "token": " my",
+        "count": 1,
+        "mean_activation": 0.0647
+      },
+      {
+        "token": " what",
+        "count": 1,
+        "mean_activation": 0.0229
+      }
+    ]
+  }
+}

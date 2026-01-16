@@ -1,0 +1,876 @@
+{
+  "feature_idx": 10433,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 88,
+    "mean_when_active": 0.10566902160644531,
+    "max_activation": 0.271728515625,
+    "std_when_active": 0.08120298476304057,
+    "activation_rate": 0.00088
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 42959,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " business",
+        "count": 11935,
+        "mean_activation": 0.21551392726634505
+      },
+      {
+        "token": " concept",
+        "count": 2255,
+        "mean_activation": 0.054885221426344236
+      },
+      {
+        "token": " company",
+        "count": 1707,
+        "mean_activation": 0.08772676509238156
+      },
+      {
+        "token": " office",
+        "count": 1510,
+        "mean_activation": 0.08999035563689983
+      },
+      {
+        "token": " businesses",
+        "count": 1295,
+        "mean_activation": 0.13175524855212356
+      },
+      {
+        "token": " industry",
+        "count": 1045,
+        "mean_activation": 0.056733097642232354
+      },
+      {
+        "token": " corporate",
+        "count": 1003,
+        "mean_activation": 0.1494651786827019
+      },
+      {
+        "token": " product",
+        "count": 991,
+        "mean_activation": 0.07196951826694153
+      },
+      {
+        "token": " products",
+        "count": 781,
+        "mean_activation": 0.05507274046444862
+      },
+      {
+        "token": " policy",
+        "count": 710,
+        "mean_activation": 0.1392422528334067
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 42959,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... and exemplifies a** business** that is perfectly ...",
+        "active_token": " business",
+        "activation": 0.311767578125,
+        "review_id": "16YPFmaRPx8rfyb6e_eL8w",
+        "position": 346
+      },
+      {
+        "context": "...\\nCame through on a** business** trip and I love Me...",
+        "active_token": " business",
+        "activation": 0.3095703125,
+        "review_id": "Ey3Ts5rjzKJys8f3vNE6cQ",
+        "position": 22
+      },
+      {
+        "context": "...ting a review on a** business** that's just gettin...",
+        "active_token": " business",
+        "activation": 0.30908203125,
+        "review_id": "I81lEk_apYT36O3aK8DYjg",
+        "position": 14
+      },
+      {
+        "context": "...5-star review of a** business**!",
+        "active_token": " business",
+        "activation": 0.307373046875,
+        "review_id": "rVR-uNyMc7Sm3Rx3Q_B1eA",
+        "position": 216
+      },
+      {
+        "context": "...re and contributed** business** to this place hund...",
+        "active_token": " business",
+        "activation": 0.30712890625,
+        "review_id": "NXui0Uc8OJDnZu88cKLNjg",
+        "position": 20
+      },
+      {
+        "context": "...th colleagues on a** business** trip. Service is p...",
+        "active_token": " business",
+        "activation": 0.30419921875,
+        "review_id": "l1Lq0NmfCe4fdk9lu7JJsA",
+        "position": 13
+      },
+      {
+        "context": "...ed. I appreciate a** business** that's always work...",
+        "active_token": " business",
+        "activation": 0.30419921875,
+        "review_id": "68f-06la0nEOM6mBqIX6PQ",
+        "position": 164
+      },
+      {
+        "context": "...t we send a lot of** business** over. If I was pay...",
+        "active_token": " business",
+        "activation": 0.30322265625,
+        "review_id": "gekNxZOkMEazd2KKHAt_9Q",
+        "position": 76
+      },
+      {
+        "context": "...anything gave us a** business** card and said to a...",
+        "active_token": " business",
+        "activation": 0.302490234375,
+        "review_id": "3AecidkAW152UXM7yPZDvg",
+        "position": 90
+      },
+      {
+        "context": "...was there for some** business**, hungry and I like...",
+        "active_token": " business",
+        "activation": 0.302001953125,
+        "review_id": "eRKDA5jB1nSFFrbhMFwRnQ",
+        "position": 47
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10433,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2764,
+        "max": 0.3118,
+        "mean": 0.2843
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " business"
+          ],
+          "ngram_str": " a business",
+          "count": 274,
+          "percent": 54.8
+        },
+        {
+          "ngram": [
+            " on",
+            " a"
+          ],
+          "ngram_str": " on a",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " business",
+            " trip"
+          ],
+          "ngram_str": " business trip",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " the",
+            " business"
+          ],
+          "ngram_str": " the business",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " business",
+            " lunch"
+          ],
+          "ngram_str": " business lunch",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " business",
+            " that"
+          ],
+          "ngram_str": " business that",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " business",
+            " owner"
+          ],
+          "ngram_str": " business owner",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " business",
+            "."
+          ],
+          "ngram_str": " business.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " I",
+            " was"
+          ],
+          "ngram_str": " I was",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a"
+          ],
+          "ngram_str": " of a",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " trip",
+            " and"
+          ],
+          "ngram_str": " trip and",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " on",
+            " a",
+            " business"
+          ],
+          "ngram_str": " on a business",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " trip"
+          ],
+          "ngram_str": " a business trip",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " business"
+          ],
+          "ngram_str": " for a business",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " lunch"
+          ],
+          "ngram_str": " a business lunch",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " that"
+          ],
+          "ngram_str": " a business that",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " owner"
+          ],
+          "ngram_str": " a business owner",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " business",
+            " trip",
+            " and"
+          ],
+          "ngram_str": " business trip and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " business",
+            " trip",
+            "."
+          ],
+          "ngram_str": " business trip.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " business"
+          ],
+          "ngram_str": " of a business",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " business",
+            " trip",
+            " to"
+          ],
+          "ngram_str": " business trip to",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " meeting"
+          ],
+          "ngram_str": " a business meeting",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " as",
+            " a",
+            " business"
+          ],
+          "ngram_str": " as a business",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " business",
+            " lunch",
+            "."
+          ],
+          "ngram_str": " business lunch.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " from",
+            " a",
+            " business"
+          ],
+          "ngram_str": " from a business",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " on",
+            " a",
+            " business",
+            " trip"
+          ],
+          "ngram_str": " on a business trip",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " business",
+            " lunch"
+          ],
+          "ngram_str": " for a business lunch",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " trip",
+            " and"
+          ],
+          "ngram_str": " a business trip and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " trip",
+            "."
+          ],
+          "ngram_str": " a business trip.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " trip",
+            " to"
+          ],
+          "ngram_str": " a business trip to",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " business",
+            " lunch",
+            "."
+          ],
+          "ngram_str": " a business lunch.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " a",
+            " recent",
+            " business",
+            " trip"
+          ],
+          "ngram_str": " a recent business trip",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " was",
+            " on",
+            " a",
+            " business"
+          ],
+          "ngram_str": " was on a business",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " I",
+            " was",
+            " on",
+            " a"
+          ],
+          "ngram_str": " I was on a",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " As",
+            " a",
+            " business"
+          ],
+          "ngram_str": ". As a business",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " As",
+            " a",
+            " business",
+            " owner"
+          ],
+          "ngram_str": " As a business owner",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " while",
+            " on",
+            " a",
+            " business"
+          ],
+          "ngram_str": " while on a business",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 12200000,
+      "corpus_coverage": 0.236
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 6025,
+        "percent": 60.25
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3827,
+        "percent": 38.27
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3735,
+        "percent": 37.35
+      },
+      {
+        "feature_idx": 8755,
+        "count": 3407,
+        "percent": 34.07
+      },
+      {
+        "feature_idx": 9815,
+        "count": 3368,
+        "percent": 33.68
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3251,
+        "percent": 32.51
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2915,
+        "percent": 29.15
+      },
+      {
+        "feature_idx": 5422,
+        "count": 2739,
+        "percent": 27.39
+      },
+      {
+        "feature_idx": 16684,
+        "count": 2563,
+        "percent": 25.63
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2527,
+        "percent": 25.27
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2163,
+        "percent": 21.63
+      },
+      {
+        "feature_idx": 14723,
+        "count": 1971,
+        "percent": 19.71
+      },
+      {
+        "feature_idx": 24281,
+        "count": 1839,
+        "percent": 18.39
+      },
+      {
+        "feature_idx": 14918,
+        "count": 1835,
+        "percent": 18.35
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1697,
+        "percent": 16.97
+      },
+      {
+        "feature_idx": 1938,
+        "count": 1669,
+        "percent": 16.69
+      },
+      {
+        "feature_idx": 19995,
+        "count": 1453,
+        "percent": 14.53
+      },
+      {
+        "feature_idx": 19707,
+        "count": 1432,
+        "percent": 14.32
+      },
+      {
+        "feature_idx": 11584,
+        "count": 1431,
+        "percent": 14.31
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1389,
+        "percent": 13.89
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 12200000,
+      "corpus_coverage": 0.236
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2276,
+        "percent": 22.76
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1578,
+        "percent": 15.78
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1375,
+        "percent": 13.75
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1827,
+        "percent": 18.27
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2944,
+        "percent": 29.44
+      }
+    ],
+    "mean_position": 0.5341,
+    "std_position": 0.3228
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 88,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0249,
+      "p25": 0.0368,
+      "p50": 0.078,
+      "p75": 0.1844,
+      "p90": 0.2352,
+      "p95": 0.2539,
+      "p99": 0.2698
+    },
+    "skewness": 0.7352,
+    "kurtosis": -0.9099,
+    "min": 0.0178,
+    "max": 0.2717,
+    "mean": 0.1057,
+    "std": 0.0812
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 88,
+      "unique_tokens_found": 42
+    },
+    "tokens": [
+      {
+        "token": " business",
+        "count": 25,
+        "mean_activation": 0.2225
+      },
+      {
+        "token": " concept",
+        "count": 5,
+        "mean_activation": 0.0499
+      },
+      {
+        "token": " design",
+        "count": 4,
+        "mean_activation": 0.0337
+      },
+      {
+        "token": " campus",
+        "count": 3,
+        "mean_activation": 0.0832
+      },
+      {
+        "token": " office",
+        "count": 3,
+        "mean_activation": 0.0788
+      },
+      {
+        "token": " product",
+        "count": 3,
+        "mean_activation": 0.0796
+      },
+      {
+        "token": " market",
+        "count": 2,
+        "mean_activation": 0.032
+      },
+      {
+        "token": "biz",
+        "count": 2,
+        "mean_activation": 0.1315
+      },
+      {
+        "token": "_",
+        "count": 2,
+        "mean_activation": 0.0424
+      },
+      {
+        "token": " company",
+        "count": 2,
+        "mean_activation": 0.0939
+      }
+    ]
+  }
+}

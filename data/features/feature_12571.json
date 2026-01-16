@@ -1,0 +1,866 @@
+{
+  "feature_idx": 12571,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 35,
+    "mean_when_active": 0.10978001185825893,
+    "max_activation": 0.1883544921875,
+    "std_when_active": 0.0374748683171741,
+    "activation_rate": 0.00035
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 16156,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " counter",
+        "count": 10086,
+        "mean_activation": 0.12171186257656808
+      },
+      {
+        "token": " floor",
+        "count": 2671,
+        "mean_activation": 0.06331928443123186
+      },
+      {
+        "token": " ceiling",
+        "count": 838,
+        "mean_activation": 0.11845292339461516
+      },
+      {
+        "token": " ceilings",
+        "count": 254,
+        "mean_activation": 0.05605135940191314
+      },
+      {
+        "token": " curb",
+        "count": 235,
+        "mean_activation": 0.12164929978390958
+      },
+      {
+        "token": " counters",
+        "count": 210,
+        "mean_activation": 0.08250746954055059
+      },
+      {
+        "token": " couch",
+        "count": 201,
+        "mean_activation": 0.0754345946050995
+      },
+      {
+        "token": " stove",
+        "count": 125,
+        "mean_activation": 0.0541422119140625
+      },
+      {
+        "token": " floors",
+        "count": 92,
+        "mean_activation": 0.029268928196119225
+      },
+      {
+        "token": " Counter",
+        "count": 86,
+        "mean_activation": 0.08127150424691133
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 16156,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "A order at the** counter** (Baja Fresh-like) ...",
+        "active_token": " counter",
+        "activation": 0.2091064453125,
+        "review_id": "nzJmsQvobbcbgf5Ffv2NiQ",
+        "position": 4
+      },
+      {
+        "context": "...price. Order at the** counter** and they bring a g...",
+        "active_token": " counter",
+        "activation": 0.2080078125,
+        "review_id": "957jh8TpALXXaB-h88Wxig",
+        "position": 68
+      },
+      {
+        "context": "...decor. Order at the** counter**. Limited menu.",
+        "active_token": " counter",
+        "activation": 0.2080078125,
+        "review_id": "CSMnon5ala7pILt7OirWGQ",
+        "position": 68
+      },
+      {
+        "context": "...ou the order at the** counter**. \\n\\nFour stars and ...",
+        "active_token": " counter",
+        "activation": 0.203857421875,
+        "review_id": "AAIOa4iYynKjfqIkeDIBig",
+        "position": 196
+      },
+      {
+        "context": "...er is placed at the** counter**.\\n\\nThey have burger...",
+        "active_token": " counter",
+        "activation": 0.2034912109375,
+        "review_id": "z_Bn8T4E6aWd-noWLtu9Qw",
+        "position": 71
+      },
+      {
+        "context": "... door, order at the** counter** and somebody will ...",
+        "active_token": " counter",
+        "activation": 0.2030029296875,
+        "review_id": "BJCJFOrL93MK-zkjVe1smQ",
+        "position": 68
+      },
+      {
+        "context": "...n adults behind the** counter** I don't know what ...",
+        "active_token": " counter",
+        "activation": 0.2027587890625,
+        "review_id": "LhNCLCNuQy-6zO-d5ZEgAA",
+        "position": 13
+      },
+      {
+        "context": "... is an order at the** counter** type of place with...",
+        "active_token": " counter",
+        "activation": 0.202392578125,
+        "review_id": "5cZ1SQL5tZpX15vD6oZVVA",
+        "position": 70
+      },
+      {
+        "context": "...eed to order at the** counter** and are disrespect...",
+        "active_token": " counter",
+        "activation": 0.2022705078125,
+        "review_id": "rv0UNCYzG2Gmc_duFeeXWQ",
+        "position": 72
+      },
+      {
+        "context": "... servers behind the** counter** are putting togeth...",
+        "active_token": " counter",
+        "activation": 0.201416015625,
+        "review_id": "5h_FEtx85NsJivAYD7_JSw",
+        "position": 133
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 12571,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1742,
+        "max": 0.2091,
+        "mean": 0.1836
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " counter"
+          ],
+          "ngram_str": " the counter",
+          "count": 499,
+          "percent": 99.8
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 245,
+          "percent": 49.0
+        },
+        {
+          "ngram": [
+            " behind",
+            " the"
+          ],
+          "ngram_str": " behind the",
+          "count": 210,
+          "percent": 42.0
+        },
+        {
+          "ngram": [
+            " order",
+            " at"
+          ],
+          "ngram_str": " order at",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " counter",
+            " and"
+          ],
+          "ngram_str": " counter and",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " counter",
+            ","
+          ],
+          "ngram_str": " counter,",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " counter",
+            "."
+          ],
+          "ngram_str": " counter.",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " counter",
+            " was"
+          ],
+          "ngram_str": " counter was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " working",
+            " behind"
+          ],
+          "ngram_str": " working behind",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " they"
+          ],
+          "ngram_str": " and they",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " you",
+            " order"
+          ],
+          "ngram_str": " you order",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " at the counter",
+          "count": 244,
+          "percent": 48.8
+        },
+        {
+          "ngram": [
+            " behind",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " behind the counter",
+          "count": 210,
+          "percent": 42.0
+        },
+        {
+          "ngram": [
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " order at the",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            " and"
+          ],
+          "ngram_str": " the counter and",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            ","
+          ],
+          "ngram_str": " the counter,",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            "."
+          ],
+          "ngram_str": " the counter.",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " to the counter",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            " was"
+          ],
+          "ngram_str": " the counter was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " working",
+            " behind",
+            " the"
+          ],
+          "ngram_str": " working behind the",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " you",
+            " order",
+            " at"
+          ],
+          "ngram_str": " you order at",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " people",
+            " behind",
+            " the"
+          ],
+          "ngram_str": " people behind the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " up",
+            " to",
+            " the"
+          ],
+          "ngram_str": " up to the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " counter",
+            " and",
+            " they"
+          ],
+          "ngram_str": " counter and they",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "Order",
+            " at",
+            " the"
+          ],
+          "ngram_str": "Order at the",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " order",
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " order at the counter",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter",
+            " and"
+          ],
+          "ngram_str": " at the counter and",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter",
+            ","
+          ],
+          "ngram_str": " at the counter,",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " behind",
+            " the",
+            " counter",
+            "."
+          ],
+          "ngram_str": " behind the counter.",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " counter",
+            "."
+          ],
+          "ngram_str": " at the counter.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " behind",
+            " the",
+            " counter",
+            " and"
+          ],
+          "ngram_str": " behind the counter and",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " working",
+            " behind",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " working behind the counter",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " behind",
+            " the",
+            " counter",
+            " was"
+          ],
+          "ngram_str": " behind the counter was",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " you",
+            " order",
+            " at",
+            " the"
+          ],
+          "ngram_str": " you order at the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " people",
+            " behind",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " people behind the counter",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " up",
+            " to",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " up to the counter",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " behind",
+            " the",
+            " counter",
+            ","
+          ],
+          "ngram_str": " behind the counter,",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " the",
+            " counter",
+            " and",
+            " they"
+          ],
+          "ngram_str": " the counter and they",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "Order",
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": "Order at the counter",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " Order",
+            " at",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " Order at the counter",
+          "count": 15,
+          "percent": 3.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 32100000,
+      "corpus_coverage": 0.6209
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 15082,
+        "count": 8343,
+        "percent": 83.43
+      },
+      {
+        "feature_idx": 22001,
+        "count": 7829,
+        "percent": 78.29
+      },
+      {
+        "feature_idx": 1422,
+        "count": 6538,
+        "percent": 65.38
+      },
+      {
+        "feature_idx": 1948,
+        "count": 6424,
+        "percent": 64.24
+      },
+      {
+        "feature_idx": 9220,
+        "count": 6412,
+        "percent": 64.12
+      },
+      {
+        "feature_idx": 1323,
+        "count": 6408,
+        "percent": 64.08
+      },
+      {
+        "feature_idx": 2487,
+        "count": 6307,
+        "percent": 63.07
+      },
+      {
+        "feature_idx": 20295,
+        "count": 6106,
+        "percent": 61.06
+      },
+      {
+        "feature_idx": 17368,
+        "count": 4749,
+        "percent": 47.49
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4583,
+        "percent": 45.83
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4320,
+        "percent": 43.2
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3902,
+        "percent": 39.02
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3569,
+        "percent": 35.69
+      },
+      {
+        "feature_idx": 22483,
+        "count": 3566,
+        "percent": 35.66
+      },
+      {
+        "feature_idx": 18842,
+        "count": 3299,
+        "percent": 32.99
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3267,
+        "percent": 32.67
+      },
+      {
+        "feature_idx": 21872,
+        "count": 2810,
+        "percent": 28.1
+      },
+      {
+        "feature_idx": 13850,
+        "count": 2555,
+        "percent": 25.55
+      },
+      {
+        "feature_idx": 13863,
+        "count": 2531,
+        "percent": 25.31
+      },
+      {
+        "feature_idx": 7468,
+        "count": 2527,
+        "percent": 25.27
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 32100000,
+      "corpus_coverage": 0.6209
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1746,
+        "percent": 17.46
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2667,
+        "percent": 26.67
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2068,
+        "percent": 20.68
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1947,
+        "percent": 19.47
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1572,
+        "percent": 15.72
+      }
+    ],
+    "mean_position": 0.4799,
+    "std_position": 0.2644
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 35,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0597,
+      "p25": 0.0877,
+      "p50": 0.1122,
+      "p75": 0.137,
+      "p90": 0.1495,
+      "p95": 0.16,
+      "p99": 0.1861
+    },
+    "skewness": -0.214,
+    "kurtosis": -0.3514,
+    "min": 0.0281,
+    "max": 0.1884,
+    "mean": 0.1098,
+    "std": 0.0375
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 35,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " counter",
+        "count": 26,
+        "mean_activation": 0.1203
+      },
+      {
+        "token": " ceiling",
+        "count": 3,
+        "mean_activation": 0.1154
+      },
+      {
+        "token": " mattress",
+        "count": 1,
+        "mean_activation": 0.0407
+      },
+      {
+        "token": " floors",
+        "count": 1,
+        "mean_activation": 0.0281
+      },
+      {
+        "token": " floor",
+        "count": 1,
+        "mean_activation": 0.0606
+      },
+      {
+        "token": " curb",
+        "count": 1,
+        "mean_activation": 0.1024
+      },
+      {
+        "token": " couch",
+        "count": 1,
+        "mean_activation": 0.0892
+      },
+      {
+        "token": " pillow",
+        "count": 1,
+        "mean_activation": 0.0485
+      }
+    ]
+  }
+}

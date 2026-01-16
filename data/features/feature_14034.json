@@ -1,0 +1,836 @@
+{
+  "feature_idx": 14034,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 8,
+    "mean_when_active": 0.144012451171875,
+    "max_activation": 0.2369384765625,
+    "std_when_active": 0.07730093051258503,
+    "activation_rate": 8e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5136,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " than",
+        "count": 2832,
+        "mean_activation": 0.15518765530343784
+      },
+      {
+        "token": " Dun",
+        "count": 432,
+        "mean_activation": 0.12434782805266203
+      },
+      {
+        "token": " from",
+        "count": 303,
+        "mean_activation": 0.03974186862655992
+      },
+      {
+        "token": " the",
+        "count": 211,
+        "mean_activation": 0.027230900045819757
+      },
+      {
+        "token": " then",
+        "count": 191,
+        "mean_activation": 0.14592714958790085
+      },
+      {
+        "token": " case",
+        "count": 165,
+        "mean_activation": 0.05556353944720644
+      },
+      {
+        "token": " besides",
+        "count": 148,
+        "mean_activation": 0.05641865085911106
+      },
+      {
+        "token": " of",
+        "count": 147,
+        "mean_activation": 0.041224680790284865
+      },
+      {
+        "token": " rate",
+        "count": 69,
+        "mean_activation": 0.05059880795686141
+      },
+      {
+        "token": " aside",
+        "count": 66,
+        "mean_activation": 0.03625418923117898
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5136,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...are pricey but other** than** that it's nice.",
+        "active_token": " than",
+        "activation": 0.278076171875,
+        "review_id": "gfevxcKcOw7gmaMDR8ry-A",
+        "position": 34
+      },
+      {
+        "context": "... was bland but other** than** that, our meals were...",
+        "active_token": " than",
+        "activation": 0.27734375,
+        "review_id": "GGpPRhVoGkXLOV2_Z7Mpzg",
+        "position": 36
+      },
+      {
+        "context": "...e too loud but other** than** that will definitely...",
+        "active_token": " than",
+        "activation": 0.27685546875,
+        "review_id": "oFFX8AgIScxHpYepJNSZzg",
+        "position": 53
+      },
+      {
+        "context": "...idge bland but other** than** that, we will defini...",
+        "active_token": " than",
+        "activation": 0.27587890625,
+        "review_id": "WRpB7wdVPtn4zdCMSBX5sQ",
+        "position": 170
+      },
+      {
+        "context": "...et seated) but other** than** that, it's definitel...",
+        "active_token": " than",
+        "activation": 0.2724609375,
+        "review_id": "spAzkIXGVgvoiE-Xi0txJw",
+        "position": 58
+      },
+      {
+        "context": "...ittle slow but other** than** that it's a good loc...",
+        "active_token": " than",
+        "activation": 0.2724609375,
+        "review_id": "j-ZK-R4PocGc-5tmpZ8CoQ",
+        "position": 111
+      },
+      {
+        "context": "...overcooked but other** than** that everything was ...",
+        "active_token": " than",
+        "activation": 0.2724609375,
+        "review_id": "6B4e6rZdHXUXboIOL80Mww",
+        "position": 51
+      },
+      {
+        "context": "...too salty, but other** than** that the food is gre...",
+        "active_token": " than",
+        "activation": 0.271240234375,
+        "review_id": "RAV7lzlvB7l-Hm3faa_VZw",
+        "position": 110
+      },
+      {
+        "context": "...20 minutes but other** than** that we had a great ...",
+        "active_token": " than",
+        "activation": 0.27099609375,
+        "review_id": "mRap2IpKrszchVcsYai9BQ",
+        "position": 246
+      },
+      {
+        "context": "... bit dirty but other** than** that the place was q...",
+        "active_token": " than",
+        "activation": 0.27099609375,
+        "review_id": "4pgVZZxsYowTdKlOT3dJ4Q",
+        "position": 63
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 14034,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2021,
+        "max": 0.2781,
+        "mean": 0.232
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " than",
+            " that"
+          ],
+          "ngram_str": " than that",
+          "count": 455,
+          "percent": 91.0
+        },
+        {
+          "ngram": [
+            " other",
+            " than"
+          ],
+          "ngram_str": " other than",
+          "count": 431,
+          "percent": 86.2
+        },
+        {
+          "ngram": [
+            " but",
+            " other"
+          ],
+          "ngram_str": " but other",
+          "count": 362,
+          "percent": 72.4
+        },
+        {
+          "ngram": [
+            " that",
+            ","
+          ],
+          "ngram_str": " that,",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            " that",
+            " it"
+          ],
+          "ngram_str": " that it",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " But",
+            " other"
+          ],
+          "ngram_str": " But other",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " But"
+          ],
+          "ngram_str": ". But",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " Other",
+            " than"
+          ],
+          "ngram_str": " Other than",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " that",
+            " I"
+          ],
+          "ngram_str": " that I",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Other"
+          ],
+          "ngram_str": ". Other",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " that",
+            " the"
+          ],
+          "ngram_str": " that the",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " it",
+            "'s"
+          ],
+          "ngram_str": " it's",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " other",
+            " than",
+            " that"
+          ],
+          "ngram_str": " other than that",
+          "count": 408,
+          "percent": 81.6
+        },
+        {
+          "ngram": [
+            " but",
+            " other",
+            " than"
+          ],
+          "ngram_str": " but other than",
+          "count": 353,
+          "percent": 70.6
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            ","
+          ],
+          "ngram_str": " than that,",
+          "count": 140,
+          "percent": 28.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " other"
+          ],
+          "ngram_str": ", but other",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            " it"
+          ],
+          "ngram_str": " than that it",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " But",
+            " other",
+            " than"
+          ],
+          "ngram_str": " But other than",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            ".",
+            " But",
+            " other"
+          ],
+          "ngram_str": ". But other",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            " I"
+          ],
+          "ngram_str": " than that I",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " Other",
+            " than",
+            " that"
+          ],
+          "ngram_str": " Other than that",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Other",
+            " than"
+          ],
+          "ngram_str": ". Other than",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            " the"
+          ],
+          "ngram_str": " than that the",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " that",
+            " it",
+            " was"
+          ],
+          "ngram_str": " that it was",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " that",
+            " it",
+            "'s"
+          ],
+          "ngram_str": " that it's",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " that",
+            ",",
+            " it"
+          ],
+          "ngram_str": " that, it",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " that",
+            " the",
+            " food"
+          ],
+          "ngram_str": " that the food",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " but",
+            " other",
+            " than",
+            " that"
+          ],
+          "ngram_str": " but other than that",
+          "count": 340,
+          "percent": 68.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " other",
+            " than"
+          ],
+          "ngram_str": ", but other than",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " other",
+            " than",
+            " that",
+            ","
+          ],
+          "ngram_str": " other than that,",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            " other",
+            " than",
+            " that",
+            " it"
+          ],
+          "ngram_str": " other than that it",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " But",
+            " other",
+            " than",
+            " that"
+          ],
+          "ngram_str": " But other than that",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ".",
+            " But",
+            " other",
+            " than"
+          ],
+          "ngram_str": ". But other than",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " other",
+            " than",
+            " that",
+            " I"
+          ],
+          "ngram_str": " other than that I",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Other",
+            " than",
+            " that"
+          ],
+          "ngram_str": ". Other than that",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " other",
+            " than",
+            " that",
+            " the"
+          ],
+          "ngram_str": " other than that the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            " it",
+            " was"
+          ],
+          "ngram_str": " than that it was",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            " it",
+            "'s"
+          ],
+          "ngram_str": " than that it's",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            ",",
+            " it"
+          ],
+          "ngram_str": " than that, it",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Other",
+            " than",
+            " that",
+            ","
+          ],
+          "ngram_str": " Other than that,",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            " the",
+            " food"
+          ],
+          "ngram_str": " than that the food",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " than",
+            " that",
+            ",",
+            " the"
+          ],
+          "ngram_str": " than that, the",
+          "count": 19,
+          "percent": 3.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5136,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 4225,
+        "count": 3977,
+        "percent": 77.43
+      },
+      {
+        "feature_idx": 15491,
+        "count": 3784,
+        "percent": 73.68
+      },
+      {
+        "feature_idx": 5403,
+        "count": 3607,
+        "percent": 70.23
+      },
+      {
+        "feature_idx": 10091,
+        "count": 3598,
+        "percent": 70.05
+      },
+      {
+        "feature_idx": 13344,
+        "count": 3534,
+        "percent": 68.81
+      },
+      {
+        "feature_idx": 7370,
+        "count": 3521,
+        "percent": 68.56
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3452,
+        "percent": 67.21
+      },
+      {
+        "feature_idx": 6661,
+        "count": 3370,
+        "percent": 65.62
+      },
+      {
+        "feature_idx": 15467,
+        "count": 3364,
+        "percent": 65.5
+      },
+      {
+        "feature_idx": 20701,
+        "count": 3323,
+        "percent": 64.7
+      },
+      {
+        "feature_idx": 15507,
+        "count": 3268,
+        "percent": 63.63
+      },
+      {
+        "feature_idx": 17546,
+        "count": 3151,
+        "percent": 61.35
+      },
+      {
+        "feature_idx": 9161,
+        "count": 2621,
+        "percent": 51.03
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2562,
+        "percent": 49.88
+      },
+      {
+        "feature_idx": 17175,
+        "count": 1996,
+        "percent": 38.86
+      },
+      {
+        "feature_idx": 3465,
+        "count": 1891,
+        "percent": 36.82
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1866,
+        "percent": 36.33
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1859,
+        "percent": 36.2
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1783,
+        "percent": 34.72
+      },
+      {
+        "feature_idx": 5113,
+        "count": 1650,
+        "percent": 32.13
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5136,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 539,
+        "percent": 10.49
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 651,
+        "percent": 12.68
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 791,
+        "percent": 15.4
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1118,
+        "percent": 21.77
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2037,
+        "percent": 39.66
+      }
+    ],
+    "mean_position": 0.6375,
+    "std_position": 0.2779
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 8,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0436,
+      "p25": 0.0562,
+      "p50": 0.1797,
+      "p75": 0.204,
+      "p90": 0.2184,
+      "p95": 0.2277,
+      "p99": 0.2351
+    },
+    "skewness": -0.3433,
+    "kurtosis": -1.6501,
+    "min": 0.0377,
+    "max": 0.2369,
+    "mean": 0.144,
+    "std": 0.0773
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 8,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " than",
+        "count": 7,
+        "mean_activation": 0.1592
+      },
+      {
+        "token": " the",
+        "count": 1,
+        "mean_activation": 0.0377
+      }
+    ]
+  }
+}

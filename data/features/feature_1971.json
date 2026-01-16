@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1971,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 48,
+    "mean_when_active": 0.06363598505655925,
+    "max_activation": 0.1976318359375,
+    "std_when_active": 0.05201510695362682,
+    "activation_rate": 0.00048
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 33925,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "os",
+        "count": 1851,
+        "mean_activation": 0.06806276837662707
+      },
+      {
+        "token": " Ag",
+        "count": 1604,
+        "mean_activation": 0.2731483392881931
+      },
+      {
+        "token": "aves",
+        "count": 1528,
+        "mean_activation": 0.08278600083595795
+      },
+      {
+        "token": " Pal",
+        "count": 658,
+        "mean_activation": 0.14576208700162663
+      },
+      {
+        "token": "es",
+        "count": 576,
+        "mean_activation": 0.04315092828538683
+      },
+      {
+        "token": " Ar",
+        "count": 434,
+        "mean_activation": 0.250747557609312
+      },
+      {
+        "token": "/",
+        "count": 410,
+        "mean_activation": 0.05350416229992378
+      },
+      {
+        "token": " Bet",
+        "count": 396,
+        "mean_activation": 0.2060238616635101
+      },
+      {
+        "token": " Equ",
+        "count": 367,
+        "mean_activation": 0.05137492915265242
+      },
+      {
+        "token": ".",
+        "count": 359,
+        "mean_activation": 0.03453656889934062
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 33925,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ack in the Box on Los** Alt**os Blvd. in Sparks, N...",
+        "active_token": " Alt",
+        "activation": 0.372802734375,
+        "review_id": "srAr5Hg2_NQ_0GFJ68pA4A",
+        "position": 14
+      },
+      {
+        "context": "...ter stepping into Los** Ag**aves Restaurant around...",
+        "active_token": " Ag",
+        "activation": 0.368896484375,
+        "review_id": "3PsaJwoKUpENS8IG5PETrg",
+        "position": 7
+      },
+      {
+        "context": "...today's review on Los** Ag**aves. \\nThis place with...",
+        "active_token": " Ag",
+        "activation": 0.3681640625,
+        "review_id": "e9n_GogqpX53FcBEVNgMhA",
+        "position": 8
+      },
+      {
+        "context": "As I walked into Los** Alt**os, I noticed that we...",
+        "active_token": " Alt",
+        "activation": 0.367431640625,
+        "review_id": "7wGrebpH2PQKULn4ZGSD5w",
+        "position": 5
+      },
+      {
+        "context": "... at Sparks BL and Los** Alt**os.\\n\\nThere's a trick ...",
+        "active_token": " Alt",
+        "activation": 0.36572265625,
+        "review_id": "HdoiHXxAogaDJLi4VWPOiA",
+        "position": 19
+      },
+      {
+        "context": "... and stopped into Los** Alt**os for a bite to eat....",
+        "active_token": " Alt",
+        "activation": 0.3642578125,
+        "review_id": "cnng4OGPb-lKJ1N6xU3xJg",
+        "position": 10
+      },
+      {
+        "context": "...ve been told that Los** Ag**aves isn't really Mexi...",
+        "active_token": " Ag",
+        "activation": 0.36279296875,
+        "review_id": "DUi8VwmWLCn8tT4JrkL0vw",
+        "position": 6
+      },
+      {
+        "context": "We've come to Los** Alt**os quite a few times ...",
+        "active_token": " Alt",
+        "activation": 0.36181640625,
+        "review_id": "I4-TSkT6FIl12QmCW3pooA",
+        "position": 5
+      },
+      {
+        "context": "... recently went to Los** Ag**aves on Milpas and it ...",
+        "active_token": " Ag",
+        "activation": 0.3603515625,
+        "review_id": "PJI1bZ_u4B7kyVmImnNIcA",
+        "position": 5
+      },
+      {
+        "context": "...estaurants, but at Los** N**opales, it rocks!\\n\\nI l...",
+        "active_token": " N",
+        "activation": 0.35791015625,
+        "review_id": "FiwQFGJfbXrd8TJfhlfQ4A",
+        "position": 132
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1971,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3196,
+        "max": 0.3728,
+        "mean": 0.3339
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Los",
+            " Ag"
+          ],
+          "ngram_str": " Los Ag",
+          "count": 423,
+          "percent": 84.6
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " Agaves",
+          "count": 419,
+          "percent": 83.8
+        },
+        {
+          "ngram": [
+            " to",
+            " Los"
+          ],
+          "ngram_str": " to Los",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " at",
+            " Los"
+          ],
+          "ngram_str": " at Los",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "aves",
+            "."
+          ],
+          "ngram_str": "aves.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "aves",
+            "!"
+          ],
+          "ngram_str": "aves!",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "aves",
+            ","
+          ],
+          "ngram_str": "aves,",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " Los",
+            " Alt"
+          ],
+          "ngram_str": " Los Alt",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Alt",
+            "os"
+          ],
+          "ngram_str": " Altos",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ",",
+            " Los"
+          ],
+          "ngram_str": ", Los",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "aves",
+            " and"
+          ],
+          "ngram_str": "aves and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            "aves",
+            " is"
+          ],
+          "ngram_str": "aves is",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " Los"
+          ],
+          "ngram_str": " of Los",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "aves",
+            " was"
+          ],
+          "ngram_str": "aves was",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " Los Agaves",
+          "count": 414,
+          "percent": 82.8
+        },
+        {
+          "ngram": [
+            " to",
+            " Los",
+            " Ag"
+          ],
+          "ngram_str": " to Los Ag",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves",
+            "."
+          ],
+          "ngram_str": " Agaves.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " at",
+            " Los",
+            " Ag"
+          ],
+          "ngram_str": " at Los Ag",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves",
+            "!"
+          ],
+          "ngram_str": " Agaves!",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves",
+            ","
+          ],
+          "ngram_str": " Agaves,",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " Los",
+            " Alt",
+            "os"
+          ],
+          "ngram_str": " Los Altos",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ",",
+            " Los",
+            " Ag"
+          ],
+          "ngram_str": ", Los Ag",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves",
+            " and"
+          ],
+          "ngram_str": " Agaves and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves",
+            " is"
+          ],
+          "ngram_str": " Agaves is",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " Los",
+            " Ag"
+          ],
+          "ngram_str": " of Los Ag",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves",
+            " was"
+          ],
+          "ngram_str": " Agaves was",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Ag",
+            "aves",
+            " for"
+          ],
+          "ngram_str": " Agaves for",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ar",
+            "roy"
+          ],
+          "ngram_str": " Los Arroy",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " to",
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " to Los Agaves",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves",
+            "."
+          ],
+          "ngram_str": " Los Agaves.",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " at",
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " at Los Agaves",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves",
+            "!"
+          ],
+          "ngram_str": " Los Agaves!",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves",
+            ","
+          ],
+          "ngram_str": " Los Agaves,",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves",
+            " and"
+          ],
+          "ngram_str": " Los Agaves and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ",",
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": ", Los Agaves",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves",
+            " is"
+          ],
+          "ngram_str": " Los Agaves is",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " of",
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " of Los Agaves",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves",
+            " was"
+          ],
+          "ngram_str": " Los Agaves was",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ag",
+            "aves",
+            " for"
+          ],
+          "ngram_str": " Los Agaves for",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Los",
+            " Ar",
+            "roy",
+            "os"
+          ],
+          "ngram_str": " Los Arroyos",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " the Los Agaves",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " love",
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " love Los Agaves",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " and",
+            " Los",
+            " Ag",
+            "aves"
+          ],
+          "ngram_str": " and Los Agaves",
+          "count": 15,
+          "percent": 3.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 16800000,
+      "corpus_coverage": 0.3249
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5822,
+        "percent": 58.22
+      },
+      {
+        "feature_idx": 6053,
+        "count": 5211,
+        "percent": 52.11
+      },
+      {
+        "feature_idx": 20273,
+        "count": 5089,
+        "percent": 50.89
+      },
+      {
+        "feature_idx": 2467,
+        "count": 4821,
+        "percent": 48.21
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4645,
+        "percent": 46.45
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4310,
+        "percent": 43.1
+      },
+      {
+        "feature_idx": 7250,
+        "count": 3709,
+        "percent": 37.09
+      },
+      {
+        "feature_idx": 9479,
+        "count": 3115,
+        "percent": 31.15
+      },
+      {
+        "feature_idx": 1385,
+        "count": 2804,
+        "percent": 28.04
+      },
+      {
+        "feature_idx": 3670,
+        "count": 2577,
+        "percent": 25.77
+      },
+      {
+        "feature_idx": 19896,
+        "count": 2503,
+        "percent": 25.03
+      },
+      {
+        "feature_idx": 7991,
+        "count": 2499,
+        "percent": 24.99
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2461,
+        "percent": 24.61
+      },
+      {
+        "feature_idx": 19755,
+        "count": 2207,
+        "percent": 22.07
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1975,
+        "percent": 19.75
+      },
+      {
+        "feature_idx": 7427,
+        "count": 1935,
+        "percent": 19.35
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1883,
+        "percent": 18.83
+      },
+      {
+        "feature_idx": 912,
+        "count": 1878,
+        "percent": 18.78
+      },
+      {
+        "feature_idx": 18503,
+        "count": 1756,
+        "percent": 17.56
+      },
+      {
+        "feature_idx": 241,
+        "count": 1741,
+        "percent": 17.41
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 16800000,
+      "corpus_coverage": 0.3249
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3724,
+        "percent": 37.24
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1563,
+        "percent": 15.63
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1377,
+        "percent": 13.77
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1243,
+        "percent": 12.43
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2093,
+        "percent": 20.93
+      }
+    ],
+    "mean_position": 0.4217,
+    "std_position": 0.3319
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 48,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0208,
+      "p25": 0.0274,
+      "p50": 0.0425,
+      "p75": 0.0757,
+      "p90": 0.1652,
+      "p95": 0.1686,
+      "p99": 0.1899
+    },
+    "skewness": 1.2669,
+    "kurtosis": 0.2577,
+    "min": 0.0121,
+    "max": 0.1976,
+    "mean": 0.0636,
+    "std": 0.052
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 48,
+      "unique_tokens_found": 35
+    },
+    "tokens": [
+      {
+        "token": " C",
+        "count": 5,
+        "mean_activation": 0.1677
+      },
+      {
+        "token": "az",
+        "count": 5,
+        "mean_activation": 0.0569
+      },
+      {
+        "token": "as",
+        "count": 3,
+        "mean_activation": 0.0306
+      },
+      {
+        "token": " Taco",
+        "count": 2,
+        "mean_activation": 0.0763
+      },
+      {
+        "token": "c",
+        "count": 2,
+        "mean_activation": 0.0286
+      },
+      {
+        "token": " Pal",
+        "count": 2,
+        "mean_activation": 0.1679
+      },
+      {
+        "token": "auc",
+        "count": 1,
+        "mean_activation": 0.0367
+      },
+      {
+        "token": " Ar",
+        "count": 1,
+        "mean_activation": 0.0166
+      },
+      {
+        "token": ".",
+        "count": 1,
+        "mean_activation": 0.0121
+      },
+      {
+        "token": " CITY",
+        "count": 1,
+        "mean_activation": 0.026
+      }
+    ]
+  }
+}

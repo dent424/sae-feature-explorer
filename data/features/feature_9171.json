@@ -1,0 +1,851 @@
+{
+  "feature_idx": 9171,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 23,
+    "mean_when_active": 0.10731373662533968,
+    "max_activation": 0.270263671875,
+    "std_when_active": 0.07667250124653978,
+    "activation_rate": 0.00023
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 16042,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " out",
+        "count": 14929,
+        "mean_activation": 0.13545282856922505
+      },
+      {
+        "token": " it",
+        "count": 226,
+        "mean_activation": 0.021148175264881774
+      },
+      {
+        "token": " up",
+        "count": 186,
+        "mean_activation": 0.03219087662235383
+      },
+      {
+        "token": " a",
+        "count": 175,
+        "mean_activation": 0.03365225655691964
+      },
+      {
+        "token": " the",
+        "count": 80,
+        "mean_activation": 0.035271072387695314
+      },
+      {
+        "token": " off",
+        "count": 49,
+        "mean_activation": 0.05303923937739158
+      },
+      {
+        "token": "out",
+        "count": 40,
+        "mean_activation": 0.06978836059570312
+      },
+      {
+        "token": " down",
+        "count": 38,
+        "mean_activation": 0.032669870476973686
+      },
+      {
+        "token": " at",
+        "count": 30,
+        "mean_activation": 0.02918548583984375
+      },
+      {
+        "token": " Corona",
+        "count": 24,
+        "mean_activation": 0.029442469278971355
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 16042,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...I decided to check it** out** for lunch today.  I ...",
+        "active_token": " out",
+        "activation": 0.294921875,
+        "review_id": "blHdjSylyp9uGxAjrzXBcA",
+        "position": 14
+      },
+      {
+        "context": "...I decided to check it** out**. I'm super picky abo...",
+        "active_token": " out",
+        "activation": 0.291748046875,
+        "review_id": "VoH7v_kABXRZf4-pS6UOnA",
+        "position": 12
+      },
+      {
+        "context": "...d decided to check it** out** for myself. This pla...",
+        "active_token": " out",
+        "activation": 0.290771484375,
+        "review_id": "CH1boHejxCT-_neXO0-V7A",
+        "position": 11
+      },
+      {
+        "context": "...ught I would check it** out** myself. A lot of peo...",
+        "active_token": " out",
+        "activation": 0.288818359375,
+        "review_id": "Li1iIQ36ormldsxevJQoUw",
+        "position": 16
+      },
+      {
+        "context": "...lace, so I checked it** out** on my lunch break.\\n\\n...",
+        "active_token": " out",
+        "activation": 0.28857421875,
+        "review_id": "TDIjb3MwoEB3tuDwIR-EEw",
+        "position": 16
+      },
+      {
+        "context": "...d to check this place** out** during the 10p show ...",
+        "active_token": " out",
+        "activation": 0.288330078125,
+        "review_id": "_eH4ZtXL19YVmttj7SIfmg",
+        "position": 39
+      },
+      {
+        "context": "...I decided to check it** out**. We placed our order...",
+        "active_token": " out",
+        "activation": 0.287841796875,
+        "review_id": "mj-tLhrJAc4LHDHCf9zjyQ",
+        "position": 46
+      },
+      {
+        "context": "...ace I had to check it** out** myself, and boy am I...",
+        "active_token": " out",
+        "activation": 0.28759765625,
+        "review_id": "4z6nj7mBzVu4RXyrlTNNqg",
+        "position": 20
+      },
+      {
+        "context": "...e decided to check it** out**.  It's very clean an...",
+        "active_token": " out",
+        "activation": 0.28759765625,
+        "review_id": "XXBRfcOi971yu4o3Ysojdg",
+        "position": 13
+      },
+      {
+        "context": "... so I had to check it** out**.  It was a Sunday ev...",
+        "active_token": " out",
+        "activation": 0.287353515625,
+        "review_id": "qpNXPXC__qvGXSzzXlhObA",
+        "position": 21
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 9171,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2649,
+        "max": 0.2949,
+        "mean": 0.2729
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " to",
+            " check"
+          ],
+          "ngram_str": " to check",
+          "count": 402,
+          "percent": 80.4
+        },
+        {
+          "ngram": [
+            " it",
+            " out"
+          ],
+          "ngram_str": " it out",
+          "count": 363,
+          "percent": 72.6
+        },
+        {
+          "ngram": [
+            " check",
+            " it"
+          ],
+          "ngram_str": " check it",
+          "count": 340,
+          "percent": 68.0
+        },
+        {
+          "ngram": [
+            " out",
+            "."
+          ],
+          "ngram_str": " out.",
+          "count": 258,
+          "percent": 51.6
+        },
+        {
+          "ngram": [
+            " decided",
+            " to"
+          ],
+          "ngram_str": " decided to",
+          "count": 251,
+          "percent": 50.2
+        },
+        {
+          "ngram": [
+            " place",
+            " out"
+          ],
+          "ngram_str": " place out",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " check",
+            " this"
+          ],
+          "ngram_str": " check this",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " had",
+            " to"
+          ],
+          "ngram_str": " had to",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " I",
+            " decided"
+          ],
+          "ngram_str": " I decided",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " we",
+            " decided"
+          ],
+          "ngram_str": " we decided",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " out",
+            " for"
+          ],
+          "ngram_str": " out for",
+          "count": 44,
+          "percent": 8.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " check",
+            " it",
+            " out"
+          ],
+          "ngram_str": " check it out",
+          "count": 340,
+          "percent": 68.0
+        },
+        {
+          "ngram": [
+            " to",
+            " check",
+            " it"
+          ],
+          "ngram_str": " to check it",
+          "count": 285,
+          "percent": 57.0
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " check"
+          ],
+          "ngram_str": " decided to check",
+          "count": 249,
+          "percent": 49.8
+        },
+        {
+          "ngram": [
+            " it",
+            " out",
+            "."
+          ],
+          "ngram_str": " it out.",
+          "count": 207,
+          "percent": 41.4
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            " out"
+          ],
+          "ngram_str": " this place out",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " check",
+            " this",
+            " place"
+          ],
+          "ngram_str": " check this place",
+          "count": 126,
+          "percent": 25.2
+        },
+        {
+          "ngram": [
+            " to",
+            " check",
+            " this"
+          ],
+          "ngram_str": " to check this",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " had",
+            " to",
+            " check"
+          ],
+          "ngram_str": " had to check",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " I",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " I decided to",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " out",
+            ".",
+            " "
+          ],
+          "ngram_str": " out. ",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " we decided to",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " place",
+            " out",
+            "."
+          ],
+          "ngram_str": " place out.",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " it",
+            " out",
+            " for"
+          ],
+          "ngram_str": " it out for",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " out",
+            ".",
+            " I"
+          ],
+          "ngram_str": " out. I",
+          "count": 35,
+          "percent": 7.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " to",
+            " check",
+            " it",
+            " out"
+          ],
+          "ngram_str": " to check it out",
+          "count": 285,
+          "percent": 57.0
+        },
+        {
+          "ngram": [
+            " check",
+            " it",
+            " out",
+            "."
+          ],
+          "ngram_str": " check it out.",
+          "count": 202,
+          "percent": 40.4
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " check",
+            " it"
+          ],
+          "ngram_str": " decided to check it",
+          "count": 169,
+          "percent": 33.8
+        },
+        {
+          "ngram": [
+            " check",
+            " this",
+            " place",
+            " out"
+          ],
+          "ngram_str": " check this place out",
+          "count": 126,
+          "percent": 25.2
+        },
+        {
+          "ngram": [
+            " to",
+            " check",
+            " this",
+            " place"
+          ],
+          "ngram_str": " to check this place",
+          "count": 110,
+          "percent": 22.0
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " check",
+            " this"
+          ],
+          "ngram_str": " decided to check this",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " I",
+            " decided",
+            " to",
+            " check"
+          ],
+          "ngram_str": " I decided to check",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " had",
+            " to",
+            " check",
+            " it"
+          ],
+          "ngram_str": " had to check it",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to",
+            " check"
+          ],
+          "ngram_str": " we decided to check",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            " out",
+            "."
+          ],
+          "ngram_str": " this place out.",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " it",
+            " out",
+            ".",
+            " "
+          ],
+          "ngram_str": " it out. ",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " and",
+            " decided",
+            " to",
+            " check"
+          ],
+          "ngram_str": " and decided to check",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " I",
+            " had",
+            " to",
+            " check"
+          ],
+          "ngram_str": " I had to check",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " check",
+            " it",
+            " out",
+            " for"
+          ],
+          "ngram_str": " check it out for",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " wanted",
+            " to",
+            " check",
+            " it"
+          ],
+          "ngram_str": " wanted to check it",
+          "count": 28,
+          "percent": 5.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 32000000,
+      "corpus_coverage": 0.6189
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11245,
+        "count": 9369,
+        "percent": 93.69
+      },
+      {
+        "feature_idx": 2192,
+        "count": 7077,
+        "percent": 70.77
+      },
+      {
+        "feature_idx": 10816,
+        "count": 6658,
+        "percent": 66.58
+      },
+      {
+        "feature_idx": 12906,
+        "count": 6150,
+        "percent": 61.5
+      },
+      {
+        "feature_idx": 6483,
+        "count": 6019,
+        "percent": 60.19
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5764,
+        "percent": 57.64
+      },
+      {
+        "feature_idx": 8241,
+        "count": 5109,
+        "percent": 51.09
+      },
+      {
+        "feature_idx": 7027,
+        "count": 4788,
+        "percent": 47.88
+      },
+      {
+        "feature_idx": 21774,
+        "count": 4765,
+        "percent": 47.65
+      },
+      {
+        "feature_idx": 6042,
+        "count": 4758,
+        "percent": 47.58
+      },
+      {
+        "feature_idx": 19024,
+        "count": 4526,
+        "percent": 45.26
+      },
+      {
+        "feature_idx": 13572,
+        "count": 4511,
+        "percent": 45.11
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4262,
+        "percent": 42.62
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4066,
+        "percent": 40.66
+      },
+      {
+        "feature_idx": 16509,
+        "count": 3989,
+        "percent": 39.89
+      },
+      {
+        "feature_idx": 19404,
+        "count": 3836,
+        "percent": 38.36
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3769,
+        "percent": 37.69
+      },
+      {
+        "feature_idx": 10628,
+        "count": 3561,
+        "percent": 35.61
+      },
+      {
+        "feature_idx": 17495,
+        "count": 3238,
+        "percent": 32.38
+      },
+      {
+        "feature_idx": 13517,
+        "count": 3139,
+        "percent": 31.39
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 32000000,
+      "corpus_coverage": 0.6189
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2779,
+        "percent": 27.79
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1245,
+        "percent": 12.45
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 845,
+        "percent": 8.45
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1067,
+        "percent": 10.67
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 4064,
+        "percent": 40.64
+      }
+    ],
+    "mean_position": 0.5611,
+    "std_position": 0.3653
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 23,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0303,
+      "p25": 0.0458,
+      "p50": 0.0757,
+      "p75": 0.1516,
+      "p90": 0.2266,
+      "p95": 0.2346,
+      "p99": 0.2626
+    },
+    "skewness": 0.8395,
+    "kurtosis": -0.7516,
+    "min": 0.0277,
+    "max": 0.2703,
+    "mean": 0.1073,
+    "std": 0.0767
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 23,
+      "unique_tokens_found": 5
+    },
+    "tokens": [
+      {
+        "token": " out",
+        "count": 19,
+        "mean_activation": 0.1226
+      },
+      {
+        "token": " much",
+        "count": 1,
+        "mean_activation": 0.0277
+      },
+      {
+        "token": " up",
+        "count": 1,
+        "mean_activation": 0.0279
+      },
+      {
+        "token": " Corona",
+        "count": 1,
+        "mean_activation": 0.0429
+      },
+      {
+        "token": "out",
+        "count": 1,
+        "mean_activation": 0.0402
+      }
+    ]
+  }
+}

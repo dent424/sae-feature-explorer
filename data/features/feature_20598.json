@@ -1,0 +1,856 @@
+{
+  "feature_idx": 20598,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 43,
+    "mean_when_active": 0.13446790118550145,
+    "max_activation": 0.308837890625,
+    "std_when_active": 0.06842784449643122,
+    "activation_rate": 0.00043
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 28359,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " inside",
+        "count": 20972,
+        "mean_activation": 0.1624500428177395
+      },
+      {
+        "token": " bart",
+        "count": 3157,
+        "mean_activation": 0.06551066009840484
+      },
+      {
+        "token": " outside",
+        "count": 1065,
+        "mean_activation": 0.03465677897135417
+      },
+      {
+        "token": " Inside",
+        "count": 657,
+        "mean_activation": 0.1660267729737443
+      },
+      {
+        "token": " indoors",
+        "count": 437,
+        "mean_activation": 0.0623287314408431
+      },
+      {
+        "token": " within",
+        "count": 205,
+        "mean_activation": 0.03471553151200457
+      },
+      {
+        "token": " front",
+        "count": 173,
+        "mean_activation": 0.02582629429811687
+      },
+      {
+        "token": " interior",
+        "count": 157,
+        "mean_activation": 0.02405616128520601
+      },
+      {
+        "token": " back",
+        "count": 156,
+        "mean_activation": 0.023503963763897236
+      },
+      {
+        "token": "Inside",
+        "count": 152,
+        "mean_activation": 0.1651928550318668
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 28359,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": ".... Its nice and cool** inside**. There are a couple...",
+        "active_token": " inside",
+        "activation": 0.340576171875,
+        "review_id": "g27IDWCtkAhJh7TRNUh52w",
+        "position": 619
+      },
+      {
+        "context": "...ice. Clean and cute** inside**. Definitely worth a...",
+        "active_token": " inside",
+        "activation": 0.339599609375,
+        "review_id": "9FnJtL6A9cCFGsul1aC9lg",
+        "position": 28
+      },
+      {
+        "context": "...portions. Very cute** inside**, love the atmospher...",
+        "active_token": " inside",
+        "activation": 0.33642578125,
+        "review_id": "AnI3jCFYyeKDLfjPXEWu6w",
+        "position": 15
+      },
+      {
+        "context": "...'s clean and simple** inside**. Steady stream of p...",
+        "active_token": " inside",
+        "activation": 0.334228515625,
+        "review_id": "q1nov4bAZJ0DG04KI_FM-w",
+        "position": 99
+      },
+      {
+        "context": "...e and nice and cool** inside**! We will definitely...",
+        "active_token": " inside",
+        "activation": 0.332275390625,
+        "review_id": "9KJZOWY7vUupHJoJZqlnAg",
+        "position": 23
+      },
+      {
+        "context": ".... The place is cute** inside** and it's nice if yo...",
+        "active_token": " inside",
+        "activation": 0.331787109375,
+        "review_id": "D6HL1FY5u5D_CFauJN8nEA",
+        "position": 48
+      },
+      {
+        "context": "...4-star.  Kinda cool** inside**, with a \"grafiti-me...",
+        "active_token": " inside",
+        "activation": 0.331298828125,
+        "review_id": "CFSfslVa4VXn8m5XbHZyNQ",
+        "position": 17
+      },
+      {
+        "context": "... place, really cool** inside**, service was good, ...",
+        "active_token": " inside",
+        "activation": 0.3310546875,
+        "review_id": "mNuQOtf41s-6Qco7mlCpdg",
+        "position": 8
+      },
+      {
+        "context": "...It's small and cute** inside**. I've been here sev...",
+        "active_token": " inside",
+        "activation": 0.33056640625,
+        "review_id": "UOlInUWPVVEfnnn4oU3k9A",
+        "position": 36
+      },
+      {
+        "context": "... the location. Nice** inside** they have a lot of ...",
+        "active_token": " inside",
+        "activation": 0.328857421875,
+        "review_id": "zLJo8gYYqJybNj0tw10-pQ",
+        "position": 19
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20598,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2913,
+        "max": 0.3406,
+        "mean": 0.3046
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " inside",
+            "."
+          ],
+          "ngram_str": " inside.",
+          "count": 171,
+          "percent": 34.2
+        },
+        {
+          "ngram": [
+            " inside",
+            " and"
+          ],
+          "ngram_str": " inside and",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " inside",
+            ","
+          ],
+          "ngram_str": " inside,",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " clean",
+            " inside"
+          ],
+          "ngram_str": " clean inside",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " cute",
+            " inside"
+          ],
+          "ngram_str": " cute inside",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " nice",
+            " inside"
+          ],
+          "ngram_str": " nice inside",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " It",
+            "'s"
+          ],
+          "ngram_str": " It's",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " place",
+            " is"
+          ],
+          "ngram_str": " place is",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " It"
+          ],
+          "ngram_str": ". It",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " beautiful",
+            " inside"
+          ],
+          "ngram_str": " beautiful inside",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " it",
+            "'s"
+          ],
+          "ngram_str": " it's",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 36,
+          "percent": 7.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " clean",
+            " inside",
+            "."
+          ],
+          "ngram_str": " clean inside.",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " inside",
+            ".",
+            " "
+          ],
+          "ngram_str": " inside. ",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            "'s"
+          ],
+          "ngram_str": ". It's",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " inside",
+            " and",
+            " the"
+          ],
+          "ngram_str": " inside and the",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " inside",
+            " and",
+            " out"
+          ],
+          "ngram_str": " inside and out",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " cute",
+            " inside",
+            " and"
+          ],
+          "ngram_str": " cute inside and",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " clean",
+            " inside",
+            " and"
+          ],
+          "ngram_str": " clean inside and",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " nice",
+            " inside",
+            "."
+          ],
+          "ngram_str": " nice inside.",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " and",
+            " clean",
+            " inside"
+          ],
+          "ngram_str": " and clean inside",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " The",
+            " place",
+            " is"
+          ],
+          "ngram_str": " The place is",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " very",
+            " clean",
+            " inside"
+          ],
+          "ngram_str": " very clean inside",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " is",
+            " beautiful",
+            " inside"
+          ],
+          "ngram_str": " is beautiful inside",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " inside",
+            ".",
+            " The"
+          ],
+          "ngram_str": " inside. The",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " nice",
+            " inside",
+            " and"
+          ],
+          "ngram_str": " nice inside and",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " inside",
+            " and",
+            " out",
+            "."
+          ],
+          "ngram_str": " inside and out.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " clean",
+            " inside",
+            "."
+          ],
+          "ngram_str": " and clean inside.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " very",
+            " nice",
+            " inside",
+            "."
+          ],
+          "ngram_str": " very nice inside.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " inside",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " inside. \u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " very",
+            " clean",
+            " inside",
+            " and"
+          ],
+          "ngram_str": " very clean inside and",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " nice",
+            " inside",
+            " and",
+            " the"
+          ],
+          "ngram_str": " nice inside and the",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " is",
+            " very",
+            " nice",
+            " inside"
+          ],
+          "ngram_str": " is very nice inside",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " inside",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " inside.\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " is",
+            " beautiful",
+            " inside",
+            " and"
+          ],
+          "ngram_str": " is beautiful inside and",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " beautiful",
+            " inside",
+            " and",
+            " out"
+          ],
+          "ngram_str": " beautiful inside and out",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " nice",
+            " and",
+            " clean",
+            " inside"
+          ],
+          "ngram_str": " nice and clean inside",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " place",
+            " is"
+          ],
+          "ngram_str": ". The place is",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 18800000,
+      "corpus_coverage": 0.3636
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11496,
+        "count": 8222,
+        "percent": 82.22
+      },
+      {
+        "feature_idx": 14050,
+        "count": 8152,
+        "percent": 81.52
+      },
+      {
+        "feature_idx": 5310,
+        "count": 7800,
+        "percent": 78.0
+      },
+      {
+        "feature_idx": 9920,
+        "count": 5960,
+        "percent": 59.6
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5563,
+        "percent": 55.63
+      },
+      {
+        "feature_idx": 23851,
+        "count": 5326,
+        "percent": 53.26
+      },
+      {
+        "feature_idx": 14433,
+        "count": 4787,
+        "percent": 47.87
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4561,
+        "percent": 45.61
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3951,
+        "percent": 39.51
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3261,
+        "percent": 32.61
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3188,
+        "percent": 31.88
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2985,
+        "percent": 29.85
+      },
+      {
+        "feature_idx": 2830,
+        "count": 2925,
+        "percent": 29.25
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2861,
+        "percent": 28.61
+      },
+      {
+        "feature_idx": 13310,
+        "count": 2554,
+        "percent": 25.54
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2433,
+        "percent": 24.33
+      },
+      {
+        "feature_idx": 13890,
+        "count": 2396,
+        "percent": 23.96
+      },
+      {
+        "feature_idx": 1664,
+        "count": 2252,
+        "percent": 22.52
+      },
+      {
+        "feature_idx": 11994,
+        "count": 2249,
+        "percent": 22.49
+      },
+      {
+        "feature_idx": 19541,
+        "count": 2006,
+        "percent": 20.06
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 18800000,
+      "corpus_coverage": 0.3636
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2027,
+        "percent": 20.27
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2453,
+        "percent": 24.53
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1840,
+        "percent": 18.4
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2000,
+        "percent": 20.0
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1680,
+        "percent": 16.8
+      }
+    ],
+    "mean_position": 0.4783,
+    "std_position": 0.2755
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 43,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0503,
+      "p25": 0.0745,
+      "p50": 0.1401,
+      "p75": 0.1791,
+      "p90": 0.2064,
+      "p95": 0.2421,
+      "p99": 0.2993
+    },
+    "skewness": 0.3247,
+    "kurtosis": -0.3294,
+    "min": 0.0231,
+    "max": 0.3088,
+    "mean": 0.1345,
+    "std": 0.0684
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 43,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " inside",
+        "count": 29,
+        "mean_activation": 0.1688
+      },
+      {
+        "token": " bart",
+        "count": 9,
+        "mean_activation": 0.0657
+      },
+      {
+        "token": " outside",
+        "count": 2,
+        "mean_activation": 0.0375
+      },
+      {
+        "token": " building",
+        "count": 1,
+        "mean_activation": 0.0237
+      },
+      {
+        "token": " Inside",
+        "count": 1,
+        "mean_activation": 0.175
+      },
+      {
+        "token": " in",
+        "count": 1,
+        "mean_activation": 0.0231
+      }
+    ]
+  }
+}

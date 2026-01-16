@@ -1,0 +1,876 @@
+{
+  "feature_idx": 19333,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 25,
+    "mean_when_active": 0.072626953125,
+    "max_activation": 0.1461181640625,
+    "std_when_active": 0.03993938686237195,
+    "activation_rate": 0.00025
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 14074,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " shopping",
+        "count": 1983,
+        "mean_activation": 0.11552483062821088
+      },
+      {
+        "token": " grocery",
+        "count": 1979,
+        "mean_activation": 0.12878525913695363
+      },
+      {
+        "token": " tourist",
+        "count": 1085,
+        "mean_activation": 0.12392122470838134
+      },
+      {
+        "token": " travel",
+        "count": 794,
+        "mean_activation": 0.048066280951127596
+      },
+      {
+        "token": " romantic",
+        "count": 735,
+        "mean_activation": 0.054890992041347786
+      },
+      {
+        "token": " holiday",
+        "count": 657,
+        "mean_activation": 0.08230915969546708
+      },
+      {
+        "token": " tourists",
+        "count": 363,
+        "mean_activation": 0.033433436033811124
+      },
+      {
+        "token": " clothes",
+        "count": 278,
+        "mean_activation": 0.07918916331778328
+      },
+      {
+        "token": " supermarket",
+        "count": 228,
+        "mean_activation": 0.07480460719058388
+      },
+      {
+        "token": " checkout",
+        "count": 209,
+        "mean_activation": 0.06590782056014503
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 14074,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... the \"South Plaza\"** Shopping** Center with the Lo...",
+        "active_token": " Shopping",
+        "activation": 0.1903076171875,
+        "review_id": "9drfmZmja5f-JdVslVnGxQ",
+        "position": 18
+      },
+      {
+        "context": "...e Kohl's - Walmart** Shopping** Center adjacent to...",
+        "active_token": " Shopping",
+        "activation": 0.1861572265625,
+        "review_id": "lG4_JPF8o24oMSDOfjz1Nw",
+        "position": 149
+      },
+      {
+        "context": "...us King of Prussia** Shopping** Centers.  We norma...",
+        "active_token": " Shopping",
+        "activation": 0.18310546875,
+        "review_id": "MfucKHfrlBEt6hEEAtyfwg",
+        "position": 54
+      },
+      {
+        "context": "...tre Square Commons** Shopping** center and the int...",
+        "active_token": " Shopping",
+        "activation": 0.182861328125,
+        "review_id": "zsH2Fvkvw2-_XX31P5ApEQ",
+        "position": 84
+      },
+      {
+        "context": "...tchen in the Kmart** Shopping** Center.  Their car...",
+        "active_token": " Shopping",
+        "activation": 0.1822509765625,
+        "review_id": "MSPtsvdRjucYvwpQuTBQtw",
+        "position": 51
+      },
+      {
+        "context": "...in the Old Hickory** Shopping** Center between Kro...",
+        "active_token": " Shopping",
+        "activation": 0.1805419921875,
+        "review_id": "QuPHpUmBbQvpOhTLlKqDmg",
+        "position": 33
+      },
+      {
+        "context": "...ted in the Elmwood** Shopping** Plaza. Indoor, bar...",
+        "active_token": " Shopping",
+        "activation": 0.17919921875,
+        "review_id": "Nj84o6xpw0KHo8D99uULUw",
+        "position": 36
+      },
+      {
+        "context": "...ant in the Safeway** shopping** center...",
+        "active_token": " shopping",
+        "activation": 0.178955078125,
+        "review_id": "-l3ZQW1umNo4RlfcTlVUXg",
+        "position": 79
+      },
+      {
+        "context": "...ed on the Wisteria** Shopping** Plaza on 41. The T...",
+        "active_token": " Shopping",
+        "activation": 0.1783447265625,
+        "review_id": "X4uWm-iUywggDR0xuUTQtw",
+        "position": 24
+      },
+      {
+        "context": "...n Souderton Square** Shopping** Center's stripmall...",
+        "active_token": " Shopping",
+        "activation": 0.1778564453125,
+        "review_id": "7SOF9IacejSF1iWoyXCuVA",
+        "position": 10
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 19333,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1532,
+        "max": 0.1903,
+        "mean": 0.1612
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " shopping center",
+          "count": 256,
+          "percent": 51.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 167,
+          "percent": 33.4
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 135,
+          "percent": 27.0
+        },
+        {
+          "ngram": [
+            " a",
+            " shopping"
+          ],
+          "ngram_str": " a shopping",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            " center",
+            "."
+          ],
+          "ngram_str": " center.",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " the",
+            " shopping"
+          ],
+          "ngram_str": " the shopping",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " shopping",
+            " plaza"
+          ],
+          "ngram_str": " shopping plaza",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " located",
+            " in"
+          ],
+          "ngram_str": " located in",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " the",
+            " grocery"
+          ],
+          "ngram_str": " the grocery",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " grocery",
+            " store"
+          ],
+          "ngram_str": " grocery store",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " Shopping",
+            " Center"
+          ],
+          "ngram_str": " Shopping Center",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " same",
+            " shopping"
+          ],
+          "ngram_str": " same shopping",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " same"
+          ],
+          "ngram_str": " the same",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            " a",
+            " shopping"
+          ],
+          "ngram_str": " in a shopping",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " shopping",
+            " center",
+            "."
+          ],
+          "ngram_str": " shopping center.",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " a",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " a shopping center",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " the",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " the shopping center",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " the",
+            " grocery",
+            " store"
+          ],
+          "ngram_str": " the grocery store",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " shopping"
+          ],
+          "ngram_str": " in the shopping",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " same"
+          ],
+          "ngram_str": " in the same",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " same",
+            " shopping"
+          ],
+          "ngram_str": " the same shopping",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " located",
+            " in",
+            " a"
+          ],
+          "ngram_str": " located in a",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " a",
+            " shopping",
+            " plaza"
+          ],
+          "ngram_str": " a shopping plaza",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " shopping",
+            " center",
+            ","
+          ],
+          "ngram_str": " shopping center,",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " same",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " same shopping center",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " a",
+            " small",
+            " shopping"
+          ],
+          "ngram_str": " a small shopping",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " grocery",
+            " store",
+            "."
+          ],
+          "ngram_str": " grocery store.",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " in",
+            " a",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " in a shopping center",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " same",
+            " shopping"
+          ],
+          "ngram_str": " in the same shopping",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " same",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " the same shopping center",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " shopping",
+            " plaza"
+          ],
+          "ngram_str": " in a shopping plaza",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " in the shopping center",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " in",
+            " a",
+            " small",
+            " shopping"
+          ],
+          "ngram_str": " in a small shopping",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " located",
+            " in",
+            " a",
+            " shopping"
+          ],
+          "ngram_str": " located in a shopping",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " the",
+            " grocery",
+            " store",
+            "."
+          ],
+          "ngram_str": " the grocery store.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " a",
+            " shopping",
+            " center",
+            "."
+          ],
+          "ngram_str": " a shopping center.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " grocery",
+            " store"
+          ],
+          "ngram_str": " from the grocery store",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " shopping",
+            " center",
+            ".",
+            " "
+          ],
+          "ngram_str": " shopping center. ",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " a",
+            " small",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " a small shopping center",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " shopping",
+            " center"
+          ],
+          "ngram_str": " of the shopping center",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " tucked",
+            " away",
+            " in",
+            " a"
+          ],
+          "ngram_str": " tucked away in a",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36500000,
+      "corpus_coverage": 0.706
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5524,
+        "percent": 55.24
+      },
+      {
+        "feature_idx": 905,
+        "count": 4489,
+        "percent": 44.89
+      },
+      {
+        "feature_idx": 20172,
+        "count": 4273,
+        "percent": 42.73
+      },
+      {
+        "feature_idx": 20549,
+        "count": 3871,
+        "percent": 38.71
+      },
+      {
+        "feature_idx": 548,
+        "count": 2933,
+        "percent": 29.33
+      },
+      {
+        "feature_idx": 22000,
+        "count": 2832,
+        "percent": 28.32
+      },
+      {
+        "feature_idx": 1938,
+        "count": 2727,
+        "percent": 27.27
+      },
+      {
+        "feature_idx": 19984,
+        "count": 2709,
+        "percent": 27.09
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2702,
+        "percent": 27.02
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2678,
+        "percent": 26.78
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2528,
+        "percent": 25.28
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2500,
+        "percent": 25.0
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2400,
+        "percent": 24.0
+      },
+      {
+        "feature_idx": 19710,
+        "count": 2371,
+        "percent": 23.71
+      },
+      {
+        "feature_idx": 2902,
+        "count": 2326,
+        "percent": 23.26
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2233,
+        "percent": 22.33
+      },
+      {
+        "feature_idx": 19071,
+        "count": 2086,
+        "percent": 20.86
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1972,
+        "percent": 19.72
+      },
+      {
+        "feature_idx": 14918,
+        "count": 1928,
+        "percent": 19.28
+      },
+      {
+        "feature_idx": 1907,
+        "count": 1847,
+        "percent": 18.47
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36500000,
+      "corpus_coverage": 0.706
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2946,
+        "percent": 29.46
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1797,
+        "percent": 17.97
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1388,
+        "percent": 13.88
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1625,
+        "percent": 16.25
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2244,
+        "percent": 22.44
+      }
+    ],
+    "mean_position": 0.4676,
+    "std_position": 0.3182
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 25,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0217,
+      "p25": 0.0437,
+      "p50": 0.0551,
+      "p75": 0.1108,
+      "p90": 0.1275,
+      "p95": 0.1412,
+      "p99": 0.1458
+    },
+    "skewness": 0.4014,
+    "kurtosis": -1.0926,
+    "min": 0.0152,
+    "max": 0.1461,
+    "mean": 0.0726,
+    "std": 0.0399
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 25,
+      "unique_tokens_found": 19
+    },
+    "tokens": [
+      {
+        "token": " shopping",
+        "count": 3,
+        "mean_activation": 0.1322
+      },
+      {
+        "token": " romantic",
+        "count": 2,
+        "mean_activation": 0.0537
+      },
+      {
+        "token": " tourist",
+        "count": 2,
+        "mean_activation": 0.1191
+      },
+      {
+        "token": " clothes",
+        "count": 2,
+        "mean_activation": 0.0514
+      },
+      {
+        "token": " grocery",
+        "count": 2,
+        "mean_activation": 0.1175
+      },
+      {
+        "token": " Holiday",
+        "count": 1,
+        "mean_activation": 0.0784
+      },
+      {
+        "token": " commercial",
+        "count": 1,
+        "mean_activation": 0.0377
+      },
+      {
+        "token": " Travel",
+        "count": 1,
+        "mean_activation": 0.1276
+      },
+      {
+        "token": " culinary",
+        "count": 1,
+        "mean_activation": 0.0209
+      },
+      {
+        "token": " cruise",
+        "count": 1,
+        "mean_activation": 0.0545
+      }
+    ]
+  }
+}

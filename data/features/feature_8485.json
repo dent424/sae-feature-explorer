@@ -1,0 +1,876 @@
+{
+  "feature_idx": 8485,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 113,
+    "mean_when_active": 0.0518341064453125,
+    "max_activation": 0.1435546875,
+    "std_when_active": 0.02735710081847802,
+    "activation_rate": 0.00113
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 48700000,
+      "corpus_coverage": 0.9419
+    },
+    "top_tokens": [
+      {
+        "token": " no",
+        "count": 32578,
+        "mean_activation": 0.05901149881135635
+      },
+      {
+        "token": " No",
+        "count": 9126,
+        "mean_activation": 0.051901776984467886
+      },
+      {
+        "token": " any",
+        "count": 1698,
+        "mean_activation": 0.03495834853820441
+      },
+      {
+        "token": "no",
+        "count": 1477,
+        "mean_activation": 0.049879638423932594
+      },
+      {
+        "token": "No",
+        "count": 901,
+        "mean_activation": 0.04360440303959143
+      },
+      {
+        "token": " NO",
+        "count": 834,
+        "mean_activation": 0.04551336347913856
+      },
+      {
+        "token": " a",
+        "count": 695,
+        "mean_activation": 0.03586275388868593
+      },
+      {
+        "token": " without",
+        "count": 566,
+        "mean_activation": 0.03085604826047648
+      },
+      {
+        "token": "'t",
+        "count": 217,
+        "mean_activation": 0.025550103956653226
+      },
+      {
+        "token": " not",
+        "count": 216,
+        "mean_activation": 0.02395294330738209
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 48700000,
+      "corpus_coverage": 0.9419
+    },
+    "activations": [
+      {
+        "context": "...da. Honestly there is** no** wrong decision becaus...",
+        "active_token": " no",
+        "activation": 0.19287109375,
+        "review_id": "hpjxezFkV9zwVnrsiu-3TQ",
+        "position": 179
+      },
+      {
+        "context": "...dible. There truly is** no** substitute for tortil...",
+        "active_token": " no",
+        "activation": 0.189697265625,
+        "review_id": "BenAmGEEM2_69IWgYeUs4w",
+        "position": 74
+      },
+      {
+        "context": "...a). Honestly there is** no** reason not to go. Jus...",
+        "active_token": " no",
+        "activation": 0.1875,
+        "review_id": "RqwTcwfrvG5MurXNlYcJRA",
+        "position": 62
+      },
+      {
+        "context": "...n my opinion there is** no** other place to get th...",
+        "active_token": " no",
+        "activation": 0.1873779296875,
+        "review_id": "fiAjoKj966UUYPPRmmwCUA",
+        "position": 60
+      },
+      {
+        "context": "...es and chips, there's** no** end to the great choi...",
+        "active_token": " no",
+        "activation": 0.1846923828125,
+        "review_id": "F4KBUuG9EgMCrfuGZtHklw",
+        "position": 42
+      },
+      {
+        "context": "...rimos, Etc), there is** no** reason to return here...",
+        "active_token": " no",
+        "activation": 0.1822509765625,
+        "review_id": "-krYZOpEO2cBHiQSflzLlw",
+        "position": 51
+      },
+      {
+        "context": "...s.  There is honestly** no** comparison.  You guys...",
+        "active_token": " no",
+        "activation": 0.181396484375,
+        "review_id": "c2xIMq8R-vJtYj_kqrwdcw",
+        "position": 33
+      },
+      {
+        "context": "..., but there really is** no** substitute!",
+        "active_token": " no",
+        "activation": 0.18115234375,
+        "review_id": "atgESuh59GQibhjppqdyug",
+        "position": 101
+      },
+      {
+        "context": "...itas, there really is** no** better place in Tucso...",
+        "active_token": " no",
+        "activation": 0.1806640625,
+        "review_id": "Ktq4IPl1o2MvXgYnmkSldQ",
+        "position": 38
+      },
+      {
+        "context": "...or the Habit there is** no** reason why your taste...",
+        "active_token": " no",
+        "activation": 0.1806640625,
+        "review_id": "zpCZnHSac-dy0glSWafxLQ",
+        "position": 104
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8485,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1443,
+        "max": 0.1981,
+        "mean": 0.1556
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " is",
+            " no"
+          ],
+          "ngram_str": " is no",
+          "count": 324,
+          "percent": 64.8
+        },
+        {
+          "ngram": [
+            "'s",
+            " no"
+          ],
+          "ngram_str": "'s no",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " there",
+            " is"
+          ],
+          "ngram_str": " there is",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " no",
+            " exception"
+          ],
+          "ngram_str": " no exception",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ",",
+            " there"
+          ],
+          "ngram_str": ", there",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " there",
+            "'s"
+          ],
+          "ngram_str": " there's",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " There",
+            " is"
+          ],
+          "ngram_str": " There is",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " There"
+          ],
+          "ngram_str": ". There",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " no",
+            " way"
+          ],
+          "ngram_str": " no way",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " exception",
+            "."
+          ],
+          "ngram_str": " exception.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " this",
+            " is"
+          ],
+          "ngram_str": " this is",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " no",
+            " other"
+          ],
+          "ngram_str": " no other",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " this"
+          ],
+          "ngram_str": " and this",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " there",
+            " is",
+            " no"
+          ],
+          "ngram_str": " there is no",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " is",
+            " no",
+            " exception"
+          ],
+          "ngram_str": " is no exception",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " there",
+            "'s",
+            " no"
+          ],
+          "ngram_str": " there's no",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " There",
+            " is",
+            " no"
+          ],
+          "ngram_str": " There is no",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " no",
+            " exception",
+            "."
+          ],
+          "ngram_str": " no exception.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " this",
+            " is",
+            " no"
+          ],
+          "ngram_str": " this is no",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ",",
+            " there",
+            " is"
+          ],
+          "ngram_str": ", there is",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " is",
+            " no",
+            " way"
+          ],
+          "ngram_str": " is no way",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            " There",
+            " is"
+          ],
+          "ngram_str": ". There is",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " There",
+            "'s",
+            " no"
+          ],
+          "ngram_str": " There's no",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " is",
+            " no",
+            " longer"
+          ],
+          "ngram_str": " is no longer",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " is",
+            " no",
+            " joke"
+          ],
+          "ngram_str": " is no joke",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " This",
+            " is",
+            " no"
+          ],
+          "ngram_str": " This is no",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ",",
+            " there",
+            "'s"
+          ],
+          "ngram_str": ", there's",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " is",
+            " no",
+            " exception",
+            "."
+          ],
+          "ngram_str": " is no exception.",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ",",
+            " there",
+            " is",
+            " no"
+          ],
+          "ngram_str": ", there is no",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " There",
+            " is",
+            " no"
+          ],
+          "ngram_str": ". There is no",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " there",
+            "'s",
+            " no"
+          ],
+          "ngram_str": ", there's no",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " and",
+            " this",
+            " is",
+            " no"
+          ],
+          "ngram_str": " and this is no",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " there",
+            " is",
+            " no",
+            " way"
+          ],
+          "ngram_str": " there is no way",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " There",
+            "'s",
+            " no"
+          ],
+          "ngram_str": ". There's no",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " This",
+            " is",
+            " no"
+          ],
+          "ngram_str": ". This is no",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " is",
+            " no",
+            " joke",
+            "."
+          ],
+          "ngram_str": " is no joke.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " is",
+            " like",
+            " no",
+            " other"
+          ],
+          "ngram_str": " is like no other",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " no",
+            " exception",
+            ".",
+            " "
+          ],
+          "ngram_str": " no exception. ",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "There"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThere",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " there",
+            " is",
+            " no",
+            " reason"
+          ],
+          "ngram_str": " there is no reason",
+          "count": 9,
+          "percent": 1.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9600000,
+      "corpus_coverage": 0.1857
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 2132,
+        "count": 9424,
+        "percent": 94.24
+      },
+      {
+        "feature_idx": 8994,
+        "count": 9077,
+        "percent": 90.77
+      },
+      {
+        "feature_idx": 24072,
+        "count": 8789,
+        "percent": 87.89
+      },
+      {
+        "feature_idx": 15874,
+        "count": 8410,
+        "percent": 84.1
+      },
+      {
+        "feature_idx": 9554,
+        "count": 6919,
+        "percent": 69.19
+      },
+      {
+        "feature_idx": 11763,
+        "count": 6839,
+        "percent": 68.39
+      },
+      {
+        "feature_idx": 12030,
+        "count": 6030,
+        "percent": 60.3
+      },
+      {
+        "feature_idx": 5837,
+        "count": 5589,
+        "percent": 55.89
+      },
+      {
+        "feature_idx": 7693,
+        "count": 5324,
+        "percent": 53.24
+      },
+      {
+        "feature_idx": 23954,
+        "count": 5047,
+        "percent": 50.47
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4891,
+        "percent": 48.91
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3731,
+        "percent": 37.31
+      },
+      {
+        "feature_idx": 16297,
+        "count": 3657,
+        "percent": 36.57
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3607,
+        "percent": 36.07
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3363,
+        "percent": 33.63
+      },
+      {
+        "feature_idx": 15956,
+        "count": 3088,
+        "percent": 30.88
+      },
+      {
+        "feature_idx": 11071,
+        "count": 3075,
+        "percent": 30.75
+      },
+      {
+        "feature_idx": 12609,
+        "count": 2866,
+        "percent": 28.66
+      },
+      {
+        "feature_idx": 7621,
+        "count": 2801,
+        "percent": 28.01
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2779,
+        "percent": 27.79
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9600000,
+      "corpus_coverage": 0.1857
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1503,
+        "percent": 15.03
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2054,
+        "percent": 20.54
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2240,
+        "percent": 22.4
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2163,
+        "percent": 21.63
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2040,
+        "percent": 20.4
+      }
+    ],
+    "mean_position": 0.5245,
+    "std_position": 0.2716
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 113,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0215,
+      "p25": 0.0309,
+      "p50": 0.0452,
+      "p75": 0.0688,
+      "p90": 0.0934,
+      "p95": 0.1054,
+      "p99": 0.1186
+    },
+    "skewness": 0.8791,
+    "kurtosis": 0.2945,
+    "min": 0.0139,
+    "max": 0.1436,
+    "mean": 0.0518,
+    "std": 0.0274
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 113,
+      "unique_tokens_found": 13
+    },
+    "tokens": [
+      {
+        "token": " no",
+        "count": 66,
+        "mean_activation": 0.0582
+      },
+      {
+        "token": " No",
+        "count": 17,
+        "mean_activation": 0.0599
+      },
+      {
+        "token": " any",
+        "count": 7,
+        "mean_activation": 0.0301
+      },
+      {
+        "token": "No",
+        "count": 6,
+        "mean_activation": 0.0397
+      },
+      {
+        "token": "no",
+        "count": 4,
+        "mean_activation": 0.0406
+      },
+      {
+        "token": "'t",
+        "count": 3,
+        "mean_activation": 0.0247
+      },
+      {
+        "token": " without",
+        "count": 2,
+        "mean_activation": 0.021
+      },
+      {
+        "token": " never",
+        "count": 2,
+        "mean_activation": 0.0212
+      },
+      {
+        "token": " NO",
+        "count": 2,
+        "mean_activation": 0.0562
+      },
+      {
+        "token": " the",
+        "count": 1,
+        "mean_activation": 0.0167
+      }
+    ]
+  }
+}

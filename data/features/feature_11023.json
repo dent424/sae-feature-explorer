@@ -1,0 +1,876 @@
+{
+  "feature_idx": 11023,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 60,
+    "mean_when_active": 0.10380655924479167,
+    "max_activation": 0.263916015625,
+    "std_when_active": 0.06500639913069016,
+    "activation_rate": 0.0006
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 34236,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " of",
+        "count": 19529,
+        "mean_activation": 0.12215564537722245
+      },
+      {
+        "token": " the",
+        "count": 5273,
+        "mean_activation": 0.07020842597219176
+      },
+      {
+        "token": " this",
+        "count": 1935,
+        "mean_activation": 0.11255641414829619
+      },
+      {
+        "token": " to",
+        "count": 1129,
+        "mean_activation": 0.04720421276650036
+      },
+      {
+        "token": "-",
+        "count": 1109,
+        "mean_activation": 0.08480204796339608
+      },
+      {
+        "token": " from",
+        "count": 982,
+        "mean_activation": 0.04191740078741567
+      },
+      {
+        "token": " a",
+        "count": 664,
+        "mean_activation": 0.061652401843702936
+      },
+      {
+        "token": "of",
+        "count": 458,
+        "mean_activation": 0.1522439681806939
+      },
+      {
+        "token": "the",
+        "count": 276,
+        "mean_activation": 0.06801129769587862
+      },
+      {
+        "token": " way",
+        "count": 241,
+        "mean_activation": 0.06304349147432572
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 34236,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... looks like it is out** of** a cathedral; however ...",
+        "active_token": " of",
+        "activation": 0.298583984375,
+        "review_id": "i0vGI5fQl-yJdJxdPe0N_g",
+        "position": 285
+      },
+      {
+        "context": "...reen sauce that's out** of** this world. Full bar ...",
+        "active_token": " of",
+        "activation": 0.296875,
+        "review_id": "Pp0Ih2er9lmrDkQ7EinYmw",
+        "position": 50
+      },
+      {
+        "context": "...t looks like it's out** of** 1960s Mexico, and the...",
+        "active_token": " of",
+        "activation": 0.2939453125,
+        "review_id": "T11nNQFlX7RYI2L0C_bckA",
+        "position": 190
+      },
+      {
+        "context": "...008. This food is out** of** control with flavours...",
+        "active_token": " of",
+        "activation": 0.29345703125,
+        "review_id": "Ceg6xCjGcof1gwdpLGGgZQ",
+        "position": 34
+      },
+      {
+        "context": "...t dressing. It is out** of** this world. So much s...",
+        "active_token": " of",
+        "activation": 0.292724609375,
+        "review_id": "Q03XTeY9BLsAe6HKsmr4Ug",
+        "position": 60
+      },
+      {
+        "context": "...r quesadillas are out** of** this world.",
+        "active_token": " of",
+        "activation": 0.29248046875,
+        "review_id": "asPPysM6FwEWwx9IfnzkCQ",
+        "position": 62
+      },
+      {
+        "context": "... flavors are just out** of** this world and always...",
+        "active_token": " of",
+        "activation": 0.29248046875,
+        "review_id": "4j_LYk62fWgFrq8BI3b5Jg",
+        "position": 59
+      },
+      {
+        "context": "...margarita that is out** of** this world. I love th...",
+        "active_token": " of",
+        "activation": 0.291259765625,
+        "review_id": "VfrTNYvwWdEjgIPhfcKFHg",
+        "position": 235
+      },
+      {
+        "context": "...heir desserts are out** of** this world.",
+        "active_token": " of",
+        "activation": 0.291015625,
+        "review_id": "5J1L8QIrXmxjF0VkwEufgQ",
+        "position": 50
+      },
+      {
+        "context": "... birria tacos are out** of** this world. And dunke...",
+        "active_token": " of",
+        "activation": 0.29052734375,
+        "review_id": "HIOhvoRXFtGvPughmZg-CQ",
+        "position": 45
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11023,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2561,
+        "max": 0.2986,
+        "mean": 0.2663
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " out",
+            " of"
+          ],
+          "ngram_str": " out of",
+          "count": 496,
+          "percent": 99.2
+        },
+        {
+          "ngram": [
+            " of",
+            " this"
+          ],
+          "ngram_str": " of this",
+          "count": 296,
+          "percent": 59.2
+        },
+        {
+          "ngram": [
+            " this",
+            " world"
+          ],
+          "ngram_str": " this world",
+          "count": 290,
+          "percent": 58.0
+        },
+        {
+          "ngram": [
+            " world",
+            "."
+          ],
+          "ngram_str": " world.",
+          "count": 172,
+          "percent": 34.4
+        },
+        {
+          "ngram": [
+            " is",
+            " out"
+          ],
+          "ngram_str": " is out",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " are",
+            " out"
+          ],
+          "ngram_str": " are out",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a"
+          ],
+          "ngram_str": " of a",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " world",
+            "!"
+          ],
+          "ngram_str": " world!",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " was",
+            " out"
+          ],
+          "ngram_str": " was out",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " way"
+          ],
+          "ngram_str": " the way",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " of",
+            " place"
+          ],
+          "ngram_str": " of place",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " out",
+            " of",
+            " this"
+          ],
+          "ngram_str": " out of this",
+          "count": 294,
+          "percent": 58.8
+        },
+        {
+          "ngram": [
+            " of",
+            " this",
+            " world"
+          ],
+          "ngram_str": " of this world",
+          "count": 290,
+          "percent": 58.0
+        },
+        {
+          "ngram": [
+            " this",
+            " world",
+            "."
+          ],
+          "ngram_str": " this world.",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " is",
+            " out",
+            " of"
+          ],
+          "ngram_str": " is out of",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            " are",
+            " out",
+            " of"
+          ],
+          "ngram_str": " are out of",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " the"
+          ],
+          "ngram_str": " out of the",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " a"
+          ],
+          "ngram_str": " out of a",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " this",
+            " world",
+            "!"
+          ],
+          "ngram_str": " this world!",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " was",
+            " out",
+            " of"
+          ],
+          "ngram_str": " was out of",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " way"
+          ],
+          "ngram_str": " of the way",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " place"
+          ],
+          "ngram_str": " out of place",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " can"
+          ],
+          "ngram_str": " of a can",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " tacos",
+            " are",
+            " out"
+          ],
+          "ngram_str": " tacos are out",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " world",
+            ".",
+            " The"
+          ],
+          "ngram_str": " world. The",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " out"
+          ],
+          "ngram_str": " it was out",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " out",
+            " of",
+            " this",
+            " world"
+          ],
+          "ngram_str": " out of this world",
+          "count": 288,
+          "percent": 57.6
+        },
+        {
+          "ngram": [
+            " of",
+            " this",
+            " world",
+            "."
+          ],
+          "ngram_str": " of this world.",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " is",
+            " out",
+            " of",
+            " this"
+          ],
+          "ngram_str": " is out of this",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            " are",
+            " out",
+            " of",
+            " this"
+          ],
+          "ngram_str": " are out of this",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " of",
+            " this",
+            " world",
+            "!"
+          ],
+          "ngram_str": " of this world!",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " the",
+            " way"
+          ],
+          "ngram_str": " out of the way",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " a",
+            " can"
+          ],
+          "ngram_str": " out of a can",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " tacos",
+            " are",
+            " out",
+            " of"
+          ],
+          "ngram_str": " tacos are out of",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " out",
+            " of"
+          ],
+          "ngram_str": " it was out of",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " this",
+            " world",
+            ".",
+            " The"
+          ],
+          "ngram_str": " this world. The",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " that",
+            " is",
+            " out",
+            " of"
+          ],
+          "ngram_str": " that is out of",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " this",
+            " world",
+            ".",
+            " I"
+          ],
+          "ngram_str": " this world. I",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " of",
+            " this",
+            " world",
+            ","
+          ],
+          "ngram_str": " of this world,",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " the",
+            " ordinary"
+          ],
+          "ngram_str": " out of the ordinary",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " this",
+            " world",
+            ".",
+            " "
+          ],
+          "ngram_str": " this world. ",
+          "count": 18,
+          "percent": 3.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15200000,
+      "corpus_coverage": 0.294
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22389,
+        "count": 7721,
+        "percent": 77.21
+      },
+      {
+        "feature_idx": 5196,
+        "count": 7150,
+        "percent": 71.5
+      },
+      {
+        "feature_idx": 4997,
+        "count": 6678,
+        "percent": 66.78
+      },
+      {
+        "feature_idx": 6560,
+        "count": 5981,
+        "percent": 59.81
+      },
+      {
+        "feature_idx": 9127,
+        "count": 5927,
+        "percent": 59.27
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5727,
+        "percent": 57.27
+      },
+      {
+        "feature_idx": 6063,
+        "count": 4515,
+        "percent": 45.15
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4307,
+        "percent": 43.07
+      },
+      {
+        "feature_idx": 7143,
+        "count": 4189,
+        "percent": 41.89
+      },
+      {
+        "feature_idx": 23403,
+        "count": 4179,
+        "percent": 41.79
+      },
+      {
+        "feature_idx": 168,
+        "count": 4080,
+        "percent": 40.8
+      },
+      {
+        "feature_idx": 22691,
+        "count": 3838,
+        "percent": 38.38
+      },
+      {
+        "feature_idx": 17861,
+        "count": 3768,
+        "percent": 37.68
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3152,
+        "percent": 31.52
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2901,
+        "percent": 29.01
+      },
+      {
+        "feature_idx": 11199,
+        "count": 2894,
+        "percent": 28.94
+      },
+      {
+        "feature_idx": 18540,
+        "count": 2626,
+        "percent": 26.26
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2614,
+        "percent": 26.14
+      },
+      {
+        "feature_idx": 7951,
+        "count": 2600,
+        "percent": 26.0
+      },
+      {
+        "feature_idx": 5021,
+        "count": 2569,
+        "percent": 25.69
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15200000,
+      "corpus_coverage": 0.294
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1841,
+        "percent": 18.41
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2147,
+        "percent": 21.47
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2104,
+        "percent": 21.04
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1956,
+        "percent": 19.56
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1952,
+        "percent": 19.52
+      }
+    ],
+    "mean_position": 0.5007,
+    "std_position": 0.2809
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 60,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0321,
+      "p25": 0.0424,
+      "p50": 0.086,
+      "p75": 0.1422,
+      "p90": 0.1976,
+      "p95": 0.2217,
+      "p99": 0.2551
+    },
+    "skewness": 0.6,
+    "kurtosis": -0.6603,
+    "min": 0.02,
+    "max": 0.2639,
+    "mean": 0.1038,
+    "std": 0.065
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 60,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " of",
+        "count": 35,
+        "mean_activation": 0.127
+      },
+      {
+        "token": " the",
+        "count": 6,
+        "mean_activation": 0.1005
+      },
+      {
+        "token": "-",
+        "count": 4,
+        "mean_activation": 0.0726
+      },
+      {
+        "token": "of",
+        "count": 2,
+        "mean_activation": 0.1208
+      },
+      {
+        "token": " to",
+        "count": 2,
+        "mean_activation": 0.0378
+      },
+      {
+        "token": " this",
+        "count": 2,
+        "mean_activation": 0.1025
+      },
+      {
+        "token": " my",
+        "count": 1,
+        "mean_activation": 0.0381
+      },
+      {
+        "token": " a",
+        "count": 1,
+        "mean_activation": 0.0602
+      },
+      {
+        "token": " beyond",
+        "count": 1,
+        "mean_activation": 0.0222
+      },
+      {
+        "token": "adas",
+        "count": 1,
+        "mean_activation": 0.0341
+      }
+    ]
+  }
+}

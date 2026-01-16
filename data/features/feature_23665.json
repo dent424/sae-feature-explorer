@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23665,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 91,
+    "mean_when_active": 0.06232360169127747,
+    "max_activation": 0.2469482421875,
+    "std_when_active": 0.03852014365025782,
+    "activation_rate": 0.00091
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 47000000,
+      "corpus_coverage": 0.909
+    },
+    "top_tokens": [
+      {
+        "token": " hit",
+        "count": 5250,
+        "mean_activation": 0.07131672886439733
+      },
+      {
+        "token": " kick",
+        "count": 4211,
+        "mean_activation": 0.09372525474459563
+      },
+      {
+        "token": " blown",
+        "count": 1370,
+        "mean_activation": 0.07298408007099681
+      },
+      {
+        "token": " stumbled",
+        "count": 1169,
+        "mean_activation": 0.06347888590842868
+      },
+      {
+        "token": " vib",
+        "count": 972,
+        "mean_activation": 0.05497861006622942
+      },
+      {
+        "token": " step",
+        "count": 916,
+        "mean_activation": 0.1066976322357311
+      },
+      {
+        "token": " knock",
+        "count": 744,
+        "mean_activation": 0.08270513883201025
+      },
+      {
+        "token": " set",
+        "count": 713,
+        "mean_activation": 0.0379764294724645
+      },
+      {
+        "token": " blew",
+        "count": 687,
+        "mean_activation": 0.06890302766358487
+      },
+      {
+        "token": " blow",
+        "count": 622,
+        "mean_activation": 0.070469233767396
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 47000000,
+      "corpus_coverage": 0.909
+    },
+    "activations": [
+      {
+        "context": "... the perfect meal to** kick** off the weekend.  Ou...",
+        "active_token": " kick",
+        "activation": 0.3232421875,
+        "review_id": "N1Mh_NwphkiFMMj0hvO7Bg",
+        "position": 162
+      },
+      {
+        "context": "... eggs and waffles to** kick** off the day.",
+        "active_token": " kick",
+        "activation": 0.317138671875,
+        "review_id": "BWhEEytxekWtbdE_lop81A",
+        "position": 121
+      },
+      {
+        "context": "...e's no better way to** kick** off the weekend than...",
+        "active_token": " kick",
+        "activation": 0.31689453125,
+        "review_id": "KlyogqxizHjVi9r288g8cQ",
+        "position": 215
+      },
+      {
+        "context": "...can food and want to** kick** back with some marga...",
+        "active_token": " kick",
+        "activation": 0.314453125,
+        "review_id": "ZCyTsN2XkiOBlGGJKXcWfA",
+        "position": 366
+      },
+      {
+        "context": "... with friends and to** kick** back.  The only down...",
+        "active_token": " kick",
+        "activation": 0.311767578125,
+        "review_id": "ei57IxkvUii2sgGNlG8gAw",
+        "position": 33
+      },
+      {
+        "context": "...d some spices. Let's** kick** it up a notch people...",
+        "active_token": " kick",
+        "activation": 0.311767578125,
+        "review_id": "f7t9iZYlGs1T-_eoNKvv-Q",
+        "position": 153
+      },
+      {
+        "context": "... is a great place to** kick** back and work throug...",
+        "active_token": " kick",
+        "activation": 0.311767578125,
+        "review_id": "m0OAvZfjznRXypVjWb4bWA",
+        "position": 43
+      },
+      {
+        "context": "...the perfect place to** kick** off a fun night out!",
+        "active_token": " kick",
+        "activation": 0.307373046875,
+        "review_id": "_npv2tiE23wr91BkRydenA",
+        "position": 108
+      },
+      {
+        "context": "...f you REALLY want to** kick** that baby up, try th...",
+        "active_token": " kick",
+        "activation": 0.30712890625,
+        "review_id": "70W6rwGrxWrYXLkgDDW45g",
+        "position": 243
+      },
+      {
+        "context": "...t week and I want to** kick** myself for not comin...",
+        "active_token": " kick",
+        "activation": 0.30712890625,
+        "review_id": "vykT87VSiTzPZvD8p6trnA",
+        "position": 42
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23665,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2317,
+        "max": 0.3232,
+        "mean": 0.261
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " to",
+            " kick"
+          ],
+          "ngram_str": " to kick",
+          "count": 200,
+          "percent": 40.0
+        },
+        {
+          "ngram": [
+            " kick",
+            " it"
+          ],
+          "ngram_str": " kick it",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " up",
+            " a"
+          ],
+          "ngram_str": " up a",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " it",
+            " up"
+          ],
+          "ngram_str": " it up",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " a",
+            " notch"
+          ],
+          "ngram_str": " a notch",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " kick",
+            " back"
+          ],
+          "ngram_str": " kick back",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " kick",
+            " off"
+          ],
+          "ngram_str": " kick off",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " back",
+            " and"
+          ],
+          "ngram_str": " back and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " place",
+            " to"
+          ],
+          "ngram_str": " place to",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " notch",
+            "."
+          ],
+          "ngram_str": " notch.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " up",
+            " the"
+          ],
+          "ngram_str": " up the",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " myself",
+            " for"
+          ],
+          "ngram_str": " myself for",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " kicking",
+            " myself"
+          ],
+          "ngram_str": " kicking myself",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " kick",
+            " up"
+          ],
+          "ngram_str": " kick up",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " up",
+            " a",
+            " notch"
+          ],
+          "ngram_str": " up a notch",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " kick",
+            " it",
+            " up"
+          ],
+          "ngram_str": " kick it up",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " it"
+          ],
+          "ngram_str": " to kick it",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " it",
+            " up",
+            " a"
+          ],
+          "ngram_str": " it up a",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " back"
+          ],
+          "ngram_str": " to kick back",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " off"
+          ],
+          "ngram_str": " to kick off",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " kick",
+            " back",
+            " and"
+          ],
+          "ngram_str": " kick back and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " a",
+            " notch",
+            "."
+          ],
+          "ngram_str": " a notch.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " place",
+            " to",
+            " kick"
+          ],
+          "ngram_str": " place to kick",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " kick",
+            " up",
+            " the"
+          ],
+          "ngram_str": " kick up the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " want",
+            " to",
+            " kick"
+          ],
+          "ngram_str": " want to kick",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " kicking",
+            " myself",
+            " for"
+          ],
+          "ngram_str": " kicking myself for",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " way",
+            " to",
+            " kick"
+          ],
+          "ngram_str": " way to kick",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " great",
+            " place",
+            " to"
+          ],
+          "ngram_str": " great place to",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " it",
+            " up",
+            " a",
+            " notch"
+          ],
+          "ngram_str": " it up a notch",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " kick",
+            " it",
+            " up",
+            " a"
+          ],
+          "ngram_str": " kick it up a",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " it",
+            " up"
+          ],
+          "ngram_str": " to kick it up",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " up",
+            " a",
+            " notch",
+            "."
+          ],
+          "ngram_str": " up a notch.",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " back",
+            " and"
+          ],
+          "ngram_str": " to kick back and",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " place",
+            " to",
+            " kick",
+            " back"
+          ],
+          "ngram_str": " place to kick back",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " great",
+            " place",
+            " to",
+            " kick"
+          ],
+          "ngram_str": " great place to kick",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " off",
+            " the"
+          ],
+          "ngram_str": " to kick off the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " way",
+            " to",
+            " kick",
+            " off"
+          ],
+          "ngram_str": " way to kick off",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " a",
+            " great",
+            " place",
+            " to"
+          ],
+          "ngram_str": " a great place to",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " kicking",
+            " myself"
+          ],
+          "ngram_str": " I'm kicking myself",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " kick",
+            " back",
+            " and",
+            " relax"
+          ],
+          "ngram_str": " kick back and relax",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " up",
+            " the"
+          ],
+          "ngram_str": " to kick up the",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " to",
+            " kick",
+            " it",
+            " with"
+          ],
+          "ngram_str": " to kick it with",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " kick",
+            " back",
+            " and",
+            " enjoy"
+          ],
+          "ngram_str": " kick back and enjoy",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9300000,
+      "corpus_coverage": 0.1799
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11763,
+        "count": 4700,
+        "percent": 47.0
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4221,
+        "percent": 42.21
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4027,
+        "percent": 40.27
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3883,
+        "percent": 38.83
+      },
+      {
+        "feature_idx": 14314,
+        "count": 2886,
+        "percent": 28.86
+      },
+      {
+        "feature_idx": 20785,
+        "count": 2656,
+        "percent": 26.56
+      },
+      {
+        "feature_idx": 23658,
+        "count": 2364,
+        "percent": 23.64
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2274,
+        "percent": 22.74
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2272,
+        "percent": 22.72
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2148,
+        "percent": 21.48
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2137,
+        "percent": 21.37
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2003,
+        "percent": 20.03
+      },
+      {
+        "feature_idx": 17201,
+        "count": 1814,
+        "percent": 18.14
+      },
+      {
+        "feature_idx": 17430,
+        "count": 1693,
+        "percent": 16.93
+      },
+      {
+        "feature_idx": 10126,
+        "count": 1539,
+        "percent": 15.39
+      },
+      {
+        "feature_idx": 4541,
+        "count": 1497,
+        "percent": 14.97
+      },
+      {
+        "feature_idx": 9470,
+        "count": 1462,
+        "percent": 14.62
+      },
+      {
+        "feature_idx": 24172,
+        "count": 1457,
+        "percent": 14.57
+      },
+      {
+        "feature_idx": 22130,
+        "count": 1386,
+        "percent": 13.86
+      },
+      {
+        "feature_idx": 14080,
+        "count": 1384,
+        "percent": 13.84
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9300000,
+      "corpus_coverage": 0.1799
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2125,
+        "percent": 21.25
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1915,
+        "percent": 19.15
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1895,
+        "percent": 18.95
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1831,
+        "percent": 18.31
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2234,
+        "percent": 22.34
+      }
+    ],
+    "mean_position": 0.5018,
+    "std_position": 0.2977
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 91,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0251,
+      "p25": 0.0346,
+      "p50": 0.0525,
+      "p75": 0.0828,
+      "p90": 0.1114,
+      "p95": 0.1172,
+      "p99": 0.1787
+    },
+    "skewness": 1.7495,
+    "kurtosis": 4.7197,
+    "min": 0.0132,
+    "max": 0.2469,
+    "mean": 0.0623,
+    "std": 0.0385
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 91,
+      "unique_tokens_found": 58
+    },
+    "tokens": [
+      {
+        "token": " hit",
+        "count": 11,
+        "mean_activation": 0.0716
+      },
+      {
+        "token": " kick",
+        "count": 5,
+        "mean_activation": 0.0554
+      },
+      {
+        "token": " knocked",
+        "count": 4,
+        "mean_activation": 0.1059
+      },
+      {
+        "token": " boot",
+        "count": 3,
+        "mean_activation": 0.0847
+      },
+      {
+        "token": " blown",
+        "count": 3,
+        "mean_activation": 0.0706
+      },
+      {
+        "token": " blow",
+        "count": 3,
+        "mean_activation": 0.054
+      },
+      {
+        "token": " popped",
+        "count": 3,
+        "mean_activation": 0.0644
+      },
+      {
+        "token": " Sab",
+        "count": 3,
+        "mean_activation": 0.0209
+      },
+      {
+        "token": " grab",
+        "count": 2,
+        "mean_activation": 0.036
+      },
+      {
+        "token": " vib",
+        "count": 2,
+        "mean_activation": 0.0604
+      }
+    ]
+  }
+}

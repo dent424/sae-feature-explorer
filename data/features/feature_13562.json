@@ -1,0 +1,846 @@
+{
+  "feature_idx": 13562,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 14,
+    "mean_when_active": 0.08426993233816964,
+    "max_activation": 0.1685791015625,
+    "std_when_active": 0.044937904837434144,
+    "activation_rate": 0.00014
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 10713,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " looking",
+        "count": 6402,
+        "mean_activation": 0.05760978095719904
+      },
+      {
+        "token": " look",
+        "count": 1346,
+        "mean_activation": 0.0465109543141426
+      },
+      {
+        "token": " Looking",
+        "count": 1054,
+        "mean_activation": 0.1587933679685647
+      },
+      {
+        "token": " looked",
+        "count": 560,
+        "mean_activation": 0.03151307787214007
+      },
+      {
+        "token": "Looking",
+        "count": 247,
+        "mean_activation": 0.13593962511070345
+      },
+      {
+        "token": " Look",
+        "count": 203,
+        "mean_activation": 0.030456430219077124
+      },
+      {
+        "token": "ing",
+        "count": 138,
+        "mean_activation": 0.040143552033797554
+      },
+      {
+        "token": " Looks",
+        "count": 105,
+        "mean_activation": 0.03218282063802083
+      },
+      {
+        "token": " Going",
+        "count": 51,
+        "mean_activation": 0.02668941722196691
+      },
+      {
+        "token": "looking",
+        "count": 47,
+        "mean_activation": 0.09021872662483378
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 10713,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... the Pollo relleno.** Looking** forward to coming ...",
+        "active_token": " Looking",
+        "activation": 0.226318359375,
+        "review_id": "5fCG6isNzzMgMTisLAGEIg",
+        "position": 36
+      },
+      {
+        "context": "... was great as well.** Looking** forward to trying ...",
+        "active_token": " Looking",
+        "activation": 0.2244873046875,
+        "review_id": "MDDHNnS1exgyqruobHsiow",
+        "position": 181
+      },
+      {
+        "context": "...orta was very good.** Looking** forward to coming ...",
+        "active_token": " Looking",
+        "activation": 0.2213134765625,
+        "review_id": "hrTzKAPclrGkT0XJlMspnQ",
+        "position": 31
+      },
+      {
+        "context": "...redibly satisfying.** Looking** forward to going b...",
+        "active_token": " Looking",
+        "activation": 0.22021484375,
+        "review_id": "BRGJzamalv7Idvj2hEJdzQ",
+        "position": 163
+      },
+      {
+        "context": "... quality was great.** Looking** forward to returni...",
+        "active_token": " Looking",
+        "activation": 0.2198486328125,
+        "review_id": "EZPcL3d89XSgluhtZhCDDA",
+        "position": 61
+      },
+      {
+        "context": "...er free margaritas.** Looking** forward to a retur...",
+        "active_token": " Looking",
+        "activation": 0.2188720703125,
+        "review_id": "MyQU51qHDLAgVtDZeu1dyA",
+        "position": 60
+      },
+      {
+        "context": "... price. Nice staff.** Looking** forward to going b...",
+        "active_token": " Looking",
+        "activation": 0.2183837890625,
+        "review_id": "5hj4B0-lhZKQf1cB9ilcIg",
+        "position": 28
+      },
+      {
+        "context": "... bowl and loved it!** Looking** forward to trying ...",
+        "active_token": " Looking",
+        "activation": 0.217529296875,
+        "review_id": "KJ2WaDWaeRadpBkRmdwIJg",
+        "position": 56
+      },
+      {
+        "context": "... leave work to eat.** Looking** forward to trying ...",
+        "active_token": " Looking",
+        "activation": 0.21728515625,
+        "review_id": "S8WGjbJVu7D5Bs9jpSVqLg",
+        "position": 42
+      },
+      {
+        "context": "... friendly & prompt.** Looking** forward to many mo...",
+        "active_token": " Looking",
+        "activation": 0.2171630859375,
+        "review_id": "oiCASDfLHCyAoilAQ7ojZA",
+        "position": 54
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13562,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1754,
+        "max": 0.2263,
+        "mean": 0.1944
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " forward",
+            " to"
+          ],
+          "ngram_str": " forward to",
+          "count": 435,
+          "percent": 87.0
+        },
+        {
+          "ngram": [
+            " Looking",
+            " forward"
+          ],
+          "ngram_str": " Looking forward",
+          "count": 419,
+          "percent": 83.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Looking"
+          ],
+          "ngram_str": ". Looking",
+          "count": 306,
+          "percent": 61.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Looking"
+          ],
+          "ngram_str": "  Looking",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " to",
+            " going"
+          ],
+          "ngram_str": " to going",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " to",
+            " trying"
+          ],
+          "ngram_str": " to trying",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Looking"
+          ],
+          "ngram_str": "! Looking",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " going",
+            " back"
+          ],
+          "ngram_str": " going back",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " coming",
+            " back"
+          ],
+          "ngram_str": " coming back",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " to",
+            " coming"
+          ],
+          "ngram_str": " to coming",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " next",
+            " visit"
+          ],
+          "ngram_str": " next visit",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " to",
+            " returning"
+          ],
+          "ngram_str": " to returning",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " to",
+            " our"
+          ],
+          "ngram_str": " to our",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " our",
+            " next"
+          ],
+          "ngram_str": " our next",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " Looking",
+            " forward",
+            " to"
+          ],
+          "ngram_str": " Looking forward to",
+          "count": 413,
+          "percent": 82.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Looking",
+            " forward"
+          ],
+          "ngram_str": ". Looking forward",
+          "count": 267,
+          "percent": 53.4
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " going"
+          ],
+          "ngram_str": " forward to going",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " trying"
+          ],
+          "ngram_str": " forward to trying",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Looking",
+            " forward"
+          ],
+          "ngram_str": "  Looking forward",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " to",
+            " going",
+            " back"
+          ],
+          "ngram_str": " to going back",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            "!",
+            " Looking",
+            " forward"
+          ],
+          "ngram_str": "! Looking forward",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Looking"
+          ],
+          "ngram_str": ".  Looking",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " coming"
+          ],
+          "ngram_str": " forward to coming",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " to",
+            " coming",
+            " back"
+          ],
+          "ngram_str": " to coming back",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " returning"
+          ],
+          "ngram_str": " forward to returning",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " our"
+          ],
+          "ngram_str": " forward to our",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " to",
+            " our",
+            " next"
+          ],
+          "ngram_str": " to our next",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " my"
+          ],
+          "ngram_str": " forward to my",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " to",
+            " my",
+            " next"
+          ],
+          "ngram_str": " to my next",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " Looking",
+            " forward",
+            " to"
+          ],
+          "ngram_str": ". Looking forward to",
+          "count": 264,
+          "percent": 52.8
+        },
+        {
+          "ngram": [
+            " Looking",
+            " forward",
+            " to",
+            " going"
+          ],
+          "ngram_str": " Looking forward to going",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " Looking",
+            " forward",
+            " to",
+            " trying"
+          ],
+          "ngram_str": " Looking forward to trying",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Looking",
+            " forward",
+            " to"
+          ],
+          "ngram_str": "  Looking forward to",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " going",
+            " back"
+          ],
+          "ngram_str": " forward to going back",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            "!",
+            " Looking",
+            " forward",
+            " to"
+          ],
+          "ngram_str": "! Looking forward to",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " coming",
+            " back"
+          ],
+          "ngram_str": " forward to coming back",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " Looking",
+            " forward",
+            " to",
+            " coming"
+          ],
+          "ngram_str": " Looking forward to coming",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Looking",
+            " forward"
+          ],
+          "ngram_str": ".  Looking forward",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " Looking",
+            " forward",
+            " to",
+            " returning"
+          ],
+          "ngram_str": " Looking forward to returning",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " Looking",
+            " forward",
+            " to",
+            " our"
+          ],
+          "ngram_str": " Looking forward to our",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " our",
+            " next"
+          ],
+          "ngram_str": " forward to our next",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Looking",
+            " forward",
+            " to",
+            " my"
+          ],
+          "ngram_str": " Looking forward to my",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " forward",
+            " to",
+            " my",
+            " next"
+          ],
+          "ngram_str": " forward to my next",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " to",
+            " our",
+            " next",
+            " visit"
+          ],
+          "ngram_str": " to our next visit",
+          "count": 21,
+          "percent": 4.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 48200000,
+      "corpus_coverage": 0.9322
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10162,
+        "count": 9392,
+        "percent": 93.92
+      },
+      {
+        "feature_idx": 11984,
+        "count": 9360,
+        "percent": 93.6
+      },
+      {
+        "feature_idx": 12581,
+        "count": 9357,
+        "percent": 93.57
+      },
+      {
+        "feature_idx": 4132,
+        "count": 8059,
+        "percent": 80.59
+      },
+      {
+        "feature_idx": 19741,
+        "count": 7775,
+        "percent": 77.75
+      },
+      {
+        "feature_idx": 2199,
+        "count": 7490,
+        "percent": 74.9
+      },
+      {
+        "feature_idx": 6048,
+        "count": 7374,
+        "percent": 73.74
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6084,
+        "percent": 60.84
+      },
+      {
+        "feature_idx": 7149,
+        "count": 5458,
+        "percent": 54.58
+      },
+      {
+        "feature_idx": 18792,
+        "count": 5151,
+        "percent": 51.51
+      },
+      {
+        "feature_idx": 20299,
+        "count": 5113,
+        "percent": 51.13
+      },
+      {
+        "feature_idx": 17430,
+        "count": 4924,
+        "percent": 49.24
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4839,
+        "percent": 48.39
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4484,
+        "percent": 44.84
+      },
+      {
+        "feature_idx": 19482,
+        "count": 4320,
+        "percent": 43.2
+      },
+      {
+        "feature_idx": 11537,
+        "count": 4237,
+        "percent": 42.37
+      },
+      {
+        "feature_idx": 11871,
+        "count": 4025,
+        "percent": 40.25
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3898,
+        "percent": 38.98
+      },
+      {
+        "feature_idx": 11950,
+        "count": 3271,
+        "percent": 32.71
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3232,
+        "percent": 32.32
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 48200000,
+      "corpus_coverage": 0.9322
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2633,
+        "percent": 26.33
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1227,
+        "percent": 12.27
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1135,
+        "percent": 11.35
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1505,
+        "percent": 15.05
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3500,
+        "percent": 35.0
+      }
+    ],
+    "mean_position": 0.5392,
+    "std_position": 0.3423
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 14,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0444,
+      "p25": 0.0535,
+      "p50": 0.0661,
+      "p75": 0.0953,
+      "p90": 0.1637,
+      "p95": 0.1664,
+      "p99": 0.1681
+    },
+    "skewness": 0.9837,
+    "kurtosis": -0.5452,
+    "min": 0.0343,
+    "max": 0.1686,
+    "mean": 0.0843,
+    "std": 0.0449
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 14,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": " looking",
+        "count": 10,
+        "mean_activation": 0.0642
+      },
+      {
+        "token": " Looking",
+        "count": 2,
+        "mean_activation": 0.1645
+      },
+      {
+        "token": "Looking",
+        "count": 1,
+        "mean_activation": 0.1652
+      },
+      {
+        "token": " look",
+        "count": 1,
+        "mean_activation": 0.0438
+      }
+    ]
+  }
+}

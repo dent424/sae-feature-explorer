@@ -1,0 +1,876 @@
+{
+  "feature_idx": 13112,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 71,
+    "mean_when_active": 0.14884712326694544,
+    "max_activation": 0.381591796875,
+    "std_when_active": 0.11248811445223245,
+    "activation_rate": 0.00071
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 27018,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " truck",
+        "count": 6343,
+        "mean_activation": 0.284488317738304
+      },
+      {
+        "token": " container",
+        "count": 1807,
+        "mean_activation": 0.062441726118804476
+      },
+      {
+        "token": " machine",
+        "count": 1750,
+        "mean_activation": 0.050622698102678575
+      },
+      {
+        "token": " pickup",
+        "count": 1395,
+        "mean_activation": 0.10230321303063396
+      },
+      {
+        "token": " trucks",
+        "count": 1236,
+        "mean_activation": 0.2284028383520429
+      },
+      {
+        "token": " containers",
+        "count": 1110,
+        "mean_activation": 0.06005016704937359
+      },
+      {
+        "token": " cart",
+        "count": 924,
+        "mean_activation": 0.0634519321061832
+      },
+      {
+        "token": " cars",
+        "count": 906,
+        "mean_activation": 0.04179473270643626
+      },
+      {
+        "token": " bucket",
+        "count": 581,
+        "mean_activation": 0.08416611479399742
+      },
+      {
+        "token": " bus",
+        "count": 442,
+        "mean_activation": 0.02759558906382565
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 27018,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...p mall across from a** truck** stop.",
+        "active_token": " truck",
+        "activation": 0.4609375,
+        "review_id": "HbvRE_alBdvuDlwdNon2vg",
+        "position": 57
+      },
+      {
+        "context": "...mention the bar is a** truck**.",
+        "active_token": " truck",
+        "activation": 0.456787109375,
+        "review_id": "SFtvw4makRcRJHudt6ZUCQ",
+        "position": 182
+      },
+      {
+        "context": "...service for $10 at a** truck** stop, get over your...",
+        "active_token": " truck",
+        "activation": 0.45458984375,
+        "review_id": "805uOPnBSJqIQUGu_jSIng",
+        "position": 124
+      },
+      {
+        "context": "...e parking lot from a** truck** selling sonoran dog...",
+        "active_token": " truck",
+        "activation": 0.44580078125,
+        "review_id": "Ah5FmWb3cmVQuGQm8AbZqA",
+        "position": 233
+      },
+      {
+        "context": "...or closed in, it's a** truck** with a tent on a gr...",
+        "active_token": " truck",
+        "activation": 0.44482421875,
+        "review_id": "vn4iKXgKLM0-tLlO-pDBVQ",
+        "position": 109
+      },
+      {
+        "context": "...or closed in, it's a** truck** with a tent on a gr...",
+        "active_token": " truck",
+        "activation": 0.44482421875,
+        "review_id": "cwMAPGhJLc0nnOfHBTo8qA",
+        "position": 109
+      },
+      {
+        "context": "...he holiday inn and a** truck** stop area) but shor...",
+        "active_token": " truck",
+        "activation": 0.443603515625,
+        "review_id": "GoLJlFyJujmlIGmFozMbZg",
+        "position": 56
+      },
+      {
+        "context": "... is one step above a** truck**.  The line was out ...",
+        "active_token": " truck",
+        "activation": 0.443359375,
+        "review_id": "CPxcELG2r81wEkwjqFC0Eg",
+        "position": 127
+      },
+      {
+        "context": "...ss the highway for a** truck**ing company. This lo...",
+        "active_token": " truck",
+        "activation": 0.443115234375,
+        "review_id": "6NFs0aAeWnmRvmfohDE1Eg",
+        "position": 63
+      },
+      {
+        "context": "...ur at a Denny's or a** truck** stop as they walk a...",
+        "active_token": " truck",
+        "activation": 0.439697265625,
+        "review_id": "duBN2Y1BKM3vP8ymA1NuIA",
+        "position": 189
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13112,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3789,
+        "max": 0.4609,
+        "mean": 0.3988
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " truck"
+          ],
+          "ngram_str": " the truck",
+          "count": 165,
+          "percent": 33.0
+        },
+        {
+          "ngram": [
+            " a",
+            " truck"
+          ],
+          "ngram_str": " a truck",
+          "count": 153,
+          "percent": 30.6
+        },
+        {
+          "ngram": [
+            " truck",
+            "."
+          ],
+          "ngram_str": " truck.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " truck",
+            ","
+          ],
+          "ngram_str": " truck,",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " from",
+            " a"
+          ],
+          "ngram_str": " from a",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " at",
+            " the"
+          ],
+          "ngram_str": " at the",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " truck",
+            " and"
+          ],
+          "ngram_str": " truck and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " truck",
+            " stop"
+          ],
+          "ngram_str": " truck stop",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " to",
+            " the"
+          ],
+          "ngram_str": " to the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " of",
+            " a"
+          ],
+          "ngram_str": " of a",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " from",
+            " the"
+          ],
+          "ngram_str": " from the",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " from",
+            " a",
+            " truck"
+          ],
+          "ngram_str": " from a truck",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " truck"
+          ],
+          "ngram_str": " at the truck",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " the",
+            " truck",
+            "."
+          ],
+          "ngram_str": " the truck.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " truck"
+          ],
+          "ngram_str": " to the truck",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " a",
+            " truck",
+            "."
+          ],
+          "ngram_str": " a truck.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " truck"
+          ],
+          "ngram_str": " from the truck",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " a",
+            " truck",
+            ","
+          ],
+          "ngram_str": " a truck,",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " the",
+            " truck",
+            ","
+          ],
+          "ngram_str": " the truck,",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " the",
+            " truck",
+            " and"
+          ],
+          "ngram_str": " the truck and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " truck"
+          ],
+          "ngram_str": " of a truck",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " a",
+            " truck",
+            " stop"
+          ],
+          "ngram_str": " a truck stop",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " truck",
+            ".",
+            " "
+          ],
+          "ngram_str": " truck. ",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " next",
+            " to",
+            " the"
+          ],
+          "ngram_str": " next to the",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " a",
+            " truck"
+          ],
+          "ngram_str": " out of a truck",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " next",
+            " to",
+            " the",
+            " truck"
+          ],
+          "ngram_str": " next to the truck",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " at",
+            " the",
+            " truck",
+            "."
+          ],
+          "ngram_str": " at the truck.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " a",
+            " truck",
+            " stop",
+            "."
+          ],
+          "ngram_str": " a truck stop.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " a",
+            " truck"
+          ],
+          "ngram_str": " it's a truck",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " the",
+            " truck",
+            ".",
+            " "
+          ],
+          "ngram_str": " the truck. ",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " front",
+            " of",
+            " the",
+            " truck"
+          ],
+          "ngram_str": " front of the truck",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " tacos",
+            " from",
+            " a",
+            " truck"
+          ],
+          "ngram_str": " tacos from a truck",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " in",
+            " front",
+            " of",
+            " the"
+          ],
+          "ngram_str": " in front of the",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " a",
+            " truck",
+            " with",
+            " a"
+          ],
+          "ngram_str": " a truck with a",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " a",
+            " truck",
+            ".",
+            " "
+          ],
+          "ngram_str": " a truck. ",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " a",
+            " truck",
+            ",",
+            " but"
+          ],
+          "ngram_str": " a truck, but",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 19900000,
+      "corpus_coverage": 0.3849
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5801,
+        "percent": 58.01
+      },
+      {
+        "feature_idx": 22858,
+        "count": 5259,
+        "percent": 52.59
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3929,
+        "percent": 39.29
+      },
+      {
+        "feature_idx": 11491,
+        "count": 3903,
+        "percent": 39.03
+      },
+      {
+        "feature_idx": 16731,
+        "count": 3519,
+        "percent": 35.19
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3436,
+        "percent": 34.36
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3420,
+        "percent": 34.2
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3097,
+        "percent": 30.97
+      },
+      {
+        "feature_idx": 1938,
+        "count": 2893,
+        "percent": 28.93
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2880,
+        "percent": 28.8
+      },
+      {
+        "feature_idx": 5422,
+        "count": 2768,
+        "percent": 27.68
+      },
+      {
+        "feature_idx": 16993,
+        "count": 2430,
+        "percent": 24.3
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2400,
+        "percent": 24.0
+      },
+      {
+        "feature_idx": 9063,
+        "count": 2340,
+        "percent": 23.4
+      },
+      {
+        "feature_idx": 19926,
+        "count": 2127,
+        "percent": 21.27
+      },
+      {
+        "feature_idx": 18503,
+        "count": 2106,
+        "percent": 21.06
+      },
+      {
+        "feature_idx": 3886,
+        "count": 1999,
+        "percent": 19.99
+      },
+      {
+        "feature_idx": 14918,
+        "count": 1825,
+        "percent": 18.25
+      },
+      {
+        "feature_idx": 8285,
+        "count": 1819,
+        "percent": 18.19
+      },
+      {
+        "feature_idx": 11584,
+        "count": 1714,
+        "percent": 17.14
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 19900000,
+      "corpus_coverage": 0.3849
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2299,
+        "percent": 22.99
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1990,
+        "percent": 19.9
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1808,
+        "percent": 18.08
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1906,
+        "percent": 19.06
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1997,
+        "percent": 19.97
+      }
+    ],
+    "mean_position": 0.4849,
+    "std_position": 0.2966
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 71,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0341,
+      "p25": 0.0543,
+      "p50": 0.0939,
+      "p75": 0.2526,
+      "p90": 0.3184,
+      "p95": 0.3409,
+      "p99": 0.3785
+    },
+    "skewness": 0.5791,
+    "kurtosis": -1.1726,
+    "min": 0.0188,
+    "max": 0.3816,
+    "mean": 0.1488,
+    "std": 0.1125
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 71,
+      "unique_tokens_found": 30
+    },
+    "tokens": [
+      {
+        "token": " truck",
+        "count": 18,
+        "mean_activation": 0.2945
+      },
+      {
+        "token": " trucks",
+        "count": 10,
+        "mean_activation": 0.2397
+      },
+      {
+        "token": " container",
+        "count": 6,
+        "mean_activation": 0.0607
+      },
+      {
+        "token": " bucket",
+        "count": 4,
+        "mean_activation": 0.0979
+      },
+      {
+        "token": "reck",
+        "count": 2,
+        "mean_activation": 0.0818
+      },
+      {
+        "token": " dispens",
+        "count": 2,
+        "mean_activation": 0.0508
+      },
+      {
+        "token": " machine",
+        "count": 2,
+        "mean_activation": 0.0668
+      },
+      {
+        "token": " bottles",
+        "count": 2,
+        "mean_activation": 0.0291
+      },
+      {
+        "token": " wagon",
+        "count": 2,
+        "mean_activation": 0.1039
+      },
+      {
+        "token": " tent",
+        "count": 2,
+        "mean_activation": 0.0697
+      }
+    ]
+  }
+}

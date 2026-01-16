@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17784,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 89,
+    "mean_when_active": 0.05236709251832426,
+    "max_activation": 0.240478515625,
+    "std_when_active": 0.04092421863377801,
+    "activation_rate": 0.00089
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 46332,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " and",
+        "count": 27379,
+        "mean_activation": 0.05475097118996168
+      },
+      {
+        "token": ",",
+        "count": 4772,
+        "mean_activation": 0.03442103345156315
+      },
+      {
+        "token": " was",
+        "count": 3106,
+        "mean_activation": 0.005496668032654162
+      },
+      {
+        "token": " or",
+        "count": 2807,
+        "mean_activation": 0.05231685115214892
+      },
+      {
+        "token": " to",
+        "count": 1382,
+        "mean_activation": 0.07016130328695958
+      },
+      {
+        "token": "-",
+        "count": 1079,
+        "mean_activation": 0.04114417216643014
+      },
+      {
+        "token": "/",
+        "count": 834,
+        "mean_activation": 0.042692856822940085
+      },
+      {
+        "token": ".",
+        "count": 800,
+        "mean_activation": 0.024300365447998046
+      },
+      {
+        "token": " &",
+        "count": 576,
+        "mean_activation": 0.0469512144724528
+      },
+      {
+        "token": " then",
+        "count": 302,
+        "mean_activation": 0.028014151465813847
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 46332,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ess of each bar comes** and** goes like the wind. ...",
+        "active_token": " and",
+        "activation": 0.31201171875,
+        "review_id": "GB56yAmX_1E6DBzco0hAcA",
+        "position": 36
+      },
+      {
+        "context": "...metimes success comes** and** sometimes it goes. U...",
+        "active_token": " and",
+        "activation": 0.310546875,
+        "review_id": "yVj0gDbKrtXP3JfMO61Wbg",
+        "position": 163
+      },
+      {
+        "context": "...series of places come** and** go here.  We're fans...",
+        "active_token": " and",
+        "activation": 0.309814453125,
+        "review_id": "l02FG9ka6VBp_OnWPMvnLg",
+        "position": 151
+      },
+      {
+        "context": "... many businesses come** and** gone in that buildin...",
+        "active_token": " and",
+        "activation": 0.30908203125,
+        "review_id": "Fxjf3mf2cz06XGWw42HFBw",
+        "position": 14
+      },
+      {
+        "context": "...d other business come** and** go. This place is no...",
+        "active_token": " and",
+        "activation": 0.302490234375,
+        "review_id": "gohOZpQoJtVeqR3mbTXHSQ",
+        "position": 24
+      },
+      {
+        "context": "... seating.  Food comes** and** presentation wise, l...",
+        "active_token": " and",
+        "activation": 0.30224609375,
+        "review_id": "19pH7IQTDR96khbhvfTXrQ",
+        "position": 108
+      },
+      {
+        "context": "...have seen places come** and** go over the years! I...",
+        "active_token": " and",
+        "activation": 0.296630859375,
+        "review_id": "JCsen61ysZ0sH-ML7tu51A",
+        "position": 48
+      },
+      {
+        "context": "...restaurants have come** and** gone--pizzerias, ame...",
+        "active_token": " and",
+        "activation": 0.296142578125,
+        "review_id": "j2nnSXZUg4D5SA5575MI4A",
+        "position": 77
+      },
+      {
+        "context": "...many places have come** and** gone and I've never ...",
+        "active_token": " and",
+        "activation": 0.29443359375,
+        "review_id": "JTBgSySDjyVS00wIorHoxA",
+        "position": 91
+      },
+      {
+        "context": "...owly as the food came** and** impressed us one dis...",
+        "active_token": " and",
+        "activation": 0.293701171875,
+        "review_id": "8uMpS_M_Y6D0DC1o5vhJww",
+        "position": 1146
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17784,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2208,
+        "max": 0.312,
+        "mean": 0.2483
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " now",
+            " and"
+          ],
+          "ngram_str": " now and",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            " every",
+            " now"
+          ],
+          "ngram_str": " every now",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            " and",
+            " then"
+          ],
+          "ngram_str": " and then",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " come",
+            " and"
+          ],
+          "ngram_str": " come and",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " came",
+            " and"
+          ],
+          "ngram_str": " came and",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            " and",
+            " go"
+          ],
+          "ngram_str": " and go",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " and",
+            " again"
+          ],
+          "ngram_str": " and again",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " coming",
+            " and"
+          ],
+          "ngram_str": " coming and",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " and",
+            " going"
+          ],
+          "ngram_str": " and going",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " comes",
+            " and"
+          ],
+          "ngram_str": " comes and",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " food",
+            " came"
+          ],
+          "ngram_str": " food came",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " then",
+            "."
+          ],
+          "ngram_str": " then.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " gone"
+          ],
+          "ngram_str": " and gone",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " every",
+            " now",
+            " and"
+          ],
+          "ngram_str": " every now and",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            " now",
+            " and",
+            " then"
+          ],
+          "ngram_str": " now and then",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            " come",
+            " and",
+            " go"
+          ],
+          "ngram_str": " come and go",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " now",
+            " and",
+            " again"
+          ],
+          "ngram_str": " now and again",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " coming",
+            " and",
+            " going"
+          ],
+          "ngram_str": " coming and going",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " food",
+            " came",
+            " and"
+          ],
+          "ngram_str": " food came and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " and",
+            " then",
+            "."
+          ],
+          "ngram_str": " and then.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " come",
+            " and",
+            " gone"
+          ],
+          "ngram_str": " come and gone",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " Every",
+            " now",
+            " and"
+          ],
+          "ngram_str": " Every now and",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " again",
+            "."
+          ],
+          "ngram_str": " and again.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " and",
+            " go",
+            "."
+          ],
+          "ngram_str": " and go.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " have",
+            " come",
+            " and"
+          ],
+          "ngram_str": " have come and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " but",
+            " every",
+            " now"
+          ],
+          "ngram_str": " but every now",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " every",
+            " now",
+            " and",
+            " then"
+          ],
+          "ngram_str": " every now and then",
+          "count": 100,
+          "percent": 20.0
+        },
+        {
+          "ngram": [
+            " every",
+            " now",
+            " and",
+            " again"
+          ],
+          "ngram_str": " every now and again",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " now",
+            " and",
+            " then",
+            "."
+          ],
+          "ngram_str": " now and then.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " now",
+            " and",
+            " again",
+            "."
+          ],
+          "ngram_str": " now and again.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Every",
+            " now",
+            " and",
+            " then"
+          ],
+          "ngram_str": " Every now and then",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " come",
+            " and",
+            " go",
+            "."
+          ],
+          "ngram_str": " come and go.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " but",
+            " every",
+            " now",
+            " and"
+          ],
+          "ngram_str": " but every now and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " now",
+            " and",
+            " then",
+            " I"
+          ],
+          "ngram_str": " now and then I",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " have",
+            " come",
+            " and",
+            " gone"
+          ],
+          "ngram_str": " have come and gone",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Every",
+            " now",
+            " and"
+          ],
+          "ngram_str": ". Every now and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " coming",
+            " and",
+            " going",
+            "."
+          ],
+          "ngram_str": " coming and going.",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " people",
+            " coming",
+            " and",
+            " going"
+          ],
+          "ngram_str": " people coming and going",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " came",
+            " and",
+            " it",
+            " was"
+          ],
+          "ngram_str": " came and it was",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " restaurants",
+            " come",
+            " and",
+            " go"
+          ],
+          "ngram_str": " restaurants come and go",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11300000,
+      "corpus_coverage": 0.2186
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 19938,
+        "count": 6095,
+        "percent": 60.95
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4980,
+        "percent": 49.8
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4710,
+        "percent": 47.1
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4148,
+        "percent": 41.48
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3827,
+        "percent": 38.27
+      },
+      {
+        "feature_idx": 20529,
+        "count": 3287,
+        "percent": 32.87
+      },
+      {
+        "feature_idx": 16685,
+        "count": 2936,
+        "percent": 29.36
+      },
+      {
+        "feature_idx": 15267,
+        "count": 2564,
+        "percent": 25.64
+      },
+      {
+        "feature_idx": 21979,
+        "count": 2498,
+        "percent": 24.98
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2451,
+        "percent": 24.51
+      },
+      {
+        "feature_idx": 2255,
+        "count": 2430,
+        "percent": 24.3
+      },
+      {
+        "feature_idx": 6544,
+        "count": 2284,
+        "percent": 22.84
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2226,
+        "percent": 22.26
+      },
+      {
+        "feature_idx": 11839,
+        "count": 2203,
+        "percent": 22.03
+      },
+      {
+        "feature_idx": 9156,
+        "count": 2043,
+        "percent": 20.43
+      },
+      {
+        "feature_idx": 10305,
+        "count": 1973,
+        "percent": 19.73
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1955,
+        "percent": 19.55
+      },
+      {
+        "feature_idx": 20758,
+        "count": 1935,
+        "percent": 19.35
+      },
+      {
+        "feature_idx": 5665,
+        "count": 1906,
+        "percent": 19.06
+      },
+      {
+        "feature_idx": 14459,
+        "count": 1803,
+        "percent": 18.03
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11300000,
+      "corpus_coverage": 0.2186
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2478,
+        "percent": 24.78
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1762,
+        "percent": 17.62
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1804,
+        "percent": 18.04
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1786,
+        "percent": 17.86
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2170,
+        "percent": 21.7
+      }
+    ],
+    "mean_position": 0.4831,
+    "std_position": 0.3128
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 89,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0193,
+      "p25": 0.0273,
+      "p50": 0.0392,
+      "p75": 0.0598,
+      "p90": 0.0989,
+      "p95": 0.1492,
+      "p99": 0.1889
+    },
+    "skewness": 2.0818,
+    "kurtosis": 5.1296,
+    "min": 0.0054,
+    "max": 0.2405,
+    "mean": 0.0524,
+    "std": 0.0409
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 89,
+      "unique_tokens_found": 15
+    },
+    "tokens": [
+      {
+        "token": " and",
+        "count": 49,
+        "mean_activation": 0.0578
+      },
+      {
+        "token": ",",
+        "count": 10,
+        "mean_activation": 0.0334
+      },
+      {
+        "token": " to",
+        "count": 5,
+        "mean_activation": 0.0811
+      },
+      {
+        "token": " or",
+        "count": 5,
+        "mean_activation": 0.094
+      },
+      {
+        "token": " was",
+        "count": 5,
+        "mean_activation": 0.0054
+      },
+      {
+        "token": "/",
+        "count": 4,
+        "mean_activation": 0.0457
+      },
+      {
+        "token": "-",
+        "count": 2,
+        "mean_activation": 0.0379
+      },
+      {
+        "token": ".",
+        "count": 2,
+        "mean_activation": 0.0158
+      },
+      {
+        "token": "ua",
+        "count": 1,
+        "mean_activation": 0.0385
+      },
+      {
+        "token": " would",
+        "count": 1,
+        "mean_activation": 0.065
+      }
+    ]
+  }
+}

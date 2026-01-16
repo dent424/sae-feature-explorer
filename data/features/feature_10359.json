@@ -1,0 +1,861 @@
+{
+  "feature_idx": 10359,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 12,
+    "mean_when_active": 0.03811518351236979,
+    "max_activation": 0.0631103515625,
+    "std_when_active": 0.013398006735018796,
+    "activation_rate": 0.00012
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6925,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " of",
+        "count": 2085,
+        "mean_activation": 0.1151030615936938
+      },
+      {
+        "token": " that",
+        "count": 1600,
+        "mean_activation": 0.05112534046173096
+      },
+      {
+        "token": " for",
+        "count": 597,
+        "mean_activation": 0.03993935640932527
+      },
+      {
+        "token": " to",
+        "count": 560,
+        "mean_activation": 0.04009359904697963
+      },
+      {
+        "token": " the",
+        "count": 451,
+        "mean_activation": 0.036060087960998126
+      },
+      {
+        "token": " up",
+        "count": 404,
+        "mean_activation": 0.05726209961541808
+      },
+      {
+        "token": " a",
+        "count": 388,
+        "mean_activation": 0.04443841128005195
+      },
+      {
+        "token": " in",
+        "count": 169,
+        "mean_activation": 0.02978285388833672
+      },
+      {
+        "token": " be",
+        "count": 78,
+        "mean_activation": 0.03840167705829327
+      },
+      {
+        "token": " with",
+        "count": 50,
+        "mean_activation": 0.03515289306640625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6925,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...they were only worthy** of** two stars. Cook the b...",
+        "active_token": " of",
+        "activation": 0.318359375,
+        "review_id": "CIPkJDOOEgMkILsFBOShZA",
+        "position": 87
+      },
+      {
+        "context": "...alsas that are worthy** of** the made to order div...",
+        "active_token": " of",
+        "activation": 0.318359375,
+        "review_id": "64MetQjRXPa8ilrTHFy8fw",
+        "position": 40
+      },
+      {
+        "context": "..., and not even worthy** of** one star. Gross.",
+        "active_token": " of",
+        "activation": 0.31787109375,
+        "review_id": "6rLWa8Q4bLi-EkhHhgdRjg",
+        "position": 249
+      },
+      {
+        "context": "...st ok and more worthy** of** 15%. I would stay cle...",
+        "active_token": " of",
+        "activation": 0.31787109375,
+        "review_id": "fGUHGE6Qk-oqRPO25q_hKQ",
+        "position": 162
+      },
+      {
+        "context": "...outstanding or worthy** of** awards but very good....",
+        "active_token": " of",
+        "activation": 0.317138671875,
+        "review_id": "t2mLHEd891xV6HpmgrpmiA",
+        "position": 108
+      },
+      {
+        "context": "...apparently not worthy** of** conversation.\\nSteph h...",
+        "active_token": " of",
+        "activation": 0.3154296875,
+        "review_id": "cRgvfWdo68LQ_zE2oohScg",
+        "position": 171
+      },
+      {
+        "context": "...eviche are all worthy** of** eating over and over ...",
+        "active_token": " of",
+        "activation": 0.314453125,
+        "review_id": "Sko0M5ghHMF-kMJzzHKz9Q",
+        "position": 23
+      },
+      {
+        "context": "...t's completely worthy** of** the 5-star average.\\n\\n...",
+        "active_token": " of",
+        "activation": 0.313720703125,
+        "review_id": "xDHCjfoGSqK16jkrJF_2nA",
+        "position": 9
+      },
+      {
+        "context": "...ng the food is worthy** of** 4 stars, yet I would ...",
+        "active_token": " of",
+        "activation": 0.3134765625,
+        "review_id": "KZH6RVA2rC76S3LqoWobxA",
+        "position": 44
+      },
+      {
+        "context": "... menu that are worthy** of** trying based on other...",
+        "active_token": " of",
+        "activation": 0.313232421875,
+        "review_id": "qnGz6fOOvaacHG2zWHghzw",
+        "position": 419
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 10359,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.244,
+        "max": 0.3184,
+        "mean": 0.2844
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " worthy",
+            " of"
+          ],
+          "ngram_str": " worthy of",
+          "count": 414,
+          "percent": 82.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a"
+          ],
+          "ngram_str": " of a",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            " is",
+            " worthy"
+          ],
+          "ngram_str": " is worthy",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " deserving",
+            " of"
+          ],
+          "ngram_str": " deserving of",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " not",
+            " worthy"
+          ],
+          "ngram_str": " not worthy",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " stars",
+            "."
+          ],
+          "ngram_str": " stars.",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " of",
+            " my"
+          ],
+          "ngram_str": " of my",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " 5",
+            " stars"
+          ],
+          "ngram_str": " 5 stars",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " business",
+            "."
+          ],
+          "ngram_str": " business.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " of",
+            " 5"
+          ],
+          "ngram_str": " of 5",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " but",
+            " it"
+          ],
+          "ngram_str": " but it",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " worthy",
+            " of",
+            " a"
+          ],
+          "ngram_str": " worthy of a",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " is",
+            " worthy",
+            " of"
+          ],
+          "ngram_str": " is worthy of",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " worthy",
+            " of",
+            " the"
+          ],
+          "ngram_str": " worthy of the",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " not",
+            " worthy",
+            " of"
+          ],
+          "ngram_str": " not worthy of",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " worthy",
+            " of",
+            " my"
+          ],
+          "ngram_str": " worthy of my",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " and",
+            " worthy",
+            " of"
+          ],
+          "ngram_str": " and worthy of",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " but",
+            " it",
+            " still"
+          ],
+          "ngram_str": " but it still",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " it",
+            " still",
+            " is"
+          ],
+          "ngram_str": " it still is",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " still",
+            " is",
+            " worthy"
+          ],
+          "ngram_str": " still is worthy",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " my",
+            " regular"
+          ],
+          "ngram_str": " of my regular",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " my",
+            " regular",
+            " business"
+          ],
+          "ngram_str": " my regular business",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " regular",
+            " business",
+            "."
+          ],
+          "ngram_str": " regular business.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " business",
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": " business.\u00c4",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " 5",
+            " stars"
+          ],
+          "ngram_str": " of 5 stars",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " is",
+            " worthy",
+            " of",
+            " my"
+          ],
+          "ngram_str": " is worthy of my",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " but",
+            " it",
+            " still",
+            " is"
+          ],
+          "ngram_str": " but it still is",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " it",
+            " still",
+            " is",
+            " worthy"
+          ],
+          "ngram_str": " it still is worthy",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " still",
+            " is",
+            " worthy",
+            " of"
+          ],
+          "ngram_str": " still is worthy of",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " worthy",
+            " of",
+            " my",
+            " regular"
+          ],
+          "ngram_str": " worthy of my regular",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " my",
+            " regular",
+            " business"
+          ],
+          "ngram_str": " of my regular business",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " my",
+            " regular",
+            " business",
+            "."
+          ],
+          "ngram_str": " my regular business.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " regular",
+            " business",
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": " regular business.\u00c4",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " business",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " business.\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " worthy",
+            " of",
+            " 5",
+            " stars"
+          ],
+          "ngram_str": " worthy of 5 stars",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " is",
+            " worthy",
+            " of",
+            " a"
+          ],
+          "ngram_str": " is worthy of a",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " worthy",
+            " of",
+            " five",
+            " stars"
+          ],
+          "ngram_str": " worthy of five stars",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " not",
+            " worthy",
+            " of",
+            " the"
+          ],
+          "ngram_str": " not worthy of the",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6925,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 11763,
+        "count": 3335,
+        "percent": 48.16
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3159,
+        "percent": 45.62
+      },
+      {
+        "feature_idx": 11738,
+        "count": 3019,
+        "percent": 43.6
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2482,
+        "percent": 35.84
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2327,
+        "percent": 33.6
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2303,
+        "percent": 33.26
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2158,
+        "percent": 31.16
+      },
+      {
+        "feature_idx": 17886,
+        "count": 2144,
+        "percent": 30.96
+      },
+      {
+        "feature_idx": 9127,
+        "count": 2111,
+        "percent": 30.48
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1898,
+        "percent": 27.41
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1702,
+        "percent": 24.58
+      },
+      {
+        "feature_idx": 17603,
+        "count": 1612,
+        "percent": 23.28
+      },
+      {
+        "feature_idx": 7103,
+        "count": 1605,
+        "percent": 23.18
+      },
+      {
+        "feature_idx": 17609,
+        "count": 1602,
+        "percent": 23.13
+      },
+      {
+        "feature_idx": 4960,
+        "count": 1601,
+        "percent": 23.12
+      },
+      {
+        "feature_idx": 16018,
+        "count": 1601,
+        "percent": 23.12
+      },
+      {
+        "feature_idx": 18760,
+        "count": 1600,
+        "percent": 23.1
+      },
+      {
+        "feature_idx": 9238,
+        "count": 1594,
+        "percent": 23.02
+      },
+      {
+        "feature_idx": 4403,
+        "count": 1590,
+        "percent": 22.96
+      },
+      {
+        "feature_idx": 16284,
+        "count": 1474,
+        "percent": 21.29
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6925,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1249,
+        "percent": 18.04
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1239,
+        "percent": 17.89
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1223,
+        "percent": 17.66
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1377,
+        "percent": 19.88
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1837,
+        "percent": 26.53
+      }
+    ],
+    "mean_position": 0.5406,
+    "std_position": 0.2983
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 12,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0217,
+      "p25": 0.0283,
+      "p50": 0.0365,
+      "p75": 0.0498,
+      "p90": 0.0522,
+      "p95": 0.0572,
+      "p99": 0.0619
+    },
+    "skewness": 0.2271,
+    "kurtosis": -1.0979,
+    "min": 0.0184,
+    "max": 0.0631,
+    "mean": 0.0381,
+    "std": 0.0134
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 12,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " for",
+        "count": 4,
+        "mean_activation": 0.038
+      },
+      {
+        "token": " to",
+        "count": 2,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": " that",
+        "count": 2,
+        "mean_activation": 0.032
+      },
+      {
+        "token": " at",
+        "count": 1,
+        "mean_activation": 0.0286
+      },
+      {
+        "token": " be",
+        "count": 1,
+        "mean_activation": 0.0304
+      },
+      {
+        "token": " up",
+        "count": 1,
+        "mean_activation": 0.0495
+      },
+      {
+        "token": " of",
+        "count": 1,
+        "mean_activation": 0.0631
+      }
+    ]
+  }
+}

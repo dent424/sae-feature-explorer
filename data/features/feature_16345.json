@@ -1,0 +1,876 @@
+{
+  "feature_idx": 16345,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 159,
+    "mean_when_active": 0.03317107194624607,
+    "max_activation": 0.10595703125,
+    "std_when_active": 0.016215222671087548,
+    "activation_rate": 0.00159
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 34600000,
+      "corpus_coverage": 0.6692
+    },
+    "top_tokens": [
+      {
+        "token": ".",
+        "count": 8879,
+        "mean_activation": 0.025787850169531865
+      },
+      {
+        "token": ",",
+        "count": 8136,
+        "mean_activation": 0.03411202726110948
+      },
+      {
+        "token": " and",
+        "count": 6965,
+        "mean_activation": 0.038403854863042895
+      },
+      {
+        "token": "!",
+        "count": 1651,
+        "mean_activation": 0.024587972029854067
+      },
+      {
+        "token": " the",
+        "count": 1449,
+        "mean_activation": 0.025256828903082406
+      },
+      {
+        "token": " with",
+        "count": 1290,
+        "mean_activation": 0.03269614877626877
+      },
+      {
+        "token": " cooked",
+        "count": 1261,
+        "mean_activation": 0.05592867724957871
+      },
+      {
+        "token": " seasoned",
+        "count": 856,
+        "mean_activation": 0.04030842647374233
+      },
+      {
+        "token": " -",
+        "count": 766,
+        "mean_activation": 0.0278772598147081
+      },
+      {
+        "token": " to",
+        "count": 689,
+        "mean_activation": 0.03541514004955098
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 34600000,
+      "corpus_coverage": 0.6692
+    },
+    "activations": [
+      {
+        "context": "...te... cooked perfectly**,** tender and delicious w...",
+        "active_token": ",",
+        "activation": 0.13232421875,
+        "review_id": "y-Sno5sTmi8yTZfrnaoo-A",
+        "position": 89
+      },
+      {
+        "context": "...) was cooked perfectly**,** tender and scrumptious...",
+        "active_token": ",",
+        "activation": 0.1292724609375,
+        "review_id": "UdAQpcKsdKIvvyHw7kU2_A",
+        "position": 498
+      },
+      {
+        "context": "...k was cooked perfectly**,** and as a result the bu...",
+        "active_token": ",",
+        "activation": 0.126708984375,
+        "review_id": "uTzHq5Z-Nko8BZqhq14P9g",
+        "position": 158
+      },
+      {
+        "context": "...were cooked perfectly** and** had great flavor.  T...",
+        "active_token": " and",
+        "activation": 0.1260986328125,
+        "review_id": "-eXusIxoHwqiF0mmiBinag",
+        "position": 252
+      },
+      {
+        "context": "...were cooked perfectly** and** the chorizo fried ri...",
+        "active_token": " and",
+        "activation": 0.12548828125,
+        "review_id": "XrbNNgkcfI9hYw7yp78hBQ",
+        "position": 235
+      },
+      {
+        "context": "... was cooked perfectly** and** the combination of f...",
+        "active_token": " and",
+        "activation": 0.124755859375,
+        "review_id": "9a4vFkcLiz7GlO2vKGW19g",
+        "position": 93
+      },
+      {
+        "context": "... was cooked perfectly** and** had just the right a...",
+        "active_token": " and",
+        "activation": 0.12451171875,
+        "review_id": "LgfUedyGgP8A4KYgDBmqkA",
+        "position": 136
+      },
+      {
+        "context": "...e was cooked perfectly**,** and I loved the diced ...",
+        "active_token": ",",
+        "activation": 0.12255859375,
+        "review_id": "2pwR8ASQg4i-5L5IWuqbFA",
+        "position": 383
+      },
+      {
+        "context": "... was cooked perfectly** and** was served with a mo...",
+        "active_token": " and",
+        "activation": 0.122314453125,
+        "review_id": "leyL0ITgvZmrLFWKmZ2VzQ",
+        "position": 457
+      },
+      {
+        "context": "... was cooked perfectly** and** the steak has some r...",
+        "active_token": " and",
+        "activation": 0.12213134765625,
+        "review_id": "Gmk9IL6wktqCzDVuBuVh8g",
+        "position": 72
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 16345,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0969,
+        "max": 0.1323,
+        "mean": 0.1076
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " cooked perfectly",
+          "count": 361,
+          "percent": 72.2
+        },
+        {
+          "ngram": [
+            " perfectly",
+            " and"
+          ],
+          "ngram_str": " perfectly and",
+          "count": 360,
+          "percent": 72.0
+        },
+        {
+          "ngram": [
+            " was",
+            " cooked"
+          ],
+          "ngram_str": " was cooked",
+          "count": 247,
+          "percent": 49.4
+        },
+        {
+          "ngram": [
+            " perfectly",
+            ","
+          ],
+          "ngram_str": " perfectly,",
+          "count": 117,
+          "percent": 23.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " were",
+            " cooked"
+          ],
+          "ngram_str": " were cooked",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " It",
+            " was"
+          ],
+          "ngram_str": " It was",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " steak",
+            " was"
+          ],
+          "ngram_str": " steak was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " chicken",
+            " was"
+          ],
+          "ngram_str": " chicken was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " and",
+            " had"
+          ],
+          "ngram_str": " and had",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " The",
+            " chicken"
+          ],
+          "ngram_str": " The chicken",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " cooked",
+            " perfectly",
+            " and"
+          ],
+          "ngram_str": " cooked perfectly and",
+          "count": 269,
+          "percent": 53.8
+        },
+        {
+          "ngram": [
+            " was",
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " was cooked perfectly",
+          "count": 242,
+          "percent": 48.4
+        },
+        {
+          "ngram": [
+            " perfectly",
+            " and",
+            " the"
+          ],
+          "ngram_str": " perfectly and the",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " cooked",
+            " perfectly",
+            ","
+          ],
+          "ngram_str": " cooked perfectly,",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " were",
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " were cooked perfectly",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " perfectly",
+            " and",
+            " had"
+          ],
+          "ngram_str": " perfectly and had",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " perfectly",
+            ",",
+            " and"
+          ],
+          "ngram_str": " perfectly, and",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " It",
+            " was",
+            " cooked"
+          ],
+          "ngram_str": " It was cooked",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " steak",
+            " was",
+            " cooked"
+          ],
+          "ngram_str": " steak was cooked",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " is",
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " is cooked perfectly",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " The",
+            " chicken",
+            " was"
+          ],
+          "ngram_str": " The chicken was",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " chicken",
+            " was",
+            " cooked"
+          ],
+          "ngram_str": " chicken was cooked",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " perfectly",
+            ",",
+            " the"
+          ],
+          "ngram_str": " perfectly, the",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " and",
+            " it",
+            " was"
+          ],
+          "ngram_str": " and it was",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " was"
+          ],
+          "ngram_str": ". It was",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " was",
+            " cooked",
+            " perfectly",
+            " and"
+          ],
+          "ngram_str": " was cooked perfectly and",
+          "count": 177,
+          "percent": 35.4
+        },
+        {
+          "ngram": [
+            " cooked",
+            " perfectly",
+            " and",
+            " the"
+          ],
+          "ngram_str": " cooked perfectly and the",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " was",
+            " cooked",
+            " perfectly",
+            ","
+          ],
+          "ngram_str": " was cooked perfectly,",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " were",
+            " cooked",
+            " perfectly",
+            " and"
+          ],
+          "ngram_str": " were cooked perfectly and",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " It",
+            " was",
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " It was cooked perfectly",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " steak",
+            " was",
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " steak was cooked perfectly",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " cooked",
+            " perfectly",
+            " and",
+            " had"
+          ],
+          "ngram_str": " cooked perfectly and had",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " chicken",
+            " was",
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " chicken was cooked perfectly",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " cooked",
+            " perfectly",
+            ",",
+            " and"
+          ],
+          "ngram_str": " cooked perfectly, and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " cooked",
+            " perfectly"
+          ],
+          "ngram_str": " it was cooked perfectly",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " cooked",
+            " perfectly",
+            ",",
+            " the"
+          ],
+          "ngram_str": " cooked perfectly, the",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " The",
+            " chicken",
+            " was",
+            " cooked"
+          ],
+          "ngram_str": " The chicken was cooked",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " is",
+            " cooked",
+            " perfectly",
+            " and"
+          ],
+          "ngram_str": " is cooked perfectly and",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " The",
+            " steak",
+            " was",
+            " cooked"
+          ],
+          "ngram_str": " The steak was cooked",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " was",
+            " cooked"
+          ],
+          "ngram_str": ". It was cooked",
+          "count": 14,
+          "percent": 2.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6500000,
+      "corpus_coverage": 0.1257
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 7996,
+        "percent": 79.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4470,
+        "percent": 44.7
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4071,
+        "percent": 40.71
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3317,
+        "percent": 33.17
+      },
+      {
+        "feature_idx": 15956,
+        "count": 3264,
+        "percent": 32.64
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2632,
+        "percent": 26.32
+      },
+      {
+        "feature_idx": 5070,
+        "count": 2532,
+        "percent": 25.32
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2517,
+        "percent": 25.17
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2246,
+        "percent": 22.46
+      },
+      {
+        "feature_idx": 17874,
+        "count": 2197,
+        "percent": 21.97
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2155,
+        "percent": 21.55
+      },
+      {
+        "feature_idx": 20403,
+        "count": 2151,
+        "percent": 21.51
+      },
+      {
+        "feature_idx": 16549,
+        "count": 2020,
+        "percent": 20.2
+      },
+      {
+        "feature_idx": 12563,
+        "count": 1942,
+        "percent": 19.42
+      },
+      {
+        "feature_idx": 13095,
+        "count": 1905,
+        "percent": 19.05
+      },
+      {
+        "feature_idx": 65,
+        "count": 1880,
+        "percent": 18.8
+      },
+      {
+        "feature_idx": 11105,
+        "count": 1810,
+        "percent": 18.1
+      },
+      {
+        "feature_idx": 18135,
+        "count": 1801,
+        "percent": 18.01
+      },
+      {
+        "feature_idx": 11839,
+        "count": 1763,
+        "percent": 17.63
+      },
+      {
+        "feature_idx": 23212,
+        "count": 1753,
+        "percent": 17.53
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6500000,
+      "corpus_coverage": 0.1257
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 917,
+        "percent": 9.17
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2018,
+        "percent": 20.18
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2815,
+        "percent": 28.15
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2701,
+        "percent": 27.01
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1549,
+        "percent": 15.49
+      }
+    ],
+    "mean_position": 0.54,
+    "std_position": 0.2362
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 159,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0187,
+      "p25": 0.022,
+      "p50": 0.0273,
+      "p75": 0.0395,
+      "p90": 0.0527,
+      "p95": 0.0669,
+      "p99": 0.0905
+    },
+    "skewness": 1.799,
+    "kurtosis": 3.8746,
+    "min": 0.0136,
+    "max": 0.106,
+    "mean": 0.0332,
+    "std": 0.0162
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 159,
+      "unique_tokens_found": 61
+    },
+    "tokens": [
+      {
+        "token": ".",
+        "count": 28,
+        "mean_activation": 0.0278
+      },
+      {
+        "token": ",",
+        "count": 27,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": " and",
+        "count": 18,
+        "mean_activation": 0.0395
+      },
+      {
+        "token": " cooked",
+        "count": 5,
+        "mean_activation": 0.0566
+      },
+      {
+        "token": " with",
+        "count": 5,
+        "mean_activation": 0.0377
+      },
+      {
+        "token": " on",
+        "count": 4,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " done",
+        "count": 3,
+        "mean_activation": 0.056
+      },
+      {
+        "token": " (",
+        "count": 3,
+        "mean_activation": 0.0246
+      },
+      {
+        "token": " it",
+        "count": 3,
+        "mean_activation": 0.0281
+      },
+      {
+        "token": " the",
+        "count": 3,
+        "mean_activation": 0.0265
+      }
+    ]
+  }
+}

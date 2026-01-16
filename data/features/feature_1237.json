@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1237,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 160,
+    "mean_when_active": 0.05956182479858398,
+    "max_activation": 0.19580078125,
+    "std_when_active": 0.04564181071961762,
+    "activation_rate": 0.0016
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 33900000,
+      "corpus_coverage": 0.6557
+    },
+    "top_tokens": [
+      {
+        "token": " Mexican",
+        "count": 20376,
+        "mean_activation": 0.026826399468795243
+      },
+      {
+        "token": " Spanish",
+        "count": 3048,
+        "mean_activation": 0.09135529625759976
+      },
+      {
+        "token": " American",
+        "count": 2330,
+        "mean_activation": 0.05430137405068066
+      },
+      {
+        "token": " French",
+        "count": 1698,
+        "mean_activation": 0.09328939215454533
+      },
+      {
+        "token": "ican",
+        "count": 1529,
+        "mean_activation": 0.04729283534287627
+      },
+      {
+        "token": " Korean",
+        "count": 1389,
+        "mean_activation": 0.13353351897863797
+      },
+      {
+        "token": " English",
+        "count": 1360,
+        "mean_activation": 0.1288988001206342
+      },
+      {
+        "token": "ian",
+        "count": 882,
+        "mean_activation": 0.07884114237329046
+      },
+      {
+        "token": "an",
+        "count": 858,
+        "mean_activation": 0.06836414114856498
+      },
+      {
+        "token": " Latin",
+        "count": 845,
+        "mean_activation": 0.04746210222413554
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 33900000,
+      "corpus_coverage": 0.6557
+    },
+    "activations": [
+      {
+        "context": "... If you're from the** English**-speaking world beg...",
+        "active_token": " English",
+        "activation": 0.260498046875,
+        "review_id": "BwRNb_LenTbJhN1XiskNEw",
+        "position": 131
+      },
+      {
+        "context": "The** English** language does not ...",
+        "active_token": " English",
+        "activation": 0.24658203125,
+        "review_id": "8zQYuNRslW_RJEqTaQ1V4A",
+        "position": 1
+      },
+      {
+        "context": "...sh word next to the** English** word on the menu f...",
+        "active_token": " English",
+        "activation": 0.2430419921875,
+        "review_id": "RqPCL1BjtwUE-7bfMgI-Ug",
+        "position": 453
+      },
+      {
+        "context": "...tion I got from the** English** speaking waitress....",
+        "active_token": " English",
+        "activation": 0.2412109375,
+        "review_id": "U9GK9o2HC_xO1yydt0Q-5g",
+        "position": 114
+      },
+      {
+        "context": "...sitive words in the** English** language would not...",
+        "active_token": " English",
+        "activation": 0.240478515625,
+        "review_id": "1TKa2kM-wUSUnWCeF0EQDQ",
+        "position": 244
+      },
+      {
+        "context": "...tion to chips), the** Danish** ribs, and the cevic...",
+        "active_token": " Danish",
+        "activation": 0.2392578125,
+        "review_id": "lF7SrWcW-NW7S123TjNoWA",
+        "position": 142
+      },
+      {
+        "context": "... being guided by the** Greek** god of mediocrity. ...",
+        "active_token": " Greek",
+        "activation": 0.2357177734375,
+        "review_id": "hnEnG_Aa0I4ghVznmj0b6w",
+        "position": 153
+      },
+      {
+        "context": "...ly was a nod to the** English** home of the owner....",
+        "active_token": " English",
+        "activation": 0.2274169921875,
+        "review_id": "oUnycUMJnR3inenco4e3ew",
+        "position": 307
+      },
+      {
+        "context": "... have cabeza on the** English** menu.  Tender, sli...",
+        "active_token": " English",
+        "activation": 0.2266845703125,
+        "review_id": "CHgaNLFFJUJnxHYsQuj_7Q",
+        "position": 17
+      },
+      {
+        "context": "...has moved up to the** Italian** Market, changed it...",
+        "active_token": " Italian",
+        "activation": 0.2259521484375,
+        "review_id": "EnVvs9TB8ShXr0VeoUlOkg",
+        "position": 9
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1237,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1853,
+        "max": 0.2605,
+        "mean": 0.1988
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " sp",
+            "anish"
+          ],
+          "ngram_str": " spanish",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " the",
+            " French"
+          ],
+          "ngram_str": " the French",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Korean"
+          ],
+          "ngram_str": " the Korean",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " the",
+            " English"
+          ],
+          "ngram_str": " the English",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "anish",
+            " rice"
+          ],
+          "ngram_str": "anish rice",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " the",
+            " sp"
+          ],
+          "ngram_str": " the sp",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Italian"
+          ],
+          "ngram_str": " the Italian",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " French",
+            " Quarter"
+          ],
+          "ngram_str": " French Quarter",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " Korean",
+            " BBQ"
+          ],
+          "ngram_str": " Korean BBQ",
+          "count": 27,
+          "percent": 5.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " the",
+            " sp",
+            "anish"
+          ],
+          "ngram_str": " the spanish",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " sp",
+            "anish",
+            " rice"
+          ],
+          "ngram_str": " spanish rice",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " the",
+            " French",
+            " Quarter"
+          ],
+          "ngram_str": " the French Quarter",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " French"
+          ],
+          "ngram_str": " in the French",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " The",
+            " sp",
+            "anish"
+          ],
+          "ngram_str": " The spanish",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " the",
+            " Italian",
+            " Market"
+          ],
+          "ngram_str": " the Italian Market",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " Korean"
+          ],
+          "ngram_str": ". The Korean",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " the",
+            " Korean",
+            " BBQ"
+          ],
+          "ngram_str": " the Korean BBQ",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u00c4\u012cThe",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Italian"
+          ],
+          "ngram_str": " in the Italian",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " English",
+            " language"
+          ],
+          "ngram_str": " the English language",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " French",
+            " Quarter"
+          ],
+          "ngram_str": " in the French Quarter",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " The",
+            " sp",
+            "anish",
+            " rice"
+          ],
+          "ngram_str": " The spanish rice",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " sp",
+            "anish",
+            " rice"
+          ],
+          "ngram_str": " the spanish rice",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " sp",
+            "anish"
+          ],
+          "ngram_str": "  The spanish",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " sp"
+          ],
+          "ngram_str": ".  The sp",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Korean",
+            " b",
+            "b",
+            "q"
+          ],
+          "ngram_str": " Korean bbq",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " Italian",
+            " Market"
+          ],
+          "ngram_str": " in the Italian Market",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " sp",
+            "anish"
+          ],
+          "ngram_str": ". The spanish",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " sp",
+            "anish",
+            " rice",
+            " was"
+          ],
+          "ngram_str": " spanish rice was",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The",
+            " Korean"
+          ],
+          "ngram_str": "\u00c4\u012cThe Korean",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " French",
+            " Quarter",
+            "."
+          ],
+          "ngram_str": " the French Quarter.",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6900000,
+      "corpus_coverage": 0.1335
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22827,
+        "count": 9048,
+        "percent": 90.48
+      },
+      {
+        "feature_idx": 3833,
+        "count": 8497,
+        "percent": 84.97
+      },
+      {
+        "feature_idx": 17175,
+        "count": 7109,
+        "percent": 71.09
+      },
+      {
+        "feature_idx": 19049,
+        "count": 5648,
+        "percent": 56.48
+      },
+      {
+        "feature_idx": 22050,
+        "count": 5355,
+        "percent": 53.55
+      },
+      {
+        "feature_idx": 3468,
+        "count": 5079,
+        "percent": 50.79
+      },
+      {
+        "feature_idx": 8454,
+        "count": 4903,
+        "percent": 49.03
+      },
+      {
+        "feature_idx": 9962,
+        "count": 4814,
+        "percent": 48.14
+      },
+      {
+        "feature_idx": 10867,
+        "count": 4791,
+        "percent": 47.91
+      },
+      {
+        "feature_idx": 5996,
+        "count": 4772,
+        "percent": 47.72
+      },
+      {
+        "feature_idx": 11661,
+        "count": 4647,
+        "percent": 46.47
+      },
+      {
+        "feature_idx": 23533,
+        "count": 4440,
+        "percent": 44.4
+      },
+      {
+        "feature_idx": 24294,
+        "count": 4294,
+        "percent": 42.94
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4240,
+        "percent": 42.4
+      },
+      {
+        "feature_idx": 2708,
+        "count": 4211,
+        "percent": 42.11
+      },
+      {
+        "feature_idx": 13657,
+        "count": 3778,
+        "percent": 37.78
+      },
+      {
+        "feature_idx": 8285,
+        "count": 3694,
+        "percent": 36.94
+      },
+      {
+        "feature_idx": 11586,
+        "count": 3650,
+        "percent": 36.5
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3176,
+        "percent": 31.76
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2928,
+        "percent": 29.28
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6900000,
+      "corpus_coverage": 0.1335
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3560,
+        "percent": 35.6
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1851,
+        "percent": 18.51
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1588,
+        "percent": 15.88
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1450,
+        "percent": 14.5
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1551,
+        "percent": 15.51
+      }
+    ],
+    "mean_position": 0.4041,
+    "std_position": 0.3075
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 160,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0177,
+      "p25": 0.0245,
+      "p50": 0.0408,
+      "p75": 0.083,
+      "p90": 0.134,
+      "p95": 0.1499,
+      "p99": 0.186
+    },
+    "skewness": 1.1397,
+    "kurtosis": 0.2889,
+    "min": 0.0098,
+    "max": 0.1958,
+    "mean": 0.0596,
+    "std": 0.0456
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 160,
+      "unique_tokens_found": 39
+    },
+    "tokens": [
+      {
+        "token": " Mexican",
+        "count": 55,
+        "mean_activation": 0.0262
+      },
+      {
+        "token": " Spanish",
+        "count": 14,
+        "mean_activation": 0.1056
+      },
+      {
+        "token": " American",
+        "count": 11,
+        "mean_activation": 0.0525
+      },
+      {
+        "token": " Korean",
+        "count": 9,
+        "mean_activation": 0.1345
+      },
+      {
+        "token": " Latin",
+        "count": 7,
+        "mean_activation": 0.0604
+      },
+      {
+        "token": " French",
+        "count": 6,
+        "mean_activation": 0.0983
+      },
+      {
+        "token": "ican",
+        "count": 5,
+        "mean_activation": 0.0571
+      },
+      {
+        "token": " Thai",
+        "count": 4,
+        "mean_activation": 0.0545
+      },
+      {
+        "token": " Indian",
+        "count": 4,
+        "mean_activation": 0.0478
+      },
+      {
+        "token": " Cuban",
+        "count": 3,
+        "mean_activation": 0.0344
+      }
+    ]
+  }
+}

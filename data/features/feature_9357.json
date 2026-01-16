@@ -1,0 +1,876 @@
+{
+  "feature_idx": 9357,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 226,
+    "mean_when_active": 0.04308207689133366,
+    "max_activation": 0.1717529296875,
+    "std_when_active": 0.02705605699111946,
+    "activation_rate": 0.00226
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 27000000,
+      "corpus_coverage": 0.5222
+    },
+    "top_tokens": [
+      {
+        "token": " love",
+        "count": 11977,
+        "mean_activation": 0.045570154724350415
+      },
+      {
+        "token": " like",
+        "count": 8333,
+        "mean_activation": 0.04980393994202151
+      },
+      {
+        "token": " loved",
+        "count": 5584,
+        "mean_activation": 0.04570215137776809
+      },
+      {
+        "token": " liked",
+        "count": 3813,
+        "mean_activation": 0.05432130907140252
+      },
+      {
+        "token": " enjoyed",
+        "count": 3777,
+        "mean_activation": 0.040565729078111554
+      },
+      {
+        "token": " enjoy",
+        "count": 1958,
+        "mean_activation": 0.04610247899368177
+      },
+      {
+        "token": " the",
+        "count": 1540,
+        "mean_activation": 0.020568825362564682
+      },
+      {
+        "token": " of",
+        "count": 1386,
+        "mean_activation": 0.03071299741450498
+      },
+      {
+        "token": " LOVE",
+        "count": 968,
+        "mean_activation": 0.03835094073587213
+      },
+      {
+        "token": " loves",
+        "count": 754,
+        "mean_activation": 0.03797594874860121
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 27000000,
+      "corpus_coverage": 0.5222
+    },
+    "activations": [
+      {
+        "context": "... guac but especially** love** the margaritas. It i...",
+        "active_token": " love",
+        "activation": 0.1986083984375,
+        "review_id": "dGKH1U-c7SFjk6us_lgg-Q",
+        "position": 37
+      },
+      {
+        "context": "...ng, but I especially** love** the cheese sauce. Th...",
+        "active_token": " love",
+        "activation": 0.193603515625,
+        "review_id": "pGZN6NCZd1X661NzHH9Vxw",
+        "position": 63
+      },
+      {
+        "context": "...n, but we especially** love** this particular loca...",
+        "active_token": " love",
+        "activation": 0.19287109375,
+        "review_id": "fgyq5S5sBycE8c7rm7fTmQ",
+        "position": 13
+      },
+      {
+        "context": "...t cost. I especially** love** the chicken tacos. I...",
+        "active_token": " love",
+        "activation": 0.19140625,
+        "review_id": "xLa7oeU8rEe3F5JQdwcfmw",
+        "position": 26
+      },
+      {
+        "context": "...utiful. I especially** love** the patio area. It's...",
+        "active_token": " love",
+        "activation": 0.1893310546875,
+        "review_id": "Ptye5ng6kqD2_LMAfHF6VA",
+        "position": 160
+      },
+      {
+        "context": "...oth but I especially** loved** the garlic kick on ...",
+        "active_token": " loved",
+        "activation": 0.1885986328125,
+        "review_id": "zmS1DbAM8fDcAwcxw85Tag",
+        "position": 441
+      },
+      {
+        "context": "...iendly. I especially** love** the chicken tenders ...",
+        "active_token": " love",
+        "activation": 0.188232421875,
+        "review_id": "PGBxHRp6jfeqfNVdZuxpCA",
+        "position": 15
+      },
+      {
+        "context": "...da too! I especially** loved** the garnishes, radi...",
+        "active_token": " loved",
+        "activation": 0.1876220703125,
+        "review_id": "2f7iP7Q0DiLWKCMozm1M6A",
+        "position": 73
+      },
+      {
+        "context": "...derful. I especially** love** the salsa flight wit...",
+        "active_token": " love",
+        "activation": 0.1875,
+        "review_id": "nQvOu3x-5X5Lu0XOJYYuMw",
+        "position": 18
+      },
+      {
+        "context": "...y bite. I especially** liked** the herb green rice...",
+        "active_token": " liked",
+        "activation": 0.1875,
+        "review_id": "7RUsKRqY1Jv8GK7Uj07usQ",
+        "position": 274
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 9357,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1543,
+        "max": 0.2025,
+        "mean": 0.1665
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " I",
+            " especially"
+          ],
+          "ngram_str": " I especially",
+          "count": 327,
+          "percent": 65.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 227,
+          "percent": 45.4
+        },
+        {
+          "ngram": [
+            " especially",
+            " love"
+          ],
+          "ngram_str": " especially love",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " especially",
+            " like"
+          ],
+          "ngram_str": " especially like",
+          "count": 104,
+          "percent": 20.8
+        },
+        {
+          "ngram": [
+            " love",
+            " the"
+          ],
+          "ngram_str": " love the",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " especially",
+            " liked"
+          ],
+          "ngram_str": " especially liked",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " liked",
+            " the"
+          ],
+          "ngram_str": " liked the",
+          "count": 98,
+          "percent": 19.6
+        },
+        {
+          "ngram": [
+            " like",
+            " the"
+          ],
+          "ngram_str": " like the",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " I",
+            " also"
+          ],
+          "ngram_str": " I also",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " especially",
+            " loved"
+          ],
+          "ngram_str": " especially loved",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " loved",
+            " the"
+          ],
+          "ngram_str": " loved the",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " also",
+            " love"
+          ],
+          "ngram_str": " also love",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " I",
+            " particularly"
+          ],
+          "ngram_str": " I particularly",
+          "count": 44,
+          "percent": 8.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " I",
+            " especially"
+          ],
+          "ngram_str": ". I especially",
+          "count": 172,
+          "percent": 34.4
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " love"
+          ],
+          "ngram_str": " I especially love",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " like"
+          ],
+          "ngram_str": " I especially like",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " liked"
+          ],
+          "ngram_str": " I especially liked",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " especially",
+            " liked",
+            " the"
+          ],
+          "ngram_str": " especially liked the",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " especially",
+            " love",
+            " the"
+          ],
+          "ngram_str": " especially love the",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " especially"
+          ],
+          "ngram_str": "  I especially",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " especially",
+            " like",
+            " the"
+          ],
+          "ngram_str": " especially like the",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " loved"
+          ],
+          "ngram_str": " I especially loved",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " I",
+            " also",
+            " love"
+          ],
+          "ngram_str": " I also love",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " especially",
+            " loved",
+            " the"
+          ],
+          "ngram_str": " especially loved the",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "!",
+            " I",
+            " especially"
+          ],
+          "ngram_str": "! I especially",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " also"
+          ],
+          "ngram_str": ". I also",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " but",
+            " I",
+            " especially"
+          ],
+          "ngram_str": " but I especially",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " liked",
+            " the"
+          ],
+          "ngram_str": " I especially liked the",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " love",
+            " the"
+          ],
+          "ngram_str": " I especially love the",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " especially"
+          ],
+          "ngram_str": ".  I especially",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " especially",
+            " love"
+          ],
+          "ngram_str": ". I especially love",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " especially",
+            " like"
+          ],
+          "ngram_str": ". I especially like",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " like",
+            " the"
+          ],
+          "ngram_str": " I especially like the",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " especially",
+            " liked"
+          ],
+          "ngram_str": ". I especially liked",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " especially",
+            " like"
+          ],
+          "ngram_str": "  I especially like",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " loved",
+            " the"
+          ],
+          "ngram_str": " I especially loved the",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " I",
+            " especially",
+            " like",
+            " their"
+          ],
+          "ngram_str": " I especially like their",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " good",
+            ".",
+            " I",
+            " especially"
+          ],
+          "ngram_str": " good. I especially",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " also",
+            " love"
+          ],
+          "ngram_str": ". I also love",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " especially",
+            " liked"
+          ],
+          "ngram_str": "  I especially liked",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " particularly"
+          ],
+          "ngram_str": ".  I particularly",
+          "count": 16,
+          "percent": 3.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5200000,
+      "corpus_coverage": 0.1006
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 18519,
+        "count": 7609,
+        "percent": 76.09
+      },
+      {
+        "feature_idx": 984,
+        "count": 7385,
+        "percent": 73.85
+      },
+      {
+        "feature_idx": 17430,
+        "count": 7332,
+        "percent": 73.32
+      },
+      {
+        "feature_idx": 10769,
+        "count": 7287,
+        "percent": 72.87
+      },
+      {
+        "feature_idx": 19310,
+        "count": 6327,
+        "percent": 63.27
+      },
+      {
+        "feature_idx": 24543,
+        "count": 5825,
+        "percent": 58.25
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5783,
+        "percent": 57.83
+      },
+      {
+        "feature_idx": 7812,
+        "count": 5733,
+        "percent": 57.33
+      },
+      {
+        "feature_idx": 12537,
+        "count": 5532,
+        "percent": 55.32
+      },
+      {
+        "feature_idx": 837,
+        "count": 5324,
+        "percent": 53.24
+      },
+      {
+        "feature_idx": 11299,
+        "count": 5290,
+        "percent": 52.9
+      },
+      {
+        "feature_idx": 9813,
+        "count": 4496,
+        "percent": 44.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4474,
+        "percent": 44.74
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4332,
+        "percent": 43.32
+      },
+      {
+        "feature_idx": 2226,
+        "count": 4259,
+        "percent": 42.59
+      },
+      {
+        "feature_idx": 23225,
+        "count": 3983,
+        "percent": 39.83
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3873,
+        "percent": 38.73
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3857,
+        "percent": 38.57
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3831,
+        "percent": 38.31
+      },
+      {
+        "feature_idx": 17608,
+        "count": 3830,
+        "percent": 38.3
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5200000,
+      "corpus_coverage": 0.1006
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2172,
+        "percent": 21.72
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1946,
+        "percent": 19.46
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2104,
+        "percent": 21.04
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2080,
+        "percent": 20.8
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1698,
+        "percent": 16.98
+      }
+    ],
+    "mean_position": 0.48,
+    "std_position": 0.2843
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 226,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0191,
+      "p25": 0.0263,
+      "p50": 0.0366,
+      "p75": 0.0527,
+      "p90": 0.0709,
+      "p95": 0.0956,
+      "p99": 0.156
+    },
+    "skewness": 2.207,
+    "kurtosis": 6.3307,
+    "min": 0.0071,
+    "max": 0.1718,
+    "mean": 0.0431,
+    "std": 0.0271
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 226,
+      "unique_tokens_found": 39
+    },
+    "tokens": [
+      {
+        "token": " love",
+        "count": 61,
+        "mean_activation": 0.0501
+      },
+      {
+        "token": " like",
+        "count": 29,
+        "mean_activation": 0.0488
+      },
+      {
+        "token": " loved",
+        "count": 23,
+        "mean_activation": 0.0432
+      },
+      {
+        "token": " liked",
+        "count": 22,
+        "mean_activation": 0.0558
+      },
+      {
+        "token": " enjoyed",
+        "count": 17,
+        "mean_activation": 0.0395
+      },
+      {
+        "token": " enjoy",
+        "count": 12,
+        "mean_activation": 0.0428
+      },
+      {
+        "token": " the",
+        "count": 8,
+        "mean_activation": 0.0202
+      },
+      {
+        "token": " of",
+        "count": 6,
+        "mean_activation": 0.0262
+      },
+      {
+        "token": " favorite",
+        "count": 5,
+        "mean_activation": 0.0305
+      },
+      {
+        "token": " tried",
+        "count": 3,
+        "mean_activation": 0.0215
+      }
+    ]
+  }
+}

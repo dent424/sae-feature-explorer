@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23319,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 389,
+    "mean_when_active": 0.05209430998579089,
+    "max_activation": 0.1632080078125,
+    "std_when_active": 0.027417017154450544,
+    "activation_rate": 0.00389
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 13500000,
+      "corpus_coverage": 0.2611
+    },
+    "top_tokens": [
+      {
+        "token": "os",
+        "count": 1625,
+        "mean_activation": 0.04912245530348558
+      },
+      {
+        "token": "o",
+        "count": 1538,
+        "mean_activation": 0.05428447648979753
+      },
+      {
+        "token": "ita",
+        "count": 1177,
+        "mean_activation": 0.05914009113684487
+      },
+      {
+        "token": "ada",
+        "count": 1170,
+        "mean_activation": 0.0578439696222289
+      },
+      {
+        "token": "a",
+        "count": 1070,
+        "mean_activation": 0.05435945742598204
+      },
+      {
+        "token": "oba",
+        "count": 907,
+        "mean_activation": 0.06192452326630547
+      },
+      {
+        "token": "ito",
+        "count": 864,
+        "mean_activation": 0.0744626345457854
+      },
+      {
+        "token": "as",
+        "count": 761,
+        "mean_activation": 0.05220564091565888
+      },
+      {
+        "token": "itas",
+        "count": 611,
+        "mean_activation": 0.03807884503503478
+      },
+      {
+        "token": "i",
+        "count": 600,
+        "mean_activation": 0.05719347635904948
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 13500000,
+      "corpus_coverage": 0.2611
+    },
+    "activations": [
+      {
+        "context": "...ot impressed with Cat**rin**as. I had the Enfrijol",
+        "active_token": "rin",
+        "activation": 0.195068359375,
+        "review_id": "x2Seik5pu7px5IDo26Jd4w",
+        "position": 6
+      },
+      {
+        "context": "...re if I had known Rost**iz**ado was part of the Ta...",
+        "active_token": "iz",
+        "activation": 0.188232421875,
+        "review_id": "Pug3sfzLw-jAcd5OFoGbXw",
+        "position": 12
+      },
+      {
+        "context": "...ad high hopes for Rost**iz**ado! The service was a...",
+        "active_token": "iz",
+        "activation": 0.1829833984375,
+        "review_id": "s96pGSaxofNNGln__My1ZA",
+        "position": 23
+      },
+      {
+        "context": "... split, found about V**igo**, the master of evil. ...",
+        "active_token": "igo",
+        "activation": 0.181640625,
+        "review_id": "2Vtf_fRic-DL_gPVx6genA",
+        "position": 265
+      },
+      {
+        "context": "...een hearing about Rost**iz**ado for a long time so...",
+        "active_token": "iz",
+        "activation": 0.1815185546875,
+        "review_id": "agjcIoNoNFWIVHLnAP0a_w",
+        "position": 6
+      },
+      {
+        "context": "...d a chance to try Rost**iz**ado. \\n\\nWe (party of ei...",
+        "active_token": "iz",
+        "activation": 0.18115234375,
+        "review_id": "NMdmYeJ0mBu6fiO00JlGfw",
+        "position": 26
+      },
+      {
+        "context": "...lfriend and loved Rost**iz**ado! I crave the cevic...",
+        "active_token": "iz",
+        "activation": 0.1807861328125,
+        "review_id": "IRaU3NwraHs9mlXnvZoe2A",
+        "position": 10
+      },
+      {
+        "context": "... and I have found Rost**iz**ado to be exceptional....",
+        "active_token": "iz",
+        "activation": 0.1805419921875,
+        "review_id": "UCS3v7YLLrgde1lCaWY7rg",
+        "position": 211
+      },
+      {
+        "context": "...en wanting to try Sab**rin**as for a while now and...",
+        "active_token": "rin",
+        "activation": 0.17919921875,
+        "review_id": "Zmwn9fOqvdoNjAx4KsRWqg",
+        "position": 7
+      },
+      {
+        "context": "... ready write off Vall**arta**'s as a very average ...",
+        "active_token": "arta",
+        "activation": 0.1788330078125,
+        "review_id": "wsoHytAZtSsnL3hgBf6yTA",
+        "position": 9
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23319,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 27200000,
+      "corpus_coverage": 0.5261,
+      "activation_range": {
+        "min": 0.1462,
+        "max": 0.1975,
+        "mean": 0.1562
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Rost",
+            "iz"
+          ],
+          "ngram_str": " Rostiz",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "iz",
+            "ado"
+          ],
+          "ngram_str": "izado",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Bes",
+            "ito"
+          ],
+          "ngram_str": " Besito",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " Q",
+            "d"
+          ],
+          "ngram_str": " Qd",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "d",
+            "oba"
+          ],
+          "ngram_str": "doba",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " Miz",
+            "ado"
+          ],
+          "ngram_str": " Mizado",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " Much",
+            "o"
+          ],
+          "ngram_str": " Mucho",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "o",
+            " Bur"
+          ],
+          "ngram_str": "o Bur",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Bur",
+            "rito"
+          ],
+          "ngram_str": " Burrito",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "'s",
+            "."
+          ],
+          "ngram_str": "'s.",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " Rost",
+            "iz",
+            "ado"
+          ],
+          "ngram_str": " Rostizado",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Q",
+            "d",
+            "oba"
+          ],
+          "ngram_str": " Qdoba",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " Much",
+            "o",
+            " Bur"
+          ],
+          "ngram_str": " Mucho Bur",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "o",
+            " Bur",
+            "rito"
+          ],
+          "ngram_str": "o Burrito",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Shar",
+            "ke",
+            "ez"
+          ],
+          "ngram_str": " Sharkeez",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " Vall",
+            "arta",
+            "'s"
+          ],
+          "ngram_str": " Vallarta's",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "iz",
+            "ado",
+            "'s"
+          ],
+          "ngram_str": "izado's",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " El",
+            "v",
+            "ira"
+          ],
+          "ngram_str": " Elvira",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "v",
+            "ira",
+            "'s"
+          ],
+          "ngram_str": "vira's",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Cat",
+            "rin",
+            "as"
+          ],
+          "ngram_str": " Catrinas",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " to",
+            " Rost",
+            "iz"
+          ],
+          "ngram_str": " to Rostiz",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " L",
+            "oli",
+            "'s"
+          ],
+          "ngram_str": " Loli's",
+          "count": 7,
+          "percent": 1.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " Much",
+            "o",
+            " Bur",
+            "rito"
+          ],
+          "ngram_str": " Mucho Burrito",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Rost",
+            "iz",
+            "ado",
+            "'s"
+          ],
+          "ngram_str": " Rostizado's",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " El",
+            "v",
+            "ira",
+            "'s"
+          ],
+          "ngram_str": " Elvira's",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " to",
+            " Rost",
+            "iz",
+            "ado"
+          ],
+          "ngram_str": " to Rostizado",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " Sir",
+            " Ve",
+            "za",
+            "'s"
+          ],
+          "ngram_str": " Sir Veza's",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " Pad",
+            "aro",
+            " Beach",
+            " Grill"
+          ],
+          "ngram_str": " Padaro Beach Grill",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " Rost",
+            "iz",
+            "ado",
+            "!"
+          ],
+          "ngram_str": " Rostizado!",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " about",
+            " Rost",
+            "iz",
+            "ado"
+          ],
+          "ngram_str": " about Rostizado",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " to",
+            " Q",
+            "d",
+            "oba"
+          ],
+          "ngram_str": " to Qdoba",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " to",
+            " El",
+            "v",
+            "ira"
+          ],
+          "ngram_str": " to Elvira",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " Rost",
+            "iz",
+            "ado",
+            " for"
+          ],
+          "ngram_str": " Rostizado for",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " Rost",
+            "iz",
+            "ado",
+            "."
+          ],
+          "ngram_str": " Rostizado.",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2700000,
+      "corpus_coverage": 0.0522
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 7829,
+        "percent": 78.29
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5534,
+        "percent": 55.34
+      },
+      {
+        "feature_idx": 21219,
+        "count": 4951,
+        "percent": 49.51
+      },
+      {
+        "feature_idx": 19755,
+        "count": 4044,
+        "percent": 40.44
+      },
+      {
+        "feature_idx": 8255,
+        "count": 3785,
+        "percent": 37.85
+      },
+      {
+        "feature_idx": 16420,
+        "count": 3312,
+        "percent": 33.12
+      },
+      {
+        "feature_idx": 6053,
+        "count": 3206,
+        "percent": 32.06
+      },
+      {
+        "feature_idx": 22322,
+        "count": 2958,
+        "percent": 29.58
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2837,
+        "percent": 28.37
+      },
+      {
+        "feature_idx": 7520,
+        "count": 2660,
+        "percent": 26.6
+      },
+      {
+        "feature_idx": 912,
+        "count": 2597,
+        "percent": 25.97
+      },
+      {
+        "feature_idx": 3516,
+        "count": 2452,
+        "percent": 24.52
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2447,
+        "percent": 24.47
+      },
+      {
+        "feature_idx": 20913,
+        "count": 2366,
+        "percent": 23.66
+      },
+      {
+        "feature_idx": 6335,
+        "count": 2312,
+        "percent": 23.12
+      },
+      {
+        "feature_idx": 8285,
+        "count": 2177,
+        "percent": 21.77
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2069,
+        "percent": 20.69
+      },
+      {
+        "feature_idx": 3953,
+        "count": 1869,
+        "percent": 18.69
+      },
+      {
+        "feature_idx": 10093,
+        "count": 1863,
+        "percent": 18.63
+      },
+      {
+        "feature_idx": 15988,
+        "count": 1856,
+        "percent": 18.56
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2700000,
+      "corpus_coverage": 0.0522
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3879,
+        "percent": 38.79
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1515,
+        "percent": 15.15
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1269,
+        "percent": 12.69
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1321,
+        "percent": 13.21
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2016,
+        "percent": 20.16
+      }
+    ],
+    "mean_position": 0.4149,
+    "std_position": 0.3351
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 389,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0245,
+      "p25": 0.0321,
+      "p50": 0.0456,
+      "p75": 0.0635,
+      "p90": 0.0903,
+      "p95": 0.1083,
+      "p99": 0.1369
+    },
+    "skewness": 1.256,
+    "kurtosis": 1.6136,
+    "min": 0.0107,
+    "max": 0.1632,
+    "mean": 0.0521,
+    "std": 0.0274
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 389,
+      "unique_tokens_found": 207
+    },
+    "tokens": [
+      {
+        "token": "ito",
+        "count": 18,
+        "mean_activation": 0.0724
+      },
+      {
+        "token": "os",
+        "count": 15,
+        "mean_activation": 0.0576
+      },
+      {
+        "token": "ita",
+        "count": 13,
+        "mean_activation": 0.0617
+      },
+      {
+        "token": "i",
+        "count": 10,
+        "mean_activation": 0.0568
+      },
+      {
+        "token": "ina",
+        "count": 8,
+        "mean_activation": 0.0728
+      },
+      {
+        "token": "a",
+        "count": 8,
+        "mean_activation": 0.0507
+      },
+      {
+        "token": "icia",
+        "count": 8,
+        "mean_activation": 0.0645
+      },
+      {
+        "token": "otle",
+        "count": 7,
+        "mean_activation": 0.0217
+      },
+      {
+        "token": "o",
+        "count": 6,
+        "mean_activation": 0.0406
+      },
+      {
+        "token": "rina",
+        "count": 6,
+        "mean_activation": 0.0608
+      }
+    ]
+  }
+}

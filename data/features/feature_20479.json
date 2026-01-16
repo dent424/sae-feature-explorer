@@ -1,0 +1,876 @@
+{
+  "feature_idx": 20479,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 267,
+    "mean_when_active": 0.045026314838995204,
+    "max_activation": 0.14306640625,
+    "std_when_active": 0.02619210580682982,
+    "activation_rate": 0.00267
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 20300000,
+      "corpus_coverage": 0.3926
+    },
+    "top_tokens": [
+      {
+        "token": " gem",
+        "count": 1425,
+        "mean_activation": 0.06422883686266448
+      },
+      {
+        "token": " must",
+        "count": 1302,
+        "mean_activation": 0.03245654010919199
+      },
+      {
+        "token": " go",
+        "count": 1300,
+        "mean_activation": 0.0390666257418119
+      },
+      {
+        "token": " place",
+        "count": 1026,
+        "mean_activation": 0.02021133690549616
+      },
+      {
+        "token": " spot",
+        "count": 949,
+        "mean_activation": 0.040736062760348066
+      },
+      {
+        "token": " bomb",
+        "count": 894,
+        "mean_activation": 0.0859449587145641
+      },
+      {
+        "token": " hit",
+        "count": 891,
+        "mean_activation": 0.08305365736904637
+      },
+      {
+        "token": "AZ",
+        "count": 839,
+        "mean_activation": 0.046806653719550805
+      },
+      {
+        "token": "ish",
+        "count": 659,
+        "mean_activation": 0.03228366139806999
+      },
+      {
+        "token": " top",
+        "count": 646,
+        "mean_activation": 0.034392578313963335
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 20300000,
+      "corpus_coverage": 0.3926
+    },
+    "activations": [
+      {
+        "context": "...e shrimp tacos are a** steal**! I certainly enjoy ...",
+        "active_token": " steal",
+        "activation": 0.218994140625,
+        "review_id": "MlaCf7Gvuhn8kjt7X2hYrw",
+        "position": 123
+      },
+      {
+        "context": "...rgs on Mondays are a** steal**! Very good about so...",
+        "active_token": " steal",
+        "activation": 0.213623046875,
+        "review_id": "RbbpAxQmDuW98Hz9b69yoQ",
+        "position": 31
+      },
+      {
+        "context": ".... The cocktails are** heaven**. Great place to imp...",
+        "active_token": " heaven",
+        "activation": 0.2069091796875,
+        "review_id": "Gj9pLaaE6hOb97x-V8VSDA",
+        "position": 54
+      },
+      {
+        "context": "...l cheese. They were** heaven** even when I had to ...",
+        "active_token": " heaven",
+        "activation": 0.2060546875,
+        "review_id": "iPyHU-d6qz0SbtqUo9MbxA",
+        "position": 61
+      },
+      {
+        "context": "...ere. This place is a** steal** - the good is great...",
+        "active_token": " steal",
+        "activation": 0.2037353515625,
+        "review_id": "iBY_M_HpX1euMRNb2-YsmA",
+        "position": 47
+      },
+      {
+        "context": "...lunch specials are a** steal**, including an entre...",
+        "active_token": " steal",
+        "activation": 0.203369140625,
+        "review_id": "M4_Y26nkMrnYWqYc1vv1KQ",
+        "position": 62
+      },
+      {
+        "context": "...guac and queso are a** steal**.",
+        "active_token": " steal",
+        "activation": 0.2032470703125,
+        "review_id": "aux46I1t5pIATlYtZ1IxbQ",
+        "position": 24
+      },
+      {
+        "context": "... taco specials are a** steal** with a variety of o...",
+        "active_token": " steal",
+        "activation": 0.2003173828125,
+        "review_id": "0MAIGykExOUWskFpadTfUw",
+        "position": 26
+      },
+      {
+        "context": "...e tacos at $5 were a** steal** especially if you'v...",
+        "active_token": " steal",
+        "activation": 0.198974609375,
+        "review_id": "YIyoaZnk9eHB_LPDb4Uv3Q",
+        "position": 150
+      },
+      {
+        "context": "....29 a pop, they're a** steal**! The cherry on top ...",
+        "active_token": " steal",
+        "activation": 0.1971435546875,
+        "review_id": "MjnhQwRi2OSsbks1U-fUHA",
+        "position": 24
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 20479,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 40600000,
+      "corpus_coverage": 0.7853,
+      "activation_range": {
+        "min": 0.1581,
+        "max": 0.219,
+        "mean": 0.175
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " hit"
+          ],
+          "ngram_str": " a hit",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            " a",
+            " steal"
+          ],
+          "ngram_str": " a steal",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " heaven",
+            "."
+          ],
+          "ngram_str": " heaven.",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " are",
+            " a"
+          ],
+          "ngram_str": " are a",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " were",
+            " a"
+          ],
+          "ngram_str": " were a",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " was",
+            " a"
+          ],
+          "ngram_str": " was a",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " steal",
+            "."
+          ],
+          "ngram_str": " steal.",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " was",
+            " heaven"
+          ],
+          "ngram_str": " was heaven",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " hit",
+            "."
+          ],
+          "ngram_str": " hit.",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " is",
+            " heaven"
+          ],
+          "ngram_str": " is heaven",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " hit",
+            " or"
+          ],
+          "ngram_str": " hit or",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " is",
+            " a",
+            " steal"
+          ],
+          "ngram_str": " is a steal",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " hit"
+          ],
+          "ngram_str": " is a hit",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " a",
+            " hit",
+            "."
+          ],
+          "ngram_str": " a hit.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " a",
+            " steal",
+            "."
+          ],
+          "ngram_str": " a steal.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " were",
+            " a",
+            " hit"
+          ],
+          "ngram_str": " were a hit",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " a",
+            " hit",
+            " or"
+          ],
+          "ngram_str": " a hit or",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " hit",
+            " or",
+            " miss"
+          ],
+          "ngram_str": " hit or miss",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " are",
+            " a",
+            " steal"
+          ],
+          "ngram_str": " are a steal",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " steal",
+            "!"
+          ],
+          "ngram_str": " a steal!",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " was",
+            " heaven",
+            "."
+          ],
+          "ngram_str": " was heaven.",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " was",
+            " a",
+            " hit"
+          ],
+          "ngram_str": " was a hit",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " a",
+            " hit",
+            "!"
+          ],
+          "ngram_str": " a hit!",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " always",
+            " a",
+            " hit"
+          ],
+          "ngram_str": " always a hit",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " place",
+            " is",
+            " a"
+          ],
+          "ngram_str": " place is a",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " a",
+            " hit",
+            " or",
+            " miss"
+          ],
+          "ngram_str": " a hit or miss",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " steal",
+            "."
+          ],
+          "ngram_str": " is a steal.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " hit",
+            " or"
+          ],
+          "ngram_str": " is a hit or",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " were",
+            " a",
+            " hit",
+            "."
+          ],
+          "ngram_str": " were a hit.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " are",
+            " always",
+            " a",
+            " hit"
+          ],
+          "ngram_str": " are always a hit",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " This",
+            " place",
+            " is",
+            " a"
+          ],
+          "ngram_str": " This place is a",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " place",
+            " is",
+            " a",
+            " hit"
+          ],
+          "ngram_str": " place is a hit",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " are",
+            " a",
+            " steal",
+            "!"
+          ],
+          "ngram_str": " are a steal!",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " and",
+            " it",
+            " was",
+            " heaven"
+          ],
+          "ngram_str": " and it was heaven",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " it",
+            "'s",
+            " a",
+            " steal"
+          ],
+          "ngram_str": " it's a steal",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " an",
+            " explosion",
+            " of",
+            " flavor"
+          ],
+          "ngram_str": " an explosion of flavor",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4100000,
+      "corpus_coverage": 0.0793
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 5052,
+        "percent": 50.52
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4405,
+        "percent": 44.05
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4313,
+        "percent": 43.13
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3274,
+        "percent": 32.74
+      },
+      {
+        "feature_idx": 1938,
+        "count": 3231,
+        "percent": 32.31
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3080,
+        "percent": 30.8
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2976,
+        "percent": 29.76
+      },
+      {
+        "feature_idx": 20119,
+        "count": 2840,
+        "percent": 28.4
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2510,
+        "percent": 25.1
+      },
+      {
+        "feature_idx": 4688,
+        "count": 2446,
+        "percent": 24.46
+      },
+      {
+        "feature_idx": 12982,
+        "count": 2310,
+        "percent": 23.1
+      },
+      {
+        "feature_idx": 12563,
+        "count": 2286,
+        "percent": 22.86
+      },
+      {
+        "feature_idx": 16549,
+        "count": 2267,
+        "percent": 22.67
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2164,
+        "percent": 21.64
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2011,
+        "percent": 20.11
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1926,
+        "percent": 19.26
+      },
+      {
+        "feature_idx": 305,
+        "count": 1917,
+        "percent": 19.17
+      },
+      {
+        "feature_idx": 13883,
+        "count": 1887,
+        "percent": 18.87
+      },
+      {
+        "feature_idx": 14741,
+        "count": 1802,
+        "percent": 18.02
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1751,
+        "percent": 17.51
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 4100000,
+      "corpus_coverage": 0.0793
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1748,
+        "percent": 17.48
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1985,
+        "percent": 19.85
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2136,
+        "percent": 21.36
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1903,
+        "percent": 19.03
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2228,
+        "percent": 22.28
+      }
+    ],
+    "mean_position": 0.5213,
+    "std_position": 0.2882
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 267,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0205,
+      "p25": 0.0269,
+      "p50": 0.0373,
+      "p75": 0.0535,
+      "p90": 0.082,
+      "p95": 0.0982,
+      "p99": 0.1398
+    },
+    "skewness": 1.6004,
+    "kurtosis": 2.6278,
+    "min": 0.0124,
+    "max": 0.1431,
+    "mean": 0.045,
+    "std": 0.0262
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 267,
+      "unique_tokens_found": 168
+    },
+    "tokens": [
+      {
+        "token": " gem",
+        "count": 10,
+        "mean_activation": 0.0651
+      },
+      {
+        "token": " spot",
+        "count": 7,
+        "mean_activation": 0.047
+      },
+      {
+        "token": " hit",
+        "count": 7,
+        "mean_activation": 0.0881
+      },
+      {
+        "token": " must",
+        "count": 6,
+        "mean_activation": 0.0258
+      },
+      {
+        "token": " my",
+        "count": 6,
+        "mean_activation": 0.0207
+      },
+      {
+        "token": " killer",
+        "count": 5,
+        "mean_activation": 0.0644
+      },
+      {
+        "token": "ish",
+        "count": 5,
+        "mean_activation": 0.0302
+      },
+      {
+        "token": " place",
+        "count": 5,
+        "mean_activation": 0.0176
+      },
+      {
+        "token": " go",
+        "count": 5,
+        "mean_activation": 0.0282
+      },
+      {
+        "token": " top",
+        "count": 4,
+        "mean_activation": 0.0321
+      }
+    ]
+  }
+}

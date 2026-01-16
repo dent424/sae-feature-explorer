@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1410,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 588,
+    "mean_when_active": 0.04397967072571216,
+    "max_activation": 0.1583251953125,
+    "std_when_active": 0.029296592783814104,
+    "activation_rate": 0.00588
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 8000000,
+      "corpus_coverage": 0.1547
+    },
+    "top_tokens": [
+      {
+        "token": " recommend",
+        "count": 5262,
+        "mean_activation": 0.03177649564318945
+      },
+      {
+        "token": " the",
+        "count": 2473,
+        "mean_activation": 0.06207456484623781
+      },
+      {
+        "token": ".",
+        "count": 2115,
+        "mean_activation": 0.032115620642407285
+      },
+      {
+        "token": " this",
+        "count": 1742,
+        "mean_activation": 0.08451380330029913
+      },
+      {
+        "token": " to",
+        "count": 1697,
+        "mean_activation": 0.08363202015793035
+      },
+      {
+        "token": " place",
+        "count": 1487,
+        "mean_activation": 0.06728462060185672
+      },
+      {
+        "token": " and",
+        "count": 1354,
+        "mean_activation": 0.04160412516516456
+      },
+      {
+        "token": " it",
+        "count": 1120,
+        "mean_activation": 0.07670065334865026
+      },
+      {
+        "token": ",",
+        "count": 1117,
+        "mean_activation": 0.045284172201540816
+      },
+      {
+        "token": " for",
+        "count": 915,
+        "mean_activation": 0.0671842981557377
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 8000000,
+      "corpus_coverage": 0.1547
+    },
+    "activations": [
+      {
+        "context": "...CELLENT and recommend** him** to anyone that visit...",
+        "active_token": " him",
+        "activation": 0.2080078125,
+        "review_id": "548Azw11NYgCZlnOG6mrmQ",
+        "position": 184
+      },
+      {
+        "context": "...h my friend recommend** me** to come and try their...",
+        "active_token": " me",
+        "activation": 0.1767578125,
+        "review_id": "CUFdtE6s7ylnjliHRwDTRw",
+        "position": 41
+      },
+      {
+        "context": "...ever recommend anyone** to** go to the qdoba in Cr...",
+        "active_token": " to",
+        "activation": 0.1763916015625,
+        "review_id": "Dg5ARttBK43GLkrxK0AsUA",
+        "position": 274
+      },
+      {
+        "context": "...ould recommend others** to** check out BK's becaus...",
+        "active_token": " to",
+        "activation": 0.171875,
+        "review_id": "Vy7C_a6clwI07tHbpFjkzg",
+        "position": 55
+      },
+      {
+        "context": "...would not recommend** anyone** going here. I have ...",
+        "active_token": " anyone",
+        "activation": 0.1708984375,
+        "review_id": "Y6xrP4wcYlj_ZWtrg0jzYA",
+        "position": 528
+      },
+      {
+        "context": "...r recommending others** to** this place.",
+        "active_token": " to",
+        "activation": 0.1693115234375,
+        "review_id": "2xDaagV9sb9n5WMnX4Tsrg",
+        "position": 113
+      },
+      {
+        "context": "...holes. I'd recommend** them** any day! PRO TIP: di...",
+        "active_token": " them",
+        "activation": 0.1690673828125,
+        "review_id": "-Tc3WhdD29j06KFfSY2LEA",
+        "position": 125
+      },
+      {
+        "context": "...sary. Would recommend** any** newbie to Nada get t...",
+        "active_token": " any",
+        "activation": 0.1683349609375,
+        "review_id": "otg7PYBz2OWgt8sYIZCZ5g",
+        "position": 10
+      },
+      {
+        "context": "...counter. I recommend** them**!",
+        "active_token": " them",
+        "activation": 0.1661376953125,
+        "review_id": "SJYICDL8CntxDL3A43TQMg",
+        "position": 102
+      },
+      {
+        "context": "...would not recommend** anyone** frequent this place...",
+        "active_token": " anyone",
+        "activation": 0.1650390625,
+        "review_id": "74YJDojM7RcGoVchel5G5w",
+        "position": 24
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1410,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 15900000,
+      "corpus_coverage": 0.3075,
+      "activation_range": {
+        "min": 0.1387,
+        "max": 0.208,
+        "mean": 0.1471
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " recommend",
+            " it"
+          ],
+          "ngram_str": " recommend it",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " would",
+            " recommend"
+          ],
+          "ngram_str": " would recommend",
+          "count": 87,
+          "percent": 17.4
+        },
+        {
+          "ngram": [
+            " I",
+            " would"
+          ],
+          "ngram_str": " I would",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " to",
+            " anyone"
+          ],
+          "ngram_str": " to anyone",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " I",
+            " recommend"
+          ],
+          "ngram_str": " I recommend",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " recommend",
+            " to"
+          ],
+          "ngram_str": " recommend to",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " it",
+            " to"
+          ],
+          "ngram_str": " it to",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " recommend",
+            " them"
+          ],
+          "ngram_str": " recommend them",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " and",
+            " would"
+          ],
+          "ngram_str": " and would",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " it",
+            "."
+          ],
+          "ngram_str": " it.",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " highly",
+            " recommend"
+          ],
+          "ngram_str": " highly recommend",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " not",
+            " recommend"
+          ],
+          "ngram_str": " not recommend",
+          "count": 38,
+          "percent": 7.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " would",
+            " recommend"
+          ],
+          "ngram_str": " I would recommend",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " recommend",
+            " it",
+            " to"
+          ],
+          "ngram_str": " recommend it to",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " would",
+            " recommend",
+            " it"
+          ],
+          "ngram_str": " would recommend it",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " recommend",
+            " it",
+            "."
+          ],
+          "ngram_str": " recommend it.",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " and",
+            " would",
+            " recommend"
+          ],
+          "ngram_str": " and would recommend",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would"
+          ],
+          "ngram_str": ". I would",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " recommend",
+            " it"
+          ],
+          "ngram_str": " and recommend it",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " recommend",
+            " to",
+            " anyone"
+          ],
+          "ngram_str": " recommend to anyone",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " would"
+          ],
+          "ngram_str": " and I would",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " it",
+            " to",
+            " anyone"
+          ],
+          "ngram_str": " it to anyone",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " would",
+            " highly",
+            " recommend"
+          ],
+          "ngram_str": " would highly recommend",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " recommend",
+            " anyone",
+            " to"
+          ],
+          "ngram_str": " recommend anyone to",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " would",
+            " not",
+            " recommend"
+          ],
+          "ngram_str": " would not recommend",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " recommend",
+            " it",
+            " to",
+            " anyone"
+          ],
+          "ngram_str": " recommend it to anyone",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " recommend",
+            " it"
+          ],
+          "ngram_str": " I would recommend it",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " and",
+            " recommend",
+            " it",
+            " to"
+          ],
+          "ngram_str": " and recommend it to",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " would",
+            " recommend",
+            " it",
+            " to"
+          ],
+          "ngram_str": " would recommend it to",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " and",
+            " would",
+            " recommend",
+            " it"
+          ],
+          "ngram_str": " and would recommend it",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " would",
+            " recommend"
+          ],
+          "ngram_str": " and I would recommend",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " would",
+            " recommend"
+          ],
+          "ngram_str": ". I would recommend",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " would",
+            " not",
+            " recommend",
+            " anyone"
+          ],
+          "ngram_str": " would not recommend anyone",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " not",
+            " recommend"
+          ],
+          "ngram_str": " I would not recommend",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " would",
+            " highly",
+            " recommend",
+            " them"
+          ],
+          "ngram_str": " would highly recommend them",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " recommend",
+            " anyone",
+            " to",
+            " go"
+          ],
+          "ngram_str": " recommend anyone to go",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " highly",
+            " recommend"
+          ],
+          "ngram_str": " I would highly recommend",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " I",
+            " would",
+            " recommend",
+            " to"
+          ],
+          "ngram_str": " I would recommend to",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1700000,
+      "corpus_coverage": 0.0329
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4562,
+        "percent": 45.62
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4040,
+        "percent": 40.4
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4030,
+        "percent": 40.3
+      },
+      {
+        "feature_idx": 23664,
+        "count": 3747,
+        "percent": 37.47
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3467,
+        "percent": 34.67
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3374,
+        "percent": 33.74
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3067,
+        "percent": 30.67
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3041,
+        "percent": 30.41
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2914,
+        "percent": 29.14
+      },
+      {
+        "feature_idx": 5070,
+        "count": 1392,
+        "percent": 13.92
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1314,
+        "percent": 13.14
+      },
+      {
+        "feature_idx": 19024,
+        "count": 1298,
+        "percent": 12.98
+      },
+      {
+        "feature_idx": 21143,
+        "count": 1237,
+        "percent": 12.37
+      },
+      {
+        "feature_idx": 5133,
+        "count": 1164,
+        "percent": 11.64
+      },
+      {
+        "feature_idx": 21261,
+        "count": 1152,
+        "percent": 11.52
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1144,
+        "percent": 11.44
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1118,
+        "percent": 11.18
+      },
+      {
+        "feature_idx": 20550,
+        "count": 1114,
+        "percent": 11.14
+      },
+      {
+        "feature_idx": 23840,
+        "count": 1099,
+        "percent": 10.99
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1077,
+        "percent": 10.77
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1700000,
+      "corpus_coverage": 0.0329
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1217,
+        "percent": 12.17
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1434,
+        "percent": 14.34
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1604,
+        "percent": 16.04
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1859,
+        "percent": 18.59
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 3886,
+        "percent": 38.86
+      }
+    ],
+    "mean_position": 0.6258,
+    "std_position": 0.2977
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 588,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0185,
+      "p25": 0.024,
+      "p50": 0.0321,
+      "p75": 0.054,
+      "p90": 0.0921,
+      "p95": 0.1063,
+      "p99": 0.1308
+    },
+    "skewness": 1.437,
+    "kurtosis": 1.3807,
+    "min": 0.0092,
+    "max": 0.1583,
+    "mean": 0.044,
+    "std": 0.0293
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 588,
+      "unique_tokens_found": 211
+    },
+    "tokens": [
+      {
+        "token": " recommend",
+        "count": 60,
+        "mean_activation": 0.0317
+      },
+      {
+        "token": " the",
+        "count": 28,
+        "mean_activation": 0.0563
+      },
+      {
+        "token": ".",
+        "count": 22,
+        "mean_activation": 0.0334
+      },
+      {
+        "token": " this",
+        "count": 21,
+        "mean_activation": 0.0899
+      },
+      {
+        "token": " to",
+        "count": 20,
+        "mean_activation": 0.0828
+      },
+      {
+        "token": " and",
+        "count": 19,
+        "mean_activation": 0.0396
+      },
+      {
+        "token": " place",
+        "count": 17,
+        "mean_activation": 0.074
+      },
+      {
+        "token": " it",
+        "count": 15,
+        "mean_activation": 0.0717
+      },
+      {
+        "token": ",",
+        "count": 11,
+        "mean_activation": 0.0398
+      },
+      {
+        "token": "!",
+        "count": 11,
+        "mean_activation": 0.0256
+      }
+    ]
+  }
+}

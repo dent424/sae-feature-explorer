@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22930,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 293,
+    "mean_when_active": 0.0395620040112388,
+    "max_activation": 0.1341552734375,
+    "std_when_active": 0.01934897165389381,
+    "activation_rate": 0.00293
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 16900000,
+      "corpus_coverage": 0.3269
+    },
+    "top_tokens": [
+      {
+        "token": " with",
+        "count": 27715,
+        "mean_activation": 0.04538457307191009
+      },
+      {
+        "token": " a",
+        "count": 2797,
+        "mean_activation": 0.030640657688832344
+      },
+      {
+        "token": " of",
+        "count": 2204,
+        "mean_activation": 0.03493715068173279
+      },
+      {
+        "token": " in",
+        "count": 1406,
+        "mean_activation": 0.03994925703805677
+      },
+      {
+        "token": " the",
+        "count": 951,
+        "mean_activation": 0.03044535158560479
+      },
+      {
+        "token": " some",
+        "count": 563,
+        "mean_activation": 0.029446982998619285
+      },
+      {
+        "token": " had",
+        "count": 481,
+        "mean_activation": 0.028947937265503182
+      },
+      {
+        "token": " has",
+        "count": 399,
+        "mean_activation": 0.028102157707501175
+      },
+      {
+        "token": " from",
+        "count": 387,
+        "mean_activation": 0.03194204719799742
+      },
+      {
+        "token": " my",
+        "count": 361,
+        "mean_activation": 0.027616442735835786
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 16900000,
+      "corpus_coverage": 0.3269
+    },
+    "activations": [
+      {
+        "context": "... of a Soft Bun piled** with** 2 Sausage Patties, 2...",
+        "active_token": " with",
+        "activation": 0.1827392578125,
+        "review_id": "jsBhgJtxv7q1D7tjWj9jTw",
+        "position": 108
+      },
+      {
+        "context": "...- a tortilla stuffed** with** cheese & lots of lea...",
+        "active_token": " with",
+        "activation": 0.1826171875,
+        "review_id": "l5tW33zTvw4hV05YN9n81A",
+        "position": 118
+      },
+      {
+        "context": "... plastic cup stuffed** with** big chunks of fresh ...",
+        "active_token": " with",
+        "activation": 0.181640625,
+        "review_id": "MIA6YmsbxsfoELPo9ElAnw",
+        "position": 248
+      },
+      {
+        "context": "...rritos cakes stuffed** with** meat of your choice ...",
+        "active_token": " with",
+        "activation": 0.1800537109375,
+        "review_id": "xQTQ1JbzG7-WD_lMkkecew",
+        "position": 125
+      },
+      {
+        "context": "...our tortilla stuffed** with** a tablespoon of ingr...",
+        "active_token": " with",
+        "activation": 0.1767578125,
+        "review_id": "bYD0Y9_qF2OTlOgUUu9aJA",
+        "position": 88
+      },
+      {
+        "context": "... dough pocket filled** with** meat and topped with...",
+        "active_token": " with",
+        "activation": 0.17333984375,
+        "review_id": "mbEQ4oA5r95Ym10Hf0uQ7w",
+        "position": 176
+      },
+      {
+        "context": "...y a tortilla stuffed** with** little gross shrimp ...",
+        "active_token": " with",
+        "activation": 0.173095703125,
+        "review_id": "SbfQgZsqXzeLRJ5Fjlnoyw",
+        "position": 183
+      },
+      {
+        "context": "...bread pocket stuffed** with** chicken, veggies, qu...",
+        "active_token": " with",
+        "activation": 0.1728515625,
+        "review_id": "msNMEXKIVMjEKxWwUvVqEg",
+        "position": 107
+      },
+      {
+        "context": "...y a tortilla stuffed** with** meat does not a burr...",
+        "active_token": " with",
+        "activation": 0.171875,
+        "review_id": "5IGDNxLggzMXHThl87pe9A",
+        "position": 109
+      },
+      {
+        "context": "...ade tortilla stuffed** with** cheese, meats, or al...",
+        "active_token": " with",
+        "activation": 0.17138671875,
+        "review_id": "RvqQJCxb1xMyT-DGYgnoBA",
+        "position": 73
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22930,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 34400000,
+      "corpus_coverage": 0.6653,
+      "activation_range": {
+        "min": 0.1245,
+        "max": 0.1907,
+        "mean": 0.1399
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " stuffed with",
+          "count": 244,
+          "percent": 48.8
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " tortilla",
+          "count": 141,
+          "percent": 28.2
+        },
+        {
+          "ngram": [
+            " filled",
+            " with"
+          ],
+          "ngram_str": " filled with",
+          "count": 133,
+          "percent": 26.6
+        },
+        {
+          "ngram": [
+            "illa",
+            " stuffed"
+          ],
+          "ngram_str": "illa stuffed",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "illa",
+            " filled"
+          ],
+          "ngram_str": "illa filled",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " flour",
+            " tort"
+          ],
+          "ngram_str": " flour tort",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " with",
+            " cheese"
+          ],
+          "ngram_str": " with cheese",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " burrito",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " corn",
+            " tort"
+          ],
+          "ngram_str": " corn tort",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " a",
+            " tort"
+          ],
+          "ngram_str": " a tort",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " cheese",
+            ","
+          ],
+          "ngram_str": " cheese,",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " chicken",
+            ","
+          ],
+          "ngram_str": " chicken,",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " with",
+            " meat"
+          ],
+          "ngram_str": " with meat",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " tortillas",
+          "count": 24,
+          "percent": 4.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "illa",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": "illa stuffed with",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " stuffed"
+          ],
+          "ngram_str": " tortilla stuffed",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "illa",
+            " filled",
+            " with"
+          ],
+          "ngram_str": "illa filled with",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " filled"
+          ],
+          "ngram_str": " tortilla filled",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " flour",
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " flour tortilla",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " cheese"
+          ],
+          "ngram_str": " stuffed with cheese",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " a",
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " a tortilla",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " corn",
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " corn tortilla",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "rito",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": "rito stuffed with",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito",
+            " stuffed"
+          ],
+          "ngram_str": " burrito stuffed",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " a"
+          ],
+          "ngram_str": " stuffed with a",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "illas",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": "illas stuffed with",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " meat"
+          ],
+          "ngram_str": " stuffed with meat",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " a",
+            " flour",
+            " tort"
+          ],
+          "ngram_str": " a flour tort",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas",
+            " stuffed"
+          ],
+          "ngram_str": " tortillas stuffed",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " tortilla stuffed with",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " filled",
+            " with"
+          ],
+          "ngram_str": " tortilla filled with",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " burrito stuffed with",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " flour",
+            " tort",
+            "illa",
+            " stuffed"
+          ],
+          "ngram_str": " flour tortilla stuffed",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " tortillas stuffed with",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " a",
+            " flour",
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " a flour tortilla",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "ad",
+            "illa"
+          ],
+          "ngram_str": " quesadilla",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " tort",
+            "illa",
+            " filled"
+          ],
+          "ngram_str": " a tortilla filled",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with",
+            " cheese",
+            ","
+          ],
+          "ngram_str": " stuffed with cheese,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " corn",
+            " tort",
+            "illa",
+            " stuffed"
+          ],
+          "ngram_str": " corn tortilla stuffed",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " flour",
+            " tort",
+            "illa",
+            " filled"
+          ],
+          "ngram_str": " flour tortilla filled",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "illa",
+            " stuffed",
+            " with",
+            " cheese"
+          ],
+          "ngram_str": "illa stuffed with cheese",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "es",
+            "ad",
+            "illa",
+            " stuffed"
+          ],
+          "ngram_str": "esadilla stuffed",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "ad",
+            "illa",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": "adilla stuffed with",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " with",
+            " rice",
+            ",",
+            " beans"
+          ],
+          "ngram_str": " with rice, beans",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3500000,
+      "corpus_coverage": 0.0677
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 7975,
+        "percent": 79.75
+      },
+      {
+        "feature_idx": 23923,
+        "count": 5586,
+        "percent": 55.86
+      },
+      {
+        "feature_idx": 9447,
+        "count": 5166,
+        "percent": 51.66
+      },
+      {
+        "feature_idx": 17748,
+        "count": 4747,
+        "percent": 47.47
+      },
+      {
+        "feature_idx": 13168,
+        "count": 4332,
+        "percent": 43.32
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4261,
+        "percent": 42.61
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4251,
+        "percent": 42.51
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3937,
+        "percent": 39.37
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3868,
+        "percent": 38.68
+      },
+      {
+        "feature_idx": 14637,
+        "count": 3836,
+        "percent": 38.36
+      },
+      {
+        "feature_idx": 16350,
+        "count": 3296,
+        "percent": 32.96
+      },
+      {
+        "feature_idx": 13050,
+        "count": 3213,
+        "percent": 32.13
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3199,
+        "percent": 31.99
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3197,
+        "percent": 31.97
+      },
+      {
+        "feature_idx": 17975,
+        "count": 3191,
+        "percent": 31.91
+      },
+      {
+        "feature_idx": 6754,
+        "count": 3055,
+        "percent": 30.55
+      },
+      {
+        "feature_idx": 4610,
+        "count": 3009,
+        "percent": 30.09
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2997,
+        "percent": 29.97
+      },
+      {
+        "feature_idx": 4963,
+        "count": 2627,
+        "percent": 26.27
+      },
+      {
+        "feature_idx": 3606,
+        "count": 2306,
+        "percent": 23.06
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3500000,
+      "corpus_coverage": 0.0677
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1414,
+        "percent": 14.14
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2506,
+        "percent": 25.06
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2763,
+        "percent": 27.63
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2200,
+        "percent": 22.0
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1117,
+        "percent": 11.17
+      }
+    ],
+    "mean_position": 0.4814,
+    "std_position": 0.2389
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 293,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0213,
+      "p25": 0.0263,
+      "p50": 0.0341,
+      "p75": 0.0475,
+      "p90": 0.0659,
+      "p95": 0.0796,
+      "p99": 0.1054
+    },
+    "skewness": 1.5506,
+    "kurtosis": 3.0648,
+    "min": 0.0137,
+    "max": 0.1342,
+    "mean": 0.0396,
+    "std": 0.0193
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 293,
+      "unique_tokens_found": 69
+    },
+    "tokens": [
+      {
+        "token": " with",
+        "count": 151,
+        "mean_activation": 0.0477
+      },
+      {
+        "token": " a",
+        "count": 22,
+        "mean_activation": 0.0285
+      },
+      {
+        "token": " of",
+        "count": 13,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": " in",
+        "count": 6,
+        "mean_activation": 0.0342
+      },
+      {
+        "token": " has",
+        "count": 6,
+        "mean_activation": 0.0198
+      },
+      {
+        "token": " top",
+        "count": 6,
+        "mean_activation": 0.0293
+      },
+      {
+        "token": " the",
+        "count": 5,
+        "mean_activation": 0.0504
+      },
+      {
+        "token": " had",
+        "count": 4,
+        "mean_activation": 0.0471
+      },
+      {
+        "token": " some",
+        "count": 3,
+        "mean_activation": 0.0389
+      },
+      {
+        "token": " on",
+        "count": 3,
+        "mean_activation": 0.032
+      }
+    ]
+  }
+}

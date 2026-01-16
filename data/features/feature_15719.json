@@ -1,0 +1,846 @@
+{
+  "feature_idx": 15719,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 44,
+    "mean_when_active": 0.08121559836647728,
+    "max_activation": 0.1695556640625,
+    "std_when_active": 0.0421468602834978,
+    "activation_rate": 0.00044
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 17246,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ne",
+        "count": 15419,
+        "mean_activation": 0.08120769919089843
+      },
+      {
+        "token": "om",
+        "count": 567,
+        "mean_activation": 0.05248840439677028
+      },
+      {
+        "token": "OM",
+        "count": 269,
+        "mean_activation": 0.09927674474326208
+      },
+      {
+        "token": "M",
+        "count": 247,
+        "mean_activation": 0.05265931658416625
+      },
+      {
+        "token": "na",
+        "count": 85,
+        "mean_activation": 0.07779558967141544
+      },
+      {
+        "token": " of",
+        "count": 75,
+        "mean_activation": 0.0397467041015625
+      },
+      {
+        "token": "BI",
+        "count": 70,
+        "mean_activation": 0.07714102608816964
+      },
+      {
+        "token": "omp",
+        "count": 59,
+        "mean_activation": 0.08854235632944915
+      },
+      {
+        "token": "o",
+        "count": 40,
+        "mean_activation": 0.03404731750488281
+      },
+      {
+        "token": "und",
+        "count": 35,
+        "mean_activation": 0.0603759765625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 17246,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "The car**ne** asada is fantastic!  ...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "P3AjoPNt4x75g2M1ZqbSCg",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** seca is AMAZING!!! Flavorful and",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "J584UNm9DQQua-deTQjP_A",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** asada was delicious. ...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "AGLjXYRNcxnku8M5x7Exmg",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** Asada fries are soooo...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "jBaMs69xPHgcVdlW9uERmA",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** asada tacos are the best. So good.",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "-SDmjJEt8GbevO0P5VwjXg",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** asada was way to salt...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "Aok0v4JXigJHdgKzddoCbA",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** asada tacos here are ...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "MIKr1zas9uzdEvwNPpzfvg",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** asada tacos were real...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "4dIqaQbRmmxBw4qDj3Yy-A",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** asada was great. Food...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "Pr4qirWGvXrJcTTuhhlLYg",
+        "position": 2
+      },
+      {
+        "context": "The car**ne** asada taco was incred...",
+        "active_token": "ne",
+        "activation": 0.200439453125,
+        "review_id": "DYdsu6dtvRghBtVHmmI4IQ",
+        "position": 2
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 15719,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.174,
+        "max": 0.2004,
+        "mean": 0.1861
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " car",
+            "ne"
+          ],
+          "ngram_str": " carne",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            "ne",
+            " as"
+          ],
+          "ngram_str": "ne as",
+          "count": 411,
+          "percent": 82.2
+        },
+        {
+          "ngram": [
+            " as",
+            "ada"
+          ],
+          "ngram_str": " asada",
+          "count": 399,
+          "percent": 79.8
+        },
+        {
+          "ngram": [
+            " the",
+            " car"
+          ],
+          "ngram_str": " the car",
+          "count": 209,
+          "percent": 41.8
+        },
+        {
+          "ngram": [
+            "ada",
+            " tacos"
+          ],
+          "ngram_str": "ada tacos",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            "The",
+            " car"
+          ],
+          "ngram_str": "The car",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "ada",
+            " bur"
+          ],
+          "ngram_str": "ada bur",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " burrito",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " The",
+            " car"
+          ],
+          "ngram_str": " The car",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " had",
+            " the"
+          ],
+          "ngram_str": " had the",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " a",
+            " car"
+          ],
+          "ngram_str": " a car",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "ne",
+            " sec"
+          ],
+          "ngram_str": "ne sec",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "ada",
+            " was"
+          ],
+          "ngram_str": "ada was",
+          "count": 34,
+          "percent": 6.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " car",
+            "ne",
+            " as"
+          ],
+          "ngram_str": " carne as",
+          "count": 411,
+          "percent": 82.2
+        },
+        {
+          "ngram": [
+            "ne",
+            " as",
+            "ada"
+          ],
+          "ngram_str": "ne asada",
+          "count": 398,
+          "percent": 79.6
+        },
+        {
+          "ngram": [
+            " the",
+            " car",
+            "ne"
+          ],
+          "ngram_str": " the carne",
+          "count": 209,
+          "percent": 41.8
+        },
+        {
+          "ngram": [
+            "The",
+            " car",
+            "ne"
+          ],
+          "ngram_str": "The carne",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            " as",
+            "ada",
+            " tacos"
+          ],
+          "ngram_str": " asada tacos",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " as",
+            "ada",
+            " bur"
+          ],
+          "ngram_str": " asada bur",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "ada",
+            " bur",
+            "rito"
+          ],
+          "ngram_str": "ada burrito",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " The",
+            " car",
+            "ne"
+          ],
+          "ngram_str": " The carne",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " car"
+          ],
+          "ngram_str": " had the car",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " a",
+            " car",
+            "ne"
+          ],
+          "ngram_str": " a carne",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " car"
+          ],
+          "ngram_str": ". The car",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " car",
+            "ne",
+            " sec"
+          ],
+          "ngram_str": " carne sec",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "ne",
+            " sec",
+            "a"
+          ],
+          "ngram_str": "ne seca",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " as",
+            "ada",
+            " was"
+          ],
+          "ngram_str": " asada was",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " as",
+            "ada",
+            " and"
+          ],
+          "ngram_str": " asada and",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " car",
+            "ne",
+            " as",
+            "ada"
+          ],
+          "ngram_str": " carne asada",
+          "count": 398,
+          "percent": 79.6
+        },
+        {
+          "ngram": [
+            " the",
+            " car",
+            "ne",
+            " as"
+          ],
+          "ngram_str": " the carne as",
+          "count": 177,
+          "percent": 35.4
+        },
+        {
+          "ngram": [
+            "ne",
+            " as",
+            "ada",
+            " tacos"
+          ],
+          "ngram_str": "ne asada tacos",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            "The",
+            " car",
+            "ne",
+            " as"
+          ],
+          "ngram_str": "The carne as",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "ne",
+            " as",
+            "ada",
+            " bur"
+          ],
+          "ngram_str": "ne asada bur",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " as",
+            "ada",
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " asada burrito",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " had",
+            " the",
+            " car",
+            "ne"
+          ],
+          "ngram_str": " had the carne",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " The",
+            " car",
+            "ne",
+            " as"
+          ],
+          "ngram_str": " The carne as",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " a",
+            " car",
+            "ne",
+            " as"
+          ],
+          "ngram_str": " a carne as",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " car",
+            "ne"
+          ],
+          "ngram_str": ". The carne",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " car",
+            "ne",
+            " sec",
+            "a"
+          ],
+          "ngram_str": " carne seca",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "ne",
+            " as",
+            "ada",
+            " was"
+          ],
+          "ngram_str": "ne asada was",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "ne",
+            " as",
+            "ada",
+            " and"
+          ],
+          "ngram_str": "ne asada and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "ne",
+            " as",
+            "ada",
+            " taco"
+          ],
+          "ngram_str": "ne asada taco",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "ne",
+            " as",
+            "ada",
+            "."
+          ],
+          "ngram_str": "ne asada.",
+          "count": 22,
+          "percent": 4.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 28800000,
+      "corpus_coverage": 0.557
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 5196,
+        "count": 9654,
+        "percent": 96.54
+      },
+      {
+        "feature_idx": 23279,
+        "count": 9583,
+        "percent": 95.83
+      },
+      {
+        "feature_idx": 17861,
+        "count": 9434,
+        "percent": 94.34
+      },
+      {
+        "feature_idx": 11260,
+        "count": 9277,
+        "percent": 92.77
+      },
+      {
+        "feature_idx": 14157,
+        "count": 9051,
+        "percent": 90.51
+      },
+      {
+        "feature_idx": 17866,
+        "count": 9046,
+        "percent": 90.46
+      },
+      {
+        "feature_idx": 1596,
+        "count": 9043,
+        "percent": 90.43
+      },
+      {
+        "feature_idx": 1390,
+        "count": 9031,
+        "percent": 90.31
+      },
+      {
+        "feature_idx": 9970,
+        "count": 9022,
+        "percent": 90.22
+      },
+      {
+        "feature_idx": 13553,
+        "count": 9001,
+        "percent": 90.01
+      },
+      {
+        "feature_idx": 20711,
+        "count": 8990,
+        "percent": 89.9
+      },
+      {
+        "feature_idx": 13230,
+        "count": 8969,
+        "percent": 89.69
+      },
+      {
+        "feature_idx": 23830,
+        "count": 8957,
+        "percent": 89.57
+      },
+      {
+        "feature_idx": 3903,
+        "count": 8954,
+        "percent": 89.54
+      },
+      {
+        "feature_idx": 14437,
+        "count": 8913,
+        "percent": 89.13
+      },
+      {
+        "feature_idx": 17404,
+        "count": 8816,
+        "percent": 88.16
+      },
+      {
+        "feature_idx": 11291,
+        "count": 8727,
+        "percent": 87.27
+      },
+      {
+        "feature_idx": 21623,
+        "count": 8506,
+        "percent": 85.06
+      },
+      {
+        "feature_idx": 19566,
+        "count": 8231,
+        "percent": 82.31
+      },
+      {
+        "feature_idx": 10647,
+        "count": 7811,
+        "percent": 78.11
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 28800000,
+      "corpus_coverage": 0.557
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1801,
+        "percent": 18.01
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2595,
+        "percent": 25.95
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2714,
+        "percent": 27.14
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1850,
+        "percent": 18.5
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1040,
+        "percent": 10.4
+      }
+    ],
+    "mean_position": 0.4528,
+    "std_position": 0.2481
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 44,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0279,
+      "p25": 0.0476,
+      "p50": 0.0769,
+      "p75": 0.1143,
+      "p90": 0.1465,
+      "p95": 0.1545,
+      "p99": 0.1664
+    },
+    "skewness": 0.3828,
+    "kurtosis": -0.8901,
+    "min": 0.0179,
+    "max": 0.1696,
+    "mean": 0.0812,
+    "std": 0.0421
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 44,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": "ne",
+        "count": 41,
+        "mean_activation": 0.0844
+      },
+      {
+        "token": ".",
+        "count": 1,
+        "mean_activation": 0.0179
+      },
+      {
+        "token": "om",
+        "count": 1,
+        "mean_activation": 0.0473
+      },
+      {
+        "token": " of",
+        "count": 1,
+        "mean_activation": 0.0477
+      }
+    ]
+  }
+}

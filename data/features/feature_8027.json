@@ -1,0 +1,846 @@
+{
+  "feature_idx": 8027,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 53,
+    "mean_when_active": 0.029178115556824882,
+    "max_activation": 0.055908203125,
+    "std_when_active": 0.009463939790084471,
+    "activation_rate": 0.00053
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 22307,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": ",",
+        "count": 17015,
+        "mean_activation": 0.03010306995895166
+      },
+      {
+        "token": ".",
+        "count": 3060,
+        "mean_activation": 0.02507349899391723
+      },
+      {
+        "token": " and",
+        "count": 535,
+        "mean_activation": 0.024060443628614193
+      },
+      {
+        "token": "!",
+        "count": 423,
+        "mean_activation": 0.02299881883264997
+      },
+      {
+        "token": " time",
+        "count": 132,
+        "mean_activation": 0.036448854388612686
+      },
+      {
+        "token": " that",
+        "count": 83,
+        "mean_activation": 0.023828621370246612
+      },
+      {
+        "token": " (",
+        "count": 81,
+        "mean_activation": 0.021756019121334878
+      },
+      {
+        "token": " I",
+        "count": 77,
+        "mean_activation": 0.02163428764838677
+      },
+      {
+        "token": ";",
+        "count": 76,
+        "mean_activation": 0.02768044722707648
+      },
+      {
+        "token": " which",
+        "count": 72,
+        "mean_activation": 0.026054806179470487
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 22307,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...an father who passed** away** recently. This would...",
+        "active_token": " away",
+        "activation": 0.09381103515625,
+        "review_id": "DVTZWybyZASVAovUTIEHyg",
+        "position": 27
+      },
+      {
+        "context": "... grandpa Dube passed** away** around a month ago. ...",
+        "active_token": " away",
+        "activation": 0.08599853515625,
+        "review_id": "0CiIPn2yo4QBSScvnUeRsA",
+        "position": 21
+      },
+      {
+        "context": "...t my mom, who passed** away** two days ago.  It co...",
+        "active_token": " away",
+        "activation": 0.08563232421875,
+        "review_id": "QBPg_LwzGcTDGMCRxAAe9w",
+        "position": 147
+      },
+      {
+        "context": "...on (who sadly passed** away**). [Note: They are th...",
+        "active_token": " away",
+        "activation": 0.08502197265625,
+        "review_id": "aYOYzTr8o6PTdtC6FZ6nSQ",
+        "position": 110
+      },
+      {
+        "context": "... Sadly, Grace passed** away** in December from COV...",
+        "active_token": " away",
+        "activation": 0.0809326171875,
+        "review_id": "kQP1mH9usHyE4aOLMxK65w",
+        "position": 42
+      },
+      {
+        "context": "...ted to go. He passed** away** this past March and ...",
+        "active_token": " away",
+        "activation": 0.08074951171875,
+        "review_id": "_LhkdackKPR0JEXdxN6tXw",
+        "position": 54
+      },
+      {
+        "context": "...alsa!\\n\\nMy dad passed** away** suddenly in 2001 how...",
+        "active_token": " away",
+        "activation": 0.080078125,
+        "review_id": "nvLYTpJtK-sLQNafsDQ7qQ",
+        "position": 244
+      },
+      {
+        "context": "... away. Miguel passed** away** a few years ago, but...",
+        "active_token": " away",
+        "activation": 0.07965087890625,
+        "review_id": "NAjSK_poJqS6NTCsLqaHIA",
+        "position": 86
+      },
+      {
+        "context": "...ete's for her birthday**,** we checked out a few p...",
+        "active_token": ",",
+        "activation": 0.0791015625,
+        "review_id": "Ifwp_FJkTY3PQp4WeoQYgw",
+        "position": 11
+      },
+      {
+        "context": "...uch since she passed** away** in 2001. They're a B...",
+        "active_token": " away",
+        "activation": 0.0789794921875,
+        "review_id": "mxyW_aIrd7BXG349YRyj9Q",
+        "position": 148
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8027,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0507,
+        "max": 0.0938,
+        "mean": 0.058
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " birthday",
+            ","
+          ],
+          "ngram_str": " birthday,",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " for",
+            " my"
+          ],
+          "ngram_str": " for my",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " with",
+            " my"
+          ],
+          "ngram_str": " with my",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            " my",
+            " birthday"
+          ],
+          "ngram_str": " my birthday",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " it",
+            " was"
+          ],
+          "ngram_str": " it was",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "'s",
+            " birthday"
+          ],
+          "ngram_str": "'s birthday",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ",",
+            " so"
+          ],
+          "ngram_str": ", so",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " my",
+            " order"
+          ],
+          "ngram_str": " my order",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " order",
+            ","
+          ],
+          "ngram_str": " order,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " passed",
+            " away"
+          ],
+          "ngram_str": " passed away",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " my",
+            " husband"
+          ],
+          "ngram_str": " my husband",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " my",
+            " birthday",
+            ","
+          ],
+          "ngram_str": " my birthday,",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " for",
+            " my",
+            " birthday"
+          ],
+          "ngram_str": " for my birthday",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " birthday",
+            ",",
+            " and"
+          ],
+          "ngram_str": " birthday, and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            "'s",
+            " birthday",
+            ","
+          ],
+          "ngram_str": "'s birthday,",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " my",
+            " order",
+            ","
+          ],
+          "ngram_str": " my order,",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " I"
+          ],
+          "ngram_str": ", and I",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " my",
+            " husband",
+            ","
+          ],
+          "ngram_str": " my husband,",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " her",
+            " birthday",
+            ","
+          ],
+          "ngram_str": " her birthday,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " I"
+          ],
+          "ngram_str": ", so I",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " here",
+            " for",
+            " my"
+          ],
+          "ngram_str": " here for my",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " they"
+          ],
+          "ngram_str": ", and they",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "th",
+            " birthday",
+            ","
+          ],
+          "ngram_str": "th birthday,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " the"
+          ],
+          "ngram_str": ", and the",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " it"
+          ],
+          "ngram_str": ", and it",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " my",
+            " son",
+            ","
+          ],
+          "ngram_str": " my son,",
+          "count": 9,
+          "percent": 1.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " for",
+            " my",
+            " birthday",
+            ","
+          ],
+          "ngram_str": " for my birthday,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "'s",
+            " birthday",
+            ",",
+            " and"
+          ],
+          "ngram_str": "'s birthday, and",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " with",
+            " my",
+            " husband",
+            ","
+          ],
+          "ngram_str": " with my husband,",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " here",
+            " for",
+            " my",
+            " birthday"
+          ],
+          "ngram_str": " here for my birthday",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " my",
+            " birthday",
+            ",",
+            " and"
+          ],
+          "ngram_str": " my birthday, and",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " it",
+            " was"
+          ],
+          "ngram_str": ", and it was",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " friend",
+            "'s",
+            " birthday",
+            ","
+          ],
+          "ngram_str": " friend's birthday,",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " for",
+            " her",
+            " birthday",
+            ","
+          ],
+          "ngram_str": " for her birthday,",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " with",
+            " my",
+            " wife",
+            ","
+          ],
+          "ngram_str": " with my wife,",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " was",
+            " my",
+            " birthday",
+            ","
+          ],
+          "ngram_str": " was my birthday,",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " with",
+            " my",
+            " son",
+            ","
+          ],
+          "ngram_str": " with my son,",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " my",
+            " birthday",
+            ",",
+            " so"
+          ],
+          "ngram_str": " my birthday, so",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " my",
+            " son",
+            ",",
+            " and"
+          ],
+          "ngram_str": " my son, and",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " it",
+            " was",
+            " her",
+            " birthday"
+          ],
+          "ngram_str": " it was her birthday",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " was",
+            " her",
+            " birthday",
+            ","
+          ],
+          "ngram_str": " was her birthday,",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23000000,
+      "corpus_coverage": 0.4448
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 7541,
+        "percent": 75.41
+      },
+      {
+        "feature_idx": 23212,
+        "count": 7333,
+        "percent": 73.33
+      },
+      {
+        "feature_idx": 4377,
+        "count": 6897,
+        "percent": 68.97
+      },
+      {
+        "feature_idx": 22228,
+        "count": 5221,
+        "percent": 52.21
+      },
+      {
+        "feature_idx": 16165,
+        "count": 3611,
+        "percent": 36.11
+      },
+      {
+        "feature_idx": 1840,
+        "count": 3316,
+        "percent": 33.16
+      },
+      {
+        "feature_idx": 24045,
+        "count": 3286,
+        "percent": 32.86
+      },
+      {
+        "feature_idx": 13712,
+        "count": 3189,
+        "percent": 31.89
+      },
+      {
+        "feature_idx": 2553,
+        "count": 3128,
+        "percent": 31.28
+      },
+      {
+        "feature_idx": 13463,
+        "count": 2812,
+        "percent": 28.12
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2736,
+        "percent": 27.36
+      },
+      {
+        "feature_idx": 15305,
+        "count": 2645,
+        "percent": 26.45
+      },
+      {
+        "feature_idx": 22269,
+        "count": 2578,
+        "percent": 25.78
+      },
+      {
+        "feature_idx": 11307,
+        "count": 2576,
+        "percent": 25.76
+      },
+      {
+        "feature_idx": 5236,
+        "count": 2414,
+        "percent": 24.14
+      },
+      {
+        "feature_idx": 2141,
+        "count": 2390,
+        "percent": 23.9
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2299,
+        "percent": 22.99
+      },
+      {
+        "feature_idx": 24308,
+        "count": 2292,
+        "percent": 22.92
+      },
+      {
+        "feature_idx": 2057,
+        "count": 2207,
+        "percent": 22.07
+      },
+      {
+        "feature_idx": 16789,
+        "count": 2167,
+        "percent": 21.67
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 23000000,
+      "corpus_coverage": 0.4448
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3695,
+        "percent": 36.95
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1775,
+        "percent": 17.75
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1513,
+        "percent": 15.13
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1480,
+        "percent": 14.8
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1537,
+        "percent": 15.37
+      }
+    ],
+    "mean_position": 0.4027,
+    "std_position": 0.306
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 53,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0188,
+      "p25": 0.0215,
+      "p50": 0.0281,
+      "p75": 0.0335,
+      "p90": 0.0431,
+      "p95": 0.0445,
+      "p99": 0.0533
+    },
+    "skewness": 0.6743,
+    "kurtosis": -0.0272,
+    "min": 0.0129,
+    "max": 0.0559,
+    "mean": 0.0292,
+    "std": 0.0095
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 53,
+      "unique_tokens_found": 4
+    },
+    "tokens": [
+      {
+        "token": ",",
+        "count": 41,
+        "mean_activation": 0.0302
+      },
+      {
+        "token": ".",
+        "count": 10,
+        "mean_activation": 0.0271
+      },
+      {
+        "token": " was",
+        "count": 1,
+        "mean_activation": 0.0145
+      },
+      {
+        "token": " this",
+        "count": 1,
+        "mean_activation": 0.0247
+      }
+    ]
+  }
+}

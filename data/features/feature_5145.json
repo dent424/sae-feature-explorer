@@ -1,0 +1,866 @@
+{
+  "feature_idx": 5145,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 19,
+    "mean_when_active": 0.11473966899671052,
+    "max_activation": 0.22265625,
+    "std_when_active": 0.07339921386531484,
+    "activation_rate": 0.00019
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 9761,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " along",
+        "count": 6551,
+        "mean_activation": 0.18407257457413467
+      },
+      {
+        "token": " Along",
+        "count": 288,
+        "mean_activation": 0.15781720479329428
+      },
+      {
+        "token": " down",
+        "count": 231,
+        "mean_activation": 0.034284451307156384
+      },
+      {
+        "token": " lined",
+        "count": 198,
+        "mean_activation": 0.050581498579545456
+      },
+      {
+        "token": " patiently",
+        "count": 149,
+        "mean_activation": 0.037891157521497486
+      },
+      {
+        "token": " line",
+        "count": 149,
+        "mean_activation": 0.041367089188338924
+      },
+      {
+        "token": "along",
+        "count": 123,
+        "mean_activation": 0.14369710286458334
+      },
+      {
+        "token": " across",
+        "count": 100,
+        "mean_activation": 0.0260894775390625
+      },
+      {
+        "token": " together",
+        "count": 99,
+        "mean_activation": 0.03013965336963384
+      },
+      {
+        "token": " lining",
+        "count": 88,
+        "mean_activation": 0.06954297152432529
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 9761,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...urant but I was just** along** for the ride anyway...",
+        "active_token": " along",
+        "activation": 0.283447265625,
+        "review_id": "1agaM0PnV1F1cDL0Moxepg",
+        "position": 54
+      },
+      {
+        "context": "... expect - I was just** along** for the ride at my ...",
+        "active_token": " along",
+        "activation": 0.277587890625,
+        "review_id": "g9Qhmnni4isuxdnq0s6_Vw",
+        "position": 31
+      },
+      {
+        "context": "...band likes it & I go** along**.  I don't plan to d...",
+        "active_token": " along",
+        "activation": 0.27685546875,
+        "review_id": "gi_If2HaKrn5gITKBZ4itQ",
+        "position": 18
+      },
+      {
+        "context": "...f Mexican food, I go** along** with my friends who...",
+        "active_token": " along",
+        "activation": 0.27490234375,
+        "review_id": "cLQIfv7dxb1Vl7DACJTrnQ",
+        "position": 20
+      },
+      {
+        "context": "...ery single time I go** along** with a marg, which ...",
+        "active_token": " along",
+        "activation": 0.2734375,
+        "review_id": "qa4xFaexVucGNusTFbIdNw",
+        "position": 63
+      },
+      {
+        "context": "... a light meal and go** along** with the tapa theme...",
+        "active_token": " along",
+        "activation": 0.272216796875,
+        "review_id": "J_XO4wP-H2ffzLJKF0DtMQ",
+        "position": 56
+      },
+      {
+        "context": "...the idea, but I went** along** with it.  There was...",
+        "active_token": " along",
+        "activation": 0.271728515625,
+        "review_id": "MRetaR0m--GX0kjLdbiLaA",
+        "position": 41
+      },
+      {
+        "context": "...so now and then I go** along** with it.  So for my...",
+        "active_token": " along",
+        "activation": 0.271484375,
+        "review_id": "_3cYMWdhcKlNHWwwW2o3qQ",
+        "position": 37
+      },
+      {
+        "context": "...one who usually goes** along**, but I just wanted ...",
+        "active_token": " along",
+        "activation": 0.27099609375,
+        "review_id": "EerEHaqWOkqNPD0YF60F7w",
+        "position": 85
+      },
+      {
+        "context": "...ave been happy to go** along** for the ride. Tucso...",
+        "active_token": " along",
+        "activation": 0.270263671875,
+        "review_id": "lVxA8S04iWJ0E-VLYIhURQ",
+        "position": 171
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5145,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2247,
+        "max": 0.2834,
+        "mean": 0.2401
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " along",
+            " with"
+          ],
+          "ngram_str": " along with",
+          "count": 172,
+          "percent": 34.4
+        },
+        {
+          "ngram": [
+            " along",
+            " the"
+          ],
+          "ngram_str": " along the",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " go",
+            " along"
+          ],
+          "ngram_str": " go along",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " to",
+            " go"
+          ],
+          "ngram_str": " to go",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " with",
+            " the"
+          ],
+          "ngram_str": " with the",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " went",
+            " along"
+          ],
+          "ngram_str": " went along",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " along",
+            "."
+          ],
+          "ngram_str": " along.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " came",
+            " along"
+          ],
+          "ngram_str": " came along",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " with",
+            " it"
+          ],
+          "ngram_str": " with it",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " come",
+            " along"
+          ],
+          "ngram_str": " come along",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            " went"
+          ],
+          "ngram_str": " I went",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " along",
+            " for"
+          ],
+          "ngram_str": " along for",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " go",
+            " along",
+            " with"
+          ],
+          "ngram_str": " go along with",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " to",
+            " go",
+            " along"
+          ],
+          "ngram_str": " to go along",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " along",
+            " with",
+            " the"
+          ],
+          "ngram_str": " along with the",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " went",
+            " along",
+            " with"
+          ],
+          "ngram_str": " went along with",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " along",
+            " with",
+            " it"
+          ],
+          "ngram_str": " along with it",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " along"
+          ],
+          "ngram_str": " I went along",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " along",
+            " for",
+            " the"
+          ],
+          "ngram_str": " along for the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " with",
+            " it",
+            "."
+          ],
+          "ngram_str": " with it.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " for",
+            " the",
+            " ride"
+          ],
+          "ngram_str": " for the ride",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " along",
+            " with",
+            " a"
+          ],
+          "ngram_str": " along with a",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " along",
+            " with",
+            " my"
+          ],
+          "ngram_str": " along with my",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " came",
+            " along",
+            " with"
+          ],
+          "ngram_str": " came along with",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " to",
+            " go",
+            " along",
+            " with"
+          ],
+          "ngram_str": " to go along with",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " go",
+            " along",
+            " with",
+            " the"
+          ],
+          "ngram_str": " go along with the",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " along",
+            " with",
+            " it",
+            "."
+          ],
+          "ngram_str": " along with it.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " along",
+            " for",
+            " the",
+            " ride"
+          ],
+          "ngram_str": " along for the ride",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " I",
+            " went",
+            " along",
+            " with"
+          ],
+          "ngram_str": " I went along with",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " go",
+            " along",
+            " with",
+            " it"
+          ],
+          "ngram_str": " go along with it",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " went",
+            " along",
+            " with",
+            " it"
+          ],
+          "ngram_str": " went along with it",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " with",
+            " it",
+            ".",
+            " "
+          ],
+          "ngram_str": " with it. ",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " along",
+            " the",
+            " lines",
+            " of"
+          ],
+          "ngram_str": " along the lines of",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " go",
+            " along",
+            " with",
+            " my"
+          ],
+          "ngram_str": " go along with my",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " for",
+            " the",
+            " ride",
+            "."
+          ],
+          "ngram_str": " for the ride.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ",",
+            " to",
+            " go",
+            " along"
+          ],
+          "ngram_str": ", to go along",
+          "count": 5,
+          "percent": 1.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9761,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 8546,
+        "count": 7068,
+        "percent": 72.41
+      },
+      {
+        "feature_idx": 7491,
+        "count": 7001,
+        "percent": 71.72
+      },
+      {
+        "feature_idx": 17537,
+        "count": 6997,
+        "percent": 71.68
+      },
+      {
+        "feature_idx": 8006,
+        "count": 6786,
+        "percent": 69.52
+      },
+      {
+        "feature_idx": 15395,
+        "count": 6276,
+        "percent": 64.3
+      },
+      {
+        "feature_idx": 1150,
+        "count": 5959,
+        "percent": 61.05
+      },
+      {
+        "feature_idx": 2091,
+        "count": 5627,
+        "percent": 57.65
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4800,
+        "percent": 49.18
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4011,
+        "percent": 41.09
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3965,
+        "percent": 40.62
+      },
+      {
+        "feature_idx": 8727,
+        "count": 3886,
+        "percent": 39.81
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3319,
+        "percent": 34.0
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2956,
+        "percent": 30.28
+      },
+      {
+        "feature_idx": 3096,
+        "count": 2867,
+        "percent": 29.37
+      },
+      {
+        "feature_idx": 8503,
+        "count": 2840,
+        "percent": 29.1
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2559,
+        "percent": 26.22
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2537,
+        "percent": 25.99
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2184,
+        "percent": 22.37
+      },
+      {
+        "feature_idx": 15245,
+        "count": 2124,
+        "percent": 21.76
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2072,
+        "percent": 21.23
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 9761,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1836,
+        "percent": 18.81
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2207,
+        "percent": 22.61
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2103,
+        "percent": 21.54
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1959,
+        "percent": 20.07
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1656,
+        "percent": 16.97
+      }
+    ],
+    "mean_position": 0.4885,
+    "std_position": 0.274
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 19,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0258,
+      "p25": 0.0352,
+      "p50": 0.1425,
+      "p75": 0.1786,
+      "p90": 0.2016,
+      "p95": 0.2125,
+      "p99": 0.2206
+    },
+    "skewness": -0.0902,
+    "kurtosis": -1.6658,
+    "min": 0.0183,
+    "max": 0.2227,
+    "mean": 0.1147,
+    "std": 0.0734
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 19,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " along",
+        "count": 11,
+        "mean_activation": 0.1744
+      },
+      {
+        "token": " alongside",
+        "count": 2,
+        "mean_activation": 0.0391
+      },
+      {
+        "token": " ahead",
+        "count": 1,
+        "mean_activation": 0.0254
+      },
+      {
+        "token": " lined",
+        "count": 1,
+        "mean_activation": 0.0404
+      },
+      {
+        "token": " down",
+        "count": 1,
+        "mean_activation": 0.0301
+      },
+      {
+        "token": " patiently",
+        "count": 1,
+        "mean_activation": 0.0183
+      },
+      {
+        "token": " by",
+        "count": 1,
+        "mean_activation": 0.0258
+      },
+      {
+        "token": " tro",
+        "count": 1,
+        "mean_activation": 0.0437
+      }
+    ]
+  }
+}

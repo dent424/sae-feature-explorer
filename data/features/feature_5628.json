@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5628,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 264,
+    "mean_when_active": 0.05666432236180161,
+    "max_activation": 0.148681640625,
+    "std_when_active": 0.02676470267181434,
+    "activation_rate": 0.00264
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 19300000,
+      "corpus_coverage": 0.3733
+    },
+    "top_tokens": [
+      {
+        "token": " prices",
+        "count": 8553,
+        "mean_activation": 0.06767715566495308
+      },
+      {
+        "token": " price",
+        "count": 7156,
+        "mean_activation": 0.05748118469340632
+      },
+      {
+        "token": " size",
+        "count": 3609,
+        "mean_activation": 0.07860441939855223
+      },
+      {
+        "token": " time",
+        "count": 2627,
+        "mean_activation": 0.07452689389743232
+      },
+      {
+        "token": " rating",
+        "count": 1233,
+        "mean_activation": 0.06285553102268983
+      },
+      {
+        "token": " Prices",
+        "count": 1130,
+        "mean_activation": 0.03371950672791067
+      },
+      {
+        "token": " sizes",
+        "count": 990,
+        "mean_activation": 0.09795811200382734
+      },
+      {
+        "token": " hours",
+        "count": 766,
+        "mean_activation": 0.0680944577209632
+      },
+      {
+        "token": " amount",
+        "count": 726,
+        "mean_activation": 0.0467419059480189
+      },
+      {
+        "token": " pricing",
+        "count": 645,
+        "mean_activation": 0.05826747214147287
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 19300000,
+      "corpus_coverage": 0.3733
+    },
+    "activations": [
+      {
+        "context": "...y brought the average** age** up by 2 years. Be pr...",
+        "active_token": " age",
+        "activation": 0.221923828125,
+        "review_id": "kVStCTM3PD3pWy6tQh0x4A",
+        "position": 38
+      },
+      {
+        "context": "...nt to adjust closing** times**, or ya know, stay o...",
+        "active_token": " times",
+        "activation": 0.208984375,
+        "review_id": "uQyEj4gOVNOD87yD3c0XIA",
+        "position": 48
+      },
+      {
+        "context": "...nd there's a closing** time** but to make us feel ...",
+        "active_token": " time",
+        "activation": 0.2083740234375,
+        "review_id": "CPZMUjR3iMl0XqFoDLvCEg",
+        "position": 49
+      },
+      {
+        "context": "... 10 i.e. the closing** time**. I ordered fish taco...",
+        "active_token": " time",
+        "activation": 0.2081298828125,
+        "review_id": "c5BM46ikct0vKX3r5ZopGQ",
+        "position": 26
+      },
+      {
+        "context": "...maybe that skews the** speed** part.  \\n\\nThe only t...",
+        "active_token": " speed",
+        "activation": 0.2071533203125,
+        "review_id": "pwvmGzh5LuGcErojkRuYeg",
+        "position": 184
+      },
+      {
+        "context": "...gure out the closing** time** of the store was hal...",
+        "active_token": " time",
+        "activation": 0.2041015625,
+        "review_id": "CHFDMDOyO83u18OPR1nhPA",
+        "position": 284
+      },
+      {
+        "context": "...s the posted closing** time** was 10p.",
+        "active_token": " time",
+        "activation": 0.20361328125,
+        "review_id": "TCbG9xChfJMbLJixqSo4lQ",
+        "position": 20
+      },
+      {
+        "context": "...e at 10! The closing** time** is wrong. Never got ...",
+        "active_token": " time",
+        "activation": 0.201416015625,
+        "review_id": "_N_2AgxoXkbuFUjcomEfBw",
+        "position": 7
+      },
+      {
+        "context": "...like the ingredients** ratio**.\\n\\nExpensive for wha...",
+        "active_token": " ratio",
+        "activation": 0.19921875,
+        "review_id": "rXsZaTmdKlasRrzjLipwNg",
+        "position": 59
+      },
+      {
+        "context": "...n the expected ready** time** and it was coming ou...",
+        "active_token": " time",
+        "activation": 0.1982421875,
+        "review_id": "_PxBglcEv6dQ0oxj9jRmEg",
+        "position": 50
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5628,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 38600000,
+      "corpus_coverage": 0.7466,
+      "activation_range": {
+        "min": 0.1631,
+        "max": 0.2366,
+        "mean": 0.1752
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " closing",
+            " time"
+          ],
+          "ngram_str": " closing time",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " ratio",
+            " of"
+          ],
+          "ngram_str": " ratio of",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " time",
+            "."
+          ],
+          "ngram_str": " time.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " ratio",
+            " was"
+          ],
+          "ngram_str": " ratio was",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " wait",
+            " time"
+          ],
+          "ngram_str": " wait time",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " the",
+            " ratio"
+          ],
+          "ngram_str": " the ratio",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " the",
+            " wait"
+          ],
+          "ngram_str": " the wait",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " what",
+            " the"
+          ],
+          "ngram_str": " what the",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " wait",
+            " time"
+          ],
+          "ngram_str": " the wait time",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " the",
+            " ratio",
+            " of"
+          ],
+          "ngram_str": " the ratio of",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " ratio"
+          ],
+          "ngram_str": ". The ratio",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " closing",
+            " time"
+          ],
+          "ngram_str": " the closing time",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " closing",
+            " time",
+            "."
+          ],
+          "ngram_str": " closing time.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " portion",
+            " size"
+          ],
+          "ngram_str": " the portion size",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " The",
+            " ratio",
+            " of"
+          ],
+          "ngram_str": " The ratio of",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " time",
+            ".",
+            " "
+          ],
+          "ngram_str": " time. ",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " the"
+          ],
+          "ngram_str": ", but the",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " posted",
+            " closing",
+            " time"
+          ],
+          "ngram_str": " posted closing time",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " The",
+            " ratio",
+            " of"
+          ],
+          "ngram_str": ". The ratio of",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " to",
+            " bread",
+            " ratio",
+            " was"
+          ],
+          "ngram_str": " to bread ratio was",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " what",
+            " the",
+            " wait",
+            " time"
+          ],
+          "ngram_str": " what the wait time",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " the",
+            " wait",
+            " time",
+            " was"
+          ],
+          "ngram_str": " the wait time was",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " the",
+            " posted",
+            " closing",
+            " time"
+          ],
+          "ngram_str": " the posted closing time",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " the",
+            " ratio",
+            " of",
+            " ingredients"
+          ],
+          "ngram_str": " the ratio of ingredients",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " the",
+            " ratio"
+          ],
+          "ngram_str": ", but the ratio",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " but",
+            " the",
+            " ratio",
+            " of"
+          ],
+          "ngram_str": " but the ratio of",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " an",
+            " estimated",
+            " delivery",
+            " time"
+          ],
+          "ngram_str": " an estimated delivery time",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " ratio",
+            " was",
+            " off",
+            "."
+          ],
+          "ngram_str": " ratio was off.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " minutes",
+            " after",
+            " the",
+            " scheduled"
+          ],
+          "ngram_str": " minutes after the scheduled",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " one",
+            " level",
+            ".",
+            " "
+          ],
+          "ngram_str": " one level. ",
+          "count": 3,
+          "percent": 0.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3900000,
+      "corpus_coverage": 0.0754
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4666,
+        "percent": 46.66
+      },
+      {
+        "feature_idx": 22001,
+        "count": 4536,
+        "percent": 45.36
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4294,
+        "percent": 42.94
+      },
+      {
+        "feature_idx": 10806,
+        "count": 4158,
+        "percent": 41.58
+      },
+      {
+        "feature_idx": 16471,
+        "count": 3973,
+        "percent": 39.73
+      },
+      {
+        "feature_idx": 727,
+        "count": 3911,
+        "percent": 39.11
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3730,
+        "percent": 37.3
+      },
+      {
+        "feature_idx": 11584,
+        "count": 3159,
+        "percent": 31.59
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3115,
+        "percent": 31.15
+      },
+      {
+        "feature_idx": 12830,
+        "count": 3092,
+        "percent": 30.92
+      },
+      {
+        "feature_idx": 18503,
+        "count": 3079,
+        "percent": 30.79
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3056,
+        "percent": 30.56
+      },
+      {
+        "feature_idx": 12356,
+        "count": 2930,
+        "percent": 29.3
+      },
+      {
+        "feature_idx": 4266,
+        "count": 2857,
+        "percent": 28.57
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2741,
+        "percent": 27.41
+      },
+      {
+        "feature_idx": 24267,
+        "count": 2585,
+        "percent": 25.85
+      },
+      {
+        "feature_idx": 1427,
+        "count": 2448,
+        "percent": 24.48
+      },
+      {
+        "feature_idx": 22703,
+        "count": 2424,
+        "percent": 24.24
+      },
+      {
+        "feature_idx": 14559,
+        "count": 2331,
+        "percent": 23.31
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2010,
+        "percent": 20.1
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3900000,
+      "corpus_coverage": 0.0754
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1462,
+        "percent": 14.62
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1913,
+        "percent": 19.13
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2096,
+        "percent": 20.96
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2107,
+        "percent": 21.07
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2422,
+        "percent": 24.22
+      }
+    ],
+    "mean_position": 0.5448,
+    "std_position": 0.2807
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 264,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0288,
+      "p25": 0.0356,
+      "p50": 0.0513,
+      "p75": 0.074,
+      "p90": 0.0929,
+      "p95": 0.1044,
+      "p99": 0.1338
+    },
+    "skewness": 0.8468,
+    "kurtosis": 0.4477,
+    "min": 0.0141,
+    "max": 0.1487,
+    "mean": 0.0567,
+    "std": 0.0268
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 264,
+      "unique_tokens_found": 97
+    },
+    "tokens": [
+      {
+        "token": " prices",
+        "count": 49,
+        "mean_activation": 0.0719
+      },
+      {
+        "token": " price",
+        "count": 43,
+        "mean_activation": 0.0553
+      },
+      {
+        "token": " size",
+        "count": 16,
+        "mean_activation": 0.0735
+      },
+      {
+        "token": " time",
+        "count": 10,
+        "mean_activation": 0.0701
+      },
+      {
+        "token": " rating",
+        "count": 10,
+        "mean_activation": 0.073
+      },
+      {
+        "token": " hour",
+        "count": 7,
+        "mean_activation": 0.0228
+      },
+      {
+        "token": "ness",
+        "count": 5,
+        "mean_activation": 0.0332
+      },
+      {
+        "token": " sizes",
+        "count": 5,
+        "mean_activation": 0.0703
+      },
+      {
+        "token": " Prices",
+        "count": 5,
+        "mean_activation": 0.0335
+      },
+      {
+        "token": " date",
+        "count": 4,
+        "mean_activation": 0.06
+      }
+    ]
+  }
+}

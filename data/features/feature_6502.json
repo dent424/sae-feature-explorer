@@ -1,0 +1,856 @@
+{
+  "feature_idx": 6502,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 8,
+    "mean_when_active": 0.10258674621582031,
+    "max_activation": 0.2210693359375,
+    "std_when_active": 0.08872917596106852,
+    "activation_rate": 8e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5668,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": "ma",
+        "count": 2347,
+        "mean_activation": 0.17680000659502157
+      },
+      {
+        "token": "ama",
+        "count": 591,
+        "mean_activation": 0.050310861035651966
+      },
+      {
+        "token": "ction",
+        "count": 374,
+        "mean_activation": 0.05102669618983957
+      },
+      {
+        "token": "umbs",
+        "count": 346,
+        "mean_activation": 0.08043780905662934
+      },
+      {
+        "token": "ula",
+        "count": 182,
+        "mean_activation": 0.03914021921681834
+      },
+      {
+        "token": " mold",
+        "count": 146,
+        "mean_activation": 0.045395838071222175
+      },
+      {
+        "token": "mo",
+        "count": 127,
+        "mean_activation": 0.04544523945004921
+      },
+      {
+        "token": "ravings",
+        "count": 76,
+        "mean_activation": 0.02926796361019737
+      },
+      {
+        "token": "ola",
+        "count": 74,
+        "mean_activation": 0.03748445253114443
+      },
+      {
+        "token": "ctions",
+        "count": 64,
+        "mean_activation": 0.034742116928100586
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5668,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...lettuce, tomatoes, cre**ma**, queso fresco and avo...",
+        "active_token": "ma",
+        "activation": 0.271484375,
+        "review_id": "Jp7FKuFboswDwTsECXdu6Q",
+        "position": 102
+      },
+      {
+        "context": "...zo at this point), cre**ma** fresca, tomatoes, and...",
+        "active_token": "ma",
+        "activation": 0.270751953125,
+        "review_id": "XcxN34vsr99uyCwM7JICbg",
+        "position": 104
+      },
+      {
+        "context": "...rved not just with cre**ma** but with beans also. ...",
+        "active_token": "ma",
+        "activation": 0.268798828125,
+        "review_id": "jtHVctk2qRs9AMhN0H2kHw",
+        "position": 34
+      },
+      {
+        "context": "...ame with a side of cre**ma** and guacamole.  The o...",
+        "active_token": "ma",
+        "activation": 0.264892578125,
+        "review_id": "byms_9VPdyYgCRAdI8xvEg",
+        "position": 311
+      },
+      {
+        "context": "...herb bread crumbs, cre**ma**, AND Sriracha mayo. *...",
+        "active_token": "ma",
+        "activation": 0.2646484375,
+        "review_id": "kS7uLp113dcEmPM3pIxbtw",
+        "position": 97
+      },
+      {
+        "context": "...n delicious queso, cre**ma**, and pickled onions. ...",
+        "active_token": "ma",
+        "activation": 0.2626953125,
+        "review_id": "vZOqblBgvS1Gkgyg4J95gg",
+        "position": 86
+      },
+      {
+        "context": "...forgot the cheese, cre**ma**, and jalape\u00c3\u00b1os. We h...",
+        "active_token": "ma",
+        "activation": 0.2626953125,
+        "review_id": "6u9EY4I2RmffRsfCEiPNJg",
+        "position": 89
+      },
+      {
+        "context": "...no fundido cheese, cre**ma**, or pico. The meat, i...",
+        "active_token": "ma",
+        "activation": 0.26171875,
+        "review_id": "mSAmDK100j1CE_lgJ2IuuA",
+        "position": 15
+      },
+      {
+        "context": "...ne Asada, cheeses, cre**ma**, onions, cilantro,  a...",
+        "active_token": "ma",
+        "activation": 0.26123046875,
+        "review_id": "6Ak1tLOsOt7GdBu5emP_fA",
+        "position": 347
+      },
+      {
+        "context": "...nderful sauce with cre**ma** squeezed over the top...",
+        "active_token": "ma",
+        "activation": 0.2607421875,
+        "review_id": "Ks_dZ3YsOLMU1LdGmcQktw",
+        "position": 181
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6502,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2268,
+        "max": 0.2715,
+        "mean": 0.2397
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " crema",
+          "count": 500,
+          "percent": 100.0
+        },
+        {
+          "ngram": [
+            "ma",
+            ","
+          ],
+          "ngram_str": "ma,",
+          "count": 138,
+          "percent": 27.6
+        },
+        {
+          "ngram": [
+            ",",
+            " cre"
+          ],
+          "ngram_str": ", cre",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            "ma",
+            "."
+          ],
+          "ngram_str": "ma.",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            "ma",
+            " and"
+          ],
+          "ngram_str": "ma and",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " with",
+            " cre"
+          ],
+          "ngram_str": " with cre",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " and",
+            " cre"
+          ],
+          "ngram_str": " and cre",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " of",
+            " cre"
+          ],
+          "ngram_str": " of cre",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " topped",
+            " with"
+          ],
+          "ngram_str": " topped with",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " the",
+            " cre"
+          ],
+          "ngram_str": " the cre",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " c",
+            "ilantro"
+          ],
+          "ngram_str": " cilantro",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            "es",
+            "o"
+          ],
+          "ngram_str": "eso",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            ","
+          ],
+          "ngram_str": " crema,",
+          "count": 138,
+          "percent": 27.6
+        },
+        {
+          "ngram": [
+            ",",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": ", crema",
+          "count": 129,
+          "percent": 25.8
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            "."
+          ],
+          "ngram_str": " crema.",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            " and"
+          ],
+          "ngram_str": " crema and",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " with",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " with crema",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " and",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " and crema",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "ma",
+            ",",
+            " and"
+          ],
+          "ngram_str": "ma, and",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " of",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " of crema",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " the",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " the crema",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "o"
+          ],
+          "ngram_str": " queso",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            " on"
+          ],
+          "ngram_str": " crema on",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            " sauce"
+          ],
+          "ngram_str": " crema sauce",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " a",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " a crema",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " cre"
+          ],
+          "ngram_str": " topped with cre",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "ma",
+            " on",
+            " top"
+          ],
+          "ngram_str": "ma on top",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ",",
+            " cre",
+            "ma",
+            ","
+          ],
+          "ngram_str": ", crema,",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            ",",
+            " and"
+          ],
+          "ngram_str": " crema, and",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " with",
+            " cre",
+            "ma",
+            " and"
+          ],
+          "ngram_str": " with crema and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " and",
+            " cre",
+            "ma",
+            "."
+          ],
+          "ngram_str": " and crema.",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " topped",
+            " with",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " topped with crema",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            " on",
+            " top"
+          ],
+          "ngram_str": " crema on top",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": ", and crema",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ",",
+            " cre",
+            "ma",
+            " and"
+          ],
+          "ngram_str": ", crema and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            ".",
+            " "
+          ],
+          "ngram_str": " crema. ",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " cheese",
+            ",",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " cheese, crema",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " cheese",
+            " and",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " cheese and crema",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " with",
+            " cre",
+            "ma",
+            ","
+          ],
+          "ngram_str": " with crema,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " cre",
+            "ma",
+            ".",
+            " The"
+          ],
+          "ngram_str": " crema. The",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " beans",
+            ",",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " beans, crema",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " salsa",
+            ",",
+            " cre",
+            "ma"
+          ],
+          "ngram_str": " salsa, crema",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5668,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 3709,
+        "percent": 65.44
+      },
+      {
+        "feature_idx": 20913,
+        "count": 3689,
+        "percent": 65.08
+      },
+      {
+        "feature_idx": 21958,
+        "count": 3021,
+        "percent": 53.3
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2536,
+        "percent": 44.74
+      },
+      {
+        "feature_idx": 1787,
+        "count": 2513,
+        "percent": 44.34
+      },
+      {
+        "feature_idx": 4762,
+        "count": 2437,
+        "percent": 43.0
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2392,
+        "percent": 42.2
+      },
+      {
+        "feature_idx": 3953,
+        "count": 2255,
+        "percent": 39.78
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2207,
+        "percent": 38.94
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2002,
+        "percent": 35.32
+      },
+      {
+        "feature_idx": 12442,
+        "count": 1910,
+        "percent": 33.7
+      },
+      {
+        "feature_idx": 19926,
+        "count": 1654,
+        "percent": 29.18
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1629,
+        "percent": 28.74
+      },
+      {
+        "feature_idx": 6917,
+        "count": 1499,
+        "percent": 26.45
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1481,
+        "percent": 26.13
+      },
+      {
+        "feature_idx": 5196,
+        "count": 1460,
+        "percent": 25.76
+      },
+      {
+        "feature_idx": 912,
+        "count": 1456,
+        "percent": 25.69
+      },
+      {
+        "feature_idx": 14918,
+        "count": 1446,
+        "percent": 25.51
+      },
+      {
+        "feature_idx": 21600,
+        "count": 1438,
+        "percent": 25.37
+      },
+      {
+        "feature_idx": 13631,
+        "count": 1205,
+        "percent": 21.26
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5668,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 577,
+        "percent": 10.18
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1096,
+        "percent": 19.34
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1501,
+        "percent": 26.48
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1579,
+        "percent": 27.86
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 915,
+        "percent": 16.14
+      }
+    ],
+    "mean_position": 0.542,
+    "std_position": 0.2426
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 8,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0245,
+      "p25": 0.0296,
+      "p50": 0.0495,
+      "p75": 0.2113,
+      "p90": 0.2191,
+      "p95": 0.2201,
+      "p99": 0.2209
+    },
+    "skewness": 0.4702,
+    "kurtosis": -1.7095,
+    "min": 0.0148,
+    "max": 0.2211,
+    "mean": 0.1026,
+    "std": 0.0887
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 8,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": "ma",
+        "count": 3,
+        "mean_activation": 0.2161
+      },
+      {
+        "token": "ravings",
+        "count": 1,
+        "mean_activation": 0.0298
+      },
+      {
+        "token": "ba",
+        "count": 1,
+        "mean_activation": 0.0583
+      },
+      {
+        "token": "izer",
+        "count": 1,
+        "mean_activation": 0.0148
+      },
+      {
+        "token": "ico",
+        "count": 1,
+        "mean_activation": 0.0287
+      },
+      {
+        "token": "ama",
+        "count": 1,
+        "mean_activation": 0.0407
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 8454,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 236,
+    "mean_when_active": 0.047102006815247614,
+    "max_activation": 0.1591796875,
+    "std_when_active": 0.02780068972182751,
+    "activation_rate": 0.00236
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 22900000,
+      "corpus_coverage": 0.4429
+    },
+    "top_tokens": [
+      {
+        "token": " Mexican",
+        "count": 34496,
+        "mean_activation": 0.043235427926334245
+      },
+      {
+        "token": " Spanish",
+        "count": 2024,
+        "mean_activation": 0.10514101774796196
+      },
+      {
+        "token": " American",
+        "count": 1073,
+        "mean_activation": 0.0546191696351861
+      },
+      {
+        "token": " vegetarian",
+        "count": 956,
+        "mean_activation": 0.03698957116035238
+      },
+      {
+        "token": " French",
+        "count": 933,
+        "mean_activation": 0.06617983770012728
+      },
+      {
+        "token": " English",
+        "count": 929,
+        "mean_activation": 0.10110697012286397
+      },
+      {
+        "token": " vegan",
+        "count": 753,
+        "mean_activation": 0.038063758556269714
+      },
+      {
+        "token": "ican",
+        "count": 747,
+        "mean_activation": 0.03675901522757698
+      },
+      {
+        "token": " Latin",
+        "count": 664,
+        "mean_activation": 0.05065644505512284
+      },
+      {
+        "token": " french",
+        "count": 533,
+        "mean_activation": 0.06897957463649156
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 22900000,
+      "corpus_coverage": 0.4429
+    },
+    "activations": [
+      {
+        "context": "...of the clientele is** Spanish** speaking and some ...",
+        "active_token": " Spanish",
+        "activation": 0.2001953125,
+        "review_id": "IFrem4mN6Yz7KS8mpCY8uw",
+        "position": 30
+      },
+      {
+        "context": "... staff who are also** Spanish**, if you really wan...",
+        "active_token": " Spanish",
+        "activation": 0.19921875,
+        "review_id": "_YM4F3P2Ov91yEvOwFq7RA",
+        "position": 88
+      },
+      {
+        "context": "....  And the music is** Spanish** language.  What wa...",
+        "active_token": " Spanish",
+        "activation": 0.1988525390625,
+        "review_id": "wpdqBG3E8TFxZINIEJ4JkQ",
+        "position": 119
+      },
+      {
+        "context": "...ed in Tucson and is** Mexican**. After our dinner ...",
+        "active_token": " Mexican",
+        "activation": 0.19873046875,
+        "review_id": "H37ZkIcI7y1e3ngC9qkgVg",
+        "position": 80
+      },
+      {
+        "context": "...ans...my husband is** Mexican** American....we hav...",
+        "active_token": " Mexican",
+        "activation": 0.1947021484375,
+        "review_id": "bfbzxADUtBzRRORBivM_6g",
+        "position": 10
+      },
+      {
+        "context": "...g outside that were** Spanish** and they got tend ...",
+        "active_token": " Spanish",
+        "activation": 0.1929931640625,
+        "review_id": "RxLVwJ9BPId0qhTPcwUQFw",
+        "position": 53
+      },
+      {
+        "context": "... the diners are all** Spanish**. Let me retract my...",
+        "active_token": " Spanish",
+        "activation": 0.1920166015625,
+        "review_id": "RLlPZBQIyChEWctfxnus9Q",
+        "position": 31
+      },
+      {
+        "context": "...too. The menu is in** Spanish** but the staff is v...",
+        "active_token": " Spanish",
+        "activation": 0.191650390625,
+        "review_id": "YSuCGO9QEUWT3qq1SXI5QA",
+        "position": 19
+      },
+      {
+        "context": "...ll the items are in** Spanish** which doesn't help...",
+        "active_token": " Spanish",
+        "activation": 0.1873779296875,
+        "review_id": "fi0TOYlwjtF90IzVicvQRA",
+        "position": 126
+      },
+      {
+        "context": "...e other diners were** Spanish**-speaking.  \\n\\nThis ...",
+        "active_token": " Spanish",
+        "activation": 0.1864013671875,
+        "review_id": "0CpcygNgAK2m99nvrbvFlg",
+        "position": 92
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8454,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 45600000,
+      "corpus_coverage": 0.882,
+      "activation_range": {
+        "min": 0.1531,
+        "max": 0.2092,
+        "mean": 0.1649
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " in",
+            " Spanish"
+          ],
+          "ngram_str": " in Spanish",
+          "count": 166,
+          "percent": 33.2
+        },
+        {
+          "ngram": [
+            " is",
+            " Mexican"
+          ],
+          "ngram_str": " is Mexican",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " Spanish",
+            ","
+          ],
+          "ngram_str": " Spanish,",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " Spanish",
+            "."
+          ],
+          "ngram_str": " Spanish.",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " menu",
+            " is"
+          ],
+          "ngram_str": " menu is",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " is",
+            " in"
+          ],
+          "ngram_str": " is in",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " Spanish",
+            " and"
+          ],
+          "ngram_str": " Spanish and",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " and"
+          ],
+          "ngram_str": " Mexican and",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " are",
+            " Mexican"
+          ],
+          "ngram_str": " are Mexican",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " the",
+            " menu"
+          ],
+          "ngram_str": " the menu",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " is",
+            " in",
+            " Spanish"
+          ],
+          "ngram_str": " is in Spanish",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " menu",
+            " is",
+            " in"
+          ],
+          "ngram_str": " menu is in",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " in",
+            " Spanish",
+            ","
+          ],
+          "ngram_str": " in Spanish,",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " in",
+            " Spanish",
+            "."
+          ],
+          "ngram_str": " in Spanish.",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " in",
+            " Spanish",
+            " and"
+          ],
+          "ngram_str": " in Spanish and",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " The",
+            " menu",
+            " is"
+          ],
+          "ngram_str": " The menu is",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " is",
+            " Mexican",
+            " and"
+          ],
+          "ngram_str": " is Mexican and",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " was",
+            " in",
+            " Spanish"
+          ],
+          "ngram_str": " was in Spanish",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " is",
+            " Mexican",
+            ","
+          ],
+          "ngram_str": " is Mexican,",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " menu"
+          ],
+          "ngram_str": ". The menu",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " in",
+            " Spanish",
+            " but"
+          ],
+          "ngram_str": " in Spanish but",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " Spanish",
+            ",",
+            " but"
+          ],
+          "ngram_str": " Spanish, but",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            " is"
+          ],
+          "ngram_str": " the menu is",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " are",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " are Mexican food",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " menu",
+            " is",
+            " in",
+            " Spanish"
+          ],
+          "ngram_str": " menu is in Spanish",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " The",
+            " menu",
+            " is",
+            " in"
+          ],
+          "ngram_str": " The menu is in",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " menu",
+            " is"
+          ],
+          "ngram_str": ". The menu is",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " in",
+            " Spanish",
+            ",",
+            " but"
+          ],
+          "ngram_str": " in Spanish, but",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " menu",
+            " is",
+            " in"
+          ],
+          "ngram_str": " the menu is in",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " are",
+            " Mexican"
+          ],
+          "ngram_str": " and I are Mexican",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " is",
+            " in",
+            " Spanish",
+            " and"
+          ],
+          "ngram_str": " is in Spanish and",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " I",
+            " are",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " I are Mexican food",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " is",
+            " in",
+            " Spanish",
+            " but"
+          ],
+          "ngram_str": " is in Spanish but",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " in",
+            " Spanish",
+            ".",
+            " "
+          ],
+          "ngram_str": " in Spanish. ",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " menu",
+            " was",
+            " in",
+            " Spanish"
+          ],
+          "ngram_str": " menu was in Spanish",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " is",
+            " Mexican",
+            " and",
+            " I"
+          ],
+          "ngram_str": " is Mexican and I",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " who",
+            " is",
+            " Mexican",
+            ","
+          ],
+          "ngram_str": " who is Mexican,",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22827,
+        "count": 9310,
+        "percent": 93.1
+      },
+      {
+        "feature_idx": 3833,
+        "count": 9179,
+        "percent": 91.79
+      },
+      {
+        "feature_idx": 9962,
+        "count": 7239,
+        "percent": 72.39
+      },
+      {
+        "feature_idx": 24294,
+        "count": 7150,
+        "percent": 71.5
+      },
+      {
+        "feature_idx": 23533,
+        "count": 7016,
+        "percent": 70.16
+      },
+      {
+        "feature_idx": 3468,
+        "count": 6858,
+        "percent": 68.58
+      },
+      {
+        "feature_idx": 19049,
+        "count": 6772,
+        "percent": 67.72
+      },
+      {
+        "feature_idx": 11661,
+        "count": 6565,
+        "percent": 65.65
+      },
+      {
+        "feature_idx": 5996,
+        "count": 6556,
+        "percent": 65.56
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6397,
+        "percent": 63.97
+      },
+      {
+        "feature_idx": 22050,
+        "count": 6106,
+        "percent": 61.06
+      },
+      {
+        "feature_idx": 2708,
+        "count": 5762,
+        "percent": 57.62
+      },
+      {
+        "feature_idx": 10867,
+        "count": 5684,
+        "percent": 56.84
+      },
+      {
+        "feature_idx": 13657,
+        "count": 5485,
+        "percent": 54.85
+      },
+      {
+        "feature_idx": 8285,
+        "count": 5088,
+        "percent": 50.88
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4905,
+        "percent": 49.05
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4387,
+        "percent": 43.87
+      },
+      {
+        "feature_idx": 11586,
+        "count": 4291,
+        "percent": 42.91
+      },
+      {
+        "feature_idx": 7360,
+        "count": 4100,
+        "percent": 41.0
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3578,
+        "percent": 35.78
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3226,
+        "percent": 32.26
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2019,
+        "percent": 20.19
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1572,
+        "percent": 15.72
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1370,
+        "percent": 13.7
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1813,
+        "percent": 18.13
+      }
+    ],
+    "mean_position": 0.4297,
+    "std_position": 0.3074
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 236,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0176,
+      "p25": 0.0269,
+      "p50": 0.0414,
+      "p75": 0.0624,
+      "p90": 0.0834,
+      "p95": 0.1033,
+      "p99": 0.1352
+    },
+    "skewness": 1.2316,
+    "kurtosis": 1.519,
+    "min": 0.0093,
+    "max": 0.1592,
+    "mean": 0.0471,
+    "std": 0.0278
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 236,
+      "unique_tokens_found": 34
+    },
+    "tokens": [
+      {
+        "token": " Mexican",
+        "count": 147,
+        "mean_activation": 0.0417
+      },
+      {
+        "token": " Spanish",
+        "count": 14,
+        "mean_activation": 0.0922
+      },
+      {
+        "token": " Latin",
+        "count": 8,
+        "mean_activation": 0.0513
+      },
+      {
+        "token": " vegetarian",
+        "count": 7,
+        "mean_activation": 0.0283
+      },
+      {
+        "token": " French",
+        "count": 6,
+        "mean_activation": 0.0919
+      },
+      {
+        "token": " Korean",
+        "count": 6,
+        "mean_activation": 0.0437
+      },
+      {
+        "token": " American",
+        "count": 5,
+        "mean_activation": 0.0594
+      },
+      {
+        "token": " vegan",
+        "count": 4,
+        "mean_activation": 0.0399
+      },
+      {
+        "token": " Indian",
+        "count": 3,
+        "mean_activation": 0.0385
+      },
+      {
+        "token": "anish",
+        "count": 3,
+        "mean_activation": 0.0636
+      }
+    ]
+  }
+}

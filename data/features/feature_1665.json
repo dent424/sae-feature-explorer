@@ -1,0 +1,851 @@
+{
+  "feature_idx": 1665,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 28,
+    "mean_when_active": 0.09178870064871651,
+    "max_activation": 0.26806640625,
+    "std_when_active": 0.08785300523364349,
+    "activation_rate": 0.00028
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 14316,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " still",
+        "count": 9725,
+        "mean_activation": 0.04908265023121184
+      },
+      {
+        "token": " Still",
+        "count": 1983,
+        "mean_activation": 0.24562344380358042
+      },
+      {
+        "token": "Still",
+        "count": 351,
+        "mean_activation": 0.2641403328659188
+      },
+      {
+        "token": " Yet",
+        "count": 309,
+        "mean_activation": 0.04449724610955198
+      },
+      {
+        "token": "still",
+        "count": 278,
+        "mean_activation": 0.14601426158877587
+      },
+      {
+        "token": " Nonetheless",
+        "count": 216,
+        "mean_activation": 0.03889232211642795
+      },
+      {
+        "token": " Again",
+        "count": 215,
+        "mean_activation": 0.01948302512945131
+      },
+      {
+        "token": " a",
+        "count": 154,
+        "mean_activation": 0.03795247263722606
+      },
+      {
+        "token": "Again",
+        "count": 145,
+        "mean_activation": 0.023318797144396552
+      },
+      {
+        "token": " Nevertheless",
+        "count": 118,
+        "mean_activation": 0.03274264578091896
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 14316,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...s here. It's loaded!** Still** thinking about it! ...",
+        "active_token": " Still",
+        "activation": 0.306640625,
+        "review_id": "r8pPN_oZmnVsz1WXb-cbNw",
+        "position": 124
+      },
+      {
+        "context": "... pure deliciousness.** Still**, if you'd like some...",
+        "active_token": " Still",
+        "activation": 0.306396484375,
+        "review_id": "4TrpXFNExTeIHbQYxGxm_Q",
+        "position": 229
+      },
+      {
+        "context": "...is huge and filling.** Still** the best burrito in...",
+        "active_token": " Still",
+        "activation": 0.302978515625,
+        "review_id": "cVLAbiZCwKXxnOPmJCQKzQ",
+        "position": 106
+      },
+      {
+        "context": "...eded them yet again.** Still** a family favorite.",
+        "active_token": " Still",
+        "activation": 0.30224609375,
+        "review_id": "AeHWXZ6QVuKyUje0Ei3jgQ",
+        "position": 243
+      },
+      {
+        "context": "...treet, is excellent.** Still** no stevia available...",
+        "active_token": " Still",
+        "activation": 0.3017578125,
+        "review_id": "mOn8KPXystOAx9gerLwvNA",
+        "position": 122
+      },
+      {
+        "context": "... up how you like. \\n\\n**Still** need to pop in for H...",
+        "active_token": "Still",
+        "activation": 0.3017578125,
+        "review_id": "4-OJMZxnMUG3X58maMe5SA",
+        "position": 183
+      },
+      {
+        "context": "... sauce is flavorful.** Still** have to try out the...",
+        "active_token": " Still",
+        "activation": 0.3017578125,
+        "review_id": "8-8hdeQrNEi60cHKtese7A",
+        "position": 28
+      },
+      {
+        "context": "...the fountain drinks.** Still** refreshing, just no...",
+        "active_token": " Still",
+        "activation": 0.30029296875,
+        "review_id": "El3Imj-yI9plDuxTGYifzA",
+        "position": 116
+      },
+      {
+        "context": "... and guacamole more.** Still**, choice of chicken,...",
+        "active_token": " Still",
+        "activation": 0.2998046875,
+        "review_id": "TiRPqiX76re4nNBwH-PCMA",
+        "position": 167
+      },
+      {
+        "context": "...t was mega stale. \\n\\n**Still**, the salad is a real...",
+        "active_token": "Still",
+        "activation": 0.299072265625,
+        "review_id": "8eJ7ze5P4nEN4gQFWXL32Q",
+        "position": 121
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1665,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.27,
+        "max": 0.3066,
+        "mean": 0.28
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " Still"
+          ],
+          "ngram_str": ". Still",
+          "count": 270,
+          "percent": 54.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 231,
+          "percent": 46.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Still"
+          ],
+          "ngram_str": "\u012cStill",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " Still",
+            ","
+          ],
+          "ngram_str": " Still,",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4"
+          ],
+          "ngram_str": ". \u00c4",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            "Still",
+            ","
+          ],
+          "ngram_str": "Still,",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ",",
+            " I"
+          ],
+          "ngram_str": ", I",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Still"
+          ],
+          "ngram_str": "! Still",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Still"
+          ],
+          "ngram_str": "  Still",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " Still",
+            " a"
+          ],
+          "ngram_str": " Still a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " it"
+          ],
+          "ngram_str": ", it",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Still"
+          ],
+          "ngram_str": "\u00c4\u012cStill",
+          "count": 150,
+          "percent": 30.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            ","
+          ],
+          "ngram_str": ". Still,",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Still",
+            ","
+          ],
+          "ngram_str": "\u012cStill,",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " Still",
+            ",",
+            " I"
+          ],
+          "ngram_str": " Still, I",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Still"
+          ],
+          "ngram_str": ".  Still",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            " a"
+          ],
+          "ngram_str": ". Still a",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "Still"
+          ],
+          "ngram_str": " \u00c4\u012cStill",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            " good"
+          ],
+          "ngram_str": ". Still good",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "Still",
+            ",",
+            " I"
+          ],
+          "ngram_str": "Still, I",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " Still",
+            ",",
+            " it"
+          ],
+          "ngram_str": " Still, it",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Still"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cStill",
+          "count": 139,
+          "percent": 27.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Still",
+            ","
+          ],
+          "ngram_str": "\u00c4\u012cStill,",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            ",",
+            " I"
+          ],
+          "ngram_str": ". Still, I",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Still",
+            ",",
+            " I"
+          ],
+          "ngram_str": "\u012cStill, I",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "Still"
+          ],
+          "ngram_str": ". \u00c4\u012cStill",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Still",
+            ",",
+            " it"
+          ],
+          "ngram_str": ". Still, it",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Still",
+            " a"
+          ],
+          "ngram_str": "\u00c4\u012cStill a",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "Still"
+          ],
+          "ngram_str": ".\u00c4\u012cStill",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " ",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "  \u00c4\u012c\u00c4",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Still",
+            ",",
+            " the"
+          ],
+          "ngram_str": "\u012cStill, the",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Still",
+            " the"
+          ],
+          "ngram_str": "\u00c4\u012cStill the",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36500000,
+      "corpus_coverage": 0.706
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20209,
+        "count": 8768,
+        "percent": 87.68
+      },
+      {
+        "feature_idx": 16597,
+        "count": 8662,
+        "percent": 86.62
+      },
+      {
+        "feature_idx": 17463,
+        "count": 8640,
+        "percent": 86.4
+      },
+      {
+        "feature_idx": 7079,
+        "count": 8632,
+        "percent": 86.32
+      },
+      {
+        "feature_idx": 21602,
+        "count": 7711,
+        "percent": 77.11
+      },
+      {
+        "feature_idx": 11138,
+        "count": 6987,
+        "percent": 69.87
+      },
+      {
+        "feature_idx": 23,
+        "count": 6454,
+        "percent": 64.54
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5431,
+        "percent": 54.31
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5323,
+        "percent": 53.23
+      },
+      {
+        "feature_idx": 4255,
+        "count": 5203,
+        "percent": 52.03
+      },
+      {
+        "feature_idx": 23119,
+        "count": 3999,
+        "percent": 39.99
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3551,
+        "percent": 35.51
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3396,
+        "percent": 33.96
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3361,
+        "percent": 33.61
+      },
+      {
+        "feature_idx": 19788,
+        "count": 3197,
+        "percent": 31.97
+      },
+      {
+        "feature_idx": 16269,
+        "count": 3134,
+        "percent": 31.34
+      },
+      {
+        "feature_idx": 15931,
+        "count": 3075,
+        "percent": 30.75
+      },
+      {
+        "feature_idx": 6564,
+        "count": 3034,
+        "percent": 30.34
+      },
+      {
+        "feature_idx": 10904,
+        "count": 2993,
+        "percent": 29.93
+      },
+      {
+        "feature_idx": 7151,
+        "count": 2920,
+        "percent": 29.2
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 36500000,
+      "corpus_coverage": 0.706
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1160,
+        "percent": 11.6
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1626,
+        "percent": 16.26
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2125,
+        "percent": 21.25
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2328,
+        "percent": 23.28
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2761,
+        "percent": 27.61
+      }
+    ],
+    "mean_position": 0.5801,
+    "std_position": 0.2701
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 28,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0197,
+      "p25": 0.0295,
+      "p50": 0.0543,
+      "p75": 0.0914,
+      "p90": 0.2514,
+      "p95": 0.2648,
+      "p99": 0.2677
+    },
+    "skewness": 1.1794,
+    "kurtosis": -0.3173,
+    "min": 0.0166,
+    "max": 0.2681,
+    "mean": 0.0918,
+    "std": 0.0879
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 28,
+      "unique_tokens_found": 5
+    },
+    "tokens": [
+      {
+        "token": " still",
+        "count": 18,
+        "mean_activation": 0.0475
+      },
+      {
+        "token": " Still",
+        "count": 6,
+        "mean_activation": 0.2533
+      },
+      {
+        "token": " Again",
+        "count": 2,
+        "mean_activation": 0.0166
+      },
+      {
+        "token": "still",
+        "count": 1,
+        "mean_activation": 0.1335
+      },
+      {
+        "token": " stay",
+        "count": 1,
+        "mean_activation": 0.0275
+      }
+    ]
+  }
+}

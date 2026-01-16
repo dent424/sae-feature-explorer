@@ -1,0 +1,866 @@
+{
+  "feature_idx": 18141,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 15,
+    "mean_when_active": 0.14315185546875,
+    "max_activation": 0.267333984375,
+    "std_when_active": 0.08199631098288883,
+    "activation_rate": 0.00015
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6999,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " folks",
+        "count": 3022,
+        "mean_activation": 0.2124259337772998
+      },
+      {
+        "token": "orst",
+        "count": 1061,
+        "mean_activation": 0.04217529296875
+      },
+      {
+        "token": " guys",
+        "count": 444,
+        "mean_activation": 0.027570208987674198
+      },
+      {
+        "token": " FIN",
+        "count": 211,
+        "mean_activation": 0.10890783517846564
+      },
+      {
+        "token": " folk",
+        "count": 190,
+        "mean_activation": 0.09283077842310855
+      },
+      {
+        "token": " Fin",
+        "count": 173,
+        "mean_activation": 0.11792239150559972
+      },
+      {
+        "token": " fin",
+        "count": 154,
+        "mean_activation": 0.10555633941254058
+      },
+      {
+        "token": " people",
+        "count": 145,
+        "mean_activation": 0.023291489173626077
+      },
+      {
+        "token": "ks",
+        "count": 128,
+        "mean_activation": 0.11356091499328613
+      },
+      {
+        "token": "Though",
+        "count": 117,
+        "mean_activation": 0.022599896814069178
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6999,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...get it together, the** folks** running the food ne...",
+        "active_token": " folks",
+        "activation": 0.3115234375,
+        "review_id": "xWKK-MNWsuwYZ-TZxgN9Cw",
+        "position": 280
+      },
+      {
+        "context": "...get it together, the** folks** running the food ne...",
+        "active_token": " folks",
+        "activation": 0.3115234375,
+        "review_id": "oswDGBEYdMXLRilvQAoi2A",
+        "position": 280
+      },
+      {
+        "context": "...eems to cator to the** folks** wearing jeans, flan...",
+        "active_token": " folks",
+        "activation": 0.3076171875,
+        "review_id": "O7Qp4GUbsfYe-ThVz-RBDA",
+        "position": 46
+      },
+      {
+        "context": "...age, coming from the** folks** behind Cantina (bot...",
+        "active_token": " folks",
+        "activation": 0.301025390625,
+        "review_id": "psKyIDor8VyT_u5gz-xMBw",
+        "position": 12
+      },
+      {
+        "context": "...o MAJOR props to the** folks** at La Eskina. I tas...",
+        "active_token": " folks",
+        "activation": 0.298095703125,
+        "review_id": "kSdf5eG-SqO3rMiEKms3ag",
+        "position": 190
+      },
+      {
+        "context": "...ws, people watch the** folks** strolling on Virgin...",
+        "active_token": " folks",
+        "activation": 0.296875,
+        "review_id": "a4Xx5L_tnM-SkFuq_U1spA",
+        "position": 446
+      },
+      {
+        "context": "...o the music,  to the** folks** who serve you!  \\nve...",
+        "active_token": " folks",
+        "activation": 0.296875,
+        "review_id": "DaKzl2VMZkjpkKLEh8jooQ",
+        "position": 102
+      },
+      {
+        "context": "... seat yourself - the** folks** working there were ...",
+        "active_token": " folks",
+        "activation": 0.296142578125,
+        "review_id": "tx53avr3ZJXxdowRmGBaww",
+        "position": 206
+      },
+      {
+        "context": "...ervers to get to the** folks** seated outside.   I...",
+        "active_token": " folks",
+        "activation": 0.295654296875,
+        "review_id": "dG5wZCUVtrCpgB-7nHFe1g",
+        "position": 411
+      },
+      {
+        "context": "... and we love...\\n\\nThe** folks**,The service,food,dr...",
+        "active_token": " folks",
+        "activation": 0.294189453125,
+        "review_id": "QNuUIK_qoX9onPq51FqJxA",
+        "position": 26
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 18141,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2487,
+        "max": 0.3115,
+        "mean": 0.2657
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " folks"
+          ],
+          "ngram_str": " the folks",
+          "count": 223,
+          "percent": 44.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " The",
+            " folks"
+          ],
+          "ngram_str": " The folks",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            ",",
+            " folks"
+          ],
+          "ngram_str": ", folks",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            " folks",
+            " who"
+          ],
+          "ngram_str": " folks who",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " folks",
+            "."
+          ],
+          "ngram_str": " folks.",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " folks",
+            " at"
+          ],
+          "ngram_str": " folks at",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " folks",
+            " working"
+          ],
+          "ngram_str": " folks working",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012cThe",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "The",
+            " folks"
+          ],
+          "ngram_str": "The folks",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " folks",
+            " that"
+          ],
+          "ngram_str": " folks that",
+          "count": 33,
+          "percent": 6.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " folks"
+          ],
+          "ngram_str": ". The folks",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " the",
+            " folks",
+            " who"
+          ],
+          "ngram_str": " the folks who",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u00c4\u012cThe",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ",",
+            " folks",
+            "."
+          ],
+          "ngram_str": ", folks.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The",
+            " folks"
+          ],
+          "ngram_str": "\u012cThe folks",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " the",
+            " folks",
+            " at"
+          ],
+          "ngram_str": " the folks at",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ",",
+            " the",
+            " folks"
+          ],
+          "ngram_str": ", the folks",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " folks"
+          ],
+          "ngram_str": " and the folks",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " to",
+            " the",
+            " folks"
+          ],
+          "ngram_str": " to the folks",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " folks",
+            " working",
+            " there"
+          ],
+          "ngram_str": " folks working there",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " folks",
+            " behind",
+            " the"
+          ],
+          "ngram_str": " folks behind the",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " the",
+            " folks",
+            " behind"
+          ],
+          "ngram_str": " the folks behind",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The",
+            " folks"
+          ],
+          "ngram_str": "\u00c4\u012cThe folks",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " folks",
+            " behind",
+            " the",
+            " counter"
+          ],
+          "ngram_str": " folks behind the counter",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " folks"
+          ],
+          "ngram_str": ".  The folks",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " the",
+            " folks",
+            " working",
+            " there"
+          ],
+          "ngram_str": " the folks working there",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " folks",
+            " behind",
+            " the"
+          ],
+          "ngram_str": " the folks behind the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " folks",
+            " who"
+          ],
+          "ngram_str": ". The folks who",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " the",
+            " folks"
+          ],
+          "ngram_str": ", and the folks",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " folks",
+            " working"
+          ],
+          "ngram_str": ". The folks working",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " The",
+            " folks",
+            " working",
+            " there"
+          ],
+          "ngram_str": " The folks working there",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " the",
+            " folks",
+            " who",
+            " work"
+          ],
+          "ngram_str": " the folks who work",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6999,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4420,
+        "percent": 63.15
+      },
+      {
+        "feature_idx": 18503,
+        "count": 4389,
+        "percent": 62.71
+      },
+      {
+        "feature_idx": 8905,
+        "count": 4375,
+        "percent": 62.51
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4049,
+        "percent": 57.85
+      },
+      {
+        "feature_idx": 15499,
+        "count": 3544,
+        "percent": 50.64
+      },
+      {
+        "feature_idx": 4416,
+        "count": 3391,
+        "percent": 48.45
+      },
+      {
+        "feature_idx": 19386,
+        "count": 3119,
+        "percent": 44.56
+      },
+      {
+        "feature_idx": 6802,
+        "count": 2882,
+        "percent": 41.18
+      },
+      {
+        "feature_idx": 3809,
+        "count": 2539,
+        "percent": 36.28
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2259,
+        "percent": 32.28
+      },
+      {
+        "feature_idx": 11584,
+        "count": 1595,
+        "percent": 22.79
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1516,
+        "percent": 21.66
+      },
+      {
+        "feature_idx": 920,
+        "count": 1496,
+        "percent": 21.37
+      },
+      {
+        "feature_idx": 5665,
+        "count": 1457,
+        "percent": 20.82
+      },
+      {
+        "feature_idx": 19889,
+        "count": 1449,
+        "percent": 20.7
+      },
+      {
+        "feature_idx": 4483,
+        "count": 1447,
+        "percent": 20.67
+      },
+      {
+        "feature_idx": 17839,
+        "count": 1414,
+        "percent": 20.2
+      },
+      {
+        "feature_idx": 14973,
+        "count": 1397,
+        "percent": 19.96
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1397,
+        "percent": 19.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1394,
+        "percent": 19.92
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6999,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2290,
+        "percent": 32.72
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1094,
+        "percent": 15.63
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 989,
+        "percent": 14.13
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1105,
+        "percent": 15.79
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1521,
+        "percent": 21.73
+      }
+    ],
+    "mean_position": 0.4451,
+    "std_position": 0.3362
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 15,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0242,
+      "p25": 0.0681,
+      "p50": 0.1763,
+      "p75": 0.2039,
+      "p90": 0.2311,
+      "p95": 0.2421,
+      "p99": 0.2623
+    },
+    "skewness": -0.2695,
+    "kurtosis": -1.3696,
+    "min": 0.0218,
+    "max": 0.2673,
+    "mean": 0.1432,
+    "std": 0.082
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 15,
+      "unique_tokens_found": 8
+    },
+    "tokens": [
+      {
+        "token": " folks",
+        "count": 8,
+        "mean_activation": 0.2119
+      },
+      {
+        "token": " Fol",
+        "count": 1,
+        "mean_activation": 0.0872
+      },
+      {
+        "token": "ks",
+        "count": 1,
+        "mean_activation": 0.1456
+      },
+      {
+        "token": " fin",
+        "count": 1,
+        "mean_activation": 0.1001
+      },
+      {
+        "token": " guys",
+        "count": 1,
+        "mean_activation": 0.0252
+      },
+      {
+        "token": " Walt",
+        "count": 1,
+        "mean_activation": 0.049
+      },
+      {
+        "token": " tend",
+        "count": 1,
+        "mean_activation": 0.0236
+      },
+      {
+        "token": "Though",
+        "count": 1,
+        "mean_activation": 0.0218
+      }
+    ]
+  }
+}

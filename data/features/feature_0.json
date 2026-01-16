@@ -1,0 +1,876 @@
+{
+  "feature_idx": 0,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 202,
+    "mean_when_active": 0.03850816027952893,
+    "max_activation": 0.174560546875,
+    "std_when_active": 0.023226869537940124,
+    "activation_rate": 0.00202
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 25600000,
+      "corpus_coverage": 0.4951
+    },
+    "top_tokens": [
+      {
+        "token": " get",
+        "count": 3220,
+        "mean_activation": 0.04540803328804348
+      },
+      {
+        "token": " go",
+        "count": 1971,
+        "mean_activation": 0.055824202368671916
+      },
+      {
+        "token": " to",
+        "count": 1810,
+        "mean_activation": 0.034607300310503714
+      },
+      {
+        "token": " try",
+        "count": 1490,
+        "mean_activation": 0.03842638771005925
+      },
+      {
+        "token": " for",
+        "count": 1436,
+        "mean_activation": 0.028979877907585633
+      },
+      {
+        "token": " a",
+        "count": 1387,
+        "mean_activation": 0.02895010334171661
+      },
+      {
+        "token": " the",
+        "count": 1247,
+        "mean_activation": 0.027298291779176274
+      },
+      {
+        "token": " order",
+        "count": 1181,
+        "mean_activation": 0.03928209219213061
+      },
+      {
+        "token": " it",
+        "count": 968,
+        "mean_activation": 0.030627037868026858
+      },
+      {
+        "token": ".",
+        "count": 958,
+        "mean_activation": 0.030524435023425268
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 25600000,
+      "corpus_coverage": 0.4951
+    },
+    "activations": [
+      {
+        "context": "... yourself a favor and** get** your authentic Mexic...",
+        "active_token": " get",
+        "activation": 0.2022705078125,
+        "review_id": "ro2rOhziHhWlIhynumOfSQ",
+        "position": 75
+      },
+      {
+        "context": "... yourself a favor and** get** a mai tai if you wan...",
+        "active_token": " get",
+        "activation": 0.19970703125,
+        "review_id": "xdZxVSUbUwD2y-lvMW5K0A",
+        "position": 58
+      },
+      {
+        "context": "... yourself a favor and** get** to Nuevo Cantina soo...",
+        "active_token": " get",
+        "activation": 0.19921875,
+        "review_id": "AeSL8rJJzoPj1H1smmYW6Q",
+        "position": 79
+      },
+      {
+        "context": "... yourself a favor and** get** some tacos from here...",
+        "active_token": " get",
+        "activation": 0.197265625,
+        "review_id": "0AabN1ZL6EEeztZNkidWbA",
+        "position": 146
+      },
+      {
+        "context": "... yourself a favor and** get** your behind to Besit...",
+        "active_token": " get",
+        "activation": 0.197021484375,
+        "review_id": "KwB59IYvN_n_XwK_tm5MOA",
+        "position": 265
+      },
+      {
+        "context": "... yourself a favor and** get** the quesa tacos, it'...",
+        "active_token": " get",
+        "activation": 0.19384765625,
+        "review_id": "jz6yLtDAWznWLyX5-HDB3g",
+        "position": 19
+      },
+      {
+        "context": "... yourself a favor and** get** the chimichanga, not...",
+        "active_token": " get",
+        "activation": 0.191650390625,
+        "review_id": "8cGDXmqLrI8akjW9IYgFAA",
+        "position": 24
+      },
+      {
+        "context": "... yourself a favor and** get** a horchata and some ...",
+        "active_token": " get",
+        "activation": 0.1915283203125,
+        "review_id": "f-BlHKjXVQ5SMyp2EXdMGA",
+        "position": 84
+      },
+      {
+        "context": "... yourself a favor and** get** the X-rated (delish)...",
+        "active_token": " get",
+        "activation": 0.1912841796875,
+        "review_id": "LmZrgd860lOU4mpwipx-eg",
+        "position": 20
+      },
+      {
+        "context": "... yourself a favor and** get** here!!!",
+        "active_token": " get",
+        "activation": 0.19091796875,
+        "review_id": "ysx12Obcj6idR1BiOLFdfw",
+        "position": 70
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 0,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 50300000,
+      "corpus_coverage": 0.9729,
+      "activation_range": {
+        "min": 0.1395,
+        "max": 0.203,
+        "mean": 0.1592
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " a",
+            " favor"
+          ],
+          "ngram_str": " a favor",
+          "count": 460,
+          "percent": 92.0
+        },
+        {
+          "ngram": [
+            " favor",
+            " and"
+          ],
+          "ngram_str": " favor and",
+          "count": 460,
+          "percent": 92.0
+        },
+        {
+          "ngram": [
+            " yourself",
+            " a"
+          ],
+          "ngram_str": " yourself a",
+          "count": 443,
+          "percent": 88.6
+        },
+        {
+          "ngram": [
+            " Do",
+            " yourself"
+          ],
+          "ngram_str": " Do yourself",
+          "count": 226,
+          "percent": 45.2
+        },
+        {
+          "ngram": [
+            " and",
+            " go"
+          ],
+          "ngram_str": " and go",
+          "count": 186,
+          "percent": 37.2
+        },
+        {
+          "ngram": [
+            " and",
+            " get"
+          ],
+          "ngram_str": " and get",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " do",
+            " yourself"
+          ],
+          "ngram_str": " do yourself",
+          "count": 114,
+          "percent": 22.8
+        },
+        {
+          "ngram": [
+            "Do",
+            " yourself"
+          ],
+          "ngram_str": "Do yourself",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " go",
+            " to"
+          ],
+          "ngram_str": " go to",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " get",
+            " the"
+          ],
+          "ngram_str": " get the",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " and",
+            " try"
+          ],
+          "ngram_str": " and try",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " and",
+            " give"
+          ],
+          "ngram_str": " and give",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " don",
+            "'t"
+          ],
+          "ngram_str": " don't",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " a",
+            " try"
+          ],
+          "ngram_str": " a try",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " favor",
+            " and"
+          ],
+          "ngram_str": " a favor and",
+          "count": 449,
+          "percent": 89.8
+        },
+        {
+          "ngram": [
+            " yourself",
+            " a",
+            " favor"
+          ],
+          "ngram_str": " yourself a favor",
+          "count": 432,
+          "percent": 86.4
+        },
+        {
+          "ngram": [
+            " Do",
+            " yourself",
+            " a"
+          ],
+          "ngram_str": " Do yourself a",
+          "count": 226,
+          "percent": 45.2
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " go"
+          ],
+          "ngram_str": " favor and go",
+          "count": 171,
+          "percent": 34.2
+        },
+        {
+          "ngram": [
+            " do",
+            " yourself",
+            " a"
+          ],
+          "ngram_str": " do yourself a",
+          "count": 113,
+          "percent": 22.6
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " get"
+          ],
+          "ngram_str": " favor and get",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            "Do",
+            " yourself",
+            " a"
+          ],
+          "ngram_str": "Do yourself a",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " and",
+            " go",
+            " to"
+          ],
+          "ngram_str": " and go to",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " and",
+            " get",
+            " the"
+          ],
+          "ngram_str": " and get the",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " try"
+          ],
+          "ngram_str": " favor and try",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " give"
+          ],
+          "ngram_str": " favor and give",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " stop"
+          ],
+          "ngram_str": " favor and stop",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " don"
+          ],
+          "ngram_str": " favor and don",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " and",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " and don't",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " self",
+            " a",
+            " favor"
+          ],
+          "ngram_str": " self a favor",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " yourself",
+            " a",
+            " favor",
+            " and"
+          ],
+          "ngram_str": " yourself a favor and",
+          "count": 423,
+          "percent": 84.6
+        },
+        {
+          "ngram": [
+            " Do",
+            " yourself",
+            " a",
+            " favor"
+          ],
+          "ngram_str": " Do yourself a favor",
+          "count": 225,
+          "percent": 45.0
+        },
+        {
+          "ngram": [
+            " a",
+            " favor",
+            " and",
+            " go"
+          ],
+          "ngram_str": " a favor and go",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " do",
+            " yourself",
+            " a",
+            " favor"
+          ],
+          "ngram_str": " do yourself a favor",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " a",
+            " favor",
+            " and",
+            " get"
+          ],
+          "ngram_str": " a favor and get",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            "Do",
+            " yourself",
+            " a",
+            " favor"
+          ],
+          "ngram_str": "Do yourself a favor",
+          "count": 88,
+          "percent": 17.6
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " go",
+            " to"
+          ],
+          "ngram_str": " favor and go to",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " get",
+            " the"
+          ],
+          "ngram_str": " favor and get the",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " a",
+            " favor",
+            " and",
+            " try"
+          ],
+          "ngram_str": " a favor and try",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " a",
+            " favor",
+            " and",
+            " give"
+          ],
+          "ngram_str": " a favor and give",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " a",
+            " favor",
+            " and",
+            " stop"
+          ],
+          "ngram_str": " a favor and stop",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " a",
+            " favor",
+            " and",
+            " don"
+          ],
+          "ngram_str": " a favor and don",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " favor",
+            " and",
+            " don",
+            "'t"
+          ],
+          "ngram_str": " favor and don't",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " self",
+            " a",
+            " favor",
+            " and"
+          ],
+          "ngram_str": " self a favor and",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " your",
+            " self",
+            " a",
+            " favor"
+          ],
+          "ngram_str": " your self a favor",
+          "count": 13,
+          "percent": 2.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10622,
+        "count": 6253,
+        "percent": 62.53
+      },
+      {
+        "feature_idx": 19024,
+        "count": 6135,
+        "percent": 61.35
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4271,
+        "percent": 42.71
+      },
+      {
+        "feature_idx": 9407,
+        "count": 4208,
+        "percent": 42.08
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4181,
+        "percent": 41.81
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3898,
+        "percent": 38.98
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3766,
+        "percent": 37.66
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3168,
+        "percent": 31.68
+      },
+      {
+        "feature_idx": 17492,
+        "count": 2730,
+        "percent": 27.3
+      },
+      {
+        "feature_idx": 9470,
+        "count": 2557,
+        "percent": 25.57
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2520,
+        "percent": 25.2
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2450,
+        "percent": 24.5
+      },
+      {
+        "feature_idx": 14179,
+        "count": 2312,
+        "percent": 23.12
+      },
+      {
+        "feature_idx": 7735,
+        "count": 2143,
+        "percent": 21.43
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2079,
+        "percent": 20.79
+      },
+      {
+        "feature_idx": 16508,
+        "count": 2045,
+        "percent": 20.45
+      },
+      {
+        "feature_idx": 6525,
+        "count": 2010,
+        "percent": 20.1
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1856,
+        "percent": 18.56
+      },
+      {
+        "feature_idx": 7762,
+        "count": 1847,
+        "percent": 18.47
+      },
+      {
+        "feature_idx": 23664,
+        "count": 1734,
+        "percent": 17.34
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 5000000,
+      "corpus_coverage": 0.0967
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1048,
+        "percent": 10.48
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1292,
+        "percent": 12.92
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1351,
+        "percent": 13.51
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1718,
+        "percent": 17.18
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 4591,
+        "percent": 45.91
+      }
+    ],
+    "mean_position": 0.6633,
+    "std_position": 0.2941
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 202,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0192,
+      "p25": 0.0233,
+      "p50": 0.0317,
+      "p75": 0.0436,
+      "p90": 0.0619,
+      "p95": 0.0866,
+      "p99": 0.1216
+    },
+    "skewness": 2.407,
+    "kurtosis": 7.7891,
+    "min": 0.0145,
+    "max": 0.1746,
+    "mean": 0.0385,
+    "std": 0.0232
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 202,
+      "unique_tokens_found": 99
+    },
+    "tokens": [
+      {
+        "token": " get",
+        "count": 15,
+        "mean_activation": 0.045
+      },
+      {
+        "token": " a",
+        "count": 10,
+        "mean_activation": 0.0238
+      },
+      {
+        "token": " go",
+        "count": 10,
+        "mean_activation": 0.0763
+      },
+      {
+        "token": " to",
+        "count": 10,
+        "mean_activation": 0.0456
+      },
+      {
+        "token": " order",
+        "count": 9,
+        "mean_activation": 0.038
+      },
+      {
+        "token": " ask",
+        "count": 7,
+        "mean_activation": 0.0348
+      },
+      {
+        "token": " eat",
+        "count": 6,
+        "mean_activation": 0.0424
+      },
+      {
+        "token": " for",
+        "count": 6,
+        "mean_activation": 0.0262
+      },
+      {
+        "token": " the",
+        "count": 6,
+        "mean_activation": 0.0296
+      },
+      {
+        "token": " try",
+        "count": 5,
+        "mean_activation": 0.0289
+      }
+    ]
+  }
+}

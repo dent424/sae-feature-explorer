@@ -1,0 +1,876 @@
+{
+  "feature_idx": 24286,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 147,
+    "mean_when_active": 0.027180055371758077,
+    "max_activation": 0.0728759765625,
+    "std_when_active": 0.011726755785707373,
+    "activation_rate": 0.00147
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 33100000,
+      "corpus_coverage": 0.6402
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 32934,
+        "mean_activation": 0.027403330118081215
+      },
+      {
+        "token": " that",
+        "count": 7914,
+        "mean_activation": 0.03130105061756411
+      },
+      {
+        "token": " this",
+        "count": 1083,
+        "mean_activation": 0.022325242765502365
+      },
+      {
+        "token": " a",
+        "count": 916,
+        "mean_activation": 0.028025064926480624
+      },
+      {
+        "token": " The",
+        "count": 760,
+        "mean_activation": 0.01469683898122687
+      },
+      {
+        "token": " they",
+        "count": 614,
+        "mean_activation": 0.022788380178644138
+      },
+      {
+        "token": " your",
+        "count": 592,
+        "mean_activation": 0.028425448649638408
+      },
+      {
+        "token": " there",
+        "count": 426,
+        "mean_activation": 0.024911280529040125
+      },
+      {
+        "token": " it",
+        "count": 401,
+        "mean_activation": 0.023201711754549173
+      },
+      {
+        "token": " our",
+        "count": 351,
+        "mean_activation": 0.022577812868645387
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 33100000,
+      "corpus_coverage": 0.6402
+    },
+    "activations": [
+      {
+        "context": "...nd of that receipt IF** the** service is good.  Ho...",
+        "active_token": " the",
+        "activation": 0.10687255859375,
+        "review_id": "UvOMDj6LsP99mWdIcIDb9g",
+        "position": 259
+      },
+      {
+        "context": "...n to this location if** the** need arose.",
+        "active_token": " the",
+        "activation": 0.10284423828125,
+        "review_id": "lx_Ctvnt3s2_6QZiV1cNvA",
+        "position": 260
+      },
+      {
+        "context": "... were no object or if** the** portions were much l...",
+        "active_token": " the",
+        "activation": 0.10260009765625,
+        "review_id": "GPUdgt1Gar0ZgSk9drn-gA",
+        "position": 67
+      },
+      {
+        "context": "...rom the other side if** the** selection.",
+        "active_token": " the",
+        "activation": 0.0987548828125,
+        "review_id": "ZapkCJgA2dmUEL4Jzlw-JA",
+        "position": 197
+      },
+      {
+        "context": "..., but only do this if** the** special is two tacos...",
+        "active_token": " the",
+        "activation": 0.09869384765625,
+        "review_id": "dHTRPKBakY9e3yPK1OReag",
+        "position": 69
+      },
+      {
+        "context": "...o sign a wait list if** the** tables are full. It ...",
+        "active_token": " the",
+        "activation": 0.09735107421875,
+        "review_id": "ZsipkTalRN-7S-p_K6DRAA",
+        "position": 130
+      },
+      {
+        "context": "...e sidewalk seating if** the** weather is nice!",
+        "active_token": " the",
+        "activation": 0.0968017578125,
+        "review_id": "gooN_nUC2J7CaccQTNGDhw",
+        "position": 68
+      },
+      {
+        "context": "...lmost be excusable if** the** prices were low, but...",
+        "active_token": " the",
+        "activation": 0.0966796875,
+        "review_id": "Gv55slE31Adwk9omt3RUtg",
+        "position": 194
+      },
+      {
+        "context": "...ions can't be made if** the** customers taste buds...",
+        "active_token": " the",
+        "activation": 0.09637451171875,
+        "review_id": "EmeMh0tHboPk6jZ2zj724w",
+        "position": 156
+      },
+      {
+        "context": "...e star is not because** the** food. I enjoyed my m...",
+        "active_token": " the",
+        "activation": 0.0946044921875,
+        "review_id": "uuqLAAQnDJLvEM3eCPxD6g",
+        "position": 12
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 24286,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.0689,
+        "max": 0.1069,
+        "mean": 0.0766
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " if",
+            " the"
+          ],
+          "ngram_str": " if the",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " because",
+            " the"
+          ],
+          "ngram_str": " because the",
+          "count": 95,
+          "percent": 19.0
+        },
+        {
+          "ngram": [
+            " that",
+            " the"
+          ],
+          "ngram_str": " that the",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " the",
+            " food"
+          ],
+          "ngram_str": " the food",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " is",
+            " that"
+          ],
+          "ngram_str": " is that",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " food",
+            " is"
+          ],
+          "ngram_str": " food is",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " the",
+            " service"
+          ],
+          "ngram_str": " the service",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " is",
+            " because"
+          ],
+          "ngram_str": " is because",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " If",
+            " the"
+          ],
+          "ngram_str": " If the",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " means",
+            " that"
+          ],
+          "ngram_str": " means that",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " that",
+            " they"
+          ],
+          "ngram_str": " that they",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " unless",
+            " the"
+          ],
+          "ngram_str": " unless the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " is",
+            " not"
+          ],
+          "ngram_str": " is not",
+          "count": 13,
+          "percent": 2.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " food",
+            " is"
+          ],
+          "ngram_str": " the food is",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " is",
+            " because",
+            " the"
+          ],
+          "ngram_str": " is because the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " if",
+            " the",
+            " food"
+          ],
+          "ngram_str": " if the food",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " because",
+            " the",
+            " food"
+          ],
+          "ngram_str": " because the food",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " is",
+            " that",
+            " the"
+          ],
+          "ngram_str": " is that the",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " ",
+            " If",
+            " the"
+          ],
+          "ngram_str": "  If the",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " only",
+            " because",
+            " the"
+          ],
+          "ngram_str": " only because the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " because",
+            " the",
+            " service"
+          ],
+          "ngram_str": " because the service",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " or",
+            " if",
+            " the"
+          ],
+          "ngram_str": " or if the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " stars",
+            " is",
+            " because"
+          ],
+          "ngram_str": " stars is because",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " If"
+          ],
+          "ngram_str": ".  If",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " is"
+          ],
+          "ngram_str": " the service is",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ",",
+            " if",
+            " the"
+          ],
+          "ngram_str": ", if the",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " complaint",
+            " is",
+            " that"
+          ],
+          "ngram_str": " complaint is that",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " If",
+            " the"
+          ],
+          "ngram_str": ". If the",
+          "count": 10,
+          "percent": 2.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " stars",
+            " is",
+            " because",
+            " the"
+          ],
+          "ngram_str": " stars is because the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " If",
+            " the"
+          ],
+          "ngram_str": ".  If the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " because",
+            " the",
+            " food",
+            " is"
+          ],
+          "ngram_str": " because the food is",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " if",
+            " the",
+            " food",
+            " is"
+          ],
+          "ngram_str": " if the food is",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " is",
+            " because",
+            " the",
+            " food"
+          ],
+          "ngram_str": " is because the food",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " the",
+            " food",
+            " is",
+            " good"
+          ],
+          "ngram_str": " the food is good",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " if",
+            " the",
+            " weather",
+            " is"
+          ],
+          "ngram_str": " if the weather is",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " the",
+            " weather",
+            " is",
+            " nice"
+          ],
+          "ngram_str": " the weather is nice",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " because",
+            " the",
+            " service",
+            " is"
+          ],
+          "ngram_str": " because the service is",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " because",
+            " the",
+            " service",
+            " was"
+          ],
+          "ngram_str": " because the service was",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " would",
+            " be",
+            " that",
+            " the"
+          ],
+          "ngram_str": " would be that the",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " because",
+            " the",
+            " food",
+            " was"
+          ],
+          "ngram_str": " because the food was",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " 5",
+            " is",
+            " because",
+            " the"
+          ],
+          "ngram_str": " 5 is because the",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " because",
+            " the",
+            " service",
+            " can"
+          ],
+          "ngram_str": " because the service can",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " the",
+            " service",
+            " can",
+            " be"
+          ],
+          "ngram_str": " the service can be",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6700000,
+      "corpus_coverage": 0.1296
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 8680,
+        "percent": 86.8
+      },
+      {
+        "feature_idx": 22187,
+        "count": 6852,
+        "percent": 68.52
+      },
+      {
+        "feature_idx": 10638,
+        "count": 6807,
+        "percent": 68.07
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6330,
+        "percent": 63.3
+      },
+      {
+        "feature_idx": 5665,
+        "count": 4544,
+        "percent": 45.44
+      },
+      {
+        "feature_idx": 14942,
+        "count": 4180,
+        "percent": 41.8
+      },
+      {
+        "feature_idx": 18985,
+        "count": 3946,
+        "percent": 39.46
+      },
+      {
+        "feature_idx": 22255,
+        "count": 3334,
+        "percent": 33.34
+      },
+      {
+        "feature_idx": 14460,
+        "count": 2761,
+        "percent": 27.61
+      },
+      {
+        "feature_idx": 11839,
+        "count": 2683,
+        "percent": 26.83
+      },
+      {
+        "feature_idx": 9634,
+        "count": 2673,
+        "percent": 26.73
+      },
+      {
+        "feature_idx": 13124,
+        "count": 2594,
+        "percent": 25.94
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2506,
+        "percent": 25.06
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2359,
+        "percent": 23.59
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2311,
+        "percent": 23.11
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2133,
+        "percent": 21.33
+      },
+      {
+        "feature_idx": 24160,
+        "count": 2031,
+        "percent": 20.31
+      },
+      {
+        "feature_idx": 12098,
+        "count": 1963,
+        "percent": 19.63
+      },
+      {
+        "feature_idx": 8670,
+        "count": 1894,
+        "percent": 18.94
+      },
+      {
+        "feature_idx": 13736,
+        "count": 1828,
+        "percent": 18.28
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 6700000,
+      "corpus_coverage": 0.1296
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1854,
+        "percent": 18.54
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1688,
+        "percent": 16.88
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2005,
+        "percent": 20.05
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2296,
+        "percent": 22.96
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2157,
+        "percent": 21.57
+      }
+    ],
+    "mean_position": 0.5211,
+    "std_position": 0.2884
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 147,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.016,
+      "p25": 0.0197,
+      "p50": 0.024,
+      "p75": 0.0322,
+      "p90": 0.0434,
+      "p95": 0.0512,
+      "p99": 0.0621
+    },
+    "skewness": 1.3426,
+    "kurtosis": 1.9306,
+    "min": 0.0086,
+    "max": 0.0729,
+    "mean": 0.0272,
+    "std": 0.0117
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 147,
+      "unique_tokens_found": 16
+    },
+    "tokens": [
+      {
+        "token": " the",
+        "count": 110,
+        "mean_activation": 0.0268
+      },
+      {
+        "token": " that",
+        "count": 18,
+        "mean_activation": 0.033
+      },
+      {
+        "token": " our",
+        "count": 3,
+        "mean_activation": 0.0216
+      },
+      {
+        "token": " a",
+        "count": 2,
+        "mean_activation": 0.0201
+      },
+      {
+        "token": " you",
+        "count": 2,
+        "mean_activation": 0.0179
+      },
+      {
+        "token": " your",
+        "count": 2,
+        "mean_activation": 0.0356
+      },
+      {
+        "token": " those",
+        "count": 1,
+        "mean_activation": 0.0177
+      },
+      {
+        "token": "no",
+        "count": 1,
+        "mean_activation": 0.015
+      },
+      {
+        "token": " it",
+        "count": 1,
+        "mean_activation": 0.0179
+      },
+      {
+        "token": " on",
+        "count": 1,
+        "mean_activation": 0.0218
+      }
+    ]
+  }
+}

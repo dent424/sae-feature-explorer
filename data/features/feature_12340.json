@@ -1,0 +1,841 @@
+{
+  "feature_idx": 12340,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.11256878192608173,
+    "max_activation": 0.13720703125,
+    "std_when_active": 0.03238827770798966,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7688,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Highly",
+        "count": 5418,
+        "mean_activation": 0.12796128091005965
+      },
+      {
+        "token": " Beach",
+        "count": 1220,
+        "mean_activation": 0.081094235279521
+      },
+      {
+        "token": " highly",
+        "count": 404,
+        "mean_activation": 0.023964494761854114
+      },
+      {
+        "token": "out",
+        "count": 350,
+        "mean_activation": 0.10283721923828125
+      },
+      {
+        "token": "highly",
+        "count": 107,
+        "mean_activation": 0.041021044009199766
+      },
+      {
+        "token": " beach",
+        "count": 23,
+        "mean_activation": 0.020247749660326088
+      },
+      {
+        "token": " Health",
+        "count": 20,
+        "mean_activation": 0.0247955322265625
+      },
+      {
+        "token": " High",
+        "count": 12,
+        "mean_activation": 0.030297597249348957
+      },
+      {
+        "token": "anche",
+        "count": 9,
+        "mean_activation": 0.025997585720486112
+      },
+      {
+        "token": " Fully",
+        "count": 9,
+        "mean_activation": 0.023308648003472224
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7688,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...p tacos were great!** Highly** recommend those ove...",
+        "active_token": " Highly",
+        "activation": 0.1483154296875,
+        "review_id": "B7LfbNEyBJdtaWHQWl2gLA",
+        "position": 197
+      },
+      {
+        "context": "...t look really good.** Highly** recommend!",
+        "active_token": " Highly",
+        "activation": 0.14794921875,
+        "review_id": "V_xcbQnMuzFGx14ixHS44A",
+        "position": 76
+      },
+      {
+        "context": "...sauce is very good!** Highly** recommend.  It's a ...",
+        "active_token": " Highly",
+        "activation": 0.147705078125,
+        "review_id": "69Hrgy-H-7kUgEbaCWt3Ig",
+        "position": 16
+      },
+      {
+        "context": "...rthday dinner here.** Highly** highly recommend!! ...",
+        "active_token": " Highly",
+        "activation": 0.1473388671875,
+        "review_id": "hQaEVRzPxjAcvlbYMbJ55g",
+        "position": 76
+      },
+      {
+        "context": "...so much flavor too!** Highly** recommend giving it...",
+        "active_token": " Highly",
+        "activation": 0.1473388671875,
+        "review_id": "NCPJiaPDs5HvWxNE0G1Eug",
+        "position": 153
+      },
+      {
+        "context": "...n my taco cravings.** Highly** recommend this plac...",
+        "active_token": " Highly",
+        "activation": 0.147216796875,
+        "review_id": "T-Gh0OB9vGPR4Ydi51Amvg",
+        "position": 206
+      },
+      {
+        "context": "...aco looked amazing!** Highly** recommend!",
+        "active_token": " Highly",
+        "activation": 0.1468505859375,
+        "review_id": "DEkAHHwLxD5KuLrENsZ4Pw",
+        "position": 68
+      },
+      {
+        "context": "...as been stepped up!** Highly** recommend.",
+        "active_token": " Highly",
+        "activation": 0.1468505859375,
+        "review_id": "KBPGf4aocFXevrbHfJwACQ",
+        "position": 76
+      },
+      {
+        "context": "...t was so much food!** Highly** recommend the blue ...",
+        "active_token": " Highly",
+        "activation": 0.146728515625,
+        "review_id": "CMo_yogXDL7wTWZ9wRhNHA",
+        "position": 69
+      },
+      {
+        "context": "...avor, great people!** Highly** recommended. The on...",
+        "active_token": " Highly",
+        "activation": 0.146728515625,
+        "review_id": "6t3FMaRD3OinifS3OKqzbA",
+        "position": 13
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 12340,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1376,
+        "max": 0.1483,
+        "mean": 0.1405
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Highly",
+            " recommend"
+          ],
+          "ngram_str": " Highly recommend",
+          "count": 387,
+          "percent": 77.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly"
+          ],
+          "ngram_str": ". Highly",
+          "count": 235,
+          "percent": 47.0
+        },
+        {
+          "ngram": [
+            "!",
+            " Highly"
+          ],
+          "ngram_str": "! Highly",
+          "count": 188,
+          "percent": 37.6
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommended"
+          ],
+          "ngram_str": " Highly recommended",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            " recommend",
+            "!"
+          ],
+          "ngram_str": " recommend!",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " recommend",
+            "."
+          ],
+          "ngram_str": " recommend.",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " recommend",
+            " this"
+          ],
+          "ngram_str": " recommend this",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " recommend",
+            " the"
+          ],
+          "ngram_str": " recommend the",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " recommended",
+            "!"
+          ],
+          "ngram_str": " recommended!",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " recommended",
+            "."
+          ],
+          "ngram_str": " recommended.",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "!!",
+            " Highly"
+          ],
+          "ngram_str": "!! Highly",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " recommend",
+            " if"
+          ],
+          "ngram_str": " recommend if",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " recommend",
+            " for"
+          ],
+          "ngram_str": " recommend for",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommend"
+          ],
+          "ngram_str": ". Highly recommend",
+          "count": 171,
+          "percent": 34.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Highly",
+            " recommend"
+          ],
+          "ngram_str": "! Highly recommend",
+          "count": 154,
+          "percent": 30.8
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommend",
+            "!"
+          ],
+          "ngram_str": " Highly recommend!",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommend",
+            " this"
+          ],
+          "ngram_str": " Highly recommend this",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommend",
+            "."
+          ],
+          "ngram_str": " Highly recommend.",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommend",
+            " the"
+          ],
+          "ngram_str": " Highly recommend the",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommended"
+          ],
+          "ngram_str": ". Highly recommended",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " recommend",
+            " this",
+            " place"
+          ],
+          "ngram_str": " recommend this place",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommended",
+            "!"
+          ],
+          "ngram_str": " Highly recommended!",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "!",
+            " Highly",
+            " recommended"
+          ],
+          "ngram_str": "! Highly recommended",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommended",
+            "."
+          ],
+          "ngram_str": " Highly recommended.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "!!",
+            " Highly",
+            " recommend"
+          ],
+          "ngram_str": "!! Highly recommend",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommend",
+            " if"
+          ],
+          "ngram_str": " Highly recommend if",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " delicious",
+            "!",
+            " Highly"
+          ],
+          "ngram_str": " delicious! Highly",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " recommend",
+            " if",
+            " you"
+          ],
+          "ngram_str": " recommend if you",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " Highly",
+            " recommend",
+            " this",
+            " place"
+          ],
+          "ngram_str": " Highly recommend this place",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommend",
+            "!"
+          ],
+          "ngram_str": ". Highly recommend!",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "!",
+            " Highly",
+            " recommend",
+            " the"
+          ],
+          "ngram_str": "! Highly recommend the",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommend",
+            "."
+          ],
+          "ngram_str": ". Highly recommend.",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Highly",
+            " recommend",
+            "."
+          ],
+          "ngram_str": "! Highly recommend.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommend",
+            " this"
+          ],
+          "ngram_str": ". Highly recommend this",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            "!",
+            " Highly",
+            " recommend",
+            "!"
+          ],
+          "ngram_str": "! Highly recommend!",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Highly",
+            " recommend",
+            " this"
+          ],
+          "ngram_str": "! Highly recommend this",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommend",
+            " the"
+          ],
+          "ngram_str": ". Highly recommend the",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommended",
+            "!"
+          ],
+          "ngram_str": ". Highly recommended!",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Highly",
+            " recommend",
+            " if",
+            " you"
+          ],
+          "ngram_str": " Highly recommend if you",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " delicious",
+            "!",
+            " Highly",
+            " recommend"
+          ],
+          "ngram_str": " delicious! Highly recommend",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Highly",
+            " recommended",
+            "."
+          ],
+          "ngram_str": ". Highly recommended.",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " amazing",
+            "!",
+            " Highly",
+            " recommend"
+          ],
+          "ngram_str": " amazing! Highly recommend",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7688,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 19889,
+        "count": 5978,
+        "percent": 77.76
+      },
+      {
+        "feature_idx": 11106,
+        "count": 5950,
+        "percent": 77.39
+      },
+      {
+        "feature_idx": 11037,
+        "count": 5942,
+        "percent": 77.29
+      },
+      {
+        "feature_idx": 7831,
+        "count": 5933,
+        "percent": 77.17
+      },
+      {
+        "feature_idx": 16014,
+        "count": 5933,
+        "percent": 77.17
+      },
+      {
+        "feature_idx": 20127,
+        "count": 5929,
+        "percent": 77.12
+      },
+      {
+        "feature_idx": 6460,
+        "count": 5929,
+        "percent": 77.12
+      },
+      {
+        "feature_idx": 15851,
+        "count": 5912,
+        "percent": 76.9
+      },
+      {
+        "feature_idx": 24429,
+        "count": 5880,
+        "percent": 76.48
+      },
+      {
+        "feature_idx": 18177,
+        "count": 5756,
+        "percent": 74.87
+      },
+      {
+        "feature_idx": 2788,
+        "count": 5655,
+        "percent": 73.56
+      },
+      {
+        "feature_idx": 7846,
+        "count": 5648,
+        "percent": 73.47
+      },
+      {
+        "feature_idx": 23664,
+        "count": 5556,
+        "percent": 72.27
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5405,
+        "percent": 70.3
+      },
+      {
+        "feature_idx": 22688,
+        "count": 5218,
+        "percent": 67.87
+      },
+      {
+        "feature_idx": 8609,
+        "count": 4571,
+        "percent": 59.46
+      },
+      {
+        "feature_idx": 20204,
+        "count": 4560,
+        "percent": 59.31
+      },
+      {
+        "feature_idx": 6329,
+        "count": 4525,
+        "percent": 58.86
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4225,
+        "percent": 54.96
+      },
+      {
+        "feature_idx": 12563,
+        "count": 4064,
+        "percent": 52.86
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7688,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 862,
+        "percent": 11.21
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 684,
+        "percent": 8.9
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 785,
+        "percent": 10.21
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1137,
+        "percent": 14.79
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 4220,
+        "percent": 54.89
+      }
+    ],
+    "mean_position": 0.7048,
+    "std_position": 0.3017
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0849,
+      "p25": 0.1003,
+      "p50": 0.1237,
+      "p75": 0.1331,
+      "p90": 0.1366,
+      "p95": 0.1368,
+      "p99": 0.1371
+    },
+    "skewness": -1.9053,
+    "kurtosis": 2.988,
+    "min": 0.017,
+    "max": 0.1372,
+    "mean": 0.1126,
+    "std": 0.0324
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " Highly",
+        "count": 9,
+        "mean_activation": 0.13
+      },
+      {
+        "token": " Beach",
+        "count": 3,
+        "mean_activation": 0.092
+      },
+      {
+        "token": " highly",
+        "count": 1,
+        "mean_activation": 0.017
+      }
+    ]
+  }
+}

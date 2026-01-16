@@ -1,0 +1,876 @@
+{
+  "feature_idx": 1,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 36,
+    "mean_when_active": 0.06589508056640625,
+    "max_activation": 0.2607421875,
+    "std_when_active": 0.0580966355161567,
+    "activation_rate": 0.00036
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 15948,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " where",
+        "count": 6928,
+        "mean_activation": 0.07326564061999596
+      },
+      {
+        "token": " when",
+        "count": 2969,
+        "mean_activation": 0.046061275863775945
+      },
+      {
+        "token": " Where",
+        "count": 832,
+        "mean_activation": 0.24095777364877555
+      },
+      {
+        "token": " When",
+        "count": 642,
+        "mean_activation": 0.02084351180127105
+      },
+      {
+        "token": "when",
+        "count": 523,
+        "mean_activation": 0.0549544850453364
+      },
+      {
+        "token": "there",
+        "count": 486,
+        "mean_activation": 0.03117174376185539
+      },
+      {
+        "token": "where",
+        "count": 449,
+        "mean_activation": 0.12666103303565215
+      },
+      {
+        "token": "When",
+        "count": 292,
+        "mean_activation": 0.01958644553406598
+      },
+      {
+        "token": "Where",
+        "count": 235,
+        "mean_activation": 0.21731840093085106
+      },
+      {
+        "token": " Whenever",
+        "count": 226,
+        "mean_activation": 0.023940432388170632
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 15948,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... updating my review.** Where**'s the sweet, nice, ...",
+        "active_token": " Where",
+        "activation": 0.312744140625,
+        "review_id": "xZgfOfTzgF0KfSXix_3_tA",
+        "position": 8
+      },
+      {
+        "context": "...otle is amaze-balls.** Where** do I begin...\\n\\n-lon...",
+        "active_token": " Where",
+        "activation": 0.31201171875,
+        "review_id": "YT7zUPO-EQLapC71ROKfdA",
+        "position": 23
+      },
+      {
+        "context": "...ns of water content.** Where** this water came fro...",
+        "active_token": " Where",
+        "activation": 0.308349609375,
+        "review_id": "C6vN25SNYSOAlnBEUWUwvA",
+        "position": 119
+      },
+      {
+        "context": "...d the soursop juice.** Where** do I begin...this w...",
+        "active_token": " Where",
+        "activation": 0.3076171875,
+        "review_id": "ELC11Dj3GdWNOPqbisgFpA",
+        "position": 39
+      },
+      {
+        "context": "...alad that I ordered.** Where** is the salad part?!...",
+        "active_token": " Where",
+        "activation": 0.3037109375,
+        "review_id": "u9LWrYbQBVsRMD3j2kI-fw",
+        "position": 96
+      },
+      {
+        "context": "... me of tomato paste.** Where** was the lime, onion...",
+        "active_token": " Where",
+        "activation": 0.3037109375,
+        "review_id": "Atwxfh-y00FlKI2NimGq_A",
+        "position": 53
+      },
+      {
+        "context": "...nnessee hot chicken.** Where** there is use of map...",
+        "active_token": " Where",
+        "activation": 0.303466796875,
+        "review_id": "ZlDRE0trg0eACMvS3Aqy0w",
+        "position": 469
+      },
+      {
+        "context": "...D eat was delicious.** Where** the disappointment ...",
+        "active_token": " Where",
+        "activation": 0.30224609375,
+        "review_id": "csqJKFrffNaEWu335RS78Q",
+        "position": 41
+      },
+      {
+        "context": "... a salad bowl to me.** Where** is my salad? \\nMy fr...",
+        "active_token": " Where",
+        "activation": 0.301025390625,
+        "review_id": "d6KvqxOfl2GejAk-XxcnuA",
+        "position": 45
+      },
+      {
+        "context": "...nd shredded chicken.** Where** is the adobo? Where...",
+        "active_token": " Where",
+        "activation": 0.30078125,
+        "review_id": "2Ukim4N4CalLOdEnNYmmKw",
+        "position": 47
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 1,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2517,
+        "max": 0.3127,
+        "mean": 0.2717
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " Where"
+          ],
+          "ngram_str": ". Where",
+          "count": 288,
+          "percent": 57.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Where"
+          ],
+          "ngram_str": "  Where",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " can",
+            " you"
+          ],
+          "ngram_str": " can you",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " the"
+          ],
+          "ngram_str": "'s the",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " Where",
+            "'s"
+          ],
+          "ngram_str": " Where's",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " Where",
+            " is"
+          ],
+          "ngram_str": " Where is",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " Where",
+            " else"
+          ],
+          "ngram_str": " Where else",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " else",
+            " can"
+          ],
+          "ngram_str": " else can",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " is",
+            " the"
+          ],
+          "ngram_str": " is the",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Where"
+          ],
+          "ngram_str": "\u012cWhere",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " you",
+            " get"
+          ],
+          "ngram_str": " you get",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " Where",
+            " do"
+          ],
+          "ngram_str": " Where do",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Where"
+          ],
+          "ngram_str": ".  Where",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " else",
+            " can",
+            " you"
+          ],
+          "ngram_str": " else can you",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " Where",
+            "'s",
+            " the"
+          ],
+          "ngram_str": " Where's the",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " is"
+          ],
+          "ngram_str": ". Where is",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " Where",
+            " is",
+            " the"
+          ],
+          "ngram_str": " Where is the",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " Where",
+            " else",
+            " can"
+          ],
+          "ngram_str": " Where else can",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            "'s"
+          ],
+          "ngram_str": ". Where's",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " else"
+          ],
+          "ngram_str": ". Where else",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Where"
+          ],
+          "ngram_str": "\u00c4\u012cWhere",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " can",
+            " you",
+            " get"
+          ],
+          "ngram_str": " can you get",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " Where",
+            " do",
+            " I"
+          ],
+          "ngram_str": " Where do I",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " Where",
+            " was",
+            " the"
+          ],
+          "ngram_str": " Where was the",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " do"
+          ],
+          "ngram_str": ". Where do",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " I"
+          ],
+          "ngram_str": ". Where I",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " Where",
+            " else",
+            " can",
+            " you"
+          ],
+          "ngram_str": " Where else can you",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Where"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cWhere",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            "'s",
+            " the"
+          ],
+          "ngram_str": ". Where's the",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " else",
+            " can",
+            " you",
+            " get"
+          ],
+          "ngram_str": " else can you get",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " is",
+            " the"
+          ],
+          "ngram_str": ". Where is the",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " else",
+            " can"
+          ],
+          "ngram_str": ". Where else can",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " do",
+            " I"
+          ],
+          "ngram_str": ". Where do I",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " was",
+            " the"
+          ],
+          "ngram_str": ". Where was the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Where",
+            " to",
+            " start"
+          ],
+          "ngram_str": ". Where to start",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " Where",
+            " do",
+            " I",
+            " start"
+          ],
+          "ngram_str": " Where do I start",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Where",
+            "'s"
+          ],
+          "ngram_str": ".  Where's",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 32400000,
+      "corpus_coverage": 0.6267
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 7126,
+        "count": 8004,
+        "percent": 80.04
+      },
+      {
+        "feature_idx": 1745,
+        "count": 5571,
+        "percent": 55.71
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4741,
+        "percent": 47.41
+      },
+      {
+        "feature_idx": 10884,
+        "count": 4266,
+        "percent": 42.66
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3824,
+        "percent": 38.24
+      },
+      {
+        "feature_idx": 20688,
+        "count": 3806,
+        "percent": 38.06
+      },
+      {
+        "feature_idx": 24066,
+        "count": 3756,
+        "percent": 37.56
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3589,
+        "percent": 35.89
+      },
+      {
+        "feature_idx": 19311,
+        "count": 3284,
+        "percent": 32.84
+      },
+      {
+        "feature_idx": 8757,
+        "count": 3052,
+        "percent": 30.52
+      },
+      {
+        "feature_idx": 16374,
+        "count": 2997,
+        "percent": 29.97
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2876,
+        "percent": 28.76
+      },
+      {
+        "feature_idx": 14467,
+        "count": 2795,
+        "percent": 27.95
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2672,
+        "percent": 26.72
+      },
+      {
+        "feature_idx": 6473,
+        "count": 2606,
+        "percent": 26.06
+      },
+      {
+        "feature_idx": 1274,
+        "count": 2550,
+        "percent": 25.5
+      },
+      {
+        "feature_idx": 23840,
+        "count": 2449,
+        "percent": 24.49
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2447,
+        "percent": 24.47
+      },
+      {
+        "feature_idx": 14371,
+        "count": 2360,
+        "percent": 23.6
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2347,
+        "percent": 23.47
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 32400000,
+      "corpus_coverage": 0.6267
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2305,
+        "percent": 23.05
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2202,
+        "percent": 22.02
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2005,
+        "percent": 20.05
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1922,
+        "percent": 19.22
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1566,
+        "percent": 15.66
+      }
+    ],
+    "mean_position": 0.4622,
+    "std_position": 0.2804
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 36,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0237,
+      "p25": 0.0275,
+      "p50": 0.0431,
+      "p75": 0.0809,
+      "p90": 0.1179,
+      "p95": 0.2072,
+      "p99": 0.252
+    },
+    "skewness": 1.973,
+    "kurtosis": 3.4488,
+    "min": 0.0137,
+    "max": 0.2607,
+    "mean": 0.0659,
+    "std": 0.0581
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 36,
+      "unique_tokens_found": 11
+    },
+    "tokens": [
+      {
+        "token": " where",
+        "count": 16,
+        "mean_activation": 0.0585
+      },
+      {
+        "token": " when",
+        "count": 5,
+        "mean_activation": 0.0444
+      },
+      {
+        "token": " Where",
+        "count": 4,
+        "mean_activation": 0.2
+      },
+      {
+        "token": "when",
+        "count": 3,
+        "mean_activation": 0.0564
+      },
+      {
+        "token": "When",
+        "count": 2,
+        "mean_activation": 0.0141
+      },
+      {
+        "token": "there",
+        "count": 1,
+        "mean_activation": 0.0373
+      },
+      {
+        "token": " Whenever",
+        "count": 1,
+        "mean_activation": 0.0271
+      },
+      {
+        "token": " else",
+        "count": 1,
+        "mean_activation": 0.0632
+      },
+      {
+        "token": "how",
+        "count": 1,
+        "mean_activation": 0.023
+      },
+      {
+        "token": " Heck",
+        "count": 1,
+        "mean_activation": 0.0245
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 9436,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 52,
+    "mean_when_active": 0.0661154526930589,
+    "max_activation": 0.2230224609375,
+    "std_when_active": 0.04334216160463847,
+    "activation_rate": 0.00052
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 33721,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " case",
+        "count": 3525,
+        "mean_activation": 0.10207893966783023
+      },
+      {
+        "token": " situation",
+        "count": 2097,
+        "mean_activation": 0.07789451006087565
+      },
+      {
+        "token": " picture",
+        "count": 1862,
+        "mean_activation": 0.04215746100043636
+      },
+      {
+        "token": " story",
+        "count": 1654,
+        "mean_activation": 0.10777930336967201
+      },
+      {
+        "token": " scene",
+        "count": 1561,
+        "mean_activation": 0.07822404039127562
+      },
+      {
+        "token": " example",
+        "count": 1246,
+        "mean_activation": 0.12644945025252682
+      },
+      {
+        "token": " issue",
+        "count": 1188,
+        "mean_activation": 0.032887776692708336
+      },
+      {
+        "token": " complaint",
+        "count": 1122,
+        "mean_activation": 0.043890743969596004
+      },
+      {
+        "token": " news",
+        "count": 674,
+        "mean_activation": 0.06514715087166172
+      },
+      {
+        "token": " occasion",
+        "count": 613,
+        "mean_activation": 0.04417237722076366
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 33721,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...\\n\\nThis is a textbook** case** for one of the resta...",
+        "active_token": " case",
+        "activation": 0.32763671875,
+        "review_id": "cHqLaG-aHIISHUOKW4ELtw",
+        "position": 793
+      },
+      {
+        "context": "...ng time, a real life** case** of Snapped just occu...",
+        "active_token": " case",
+        "activation": 0.307861328125,
+        "review_id": "rYaaGupGwAhQ1fAkccF77Q",
+        "position": 363
+      },
+      {
+        "context": "... \\n\\nThis is a classic** case** of I wish Yelp allow...",
+        "active_token": " case",
+        "activation": 0.301513671875,
+        "review_id": "4GtCFLXPVSy5uRUqeIRcjw",
+        "position": 76
+      },
+      {
+        "context": "... convenience. A true** case** study in operations ...",
+        "active_token": " case",
+        "activation": 0.29833984375,
+        "review_id": "whTgz3VhDKivssbDyor0ug",
+        "position": 144
+      },
+      {
+        "context": "...5\\n\\nThis is a classic** case** of the need for half...",
+        "active_token": " case",
+        "activation": 0.29541015625,
+        "review_id": "5ktEriOVIc_J23u-fmKVcg",
+        "position": 8
+      },
+      {
+        "context": "...ppears to be another** case** corporate greed vers...",
+        "active_token": " case",
+        "activation": 0.293701171875,
+        "review_id": "Tj1BbAxN6gn-ewERnkzk6Q",
+        "position": 182
+      },
+      {
+        "context": "Here is another** case** of great parts not a...",
+        "active_token": " case",
+        "activation": 0.2919921875,
+        "review_id": "vaZ1ZgCD5PsaYtU-G4729A",
+        "position": 3
+      },
+      {
+        "context": "...e this location as a** case** study in determining...",
+        "active_token": " case",
+        "activation": 0.287841796875,
+        "review_id": "rDT-lmgnIb3ILv9UR077KA",
+        "position": 7
+      },
+      {
+        "context": "...achos.  Just another** case** of a mistaken order,...",
+        "active_token": " case",
+        "activation": 0.287841796875,
+        "review_id": "e3wTxEEXLBPnZ2mnmZSCag",
+        "position": 209
+      },
+      {
+        "context": "...ave been an isolated** case** on this particular d...",
+        "active_token": " case",
+        "activation": 0.284912109375,
+        "review_id": "IBMamyuf844INCfojQkmtw",
+        "position": 146
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 9436,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2139,
+        "max": 0.3276,
+        "mean": 0.2364
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " example",
+            " of"
+          ],
+          "ngram_str": " example of",
+          "count": 168,
+          "percent": 33.6
+        },
+        {
+          "ngram": [
+            " case",
+            " of"
+          ],
+          "ngram_str": " case of",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 101,
+          "percent": 20.2
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " a",
+            " case"
+          ],
+          "ngram_str": " a case",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " perfect",
+            " example"
+          ],
+          "ngram_str": " perfect example",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " great",
+            " example"
+          ],
+          "ngram_str": " great example",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " in",
+            " point"
+          ],
+          "ngram_str": " in point",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " of",
+            " a"
+          ],
+          "ngram_str": " of a",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " a",
+            " great"
+          ],
+          "ngram_str": " a great",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " This",
+            " is"
+          ],
+          "ngram_str": " This is",
+          "count": 28,
+          "percent": 5.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " a",
+            " case",
+            " of"
+          ],
+          "ngram_str": " a case of",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " perfect",
+            " example",
+            " of"
+          ],
+          "ngram_str": " perfect example of",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " great",
+            " example",
+            " of"
+          ],
+          "ngram_str": " great example of",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " a",
+            " great",
+            " example"
+          ],
+          "ngram_str": " a great example",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " Case",
+            " in",
+            " point"
+          ],
+          "ngram_str": " Case in point",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " a",
+            " perfect",
+            " example"
+          ],
+          "ngram_str": " a perfect example",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " example",
+            " of",
+            " a"
+          ],
+          "ngram_str": " example of a",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " great"
+          ],
+          "ngram_str": " is a great",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " perfect"
+          ],
+          "ngram_str": " is a perfect",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " This",
+            " is",
+            " a"
+          ],
+          "ngram_str": " This is a",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " case",
+            " of",
+            " food"
+          ],
+          "ngram_str": " case of food",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " case",
+            " of",
+            " the"
+          ],
+          "ngram_str": " case of the",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " perfect",
+            " example"
+          ],
+          "ngram_str": " is a perfect example",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " a",
+            " great",
+            " example",
+            " of"
+          ],
+          "ngram_str": " a great example of",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " great",
+            " example"
+          ],
+          "ngram_str": " is a great example",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " a",
+            " perfect",
+            " example",
+            " of"
+          ],
+          "ngram_str": " a perfect example of",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " case",
+            " of",
+            " food",
+            " poisoning"
+          ],
+          "ngram_str": " case of food poisoning",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Case",
+            " in",
+            " point"
+          ],
+          "ngram_str": ". Case in point",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " a",
+            " prime",
+            " example",
+            " of"
+          ],
+          "ngram_str": " a prime example of",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Case"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cCase",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " the",
+            " perfect",
+            " example",
+            " of"
+          ],
+          "ngram_str": " the perfect example of",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " Case",
+            " in",
+            " point",
+            ","
+          ],
+          "ngram_str": " Case in point,",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " prime",
+            " example"
+          ],
+          "ngram_str": " is a prime example",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "This",
+            " is"
+          ],
+          "ngram_str": "\u00c4\u012cThis is",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15500000,
+      "corpus_coverage": 0.2998
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5873,
+        "percent": 58.73
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3379,
+        "percent": 33.79
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3011,
+        "percent": 30.11
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2714,
+        "percent": 27.14
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2711,
+        "percent": 27.11
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2543,
+        "percent": 25.43
+      },
+      {
+        "feature_idx": 1938,
+        "count": 2338,
+        "percent": 23.38
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2238,
+        "percent": 22.38
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2167,
+        "percent": 21.67
+      },
+      {
+        "feature_idx": 11738,
+        "count": 1723,
+        "percent": 17.23
+      },
+      {
+        "feature_idx": 20403,
+        "count": 1572,
+        "percent": 15.72
+      },
+      {
+        "feature_idx": 305,
+        "count": 1349,
+        "percent": 13.49
+      },
+      {
+        "feature_idx": 10847,
+        "count": 1317,
+        "percent": 13.17
+      },
+      {
+        "feature_idx": 18503,
+        "count": 1309,
+        "percent": 13.09
+      },
+      {
+        "feature_idx": 8309,
+        "count": 1268,
+        "percent": 12.68
+      },
+      {
+        "feature_idx": 5665,
+        "count": 1264,
+        "percent": 12.64
+      },
+      {
+        "feature_idx": 2017,
+        "count": 1250,
+        "percent": 12.5
+      },
+      {
+        "feature_idx": 14918,
+        "count": 1210,
+        "percent": 12.1
+      },
+      {
+        "feature_idx": 22217,
+        "count": 1179,
+        "percent": 11.79
+      },
+      {
+        "feature_idx": 1625,
+        "count": 1148,
+        "percent": 11.48
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 15500000,
+      "corpus_coverage": 0.2998
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2095,
+        "percent": 20.95
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1812,
+        "percent": 18.12
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1786,
+        "percent": 17.86
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2030,
+        "percent": 20.3
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2277,
+        "percent": 22.77
+      }
+    ],
+    "mean_position": 0.5109,
+    "std_position": 0.3009
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 52,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0268,
+      "p25": 0.0346,
+      "p50": 0.0474,
+      "p75": 0.0915,
+      "p90": 0.1287,
+      "p95": 0.135,
+      "p99": 0.1842
+    },
+    "skewness": 1.1919,
+    "kurtosis": 1.4268,
+    "min": 0.0138,
+    "max": 0.223,
+    "mean": 0.0661,
+    "std": 0.0433
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 52,
+      "unique_tokens_found": 27
+    },
+    "tokens": [
+      {
+        "token": " case",
+        "count": 6,
+        "mean_activation": 0.1097
+      },
+      {
+        "token": " situation",
+        "count": 5,
+        "mean_activation": 0.0694
+      },
+      {
+        "token": " story",
+        "count": 5,
+        "mean_activation": 0.1181
+      },
+      {
+        "token": " scene",
+        "count": 4,
+        "mean_activation": 0.0751
+      },
+      {
+        "token": " picture",
+        "count": 3,
+        "mean_activation": 0.0346
+      },
+      {
+        "token": " example",
+        "count": 2,
+        "mean_activation": 0.1439
+      },
+      {
+        "token": " complaint",
+        "count": 2,
+        "mean_activation": 0.0325
+      },
+      {
+        "token": " location",
+        "count": 2,
+        "mean_activation": 0.0159
+      },
+      {
+        "token": " complaints",
+        "count": 2,
+        "mean_activation": 0.0256
+      },
+      {
+        "token": " exception",
+        "count": 2,
+        "mean_activation": 0.0523
+      }
+    ]
+  }
+}

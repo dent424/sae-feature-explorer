@@ -1,0 +1,876 @@
+{
+  "feature_idx": 18094,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 393,
+    "mean_when_active": 0.05510981513647026,
+    "max_activation": 0.1820068359375,
+    "std_when_active": 0.033732696996108265,
+    "activation_rate": 0.00393
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 11200000,
+      "corpus_coverage": 0.2166
+    },
+    "top_tokens": [
+      {
+        "token": " beans",
+        "count": 1294,
+        "mean_activation": 0.0640648572116952
+      },
+      {
+        "token": " tacos",
+        "count": 1285,
+        "mean_activation": 0.05916868870360378
+      },
+      {
+        "token": " cheese",
+        "count": 1217,
+        "mean_activation": 0.06267581460117412
+      },
+      {
+        "token": "os",
+        "count": 1201,
+        "mean_activation": 0.08723729218571112
+      },
+      {
+        "token": "itas",
+        "count": 1104,
+        "mean_activation": 0.06360820410908133
+      },
+      {
+        "token": "ole",
+        "count": 986,
+        "mean_activation": 0.07515522335895902
+      },
+      {
+        "token": " salsa",
+        "count": 949,
+        "mean_activation": 0.054166088365528685
+      },
+      {
+        "token": "o",
+        "count": 921,
+        "mean_activation": 0.058676960931668194
+      },
+      {
+        "token": " chicken",
+        "count": 916,
+        "mean_activation": 0.05296221570677112
+      },
+      {
+        "token": " service",
+        "count": 820,
+        "mean_activation": 0.03657238657881574
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 11200000,
+      "corpus_coverage": 0.2166
+    },
+    "activations": [
+      {
+        "context": "...cucumbers, onions, ol**ives** and more. Each item,...",
+        "active_token": "ives",
+        "activation": 0.1964111328125,
+        "review_id": "T4JxPLczhk-Kr35bnzVb-Q",
+        "position": 145
+      },
+      {
+        "context": "...jicima, oranges, avoc**ados** and melons were avai...",
+        "active_token": "ados",
+        "activation": 0.1962890625,
+        "review_id": "UBpe0mz_jkcSNqJb3Q4qgA",
+        "position": 317
+      },
+      {
+        "context": "..., black beans, pinto** beans**, chicken, spicy ste...",
+        "active_token": " beans",
+        "activation": 0.1962890625,
+        "review_id": "dj2bxl6qilZLqDfG0C0jhw",
+        "position": 50
+      },
+      {
+        "context": "...ttuce, tomato, guacam**ole** and others). There bu...",
+        "active_token": "ole",
+        "activation": 0.1923828125,
+        "review_id": "4e7lXq-s9UDRwCJrcAY4xw",
+        "position": 52
+      },
+      {
+        "context": "...ike lemons, limes, ol**ives**, celery, hot sauce, ...",
+        "active_token": "ives",
+        "activation": 0.1875,
+        "review_id": "wwt28qW3iFinti-qj7ekNg",
+        "position": 162
+      },
+      {
+        "context": "...es,  BBQ, artichoke** hearts**, cumin-corn relish,...",
+        "active_token": " hearts",
+        "activation": 0.1873779296875,
+        "review_id": "Y3LzDJccF6TbgispkFUvTQ",
+        "position": 47
+      },
+      {
+        "context": "...ers, peas, onions, ol**ives**, and capers.  The fi...",
+        "active_token": "ives",
+        "activation": 0.187255859375,
+        "review_id": "Aamo3-2k-u7x-ytETul57Q",
+        "position": 156
+      },
+      {
+        "context": "... Mexico, Dominican** Republic**) Very Authentic Fl...",
+        "active_token": " Republic",
+        "activation": 0.1866455078125,
+        "review_id": "cJzQqTorbaFcE0hXdxPziw",
+        "position": 59
+      },
+      {
+        "context": "...rs, corn, lettuce, ol**ives**, sour cream, guacamo...",
+        "active_token": "ives",
+        "activation": 0.1859130859375,
+        "review_id": "5K7SETeQGqgQzV39EQBiGg",
+        "position": 165
+      },
+      {
+        "context": "...s, Chimichanga, Burrit**os**, Antojitas, Tortas an...",
+        "active_token": "os",
+        "activation": 0.185791015625,
+        "review_id": "eQldt57aYDuE3UO_AapRtA",
+        "position": 47
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 18094,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 22400000,
+      "corpus_coverage": 0.4332,
+      "activation_range": {
+        "min": 0.1593,
+        "max": 0.1964,
+        "mean": 0.168
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "os",
+            ","
+          ],
+          "ngram_str": "os,",
+          "count": 125,
+          "percent": 25.0
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac"
+          ],
+          "ngram_str": " guac",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            ",",
+            " gu"
+          ],
+          "ngram_str": ", gu",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            "ac",
+            "am"
+          ],
+          "ngram_str": "acam",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            "am",
+            "ole"
+          ],
+          "ngram_str": "amole",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            "rit",
+            "os"
+          ],
+          "ngram_str": "ritos",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            "ole",
+            ","
+          ],
+          "ngram_str": "ole,",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            "ad",
+            "illas"
+          ],
+          "ngram_str": "adillas",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " tacos",
+            ","
+          ],
+          "ngram_str": " tacos,",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " bur",
+            "rit"
+          ],
+          "ngram_str": " burrit",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            ",",
+            " bur"
+          ],
+          "ngram_str": ", bur",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " qu",
+            "es"
+          ],
+          "ngram_str": " ques",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            "es",
+            "ad"
+          ],
+          "ngram_str": "esad",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "as",
+            ","
+          ],
+          "ngram_str": "as,",
+          "count": 47,
+          "percent": 9.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ",",
+            " gu",
+            "ac"
+          ],
+          "ngram_str": ", guac",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am"
+          ],
+          "ngram_str": " guacam",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": "acamole",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            "am",
+            "ole",
+            ","
+          ],
+          "ngram_str": "amole,",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " bur",
+            "rit",
+            "os"
+          ],
+          "ngram_str": " burritos",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            ",",
+            " bur",
+            "rit"
+          ],
+          "ngram_str": ", burrit",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            "rit",
+            "os",
+            ","
+          ],
+          "ngram_str": "ritos,",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "ad"
+          ],
+          "ngram_str": " quesad",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            "es",
+            "ad",
+            "illas"
+          ],
+          "ngram_str": "esadillas",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ",",
+            " qu",
+            "es"
+          ],
+          "ngram_str": ", ques",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            "ad",
+            "illas",
+            ","
+          ],
+          "ngram_str": "adillas,",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " n",
+            "ach",
+            "os"
+          ],
+          "ngram_str": " nachos",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "ach",
+            "os",
+            ","
+          ],
+          "ngram_str": "achos,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " tacos",
+            ",",
+            " bur"
+          ],
+          "ngram_str": " tacos, bur",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "os",
+            ",",
+            " qu"
+          ],
+          "ngram_str": "os, qu",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": " guacamole",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            ",",
+            " gu",
+            "ac",
+            "am"
+          ],
+          "ngram_str": ", guacam",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole",
+            ","
+          ],
+          "ngram_str": "acamole,",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            ",",
+            " bur",
+            "rit",
+            "os"
+          ],
+          "ngram_str": ", burritos",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "ad",
+            "illas"
+          ],
+          "ngram_str": " quesadillas",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ",",
+            " qu",
+            "es",
+            "ad"
+          ],
+          "ngram_str": ", quesad",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " bur",
+            "rit",
+            "os",
+            ","
+          ],
+          "ngram_str": " burritos,",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "es",
+            "ad",
+            "illas",
+            ","
+          ],
+          "ngram_str": "esadillas,",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " tacos",
+            ",",
+            " bur",
+            "rit"
+          ],
+          "ngram_str": " tacos, burrit",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "os",
+            ",",
+            " qu",
+            "es"
+          ],
+          "ngram_str": "os, ques",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "am",
+            "ole",
+            ",",
+            " and"
+          ],
+          "ngram_str": "amole, and",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " n",
+            "ach",
+            "os"
+          ],
+          "ngram_str": ", nachos",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " n",
+            "ach",
+            "os",
+            ","
+          ],
+          "ngram_str": " nachos,",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " en",
+            "ch",
+            "il",
+            "adas"
+          ],
+          "ngram_str": " enchiladas",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole",
+            " and"
+          ],
+          "ngram_str": "acamole and",
+          "count": 15,
+          "percent": 3.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2400000,
+      "corpus_coverage": 0.0464
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 10617,
+        "count": 8520,
+        "percent": 85.2
+      },
+      {
+        "feature_idx": 1390,
+        "count": 7732,
+        "percent": 77.32
+      },
+      {
+        "feature_idx": 10112,
+        "count": 5752,
+        "percent": 57.52
+      },
+      {
+        "feature_idx": 10019,
+        "count": 5284,
+        "percent": 52.84
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5165,
+        "percent": 51.65
+      },
+      {
+        "feature_idx": 5196,
+        "count": 5069,
+        "percent": 50.69
+      },
+      {
+        "feature_idx": 11763,
+        "count": 4919,
+        "percent": 49.19
+      },
+      {
+        "feature_idx": 1890,
+        "count": 4382,
+        "percent": 43.82
+      },
+      {
+        "feature_idx": 9513,
+        "count": 3934,
+        "percent": 39.34
+      },
+      {
+        "feature_idx": 14132,
+        "count": 3499,
+        "percent": 34.99
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3304,
+        "percent": 33.04
+      },
+      {
+        "feature_idx": 18503,
+        "count": 3202,
+        "percent": 32.02
+      },
+      {
+        "feature_idx": 23107,
+        "count": 3166,
+        "percent": 31.66
+      },
+      {
+        "feature_idx": 21958,
+        "count": 3163,
+        "percent": 31.63
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2933,
+        "percent": 29.33
+      },
+      {
+        "feature_idx": 19926,
+        "count": 2905,
+        "percent": 29.05
+      },
+      {
+        "feature_idx": 20798,
+        "count": 2870,
+        "percent": 28.7
+      },
+      {
+        "feature_idx": 9694,
+        "count": 2712,
+        "percent": 27.12
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2708,
+        "percent": 27.08
+      },
+      {
+        "feature_idx": 8649,
+        "count": 2449,
+        "percent": 24.49
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2400000,
+      "corpus_coverage": 0.0464
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1317,
+        "percent": 13.17
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2700,
+        "percent": 27.0
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2784,
+        "percent": 27.84
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2155,
+        "percent": 21.55
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1044,
+        "percent": 10.44
+      }
+    ],
+    "mean_position": 0.4777,
+    "std_position": 0.2338
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 393,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0214,
+      "p25": 0.0283,
+      "p50": 0.0447,
+      "p75": 0.0761,
+      "p90": 0.1077,
+      "p95": 0.1242,
+      "p99": 0.1447
+    },
+    "skewness": 1.0133,
+    "kurtosis": 0.2806,
+    "min": 0.0096,
+    "max": 0.182,
+    "mean": 0.0551,
+    "std": 0.0337
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 393,
+      "unique_tokens_found": 216
+    },
+    "tokens": [
+      {
+        "token": " cheese",
+        "count": 11,
+        "mean_activation": 0.0647
+      },
+      {
+        "token": "o",
+        "count": 11,
+        "mean_activation": 0.0451
+      },
+      {
+        "token": " rice",
+        "count": 10,
+        "mean_activation": 0.0447
+      },
+      {
+        "token": "os",
+        "count": 9,
+        "mean_activation": 0.0818
+      },
+      {
+        "token": " beans",
+        "count": 9,
+        "mean_activation": 0.063
+      },
+      {
+        "token": " tacos",
+        "count": 8,
+        "mean_activation": 0.0639
+      },
+      {
+        "token": " salsa",
+        "count": 8,
+        "mean_activation": 0.0355
+      },
+      {
+        "token": "as",
+        "count": 7,
+        "mean_activation": 0.0841
+      },
+      {
+        "token": "itas",
+        "count": 7,
+        "mean_activation": 0.0742
+      },
+      {
+        "token": "ole",
+        "count": 7,
+        "mean_activation": 0.0726
+      }
+    ]
+  }
+}

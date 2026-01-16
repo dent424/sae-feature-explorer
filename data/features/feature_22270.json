@@ -1,0 +1,876 @@
+{
+  "feature_idx": 22270,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 13,
+    "mean_when_active": 0.07062119704026443,
+    "max_activation": 0.20947265625,
+    "std_when_active": 0.05943813974860061,
+    "activation_rate": 0.00013
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 4725,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " recent",
+        "count": 1041,
+        "mean_activation": 0.17458007841815637
+      },
+      {
+        "token": " first",
+        "count": 551,
+        "mean_activation": 0.03495960270211831
+      },
+      {
+        "token": " recently",
+        "count": 527,
+        "mean_activation": 0.11407653113696335
+      },
+      {
+        "token": " latest",
+        "count": 348,
+        "mean_activation": 0.17303800034797054
+      },
+      {
+        "token": " newest",
+        "count": 259,
+        "mean_activation": 0.0854095105498914
+      },
+      {
+        "token": " popular",
+        "count": 142,
+        "mean_activation": 0.04273621465118838
+      },
+      {
+        "token": " visit",
+        "count": 129,
+        "mean_activation": 0.022951407025950825
+      },
+      {
+        "token": "rived",
+        "count": 113,
+        "mean_activation": 0.02166748046875
+      },
+      {
+        "token": " ever",
+        "count": 111,
+        "mean_activation": 0.043575115032024214
+      },
+      {
+        "token": " last",
+        "count": 87,
+        "mean_activation": 0.02748528842268319
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 4725,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... NAILED it). \\n\\nMost** recent** visit 8/26/18 John ...",
+        "active_token": " recent",
+        "activation": 0.2880859375,
+        "review_id": "4LmKM_d_Jr_arH4iVNjxXA",
+        "position": 79
+      },
+      {
+        "context": "... *twice*.  The most** recent** time was because fr...",
+        "active_token": " recent",
+        "activation": 0.278076171875,
+        "review_id": "3OJx2OgYOWhp4eH554IdNQ",
+        "position": 29
+      },
+      {
+        "context": "...re delicious!\\n\\nMost** recent** experience was awes...",
+        "active_token": " recent",
+        "activation": 0.277099609375,
+        "review_id": "b0g9JmB6zUiZIDNNkmhxdQ",
+        "position": 70
+      },
+      {
+        "context": "...he years.  The most** recent** switch came after a...",
+        "active_token": " recent",
+        "activation": 0.27685546875,
+        "review_id": "FL0k5eLsi4vhMM5IzHvHSw",
+        "position": 15
+      },
+      {
+        "context": "... both times.   Most** recent** was this past Thurs...",
+        "active_token": " recent",
+        "activation": 0.27392578125,
+        "review_id": "EVDG5lOAUvp6PR7D0oSS5A",
+        "position": 31
+      },
+      {
+        "context": "... I got twice.  Most** recent** time got a goat che...",
+        "active_token": " recent",
+        "activation": 0.272216796875,
+        "review_id": "csU5UYfGi24huNISZ5Ebiw",
+        "position": 44
+      },
+      {
+        "context": "...al years.  Our most** recent** trip this past week...",
+        "active_token": " recent",
+        "activation": 0.27099609375,
+        "review_id": "y-N-kDAJ2NNUeAbaPy8-Hw",
+        "position": 62
+      },
+      {
+        "context": "...re delicious.\\n\\nMost** recent** visit coincided wit...",
+        "active_token": " recent",
+        "activation": 0.27099609375,
+        "review_id": "LpNLTwx0pevXpYn6dJ--mg",
+        "position": 155
+      },
+      {
+        "context": "...e past months. Most** recent** last evening around...",
+        "active_token": " recent",
+        "activation": 0.269775390625,
+        "review_id": "xkP0Ig75lAM_Q8Gei3hL0A",
+        "position": 10
+      },
+      {
+        "context": "...e times but my most** recent** visit was on the fr...",
+        "active_token": " recent",
+        "activation": 0.268798828125,
+        "review_id": "RFSC2nGgD45MCmYLzoJggg",
+        "position": 24
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 22270,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.213,
+        "max": 0.2881,
+        "mean": 0.234
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " most",
+            " recent"
+          ],
+          "ngram_str": " most recent",
+          "count": 448,
+          "percent": 89.6
+        },
+        {
+          "ngram": [
+            " recent",
+            " visit"
+          ],
+          "ngram_str": " recent visit",
+          "count": 210,
+          "percent": 42.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 138,
+          "percent": 27.6
+        },
+        {
+          "ngram": [
+            " my",
+            " most"
+          ],
+          "ngram_str": " my most",
+          "count": 135,
+          "percent": 27.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " My",
+            " most"
+          ],
+          "ngram_str": " My most",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " recent",
+            " time"
+          ],
+          "ngram_str": " recent time",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " visit",
+            " was"
+          ],
+          "ngram_str": " visit was",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " our",
+            " most"
+          ],
+          "ngram_str": " our most",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            ".",
+            " My"
+          ],
+          "ngram_str": ". My",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " recent",
+            " trip"
+          ],
+          "ngram_str": " recent trip",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " visit",
+            ","
+          ],
+          "ngram_str": " visit,",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " The",
+            " most"
+          ],
+          "ngram_str": " The most",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " the",
+            " most"
+          ],
+          "ngram_str": " the most",
+          "count": 44,
+          "percent": 8.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " visit"
+          ],
+          "ngram_str": " most recent visit",
+          "count": 202,
+          "percent": 40.4
+        },
+        {
+          "ngram": [
+            " my",
+            " most",
+            " recent"
+          ],
+          "ngram_str": " my most recent",
+          "count": 135,
+          "percent": 27.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " My",
+            " most",
+            " recent"
+          ],
+          "ngram_str": " My most recent",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " time"
+          ],
+          "ngram_str": " most recent time",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " recent",
+            " visit",
+            " was"
+          ],
+          "ngram_str": " recent visit was",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " our",
+            " most",
+            " recent"
+          ],
+          "ngram_str": " our most recent",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " most"
+          ],
+          "ngram_str": ". My most",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " trip"
+          ],
+          "ngram_str": " most recent trip",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " recent",
+            " visit",
+            ","
+          ],
+          "ngram_str": " recent visit,",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " The",
+            " most",
+            " recent"
+          ],
+          "ngram_str": " The most recent",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " the",
+            " most",
+            " recent"
+          ],
+          "ngram_str": " the most recent",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " experience"
+          ],
+          "ngram_str": " most recent experience",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " most"
+          ],
+          "ngram_str": ". The most",
+          "count": 35,
+          "percent": 7.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " my",
+            " most",
+            " recent",
+            " visit"
+          ],
+          "ngram_str": " my most recent visit",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " visit",
+            " was"
+          ],
+          "ngram_str": " most recent visit was",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " most",
+            " recent"
+          ],
+          "ngram_str": ". My most recent",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " visit",
+            ","
+          ],
+          "ngram_str": " most recent visit,",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " most",
+            " recent"
+          ],
+          "ngram_str": ". The most recent",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " our",
+            " most",
+            " recent",
+            " visit"
+          ],
+          "ngram_str": " our most recent visit",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " My",
+            " most",
+            " recent",
+            " visit"
+          ],
+          "ngram_str": " My most recent visit",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " On",
+            " my",
+            " most",
+            " recent"
+          ],
+          "ngram_str": " On my most recent",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " The",
+            " most",
+            " recent",
+            " time"
+          ],
+          "ngram_str": " The most recent time",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " visit",
+            " I"
+          ],
+          "ngram_str": " most recent visit I",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "My",
+            " most",
+            " recent"
+          ],
+          "ngram_str": "\u012cMy most recent",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " most",
+            " recent",
+            " time",
+            " I"
+          ],
+          "ngram_str": " most recent time I",
+          "count": 21,
+          "percent": 4.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4725,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 2679,
+        "percent": 56.7
+      },
+      {
+        "feature_idx": 22932,
+        "count": 2221,
+        "percent": 47.01
+      },
+      {
+        "feature_idx": 960,
+        "count": 1947,
+        "percent": 41.21
+      },
+      {
+        "feature_idx": 17418,
+        "count": 1943,
+        "percent": 41.12
+      },
+      {
+        "feature_idx": 23011,
+        "count": 1785,
+        "percent": 37.78
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1664,
+        "percent": 35.22
+      },
+      {
+        "feature_idx": 12673,
+        "count": 1576,
+        "percent": 33.35
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1572,
+        "percent": 33.27
+      },
+      {
+        "feature_idx": 5763,
+        "count": 1545,
+        "percent": 32.7
+      },
+      {
+        "feature_idx": 14723,
+        "count": 1532,
+        "percent": 32.42
+      },
+      {
+        "feature_idx": 13231,
+        "count": 1490,
+        "percent": 31.53
+      },
+      {
+        "feature_idx": 9615,
+        "count": 1454,
+        "percent": 30.77
+      },
+      {
+        "feature_idx": 11584,
+        "count": 1386,
+        "percent": 29.33
+      },
+      {
+        "feature_idx": 3676,
+        "count": 1326,
+        "percent": 28.06
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1293,
+        "percent": 27.37
+      },
+      {
+        "feature_idx": 7958,
+        "count": 1260,
+        "percent": 26.67
+      },
+      {
+        "feature_idx": 20364,
+        "count": 1252,
+        "percent": 26.5
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1250,
+        "percent": 26.46
+      },
+      {
+        "feature_idx": 23217,
+        "count": 1171,
+        "percent": 24.78
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1157,
+        "percent": 24.49
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 4725,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2022,
+        "percent": 42.79
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1028,
+        "percent": 21.76
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 697,
+        "percent": 14.75
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 544,
+        "percent": 11.51
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 434,
+        "percent": 9.19
+      }
+    ],
+    "mean_position": 0.3356,
+    "std_position": 0.2787
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 13,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0251,
+      "p25": 0.0336,
+      "p50": 0.0449,
+      "p75": 0.0709,
+      "p90": 0.1659,
+      "p95": 0.1874,
+      "p99": 0.2051
+    },
+    "skewness": 1.3155,
+    "kurtosis": 0.2112,
+    "min": 0.0217,
+    "max": 0.2095,
+    "mean": 0.0706,
+    "std": 0.0594
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 13,
+      "unique_tokens_found": 13
+    },
+    "tokens": [
+      {
+        "token": " latest",
+        "count": 1,
+        "mean_activation": 0.1385
+      },
+      {
+        "token": " far",
+        "count": 1,
+        "mean_activation": 0.0487
+      },
+      {
+        "token": " recent",
+        "count": 1,
+        "mean_activation": 0.2095
+      },
+      {
+        "token": "'s",
+        "count": 1,
+        "mean_activation": 0.0541
+      },
+      {
+        "token": " serious",
+        "count": 1,
+        "mean_activation": 0.0449
+      },
+      {
+        "token": " recently",
+        "count": 1,
+        "mean_activation": 0.1727
+      },
+      {
+        "token": " least",
+        "count": 1,
+        "mean_activation": 0.0276
+      },
+      {
+        "token": " first",
+        "count": 1,
+        "mean_activation": 0.0376
+      },
+      {
+        "token": " newest",
+        "count": 1,
+        "mean_activation": 0.0709
+      },
+      {
+        "token": " ago",
+        "count": 1,
+        "mean_activation": 0.0245
+      }
+    ]
+  }
+}

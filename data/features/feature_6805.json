@@ -1,0 +1,856 @@
+{
+  "feature_idx": 6805,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 14,
+    "mean_when_active": 0.17119925362723215,
+    "max_activation": 0.29052734375,
+    "std_when_active": 0.07828621142071551,
+    "activation_rate": 0.00014
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6965,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " pop",
+        "count": 2038,
+        "mean_activation": 0.19207458196608193
+      },
+      {
+        "token": "ello",
+        "count": 947,
+        "mean_activation": 0.0905286069908263
+      },
+      {
+        "token": " popped",
+        "count": 678,
+        "mean_activation": 0.26215400808328726
+      },
+      {
+        "token": " pops",
+        "count": 416,
+        "mean_activation": 0.19338314349834734
+      },
+      {
+        "token": " Pop",
+        "count": 312,
+        "mean_activation": 0.17034188295022035
+      },
+      {
+        "token": " popping",
+        "count": 310,
+        "mean_activation": 0.21760175151209676
+      },
+      {
+        "token": "opped",
+        "count": 251,
+        "mean_activation": 0.09575935758917455
+      },
+      {
+        "token": " rolled",
+        "count": 201,
+        "mean_activation": 0.027072204286186258
+      },
+      {
+        "token": "pped",
+        "count": 179,
+        "mean_activation": 0.04591574216022172
+      },
+      {
+        "token": "ops",
+        "count": 135,
+        "mean_activation": 0.07424847638165509
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6965,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...et when we decided to** pop** in here for lunch. O...",
+        "active_token": " pop",
+        "activation": 0.332275390625,
+        "review_id": "ZxXgkktqvhpJ7OobdOVR1A",
+        "position": 63
+      },
+      {
+        "context": "... today, we decided to** pop** in to Las Palmas, th...",
+        "active_token": " pop",
+        "activation": 0.32861328125,
+        "review_id": "xfPk7HEvGCgTBrmeOFFEVA",
+        "position": 82
+      },
+      {
+        "context": "...d at lunch time and** popped** in. We got an outsi...",
+        "active_token": " popped",
+        "activation": 0.328125,
+        "review_id": "UIfHI4yI3LsofyKi1Ebmjg",
+        "position": 42
+      },
+      {
+        "context": "...w this, so decided to** pop** in.  At first, it se...",
+        "active_token": " pop",
+        "activation": 0.32763671875,
+        "review_id": "CM4wWE-L_FeL-oMT0laX1Q",
+        "position": 34
+      },
+      {
+        "context": "... dude who happened to** pop** in came and told the...",
+        "active_token": " pop",
+        "activation": 0.32763671875,
+        "review_id": "-bJHceySXZZpfBE2_HRBQA",
+        "position": 46
+      },
+      {
+        "context": "...find it convenient to** pop** in here for a quick,...",
+        "active_token": " pop",
+        "activation": 0.326904296875,
+        "review_id": "M2BsK-shGp4FBua0fQPgCw",
+        "position": 44
+      },
+      {
+        "context": "... visiting Arizona &** popped** in here for a quick...",
+        "active_token": " popped",
+        "activation": 0.326904296875,
+        "review_id": "_JQYm6VgCUFa1hCZfdB_Qw",
+        "position": 32
+      },
+      {
+        "context": "...s. My husband and I** popped** in last night for a...",
+        "active_token": " popped",
+        "activation": 0.32666015625,
+        "review_id": "VN1RjZag__HWjFd_DpGyuw",
+        "position": 31
+      },
+      {
+        "context": ".... \\n\\nMy friend and I** popped** in for a quick bite...",
+        "active_token": " popped",
+        "activation": 0.32568359375,
+        "review_id": "rq6hg1lm7fCaTGbAiqXVAA",
+        "position": 42
+      },
+      {
+        "context": "...store as an excuse to** pop** in to this location ...",
+        "active_token": " pop",
+        "activation": 0.325439453125,
+        "review_id": "KNTRxV5MZl583zm9qNxGKg",
+        "position": 36
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6805,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2773,
+        "max": 0.3323,
+        "mean": 0.2966
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " popped",
+            " in"
+          ],
+          "ngram_str": " popped in",
+          "count": 152,
+          "percent": 30.4
+        },
+        {
+          "ngram": [
+            " pop",
+            " in"
+          ],
+          "ngram_str": " pop in",
+          "count": 137,
+          "percent": 27.4
+        },
+        {
+          "ngram": [
+            " to",
+            " pop"
+          ],
+          "ngram_str": " to pop",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " in",
+            " for"
+          ],
+          "ngram_str": " in for",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " I",
+            " popped"
+          ],
+          "ngram_str": " I popped",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 65,
+          "percent": 13.0
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " decided",
+            " to"
+          ],
+          "ngram_str": " decided to",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " in",
+            " here"
+          ],
+          "ngram_str": " in here",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " we",
+            " popped"
+          ],
+          "ngram_str": " we popped",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " in",
+            " and"
+          ],
+          "ngram_str": " in and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " in",
+            " to"
+          ],
+          "ngram_str": " in to",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " a",
+            " quick"
+          ],
+          "ngram_str": " a quick",
+          "count": 25,
+          "percent": 5.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " to",
+            " pop",
+            " in"
+          ],
+          "ngram_str": " to pop in",
+          "count": 94,
+          "percent": 18.8
+        },
+        {
+          "ngram": [
+            " I",
+            " popped",
+            " in"
+          ],
+          "ngram_str": " I popped in",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " pop"
+          ],
+          "ngram_str": " decided to pop",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " in",
+            " for",
+            " a"
+          ],
+          "ngram_str": " in for a",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " popped",
+            " in",
+            " for"
+          ],
+          "ngram_str": " popped in for",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " popped"
+          ],
+          "ngram_str": " and I popped",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " pop",
+            " in",
+            " for"
+          ],
+          "ngram_str": " pop in for",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " we",
+            " popped",
+            " in"
+          ],
+          "ngram_str": " we popped in",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " popped",
+            " in",
+            " here"
+          ],
+          "ngram_str": " popped in here",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " quick"
+          ],
+          "ngram_str": " for a quick",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " pop",
+            " in",
+            " and"
+          ],
+          "ngram_str": " pop in and",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " We",
+            " popped",
+            " in"
+          ],
+          "ngram_str": " We popped in",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " pop",
+            " in",
+            " here"
+          ],
+          "ngram_str": " pop in here",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " in",
+            " for",
+            " lunch"
+          ],
+          "ngram_str": " in for lunch",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " pop",
+            " in"
+          ],
+          "ngram_str": " decided to pop in",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " and",
+            " I",
+            " popped",
+            " in"
+          ],
+          "ngram_str": " and I popped in",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " to",
+            " pop",
+            " in",
+            " for"
+          ],
+          "ngram_str": " to pop in for",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " popped",
+            " in",
+            " for",
+            " a"
+          ],
+          "ngram_str": " popped in for a",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " pop",
+            " in",
+            " for",
+            " a"
+          ],
+          "ngram_str": " pop in for a",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " I",
+            " popped",
+            " in",
+            " for"
+          ],
+          "ngram_str": " I popped in for",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " I",
+            " popped",
+            " in",
+            " here"
+          ],
+          "ngram_str": " I popped in here",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " in",
+            " for",
+            " a",
+            " quick"
+          ],
+          "ngram_str": " in for a quick",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " I",
+            " decided",
+            " to",
+            " pop"
+          ],
+          "ngram_str": " I decided to pop",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " to",
+            " pop",
+            " in",
+            " and"
+          ],
+          "ngram_str": " to pop in and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " and",
+            " decided",
+            " to",
+            " pop"
+          ],
+          "ngram_str": " and decided to pop",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to",
+            " pop"
+          ],
+          "ngram_str": " we decided to pop",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " to",
+            " pop",
+            " in",
+            " here"
+          ],
+          "ngram_str": " to pop in here",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " popped",
+            " in"
+          ],
+          "ngram_str": ". We popped in",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6965,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 16867,
+        "count": 4266,
+        "percent": 61.25
+      },
+      {
+        "feature_idx": 548,
+        "count": 4057,
+        "percent": 58.25
+      },
+      {
+        "feature_idx": 19836,
+        "count": 3965,
+        "percent": 56.93
+      },
+      {
+        "feature_idx": 16752,
+        "count": 3476,
+        "percent": 49.91
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2896,
+        "percent": 41.58
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2757,
+        "percent": 39.58
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2677,
+        "percent": 38.44
+      },
+      {
+        "feature_idx": 21302,
+        "count": 2564,
+        "percent": 36.81
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2262,
+        "percent": 32.48
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2209,
+        "percent": 31.72
+      },
+      {
+        "feature_idx": 14314,
+        "count": 2174,
+        "percent": 31.21
+      },
+      {
+        "feature_idx": 20785,
+        "count": 2016,
+        "percent": 28.94
+      },
+      {
+        "feature_idx": 23665,
+        "count": 1851,
+        "percent": 26.58
+      },
+      {
+        "feature_idx": 20172,
+        "count": 1663,
+        "percent": 23.88
+      },
+      {
+        "feature_idx": 16262,
+        "count": 1623,
+        "percent": 23.3
+      },
+      {
+        "feature_idx": 21118,
+        "count": 1577,
+        "percent": 22.64
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1539,
+        "percent": 22.1
+      },
+      {
+        "feature_idx": 12586,
+        "count": 1508,
+        "percent": 21.65
+      },
+      {
+        "feature_idx": 22894,
+        "count": 1471,
+        "percent": 21.12
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1402,
+        "percent": 20.13
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6965,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1613,
+        "percent": 23.16
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1510,
+        "percent": 21.68
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1365,
+        "percent": 19.6
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1305,
+        "percent": 18.74
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1172,
+        "percent": 16.83
+      }
+    ],
+    "mean_position": 0.4669,
+    "std_position": 0.2864
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 14,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0607,
+      "p25": 0.1237,
+      "p50": 0.1607,
+      "p75": 0.2445,
+      "p90": 0.2745,
+      "p95": 0.2845,
+      "p99": 0.2893
+    },
+    "skewness": -0.0703,
+    "kurtosis": -1.0255,
+    "min": 0.0403,
+    "max": 0.2905,
+    "mean": 0.1712,
+    "std": 0.0783
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 14,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " pop",
+        "count": 6,
+        "mean_activation": 0.1882
+      },
+      {
+        "token": " popped",
+        "count": 4,
+        "mean_activation": 0.243
+      },
+      {
+        "token": "opped",
+        "count": 1,
+        "mean_activation": 0.1162
+      },
+      {
+        "token": "oa",
+        "count": 1,
+        "mean_activation": 0.0471
+      },
+      {
+        "token": "ello",
+        "count": 1,
+        "mean_activation": 0.0922
+      },
+      {
+        "token": " dropped",
+        "count": 1,
+        "mean_activation": 0.0403
+      }
+    ]
+  }
+}

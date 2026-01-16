@@ -1,0 +1,876 @@
+{
+  "feature_idx": 19056,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 139,
+    "mean_when_active": 0.12469240915861061,
+    "max_activation": 0.239013671875,
+    "std_when_active": 0.06350831310831061,
+    "activation_rate": 0.00139
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 39700000,
+      "corpus_coverage": 0.7678
+    },
+    "top_tokens": [
+      {
+        "token": " atmosphere",
+        "count": 22858,
+        "mean_activation": 0.17456749203386807
+      },
+      {
+        "token": "iance",
+        "count": 5969,
+        "mean_activation": 0.05864391560170255
+      },
+      {
+        "token": " environment",
+        "count": 2991,
+        "mean_activation": 0.15601767460584878
+      },
+      {
+        "token": "ience",
+        "count": 2425,
+        "mean_activation": 0.06470514356475515
+      },
+      {
+        "token": " vibe",
+        "count": 2023,
+        "mean_activation": 0.03469310087316176
+      },
+      {
+        "token": "here",
+        "count": 1732,
+        "mean_activation": 0.08919163058591495
+      },
+      {
+        "token": " air",
+        "count": 1472,
+        "mean_activation": 0.055469087932420814
+      },
+      {
+        "token": " decor",
+        "count": 1079,
+        "mean_activation": 0.02248056604422498
+      },
+      {
+        "token": "mosp",
+        "count": 920,
+        "mean_activation": 0.13088372271993887
+      },
+      {
+        "token": " Atmosp",
+        "count": 844,
+        "mean_activation": 0.2087460196978673
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 39700000,
+      "corpus_coverage": 0.7678
+    },
+    "activations": [
+      {
+        "context": "... site with a nice** atmosphere** !",
+        "active_token": " atmosphere",
+        "activation": 0.26123046875,
+        "review_id": "XjO1AkSYNmJquRvD-dQjVg",
+        "position": 97
+      },
+      {
+        "context": "...place with a nice** atmosphere**. It was calm and ...",
+        "active_token": " atmosphere",
+        "activation": 0.26123046875,
+        "review_id": "lJ0wjMUdgZdASartUnJ5Fw",
+        "position": 56
+      },
+      {
+        "context": "... 5 tables with no** atmosphere**. But I'm seriousl...",
+        "active_token": " atmosphere",
+        "activation": 0.25830078125,
+        "review_id": "tpGI2qmAnWv9gwDzL-8E1w",
+        "position": 20
+      },
+      {
+        "context": "...wery with awesome** atmosphere** and awesome servi...",
+        "active_token": " atmosphere",
+        "activation": 0.25439453125,
+        "review_id": "Hnzy26PMz7emODkcK_H8kg",
+        "position": 17
+      },
+      {
+        "context": "... with a beautiful** atmosphere** and decor. I can'...",
+        "active_token": " atmosphere",
+        "activation": 0.2529296875,
+        "review_id": "sQUBs0FFnjwtmPH2Rfw29w",
+        "position": 24
+      },
+      {
+        "context": "...ixed with a great** atmosphere** and a delicious m...",
+        "active_token": " atmosphere",
+        "activation": 0.25146484375,
+        "review_id": "RiBgrZmlt7mrXLoNFBDmQw",
+        "position": 11
+      },
+      {
+        "context": "...on of great food,** atmosphere** and service and t...",
+        "active_token": " atmosphere",
+        "activation": 0.2509765625,
+        "review_id": "EQfsy3lJce___u2ftmrIfg",
+        "position": 159
+      },
+      {
+        "context": "... food with a nice** atmosphere**.",
+        "active_token": " atmosphere",
+        "activation": 0.250732421875,
+        "review_id": "WQJ2vTHL4U1sU_7LbmbfyQ",
+        "position": 87
+      },
+      {
+        "context": "... food, as well as** atmosphere**, along with salsa...",
+        "active_token": " atmosphere",
+        "activation": 0.249267578125,
+        "review_id": "QQTdagcxMSzoTe7hDxiiEw",
+        "position": 38
+      },
+      {
+        "context": "...urants with great** atmosphere** in great location...",
+        "active_token": " atmosphere",
+        "activation": 0.249267578125,
+        "review_id": "EPgVUeFay04weOHYk2QS0w",
+        "position": 11
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 19056,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2306,
+        "max": 0.2612,
+        "mean": 0.237
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " great",
+            " atmosphere"
+          ],
+          "ngram_str": " great atmosphere",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " atmosphere",
+            "."
+          ],
+          "ngram_str": " atmosphere.",
+          "count": 147,
+          "percent": 29.4
+        },
+        {
+          "ngram": [
+            " a",
+            " great"
+          ],
+          "ngram_str": " a great",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            " atmosphere",
+            ","
+          ],
+          "ngram_str": " atmosphere,",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " atmosphere",
+            " and"
+          ],
+          "ngram_str": " atmosphere and",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 93,
+          "percent": 18.6
+        },
+        {
+          "ngram": [
+            " food",
+            ","
+          ],
+          "ngram_str": " food,",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            ",",
+            " great"
+          ],
+          "ngram_str": ", great",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " has",
+            " a"
+          ],
+          "ngram_str": " has a",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " Great",
+            " atmosphere"
+          ],
+          "ngram_str": " Great atmosphere",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " nice",
+            " atmosphere"
+          ],
+          "ngram_str": " nice atmosphere",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Great"
+          ],
+          "ngram_str": ". Great",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ",",
+            " atmosphere"
+          ],
+          "ngram_str": ", atmosphere",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 39,
+          "percent": 7.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " great",
+            " atmosphere"
+          ],
+          "ngram_str": " a great atmosphere",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " great",
+            " atmosphere",
+            "."
+          ],
+          "ngram_str": " great atmosphere.",
+          "count": 64,
+          "percent": 12.8
+        },
+        {
+          "ngram": [
+            " great",
+            " atmosphere",
+            " and"
+          ],
+          "ngram_str": " great atmosphere and",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ",",
+            " great",
+            " atmosphere"
+          ],
+          "ngram_str": ", great atmosphere",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " great"
+          ],
+          "ngram_str": " with a great",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " great",
+            " atmosphere",
+            ","
+          ],
+          "ngram_str": " great atmosphere,",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " atmosphere",
+            ",",
+            " and"
+          ],
+          "ngram_str": " atmosphere, and",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " has",
+            " a",
+            " great"
+          ],
+          "ngram_str": " has a great",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " a",
+            " nice",
+            " atmosphere"
+          ],
+          "ngram_str": " a nice atmosphere",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Great",
+            " atmosphere"
+          ],
+          "ngram_str": ". Great atmosphere",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " great"
+          ],
+          "ngram_str": " food, great",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " nice",
+            " atmosphere",
+            "."
+          ],
+          "ngram_str": " nice atmosphere.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " atmosphere"
+          ],
+          "ngram_str": " food, atmosphere",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ",",
+            " atmosphere",
+            ","
+          ],
+          "ngram_str": ", atmosphere,",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " atmosphere",
+            ".",
+            " "
+          ],
+          "ngram_str": " atmosphere. ",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " a",
+            " great",
+            " atmosphere",
+            "."
+          ],
+          "ngram_str": " a great atmosphere.",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " great",
+            " atmosphere"
+          ],
+          "ngram_str": " with a great atmosphere",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " has",
+            " a",
+            " great",
+            " atmosphere"
+          ],
+          "ngram_str": " has a great atmosphere",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " a",
+            " great",
+            " atmosphere",
+            " and"
+          ],
+          "ngram_str": " a great atmosphere and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ",",
+            " great",
+            " atmosphere",
+            ","
+          ],
+          "ngram_str": ", great atmosphere,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " great",
+            " atmosphere"
+          ],
+          "ngram_str": " food, great atmosphere",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " a",
+            " nice",
+            " atmosphere",
+            "."
+          ],
+          "ngram_str": " a nice atmosphere.",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " nice",
+            " atmosphere"
+          ],
+          "ngram_str": " with a nice atmosphere",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ",",
+            " great",
+            " atmosphere",
+            " and"
+          ],
+          "ngram_str": ", great atmosphere and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ",",
+            " atmosphere",
+            ",",
+            " and"
+          ],
+          "ngram_str": ", atmosphere, and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " a",
+            " great",
+            " atmosphere",
+            ","
+          ],
+          "ngram_str": " a great atmosphere,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Great",
+            " atmosphere",
+            "."
+          ],
+          "ngram_str": ". Great atmosphere.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            ",",
+            " atmosphere",
+            " and"
+          ],
+          "ngram_str": " food, atmosphere and",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Great",
+            " atmosphere",
+            "!"
+          ],
+          "ngram_str": "! Great atmosphere!",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            ".",
+            " It",
+            " has",
+            " a"
+          ],
+          "ngram_str": ". It has a",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7600000,
+      "corpus_coverage": 0.147
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 6917,
+        "count": 7383,
+        "percent": 73.83
+      },
+      {
+        "feature_idx": 14465,
+        "count": 7136,
+        "percent": 71.36
+      },
+      {
+        "feature_idx": 9495,
+        "count": 6234,
+        "percent": 62.34
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5230,
+        "percent": 52.3
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4895,
+        "percent": 48.95
+      },
+      {
+        "feature_idx": 12830,
+        "count": 4525,
+        "percent": 45.25
+      },
+      {
+        "feature_idx": 22001,
+        "count": 4341,
+        "percent": 43.41
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4337,
+        "percent": 43.37
+      },
+      {
+        "feature_idx": 21358,
+        "count": 4276,
+        "percent": 42.76
+      },
+      {
+        "feature_idx": 1227,
+        "count": 4087,
+        "percent": 40.87
+      },
+      {
+        "feature_idx": 21212,
+        "count": 3998,
+        "percent": 39.98
+      },
+      {
+        "feature_idx": 3696,
+        "count": 3864,
+        "percent": 38.64
+      },
+      {
+        "feature_idx": 11193,
+        "count": 3830,
+        "percent": 38.3
+      },
+      {
+        "feature_idx": 14918,
+        "count": 3627,
+        "percent": 36.27
+      },
+      {
+        "feature_idx": 11978,
+        "count": 3589,
+        "percent": 35.89
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3482,
+        "percent": 34.82
+      },
+      {
+        "feature_idx": 11584,
+        "count": 3279,
+        "percent": 32.79
+      },
+      {
+        "feature_idx": 9157,
+        "count": 3107,
+        "percent": 31.07
+      },
+      {
+        "feature_idx": 23735,
+        "count": 2975,
+        "percent": 29.75
+      },
+      {
+        "feature_idx": 9212,
+        "count": 2903,
+        "percent": 29.03
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 7600000,
+      "corpus_coverage": 0.147
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2856,
+        "percent": 28.56
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1946,
+        "percent": 19.46
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1398,
+        "percent": 13.98
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1598,
+        "percent": 15.98
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2202,
+        "percent": 22.02
+      }
+    ],
+    "mean_position": 0.4655,
+    "std_position": 0.316
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 139,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0372,
+      "p25": 0.0653,
+      "p50": 0.1394,
+      "p75": 0.1792,
+      "p90": 0.2088,
+      "p95": 0.2165,
+      "p99": 0.2344
+    },
+    "skewness": -0.0704,
+    "kurtosis": -1.3089,
+    "min": 0.0221,
+    "max": 0.239,
+    "mean": 0.1247,
+    "std": 0.0635
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 139,
+      "unique_tokens_found": 22
+    },
+    "tokens": [
+      {
+        "token": " atmosphere",
+        "count": 63,
+        "mean_activation": 0.1719
+      },
+      {
+        "token": "iance",
+        "count": 21,
+        "mean_activation": 0.0593
+      },
+      {
+        "token": " environment",
+        "count": 10,
+        "mean_activation": 0.1571
+      },
+      {
+        "token": "here",
+        "count": 9,
+        "mean_activation": 0.0909
+      },
+      {
+        "token": " Atmosp",
+        "count": 6,
+        "mean_activation": 0.2034
+      },
+      {
+        "token": "ience",
+        "count": 5,
+        "mean_activation": 0.0643
+      },
+      {
+        "token": " air",
+        "count": 4,
+        "mean_activation": 0.0599
+      },
+      {
+        "token": " vibe",
+        "count": 4,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": "mosp",
+        "count": 3,
+        "mean_activation": 0.1242
+      },
+      {
+        "token": "es",
+        "count": 2,
+        "mean_activation": 0.0289
+      }
+    ]
+  }
+}

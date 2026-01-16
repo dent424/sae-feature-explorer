@@ -1,0 +1,856 @@
+{
+  "feature_idx": 54,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 12,
+    "mean_when_active": 0.10927327473958333,
+    "max_activation": 0.253173828125,
+    "std_when_active": 0.0937923040271842,
+    "activation_rate": 0.00012
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 10309,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " lot",
+        "count": 6506,
+        "mean_activation": 0.1890079851264848
+      },
+      {
+        "token": " lots",
+        "count": 1040,
+        "mean_activation": 0.05233965653639573
+      },
+      {
+        "token": " Lots",
+        "count": 492,
+        "mean_activation": 0.03036692859680672
+      },
+      {
+        "token": " spot",
+        "count": 351,
+        "mean_activation": 0.04139735556056357
+      },
+      {
+        "token": " LOT",
+        "count": 200,
+        "mean_activation": 0.06383331298828125
+      },
+      {
+        "token": " area",
+        "count": 150,
+        "mean_activation": 0.025843760172526042
+      },
+      {
+        "token": " garage",
+        "count": 149,
+        "mean_activation": 0.04396016165714136
+      },
+      {
+        "token": " Lot",
+        "count": 131,
+        "mean_activation": 0.11573104276001908
+      },
+      {
+        "token": " spots",
+        "count": 120,
+        "mean_activation": 0.03708165486653646
+      },
+      {
+        "token": " stop",
+        "count": 100,
+        "mean_activation": 0.04497467041015625
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 10309,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...upscale bar), parking** lot** with free parking, c...",
+        "active_token": " lot",
+        "activation": 0.30419921875,
+        "review_id": "6-w25hlffHwydLdysSLh7A",
+        "position": 19
+      },
+      {
+        "context": "...location with parking** lot** right there.",
+        "active_token": " lot",
+        "activation": 0.30078125,
+        "review_id": "el2eizLdwitrOLVer2P2TA",
+        "position": 32
+      },
+      {
+        "context": "...mosphere, own parking** lot** and terrace. Good qu...",
+        "active_token": " lot",
+        "activation": 0.299072265625,
+        "review_id": "m5srb506Mfs_GlciEhbAjA",
+        "position": 16
+      },
+      {
+        "context": "...road and full parking** lot**.  It was difficult t...",
+        "active_token": " lot",
+        "activation": 0.2978515625,
+        "review_id": "rAxb5uF56kaxz85F13Tt_w",
+        "position": 46
+      },
+      {
+        "context": "...iendly staff, parking** lot**, and spacious interi...",
+        "active_token": " lot",
+        "activation": 0.296875,
+        "review_id": "xrlzyQ_k-2xVArXEu1azhw",
+        "position": 27
+      },
+      {
+        "context": "...stroom, small parking** lot** but with street park...",
+        "active_token": " lot",
+        "activation": 0.29638671875,
+        "review_id": "YrMkSaKxZMQztIss_ugvnQ",
+        "position": 34
+      },
+      {
+        "context": "...unate lack of parking** lot** --- we circled aroun...",
+        "active_token": " lot",
+        "activation": 0.29638671875,
+        "review_id": "5qWiXIBvxzEPy1GwEmHa4g",
+        "position": 35
+      },
+      {
+        "context": "...n and sizable parking** lot** so you don't have to...",
+        "active_token": " lot",
+        "activation": 0.29345703125,
+        "review_id": "-mpHiRcFz1GcY1kbDExWew",
+        "position": 53
+      },
+      {
+        "context": "...king and back parking** lot** parking for customer...",
+        "active_token": " lot",
+        "activation": 0.293212890625,
+        "review_id": "Vigx2_duzw_SzWKbLNZtjA",
+        "position": 74
+      },
+      {
+        "context": "...people there, parking** lot** empty, etc. Not a ve...",
+        "active_token": " lot",
+        "activation": 0.29296875,
+        "review_id": "ORq_sL6s2JoE_OA_Zym-Ig",
+        "position": 107
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 54,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2622,
+        "max": 0.3042,
+        "mean": 0.27
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " parking lot",
+          "count": 454,
+          "percent": 90.8
+        },
+        {
+          "ngram": [
+            " the",
+            " parking"
+          ],
+          "ngram_str": " the parking",
+          "count": 168,
+          "percent": 33.6
+        },
+        {
+          "ngram": [
+            " lot",
+            "."
+          ],
+          "ngram_str": " lot.",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            " lot",
+            " is"
+          ],
+          "ngram_str": " lot is",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " lot",
+            " was"
+          ],
+          "ngram_str": " lot was",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " a",
+            " parking"
+          ],
+          "ngram_str": " a parking",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " Parking",
+            " lot"
+          ],
+          "ngram_str": " Parking lot",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " lot",
+            ","
+          ],
+          "ngram_str": " lot,",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking"
+          ],
+          "ngram_str": ". Parking",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " The",
+            " parking"
+          ],
+          "ngram_str": " The parking",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " the",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " the parking lot",
+          "count": 168,
+          "percent": 33.6
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            "."
+          ],
+          "ngram_str": " parking lot.",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " a",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " a parking lot",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            " is"
+          ],
+          "ngram_str": " parking lot is",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            " was"
+          ],
+          "ngram_str": " parking lot was",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " parking"
+          ],
+          "ngram_str": " and the parking",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            ","
+          ],
+          "ngram_str": " parking lot,",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking",
+            " lot"
+          ],
+          "ngram_str": ". Parking lot",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " The",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " The parking lot",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " parking"
+          ],
+          "ngram_str": " in the parking",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            " and"
+          ],
+          "ngram_str": " parking lot and",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " lot",
+            ".",
+            " "
+          ],
+          "ngram_str": " lot. ",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " Parking",
+            " lot",
+            " is"
+          ],
+          "ngram_str": " Parking lot is",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " parking"
+          ],
+          "ngram_str": ". The parking",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            " in"
+          ],
+          "ngram_str": " parking lot in",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " the",
+            " parking",
+            " lot",
+            "."
+          ],
+          "ngram_str": " the parking lot.",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " and the parking lot",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " in the parking lot",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " the",
+            " parking",
+            " lot",
+            " was"
+          ],
+          "ngram_str": " the parking lot was",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot",
+            ".",
+            " "
+          ],
+          "ngram_str": " parking lot. ",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " into",
+            " the",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " into the parking lot",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": ". The parking lot",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " the",
+            " parking",
+            " lot",
+            " is"
+          ],
+          "ngram_str": " the parking lot is",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Parking",
+            " lot",
+            " is"
+          ],
+          "ngram_str": ". Parking lot is",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " The",
+            " parking",
+            " lot",
+            " is"
+          ],
+          "ngram_str": " The parking lot is",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " have",
+            " a",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " have a parking lot",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " the",
+            " parking",
+            " lot",
+            " and"
+          ],
+          "ngram_str": " the parking lot and",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " a",
+            " parking",
+            " lot",
+            "."
+          ],
+          "ngram_str": " a parking lot.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " with",
+            " a",
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " with a parking lot",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 50100000,
+      "corpus_coverage": 0.969
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 3695,
+        "count": 8269,
+        "percent": 82.69
+      },
+      {
+        "feature_idx": 3139,
+        "count": 6363,
+        "percent": 63.63
+      },
+      {
+        "feature_idx": 11491,
+        "count": 5302,
+        "percent": 53.02
+      },
+      {
+        "feature_idx": 6408,
+        "count": 5108,
+        "percent": 51.08
+      },
+      {
+        "feature_idx": 17995,
+        "count": 4825,
+        "percent": 48.25
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4824,
+        "percent": 48.24
+      },
+      {
+        "feature_idx": 2459,
+        "count": 4778,
+        "percent": 47.78
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4700,
+        "percent": 47.0
+      },
+      {
+        "feature_idx": 5653,
+        "count": 3693,
+        "percent": 36.93
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3613,
+        "percent": 36.13
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3612,
+        "percent": 36.12
+      },
+      {
+        "feature_idx": 18842,
+        "count": 3532,
+        "percent": 35.32
+      },
+      {
+        "feature_idx": 9741,
+        "count": 3492,
+        "percent": 34.92
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3441,
+        "percent": 34.41
+      },
+      {
+        "feature_idx": 19782,
+        "count": 3247,
+        "percent": 32.47
+      },
+      {
+        "feature_idx": 4011,
+        "count": 3027,
+        "percent": 30.27
+      },
+      {
+        "feature_idx": 21194,
+        "count": 2848,
+        "percent": 28.48
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2816,
+        "percent": 28.16
+      },
+      {
+        "feature_idx": 356,
+        "count": 2784,
+        "percent": 27.84
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2439,
+        "percent": 24.39
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 50100000,
+      "corpus_coverage": 0.969
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2578,
+        "percent": 25.78
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2164,
+        "percent": 21.64
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1309,
+        "percent": 13.09
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1586,
+        "percent": 15.86
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2363,
+        "percent": 23.63
+      }
+    ],
+    "mean_position": 0.4828,
+    "std_position": 0.3087
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 12,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.023,
+      "p25": 0.0322,
+      "p50": 0.0392,
+      "p75": 0.2191,
+      "p90": 0.2231,
+      "p95": 0.2367,
+      "p99": 0.2499
+    },
+    "skewness": 0.4096,
+    "kurtosis": -1.7197,
+    "min": 0.0216,
+    "max": 0.2532,
+    "mean": 0.1093,
+    "std": 0.0938
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 12,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " lot",
+        "count": 5,
+        "mean_activation": 0.1875
+      },
+      {
+        "token": " spot",
+        "count": 2,
+        "mean_activation": 0.0307
+      },
+      {
+        "token": " lots",
+        "count": 2,
+        "mean_activation": 0.1064
+      },
+      {
+        "token": " tons",
+        "count": 1,
+        "mean_activation": 0.0252
+      },
+      {
+        "token": "ater",
+        "count": 1,
+        "mean_activation": 0.0345
+      },
+      {
+        "token": " spots",
+        "count": 1,
+        "mean_activation": 0.0398
+      }
+    ]
+  }
+}

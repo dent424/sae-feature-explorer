@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5337,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 37,
+    "mean_when_active": 0.07644735800253379,
+    "max_activation": 0.32275390625,
+    "std_when_active": 0.07063192422799476,
+    "activation_rate": 0.00037
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 20260,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " reviews",
+        "count": 7682,
+        "mean_activation": 0.055154391732944605
+      },
+      {
+        "token": " review",
+        "count": 4455,
+        "mean_activation": 0.043272653359221556
+      },
+      {
+        "token": " reviewers",
+        "count": 1049,
+        "mean_activation": 0.2461838190389657
+      },
+      {
+        "token": " Yelp",
+        "count": 780,
+        "mean_activation": 0.027462015396509415
+      },
+      {
+        "token": " reviewer",
+        "count": 618,
+        "mean_activation": 0.2588247157223402
+      },
+      {
+        "token": " rating",
+        "count": 468,
+        "mean_activation": 0.035389305179954596
+      },
+      {
+        "token": " pictures",
+        "count": 231,
+        "mean_activation": 0.035840418431665994
+      },
+      {
+        "token": " picture",
+        "count": 188,
+        "mean_activation": 0.03674957600045711
+      },
+      {
+        "token": " critic",
+        "count": 167,
+        "mean_activation": 0.05675657352287612
+      },
+      {
+        "token": " people",
+        "count": 158,
+        "mean_activation": 0.029895589321474486
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 20260,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...fare. Like another** reviewer** said once this Cov...",
+        "active_token": " reviewer",
+        "activation": 0.35693359375,
+        "review_id": "o2zcmmvW5QrS0zL6_H1GhA",
+        "position": 366
+      },
+      {
+        "context": "..., but like another** reviewer** noted, it's becaus...",
+        "active_token": " reviewer",
+        "activation": 0.3544921875,
+        "review_id": "LyXSRHc21H3IRi3MD96QbQ",
+        "position": 41
+      },
+      {
+        "context": "...ways. Like another** reviewer**, I agree that the ...",
+        "active_token": " reviewer",
+        "activation": 0.351806640625,
+        "review_id": "qK9G_AsTS-qENSN_CU5AfQ",
+        "position": 287
+      },
+      {
+        "context": "...avor. Like another** reviewer** said \" If you want...",
+        "active_token": " reviewer",
+        "activation": 0.3505859375,
+        "review_id": "z-_tcZkE1SFDF5L63wNAyA",
+        "position": 117
+      },
+      {
+        "context": "...imon. Like another** reviewer** mentioned, I'm won...",
+        "active_token": " reviewer",
+        "activation": 0.34814453125,
+        "review_id": "1UsODLaGh-119rtH9D9Rrg",
+        "position": 52
+      },
+      {
+        "context": "...ial.  Like another** reviewer** said there are so ...",
+        "active_token": " reviewer",
+        "activation": 0.34765625,
+        "review_id": "7n4mOT24g06qjNaDG0JHng",
+        "position": 85
+      },
+      {
+        "context": "...ot virgin like one** reviewer** surmised - I could...",
+        "active_token": " reviewer",
+        "activation": 0.3466796875,
+        "review_id": "eV12PiaPpgMu42RxbwYnuA",
+        "position": 362
+      },
+      {
+        "context": "...his place. Another** reviewer** commented in their...",
+        "active_token": " reviewer",
+        "activation": 0.3466796875,
+        "review_id": "AJuUW4JgX-KvZAph8aTmig",
+        "position": 126
+      },
+      {
+        "context": "...t dry like another** reviewer** said\\nnone of thier...",
+        "active_token": " reviewer",
+        "activation": 0.346435546875,
+        "review_id": "QQmWjFjBq5z9-q_kpVZVbA",
+        "position": 32
+      },
+      {
+        "context": "...ting. Like another** reviewer** said, \"bring your ...",
+        "active_token": " reviewer",
+        "activation": 0.34619140625,
+        "review_id": "UnIDS7pUEkVbhtkEcd8uag",
+        "position": 40
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5337,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2761,
+        "max": 0.3569,
+        "mean": 0.3019
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " other",
+            " reviewers"
+          ],
+          "ngram_str": " other reviewers",
+          "count": 210,
+          "percent": 42.0
+        },
+        {
+          "ngram": [
+            " another",
+            " reviewer"
+          ],
+          "ngram_str": " another reviewer",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " reviewers",
+            " have"
+          ],
+          "ngram_str": " reviewers have",
+          "count": 105,
+          "percent": 21.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " the",
+            " other"
+          ],
+          "ngram_str": " the other",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " reviewer",
+            " said"
+          ],
+          "ngram_str": " reviewer said",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " said",
+            ","
+          ],
+          "ngram_str": " said,",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " as",
+            " other"
+          ],
+          "ngram_str": " as other",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " mentioned",
+            ","
+          ],
+          "ngram_str": " mentioned,",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " as",
+            " another"
+          ],
+          "ngram_str": " as another",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " As"
+          ],
+          "ngram_str": ". As",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " other",
+            " reviewer"
+          ],
+          "ngram_str": " other reviewer",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " other",
+            " reviewers",
+            " have"
+          ],
+          "ngram_str": " other reviewers have",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " the",
+            " other",
+            " reviewers"
+          ],
+          "ngram_str": " the other reviewers",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " as",
+            " other",
+            " reviewers"
+          ],
+          "ngram_str": " as other reviewers",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " as",
+            " another",
+            " reviewer"
+          ],
+          "ngram_str": " as another reviewer",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " another",
+            " reviewer",
+            " said"
+          ],
+          "ngram_str": " another reviewer said",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " reviewers",
+            " have",
+            " mentioned"
+          ],
+          "ngram_str": " reviewers have mentioned",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " As",
+            " other",
+            " reviewers"
+          ],
+          "ngram_str": " As other reviewers",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " other",
+            " reviewers",
+            ","
+          ],
+          "ngram_str": " other reviewers,",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " reviewers",
+            " have",
+            " said"
+          ],
+          "ngram_str": " reviewers have said",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " reviewer",
+            " said",
+            ","
+          ],
+          "ngram_str": " reviewer said,",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " reviewers",
+            " have",
+            " noted"
+          ],
+          "ngram_str": " reviewers have noted",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " As",
+            " other"
+          ],
+          "ngram_str": ". As other",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " other",
+            " reviewers",
+            " have",
+            " mentioned"
+          ],
+          "ngram_str": " other reviewers have mentioned",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " as",
+            " other",
+            " reviewers",
+            " have"
+          ],
+          "ngram_str": " as other reviewers have",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " As",
+            " other",
+            " reviewers"
+          ],
+          "ngram_str": ". As other reviewers",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " other",
+            " reviewers",
+            " have",
+            " said"
+          ],
+          "ngram_str": " other reviewers have said",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " other",
+            " reviewers"
+          ],
+          "ngram_str": " of the other reviewers",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " As",
+            " other",
+            " reviewers",
+            " have"
+          ],
+          "ngram_str": " As other reviewers have",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " reviewers",
+            " have",
+            " noted",
+            ","
+          ],
+          "ngram_str": " reviewers have noted,",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " other",
+            " reviewers",
+            " have",
+            " noted"
+          ],
+          "ngram_str": " other reviewers have noted",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " reviewers",
+            " have",
+            " mentioned",
+            ","
+          ],
+          "ngram_str": " reviewers have mentioned,",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " another",
+            " reviewer",
+            " said",
+            ","
+          ],
+          "ngram_str": " another reviewer said,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " other",
+            " reviewers",
+            ",",
+            " I"
+          ],
+          "ngram_str": " other reviewers, I",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " reviewers",
+            " have",
+            " said",
+            ","
+          ],
+          "ngram_str": " reviewers have said,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " some",
+            " of",
+            " the",
+            " other"
+          ],
+          "ngram_str": " some of the other",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25200000,
+      "corpus_coverage": 0.4874
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 963,
+        "count": 7332,
+        "percent": 73.32
+      },
+      {
+        "feature_idx": 2466,
+        "count": 6870,
+        "percent": 68.7
+      },
+      {
+        "feature_idx": 1253,
+        "count": 6705,
+        "percent": 67.05
+      },
+      {
+        "feature_idx": 19500,
+        "count": 6546,
+        "percent": 65.46
+      },
+      {
+        "feature_idx": 17175,
+        "count": 6228,
+        "percent": 62.28
+      },
+      {
+        "feature_idx": 11052,
+        "count": 5972,
+        "percent": 59.72
+      },
+      {
+        "feature_idx": 998,
+        "count": 5683,
+        "percent": 56.83
+      },
+      {
+        "feature_idx": 18503,
+        "count": 5225,
+        "percent": 52.25
+      },
+      {
+        "feature_idx": 12254,
+        "count": 4753,
+        "percent": 47.53
+      },
+      {
+        "feature_idx": 3512,
+        "count": 4145,
+        "percent": 41.45
+      },
+      {
+        "feature_idx": 22001,
+        "count": 4119,
+        "percent": 41.19
+      },
+      {
+        "feature_idx": 4961,
+        "count": 3853,
+        "percent": 38.53
+      },
+      {
+        "feature_idx": 12810,
+        "count": 3730,
+        "percent": 37.3
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3644,
+        "percent": 36.44
+      },
+      {
+        "feature_idx": 11584,
+        "count": 3529,
+        "percent": 35.29
+      },
+      {
+        "feature_idx": 21835,
+        "count": 3199,
+        "percent": 31.99
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2749,
+        "percent": 27.49
+      },
+      {
+        "feature_idx": 12256,
+        "count": 2729,
+        "percent": 27.29
+      },
+      {
+        "feature_idx": 21643,
+        "count": 2418,
+        "percent": 24.18
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2409,
+        "percent": 24.09
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 25200000,
+      "corpus_coverage": 0.4874
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3640,
+        "percent": 36.4
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1593,
+        "percent": 15.93
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1360,
+        "percent": 13.6
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1514,
+        "percent": 15.14
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1893,
+        "percent": 18.93
+      }
+    ],
+    "mean_position": 0.4234,
+    "std_position": 0.3234
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 37,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0249,
+      "p25": 0.0363,
+      "p50": 0.0482,
+      "p75": 0.0906,
+      "p90": 0.2021,
+      "p95": 0.2297,
+      "p99": 0.2936
+    },
+    "skewness": 1.9392,
+    "kurtosis": 3.0044,
+    "min": 0.0158,
+    "max": 0.3228,
+    "mean": 0.0764,
+    "std": 0.0706
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 37,
+      "unique_tokens_found": 14
+    },
+    "tokens": [
+      {
+        "token": " review",
+        "count": 13,
+        "mean_activation": 0.0603
+      },
+      {
+        "token": " reviews",
+        "count": 8,
+        "mean_activation": 0.0545
+      },
+      {
+        "token": " reviewers",
+        "count": 3,
+        "mean_activation": 0.2231
+      },
+      {
+        "token": " reviewer",
+        "count": 2,
+        "mean_activation": 0.2633
+      },
+      {
+        "token": " Yelp",
+        "count": 2,
+        "mean_activation": 0.0311
+      },
+      {
+        "token": " pictures",
+        "count": 1,
+        "mean_activation": 0.0279
+      },
+      {
+        "token": "or",
+        "count": 1,
+        "mean_activation": 0.0417
+      },
+      {
+        "token": " folks",
+        "count": 1,
+        "mean_activation": 0.0435
+      },
+      {
+        "token": " commented",
+        "count": 1,
+        "mean_activation": 0.0445
+      },
+      {
+        "token": "ers",
+        "count": 1,
+        "mean_activation": 0.051
+      }
+    ]
+  }
+}

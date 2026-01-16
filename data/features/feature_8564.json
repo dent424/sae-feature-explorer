@@ -1,0 +1,841 @@
+{
+  "feature_idx": 8564,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 11,
+    "mean_when_active": 0.05939136851917614,
+    "max_activation": 0.10992431640625,
+    "std_when_active": 0.029436331576144857,
+    "activation_rate": 0.00011
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 6358,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " customer",
+        "count": 3891,
+        "mean_activation": 0.04404010640352436
+      },
+      {
+        "token": " Customer",
+        "count": 855,
+        "mean_activation": 0.15489762512563962
+      },
+      {
+        "token": "Customer",
+        "count": 203,
+        "mean_activation": 0.16349454231450122
+      },
+      {
+        "token": "custom",
+        "count": 159,
+        "mean_activation": 0.06969600653498427
+      },
+      {
+        "token": "er",
+        "count": 138,
+        "mean_activation": 0.07675591067991396
+      },
+      {
+        "token": " Customers",
+        "count": 114,
+        "mean_activation": 0.04861249421772204
+      },
+      {
+        "token": " City",
+        "count": 85,
+        "mean_activation": 0.025496000402113972
+      },
+      {
+        "token": " Staff",
+        "count": 70,
+        "mean_activation": 0.015747179303850445
+      },
+      {
+        "token": " customers",
+        "count": 59,
+        "mean_activation": 0.030435077214645126
+      },
+      {
+        "token": " Employee",
+        "count": 55,
+        "mean_activation": 0.047277277166193184
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 6358,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...good - home made.\\n\\n**Customer** Service is outstan...",
+        "active_token": "Customer",
+        "activation": 0.199951171875,
+        "review_id": "FD21T5tgpmUL3sYszbzN-Q",
+        "position": 21
+      },
+      {
+        "context": "... charged for it. \\n** Customer** service on this We...",
+        "active_token": " Customer",
+        "activation": 0.1988525390625,
+        "review_id": "w5ZygDS7o6ZCqczznoifyQ",
+        "position": 61
+      },
+      {
+        "context": "...he table as well!\\n\\n**Customer** Service:\\nThe custo...",
+        "active_token": "Customer",
+        "activation": 0.1973876953125,
+        "review_id": "jqVw_qrdfC30eArjP9CI9A",
+        "position": 114
+      },
+      {
+        "context": "...sh are must haves!** Customer** service can improv...",
+        "active_token": " Customer",
+        "activation": 0.1968994140625,
+        "review_id": "R8VDnaDVpOAjozjua81E1w",
+        "position": 19
+      },
+      {
+        "context": "...sted $3 discount! ** Customer** retention, sir!\\n\\nT...",
+        "active_token": " Customer",
+        "activation": 0.1956787109375,
+        "review_id": "wIypnCC3eUGKtvHgGXS4VA",
+        "position": 329
+      },
+      {
+        "context": "... tamales in Tampa!** Customer** service is awesome...",
+        "active_token": " Customer",
+        "activation": 0.1953125,
+        "review_id": "iqQ3lfmHahUXphtj45pdWg",
+        "position": 6
+      },
+      {
+        "context": "...n take the heat. \\n\\n**Customer** service has been g...",
+        "active_token": "Customer",
+        "activation": 0.1942138671875,
+        "review_id": "6BeJ7kSPtNFOPTQrWjAfBg",
+        "position": 63
+      },
+      {
+        "context": "...er for one person.** Customer** service is hard, I...",
+        "active_token": " Customer",
+        "activation": 0.194091796875,
+        "review_id": "8Fo8bNnGVKTMI0dFcnCq6Q",
+        "position": 33
+      },
+      {
+        "context": "...e use to I guess! ** Customer** service was excell...",
+        "active_token": " Customer",
+        "activation": 0.1937255859375,
+        "review_id": "mYEx8F3p0uqGPSMy85XprA",
+        "position": 208
+      },
+      {
+        "context": "...ool mixed drinks.\\n\\n**Customer** service is very pe...",
+        "active_token": "Customer",
+        "activation": 0.1937255859375,
+        "review_id": "wUpUvnKhWrlOIjCVIhfVhQ",
+        "position": 56
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 8564,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1639,
+        "max": 0.2,
+        "mean": 0.175
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " Customer",
+            " service"
+          ],
+          "ngram_str": " Customer service",
+          "count": 349,
+          "percent": 69.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Customer"
+          ],
+          "ngram_str": ". Customer",
+          "count": 222,
+          "percent": 44.4
+        },
+        {
+          "ngram": [
+            " service",
+            " was"
+          ],
+          "ngram_str": " service was",
+          "count": 162,
+          "percent": 32.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            " service",
+            " is"
+          ],
+          "ngram_str": " service is",
+          "count": 144,
+          "percent": 28.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Customer"
+          ],
+          "ngram_str": "\u012cCustomer",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            "Customer",
+            " service"
+          ],
+          "ngram_str": "Customer service",
+          "count": 90,
+          "percent": 18.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Customer"
+          ],
+          "ngram_str": "  Customer",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            "!",
+            " Customer"
+          ],
+          "ngram_str": "! Customer",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4"
+          ],
+          "ngram_str": ". \u00c4",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " was",
+            " great"
+          ],
+          "ngram_str": " was great",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ".",
+            " Customer",
+            " service"
+          ],
+          "ngram_str": ". Customer service",
+          "count": 208,
+          "percent": 41.6
+        },
+        {
+          "ngram": [
+            " Customer",
+            " service",
+            " is"
+          ],
+          "ngram_str": " Customer service is",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            " Customer",
+            " service",
+            " was"
+          ],
+          "ngram_str": " Customer service was",
+          "count": 123,
+          "percent": 24.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Customer",
+            " service"
+          ],
+          "ngram_str": "\u012cCustomer service",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Customer"
+          ],
+          "ngram_str": "\u00c4\u012cCustomer",
+          "count": 86,
+          "percent": 17.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 71,
+          "percent": 14.2
+        },
+        {
+          "ngram": [
+            " ",
+            " Customer",
+            " service"
+          ],
+          "ngram_str": "  Customer service",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "!",
+            " Customer",
+            " service"
+          ],
+          "ngram_str": "! Customer service",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Customer"
+          ],
+          "ngram_str": ".  Customer",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            "Customer",
+            " service",
+            " was"
+          ],
+          "ngram_str": "Customer service was",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " service",
+            " was",
+            " great"
+          ],
+          "ngram_str": " service was great",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "Customer"
+          ],
+          "ngram_str": " \u00c4\u012cCustomer",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " Customer",
+            " service",
+            " was"
+          ],
+          "ngram_str": ". Customer service was",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            ".",
+            " Customer",
+            " service",
+            " is"
+          ],
+          "ngram_str": ". Customer service is",
+          "count": 75,
+          "percent": 15.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "Customer",
+            " service"
+          ],
+          "ngram_str": "\u00c4\u012cCustomer service",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "Customer"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cCustomer",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " Customer",
+            " service"
+          ],
+          "ngram_str": ".  Customer service",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "Customer",
+            " service",
+            " was"
+          ],
+          "ngram_str": "\u012cCustomer service was",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Customer",
+            " service",
+            " is"
+          ],
+          "ngram_str": "  Customer service is",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "Customer",
+            " service"
+          ],
+          "ngram_str": " \u00c4\u012cCustomer service",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "!",
+            " Customer",
+            " service",
+            " was"
+          ],
+          "ngram_str": "! Customer service was",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "!",
+            " Customer",
+            " service",
+            " is"
+          ],
+          "ngram_str": "! Customer service is",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " ",
+            " Customer",
+            " service",
+            " was"
+          ],
+          "ngram_str": "  Customer service was",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " Customer",
+            " service",
+            " was",
+            " excellent"
+          ],
+          "ngram_str": " Customer service was excellent",
+          "count": 15,
+          "percent": 3.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6358,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 12661,
+        "count": 5696,
+        "percent": 89.59
+      },
+      {
+        "feature_idx": 23418,
+        "count": 5406,
+        "percent": 85.03
+      },
+      {
+        "feature_idx": 19876,
+        "count": 5338,
+        "percent": 83.96
+      },
+      {
+        "feature_idx": 12931,
+        "count": 5323,
+        "percent": 83.72
+      },
+      {
+        "feature_idx": 2684,
+        "count": 5248,
+        "percent": 82.54
+      },
+      {
+        "feature_idx": 697,
+        "count": 5130,
+        "percent": 80.69
+      },
+      {
+        "feature_idx": 14782,
+        "count": 5032,
+        "percent": 79.14
+      },
+      {
+        "feature_idx": 7146,
+        "count": 4842,
+        "percent": 76.16
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3888,
+        "percent": 61.15
+      },
+      {
+        "feature_idx": 6059,
+        "count": 3770,
+        "percent": 59.3
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3576,
+        "percent": 56.24
+      },
+      {
+        "feature_idx": 12563,
+        "count": 3292,
+        "percent": 51.78
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3182,
+        "percent": 50.05
+      },
+      {
+        "feature_idx": 17822,
+        "count": 2189,
+        "percent": 34.43
+      },
+      {
+        "feature_idx": 15713,
+        "count": 1956,
+        "percent": 30.76
+      },
+      {
+        "feature_idx": 22917,
+        "count": 1921,
+        "percent": 30.21
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1905,
+        "percent": 29.96
+      },
+      {
+        "feature_idx": 19889,
+        "count": 1877,
+        "percent": 29.52
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1846,
+        "percent": 29.03
+      },
+      {
+        "feature_idx": 6329,
+        "count": 1770,
+        "percent": 27.84
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 6358,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1324,
+        "percent": 20.82
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1043,
+        "percent": 16.4
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 928,
+        "percent": 14.6
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1122,
+        "percent": 17.65
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1941,
+        "percent": 30.53
+      }
+    ],
+    "mean_position": 0.5446,
+    "std_position": 0.3183
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 11,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0273,
+      "p25": 0.0327,
+      "p50": 0.0518,
+      "p75": 0.0828,
+      "p90": 0.0969,
+      "p95": 0.1034,
+      "p99": 0.1086
+    },
+    "skewness": 0.282,
+    "kurtosis": -1.3345,
+    "min": 0.0212,
+    "max": 0.1099,
+    "mean": 0.0594,
+    "std": 0.0294
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 11,
+      "unique_tokens_found": 3
+    },
+    "tokens": [
+      {
+        "token": " customer",
+        "count": 9,
+        "mean_activation": 0.0561
+      },
+      {
+        "token": " Customer",
+        "count": 1,
+        "mean_activation": 0.0969
+      },
+      {
+        "token": " Customers",
+        "count": 1,
+        "mean_activation": 0.0518
+      }
+    ]
+  }
+}

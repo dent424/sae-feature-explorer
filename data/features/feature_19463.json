@@ -1,0 +1,871 @@
+{
+  "feature_idx": 19463,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 75,
+    "mean_when_active": 0.081585693359375,
+    "max_activation": 0.1788330078125,
+    "std_when_active": 0.041787404253000135,
+    "activation_rate": 0.00075
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 39446,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " time",
+        "count": 36144,
+        "mean_activation": 0.09002023547452442
+      },
+      {
+        "token": " times",
+        "count": 726,
+        "mean_activation": 0.030757000295255466
+      },
+      {
+        "token": " occasion",
+        "count": 270,
+        "mean_activation": 0.05383758544921875
+      },
+      {
+        "token": " visit",
+        "count": 160,
+        "mean_activation": 0.02669830322265625
+      },
+      {
+        "token": " day",
+        "count": 159,
+        "mean_activation": 0.02983693056886301
+      },
+      {
+        "token": " again",
+        "count": 158,
+        "mean_activation": 0.02618920048580894
+      },
+      {
+        "token": " more",
+        "count": 157,
+        "mean_activation": 0.03722405889231688
+      },
+      {
+        "token": " I",
+        "count": 155,
+        "mean_activation": 0.02963926253780242
+      },
+      {
+        "token": " night",
+        "count": 88,
+        "mean_activation": 0.030109405517578125
+      },
+      {
+        "token": " one",
+        "count": 86,
+        "mean_activation": 0.0302021115325218
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 39446,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... back again a second** time** in our business trip...",
+        "active_token": " time",
+        "activation": 0.274169921875,
+        "review_id": "WS73xkcxbzQm7oPicB5Rog",
+        "position": 39
+      },
+      {
+        "context": "...back to eat a second** time**, only to sadly disco...",
+        "active_token": " time",
+        "activation": 0.2685546875,
+        "review_id": "zdgRVWbSdZI-GV5AtYKnGg",
+        "position": 304
+      },
+      {
+        "context": "...I came back a second** time** and a dude was poorl...",
+        "active_token": " time",
+        "activation": 0.26806640625,
+        "review_id": "xDY9RGXMxLZGC1QlnbJumA",
+        "position": 340
+      },
+      {
+        "context": "... back to me a second** time** ten minutes later. m...",
+        "active_token": " time",
+        "activation": 0.266357421875,
+        "review_id": "PGsIBeVIUvXPmK0m6Qhi5g",
+        "position": 37
+      },
+      {
+        "context": "...me- we came a second** time** for dinner! The ques...",
+        "active_token": " time",
+        "activation": 0.265869140625,
+        "review_id": "F4cd5UI3wywFmRLeskX9og",
+        "position": 146
+      },
+      {
+        "context": "...eminded her a second** time**.  \\n    We tried 4",
+        "active_token": " time",
+        "activation": 0.264404296875,
+        "review_id": "BkAhEjY6XYa7ovTIODumBA",
+        "position": 316
+      },
+      {
+        "context": "...en we tried a second** time**,he told us to get ou...",
+        "active_token": " time",
+        "activation": 0.26220703125,
+        "review_id": "WOemcj_0huWLeyq98q_6fQ",
+        "position": 99
+      },
+      {
+        "context": "...ry. I got up a third** time** to the cash register...",
+        "active_token": " time",
+        "activation": 0.261962890625,
+        "review_id": "xPBvGFbrDIMDFvCl3o426g",
+        "position": 81
+      },
+      {
+        "context": "...I came back a second** time** and was satisfied, b...",
+        "active_token": " time",
+        "activation": 0.26123046875,
+        "review_id": "7S-VqJTZqLWvjpzn6npIiw",
+        "position": 113
+      },
+      {
+        "context": "...charged her a second** time**. A $27.68 lunch just...",
+        "active_token": " time",
+        "activation": 0.260986328125,
+        "review_id": "yBMjAjHvFvgfUVL7sAnEbQ",
+        "position": 288
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 19463,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2091,
+        "max": 0.2742,
+        "mean": 0.2323
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " second",
+            " time"
+          ],
+          "ngram_str": " second time",
+          "count": 362,
+          "percent": 72.4
+        },
+        {
+          "ngram": [
+            " a",
+            " second"
+          ],
+          "ngram_str": " a second",
+          "count": 308,
+          "percent": 61.6
+        },
+        {
+          "ngram": [
+            " back",
+            " a"
+          ],
+          "ngram_str": " back a",
+          "count": 121,
+          "percent": 24.2
+        },
+        {
+          "ngram": [
+            " time",
+            "."
+          ],
+          "ngram_str": " time.",
+          "count": 109,
+          "percent": 21.8
+        },
+        {
+          "ngram": [
+            " time",
+            " and"
+          ],
+          "ngram_str": " time and",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " third",
+            " time"
+          ],
+          "ngram_str": " third time",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " time",
+            ","
+          ],
+          "ngram_str": " time,",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " a",
+            " third"
+          ],
+          "ngram_str": " a third",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            " the",
+            " second"
+          ],
+          "ngram_str": " the second",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " 2",
+            "nd"
+          ],
+          "ngram_str": " 2nd",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "nd",
+            " time"
+          ],
+          "ngram_str": "nd time",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " went",
+            " back"
+          ],
+          "ngram_str": " went back",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " time",
+            " for"
+          ],
+          "ngram_str": " time for",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " for",
+            " a"
+          ],
+          "ngram_str": " for a",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " came",
+            " back"
+          ],
+          "ngram_str": " came back",
+          "count": 29,
+          "percent": 5.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " a",
+            " second",
+            " time"
+          ],
+          "ngram_str": " a second time",
+          "count": 306,
+          "percent": 61.2
+        },
+        {
+          "ngram": [
+            " back",
+            " a",
+            " second"
+          ],
+          "ngram_str": " back a second",
+          "count": 97,
+          "percent": 19.4
+        },
+        {
+          "ngram": [
+            " second",
+            " time",
+            "."
+          ],
+          "ngram_str": " second time.",
+          "count": 74,
+          "percent": 14.8
+        },
+        {
+          "ngram": [
+            " a",
+            " third",
+            " time"
+          ],
+          "ngram_str": " a third time",
+          "count": 61,
+          "percent": 12.2
+        },
+        {
+          "ngram": [
+            " second",
+            " time",
+            " and"
+          ],
+          "ngram_str": " second time and",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " second",
+            " time",
+            ","
+          ],
+          "ngram_str": " second time,",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " the",
+            " second",
+            " time"
+          ],
+          "ngram_str": " the second time",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " 2",
+            "nd",
+            " time"
+          ],
+          "ngram_str": " 2nd time",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " went",
+            " back",
+            " a"
+          ],
+          "ngram_str": " went back a",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " a",
+            " 2",
+            "nd"
+          ],
+          "ngram_str": " a 2nd",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " second",
+            " time",
+            " for"
+          ],
+          "ngram_str": " second time for",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " came",
+            " back",
+            " a"
+          ],
+          "ngram_str": " came back a",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " second",
+            " time",
+            " to"
+          ],
+          "ngram_str": " second time to",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " went",
+            " a",
+            " second"
+          ],
+          "ngram_str": " went a second",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " time",
+            ".",
+            " "
+          ],
+          "ngram_str": " time. ",
+          "count": 16,
+          "percent": 3.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " back",
+            " a",
+            " second",
+            " time"
+          ],
+          "ngram_str": " back a second time",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " a",
+            " second",
+            " time",
+            "."
+          ],
+          "ngram_str": " a second time.",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " a",
+            " second",
+            " time",
+            " and"
+          ],
+          "ngram_str": " a second time and",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " a",
+            " second",
+            " time",
+            ","
+          ],
+          "ngram_str": " a second time,",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " a",
+            " 2",
+            "nd",
+            " time"
+          ],
+          "ngram_str": " a 2nd time",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " went",
+            " back",
+            " a",
+            " second"
+          ],
+          "ngram_str": " went back a second",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " a",
+            " second",
+            " time",
+            " for"
+          ],
+          "ngram_str": " a second time for",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " came",
+            " back",
+            " a",
+            " second"
+          ],
+          "ngram_str": " came back a second",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " went",
+            " a",
+            " second",
+            " time"
+          ],
+          "ngram_str": " went a second time",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " a",
+            " second",
+            " time",
+            " to"
+          ],
+          "ngram_str": " a second time to",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " a",
+            " third",
+            " time",
+            "."
+          ],
+          "ngram_str": " a third time.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " for",
+            " a",
+            " second",
+            " time"
+          ],
+          "ngram_str": " for a second time",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " back",
+            " a",
+            " third",
+            " time"
+          ],
+          "ngram_str": " back a third time",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " second",
+            " time",
+            ".",
+            " "
+          ],
+          "ngram_str": " second time. ",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " here",
+            " a",
+            " second",
+            " time"
+          ],
+          "ngram_str": " here a second time",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13300000,
+      "corpus_coverage": 0.2572
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 18678,
+        "count": 7857,
+        "percent": 78.57
+      },
+      {
+        "feature_idx": 489,
+        "count": 7381,
+        "percent": 73.81
+      },
+      {
+        "feature_idx": 16212,
+        "count": 7177,
+        "percent": 71.77
+      },
+      {
+        "feature_idx": 3537,
+        "count": 6441,
+        "percent": 64.41
+      },
+      {
+        "feature_idx": 23350,
+        "count": 6418,
+        "percent": 64.18
+      },
+      {
+        "feature_idx": 1539,
+        "count": 6124,
+        "percent": 61.24
+      },
+      {
+        "feature_idx": 11763,
+        "count": 5963,
+        "percent": 59.63
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5935,
+        "percent": 59.35
+      },
+      {
+        "feature_idx": 13855,
+        "count": 5523,
+        "percent": 55.23
+      },
+      {
+        "feature_idx": 20362,
+        "count": 5216,
+        "percent": 52.16
+      },
+      {
+        "feature_idx": 22745,
+        "count": 4239,
+        "percent": 42.39
+      },
+      {
+        "feature_idx": 11711,
+        "count": 3940,
+        "percent": 39.4
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3608,
+        "percent": 36.08
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3151,
+        "percent": 31.51
+      },
+      {
+        "feature_idx": 2541,
+        "count": 3022,
+        "percent": 30.22
+      },
+      {
+        "feature_idx": 17985,
+        "count": 2886,
+        "percent": 28.86
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2805,
+        "percent": 28.05
+      },
+      {
+        "feature_idx": 8956,
+        "count": 2585,
+        "percent": 25.85
+      },
+      {
+        "feature_idx": 5465,
+        "count": 2572,
+        "percent": 25.72
+      },
+      {
+        "feature_idx": 3236,
+        "count": 2562,
+        "percent": 25.62
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 13300000,
+      "corpus_coverage": 0.2572
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 4172,
+        "percent": 41.72
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1721,
+        "percent": 17.21
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1378,
+        "percent": 13.78
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1273,
+        "percent": 12.73
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1456,
+        "percent": 14.56
+      }
+    ],
+    "mean_position": 0.3703,
+    "std_position": 0.3142
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 75,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.031,
+      "p25": 0.047,
+      "p50": 0.0736,
+      "p75": 0.1124,
+      "p90": 0.1444,
+      "p95": 0.1526,
+      "p99": 0.1754
+    },
+    "skewness": 0.509,
+    "kurtosis": -0.712,
+    "min": 0.0196,
+    "max": 0.1788,
+    "mean": 0.0816,
+    "std": 0.0418
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 75,
+      "unique_tokens_found": 9
+    },
+    "tokens": [
+      {
+        "token": " time",
+        "count": 65,
+        "mean_activation": 0.0873
+      },
+      {
+        "token": " occasion",
+        "count": 3,
+        "mean_activation": 0.0573
+      },
+      {
+        "token": " times",
+        "count": 1,
+        "mean_activation": 0.031
+      },
+      {
+        "token": " available",
+        "count": 1,
+        "mean_activation": 0.0309
+      },
+      {
+        "token": " I",
+        "count": 1,
+        "mean_activation": 0.0285
+      },
+      {
+        "token": " day",
+        "count": 1,
+        "mean_activation": 0.0352
+      },
+      {
+        "token": " again",
+        "count": 1,
+        "mean_activation": 0.0288
+      },
+      {
+        "token": " exception",
+        "count": 1,
+        "mean_activation": 0.0439
+      },
+      {
+        "token": " instance",
+        "count": 1,
+        "mean_activation": 0.0717
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 21957,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 605,
+    "mean_when_active": 0.0516401558868156,
+    "max_activation": 0.158447265625,
+    "std_when_active": 0.02936264510473336,
+    "activation_rate": 0.00605
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 8400000,
+      "corpus_coverage": 0.1625
+    },
+    "top_tokens": [
+      {
+        "token": " hot",
+        "count": 1527,
+        "mean_activation": 0.06201890347124161
+      },
+      {
+        "token": " good",
+        "count": 1509,
+        "mean_activation": 0.0443948653456863
+      },
+      {
+        "token": " delicious",
+        "count": 1361,
+        "mean_activation": 0.04604730879358296
+      },
+      {
+        "token": " authentic",
+        "count": 1343,
+        "mean_activation": 0.060885567853278574
+      },
+      {
+        "token": " little",
+        "count": 1152,
+        "mean_activation": 0.06795148054758708
+      },
+      {
+        "token": " fresh",
+        "count": 1080,
+        "mean_activation": 0.061060863071017796
+      },
+      {
+        "token": " happy",
+        "count": 749,
+        "mean_activation": 0.08074624197823661
+      },
+      {
+        "token": "y",
+        "count": 727,
+        "mean_activation": 0.05182917409946699
+      },
+      {
+        "token": " fast",
+        "count": 566,
+        "mean_activation": 0.05869170549480317
+      },
+      {
+        "token": " fried",
+        "count": 513,
+        "mean_activation": 0.048241509331597224
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 8400000,
+      "corpus_coverage": 0.1625
+    },
+    "activations": [
+      {
+        "context": "...e's a faint funny** unpleasant** smell in the rest...",
+        "active_token": " unpleasant",
+        "activation": 0.193115234375,
+        "review_id": "28WO2oMRDxvRNCKUDLuZJw",
+        "position": 53
+      },
+      {
+        "context": "...fresh-baked, pillowy** soft** torta bun, resulting...",
+        "active_token": " soft",
+        "activation": 0.1904296875,
+        "review_id": "a6rDwb8uIYipQamKae42Gg",
+        "position": 111
+      },
+      {
+        "context": "...o. There is cheerful** loud** music that fills the...",
+        "active_token": " loud",
+        "activation": 0.1878662109375,
+        "review_id": "ItzIlBghIZfGqjCw8H1Xsg",
+        "position": 92
+      },
+      {
+        "context": "...s a light and fluffy** soft** cake.  The toppings ...",
+        "active_token": " soft",
+        "activation": 0.1876220703125,
+        "review_id": "u690EAMz4eZjQBSmEx28Eg",
+        "position": 95
+      },
+      {
+        "context": "... an unhelpful rude** powerless** \"manager.\" Hopefu...",
+        "active_token": " powerless",
+        "activation": 0.18701171875,
+        "review_id": "EhLrHHC6UQfnE4Ew8roY2w",
+        "position": 393
+      },
+      {
+        "context": "... Fresh refreshing** delightful**. Cozy atmosphere ...",
+        "active_token": " delightful",
+        "activation": 0.18212890625,
+        "review_id": "YWOhBpy-WVG8fUZAeKpq0A",
+        "position": 20
+      },
+      {
+        "context": "...unrelenting cheesy** delicious**ness of another di...",
+        "active_token": " delicious",
+        "activation": 0.1802978515625,
+        "review_id": "oI4hKrYfi2cPnVJFg5USWw",
+        "position": 182
+      },
+      {
+        "context": "... Amazing authentic** delicious**ness folks. Betwee...",
+        "active_token": " delicious",
+        "activation": 0.18017578125,
+        "review_id": "0z7D3Cz330Jf1MI4lvJM1Q",
+        "position": 19
+      },
+      {
+        "context": "... want to see a angry** loud** version of cocktail,...",
+        "active_token": " loud",
+        "activation": 0.179931640625,
+        "review_id": "l5lR4LM-_8CcOhLOHIlpjQ",
+        "position": 181
+      },
+      {
+        "context": "...or big tasty cheap** delicious**ness, MexiCali is ...",
+        "active_token": " delicious",
+        "activation": 0.1798095703125,
+        "review_id": "dCb3lE0rUzHXHPY8SZZLBg",
+        "position": 231
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 21957,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 17000000,
+      "corpus_coverage": 0.3288,
+      "activation_range": {
+        "min": 0.1476,
+        "max": 0.2136,
+        "mean": 0.1581
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " happy",
+            " hour"
+          ],
+          "ngram_str": " happy hour",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " delicious",
+            "ness"
+          ],
+          "ngram_str": " deliciousness",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " with",
+            " a"
+          ],
+          "ngram_str": " with a",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "ness",
+            "."
+          ],
+          "ngram_str": "ness.",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa"
+          ],
+          "ngram_str": " tortilla",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " was",
+            " a"
+          ],
+          "ngram_str": " was a",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " in",
+            " a"
+          ],
+          "ngram_str": " in a",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " delicious",
+            "ness",
+            "."
+          ],
+          "ngram_str": " deliciousness.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " Great",
+            " happy",
+            " hour"
+          ],
+          "ngram_str": " Great happy hour",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Great",
+            " happy"
+          ],
+          "ngram_str": ". Great happy",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u00c4\u012cI",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " happy",
+            " hour",
+            "."
+          ],
+          "ngram_str": " happy hour.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " spicy",
+            " delicious",
+            "ness"
+          ],
+          "ngram_str": " spicy deliciousness",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "ness",
+            ".",
+            " "
+          ],
+          "ngram_str": "ness. ",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            "."
+          ],
+          "ngram_str": " tortilla.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Good",
+            " happy"
+          ],
+          "ngram_str": ". Good happy",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " Good",
+            " happy",
+            " hour"
+          ],
+          "ngram_str": " Good happy hour",
+          "count": 5,
+          "percent": 1.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Great",
+            " happy",
+            " hour"
+          ],
+          "ngram_str": ". Great happy hour",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " spicy",
+            " delicious",
+            "ness",
+            "."
+          ],
+          "ngram_str": " spicy deliciousness.",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " delicious",
+            "ness",
+            ".",
+            " "
+          ],
+          "ngram_str": " deliciousness. ",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Good",
+            " happy",
+            " hour"
+          ],
+          "ngram_str": ". Good happy hour",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".  \u00c4\u012c",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            "illa",
+            " was",
+            " the",
+            " thin"
+          ],
+          "ngram_str": "illa was the thin",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " was",
+            " the",
+            " thin",
+            " soft"
+          ],
+          "ngram_str": " was the thin soft",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " the",
+            " thin",
+            " soft",
+            " delicious"
+          ],
+          "ngram_str": " the thin soft delicious",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " thin",
+            " soft",
+            " delicious",
+            " variety"
+          ],
+          "ngram_str": " thin soft delicious variety",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " soft",
+            " delicious",
+            " variety",
+            "\u00c4"
+          ],
+          "ngram_str": " soft delicious variety\u00c4",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " delicious",
+            " variety",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " delicious variety\u00c4\u012c",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " variety",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " variety\u00c4\u012c\u00c4",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1700000,
+      "corpus_coverage": 0.0329
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 5042,
+        "percent": 50.42
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4892,
+        "percent": 48.92
+      },
+      {
+        "feature_idx": 9519,
+        "count": 3611,
+        "percent": 36.11
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3532,
+        "percent": 35.32
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3402,
+        "percent": 34.02
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3291,
+        "percent": 32.91
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3244,
+        "percent": 32.44
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2942,
+        "percent": 29.42
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2794,
+        "percent": 27.94
+      },
+      {
+        "feature_idx": 1938,
+        "count": 2644,
+        "percent": 26.44
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2578,
+        "percent": 25.78
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2559,
+        "percent": 25.59
+      },
+      {
+        "feature_idx": 3670,
+        "count": 1975,
+        "percent": 19.75
+      },
+      {
+        "feature_idx": 23419,
+        "count": 1935,
+        "percent": 19.35
+      },
+      {
+        "feature_idx": 5793,
+        "count": 1807,
+        "percent": 18.07
+      },
+      {
+        "feature_idx": 1418,
+        "count": 1580,
+        "percent": 15.8
+      },
+      {
+        "feature_idx": 23735,
+        "count": 1534,
+        "percent": 15.34
+      },
+      {
+        "feature_idx": 22001,
+        "count": 1522,
+        "percent": 15.22
+      },
+      {
+        "feature_idx": 1227,
+        "count": 1511,
+        "percent": 15.11
+      },
+      {
+        "feature_idx": 7918,
+        "count": 1472,
+        "percent": 14.72
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1700000,
+      "corpus_coverage": 0.0329
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2188,
+        "percent": 21.88
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2018,
+        "percent": 20.18
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1998,
+        "percent": 19.98
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1941,
+        "percent": 19.41
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1855,
+        "percent": 18.55
+      }
+    ],
+    "mean_position": 0.4826,
+    "std_position": 0.2913
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 605,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0222,
+      "p25": 0.029,
+      "p50": 0.0424,
+      "p75": 0.067,
+      "p90": 0.0958,
+      "p95": 0.1114,
+      "p99": 0.1407
+    },
+    "skewness": 1.1209,
+    "kurtosis": 0.7692,
+    "min": 0.0104,
+    "max": 0.1584,
+    "mean": 0.0516,
+    "std": 0.0294
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 605,
+      "unique_tokens_found": 300
+    },
+    "tokens": [
+      {
+        "token": " hot",
+        "count": 23,
+        "mean_activation": 0.0628
+      },
+      {
+        "token": " authentic",
+        "count": 18,
+        "mean_activation": 0.0547
+      },
+      {
+        "token": " good",
+        "count": 17,
+        "mean_activation": 0.0456
+      },
+      {
+        "token": " happy",
+        "count": 15,
+        "mean_activation": 0.0928
+      },
+      {
+        "token": " delicious",
+        "count": 14,
+        "mean_activation": 0.0332
+      },
+      {
+        "token": " soft",
+        "count": 11,
+        "mean_activation": 0.0769
+      },
+      {
+        "token": " fresh",
+        "count": 11,
+        "mean_activation": 0.0629
+      },
+      {
+        "token": " little",
+        "count": 9,
+        "mean_activation": 0.0747
+      },
+      {
+        "token": "y",
+        "count": 9,
+        "mean_activation": 0.0378
+      },
+      {
+        "token": " fried",
+        "count": 8,
+        "mean_activation": 0.0367
+      }
+    ]
+  }
+}

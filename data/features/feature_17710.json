@@ -1,0 +1,876 @@
+{
+  "feature_idx": 17710,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 980,
+    "mean_when_active": 0.031296009920081316,
+    "max_activation": 0.0987548828125,
+    "std_when_active": 0.014695085952151151,
+    "activation_rate": 0.0098
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 4900000,
+      "corpus_coverage": 0.0948
+    },
+    "top_tokens": [
+      {
+        "token": " is",
+        "count": 6969,
+        "mean_activation": 0.04011369295485616
+      },
+      {
+        "token": " was",
+        "count": 5649,
+        "mean_activation": 0.03814246849077616
+      },
+      {
+        "token": " very",
+        "count": 2073,
+        "mean_activation": 0.03531314023611802
+      },
+      {
+        "token": " and",
+        "count": 1988,
+        "mean_activation": 0.025114491192148005
+      },
+      {
+        "token": " a",
+        "count": 1754,
+        "mean_activation": 0.028949824543064512
+      },
+      {
+        "token": " are",
+        "count": 1744,
+        "mean_activation": 0.034122195812540314
+      },
+      {
+        "token": " great",
+        "count": 1213,
+        "mean_activation": 0.03346275713260962
+      },
+      {
+        "token": ",",
+        "count": 1135,
+        "mean_activation": 0.0284759521484375
+      },
+      {
+        "token": " friendly",
+        "count": 1014,
+        "mean_activation": 0.020975703553570327
+      },
+      {
+        "token": " nice",
+        "count": 801,
+        "mean_activation": 0.030395031570644118
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 4900000,
+      "corpus_coverage": 0.0948
+    },
+    "activations": [
+      {
+        "context": "...y favorite. The staff** is** always very friendly ...",
+        "active_token": " is",
+        "activation": 0.1220703125,
+        "review_id": "qTvEfTA6svDUm2aDupM69A",
+        "position": 124
+      },
+      {
+        "context": "...salsa. The staff here** is** alway super friendly ...",
+        "active_token": " is",
+        "activation": 0.1209716796875,
+        "review_id": "kSByJ9DRqov4SPtsFwR8dg",
+        "position": 100
+      },
+      {
+        "context": "... them both. The staff** is** very friendly and gre...",
+        "active_token": " is",
+        "activation": 0.1207275390625,
+        "review_id": "YWuQ74R3fDXPO5s63MxKFA",
+        "position": 52
+      },
+      {
+        "context": "...s is great. The staff** is** professional, friendl...",
+        "active_token": " is",
+        "activation": 0.115234375,
+        "review_id": "2Gs4kbt6AEd6ZqhjTKL7cw",
+        "position": 239
+      },
+      {
+        "context": "...ays great.  The staff** is** almost always attenti...",
+        "active_token": " is",
+        "activation": 0.11517333984375,
+        "review_id": "NgsDZl7yAJudsocGmOj0Sw",
+        "position": 60
+      },
+      {
+        "context": "...ic but the staff here** is** very friendly and ver...",
+        "active_token": " is",
+        "activation": 0.1151123046875,
+        "review_id": "27P7zRZffIiBUEzfIbdwEg",
+        "position": 39
+      },
+      {
+        "context": "... favorites. The staff** is** always so friendly as...",
+        "active_token": " is",
+        "activation": 0.11370849609375,
+        "review_id": "0VRhKyg2Yy9KHBIuaFZxnA",
+        "position": 61
+      },
+      {
+        "context": "...y the best. The staff** is** wonderful as well. Al...",
+        "active_token": " is",
+        "activation": 0.112548828125,
+        "review_id": "Lu-lNMERPFbpx845-EQ1ng",
+        "position": 55
+      },
+      {
+        "context": "...as country. The staff** is** friendly super great ...",
+        "active_token": " is",
+        "activation": 0.11181640625,
+        "review_id": "g6DQg9yRJMAVIXIsmPv7_w",
+        "position": 47
+      },
+      {
+        "context": "...phenomenal. The staff** is** super friendly and we...",
+        "active_token": " is",
+        "activation": 0.11151123046875,
+        "review_id": "6Gw5g8v-4q4ozn7ITZZIKQ",
+        "position": 37
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 17710,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 9900000,
+      "corpus_coverage": 0.1915,
+      "activation_range": {
+        "min": 0.089,
+        "max": 0.124,
+        "mean": 0.097
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 265,
+          "percent": 53.0
+        },
+        {
+          "ngram": [
+            " staff",
+            " is"
+          ],
+          "ngram_str": " staff is",
+          "count": 245,
+          "percent": 49.0
+        },
+        {
+          "ngram": [
+            " The",
+            " staff"
+          ],
+          "ngram_str": " The staff",
+          "count": 242,
+          "percent": 48.4
+        },
+        {
+          "ngram": [
+            " friendly",
+            " and"
+          ],
+          "ngram_str": " friendly and",
+          "count": 111,
+          "percent": 22.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            " ",
+            " The"
+          ],
+          "ngram_str": "  The",
+          "count": 89,
+          "percent": 17.8
+        },
+        {
+          "ngram": [
+            " The",
+            " service"
+          ],
+          "ngram_str": " The service",
+          "count": 78,
+          "percent": 15.6
+        },
+        {
+          "ngram": [
+            " service",
+            " is"
+          ],
+          "ngram_str": " service is",
+          "count": 66,
+          "percent": 13.2
+        },
+        {
+          "ngram": [
+            " is",
+            " friendly"
+          ],
+          "ngram_str": " is friendly",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " staff",
+            " was"
+          ],
+          "ngram_str": " staff was",
+          "count": 62,
+          "percent": 12.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " is",
+            " very"
+          ],
+          "ngram_str": " is very",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " is",
+            " always"
+          ],
+          "ngram_str": " is always",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " friendly",
+            "."
+          ],
+          "ngram_str": " friendly.",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " very",
+            " friendly"
+          ],
+          "ngram_str": " very friendly",
+          "count": 42,
+          "percent": 8.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " The",
+            " staff",
+            " is"
+          ],
+          "ngram_str": " The staff is",
+          "count": 179,
+          "percent": 35.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " staff"
+          ],
+          "ngram_str": ". The staff",
+          "count": 167,
+          "percent": 33.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The"
+          ],
+          "ngram_str": ".  The",
+          "count": 79,
+          "percent": 15.8
+        },
+        {
+          "ngram": [
+            " staff",
+            " is",
+            " friendly"
+          ],
+          "ngram_str": " staff is friendly",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " staff"
+          ],
+          "ngram_str": "  The staff",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " The",
+            " staff",
+            " was"
+          ],
+          "ngram_str": " The staff was",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " service"
+          ],
+          "ngram_str": ". The service",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " staff",
+            " is",
+            " very"
+          ],
+          "ngram_str": " staff is very",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " The",
+            " service",
+            " is"
+          ],
+          "ngram_str": " The service is",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " is",
+            " friendly",
+            " and"
+          ],
+          "ngram_str": " is friendly and",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " staff",
+            " is",
+            " always"
+          ],
+          "ngram_str": " staff is always",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " staff",
+            " is"
+          ],
+          "ngram_str": " the staff is",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " is",
+            " very",
+            " friendly"
+          ],
+          "ngram_str": " is very friendly",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " The",
+            " service",
+            " was"
+          ],
+          "ngram_str": " The service was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " service"
+          ],
+          "ngram_str": "  The service",
+          "count": 23,
+          "percent": 4.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " The",
+            " staff",
+            " is"
+          ],
+          "ngram_str": ". The staff is",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " staff"
+          ],
+          "ngram_str": ".  The staff",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " The",
+            " staff",
+            " is",
+            " friendly"
+          ],
+          "ngram_str": " The staff is friendly",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " staff",
+            " is"
+          ],
+          "ngram_str": "  The staff is",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " staff",
+            " was"
+          ],
+          "ngram_str": ". The staff was",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " The",
+            " staff",
+            " is",
+            " very"
+          ],
+          "ngram_str": " The staff is very",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " staff",
+            " is",
+            " friendly",
+            " and"
+          ],
+          "ngram_str": " staff is friendly and",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " staff",
+            " is",
+            " very",
+            " friendly"
+          ],
+          "ngram_str": " staff is very friendly",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " The",
+            " staff",
+            " is",
+            " always"
+          ],
+          "ngram_str": " The staff is always",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " service",
+            " was"
+          ],
+          "ngram_str": ". The service was",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " service"
+          ],
+          "ngram_str": ".  The service",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " service",
+            " is"
+          ],
+          "ngram_str": ". The service is",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " The",
+            " staff",
+            " was",
+            " friendly"
+          ],
+          "ngram_str": " The staff was friendly",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The",
+            " staff",
+            " is"
+          ],
+          "ngram_str": "\u012cThe staff is",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 15,
+          "percent": 3.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1000000,
+      "corpus_coverage": 0.0193
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22650,
+        "count": 6784,
+        "percent": 67.84
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5985,
+        "percent": 59.85
+      },
+      {
+        "feature_idx": 12563,
+        "count": 5119,
+        "percent": 51.19
+      },
+      {
+        "feature_idx": 444,
+        "count": 4179,
+        "percent": 41.79
+      },
+      {
+        "feature_idx": 6329,
+        "count": 4022,
+        "percent": 40.22
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3908,
+        "percent": 39.08
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3830,
+        "percent": 38.3
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3685,
+        "percent": 36.85
+      },
+      {
+        "feature_idx": 4871,
+        "count": 3620,
+        "percent": 36.2
+      },
+      {
+        "feature_idx": 20619,
+        "count": 3296,
+        "percent": 32.96
+      },
+      {
+        "feature_idx": 4693,
+        "count": 2783,
+        "percent": 27.83
+      },
+      {
+        "feature_idx": 8974,
+        "count": 2487,
+        "percent": 24.87
+      },
+      {
+        "feature_idx": 22181,
+        "count": 2450,
+        "percent": 24.5
+      },
+      {
+        "feature_idx": 13566,
+        "count": 2435,
+        "percent": 24.35
+      },
+      {
+        "feature_idx": 6408,
+        "count": 2249,
+        "percent": 22.49
+      },
+      {
+        "feature_idx": 435,
+        "count": 2107,
+        "percent": 21.07
+      },
+      {
+        "feature_idx": 22394,
+        "count": 2097,
+        "percent": 20.97
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2051,
+        "percent": 20.51
+      },
+      {
+        "feature_idx": 18555,
+        "count": 1961,
+        "percent": 19.61
+      },
+      {
+        "feature_idx": 20464,
+        "count": 1926,
+        "percent": 19.26
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1000000,
+      "corpus_coverage": 0.0193
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1001,
+        "percent": 10.01
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1622,
+        "percent": 16.22
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2108,
+        "percent": 21.08
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2592,
+        "percent": 25.92
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2677,
+        "percent": 26.77
+      }
+    ],
+    "mean_position": 0.5899,
+    "std_position": 0.26
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 980,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0168,
+      "p25": 0.021,
+      "p50": 0.0276,
+      "p75": 0.0374,
+      "p90": 0.0518,
+      "p95": 0.0607,
+      "p99": 0.0798
+    },
+    "skewness": 1.4405,
+    "kurtosis": 2.3899,
+    "min": 0.0075,
+    "max": 0.0988,
+    "mean": 0.0313,
+    "std": 0.0147
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 980,
+      "unique_tokens_found": 201
+    },
+    "tokens": [
+      {
+        "token": " is",
+        "count": 143,
+        "mean_activation": 0.0386
+      },
+      {
+        "token": " was",
+        "count": 118,
+        "mean_activation": 0.036
+      },
+      {
+        "token": " very",
+        "count": 45,
+        "mean_activation": 0.0333
+      },
+      {
+        "token": " and",
+        "count": 35,
+        "mean_activation": 0.022
+      },
+      {
+        "token": " are",
+        "count": 34,
+        "mean_activation": 0.0298
+      },
+      {
+        "token": " a",
+        "count": 27,
+        "mean_activation": 0.0264
+      },
+      {
+        "token": ",",
+        "count": 27,
+        "mean_activation": 0.0269
+      },
+      {
+        "token": " great",
+        "count": 25,
+        "mean_activation": 0.0321
+      },
+      {
+        "token": " were",
+        "count": 16,
+        "mean_activation": 0.0345
+      },
+      {
+        "token": " good",
+        "count": 14,
+        "mean_activation": 0.0304
+      }
+    ]
+  }
+}

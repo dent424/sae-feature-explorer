@@ -1,0 +1,876 @@
+{
+  "feature_idx": 16229,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 397,
+    "mean_when_active": 0.03197242871339735,
+    "max_activation": 0.11297607421875,
+    "std_when_active": 0.01662220913502957,
+    "activation_rate": 0.00397
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 12200000,
+      "corpus_coverage": 0.236
+    },
+    "top_tokens": [
+      {
+        "token": ".",
+        "count": 11607,
+        "mean_activation": 0.027870704070474376
+      },
+      {
+        "token": " and",
+        "count": 10656,
+        "mean_activation": 0.03728993948515471
+      },
+      {
+        "token": ",",
+        "count": 8427,
+        "mean_activation": 0.03702303708851571
+      },
+      {
+        "token": " but",
+        "count": 3440,
+        "mean_activation": 0.03411653873532317
+      },
+      {
+        "token": " the",
+        "count": 1510,
+        "mean_activation": 0.025194751663713266
+      },
+      {
+        "token": " I",
+        "count": 771,
+        "mean_activation": 0.02197532802240394
+      },
+      {
+        "token": " it",
+        "count": 762,
+        "mean_activation": 0.032357323513882055
+      },
+      {
+        "token": " ",
+        "count": 760,
+        "mean_activation": 0.019940697519402754
+      },
+      {
+        "token": " The",
+        "count": 676,
+        "mean_activation": 0.018238564214762852
+      },
+      {
+        "token": " so",
+        "count": 569,
+        "mean_activation": 0.03082276731467624
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 12200000,
+      "corpus_coverage": 0.236
+    },
+    "activations": [
+      {
+        "context": "...tasted like pot roast** and** was in thick chunks....",
+        "active_token": " and",
+        "activation": 0.1534423828125,
+        "review_id": "06flyk1Djt87Mmaxex8JEA",
+        "position": 87
+      },
+      {
+        "context": "...grandmother's kitchen** and** that added another l...",
+        "active_token": " and",
+        "activation": 0.148193359375,
+        "review_id": "_8uMJsSO8d57P5wJs-T5Vw",
+        "position": 240
+      },
+      {
+        "context": "...tasted like jar salsa** and** the queso was very t...",
+        "active_token": " and",
+        "activation": 0.14453125,
+        "review_id": "O8f9WNW5S-12LV-NAoK6sQ",
+        "position": 91
+      },
+      {
+        "context": "...t tasted like whiskey** and** water. We inquired a...",
+        "active_token": " and",
+        "activation": 0.140869140625,
+        "review_id": "US-ZBOwF8nv_Mr0wmXXahg",
+        "position": 165
+      },
+      {
+        "context": "... tasted like dog food** and** their carnitas were ...",
+        "active_token": " and",
+        "activation": 0.1397705078125,
+        "review_id": "eHHDjgxIquHYGMsVqzfzhQ",
+        "position": 6
+      },
+      {
+        "context": "...tasted like cardboard** and** the shredded chicken...",
+        "active_token": " and",
+        "activation": 0.13916015625,
+        "review_id": "barfI4EYDHSMBAWCvs10PA",
+        "position": 84
+      },
+      {
+        "context": "... lunch room cafeteria** and** the food was just ok...",
+        "active_token": " and",
+        "activation": 0.1387939453125,
+        "review_id": "BNAZrfSyxWV11R-BSq48IQ",
+        "position": 15
+      },
+      {
+        "context": "...smelled like dog food** and** tasted about how you...",
+        "active_token": " and",
+        "activation": 0.1387939453125,
+        "review_id": "TLnUVIyTtid7mdhcDt8v4w",
+        "position": 46
+      },
+      {
+        "context": "...stes like tomato soup** and** I can imagine it bei...",
+        "active_token": " and",
+        "activation": 0.13818359375,
+        "review_id": "1-KWCj9VxwSg_K-Hqb2xVg",
+        "position": 159
+      },
+      {
+        "context": "...t tasted like oatmeal** and** tap water mixed toge...",
+        "active_token": " and",
+        "activation": 0.137451171875,
+        "review_id": "5Xm9O3c6Ji98DwJfFSnYvA",
+        "position": 136
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 16229,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 24100000,
+      "corpus_coverage": 0.4661,
+      "activation_range": {
+        "min": 0.1033,
+        "max": 0.1573,
+        "mean": 0.1157
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " tasted",
+            " like"
+          ],
+          "ngram_str": " tasted like",
+          "count": 187,
+          "percent": 37.4
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " like",
+            " a"
+          ],
+          "ngram_str": " like a",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " tastes",
+            " like"
+          ],
+          "ngram_str": " tastes like",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " looked",
+            " like"
+          ],
+          "ngram_str": " looked like",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " taste",
+            " like"
+          ],
+          "ngram_str": " taste like",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " was"
+          ],
+          "ngram_str": " and was",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " like",
+            " tomato"
+          ],
+          "ngram_str": " like tomato",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " from",
+            " a"
+          ],
+          "ngram_str": " from a",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " smelled",
+            " like"
+          ],
+          "ngram_str": " smelled like",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " It",
+            " tasted"
+          ],
+          "ngram_str": " It tasted",
+          "count": 17,
+          "percent": 3.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            ",",
+            " and",
+            " the"
+          ],
+          "ngram_str": ", and the",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like",
+            " tomato"
+          ],
+          "ngram_str": " tasted like tomato",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " salsa",
+            " tasted",
+            " like"
+          ],
+          "ngram_str": " salsa tasted like",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " it",
+            " tasted",
+            " like"
+          ],
+          "ngram_str": " it tasted like",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " It",
+            " tasted",
+            " like"
+          ],
+          "ngram_str": " It tasted like",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " like",
+            " tomato",
+            " sauce"
+          ],
+          "ngram_str": " like tomato sauce",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " just",
+            " tasted",
+            " like"
+          ],
+          "ngram_str": " just tasted like",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " a",
+            " can",
+            ","
+          ],
+          "ngram_str": " a can,",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like",
+            " cardboard"
+          ],
+          "ngram_str": " tasted like cardboard",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " food"
+          ],
+          "ngram_str": " and the food",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " from",
+            " a",
+            " can"
+          ],
+          "ngram_str": " from a can",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " tasted",
+            " more",
+            " like"
+          ],
+          "ngram_str": " tasted more like",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " k",
+            "etchup",
+            " and"
+          ],
+          "ngram_str": " ketchup and",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " looked",
+            " like",
+            " a"
+          ],
+          "ngram_str": " looked like a",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " like",
+            " k",
+            "etchup"
+          ],
+          "ngram_str": " like ketchup",
+          "count": 8,
+          "percent": 1.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " salsa",
+            " tasted",
+            " like",
+            " tomato"
+          ],
+          "ngram_str": " salsa tasted like tomato",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like",
+            " tomato",
+            " sauce"
+          ],
+          "ngram_str": " tasted like tomato sauce",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like",
+            " te",
+            "quila"
+          ],
+          "ngram_str": " tasted like tequila",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " like",
+            " te",
+            "quila",
+            " and"
+          ],
+          "ngram_str": " like tequila and",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like",
+            " k",
+            "etchup"
+          ],
+          "ngram_str": " tasted like ketchup",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " like",
+            " k",
+            "etchup",
+            " and"
+          ],
+          "ngram_str": " like ketchup and",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " out",
+            " of",
+            " a",
+            " can"
+          ],
+          "ngram_str": " out of a can",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " like",
+            " tomato",
+            " sauce",
+            " and"
+          ],
+          "ngram_str": " like tomato sauce and",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " like",
+            " tomato",
+            " sauce",
+            ","
+          ],
+          "ngram_str": " like tomato sauce,",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " came",
+            " out",
+            " of",
+            " a"
+          ],
+          "ngram_str": " came out of a",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " of",
+            " a",
+            " can",
+            ","
+          ],
+          "ngram_str": " of a can,",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " like",
+            " dog",
+            " food",
+            " and"
+          ],
+          "ngram_str": " like dog food and",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas",
+            " tasted",
+            " like"
+          ],
+          "ngram_str": " tortillas tasted like",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " tasted",
+            " like",
+            " cardboard",
+            " and"
+          ],
+          "ngram_str": " tasted like cardboard and",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " food",
+            " was"
+          ],
+          "ngram_str": " and the food was",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2500000,
+      "corpus_coverage": 0.0484
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 5332,
+        "percent": 53.32
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4543,
+        "percent": 45.43
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3868,
+        "percent": 38.68
+      },
+      {
+        "feature_idx": 11476,
+        "count": 3786,
+        "percent": 37.86
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3113,
+        "percent": 31.13
+      },
+      {
+        "feature_idx": 15956,
+        "count": 3078,
+        "percent": 30.78
+      },
+      {
+        "feature_idx": 11839,
+        "count": 2877,
+        "percent": 28.77
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2661,
+        "percent": 26.61
+      },
+      {
+        "feature_idx": 17874,
+        "count": 2498,
+        "percent": 24.98
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2429,
+        "percent": 24.29
+      },
+      {
+        "feature_idx": 65,
+        "count": 2394,
+        "percent": 23.94
+      },
+      {
+        "feature_idx": 11105,
+        "count": 2352,
+        "percent": 23.52
+      },
+      {
+        "feature_idx": 19938,
+        "count": 2287,
+        "percent": 22.87
+      },
+      {
+        "feature_idx": 18135,
+        "count": 2090,
+        "percent": 20.9
+      },
+      {
+        "feature_idx": 13507,
+        "count": 2026,
+        "percent": 20.26
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1853,
+        "percent": 18.53
+      },
+      {
+        "feature_idx": 4377,
+        "count": 1808,
+        "percent": 18.08
+      },
+      {
+        "feature_idx": 23212,
+        "count": 1777,
+        "percent": 17.77
+      },
+      {
+        "feature_idx": 13095,
+        "count": 1752,
+        "percent": 17.52
+      },
+      {
+        "feature_idx": 10269,
+        "count": 1649,
+        "percent": 16.49
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2500000,
+      "corpus_coverage": 0.0484
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1225,
+        "percent": 12.25
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2113,
+        "percent": 21.13
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2530,
+        "percent": 25.3
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2397,
+        "percent": 23.97
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1735,
+        "percent": 17.35
+      }
+    ],
+    "mean_position": 0.5288,
+    "std_position": 0.2526
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 397,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0173,
+      "p25": 0.0214,
+      "p50": 0.0273,
+      "p75": 0.0367,
+      "p90": 0.054,
+      "p95": 0.069,
+      "p99": 0.0899
+    },
+    "skewness": 1.8679,
+    "kurtosis": 3.9177,
+    "min": 0.0115,
+    "max": 0.113,
+    "mean": 0.032,
+    "std": 0.0166
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 397,
+      "unique_tokens_found": 59
+    },
+    "tokens": [
+      {
+        "token": ".",
+        "count": 91,
+        "mean_activation": 0.0291
+      },
+      {
+        "token": " and",
+        "count": 85,
+        "mean_activation": 0.0328
+      },
+      {
+        "token": ",",
+        "count": 84,
+        "mean_activation": 0.0404
+      },
+      {
+        "token": " but",
+        "count": 28,
+        "mean_activation": 0.0374
+      },
+      {
+        "token": " the",
+        "count": 9,
+        "mean_activation": 0.0228
+      },
+      {
+        "token": "...",
+        "count": 8,
+        "mean_activation": 0.0221
+      },
+      {
+        "token": " I",
+        "count": 7,
+        "mean_activation": 0.0198
+      },
+      {
+        "token": " ",
+        "count": 5,
+        "mean_activation": 0.0203
+      },
+      {
+        "token": " The",
+        "count": 5,
+        "mean_activation": 0.0196
+      },
+      {
+        "token": " it",
+        "count": 4,
+        "mean_activation": 0.0326
+      }
+    ]
+  }
+}

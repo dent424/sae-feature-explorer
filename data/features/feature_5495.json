@@ -1,0 +1,876 @@
+{
+  "feature_idx": 5495,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 307,
+    "mean_when_active": 0.03620473259046722,
+    "max_activation": 0.197265625,
+    "std_when_active": 0.018814776912550308,
+    "activation_rate": 0.00307
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 17100000,
+      "corpus_coverage": 0.3307
+    },
+    "top_tokens": [
+      {
+        "token": " the",
+        "count": 3952,
+        "mean_activation": 0.0278065146704917
+      },
+      {
+        "token": " to",
+        "count": 3255,
+        "mean_activation": 0.03471903061170915
+      },
+      {
+        "token": " my",
+        "count": 2424,
+        "mean_activation": 0.048820992900986876
+      },
+      {
+        "token": " their",
+        "count": 2152,
+        "mean_activation": 0.06494648660425803
+      },
+      {
+        "token": " our",
+        "count": 1649,
+        "mean_activation": 0.043960895156629015
+      },
+      {
+        "token": " your",
+        "count": 1502,
+        "mean_activation": 0.04981293659235603
+      },
+      {
+        "token": " get",
+        "count": 1380,
+        "mean_activation": 0.028831034121306047
+      },
+      {
+        "token": " for",
+        "count": 1351,
+        "mean_activation": 0.036293244379525004
+      },
+      {
+        "token": " of",
+        "count": 1194,
+        "mean_activation": 0.04061958658036275
+      },
+      {
+        "token": " at",
+        "count": 970,
+        "mean_activation": 0.04275979897410599
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 17100000,
+      "corpus_coverage": 0.3307
+    },
+    "activations": [
+      {
+        "context": "... that many of us base** our** restaurant choice on...",
+        "active_token": " our",
+        "activation": 0.255859375,
+        "review_id": "wVgxG6C5AobHaL3yPUBR_Q",
+        "position": 179
+      },
+      {
+        "context": "...retty sure they make** their** corn tortillas, and...",
+        "active_token": " their",
+        "activation": 0.2486572265625,
+        "review_id": "z0vIV5bSmLfKuO-GXgGhlw",
+        "position": 36
+      },
+      {
+        "context": "... I suspect they make** their** own chips. In any c...",
+        "active_token": " their",
+        "activation": 0.2470703125,
+        "review_id": "KGTR_1-AYG3w8sTOgFWATg",
+        "position": 156
+      },
+      {
+        "context": "...They apparently make** their** own hot sauce and w...",
+        "active_token": " their",
+        "activation": 0.2459716796875,
+        "review_id": "xDTaN_y6uk0bvXjvx8iNDg",
+        "position": 117
+      },
+      {
+        "context": "...iners who don't base** their** diets around meat. ...",
+        "active_token": " their",
+        "activation": 0.245361328125,
+        "review_id": "_ZVH6vt9LRsh8Y_79dN3pw",
+        "position": 56
+      },
+      {
+        "context": "...t, they make most of** their** money on food. They...",
+        "active_token": " their",
+        "activation": 0.241455078125,
+        "review_id": "KJ7HArMdB8npr4-FdQ20pg",
+        "position": 264
+      },
+      {
+        "context": "...ate that people base** their** bad review off of o...",
+        "active_token": " their",
+        "activation": 0.23876953125,
+        "review_id": "42XRvcb15dMWODcobNeOJQ",
+        "position": 76
+      },
+      {
+        "context": "...ntion that they make** their** own soda? And have ...",
+        "active_token": " their",
+        "activation": 0.238525390625,
+        "review_id": "yatTFMdjiA0VBUIny2OYHg",
+        "position": 334
+      },
+      {
+        "context": "...s are a must!\\n\\nI base** my** reviews of Mexican re...",
+        "active_token": " my",
+        "activation": 0.2369384765625,
+        "review_id": "6Z90dT7mqJGqFGJzUehS8A",
+        "position": 11
+      },
+      {
+        "context": "...u can tell they make** their** marinade (sofrito) ...",
+        "active_token": " their",
+        "activation": 0.2362060546875,
+        "review_id": "iiuW2Ely5Y_cYzBYJNrFYQ",
+        "position": 80
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 5495,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 34300000,
+      "corpus_coverage": 0.6634,
+      "activation_range": {
+        "min": 0.1687,
+        "max": 0.2861,
+        "mean": 0.1966
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " make",
+            " their"
+          ],
+          "ngram_str": " make their",
+          "count": 322,
+          "percent": 64.4
+        },
+        {
+          "ngram": [
+            " their",
+            " own"
+          ],
+          "ngram_str": " their own",
+          "count": 226,
+          "percent": 45.2
+        },
+        {
+          "ngram": [
+            " they",
+            " make"
+          ],
+          "ngram_str": " they make",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " They",
+            " make"
+          ],
+          "ngram_str": " They make",
+          "count": 120,
+          "percent": 24.0
+        },
+        {
+          "ngram": [
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " tortillas",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            ".",
+            " They"
+          ],
+          "ngram_str": ". They",
+          "count": 103,
+          "percent": 20.6
+        },
+        {
+          "ngram": [
+            " own",
+            " tort"
+          ],
+          "ngram_str": " own tort",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " bas",
+            "ing"
+          ],
+          "ngram_str": " basing",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " that",
+            " they"
+          ],
+          "ngram_str": " that they",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " ",
+            " They"
+          ],
+          "ngram_str": "  They",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " their",
+            " tort"
+          ],
+          "ngram_str": " their tort",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " review",
+            " on"
+          ],
+          "ngram_str": " review on",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " make",
+            " their",
+            " own"
+          ],
+          "ngram_str": " make their own",
+          "count": 219,
+          "percent": 43.8
+        },
+        {
+          "ngram": [
+            " they",
+            " make",
+            " their"
+          ],
+          "ngram_str": " they make their",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " They",
+            " make",
+            " their"
+          ],
+          "ngram_str": " They make their",
+          "count": 119,
+          "percent": 23.8
+        },
+        {
+          "ngram": [
+            ".",
+            " They",
+            " make"
+          ],
+          "ngram_str": ". They make",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " their",
+            " own",
+            " tort"
+          ],
+          "ngram_str": " their own tort",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " own",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " own tortillas",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " make",
+            " their",
+            " tort"
+          ],
+          "ngram_str": " make their tort",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " that",
+            " they",
+            " make"
+          ],
+          "ngram_str": " that they make",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " They"
+          ],
+          "ngram_str": ".  They",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " their",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " their tortillas",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " bas",
+            "ing",
+            " my"
+          ],
+          "ngram_str": " basing my",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            "They",
+            " make",
+            " their"
+          ],
+          "ngram_str": "They make their",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " ",
+            " They",
+            " make"
+          ],
+          "ngram_str": "  They make",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " also",
+            " make",
+            " their"
+          ],
+          "ngram_str": " also make their",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " They",
+            " make",
+            " their",
+            " own"
+          ],
+          "ngram_str": " They make their own",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            ".",
+            " They",
+            " make",
+            " their"
+          ],
+          "ngram_str": ". They make their",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " they",
+            " make",
+            " their",
+            " own"
+          ],
+          "ngram_str": " they make their own",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            " make",
+            " their",
+            " own",
+            " tort"
+          ],
+          "ngram_str": " make their own tort",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " their",
+            " own",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " their own tortillas",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " that",
+            " they",
+            " make",
+            " their"
+          ],
+          "ngram_str": " that they make their",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " make",
+            " their",
+            " tort",
+            "illas"
+          ],
+          "ngram_str": " make their tortillas",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " ",
+            " They",
+            " make",
+            " their"
+          ],
+          "ngram_str": "  They make their",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " make",
+            " their",
+            " own",
+            " chips"
+          ],
+          "ngram_str": " make their own chips",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " They",
+            " make"
+          ],
+          "ngram_str": ".  They make",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "They",
+            " make",
+            " their",
+            " own"
+          ],
+          "ngram_str": "They make their own",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " they",
+            " make",
+            " their"
+          ],
+          "ngram_str": ", they make their",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " They",
+            " also",
+            " make",
+            " their"
+          ],
+          "ngram_str": " They also make their",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "They",
+            " make",
+            " their"
+          ],
+          "ngram_str": "\u012cThey make their",
+          "count": 17,
+          "percent": 3.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3400000,
+      "corpus_coverage": 0.0658
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4617,
+        "percent": 46.17
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3797,
+        "percent": 37.97
+      },
+      {
+        "feature_idx": 11763,
+        "count": 3481,
+        "percent": 34.81
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3425,
+        "percent": 34.25
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3314,
+        "percent": 33.14
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3053,
+        "percent": 30.53
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3038,
+        "percent": 30.38
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2639,
+        "percent": 26.39
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2562,
+        "percent": 25.62
+      },
+      {
+        "feature_idx": 1390,
+        "count": 2510,
+        "percent": 25.1
+      },
+      {
+        "feature_idx": 9307,
+        "count": 2150,
+        "percent": 21.5
+      },
+      {
+        "feature_idx": 4338,
+        "count": 2113,
+        "percent": 21.13
+      },
+      {
+        "feature_idx": 16951,
+        "count": 1733,
+        "percent": 17.33
+      },
+      {
+        "feature_idx": 22128,
+        "count": 1665,
+        "percent": 16.65
+      },
+      {
+        "feature_idx": 19167,
+        "count": 1646,
+        "percent": 16.46
+      },
+      {
+        "feature_idx": 9465,
+        "count": 1576,
+        "percent": 15.76
+      },
+      {
+        "feature_idx": 1982,
+        "count": 1531,
+        "percent": 15.31
+      },
+      {
+        "feature_idx": 10622,
+        "count": 1470,
+        "percent": 14.7
+      },
+      {
+        "feature_idx": 435,
+        "count": 1450,
+        "percent": 14.5
+      },
+      {
+        "feature_idx": 20647,
+        "count": 1438,
+        "percent": 14.38
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 3400000,
+      "corpus_coverage": 0.0658
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2403,
+        "percent": 24.03
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2181,
+        "percent": 21.81
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2021,
+        "percent": 20.21
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1863,
+        "percent": 18.63
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1532,
+        "percent": 15.32
+      }
+    ],
+    "mean_position": 0.456,
+    "std_position": 0.2825
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 307,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.02,
+      "p25": 0.0241,
+      "p50": 0.0312,
+      "p75": 0.0452,
+      "p90": 0.058,
+      "p95": 0.0657,
+      "p99": 0.0993
+    },
+    "skewness": 3.0031,
+    "kurtosis": 18.0231,
+    "min": 0.0139,
+    "max": 0.1973,
+    "mean": 0.0362,
+    "std": 0.0188
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 307,
+      "unique_tokens_found": 131
+    },
+    "tokens": [
+      {
+        "token": " to",
+        "count": 24,
+        "mean_activation": 0.0359
+      },
+      {
+        "token": " the",
+        "count": 16,
+        "mean_activation": 0.0273
+      },
+      {
+        "token": " their",
+        "count": 13,
+        "mean_activation": 0.0597
+      },
+      {
+        "token": " for",
+        "count": 12,
+        "mean_activation": 0.0443
+      },
+      {
+        "token": " get",
+        "count": 10,
+        "mean_activation": 0.0305
+      },
+      {
+        "token": " our",
+        "count": 8,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": " my",
+        "count": 8,
+        "mean_activation": 0.0445
+      },
+      {
+        "token": " this",
+        "count": 7,
+        "mean_activation": 0.0352
+      },
+      {
+        "token": " started",
+        "count": 6,
+        "mean_activation": 0.0298
+      },
+      {
+        "token": " greeted",
+        "count": 6,
+        "mean_activation": 0.0344
+      }
+    ]
+  }
+}

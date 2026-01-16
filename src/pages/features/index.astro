@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import FeatureCard from '../../components/features/FeatureCard.astro';
+import { loadFeaturesIndex, paginateFeatures } from '../../lib/data';
+
+const allFeatures = loadFeaturesIndex();
+const perPage = 100;
+const { data: features, totalPages, hasNext } = paginateFeatures(allFeatures, 1, perPage);
+---
+
+<BaseLayout title="Features - SAE Feature Explorer">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900">Features</h1>
+      <p class="text-gray-600 mt-2">
+        Browsing {allFeatures.length.toLocaleString()} features, sorted by rank (most interesting first).
+        Page 1 of {totalPages}.
+      </p>
+    </div>
+
+    <div class="grid gap-4">
+      {features.map((feature) => (
+        <FeatureCard feature={feature} />
+      ))}
+    </div>
+
+    <!-- Pagination -->
+    <div class="mt-8 flex justify-center space-x-2">
+      <span class="px-4 py-2 text-gray-400 bg-gray-100 rounded">
+        Previous
+      </span>
+      <span class="px-4 py-2 bg-blue-600 text-white rounded">
+        1
+      </span>
+      {hasNext && (
+        <a href="/features/2" class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
+          2
+        </a>
+      )}
+      {totalPages > 2 && (
+        <>
+          <span class="px-4 py-2 text-gray-400">...</span>
+          <a href={`/features/${totalPages}`} class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
+            {totalPages}
+          </a>
+        </>
+      )}
+      {hasNext && (
+        <a href="/features/2" class="px-4 py-2 text-gray-700 bg-gray-100 hover:bg-gray-200 rounded">
+          Next
+        </a>
+      )}
+    </div>
+  </div>
+</BaseLayout>

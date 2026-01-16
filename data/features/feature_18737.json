@@ -1,0 +1,876 @@
+{
+  "feature_idx": 18737,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 67,
+    "mean_when_active": 0.14054847831156717,
+    "max_activation": 0.2578125,
+    "std_when_active": 0.07732651090852705,
+    "activation_rate": 0.00067
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 31366,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " parking",
+        "count": 12727,
+        "mean_activation": 0.21292717319877277
+      },
+      {
+        "token": " mall",
+        "count": 3127,
+        "mean_activation": 0.060539955600290817
+      },
+      {
+        "token": " park",
+        "count": 2372,
+        "mean_activation": 0.13302517098077835
+      },
+      {
+        "token": " Parking",
+        "count": 1727,
+        "mean_activation": 0.19621809631948464
+      },
+      {
+        "token": " Park",
+        "count": 1007,
+        "mean_activation": 0.09207829131625496
+      },
+      {
+        "token": " traffic",
+        "count": 979,
+        "mean_activation": 0.07995547800190723
+      },
+      {
+        "token": "ing",
+        "count": 929,
+        "mean_activation": 0.09594315938467102
+      },
+      {
+        "token": " parked",
+        "count": 771,
+        "mean_activation": 0.07663704047097925
+      },
+      {
+        "token": "Park",
+        "count": 759,
+        "mean_activation": 0.1403317256721426
+      },
+      {
+        "token": " crowds",
+        "count": 537,
+        "mean_activation": 0.0410914074775227
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 31366,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ng.  Limited, tight** parking**.",
+        "active_token": " parking",
+        "activation": 0.28564453125,
+        "review_id": "h1kdusGfIVFnqHCfaycJ1A",
+        "position": 21
+      },
+      {
+        "context": "...good, adequate free** parking** right out front.",
+        "active_token": " parking",
+        "activation": 0.274169921875,
+        "review_id": "v_IQ-0rnMD9nAyLZF4gF7Q",
+        "position": 118
+      },
+      {
+        "context": "...lder interior. Easy** parking**.",
+        "active_token": " parking",
+        "activation": 0.273681640625,
+        "review_id": "tYI3c8GNRXn2SdqH88naVw",
+        "position": 34
+      },
+      {
+        "context": "... bathrooms, limited** parking** (paid),",
+        "active_token": " parking",
+        "activation": 0.271240234375,
+        "review_id": "e6Y90Xt_8g83TU4itvmbNw",
+        "position": 114
+      },
+      {
+        "context": "...Clean please, ample** parking**. Would go back.",
+        "active_token": " parking",
+        "activation": 0.270751953125,
+        "review_id": "pAcwawKReMLMAr4YGw_Aug",
+        "position": 23
+      },
+      {
+        "context": "...les. Fair amount of** parking**.",
+        "active_token": " parking",
+        "activation": 0.2705078125,
+        "review_id": "KRko3Uoc8pmPa1GF7uYvJA",
+        "position": 53
+      },
+      {
+        "context": "...le prices and ample** parking**.  My personal quic...",
+        "active_token": " parking",
+        "activation": 0.2705078125,
+        "review_id": "_Bq3zv6N4fMXL2OQ6XRtZA",
+        "position": 21
+      },
+      {
+        "context": "...sy to find, limited** parking** . It was raining v...",
+        "active_token": " parking",
+        "activation": 0.27001953125,
+        "review_id": "OJiuC90z7httfZrrEEpo_g",
+        "position": 36
+      },
+      {
+        "context": "...with plenty of free** parking**.  I'll definitely ...",
+        "active_token": " parking",
+        "activation": 0.27001953125,
+        "review_id": "vPi1RXbs6wdZsfnvnWB2Qw",
+        "position": 50
+      },
+      {
+        "context": "...service and limited** parking** space.",
+        "active_token": " parking",
+        "activation": 0.269775390625,
+        "review_id": "dzi4I4Un7QofZxjhKLlR-Q",
+        "position": 34
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 18737,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2522,
+        "max": 0.2856,
+        "mean": 0.258
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " parking",
+            "."
+          ],
+          "ngram_str": " parking.",
+          "count": 154,
+          "percent": 30.8
+        },
+        {
+          "ngram": [
+            " free",
+            " parking"
+          ],
+          "ngram_str": " free parking",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 84,
+          "percent": 16.8
+        },
+        {
+          "ngram": [
+            " of",
+            " parking"
+          ],
+          "ngram_str": " of parking",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 77,
+          "percent": 15.4
+        },
+        {
+          "ngram": [
+            " limited",
+            " parking"
+          ],
+          "ngram_str": " limited parking",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            " parking",
+            ","
+          ],
+          "ngram_str": " parking,",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " plenty",
+            " of"
+          ],
+          "ngram_str": " plenty of",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " parking",
+            " lot"
+          ],
+          "ngram_str": " parking lot",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " parking",
+            " in"
+          ],
+          "ngram_str": " parking in",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " easy",
+            " parking"
+          ],
+          "ngram_str": " easy parking",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " ample",
+            " parking"
+          ],
+          "ngram_str": " ample parking",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " parking",
+            " and"
+          ],
+          "ngram_str": " parking and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4",
+          "count": 30,
+          "percent": 6.0
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " of",
+            " parking",
+            "."
+          ],
+          "ngram_str": " of parking.",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " plenty",
+            " of",
+            " parking"
+          ],
+          "ngram_str": " plenty of parking",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " of",
+            " free",
+            " parking"
+          ],
+          "ngram_str": " of free parking",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " parking",
+            ".",
+            " "
+          ],
+          "ngram_str": " parking. ",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " parking",
+            " in",
+            " the"
+          ],
+          "ngram_str": " parking in the",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " free",
+            " parking",
+            "."
+          ],
+          "ngram_str": " free parking.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " easy",
+            " parking",
+            "."
+          ],
+          "ngram_str": " easy parking.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " lots",
+            " of",
+            " parking"
+          ],
+          "ngram_str": " lots of parking",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Plenty",
+            " of"
+          ],
+          "ngram_str": ". Plenty of",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            ".",
+            " Easy",
+            " parking"
+          ],
+          "ngram_str": ". Easy parking",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " ample",
+            " parking",
+            "."
+          ],
+          "ngram_str": " ample parking.",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " Plenty",
+            " of",
+            " parking"
+          ],
+          "ngram_str": " Plenty of parking",
+          "count": 15,
+          "percent": 3.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " plenty",
+            " of",
+            " parking",
+            "."
+          ],
+          "ngram_str": " plenty of parking.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " parking",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " parking.\u00c4\u012c",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ".",
+            " Plenty",
+            " of",
+            " parking"
+          ],
+          "ngram_str": ". Plenty of parking",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " parking",
+            " in",
+            " the",
+            " back"
+          ],
+          "ngram_str": " parking in the back",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " Easy",
+            " parking",
+            "."
+          ],
+          "ngram_str": ". Easy parking.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " of",
+            " free",
+            " parking",
+            "."
+          ],
+          "ngram_str": " of free parking.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " and",
+            " easy",
+            " parking",
+            "."
+          ],
+          "ngram_str": " and easy parking.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " parking",
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " parking. \u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " with",
+            " plenty",
+            " of",
+            " parking"
+          ],
+          "ngram_str": " with plenty of parking",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " free",
+            " parking",
+            " in",
+            " the"
+          ],
+          "ngram_str": " free parking in the",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " Plenty",
+            " of",
+            " free",
+            " parking"
+          ],
+          "ngram_str": " Plenty of free parking",
+          "count": 8,
+          "percent": 1.6
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 16900000,
+      "corpus_coverage": 0.3269
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 22858,
+        "count": 6537,
+        "percent": 65.37
+      },
+      {
+        "feature_idx": 5005,
+        "count": 6202,
+        "percent": 62.02
+      },
+      {
+        "feature_idx": 18704,
+        "count": 6132,
+        "percent": 61.32
+      },
+      {
+        "feature_idx": 15553,
+        "count": 5353,
+        "percent": 53.53
+      },
+      {
+        "feature_idx": 19071,
+        "count": 5257,
+        "percent": 52.57
+      },
+      {
+        "feature_idx": 2213,
+        "count": 5207,
+        "percent": 52.07
+      },
+      {
+        "feature_idx": 646,
+        "count": 5123,
+        "percent": 51.23
+      },
+      {
+        "feature_idx": 8650,
+        "count": 4813,
+        "percent": 48.13
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4752,
+        "percent": 47.52
+      },
+      {
+        "feature_idx": 21898,
+        "count": 4226,
+        "percent": 42.26
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3674,
+        "percent": 36.74
+      },
+      {
+        "feature_idx": 20172,
+        "count": 3447,
+        "percent": 34.47
+      },
+      {
+        "feature_idx": 3096,
+        "count": 3441,
+        "percent": 34.41
+      },
+      {
+        "feature_idx": 3398,
+        "count": 3016,
+        "percent": 30.16
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2985,
+        "percent": 29.85
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2976,
+        "percent": 29.76
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2562,
+        "percent": 25.62
+      },
+      {
+        "feature_idx": 3139,
+        "count": 2560,
+        "percent": 25.6
+      },
+      {
+        "feature_idx": 20238,
+        "count": 2526,
+        "percent": 25.26
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2498,
+        "percent": 24.98
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 16900000,
+      "corpus_coverage": 0.3269
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2419,
+        "percent": 24.19
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1756,
+        "percent": 17.56
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1201,
+        "percent": 12.01
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1670,
+        "percent": 16.7
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2954,
+        "percent": 29.54
+      }
+    ],
+    "mean_position": 0.523,
+    "std_position": 0.32
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 67,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0314,
+      "p25": 0.0668,
+      "p50": 0.1482,
+      "p75": 0.2148,
+      "p90": 0.2272,
+      "p95": 0.2406,
+      "p99": 0.2557
+    },
+    "skewness": -0.1995,
+    "kurtosis": -1.4812,
+    "min": 0.0168,
+    "max": 0.2578,
+    "mean": 0.1405,
+    "std": 0.0773
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 67,
+      "unique_tokens_found": 21
+    },
+    "tokens": [
+      {
+        "token": " parking",
+        "count": 30,
+        "mean_activation": 0.214
+      },
+      {
+        "token": " park",
+        "count": 8,
+        "mean_activation": 0.1363
+      },
+      {
+        "token": " traffic",
+        "count": 4,
+        "mean_activation": 0.0781
+      },
+      {
+        "token": " mall",
+        "count": 4,
+        "mean_activation": 0.0542
+      },
+      {
+        "token": " spaces",
+        "count": 2,
+        "mean_activation": 0.0457
+      },
+      {
+        "token": " Parking",
+        "count": 2,
+        "mean_activation": 0.1888
+      },
+      {
+        "token": " Park",
+        "count": 2,
+        "mean_activation": 0.0982
+      },
+      {
+        "token": " seating",
+        "count": 2,
+        "mean_activation": 0.0224
+      },
+      {
+        "token": " management",
+        "count": 1,
+        "mean_activation": 0.0326
+      },
+      {
+        "token": " lake",
+        "count": 1,
+        "mean_activation": 0.031
+      }
+    ]
+  }
+}

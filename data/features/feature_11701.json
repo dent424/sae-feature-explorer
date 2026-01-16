@@ -1,0 +1,856 @@
+{
+  "feature_idx": 11701,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 54,
+    "mean_when_active": 0.10064485337999132,
+    "max_activation": 0.1612548828125,
+    "std_when_active": 0.04000609850330501,
+    "activation_rate": 0.00054
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 30155,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " super",
+        "count": 25544,
+        "mean_activation": 0.0997971374339681
+      },
+      {
+        "token": " Super",
+        "count": 2396,
+        "mean_activation": 0.05630863807436222
+      },
+      {
+        "token": " SUPER",
+        "count": 508,
+        "mean_activation": 0.07283882081039308
+      },
+      {
+        "token": "super",
+        "count": 248,
+        "mean_activation": 0.06595291629914314
+      },
+      {
+        "token": "Super",
+        "count": 158,
+        "mean_activation": 0.03846306136891812
+      },
+      {
+        "token": " really",
+        "count": 134,
+        "mean_activation": 0.024100403287517492
+      },
+      {
+        "token": " awesome",
+        "count": 115,
+        "mean_activation": 0.01892799709154212
+      },
+      {
+        "token": " tons",
+        "count": 102,
+        "mean_activation": 0.025819815841375614
+      },
+      {
+        "token": " great",
+        "count": 94,
+        "mean_activation": 0.020842126075257646
+      },
+      {
+        "token": " SO",
+        "count": 89,
+        "mean_activation": 0.02186575900302844
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 30155,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...salsa is amazing and** super** yummy. It was my fi...",
+        "active_token": " super",
+        "activation": 0.2001953125,
+        "review_id": "oVwrgXhtPNYh2LgIq9eXrw",
+        "position": 50
+      },
+      {
+        "context": "...efinitely favorites,** super** flavorful! Staff is...",
+        "active_token": " super",
+        "activation": 0.199951171875,
+        "review_id": "-XusiQzkOb70W8HN0BFaDw",
+        "position": 35
+      },
+      {
+        "context": "...extremely flavorful,** super** fresh and perfectly...",
+        "active_token": " super",
+        "activation": 0.19921875,
+        "review_id": "oRNxsXzEcvzDtkQHMrHoyQ",
+        "position": 44
+      },
+      {
+        "context": "...resh, delicious, and** super** healthy!!! I can't ...",
+        "active_token": " super",
+        "activation": 0.197265625,
+        "review_id": "vdJ6CS0y8oLqFWWUqGO7og",
+        "position": 48
+      },
+      {
+        "context": "...ood is delicious and** super** authentic! Love tha...",
+        "active_token": " super",
+        "activation": 0.1966552734375,
+        "review_id": "Q4irq2aon0jer9b2FMUnFA",
+        "position": 21
+      },
+      {
+        "context": "...always delicious and** super** fresh!!! I love lov...",
+        "active_token": " super",
+        "activation": 0.1962890625,
+        "review_id": "rppytjSRoCd5V3ZBrnPTyw",
+        "position": 97
+      },
+      {
+        "context": "...to. It's amazing and** super** delicious. I would'...",
+        "active_token": " super",
+        "activation": 0.1953125,
+        "review_id": "5fOdwgHSTqpGqhtTWclXng",
+        "position": 159
+      },
+      {
+        "context": "... it is delicious and** super** cute, it also helps...",
+        "active_token": " super",
+        "activation": 0.1944580078125,
+        "review_id": "b-F_kyra1qBk8S7J1xpU4A",
+        "position": 43
+      },
+      {
+        "context": "...le water is amazing,** super** good. Burrito Prena...",
+        "active_token": " super",
+        "activation": 0.1943359375,
+        "review_id": "BRuezTtSj1Q248biHzbhSQ",
+        "position": 11
+      },
+      {
+        "context": "...os are delicious and** super** juicy. The nachos a...",
+        "active_token": " super",
+        "activation": 0.193359375,
+        "review_id": "1mvIx34w3oEbintLCzmVQA",
+        "position": 29
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 11701,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1685,
+        "max": 0.2002,
+        "mean": 0.1767
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " and",
+            " super"
+          ],
+          "ngram_str": " and super",
+          "count": 300,
+          "percent": 60.0
+        },
+        {
+          "ngram": [
+            ",",
+            " super"
+          ],
+          "ngram_str": ", super",
+          "count": 112,
+          "percent": 22.4
+        },
+        {
+          "ngram": [
+            " super",
+            " fresh"
+          ],
+          "ngram_str": " super fresh",
+          "count": 69,
+          "percent": 13.8
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " super",
+            " friendly"
+          ],
+          "ngram_str": " super friendly",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " super",
+            " flavorful"
+          ],
+          "ngram_str": " super flavorful",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " super",
+            " tasty"
+          ],
+          "ngram_str": " super tasty",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " fresh",
+            " and"
+          ],
+          "ngram_str": " fresh and",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " delicious",
+            " and"
+          ],
+          "ngram_str": " delicious and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " super",
+            " filling"
+          ],
+          "ngram_str": " super filling",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " fresh",
+            "."
+          ],
+          "ngram_str": " fresh.",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " and",
+            " super",
+            " fresh"
+          ],
+          "ngram_str": " and super fresh",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " delicious",
+            " and",
+            " super"
+          ],
+          "ngram_str": " delicious and super",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " tasty"
+          ],
+          "ngram_str": " and super tasty",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " friendly"
+          ],
+          "ngram_str": " and super friendly",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            " super",
+            " fresh",
+            "."
+          ],
+          "ngram_str": " super fresh.",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and",
+            " super"
+          ],
+          "ngram_str": ", and super",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " filling"
+          ],
+          "ngram_str": " and super filling",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " flavorful"
+          ],
+          "ngram_str": " and super flavorful",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " fresh",
+            " and",
+            " super"
+          ],
+          "ngram_str": " fresh and super",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " super",
+            " filling",
+            "."
+          ],
+          "ngram_str": " super filling.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " super",
+            " tasty",
+            "."
+          ],
+          "ngram_str": " super tasty.",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ",",
+            " super",
+            " friendly"
+          ],
+          "ngram_str": ", super friendly",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " super",
+            " y",
+            "ummy"
+          ],
+          "ngram_str": " super yummy",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " super",
+            " friendly",
+            " staff"
+          ],
+          "ngram_str": " super friendly staff",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " and",
+            " super",
+            " fresh",
+            "."
+          ],
+          "ngram_str": " and super fresh.",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " filling",
+            "."
+          ],
+          "ngram_str": " and super filling.",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " tasty",
+            "."
+          ],
+          "ngram_str": " and super tasty.",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " flavorful",
+            "."
+          ],
+          "ngram_str": " and super flavorful.",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " y",
+            "ummy"
+          ],
+          "ngram_str": " and super yummy",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " friendly",
+            " staff"
+          ],
+          "ngram_str": " and super friendly staff",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " delicious",
+            "."
+          ],
+          "ngram_str": " and super delicious.",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " were",
+            " delicious",
+            " and",
+            " super"
+          ],
+          "ngram_str": " were delicious and super",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " friendly",
+            "."
+          ],
+          "ngram_str": " and super friendly.",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " super",
+            " y",
+            "ummy",
+            "."
+          ],
+          "ngram_str": " super yummy.",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " is",
+            " delicious",
+            " and",
+            " super"
+          ],
+          "ngram_str": " is delicious and super",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " and",
+            " super",
+            " cheap",
+            "."
+          ],
+          "ngram_str": " and super cheap.",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17300000,
+      "corpus_coverage": 0.3346
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 9038,
+        "count": 9662,
+        "percent": 96.62
+      },
+      {
+        "feature_idx": 17524,
+        "count": 9580,
+        "percent": 95.8
+      },
+      {
+        "feature_idx": 22376,
+        "count": 9574,
+        "percent": 95.74
+      },
+      {
+        "feature_idx": 15430,
+        "count": 9570,
+        "percent": 95.7
+      },
+      {
+        "feature_idx": 17826,
+        "count": 9563,
+        "percent": 95.63
+      },
+      {
+        "feature_idx": 19597,
+        "count": 8924,
+        "percent": 89.24
+      },
+      {
+        "feature_idx": 12563,
+        "count": 6018,
+        "percent": 60.18
+      },
+      {
+        "feature_idx": 4000,
+        "count": 5189,
+        "percent": 51.89
+      },
+      {
+        "feature_idx": 18704,
+        "count": 5166,
+        "percent": 51.66
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5035,
+        "percent": 50.35
+      },
+      {
+        "feature_idx": 5196,
+        "count": 4985,
+        "percent": 49.85
+      },
+      {
+        "feature_idx": 1390,
+        "count": 4514,
+        "percent": 45.14
+      },
+      {
+        "feature_idx": 6329,
+        "count": 4470,
+        "percent": 44.7
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3851,
+        "percent": 38.51
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3737,
+        "percent": 37.37
+      },
+      {
+        "feature_idx": 10247,
+        "count": 3686,
+        "percent": 36.86
+      },
+      {
+        "feature_idx": 19716,
+        "count": 3267,
+        "percent": 32.67
+      },
+      {
+        "feature_idx": 444,
+        "count": 3191,
+        "percent": 31.91
+      },
+      {
+        "feature_idx": 16595,
+        "count": 3046,
+        "percent": 30.46
+      },
+      {
+        "feature_idx": 980,
+        "count": 2957,
+        "percent": 29.57
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 17300000,
+      "corpus_coverage": 0.3346
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1590,
+        "percent": 15.9
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2212,
+        "percent": 22.12
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2185,
+        "percent": 21.85
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2157,
+        "percent": 21.57
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1856,
+        "percent": 18.56
+      }
+    ],
+    "mean_position": 0.5099,
+    "std_position": 0.2699
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 54,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0444,
+      "p25": 0.0648,
+      "p50": 0.1085,
+      "p75": 0.1344,
+      "p90": 0.1512,
+      "p95": 0.1558,
+      "p99": 0.1592
+    },
+    "skewness": -0.2897,
+    "kurtosis": -1.0844,
+    "min": 0.0122,
+    "max": 0.1613,
+    "mean": 0.1006,
+    "std": 0.04
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 54,
+      "unique_tokens_found": 6
+    },
+    "tokens": [
+      {
+        "token": " super",
+        "count": 48,
+        "mean_activation": 0.1071
+      },
+      {
+        "token": " Super",
+        "count": 2,
+        "mean_activation": 0.0748
+      },
+      {
+        "token": "Super",
+        "count": 1,
+        "mean_activation": 0.0381
+      },
+      {
+        "token": " more",
+        "count": 1,
+        "mean_activation": 0.0294
+      },
+      {
+        "token": "\\n",
+        "count": 1,
+        "mean_activation": 0.0122
+      },
+      {
+        "token": "super",
+        "count": 1,
+        "mean_activation": 0.0647
+      }
+    ]
+  }
+}

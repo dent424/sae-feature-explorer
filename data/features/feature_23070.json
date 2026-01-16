@@ -1,0 +1,876 @@
+{
+  "feature_idx": 23070,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 36,
+    "mean_when_active": 0.05084440443250868,
+    "max_activation": 0.1285400390625,
+    "std_when_active": 0.02847915262599996,
+    "activation_rate": 0.00036
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 15210,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " it",
+        "count": 11118,
+        "mean_activation": 0.049321846602567346
+      },
+      {
+        "token": " them",
+        "count": 842,
+        "mean_activation": 0.04425113161499313
+      },
+      {
+        "token": " for",
+        "count": 484,
+        "mean_activation": 0.0803751196743043
+      },
+      {
+        "token": " up",
+        "count": 428,
+        "mean_activation": 0.037051904981381424
+      },
+      {
+        "token": " nonetheless",
+        "count": 428,
+        "mean_activation": 0.059069481965537386
+      },
+      {
+        "token": " with",
+        "count": 195,
+        "mean_activation": 0.030461590106670672
+      },
+      {
+        "token": " yet",
+        "count": 131,
+        "mean_activation": 0.02947019620706107
+      },
+      {
+        "token": " overall",
+        "count": 81,
+        "mean_activation": 0.02668686854986497
+      },
+      {
+        "token": " itself",
+        "count": 73,
+        "mean_activation": 0.03602140243739298
+      },
+      {
+        "token": " together",
+        "count": 69,
+        "mean_activation": 0.03450631404268569
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 15210,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ce. What it had going** for** it - staff were very...",
+        "active_token": " for",
+        "activation": 0.1708984375,
+        "review_id": "QG_24Y4FGpLSryL0G2z1YQ",
+        "position": 20
+      },
+      {
+        "context": "...at's all it has going** for** it.  I will say that...",
+        "active_token": " for",
+        "activation": 0.163330078125,
+        "review_id": "c59_ebS7Xw2rO0tjV6XHKA",
+        "position": 15
+      },
+      {
+        "context": "...y things it has going** for** it are the location ...",
+        "active_token": " for",
+        "activation": 0.1632080078125,
+        "review_id": "yZvxmoGZc26LdzrG-vSG6g",
+        "position": 90
+      },
+      {
+        "context": "...t's what it has going** for** it, I would guess a ...",
+        "active_token": " for",
+        "activation": 0.15966796875,
+        "review_id": "01XlSSt3R7AXwT6vFU8S5Q",
+        "position": 35
+      },
+      {
+        "context": "...at's all it has going** for** it. Very average foo...",
+        "active_token": " for",
+        "activation": 0.1533203125,
+        "review_id": "jHjRN3Ab-ca52sv1Yf3s3g",
+        "position": 10
+      },
+      {
+        "context": "...\\nWhat they have going** for** them is they're open...",
+        "active_token": " for",
+        "activation": 0.152099609375,
+        "review_id": "2c9I3DIedzU78N8QgITy6A",
+        "position": 371
+      },
+      {
+        "context": "...at's all it has going** for** it.",
+        "active_token": " for",
+        "activation": 0.1514892578125,
+        "review_id": "WZ6BUOj6URnW6IKGtG3y1Q",
+        "position": 309
+      },
+      {
+        "context": "...bout all it has going** for** it and even that is ...",
+        "active_token": " for",
+        "activation": 0.1500244140625,
+        "review_id": "6uFgNrOVGHBo6xR1aTGf1A",
+        "position": 46
+      },
+      {
+        "context": "...reat and that's about** it**. There food was so sa...",
+        "active_token": " it",
+        "activation": 0.1490478515625,
+        "review_id": "eUPMqr2j9q2Td5iw0--W1A",
+        "position": 18
+      },
+      {
+        "context": "... what they have going** for** them: great location...",
+        "active_token": " for",
+        "activation": 0.1458740234375,
+        "review_id": "oZQsXafpng69wXZ6vlWrFA",
+        "position": 44
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 23070,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1194,
+        "max": 0.1709,
+        "mean": 0.1287
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " it",
+            "."
+          ],
+          "ngram_str": " it.",
+          "count": 299,
+          "percent": 59.8
+        },
+        {
+          "ngram": [
+            " about",
+            " it"
+          ],
+          "ngram_str": " about it",
+          "count": 296,
+          "percent": 59.2
+        },
+        {
+          "ngram": [
+            "'s",
+            " about"
+          ],
+          "ngram_str": "'s about",
+          "count": 229,
+          "percent": 45.8
+        },
+        {
+          "ngram": [
+            " that",
+            "'s"
+          ],
+          "ngram_str": " that's",
+          "count": 192,
+          "percent": 38.4
+        },
+        {
+          "ngram": [
+            " going",
+            " for"
+          ],
+          "ngram_str": " going for",
+          "count": 138,
+          "percent": 27.6
+        },
+        {
+          "ngram": [
+            " but",
+            " that"
+          ],
+          "ngram_str": " but that",
+          "count": 130,
+          "percent": 26.0
+        },
+        {
+          "ngram": [
+            " for",
+            " it"
+          ],
+          "ngram_str": " for it",
+          "count": 118,
+          "percent": 23.6
+        },
+        {
+          "ngram": [
+            " has",
+            " going"
+          ],
+          "ngram_str": " has going",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " and",
+            " that"
+          ],
+          "ngram_str": " and that",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " it",
+            " is"
+          ],
+          "ngram_str": " it is",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " this",
+            " place"
+          ],
+          "ngram_str": " this place",
+          "count": 47,
+          "percent": 9.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " about",
+            " it",
+            "."
+          ],
+          "ngram_str": " about it.",
+          "count": 254,
+          "percent": 50.8
+        },
+        {
+          "ngram": [
+            "'s",
+            " about",
+            " it"
+          ],
+          "ngram_str": "'s about it",
+          "count": 229,
+          "percent": 45.8
+        },
+        {
+          "ngram": [
+            " that",
+            "'s",
+            " about"
+          ],
+          "ngram_str": " that's about",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " but",
+            " that",
+            "'s"
+          ],
+          "ngram_str": " but that's",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " going",
+            " for",
+            " it"
+          ],
+          "ngram_str": " going for it",
+          "count": 92,
+          "percent": 18.4
+        },
+        {
+          "ngram": [
+            " has",
+            " going",
+            " for"
+          ],
+          "ngram_str": " has going for",
+          "count": 81,
+          "percent": 16.2
+        },
+        {
+          "ngram": [
+            " it",
+            ".",
+            " "
+          ],
+          "ngram_str": " it. ",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " for",
+            " it",
+            " is"
+          ],
+          "ngram_str": " for it is",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " that"
+          ],
+          "ngram_str": ", but that",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " it",
+            ".",
+            " The"
+          ],
+          "ngram_str": " it. The",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " for",
+            " it",
+            "."
+          ],
+          "ngram_str": " for it.",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " and",
+            " that",
+            "'s"
+          ],
+          "ngram_str": " and that's",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " place",
+            " has",
+            " going"
+          ],
+          "ngram_str": " place has going",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            " has"
+          ],
+          "ngram_str": " this place has",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " going",
+            " for",
+            " them"
+          ],
+          "ngram_str": " going for them",
+          "count": 37,
+          "percent": 7.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "'s",
+            " about",
+            " it",
+            "."
+          ],
+          "ngram_str": "'s about it.",
+          "count": 194,
+          "percent": 38.8
+        },
+        {
+          "ngram": [
+            " that",
+            "'s",
+            " about",
+            " it"
+          ],
+          "ngram_str": " that's about it",
+          "count": 191,
+          "percent": 38.2
+        },
+        {
+          "ngram": [
+            " but",
+            " that",
+            "'s",
+            " about"
+          ],
+          "ngram_str": " but that's about",
+          "count": 107,
+          "percent": 21.4
+        },
+        {
+          "ngram": [
+            " has",
+            " going",
+            " for",
+            " it"
+          ],
+          "ngram_str": " has going for it",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " going",
+            " for",
+            " it",
+            " is"
+          ],
+          "ngram_str": " going for it is",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " about",
+            " it",
+            ".",
+            " "
+          ],
+          "ngram_str": " about it. ",
+          "count": 42,
+          "percent": 8.4
+        },
+        {
+          "ngram": [
+            " and",
+            " that",
+            "'s",
+            " about"
+          ],
+          "ngram_str": " and that's about",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " place",
+            " has",
+            " going",
+            " for"
+          ],
+          "ngram_str": " place has going for",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " this",
+            " place",
+            " has",
+            " going"
+          ],
+          "ngram_str": " this place has going",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ",",
+            " but",
+            " that",
+            "'s"
+          ],
+          "ngram_str": ", but that's",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " about",
+            " it",
+            ".",
+            " The"
+          ],
+          "ngram_str": " about it. The",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " That",
+            "'s",
+            " about",
+            " it"
+          ],
+          "ngram_str": " That's about it",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " was",
+            " about",
+            " it",
+            "."
+          ],
+          "ngram_str": " was about it.",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " that",
+            " was",
+            " about",
+            " it"
+          ],
+          "ngram_str": " that was about it",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " have",
+            " going",
+            " for",
+            " them"
+          ],
+          "ngram_str": " have going for them",
+          "count": 24,
+          "percent": 4.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 34000000,
+      "corpus_coverage": 0.6576
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 12303,
+        "count": 7419,
+        "percent": 74.19
+      },
+      {
+        "feature_idx": 15707,
+        "count": 7362,
+        "percent": 73.62
+      },
+      {
+        "feature_idx": 15828,
+        "count": 6794,
+        "percent": 67.94
+      },
+      {
+        "feature_idx": 20172,
+        "count": 6137,
+        "percent": 61.37
+      },
+      {
+        "feature_idx": 7337,
+        "count": 5310,
+        "percent": 53.1
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4535,
+        "percent": 45.35
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3896,
+        "percent": 38.96
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3861,
+        "percent": 38.61
+      },
+      {
+        "feature_idx": 3376,
+        "count": 3703,
+        "percent": 37.03
+      },
+      {
+        "feature_idx": 19222,
+        "count": 3529,
+        "percent": 35.29
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3488,
+        "percent": 34.88
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3340,
+        "percent": 33.4
+      },
+      {
+        "feature_idx": 19995,
+        "count": 3154,
+        "percent": 31.54
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3106,
+        "percent": 31.06
+      },
+      {
+        "feature_idx": 305,
+        "count": 2840,
+        "percent": 28.4
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2413,
+        "percent": 24.13
+      },
+      {
+        "feature_idx": 14888,
+        "count": 2301,
+        "percent": 23.01
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2197,
+        "percent": 21.97
+      },
+      {
+        "feature_idx": 12657,
+        "count": 2107,
+        "percent": 21.07
+      },
+      {
+        "feature_idx": 19091,
+        "count": 2090,
+        "percent": 20.9
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 34000000,
+      "corpus_coverage": 0.6576
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 941,
+        "percent": 9.41
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1894,
+        "percent": 18.94
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2412,
+        "percent": 24.12
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2369,
+        "percent": 23.69
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2384,
+        "percent": 23.84
+      }
+    ],
+    "mean_position": 0.5731,
+    "std_position": 0.2603
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 36,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0237,
+      "p25": 0.0305,
+      "p50": 0.0393,
+      "p75": 0.0663,
+      "p90": 0.0937,
+      "p95": 0.1117,
+      "p99": 0.124
+    },
+    "skewness": 1.1091,
+    "kurtosis": 0.3876,
+    "min": 0.0174,
+    "max": 0.1285,
+    "mean": 0.0508,
+    "std": 0.0285
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 36,
+      "unique_tokens_found": 10
+    },
+    "tokens": [
+      {
+        "token": " it",
+        "count": 21,
+        "mean_activation": 0.0536
+      },
+      {
+        "token": " them",
+        "count": 6,
+        "mean_activation": 0.0529
+      },
+      {
+        "token": " for",
+        "count": 2,
+        "mean_activation": 0.0665
+      },
+      {
+        "token": " yet",
+        "count": 1,
+        "mean_activation": 0.0274
+      },
+      {
+        "token": " off",
+        "count": 1,
+        "mean_activation": 0.0404
+      },
+      {
+        "token": " alongside",
+        "count": 1,
+        "mean_activation": 0.0289
+      },
+      {
+        "token": " overall",
+        "count": 1,
+        "mean_activation": 0.0209
+      },
+      {
+        "token": " up",
+        "count": 1,
+        "mean_activation": 0.034
+      },
+      {
+        "token": " nonetheless",
+        "count": 1,
+        "mean_activation": 0.07
+      },
+      {
+        "token": " itself",
+        "count": 1,
+        "mean_activation": 0.0332
+      }
+    ]
+  }
+}

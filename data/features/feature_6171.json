@@ -1,0 +1,876 @@
+{
+  "feature_idx": 6171,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 418,
+    "mean_when_active": 0.04560289884868421,
+    "max_activation": 0.1278076171875,
+    "std_when_active": 0.02422077850659363,
+    "activation_rate": 0.00418
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 11000000,
+      "corpus_coverage": 0.2128
+    },
+    "top_tokens": [
+      {
+        "token": " a",
+        "count": 43627,
+        "mean_activation": 0.0485990378575051
+      },
+      {
+        "token": " an",
+        "count": 2513,
+        "mean_activation": 0.0455284437429274
+      },
+      {
+        "token": " A",
+        "count": 1023,
+        "mean_activation": 0.030342646474828934
+      },
+      {
+        "token": "a",
+        "count": 242,
+        "mean_activation": 0.03826557506214489
+      },
+      {
+        "token": " large",
+        "count": 207,
+        "mean_activation": 0.029553657568595258
+      },
+      {
+        "token": " small",
+        "count": 204,
+        "mean_activation": 0.029244479011086857
+      },
+      {
+        "token": " the",
+        "count": 159,
+        "mean_activation": 0.013665733097484277
+      },
+      {
+        "token": " of",
+        "count": 156,
+        "mean_activation": 0.024586995442708332
+      },
+      {
+        "token": " another",
+        "count": 147,
+        "mean_activation": 0.031039594792995322
+      },
+      {
+        "token": " ordered",
+        "count": 116,
+        "mean_activation": 0.01408307305697737
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 11000000,
+      "corpus_coverage": 0.2128
+    },
+    "activations": [
+      {
+        "context": "... were good.  I ordered** a** shredded beef chimich...",
+        "active_token": " a",
+        "activation": 0.1495361328125,
+        "review_id": "zPwiGOyukO4rWmA-D3dd_Q",
+        "position": 54
+      },
+      {
+        "context": "...ta. My husband ordered** a** beer that was listed ...",
+        "active_token": " a",
+        "activation": 0.14892578125,
+        "review_id": "U3daIruoDs6zBDCfkMOwpQ",
+        "position": 47
+      },
+      {
+        "context": "..., it's good. I ordered** a** glass of Negro Modelo...",
+        "active_token": " a",
+        "activation": 0.148193359375,
+        "review_id": "x4A2EolZs65i9fO2JLp7uw",
+        "position": 55
+      },
+      {
+        "context": "...was awesome, I ordered** a** vegetarian burrito an...",
+        "active_token": " a",
+        "activation": 0.146728515625,
+        "review_id": "Kh6aPBFee5I97jst2SaUfg",
+        "position": 8
+      },
+      {
+        "context": "...tic! My friend ordered** a** salad (I don't rememb...",
+        "active_token": " a",
+        "activation": 0.145263671875,
+        "review_id": "iTVeGSbahsj1gjGkQcl7uQ",
+        "position": 62
+      },
+      {
+        "context": "... was sooo good. Bought** a** green chile tamale al...",
+        "active_token": " a",
+        "activation": 0.1448974609375,
+        "review_id": "pAk6uw3RgfeyRTEqJRNdLA",
+        "position": 31
+      },
+      {
+        "context": "...a were good! I ordered** a** house margarita and I...",
+        "active_token": " a",
+        "activation": 0.1446533203125,
+        "review_id": "09ps0dkJVJRfcSRoACed0Q",
+        "position": 26
+      },
+      {
+        "context": "...s heavenly.  I ordered** a** chicken chimichanga. ...",
+        "active_token": " a",
+        "activation": 0.14404296875,
+        "review_id": "aJ46UJ8jBnY_Bn8saFMA1A",
+        "position": 24
+      },
+      {
+        "context": "... was so good I ordered** a** pitcher after the fir...",
+        "active_token": " a",
+        "activation": 0.14306640625,
+        "review_id": "AmJqYZpnfoxluchvHfBiWA",
+        "position": 59
+      },
+      {
+        "context": "... again. My son ordered** a** quesadilla and was am...",
+        "active_token": " a",
+        "activation": 0.142333984375,
+        "review_id": "AiK9sXr80ro_5y9FkD5qyA",
+        "position": 46
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 6171,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 21600000,
+      "corpus_coverage": 0.4178,
+      "activation_range": {
+        "min": 0.1271,
+        "max": 0.1495,
+        "mean": 0.1324
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " ordered",
+            " a"
+          ],
+          "ngram_str": " ordered a",
+          "count": 372,
+          "percent": 74.4
+        },
+        {
+          "ngram": [
+            " I",
+            " ordered"
+          ],
+          "ngram_str": " I ordered",
+          "count": 262,
+          "percent": 52.4
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 178,
+          "percent": 35.6
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " burrito",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " ",
+            " I"
+          ],
+          "ngram_str": "  I",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            ".",
+            " My"
+          ],
+          "ngram_str": ". My",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " marg",
+            "ar"
+          ],
+          "ngram_str": " margar",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " and",
+            " a"
+          ],
+          "ngram_str": " and a",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            "ar",
+            "ita"
+          ],
+          "ngram_str": "arita",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " got",
+            " a"
+          ],
+          "ngram_str": " got a",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " husband",
+            " ordered"
+          ],
+          "ngram_str": " husband ordered",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " My",
+            " husband"
+          ],
+          "ngram_str": " My husband",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "rito",
+            " and"
+          ],
+          "ngram_str": "rito and",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " a",
+            " bur"
+          ],
+          "ngram_str": " a bur",
+          "count": 32,
+          "percent": 6.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": " I ordered a",
+          "count": 254,
+          "percent": 50.8
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            " ordered"
+          ],
+          "ngram_str": ". I ordered",
+          "count": 151,
+          "percent": 30.2
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " ordered"
+          ],
+          "ngram_str": "  I ordered",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I"
+          ],
+          "ngram_str": ".  I",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " husband",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": " husband ordered a",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito",
+            " and"
+          ],
+          "ngram_str": " burrito and",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " marg",
+            "ar",
+            "ita"
+          ],
+          "ngram_str": " margarita",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " a",
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " a burrito",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " My",
+            " husband",
+            " ordered"
+          ],
+          "ngram_str": " My husband ordered",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " Ord",
+            "ered",
+            " a"
+          ],
+          "ngram_str": " Ordered a",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " ordered",
+            " a",
+            " bur"
+          ],
+          "ngram_str": " ordered a bur",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " husband"
+          ],
+          "ngram_str": ". My husband",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " ordered",
+            " a",
+            " chicken"
+          ],
+          "ngram_str": " ordered a chicken",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " a",
+            " side",
+            " of"
+          ],
+          "ngram_str": " a side of",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "ad"
+          ],
+          "ngram_str": " quesad",
+          "count": 20,
+          "percent": 4.0
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            ".",
+            " I",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": ". I ordered a",
+          "count": 148,
+          "percent": 29.6
+        },
+        {
+          "ngram": [
+            " ",
+            " I",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": "  I ordered a",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " I",
+            " ordered"
+          ],
+          "ngram_str": ".  I ordered",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " My",
+            " husband",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": " My husband ordered a",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " ordered",
+            " a",
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " ordered a burrito",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " qu",
+            "es",
+            "ad",
+            "illa"
+          ],
+          "ngram_str": " quesadilla",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " My",
+            " husband",
+            " ordered"
+          ],
+          "ngram_str": ". My husband ordered",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " I",
+            " ordered",
+            " a",
+            " chicken"
+          ],
+          "ngram_str": " I ordered a chicken",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "!",
+            " I",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": "! I ordered a",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            ".",
+            " Ord",
+            "ered",
+            " a"
+          ],
+          "ngram_str": ". Ordered a",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " ordered",
+            " a",
+            " side",
+            " of"
+          ],
+          "ngram_str": " ordered a side of",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " a",
+            " marg",
+            "ar",
+            "ita"
+          ],
+          "ngram_str": " a margarita",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " ordered",
+            " a"
+          ],
+          "ngram_str": ". We ordered a",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " ordered",
+            " a",
+            " marg",
+            "ar"
+          ],
+          "ngram_str": " ordered a margar",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " bur",
+            "rito",
+            " and"
+          ],
+          "ngram_str": " a burrito and",
+          "count": 12,
+          "percent": 2.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2300000,
+      "corpus_coverage": 0.0445
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20728,
+        "count": 9480,
+        "percent": 94.8
+      },
+      {
+        "feature_idx": 14446,
+        "count": 9365,
+        "percent": 93.65
+      },
+      {
+        "feature_idx": 11252,
+        "count": 9020,
+        "percent": 90.2
+      },
+      {
+        "feature_idx": 22650,
+        "count": 5390,
+        "percent": 53.9
+      },
+      {
+        "feature_idx": 1390,
+        "count": 5099,
+        "percent": 50.99
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4758,
+        "percent": 47.58
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3980,
+        "percent": 39.8
+      },
+      {
+        "feature_idx": 20403,
+        "count": 3870,
+        "percent": 38.7
+      },
+      {
+        "feature_idx": 21715,
+        "count": 3281,
+        "percent": 32.81
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3247,
+        "percent": 32.47
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3212,
+        "percent": 32.12
+      },
+      {
+        "feature_idx": 1227,
+        "count": 2715,
+        "percent": 27.15
+      },
+      {
+        "feature_idx": 19484,
+        "count": 2648,
+        "percent": 26.48
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2445,
+        "percent": 24.45
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2231,
+        "percent": 22.31
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2197,
+        "percent": 21.97
+      },
+      {
+        "feature_idx": 11371,
+        "count": 2132,
+        "percent": 21.32
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2099,
+        "percent": 20.99
+      },
+      {
+        "feature_idx": 9307,
+        "count": 1983,
+        "percent": 19.83
+      },
+      {
+        "feature_idx": 14856,
+        "count": 1976,
+        "percent": 19.76
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 2300000,
+      "corpus_coverage": 0.0445
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1732,
+        "percent": 17.32
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2488,
+        "percent": 24.88
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2480,
+        "percent": 24.8
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 2055,
+        "percent": 20.55
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1245,
+        "percent": 12.45
+      }
+    ],
+    "mean_position": 0.4711,
+    "std_position": 0.2539
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 418,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0204,
+      "p25": 0.0264,
+      "p50": 0.0388,
+      "p75": 0.0595,
+      "p90": 0.0851,
+      "p95": 0.0976,
+      "p99": 0.11
+    },
+    "skewness": 0.9882,
+    "kurtosis": 0.2901,
+    "min": 0.0083,
+    "max": 0.1278,
+    "mean": 0.0456,
+    "std": 0.0242
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 418,
+      "unique_tokens_found": 17
+    },
+    "tokens": [
+      {
+        "token": " a",
+        "count": 379,
+        "mean_activation": 0.047
+      },
+      {
+        "token": " an",
+        "count": 11,
+        "mean_activation": 0.0494
+      },
+      {
+        "token": " A",
+        "count": 10,
+        "mean_activation": 0.0291
+      },
+      {
+        "token": " huge",
+        "count": 3,
+        "mean_activation": 0.0274
+      },
+      {
+        "token": " another",
+        "count": 2,
+        "mean_activation": 0.0286
+      },
+      {
+        "token": " ordered",
+        "count": 2,
+        "mean_activation": 0.0106
+      },
+      {
+        "token": "!",
+        "count": 1,
+        "mean_activation": 0.0149
+      },
+      {
+        "token": " tasty",
+        "count": 1,
+        "mean_activation": 0.0177
+      },
+      {
+        "token": " made",
+        "count": 1,
+        "mean_activation": 0.0286
+      },
+      {
+        "token": "a",
+        "count": 1,
+        "mean_activation": 0.0482
+      }
+    ]
+  }
+}

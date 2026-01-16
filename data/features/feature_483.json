@@ -1,0 +1,861 @@
+{
+  "feature_idx": 483,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 14,
+    "mean_when_active": 0.19585745675223215,
+    "max_activation": 0.387939453125,
+    "std_when_active": 0.13157627119128948,
+    "activation_rate": 0.00014
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 7320,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " market",
+        "count": 1981,
+        "mean_activation": 0.3046777023323132
+      },
+      {
+        "token": " Market",
+        "count": 1277,
+        "mean_activation": 0.2967381130090055
+      },
+      {
+        "token": " prices",
+        "count": 506,
+        "mean_activation": 0.020256555127532116
+      },
+      {
+        "token": " shop",
+        "count": 473,
+        "mean_activation": 0.026193840559138808
+      },
+      {
+        "token": " exchange",
+        "count": 254,
+        "mean_activation": 0.07533564530019685
+      },
+      {
+        "token": " supermarket",
+        "count": 193,
+        "mean_activation": 0.04230866901615123
+      },
+      {
+        "token": " vendors",
+        "count": 171,
+        "mean_activation": 0.03938338073373538
+      },
+      {
+        "token": " Mediterranean",
+        "count": 169,
+        "mean_activation": 0.07505121174648668
+      },
+      {
+        "token": " vendor",
+        "count": 149,
+        "mean_activation": 0.04310433816589765
+      },
+      {
+        "token": "nic",
+        "count": 130,
+        "mean_activation": 0.056939345139723554
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 7320,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...ed parking lot with** market** umbrellas. The mole...",
+        "active_token": " market",
+        "activation": 0.429931640625,
+        "review_id": "eTo85OvgMp5JjRqQivkyFw",
+        "position": 35
+      },
+      {
+        "context": "...n sculpture? In the** market** for dishes to take ...",
+        "active_token": " market",
+        "activation": 0.427734375,
+        "review_id": "SNU0KsqBkyEKdad-IbqrhA",
+        "position": 47
+      },
+      {
+        "context": "...ted in the court of** Market** at Liberty Place. G...",
+        "active_token": " Market",
+        "activation": 0.42626953125,
+        "review_id": "t0Qz42FqZmXSIvGV_drfBA",
+        "position": 55
+      },
+      {
+        "context": "...initely take in the** market** stroll and dinner. ...",
+        "active_token": " market",
+        "activation": 0.423583984375,
+        "review_id": "eKWhoANLY5h43kBwH9RqrA",
+        "position": 161
+      },
+      {
+        "context": "...rior designer and a** market**er. Let them do thei...",
+        "active_token": " market",
+        "activation": 0.42333984375,
+        "review_id": "DkTjqnjQyiRDqOxVdVnSPg",
+        "position": 254
+      },
+      {
+        "context": "... the food trucks on** Market** Street.",
+        "active_token": " Market",
+        "activation": 0.421630859375,
+        "review_id": "08VvAZ93ub2EoJiJh_oyGg",
+        "position": 177
+      },
+      {
+        "context": "...rn onto Ludlow from** Market** (not Chestnut) if y...",
+        "active_token": " Market",
+        "activation": 0.421630859375,
+        "review_id": "InFV3Ca1hlp8Xl5d9KqYVA",
+        "position": 169
+      },
+      {
+        "context": "... found the truck on** Market** Street between 33rd...",
+        "active_token": " Market",
+        "activation": 0.42138671875,
+        "review_id": "Be_vXZzleLOCF7GLm0nKEQ",
+        "position": 21
+      },
+      {
+        "context": "...tions and hotels by** Market** St. Apart from that...",
+        "active_token": " Market",
+        "activation": 0.419677734375,
+        "review_id": "17XRQEl-3ckRPxP7BcCjhQ",
+        "position": 335
+      },
+      {
+        "context": "... location is also a** market**)..also no ambiance ...",
+        "active_token": " market",
+        "activation": 0.41845703125,
+        "review_id": "nVRXW0jj196It2dsn0XuUw",
+        "position": 88
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 483,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3535,
+        "max": 0.4299,
+        "mean": 0.3766
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " market"
+          ],
+          "ngram_str": " the market",
+          "count": 122,
+          "percent": 24.4
+        },
+        {
+          "ngram": [
+            " a",
+            " market"
+          ],
+          "ngram_str": " a market",
+          "count": 76,
+          "percent": 15.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 67,
+          "percent": 13.4
+        },
+        {
+          "ngram": [
+            " market",
+            "."
+          ],
+          "ngram_str": " market.",
+          "count": 60,
+          "percent": 12.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " the",
+            " Market"
+          ],
+          "ngram_str": " the Market",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " market",
+            ","
+          ],
+          "ngram_str": " market,",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " market",
+            " and"
+          ],
+          "ngram_str": " market and",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 26,
+          "percent": 5.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " little",
+            " market"
+          ],
+          "ngram_str": " little market",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I"
+          ],
+          "ngram_str": ". I",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " is",
+            " a"
+          ],
+          "ngram_str": " is a",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " in",
+            " the",
+            " market"
+          ],
+          "ngram_str": " in the market",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " the",
+            " market",
+            "."
+          ],
+          "ngram_str": " the market.",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " market",
+            ".",
+            " "
+          ],
+          "ngram_str": " market. ",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " a",
+            " little",
+            " market"
+          ],
+          "ngram_str": " a little market",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u00c4\u012cThe",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " a",
+            " market",
+            " and"
+          ],
+          "ngram_str": " a market and",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " is",
+            " a",
+            " market"
+          ],
+          "ngram_str": " is a market",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " market"
+          ],
+          "ngram_str": ". The market",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " the",
+            " market",
+            " and"
+          ],
+          "ngram_str": " the market and",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " market"
+          ],
+          "ngram_str": " from the market",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " the",
+            " market",
+            " for"
+          ],
+          "ngram_str": " the market for",
+          "count": 8,
+          "percent": 1.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " market",
+            "."
+          ],
+          "ngram_str": " in the market.",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "I"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cI",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The",
+            " market"
+          ],
+          "ngram_str": "\u00c4\u012cThe market",
+          "count": 5,
+          "percent": 1.0
+        },
+        {
+          "ngram": [
+            " Market",
+            " at",
+            " Liberty",
+            " Place"
+          ],
+          "ngram_str": " Market at Liberty Place",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " on",
+            " Market",
+            " Street",
+            "."
+          ],
+          "ngram_str": " on Market Street.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " market",
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " market.\u00c4\u012c",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " and",
+            " market",
+            ".",
+            " "
+          ],
+          "ngram_str": " and market. ",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " o",
+            ".",
+            "e",
+            "."
+          ],
+          "ngram_str": " o.e.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            ".",
+            "e",
+            ".",
+            " market"
+          ],
+          "ngram_str": ".e. market",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " market",
+            "."
+          ],
+          "ngram_str": " of the market.",
+          "count": 4,
+          "percent": 0.8
+        },
+        {
+          "ngram": [
+            " the",
+            " market",
+            ".",
+            " "
+          ],
+          "ngram_str": " the market. ",
+          "count": 4,
+          "percent": 0.8
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7320,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4531,
+        "percent": 61.9
+      },
+      {
+        "feature_idx": 10806,
+        "count": 4040,
+        "percent": 55.19
+      },
+      {
+        "feature_idx": 15124,
+        "count": 3932,
+        "percent": 53.72
+      },
+      {
+        "feature_idx": 5422,
+        "count": 3749,
+        "percent": 51.22
+      },
+      {
+        "feature_idx": 1985,
+        "count": 3280,
+        "percent": 44.81
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3080,
+        "percent": 42.08
+      },
+      {
+        "feature_idx": 3139,
+        "count": 3025,
+        "percent": 41.33
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2578,
+        "percent": 35.22
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2395,
+        "percent": 32.72
+      },
+      {
+        "feature_idx": 11491,
+        "count": 2325,
+        "percent": 31.76
+      },
+      {
+        "feature_idx": 4204,
+        "count": 2286,
+        "percent": 31.23
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2172,
+        "percent": 29.67
+      },
+      {
+        "feature_idx": 18842,
+        "count": 1797,
+        "percent": 24.55
+      },
+      {
+        "feature_idx": 19710,
+        "count": 1732,
+        "percent": 23.66
+      },
+      {
+        "feature_idx": 17573,
+        "count": 1643,
+        "percent": 22.45
+      },
+      {
+        "feature_idx": 6053,
+        "count": 1574,
+        "percent": 21.5
+      },
+      {
+        "feature_idx": 1907,
+        "count": 1538,
+        "percent": 21.01
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1525,
+        "percent": 20.83
+      },
+      {
+        "feature_idx": 5141,
+        "count": 1430,
+        "percent": 19.54
+      },
+      {
+        "feature_idx": 11584,
+        "count": 1399,
+        "percent": 19.11
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 7320,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2074,
+        "percent": 28.33
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1308,
+        "percent": 17.87
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1072,
+        "percent": 14.64
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1237,
+        "percent": 16.9
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1629,
+        "percent": 22.25
+      }
+    ],
+    "mean_position": 0.473,
+    "std_position": 0.3163
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 14,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0438,
+      "p25": 0.0583,
+      "p50": 0.1933,
+      "p75": 0.295,
+      "p90": 0.3713,
+      "p95": 0.3779,
+      "p99": 0.3859
+    },
+    "skewness": 0.1152,
+    "kurtosis": -1.6022,
+    "min": 0.0329,
+    "max": 0.3879,
+    "mean": 0.1959,
+    "std": 0.1316
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 14,
+      "unique_tokens_found": 7
+    },
+    "tokens": [
+      {
+        "token": " market",
+        "count": 5,
+        "mean_activation": 0.32
+      },
+      {
+        "token": " Exchange",
+        "count": 3,
+        "mean_activation": 0.1106
+      },
+      {
+        "token": " Market",
+        "count": 2,
+        "mean_activation": 0.3195
+      },
+      {
+        "token": " supermarket",
+        "count": 1,
+        "mean_activation": 0.0419
+      },
+      {
+        "token": " Fed",
+        "count": 1,
+        "mean_activation": 0.0484
+      },
+      {
+        "token": " prices",
+        "count": 1,
+        "mean_activation": 0.0329
+      },
+      {
+        "token": " vendors",
+        "count": 1,
+        "mean_activation": 0.0482
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 12,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 508,
+    "mean_when_active": 0.03156231707475317,
+    "max_activation": 0.0928955078125,
+    "std_when_active": 0.013072517182230873,
+    "activation_rate": 0.00508
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 9100000,
+      "corpus_coverage": 0.176
+    },
+    "top_tokens": [
+      {
+        "token": " and",
+        "count": 27455,
+        "mean_activation": 0.032892433712552356
+      },
+      {
+        "token": ",",
+        "count": 13440,
+        "mean_activation": 0.034209691342853364
+      },
+      {
+        "token": " but",
+        "count": 1086,
+        "mean_activation": 0.029814943204707643
+      },
+      {
+        "token": " the",
+        "count": 775,
+        "mean_activation": 0.02365507064327117
+      },
+      {
+        "token": " &",
+        "count": 536,
+        "mean_activation": 0.03247998365715368
+      },
+      {
+        "token": " (",
+        "count": 502,
+        "mean_activation": 0.022380418511500872
+      },
+      {
+        "token": ".",
+        "count": 459,
+        "mean_activation": 0.022538228751787175
+      },
+      {
+        "token": "...",
+        "count": 300,
+        "mean_activation": 0.021415608723958333
+      },
+      {
+        "token": " The",
+        "count": 291,
+        "mean_activation": 0.015044025539122905
+      },
+      {
+        "token": " which",
+        "count": 268,
+        "mean_activation": 0.02097334790585646
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 9100000,
+      "corpus_coverage": 0.176
+    },
+    "activations": [
+      {
+        "context": "...lled chicken with rice**,** lettuce, pico and guac...",
+        "active_token": ",",
+        "activation": 0.12396240234375,
+        "review_id": "UIt0rvbCwCM-otGa1q2r-w",
+        "position": 40
+      },
+      {
+        "context": "...r stuffed with cheese** and** some other spices an...",
+        "active_token": " and",
+        "activation": 0.12109375,
+        "review_id": "Itd3wW5VhWty-o1nTwOPZg",
+        "position": 152
+      },
+      {
+        "context": "... sandwich with chicken**,** melty cheese, arugula,...",
+        "active_token": ",",
+        "activation": 0.1195068359375,
+        "review_id": "JImUyXCuH6eciXYujPu28Q",
+        "position": 108
+      },
+      {
+        "context": "...ith essentially fries** and** meat with sauces. Th...",
+        "active_token": " and",
+        "activation": 0.1175537109375,
+        "review_id": "0AFA3wybWL6wrPsl-vFZRg",
+        "position": 79
+      },
+      {
+        "context": "...hell filled with steak**,**  onions,  salsa a guac...",
+        "active_token": ",",
+        "activation": 0.1156005859375,
+        "review_id": "5lqIVlWYkOwrIVgkYwJyEg",
+        "position": 291
+      },
+      {
+        "context": "...melette with pancakes** and** it was delish. The s...",
+        "active_token": " and",
+        "activation": 0.115234375,
+        "review_id": "7vCqT4mZvYBHg6G07FrUVA",
+        "position": 55
+      },
+      {
+        "context": "... with Chicken or Steak**,** Mexican Rice, Cheese, ...",
+        "active_token": ",",
+        "activation": 0.11517333984375,
+        "review_id": "Q3LQ7WcGeV7LwVCYmgHzCw",
+        "position": 47
+      },
+      {
+        "context": "...illa topped with beans**,** meat, cheese, onions, ...",
+        "active_token": ",",
+        "activation": 0.114990234375,
+        "review_id": "ee48rQkI2CuTAVcJT4U2ig",
+        "position": 100
+      },
+      {
+        "context": "...t dog wrapped in bacon**,** loaded in a bolillo-st...",
+        "active_token": ",",
+        "activation": 0.113525390625,
+        "review_id": "nYvFFVNd6qNpqgP8IlHEEw",
+        "position": 288
+      },
+      {
+        "context": "...opped with pulled pork**,** black beans, cabbage, ...",
+        "active_token": ",",
+        "activation": 0.113525390625,
+        "review_id": "nVh0MPLZYCvgO1vKVxAnzg",
+        "position": 103
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 12,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 18200000,
+      "corpus_coverage": 0.352,
+      "activation_range": {
+        "min": 0.0842,
+        "max": 0.124,
+        "mean": 0.0925
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " with",
+            " rice"
+          ],
+          "ngram_str": " with rice",
+          "count": 59,
+          "percent": 11.8
+        },
+        {
+          "ngram": [
+            " rice",
+            " and"
+          ],
+          "ngram_str": " rice and",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " and",
+            " beans"
+          ],
+          "ngram_str": " and beans",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " beans",
+            ","
+          ],
+          "ngram_str": " beans,",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " rice",
+            ","
+          ],
+          "ngram_str": " rice,",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " cheese",
+            " and"
+          ],
+          "ngram_str": " cheese and",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " with",
+            " cheese"
+          ],
+          "ngram_str": " with cheese",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " beans",
+            " and"
+          ],
+          "ngram_str": " beans and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " cheese",
+            ","
+          ],
+          "ngram_str": " cheese,",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " beans",
+            "."
+          ],
+          "ngram_str": " beans.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " and",
+            " a"
+          ],
+          "ngram_str": " and a",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito"
+          ],
+          "ngram_str": " burrito",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " stuffed with",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " chicken",
+            ","
+          ],
+          "ngram_str": " chicken,",
+          "count": 26,
+          "percent": 5.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " with",
+            " rice",
+            " and"
+          ],
+          "ngram_str": " with rice and",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " rice",
+            " and",
+            " beans"
+          ],
+          "ngram_str": " rice and beans",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " and",
+            " beans",
+            "."
+          ],
+          "ngram_str": " and beans.",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " which",
+            " came",
+            " with"
+          ],
+          "ngram_str": " which came with",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " with",
+            " rice",
+            ","
+          ],
+          "ngram_str": " with rice,",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am"
+          ],
+          "ngram_str": " guacam",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": "acamole",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito",
+            " with"
+          ],
+          "ngram_str": " burrito with",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " with",
+            " cheese",
+            " and"
+          ],
+          "ngram_str": " with cheese and",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " beans",
+            " and",
+            " rice"
+          ],
+          "ngram_str": " beans and rice",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " ch",
+            "or",
+            "izo"
+          ],
+          "ngram_str": " chorizo",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ",",
+            " beans",
+            ","
+          ],
+          "ngram_str": ", beans,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " with",
+            " cheese",
+            ","
+          ],
+          "ngram_str": " with cheese,",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " with",
+            " beans",
+            " and"
+          ],
+          "ngram_str": " with beans and",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ",",
+            " cheese",
+            ","
+          ],
+          "ngram_str": ", cheese,",
+          "count": 11,
+          "percent": 2.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " with",
+            " rice",
+            " and",
+            " beans"
+          ],
+          "ngram_str": " with rice and beans",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " rice",
+            " and",
+            " beans",
+            "."
+          ],
+          "ngram_str": " rice and beans.",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " gu",
+            "ac",
+            "am",
+            "ole"
+          ],
+          "ngram_str": " guacamole",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " bur",
+            "rito",
+            " with",
+            " rice"
+          ],
+          "ngram_str": " burrito with rice",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " with",
+            " beans",
+            " and",
+            " rice"
+          ],
+          "ngram_str": " with beans and rice",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " with",
+            " gu",
+            "ac",
+            "am"
+          ],
+          "ngram_str": " with guacam",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "rito",
+            " with",
+            " rice",
+            " and"
+          ],
+          "ngram_str": "rito with rice and",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " rice",
+            ",",
+            " beans",
+            ","
+          ],
+          "ngram_str": " rice, beans,",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " which",
+            " came",
+            " with",
+            " rice"
+          ],
+          "ngram_str": " which came with rice",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole",
+            ","
+          ],
+          "ngram_str": "acamole,",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "ac",
+            "am",
+            "ole",
+            " and"
+          ],
+          "ngram_str": "acamole and",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " tacos",
+            " with",
+            " rice",
+            " and"
+          ],
+          "ngram_str": " tacos with rice and",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " tort",
+            "illa",
+            " stuffed",
+            " with"
+          ],
+          "ngram_str": " tortilla stuffed with",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " came",
+            " with",
+            " rice",
+            " and"
+          ],
+          "ngram_str": " came with rice and",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " with",
+            " rice",
+            ",",
+            " beans"
+          ],
+          "ngram_str": " with rice, beans",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1900000,
+      "corpus_coverage": 0.0367
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 1390,
+        "count": 7511,
+        "percent": 75.11
+      },
+      {
+        "feature_idx": 19938,
+        "count": 5802,
+        "percent": 58.02
+      },
+      {
+        "feature_idx": 22650,
+        "count": 4852,
+        "percent": 48.52
+      },
+      {
+        "feature_idx": 8263,
+        "count": 3727,
+        "percent": 37.27
+      },
+      {
+        "feature_idx": 11839,
+        "count": 3350,
+        "percent": 33.5
+      },
+      {
+        "feature_idx": 17175,
+        "count": 3319,
+        "percent": 33.19
+      },
+      {
+        "feature_idx": 1285,
+        "count": 3224,
+        "percent": 32.24
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3220,
+        "percent": 32.2
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3164,
+        "percent": 31.64
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3134,
+        "percent": 31.34
+      },
+      {
+        "feature_idx": 19844,
+        "count": 2925,
+        "percent": 29.25
+      },
+      {
+        "feature_idx": 17180,
+        "count": 2905,
+        "percent": 29.05
+      },
+      {
+        "feature_idx": 4377,
+        "count": 2875,
+        "percent": 28.75
+      },
+      {
+        "feature_idx": 13393,
+        "count": 2554,
+        "percent": 25.54
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2483,
+        "percent": 24.83
+      },
+      {
+        "feature_idx": 12837,
+        "count": 2366,
+        "percent": 23.66
+      },
+      {
+        "feature_idx": 15749,
+        "count": 2359,
+        "percent": 23.59
+      },
+      {
+        "feature_idx": 15384,
+        "count": 2331,
+        "percent": 23.31
+      },
+      {
+        "feature_idx": 18414,
+        "count": 2303,
+        "percent": 23.03
+      },
+      {
+        "feature_idx": 22695,
+        "count": 2298,
+        "percent": 22.98
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1900000,
+      "corpus_coverage": 0.0367
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 1741,
+        "percent": 17.41
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2958,
+        "percent": 29.58
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2536,
+        "percent": 25.36
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1860,
+        "percent": 18.6
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 905,
+        "percent": 9.05
+      }
+    ],
+    "mean_position": 0.4449,
+    "std_position": 0.236
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 508,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0181,
+      "p25": 0.0225,
+      "p50": 0.0284,
+      "p75": 0.0373,
+      "p90": 0.0476,
+      "p95": 0.0568,
+      "p99": 0.076
+    },
+    "skewness": 1.3856,
+    "kurtosis": 2.5794,
+    "min": 0.0072,
+    "max": 0.0929,
+    "mean": 0.0316,
+    "std": 0.0131
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 508,
+      "unique_tokens_found": 46
+    },
+    "tokens": [
+      {
+        "token": " and",
+        "count": 287,
+        "mean_activation": 0.0333
+      },
+      {
+        "token": ",",
+        "count": 120,
+        "mean_activation": 0.0328
+      },
+      {
+        "token": " &",
+        "count": 10,
+        "mean_activation": 0.0301
+      },
+      {
+        "token": " but",
+        "count": 9,
+        "mean_activation": 0.0279
+      },
+      {
+        "token": "),",
+        "count": 7,
+        "mean_activation": 0.0335
+      },
+      {
+        "token": " (",
+        "count": 7,
+        "mean_activation": 0.021
+      },
+      {
+        "token": ".",
+        "count": 6,
+        "mean_activation": 0.0205
+      },
+      {
+        "token": "...",
+        "count": 5,
+        "mean_activation": 0.0255
+      },
+      {
+        "token": " I",
+        "count": 5,
+        "mean_activation": 0.028
+      },
+      {
+        "token": " the",
+        "count": 5,
+        "mean_activation": 0.021
+      }
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "feature_idx": 4,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 96,
+    "mean_when_active": 0.033395846684773765,
+    "max_activation": 0.11676025390625,
+    "std_when_active": 0.02157578897242705,
+    "activation_rate": 0.00096
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 43983,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " Mexican",
+        "count": 4011,
+        "mean_activation": 0.06791908988867042
+      },
+      {
+        "token": " tacos",
+        "count": 2328,
+        "mean_activation": 0.029141694819394666
+      },
+      {
+        "token": " food",
+        "count": 1249,
+        "mean_activation": 0.021065925005629503
+      },
+      {
+        "token": " place",
+        "count": 1158,
+        "mean_activation": 0.028992937842387198
+      },
+      {
+        "token": " in",
+        "count": 1067,
+        "mean_activation": 0.029391009000940868
+      },
+      {
+        "token": " bur",
+        "count": 916,
+        "mean_activation": 0.03324965930922063
+      },
+      {
+        "token": " restaurant",
+        "count": 765,
+        "mean_activation": 0.0237886017444087
+      },
+      {
+        "token": " spot",
+        "count": 749,
+        "mean_activation": 0.024787312037795186
+      },
+      {
+        "token": " marg",
+        "count": 658,
+        "mean_activation": 0.04005269801363032
+      },
+      {
+        "token": " I",
+        "count": 602,
+        "mean_activation": 0.04225602260855741
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 43983,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "Best** El**ote in town definitely...",
+        "active_token": " El",
+        "activation": 0.156005859375,
+        "review_id": "0GBCctkHaFL1Kh9hCFRCGg",
+        "position": 1
+      },
+      {
+        "context": "Best** El** Pollo Loco bc the chi...",
+        "active_token": " El",
+        "activation": 0.156005859375,
+        "review_id": "4LixTzoHQBUQd-Gto_g2rQ",
+        "position": 1
+      },
+      {
+        "context": "Best** B**aja taco ever! I was s...",
+        "active_token": " B",
+        "activation": 0.1507568359375,
+        "review_id": "ExqWFG5f64oxUWGcjHvwtg",
+        "position": 1
+      },
+      {
+        "context": "Best** B**aja style tacos I have had in Florida (3",
+        "active_token": " B",
+        "activation": 0.1507568359375,
+        "review_id": "hJ-R42b7Upgi1GgRjB4Nzw",
+        "position": 1
+      },
+      {
+        "context": "Best** B**iscuits and Gravy I have ever had.",
+        "active_token": " B",
+        "activation": 0.1507568359375,
+        "review_id": "rSBegpFht5xUcB2SY1X4ng",
+        "position": 1
+      },
+      {
+        "context": "Best** B**aja Mexican I've had s...",
+        "active_token": " B",
+        "activation": 0.1507568359375,
+        "review_id": "HgnyxQ4uawduHvV5xppnXw",
+        "position": 1
+      },
+      {
+        "context": "Best** Q**ueso EVER coming from a Texan from San",
+        "active_token": " Q",
+        "activation": 0.140869140625,
+        "review_id": "mOC-ND8qA5ve2FInRVzuBA",
+        "position": 1
+      },
+      {
+        "context": "Best** Q**ueso I have EVER had!  Tacos",
+        "active_token": " Q",
+        "activation": 0.140869140625,
+        "review_id": "tRlPddoe_0A5e8YgEpatUg",
+        "position": 1
+      },
+      {
+        "context": "Best** Q**doba around! Super nice staff, no sk",
+        "active_token": " Q",
+        "activation": 0.140869140625,
+        "review_id": "ufiOi40CZME9HqesG4PrIw",
+        "position": 1
+      },
+      {
+        "context": "Best** Q**uesadilla I've ever had, and I",
+        "active_token": " Q",
+        "activation": 0.140869140625,
+        "review_id": "iV1xkAzZNXsmeMCaurEHww",
+        "position": 1
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 4,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1168,
+        "max": 0.156,
+        "mean": 0.119
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "Best",
+            " Mexican"
+          ],
+          "ngram_str": "Best Mexican",
+          "count": 392,
+          "percent": 78.4
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " Mexican food",
+          "count": 219,
+          "percent": 43.8
+        },
+        {
+          "ngram": [
+            " food",
+            " in"
+          ],
+          "ngram_str": " food in",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve"
+          ],
+          "ngram_str": " I've",
+          "count": 73,
+          "percent": 14.6
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " in"
+          ],
+          "ngram_str": " Mexican in",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the"
+          ],
+          "ngram_str": " in the",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " food",
+            " I"
+          ],
+          "ngram_str": " food I",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " restaurant"
+          ],
+          "ngram_str": " Mexican restaurant",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            " in",
+            " town"
+          ],
+          "ngram_str": " in town",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "'ve",
+            " had"
+          ],
+          "ngram_str": "'ve had",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " had",
+            " in"
+          ],
+          "ngram_str": " had in",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " restaurant",
+            " in"
+          ],
+          "ngram_str": " restaurant in",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " I",
+            " have"
+          ],
+          "ngram_str": " I have",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            "'ve",
+            " ever"
+          ],
+          "ngram_str": "'ve ever",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " ever",
+            " had"
+          ],
+          "ngram_str": " ever had",
+          "count": 22,
+          "percent": 4.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": "Best Mexican food",
+          "count": 219,
+          "percent": 43.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            " in"
+          ],
+          "ngram_str": " Mexican food in",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " in"
+          ],
+          "ngram_str": "Best Mexican in",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            " I"
+          ],
+          "ngram_str": " Mexican food I",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " restaurant"
+          ],
+          "ngram_str": "Best Mexican restaurant",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " food",
+            " I",
+            "'ve"
+          ],
+          "ngram_str": " food I've",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " had"
+          ],
+          "ngram_str": " I've had",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " restaurant",
+            " in"
+          ],
+          "ngram_str": " Mexican restaurant in",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            "'ve",
+            " had",
+            " in"
+          ],
+          "ngram_str": "'ve had in",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " ever"
+          ],
+          "ngram_str": " I've ever",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " food",
+            " in",
+            " the"
+          ],
+          "ngram_str": " food in the",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " area"
+          ],
+          "ngram_str": " in the area",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " food",
+            " in",
+            " town"
+          ],
+          "ngram_str": " food in town",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " I"
+          ],
+          "ngram_str": "Best Mexican I",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "'ve",
+            " ever",
+            " had"
+          ],
+          "ngram_str": "'ve ever had",
+          "count": 14,
+          "percent": 2.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " food",
+            " in"
+          ],
+          "ngram_str": "Best Mexican food in",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " food",
+            " I"
+          ],
+          "ngram_str": "Best Mexican food I",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            " I",
+            "'ve"
+          ],
+          "ngram_str": " Mexican food I've",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " restaurant",
+            " in"
+          ],
+          "ngram_str": "Best Mexican restaurant in",
+          "count": 30,
+          "percent": 6.0
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            " in",
+            " the"
+          ],
+          "ngram_str": " Mexican food in the",
+          "count": 20,
+          "percent": 4.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " had",
+            " in"
+          ],
+          "ngram_str": " I've had in",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " food",
+            " I",
+            "'ve",
+            " had"
+          ],
+          "ngram_str": " food I've had",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            " in",
+            " town"
+          ],
+          "ngram_str": " Mexican food in town",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " in",
+            " the"
+          ],
+          "ngram_str": "Best Mexican in the",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " ever",
+            " had"
+          ],
+          "ngram_str": " I've ever had",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food",
+            " I",
+            " have"
+          ],
+          "ngram_str": " Mexican food I have",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " I",
+            "'ve"
+          ],
+          "ngram_str": "Best Mexican I've",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " in",
+            " the",
+            " area",
+            "."
+          ],
+          "ngram_str": " in the area.",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " food",
+            " in",
+            " the",
+            " area"
+          ],
+          "ngram_str": " food in the area",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            "Best",
+            " Mexican",
+            " food",
+            " around"
+          ],
+          "ngram_str": "Best Mexican food around",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11900000,
+      "corpus_coverage": 0.2302
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 9856,
+        "percent": 98.56
+      },
+      {
+        "feature_idx": 17839,
+        "count": 9341,
+        "percent": 93.41
+      },
+      {
+        "feature_idx": 14918,
+        "count": 6052,
+        "percent": 60.52
+      },
+      {
+        "feature_idx": 5665,
+        "count": 4638,
+        "percent": 46.38
+      },
+      {
+        "feature_idx": 9576,
+        "count": 4347,
+        "percent": 43.47
+      },
+      {
+        "feature_idx": 10722,
+        "count": 4161,
+        "percent": 41.61
+      },
+      {
+        "feature_idx": 1418,
+        "count": 4057,
+        "percent": 40.57
+      },
+      {
+        "feature_idx": 1390,
+        "count": 3560,
+        "percent": 35.6
+      },
+      {
+        "feature_idx": 19167,
+        "count": 3547,
+        "percent": 35.47
+      },
+      {
+        "feature_idx": 23735,
+        "count": 3252,
+        "percent": 32.52
+      },
+      {
+        "feature_idx": 14696,
+        "count": 3231,
+        "percent": 32.31
+      },
+      {
+        "feature_idx": 4365,
+        "count": 2828,
+        "percent": 28.28
+      },
+      {
+        "feature_idx": 8285,
+        "count": 2752,
+        "percent": 27.52
+      },
+      {
+        "feature_idx": 18704,
+        "count": 2703,
+        "percent": 27.03
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2626,
+        "percent": 26.26
+      },
+      {
+        "feature_idx": 22974,
+        "count": 2437,
+        "percent": 24.37
+      },
+      {
+        "feature_idx": 6053,
+        "count": 2248,
+        "percent": 22.48
+      },
+      {
+        "feature_idx": 13121,
+        "count": 2157,
+        "percent": 21.57
+      },
+      {
+        "feature_idx": 19838,
+        "count": 2066,
+        "percent": 20.66
+      },
+      {
+        "feature_idx": 22000,
+        "count": 1890,
+        "percent": 18.9
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 11900000,
+      "corpus_coverage": 0.2302
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 7403,
+        "percent": 74.03
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 546,
+        "percent": 5.46
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 629,
+        "percent": 6.29
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 694,
+        "percent": 6.94
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 728,
+        "percent": 7.28
+      }
+    ],
+    "mean_position": 0.1856,
+    "std_position": 0.2861
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 96,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.015,
+      "p25": 0.0198,
+      "p50": 0.0254,
+      "p75": 0.0439,
+      "p90": 0.0532,
+      "p95": 0.0724,
+      "p99": 0.1168
+    },
+    "skewness": 1.9931,
+    "kurtosis": 4.7896,
+    "min": 0.0101,
+    "max": 0.1168,
+    "mean": 0.0334,
+    "std": 0.0216
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 96,
+      "unique_tokens_found": 63
+    },
+    "tokens": [
+      {
+        "token": " Mexican",
+        "count": 12,
+        "mean_activation": 0.0597
+      },
+      {
+        "token": " tacos",
+        "count": 7,
+        "mean_activation": 0.032
+      },
+      {
+        "token": " food",
+        "count": 4,
+        "mean_activation": 0.0252
+      },
+      {
+        "token": " restaurant",
+        "count": 3,
+        "mean_activation": 0.0202
+      },
+      {
+        "token": " in",
+        "count": 3,
+        "mean_activation": 0.0203
+      },
+      {
+        "token": " marg",
+        "count": 3,
+        "mean_activation": 0.0448
+      },
+      {
+        "token": " view",
+        "count": 2,
+        "mean_activation": 0.0242
+      },
+      {
+        "token": " k",
+        "count": 2,
+        "mean_activation": 0.0196
+      },
+      {
+        "token": " G",
+        "count": 2,
+        "mean_activation": 0.0426
+      },
+      {
+        "token": " c",
+        "count": 2,
+        "mean_activation": 0.0505
+      }
+    ]
+  }
+}

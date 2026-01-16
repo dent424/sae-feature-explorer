@@ -1,0 +1,876 @@
+{
+  "feature_idx": 13654,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 627,
+    "mean_when_active": 0.03886166561923719,
+    "max_activation": 0.1563720703125,
+    "std_when_active": 0.021706280574361556,
+    "activation_rate": 0.00627
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 8600000,
+      "corpus_coverage": 0.1663
+    },
+    "top_tokens": [
+      {
+        "token": " I",
+        "count": 5248,
+        "mean_activation": 0.04554518330387953
+      },
+      {
+        "token": " and",
+        "count": 2859,
+        "mean_activation": 0.05040337481503722
+      },
+      {
+        "token": ",",
+        "count": 2793,
+        "mean_activation": 0.04790309710695545
+      },
+      {
+        "token": " have",
+        "count": 1927,
+        "mean_activation": 0.04289217495089315
+      },
+      {
+        "token": ".",
+        "count": 1525,
+        "mean_activation": 0.03476720591060451
+      },
+      {
+        "token": "'t",
+        "count": 1234,
+        "mean_activation": 0.03234128163738034
+      },
+      {
+        "token": " was",
+        "count": 1150,
+        "mean_activation": 0.03597152709960937
+      },
+      {
+        "token": " but",
+        "count": 1136,
+        "mean_activation": 0.039435534410073726
+      },
+      {
+        "token": " we",
+        "count": 1134,
+        "mean_activation": 0.04070985043910866
+      },
+      {
+        "token": " it",
+        "count": 1103,
+        "mean_activation": 0.033665460775034704
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 8600000,
+      "corpus_coverage": 0.1663
+    },
+    "activations": [
+      {
+        "context": "...m from Los Angeles and** I**'ve had much better Me...",
+        "active_token": " I",
+        "activation": 0.1875,
+        "review_id": "jPZsaExDRBn2UcsASAwqiw",
+        "position": 17
+      },
+      {
+        "context": "...I'm from california so** I**'m no stranger to poke...",
+        "active_token": " I",
+        "activation": 0.1839599609375,
+        "review_id": "Ob97PrCYwih6Bp622lnngw",
+        "position": 16
+      },
+      {
+        "context": "...'m from California and** I**'m use to shredded car...",
+        "active_token": " I",
+        "activation": 0.179443359375,
+        "review_id": "yRnt6wOrR-LkR9xtLzzUIA",
+        "position": 91
+      },
+      {
+        "context": "I'm from California so** I** know my Mexican food ...",
+        "active_token": " I",
+        "activation": 0.177490234375,
+        "review_id": "LbjehEkcUiGXbS2ihm02Hw",
+        "position": 5
+      },
+      {
+        "context": "...I'm from California so** I** can really appreciate...",
+        "active_token": " I",
+        "activation": 0.1773681640625,
+        "review_id": "qA-X2-1jWHaxb1tAdicfHA",
+        "position": 63
+      },
+      {
+        "context": "...m from california so I**'m** no stranger to poke. ...",
+        "active_token": "'m",
+        "activation": 0.174560546875,
+        "review_id": "Ob97PrCYwih6Bp622lnngw",
+        "position": 17
+      },
+      {
+        "context": "...'m from California, so** I**'ve had my fair share ...",
+        "active_token": " I",
+        "activation": 0.1717529296875,
+        "review_id": "dCR0QEbWMo0Xcy8Zin0DHQ",
+        "position": 6
+      },
+      {
+        "context": "I'm from San Diego so** I** know authentic Mexica...",
+        "active_token": " I",
+        "activation": 0.171142578125,
+        "review_id": "TIeDIquiCz1ikWqCefmS0g",
+        "position": 6
+      },
+      {
+        "context": "I'm from San Diego so** I**'ve found Mexican food...",
+        "active_token": " I",
+        "activation": 0.171142578125,
+        "review_id": "uiV40SHQs_6S2WSOlx55NQ",
+        "position": 6
+      },
+      {
+        "context": "... lived in Texas so I** have** to admit I'm a bit p...",
+        "active_token": " have",
+        "activation": 0.171142578125,
+        "review_id": "d1QV8_s1SnOc5Hd9XQaqaw",
+        "position": 55
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 13654,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 17100000,
+      "corpus_coverage": 0.3307,
+      "activation_range": {
+        "min": 0.1339,
+        "max": 0.1875,
+        "mean": 0.147
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            "'m",
+            " from"
+          ],
+          "ngram_str": "'m from",
+          "count": 224,
+          "percent": 44.8
+        },
+        {
+          "ngram": [
+            " I",
+            "'m"
+          ],
+          "ngram_str": " I'm",
+          "count": 151,
+          "percent": 30.2
+        },
+        {
+          "ngram": [
+            " so",
+            " I"
+          ],
+          "ngram_str": " so I",
+          "count": 145,
+          "percent": 29.0
+        },
+        {
+          "ngram": [
+            " and",
+            " I"
+          ],
+          "ngram_str": " and I",
+          "count": 99,
+          "percent": 19.8
+        },
+        {
+          "ngram": [
+            " from",
+            " California"
+          ],
+          "ngram_str": " from California",
+          "count": 70,
+          "percent": 14.0
+        },
+        {
+          "ngram": [
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " Mexican food",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " I",
+            " know"
+          ],
+          "ngram_str": " I know",
+          "count": 63,
+          "percent": 12.6
+        },
+        {
+          "ngram": [
+            ",",
+            " so"
+          ],
+          "ngram_str": ", so",
+          "count": 57,
+          "percent": 11.4
+        },
+        {
+          "ngram": [
+            "I",
+            "'m"
+          ],
+          "ngram_str": "I'm",
+          "count": 54,
+          "percent": 10.8
+        },
+        {
+          "ngram": [
+            " from",
+            " Texas"
+          ],
+          "ngram_str": " from Texas",
+          "count": 51,
+          "percent": 10.2
+        },
+        {
+          "ngram": [
+            " am",
+            " from"
+          ],
+          "ngram_str": " am from",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " California",
+            " and"
+          ],
+          "ngram_str": " California and",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            " and",
+            " have"
+          ],
+          "ngram_str": " and have",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " I",
+            " am"
+          ],
+          "ngram_str": " I am",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            " Texas",
+            " and"
+          ],
+          "ngram_str": " Texas and",
+          "count": 42,
+          "percent": 8.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " from"
+          ],
+          "ngram_str": " I'm from",
+          "count": 96,
+          "percent": 19.2
+        },
+        {
+          "ngram": [
+            "I",
+            "'m",
+            " from"
+          ],
+          "ngram_str": "I'm from",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " I"
+          ],
+          "ngram_str": ", so I",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " so",
+            " I",
+            " know"
+          ],
+          "ngram_str": " so I know",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            "'m",
+            " from",
+            " California"
+          ],
+          "ngram_str": "'m from California",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            "'m",
+            " from",
+            " Texas"
+          ],
+          "ngram_str": "'m from Texas",
+          "count": 37,
+          "percent": 7.4
+        },
+        {
+          "ngram": [
+            " from",
+            " California",
+            " and"
+          ],
+          "ngram_str": " from California and",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " from",
+            " Texas",
+            " and"
+          ],
+          "ngram_str": " from Texas and",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " good",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " good Mexican food",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " so",
+            " I",
+            "'m"
+          ],
+          "ngram_str": " so I'm",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " California",
+            " so",
+            " I"
+          ],
+          "ngram_str": " California so I",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " I",
+            "'ve",
+            " had"
+          ],
+          "ngram_str": " I've had",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " from",
+            " California",
+            " so"
+          ],
+          "ngram_str": " from California so",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " I",
+            " am",
+            " from"
+          ],
+          "ngram_str": " I am from",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " from",
+            " Los",
+            " Angeles"
+          ],
+          "ngram_str": " from Los Angeles",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "'m",
+            " from",
+            " Texas",
+            " and"
+          ],
+          "ngram_str": "'m from Texas and",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " from",
+            " Texas"
+          ],
+          "ngram_str": " I'm from Texas",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            "'m",
+            " from",
+            " California",
+            " and"
+          ],
+          "ngram_str": "'m from California and",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            "I",
+            "'m",
+            " from",
+            " California"
+          ],
+          "ngram_str": "I'm from California",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " from",
+            " California",
+            " so",
+            " I"
+          ],
+          "ngram_str": " from California so I",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " I",
+            "'m",
+            " from"
+          ],
+          "ngram_str": ". I'm from",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " I",
+            " know"
+          ],
+          "ngram_str": ", so I know",
+          "count": 16,
+          "percent": 3.2
+        },
+        {
+          "ngram": [
+            " I",
+            "'m",
+            " from",
+            " California"
+          ],
+          "ngram_str": " I'm from California",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            "'m",
+            " from",
+            " California",
+            " so"
+          ],
+          "ngram_str": "'m from California so",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            "'m",
+            " from",
+            " San",
+            " Diego"
+          ],
+          "ngram_str": "'m from San Diego",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            "'m",
+            " from",
+            " Los",
+            " Angeles"
+          ],
+          "ngram_str": "'m from Los Angeles",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " California",
+            ",",
+            " so",
+            " I"
+          ],
+          "ngram_str": " California, so I",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " so",
+            " I",
+            "'ve",
+            " had"
+          ],
+          "ngram_str": " so I've had",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " I",
+            " know",
+            " good",
+            " Mexican"
+          ],
+          "ngram_str": " I know good Mexican",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " know",
+            " good",
+            " Mexican",
+            " food"
+          ],
+          "ngram_str": " know good Mexican food",
+          "count": 11,
+          "percent": 2.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1800000,
+      "corpus_coverage": 0.0348
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 17175,
+        "count": 4832,
+        "percent": 48.32
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3668,
+        "percent": 36.68
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3494,
+        "percent": 34.94
+      },
+      {
+        "feature_idx": 24379,
+        "count": 3245,
+        "percent": 32.45
+      },
+      {
+        "feature_idx": 24308,
+        "count": 3087,
+        "percent": 30.87
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3022,
+        "percent": 30.22
+      },
+      {
+        "feature_idx": 17430,
+        "count": 2887,
+        "percent": 28.87
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2872,
+        "percent": 28.72
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2542,
+        "percent": 25.42
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2487,
+        "percent": 24.87
+      },
+      {
+        "feature_idx": 19167,
+        "count": 2229,
+        "percent": 22.29
+      },
+      {
+        "feature_idx": 24070,
+        "count": 1923,
+        "percent": 19.23
+      },
+      {
+        "feature_idx": 11839,
+        "count": 1819,
+        "percent": 18.19
+      },
+      {
+        "feature_idx": 21933,
+        "count": 1757,
+        "percent": 17.57
+      },
+      {
+        "feature_idx": 4073,
+        "count": 1572,
+        "percent": 15.72
+      },
+      {
+        "feature_idx": 17647,
+        "count": 1521,
+        "percent": 15.21
+      },
+      {
+        "feature_idx": 12459,
+        "count": 1412,
+        "percent": 14.12
+      },
+      {
+        "feature_idx": 21189,
+        "count": 1385,
+        "percent": 13.85
+      },
+      {
+        "feature_idx": 20918,
+        "count": 1262,
+        "percent": 12.62
+      },
+      {
+        "feature_idx": 2982,
+        "count": 1242,
+        "percent": 12.42
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 1800000,
+      "corpus_coverage": 0.0348
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 3600,
+        "percent": 36.0
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1896,
+        "percent": 18.96
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1433,
+        "percent": 14.33
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1529,
+        "percent": 15.29
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1542,
+        "percent": 15.42
+      }
+    ],
+    "mean_position": 0.4077,
+    "std_position": 0.3011
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 627,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0198,
+      "p25": 0.0251,
+      "p50": 0.0322,
+      "p75": 0.0455,
+      "p90": 0.0646,
+      "p95": 0.081,
+      "p99": 0.1197
+    },
+    "skewness": 2.0408,
+    "kurtosis": 5.2907,
+    "min": 0.0107,
+    "max": 0.1564,
+    "mean": 0.0389,
+    "std": 0.0217
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 627,
+      "unique_tokens_found": 165
+    },
+    "tokens": [
+      {
+        "token": " I",
+        "count": 53,
+        "mean_activation": 0.0512
+      },
+      {
+        "token": " and",
+        "count": 43,
+        "mean_activation": 0.0484
+      },
+      {
+        "token": ",",
+        "count": 38,
+        "mean_activation": 0.0425
+      },
+      {
+        "token": ".",
+        "count": 18,
+        "mean_activation": 0.0285
+      },
+      {
+        "token": " it",
+        "count": 17,
+        "mean_activation": 0.0333
+      },
+      {
+        "token": "'t",
+        "count": 17,
+        "mean_activation": 0.0321
+      },
+      {
+        "token": " but",
+        "count": 17,
+        "mean_activation": 0.0327
+      },
+      {
+        "token": " have",
+        "count": 16,
+        "mean_activation": 0.0476
+      },
+      {
+        "token": " was",
+        "count": 15,
+        "mean_activation": 0.0349
+      },
+      {
+        "token": " to",
+        "count": 14,
+        "mean_activation": 0.0389
+      }
+    ]
+  }
+}

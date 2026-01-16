@@ -1,0 +1,876 @@
+{
+  "feature_idx": 895,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 91,
+    "mean_when_active": 0.07567713810847355,
+    "max_activation": 0.15234375,
+    "std_when_active": 0.037220045929601334,
+    "activation_rate": 0.00091
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 50000,
+      "tokens_scanned": 46300000,
+      "corpus_coverage": 0.8955
+    },
+    "top_tokens": [
+      {
+        "token": " decided",
+        "count": 15244,
+        "mean_activation": 0.10302611055476744
+      },
+      {
+        "token": " chose",
+        "count": 3255,
+        "mean_activation": 0.0749793221141153
+      },
+      {
+        "token": " choose",
+        "count": 3059,
+        "mean_activation": 0.06373909946826986
+      },
+      {
+        "token": " opted",
+        "count": 2193,
+        "mean_activation": 0.11215030445772059
+      },
+      {
+        "token": " decide",
+        "count": 2122,
+        "mean_activation": 0.08412860003874956
+      },
+      {
+        "token": " for",
+        "count": 1895,
+        "mean_activation": 0.046119903322889184
+      },
+      {
+        "token": " offered",
+        "count": 1866,
+        "mean_activation": 0.03610405712393447
+      },
+      {
+        "token": " agreed",
+        "count": 1494,
+        "mean_activation": 0.08314954356815282
+      },
+      {
+        "token": " on",
+        "count": 1175,
+        "mean_activation": 0.05202669184258644
+      },
+      {
+        "token": " suggested",
+        "count": 1103,
+        "mean_activation": 0.03694157673895413
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 50000,
+      "tokens_scanned": 46300000,
+      "corpus_coverage": 0.8955
+    },
+    "activations": [
+      {
+        "context": "... Azteca but instead** decided** that it was too pl...",
+        "active_token": " decided",
+        "activation": 0.178466796875,
+        "review_id": "9tWRMLL3ap509XkgqoqwsQ",
+        "position": 40
+      },
+      {
+        "context": "...e ordering area but** decided** to trust that ever...",
+        "active_token": " decided",
+        "activation": 0.1768798828125,
+        "review_id": "H9erRnmXDAWaXWIza7ZMTA",
+        "position": 184
+      },
+      {
+        "context": "...fine, but instead I** decided** to change tactics ...",
+        "active_token": " decided",
+        "activation": 0.17529296875,
+        "review_id": "75Zku5VgKe3x2hWtEFlPzQ",
+        "position": 187
+      },
+      {
+        "context": "...till did), but then** decided** to come here too.\\n...",
+        "active_token": " decided",
+        "activation": 0.1739501953125,
+        "review_id": "00vlQvcuIoz3hau_E55D0w",
+        "position": 46
+      },
+      {
+        "context": "...debated leaving but** decided** to stick it out. \\n...",
+        "active_token": " decided",
+        "activation": 0.1734619140625,
+        "review_id": "8sXFhG-8xtS6GnN_rM2jxQ",
+        "position": 160
+      },
+      {
+        "context": "... somewhere else, we** decided** to stay and grab d...",
+        "active_token": " decided",
+        "activation": 0.1729736328125,
+        "review_id": "L9bt8mH6R4wE09qPJzo1pg",
+        "position": 31
+      },
+      {
+        "context": "...ions but ultimately** decided** that we both wante...",
+        "active_token": " decided",
+        "activation": 0.1728515625,
+        "review_id": "bVGCkx8u4nDUHDmQRT39fA",
+        "position": 27
+      },
+      {
+        "context": "...tacos we wanted, we** decided** to order one of ea...",
+        "active_token": " decided",
+        "activation": 0.172607421875,
+        "review_id": "y1jvHDghqGxaWA4Y0ZyN_g",
+        "position": 53
+      },
+      {
+        "context": "...a place to sit, and** decided** to sit in the back...",
+        "active_token": " decided",
+        "activation": 0.1724853515625,
+        "review_id": "Ya2zvPbLZMjfasIosdvyPA",
+        "position": 84
+      },
+      {
+        "context": "...caramel filling and** decided** to go all in and g...",
+        "active_token": " decided",
+        "activation": 0.1724853515625,
+        "review_id": "VZj8Gs8XriGvQr_b6UCKCw",
+        "position": 180
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 895,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.1501,
+        "max": 0.1785,
+        "mean": 0.1567
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " decided",
+            " to"
+          ],
+          "ngram_str": " decided to",
+          "count": 278,
+          "percent": 55.6
+        },
+        {
+          "ngram": [
+            " we",
+            " decided"
+          ],
+          "ngram_str": " we decided",
+          "count": 164,
+          "percent": 32.8
+        },
+        {
+          "ngram": [
+            " so",
+            " we"
+          ],
+          "ngram_str": " so we",
+          "count": 85,
+          "percent": 17.0
+        },
+        {
+          "ngram": [
+            " and",
+            " decided"
+          ],
+          "ngram_str": " and decided",
+          "count": 72,
+          "percent": 14.4
+        },
+        {
+          "ngram": [
+            " I",
+            " decided"
+          ],
+          "ngram_str": " I decided",
+          "count": 56,
+          "percent": 11.2
+        },
+        {
+          "ngram": [
+            " but",
+            " decided"
+          ],
+          "ngram_str": " but decided",
+          "count": 47,
+          "percent": 9.4
+        },
+        {
+          "ngram": [
+            ",",
+            " we"
+          ],
+          "ngram_str": ", we",
+          "count": 46,
+          "percent": 9.2
+        },
+        {
+          "ngram": [
+            " decided",
+            " on"
+          ],
+          "ngram_str": " decided on",
+          "count": 45,
+          "percent": 9.0
+        },
+        {
+          "ngram": [
+            ",",
+            " but"
+          ],
+          "ngram_str": ", but",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " to",
+            " give"
+          ],
+          "ngram_str": " to give",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            ",",
+            " so"
+          ],
+          "ngram_str": ", so",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            " opted",
+            " for"
+          ],
+          "ngram_str": " opted for",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            " to",
+            " go"
+          ],
+          "ngram_str": " to go",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            " to",
+            " try"
+          ],
+          "ngram_str": " to try",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            ".",
+            " We"
+          ],
+          "ngram_str": ". We",
+          "count": 37,
+          "percent": 7.4
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " we decided to",
+          "count": 128,
+          "percent": 25.6
+        },
+        {
+          "ngram": [
+            " so",
+            " we",
+            " decided"
+          ],
+          "ngram_str": " so we decided",
+          "count": 68,
+          "percent": 13.6
+        },
+        {
+          "ngram": [
+            " and",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " and decided to",
+          "count": 50,
+          "percent": 10.0
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " give"
+          ],
+          "ngram_str": " decided to give",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            ",",
+            " we",
+            " decided"
+          ],
+          "ngram_str": ", we decided",
+          "count": 36,
+          "percent": 7.2
+        },
+        {
+          "ngram": [
+            " I",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " I decided to",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " try"
+          ],
+          "ngram_str": " decided to try",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " we"
+          ],
+          "ngram_str": ", so we",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " go"
+          ],
+          "ngram_str": " decided to go",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " but",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " but decided to",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " to",
+            " give",
+            " it"
+          ],
+          "ngram_str": " to give it",
+          "count": 25,
+          "percent": 5.0
+        },
+        {
+          "ngram": [
+            " give",
+            " it",
+            " a"
+          ],
+          "ngram_str": " give it a",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " opted",
+            " for",
+            " the"
+          ],
+          "ngram_str": " opted for the",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " order"
+          ],
+          "ngram_str": " decided to order",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " decided"
+          ],
+          "ngram_str": ". We decided",
+          "count": 18,
+          "percent": 3.6
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " so",
+            " we",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " so we decided to",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            ",",
+            " we",
+            " decided",
+            " to"
+          ],
+          "ngram_str": ", we decided to",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " decided",
+            " to",
+            " give",
+            " it"
+          ],
+          "ngram_str": " decided to give it",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " to",
+            " give",
+            " it",
+            " a"
+          ],
+          "ngram_str": " to give it a",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ",",
+            " so",
+            " we",
+            " decided"
+          ],
+          "ngram_str": ", so we decided",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to",
+            " give"
+          ],
+          "ngram_str": " we decided to give",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to",
+            " go"
+          ],
+          "ngram_str": " we decided to go",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            ".",
+            " We",
+            " decided",
+            " to"
+          ],
+          "ngram_str": ". We decided to",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to",
+            " try"
+          ],
+          "ngram_str": " we decided to try",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " give",
+            " it",
+            " a",
+            " try"
+          ],
+          "ngram_str": " give it a try",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " decided",
+            " to",
+            " give"
+          ],
+          "ngram_str": " and decided to give",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " I",
+            " opted",
+            " for",
+            " the"
+          ],
+          "ngram_str": " I opted for the",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "ngram": [
+            " we",
+            " decided",
+            " to",
+            " order"
+          ],
+          "ngram_str": " we decided to order",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " so",
+            " I",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " so I decided to",
+          "count": 10,
+          "percent": 2.0
+        },
+        {
+          "ngram": [
+            " but",
+            " we",
+            " decided",
+            " to"
+          ],
+          "ngram_str": " but we decided to",
+          "count": 10,
+          "percent": 2.0
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9400000,
+      "corpus_coverage": 0.1818
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 20403,
+        "count": 6499,
+        "percent": 64.99
+      },
+      {
+        "feature_idx": 13335,
+        "count": 6232,
+        "percent": 62.32
+      },
+      {
+        "feature_idx": 17175,
+        "count": 4727,
+        "percent": 47.27
+      },
+      {
+        "feature_idx": 5254,
+        "count": 4456,
+        "percent": 44.56
+      },
+      {
+        "feature_idx": 17430,
+        "count": 4385,
+        "percent": 43.85
+      },
+      {
+        "feature_idx": 16224,
+        "count": 4272,
+        "percent": 42.72
+      },
+      {
+        "feature_idx": 22650,
+        "count": 3928,
+        "percent": 39.28
+      },
+      {
+        "feature_idx": 18704,
+        "count": 3735,
+        "percent": 37.35
+      },
+      {
+        "feature_idx": 3724,
+        "count": 3577,
+        "percent": 35.77
+      },
+      {
+        "feature_idx": 22170,
+        "count": 3438,
+        "percent": 34.38
+      },
+      {
+        "feature_idx": 9465,
+        "count": 3420,
+        "percent": 34.2
+      },
+      {
+        "feature_idx": 2667,
+        "count": 3286,
+        "percent": 32.86
+      },
+      {
+        "feature_idx": 5196,
+        "count": 3226,
+        "percent": 32.26
+      },
+      {
+        "feature_idx": 13944,
+        "count": 3225,
+        "percent": 32.25
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3048,
+        "percent": 30.48
+      },
+      {
+        "feature_idx": 22894,
+        "count": 3034,
+        "percent": 30.34
+      },
+      {
+        "feature_idx": 11763,
+        "count": 2951,
+        "percent": 29.51
+      },
+      {
+        "feature_idx": 2972,
+        "count": 2829,
+        "percent": 28.29
+      },
+      {
+        "feature_idx": 2738,
+        "count": 2814,
+        "percent": 28.14
+      },
+      {
+        "feature_idx": 10622,
+        "count": 2734,
+        "percent": 27.34
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 9400000,
+      "corpus_coverage": 0.1818
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2828,
+        "percent": 28.28
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2382,
+        "percent": 23.82
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 2067,
+        "percent": 20.67
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1549,
+        "percent": 15.49
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1174,
+        "percent": 11.74
+      }
+    ],
+    "mean_position": 0.4151,
+    "std_position": 0.273
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 91,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.027,
+      "p25": 0.0428,
+      "p50": 0.0733,
+      "p75": 0.1059,
+      "p90": 0.129,
+      "p95": 0.1373,
+      "p99": 0.1508
+    },
+    "skewness": 0.2472,
+    "kurtosis": -1.0665,
+    "min": 0.0113,
+    "max": 0.1523,
+    "mean": 0.0757,
+    "std": 0.0372
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 91,
+      "unique_tokens_found": 37
+    },
+    "tokens": [
+      {
+        "token": " decided",
+        "count": 32,
+        "mean_activation": 0.1073
+      },
+      {
+        "token": " for",
+        "count": 5,
+        "mean_activation": 0.0498
+      },
+      {
+        "token": " chose",
+        "count": 5,
+        "mean_activation": 0.0877
+      },
+      {
+        "token": " opted",
+        "count": 4,
+        "mean_activation": 0.1183
+      },
+      {
+        "token": " decide",
+        "count": 4,
+        "mean_activation": 0.0843
+      },
+      {
+        "token": " choose",
+        "count": 3,
+        "mean_activation": 0.058
+      },
+      {
+        "token": " agreed",
+        "count": 2,
+        "mean_activation": 0.0873
+      },
+      {
+        "token": " consider",
+        "count": 2,
+        "mean_activation": 0.0368
+      },
+      {
+        "token": " insisted",
+        "count": 2,
+        "mean_activation": 0.0614
+      },
+      {
+        "token": " offered",
+        "count": 2,
+        "mean_activation": 0.0381
+      }
+    ]
+  }
+}

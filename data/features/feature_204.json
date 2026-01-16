@@ -1,0 +1,836 @@
+{
+  "feature_idx": 204,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 3,
+    "mean_when_active": 0.2294921875,
+    "max_activation": 0.2998046875,
+    "std_when_active": 0.050828569324488974,
+    "activation_rate": 3e-05
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 5524,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " floor",
+        "count": 3336,
+        "mean_activation": 0.24223071493976694
+      },
+      {
+        "token": " floors",
+        "count": 826,
+        "mean_activation": 0.1686303090240996
+      },
+      {
+        "token": "oor",
+        "count": 231,
+        "mean_activation": 0.0766190698136499
+      },
+      {
+        "token": " carpet",
+        "count": 150,
+        "mean_activation": 0.0664166259765625
+      },
+      {
+        "token": "on",
+        "count": 132,
+        "mean_activation": 0.07157932628284801
+      },
+      {
+        "token": " level",
+        "count": 131,
+        "mean_activation": 0.03907892358212071
+      },
+      {
+        "token": " Meal",
+        "count": 51,
+        "mean_activation": 0.027838314280790442
+      },
+      {
+        "token": " Flo",
+        "count": 47,
+        "mean_activation": 0.08593360413896277
+      },
+      {
+        "token": " roof",
+        "count": 46,
+        "mean_activation": 0.03604557203209918
+      },
+      {
+        "token": " ceiling",
+        "count": 44,
+        "mean_activation": 0.030950719659978695
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 5524,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "...rolly passing by the** floor** to ceiling storefro...",
+        "active_token": " floor",
+        "activation": 0.33447265625,
+        "review_id": "Y53B0ggdVXMK4XV3YVGLhQ",
+        "position": 91
+      },
+      {
+        "context": "... the bar next to the** floor** to ceiling windows.",
+        "active_token": " floor",
+        "activation": 0.322998046875,
+        "review_id": "OWEtV3Y3KT3tO0g4BZ0d1w",
+        "position": 50
+      },
+      {
+        "context": "...When you walk in the** floor** is dirty, the soda ...",
+        "active_token": " floor",
+        "activation": 0.320068359375,
+        "review_id": "vKfqOYfjkTRJgPd39Hw1-g",
+        "position": 27
+      },
+      {
+        "context": "...ning the bar and the** floor**. He had some great ...",
+        "active_token": " floor",
+        "activation": 0.31494140625,
+        "review_id": "VBub-jtGc2Bs7kffTBDbTw",
+        "position": 71
+      },
+      {
+        "context": "...over the counter and** floor**. Bad customer servi...",
+        "active_token": " floor",
+        "activation": 0.3125,
+        "review_id": "7iUgn8FFA0fYgyZvD13A3A",
+        "position": 37
+      },
+      {
+        "context": "...even care at all the** floor** is slippery and the...",
+        "active_token": " floor",
+        "activation": 0.312255859375,
+        "review_id": "3gQNRjKQQvBiL6pl_fy6nw",
+        "position": 98
+      },
+      {
+        "context": "...has went through the** floor**.  The past two time...",
+        "active_token": " floor",
+        "activation": 0.311279296875,
+        "review_id": "QH37DKHGx6066GZ8IPM1lA",
+        "position": 25
+      },
+      {
+        "context": "...ver, then one of the** floor** managers comes up t...",
+        "active_token": " floor",
+        "activation": 0.310791015625,
+        "review_id": "b1089e2V-j2AFjhcwQh9aQ",
+        "position": 56
+      },
+      {
+        "context": "...ypically walking the** floor** when ever I've been...",
+        "active_token": " floor",
+        "activation": 0.310546875,
+        "review_id": "r6Kyg7DwOMY_7aMGIWhXIA",
+        "position": 136
+      },
+      {
+        "context": "...e table right by the** floor** to ceiling window. ...",
+        "active_token": " floor",
+        "activation": 0.310546875,
+        "review_id": "9BYewdGuNZ56g6OAq1u0Og",
+        "position": 60
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 204,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.2788,
+        "max": 0.3345,
+        "mean": 0.2893
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " floor"
+          ],
+          "ngram_str": " the floor",
+          "count": 343,
+          "percent": 68.6
+        },
+        {
+          "ngram": [
+            " on",
+            " the"
+          ],
+          "ngram_str": " on the",
+          "count": 169,
+          "percent": 33.8
+        },
+        {
+          "ngram": [
+            " floor",
+            "."
+          ],
+          "ngram_str": " floor.",
+          "count": 102,
+          "percent": 20.4
+        },
+        {
+          "ngram": [
+            " floor",
+            ","
+          ],
+          "ngram_str": " floor,",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "ngram": [
+            " floor",
+            " and"
+          ],
+          "ngram_str": " floor and",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 28,
+          "percent": 5.6
+        },
+        {
+          "ngram": [
+            " floor",
+            " was"
+          ],
+          "ngram_str": " floor was",
+          "count": 27,
+          "percent": 5.4
+        },
+        {
+          "ngram": [
+            " floor",
+            " to"
+          ],
+          "ngram_str": " floor to",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " and",
+            " floor"
+          ],
+          "ngram_str": " and floor",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ",",
+            " and"
+          ],
+          "ngram_str": ", and",
+          "count": 21,
+          "percent": 4.2
+        },
+        {
+          "ngram": [
+            " food",
+            " on"
+          ],
+          "ngram_str": " food on",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            " floor",
+            " manager"
+          ],
+          "ngram_str": " floor manager",
+          "count": 19,
+          "percent": 3.8
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " on the floor",
+          "count": 159,
+          "percent": 31.8
+        },
+        {
+          "ngram": [
+            " the",
+            " floor",
+            "."
+          ],
+          "ngram_str": " the floor.",
+          "count": 83,
+          "percent": 16.6
+        },
+        {
+          "ngram": [
+            " the",
+            " floor",
+            ","
+          ],
+          "ngram_str": " the floor,",
+          "count": 41,
+          "percent": 8.2
+        },
+        {
+          "ngram": [
+            " the",
+            " floor",
+            " and"
+          ],
+          "ngram_str": " the floor and",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            " floor",
+            ".",
+            " "
+          ],
+          "ngram_str": " floor. ",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            " food",
+            " on",
+            " the"
+          ],
+          "ngram_str": " food on the",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " the",
+            " floor",
+            " to"
+          ],
+          "ngram_str": " the floor to",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " floor"
+          ],
+          "ngram_str": ". The floor",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "ngram": [
+            " floor",
+            " to",
+            " ceiling"
+          ],
+          "ngram_str": " floor to ceiling",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " and the floor",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " working",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " working the floor",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            " all",
+            " over",
+            " the"
+          ],
+          "ngram_str": " all over the",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            " from",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " from the floor",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 12,
+          "percent": 2.4
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            " on",
+            " the",
+            " floor",
+            "."
+          ],
+          "ngram_str": " on the floor.",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " floor",
+            ","
+          ],
+          "ngram_str": " on the floor,",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " the",
+            " floor",
+            ".",
+            " "
+          ],
+          "ngram_str": " the floor. ",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " on",
+            " the",
+            " floor",
+            " and"
+          ],
+          "ngram_str": " on the floor and",
+          "count": 17,
+          "percent": 3.4
+        },
+        {
+          "ngram": [
+            " food",
+            " on",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " food on the floor",
+          "count": 15,
+          "percent": 3.0
+        },
+        {
+          "ngram": [
+            " server",
+            " on",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " server on the floor",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " all",
+            " over",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " all over the floor",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " trash",
+            " on",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " trash on the floor",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "ngram": [
+            " the",
+            " floor",
+            ".",
+            " The"
+          ],
+          "ngram_str": " the floor. The",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " working",
+            " the",
+            " floor",
+            "."
+          ],
+          "ngram_str": " working the floor.",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " up",
+            " off",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " up off the floor",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            " servers",
+            " on",
+            " the",
+            " floor"
+          ],
+          "ngram_str": " servers on the floor",
+          "count": 6,
+          "percent": 1.2
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " floor",
+            " was"
+          ],
+          "ngram_str": ". The floor was",
+          "count": 6,
+          "percent": 1.2
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5524,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 13863,
+        "count": 4743,
+        "percent": 85.86
+      },
+      {
+        "feature_idx": 19999,
+        "count": 4500,
+        "percent": 81.46
+      },
+      {
+        "feature_idx": 21872,
+        "count": 4216,
+        "percent": 76.32
+      },
+      {
+        "feature_idx": 22001,
+        "count": 3636,
+        "percent": 65.82
+      },
+      {
+        "feature_idx": 15082,
+        "count": 3617,
+        "percent": 65.48
+      },
+      {
+        "feature_idx": 21483,
+        "count": 3604,
+        "percent": 65.24
+      },
+      {
+        "feature_idx": 12571,
+        "count": 2864,
+        "percent": 51.85
+      },
+      {
+        "feature_idx": 17175,
+        "count": 2583,
+        "percent": 46.76
+      },
+      {
+        "feature_idx": 5632,
+        "count": 2195,
+        "percent": 39.74
+      },
+      {
+        "feature_idx": 24017,
+        "count": 2175,
+        "percent": 39.37
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2031,
+        "percent": 36.77
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2028,
+        "percent": 36.71
+      },
+      {
+        "feature_idx": 2459,
+        "count": 1957,
+        "percent": 35.43
+      },
+      {
+        "feature_idx": 22650,
+        "count": 1822,
+        "percent": 32.98
+      },
+      {
+        "feature_idx": 11851,
+        "count": 1819,
+        "percent": 32.93
+      },
+      {
+        "feature_idx": 16159,
+        "count": 1729,
+        "percent": 31.3
+      },
+      {
+        "feature_idx": 17368,
+        "count": 1601,
+        "percent": 28.98
+      },
+      {
+        "feature_idx": 7672,
+        "count": 1479,
+        "percent": 26.77
+      },
+      {
+        "feature_idx": 18704,
+        "count": 1392,
+        "percent": 25.2
+      },
+      {
+        "feature_idx": 11763,
+        "count": 1319,
+        "percent": 23.88
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 5524,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 931,
+        "percent": 16.85
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 1278,
+        "percent": 23.14
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1082,
+        "percent": 19.59
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1179,
+        "percent": 21.34
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 1054,
+        "percent": 19.08
+      }
+    ],
+    "mean_position": 0.5059,
+    "std_position": 0.2732
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 3,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.1866,
+      "p25": 0.1943,
+      "p50": 0.2073,
+      "p75": 0.2535,
+      "p90": 0.2813,
+      "p95": 0.2906,
+      "p99": 0.298
+    },
+    "skewness": 0.5721,
+    "kurtosis": -1.5,
+    "min": 0.1814,
+    "max": 0.2998,
+    "mean": 0.2295,
+    "std": 0.0508
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 3,
+      "unique_tokens_found": 2
+    },
+    "tokens": [
+      {
+        "token": " floor",
+        "count": 2,
+        "mean_activation": 0.2406
+      },
+      {
+        "token": " floors",
+        "count": 1,
+        "mean_activation": 0.2073
+      }
+    ]
+  }
+}

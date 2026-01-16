@@ -1,0 +1,876 @@
+{
+  "feature_idx": 12189,
+  "stats": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order (not random)",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019
+    },
+    "total_activations": 28,
+    "mean_when_active": 0.10462461199079241,
+    "max_activation": 0.384033203125,
+    "std_when_active": 0.095456542234849,
+    "activation_rate": 0.00028
+  },
+  "top_tokens": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order (not random)",
+      "activations_collected": 13213,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "top_tokens": [
+      {
+        "token": " space",
+        "count": 6736,
+        "mean_activation": 0.2373843793348009
+      },
+      {
+        "token": " spaces",
+        "count": 453,
+        "mean_activation": 0.1557603713955574
+      },
+      {
+        "token": " moons",
+        "count": 365,
+        "mean_activation": 0.11417545684396405
+      },
+      {
+        "token": " spaced",
+        "count": 319,
+        "mean_activation": 0.08111380932846787
+      },
+      {
+        "token": " medium",
+        "count": 237,
+        "mean_activation": 0.034679557703718354
+      },
+      {
+        "token": " moon",
+        "count": 204,
+        "mean_activation": 0.09288309134689032
+      },
+      {
+        "token": " somewhere",
+        "count": 166,
+        "mean_activation": 0.027833180255200488
+      },
+      {
+        "token": "asa",
+        "count": 143,
+        "mean_activation": 0.024422065361396416
+      },
+      {
+        "token": " venue",
+        "count": 142,
+        "mean_activation": 0.027077849482146785
+      },
+      {
+        "token": " environment",
+        "count": 141,
+        "mean_activation": 0.028169456103169326
+      }
+    ]
+  },
+  "top_activations": {
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Strongest activations within scanned tokens (not full corpus)",
+      "top_k_requested": 10,
+      "n_found": 10,
+      "activations_scanned": 13213,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0
+    },
+    "activations": [
+      {
+        "context": "... three stars for the** space**....three floors.......",
+        "active_token": " space",
+        "activation": 0.43310546875,
+        "review_id": "OOUEFxIs61OH_FAJC_1J3A",
+        "position": 7
+      },
+      {
+        "context": "... (it's really just a** space** between two buildin...",
+        "active_token": " space",
+        "activation": 0.419677734375,
+        "review_id": "0nEADCUk1pIe8emwwosvFg",
+        "position": 423
+      },
+      {
+        "context": "...Really? Maybe on the** space** station, but in a r...",
+        "active_token": " space",
+        "activation": 0.41650390625,
+        "review_id": "zvmHIJAZx93FWjnZLsCWUA",
+        "position": 21
+      },
+      {
+        "context": "...and landing myself a** space** at the bar for some...",
+        "active_token": " space",
+        "activation": 0.416259765625,
+        "review_id": "Ky-3NKkYF5aPiKTWAJb_RA",
+        "position": 279
+      },
+      {
+        "context": "...verall design of the** space** screams boring.\\n\\nTh...",
+        "active_token": " space",
+        "activation": 0.416015625,
+        "review_id": "Fk1HVAJRJ4FKz0Q1OL8Iug",
+        "position": 28
+      },
+      {
+        "context": "...eview is because the** space** is small and it was...",
+        "active_token": " space",
+        "activation": 0.410888671875,
+        "review_id": "id0_NWn3zxrKfb9BOi7CbA",
+        "position": 72
+      },
+      {
+        "context": "...usting food, but the** space** and service are bot...",
+        "active_token": " space",
+        "activation": 0.41015625,
+        "review_id": "jP0A59PdxxlmIO-Z8Bb20Q",
+        "position": 393
+      },
+      {
+        "context": "...the acoustics in the** space** could be improved. ...",
+        "active_token": " space",
+        "activation": 0.409423828125,
+        "review_id": "va-c9prKCy9txF4HTL3KwA",
+        "position": 52
+      },
+      {
+        "context": "...ns that looks like a** space** ship.  They have pr...",
+        "active_token": " space",
+        "activation": 0.4091796875,
+        "review_id": "994f5WM_HpfuQkr111kaBw",
+        "position": 273
+      },
+      {
+        "context": "...y something new. The** space** was packed when we ...",
+        "active_token": " space",
+        "activation": 0.40869140625,
+        "review_id": "9OahQov0vs93uUx6R4XkGQ",
+        "position": 20
+      }
+    ]
+  },
+  "ngram_analysis": {
+    "feature_idx": 12189,
+    "sampling": {
+      "method": "top_by_activation",
+      "description": "Top N activations by strength (not random)",
+      "n_requested": 500,
+      "n_found": 500,
+      "tokens_scanned": 51702947,
+      "corpus_coverage": 1.0,
+      "activation_range": {
+        "min": 0.3323,
+        "max": 0.4331,
+        "mean": 0.3566
+      }
+    },
+    "n_contexts_analyzed": 500,
+    "context_window": 5,
+    "ngrams": {
+      "2grams": [
+        {
+          "ngram": [
+            " the",
+            " space"
+          ],
+          "ngram_str": " the space",
+          "count": 200,
+          "percent": 40.0
+        },
+        {
+          "ngram": [
+            " space",
+            " is"
+          ],
+          "ngram_str": " space is",
+          "count": 135,
+          "percent": 27.0
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c",
+          "count": 108,
+          "percent": 21.6
+        },
+        {
+          "ngram": [
+            " The",
+            " space"
+          ],
+          "ngram_str": " The space",
+          "count": 80,
+          "percent": 16.0
+        },
+        {
+          "ngram": [
+            "The",
+            " space"
+          ],
+          "ngram_str": "The space",
+          "count": 58,
+          "percent": 11.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u012c\u00c4",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The"
+          ],
+          "ngram_str": ". The",
+          "count": 52,
+          "percent": 10.4
+        },
+        {
+          "ngram": [
+            " space",
+            "."
+          ],
+          "ngram_str": " space.",
+          "count": 49,
+          "percent": 9.8
+        },
+        {
+          "ngram": [
+            ".",
+            " "
+          ],
+          "ngram_str": ". ",
+          "count": 44,
+          "percent": 8.8
+        },
+        {
+          "ngram": [
+            " and",
+            " the"
+          ],
+          "ngram_str": " and the",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            ",",
+            " the"
+          ],
+          "ngram_str": ", the",
+          "count": 38,
+          "percent": 7.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012cThe",
+          "count": 35,
+          "percent": 7.0
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " space",
+            ","
+          ],
+          "ngram_str": " space,",
+          "count": 32,
+          "percent": 6.4
+        },
+        {
+          "ngram": [
+            " of",
+            " the"
+          ],
+          "ngram_str": " of the",
+          "count": 31,
+          "percent": 6.2
+        }
+      ],
+      "3grams": [
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u012c\u00c4\u012c",
+          "count": 55,
+          "percent": 11.0
+        },
+        {
+          "ngram": [
+            " The",
+            " space",
+            " is"
+          ],
+          "ngram_str": " The space is",
+          "count": 48,
+          "percent": 9.6
+        },
+        {
+          "ngram": [
+            " the",
+            " space",
+            " is"
+          ],
+          "ngram_str": " the space is",
+          "count": 43,
+          "percent": 8.6
+        },
+        {
+          "ngram": [
+            "The",
+            " space",
+            " is"
+          ],
+          "ngram_str": "The space is",
+          "count": 40,
+          "percent": 8.0
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " space"
+          ],
+          "ngram_str": ". The space",
+          "count": 39,
+          "percent": 7.8
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u00c4\u012cThe",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The",
+            " space"
+          ],
+          "ngram_str": "\u012cThe space",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            " the",
+            " space",
+            "."
+          ],
+          "ngram_str": " the space.",
+          "count": 29,
+          "percent": 5.8
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " space"
+          ],
+          "ngram_str": " of the space",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ".\u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c"
+          ],
+          "ngram_str": ". \u00c4\u012c",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " space"
+          ],
+          "ngram_str": "  The space",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " the",
+            " space",
+            ","
+          ],
+          "ngram_str": " the space,",
+          "count": 21,
+          "percent": 4.2
+        }
+      ],
+      "4grams": [
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": "\u00c4\u012c\u00c4\u012c",
+          "count": 33,
+          "percent": 6.6
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "\u00c4",
+            "\u012c",
+            "The"
+          ],
+          "ngram_str": "\u012c\u00c4\u012cThe",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u00c4",
+            "\u012c",
+            "The",
+            " space"
+          ],
+          "ngram_str": "\u00c4\u012cThe space",
+          "count": 31,
+          "percent": 6.2
+        },
+        {
+          "ngram": [
+            "\u012c",
+            "The",
+            " space",
+            " is"
+          ],
+          "ngram_str": "\u012cThe space is",
+          "count": 23,
+          "percent": 4.6
+        },
+        {
+          "ngram": [
+            ".",
+            " The",
+            " space",
+            " is"
+          ],
+          "ngram_str": ". The space is",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            " \u00c4",
+            "\u012c",
+            "\u00c4",
+            "\u012c"
+          ],
+          "ngram_str": " \u00c4\u012c\u00c4\u012c",
+          "count": 22,
+          "percent": 4.4
+        },
+        {
+          "ngram": [
+            ".",
+            "\u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ".\u00c4\u012c\u00c4",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " \u00c4",
+            "\u012c",
+            "\u00c4"
+          ],
+          "ngram_str": ". \u00c4\u012c\u00c4",
+          "count": 19,
+          "percent": 3.8
+        },
+        {
+          "ngram": [
+            ".",
+            " ",
+            " The",
+            " space"
+          ],
+          "ngram_str": ".  The space",
+          "count": 18,
+          "percent": 3.6
+        },
+        {
+          "ngram": [
+            " ",
+            " The",
+            " space",
+            " is"
+          ],
+          "ngram_str": "  The space is",
+          "count": 13,
+          "percent": 2.6
+        },
+        {
+          "ngram": [
+            ",",
+            " the",
+            " space",
+            " is"
+          ],
+          "ngram_str": ", the space is",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "ngram": [
+            "!",
+            " The",
+            " space",
+            " is"
+          ],
+          "ngram_str": "! The space is",
+          "count": 9,
+          "percent": 1.8
+        },
+        {
+          "ngram": [
+            " The",
+            " space",
+            " is",
+            " very"
+          ],
+          "ngram_str": " The space is very",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " and",
+            " the",
+            " space",
+            " is"
+          ],
+          "ngram_str": " and the space is",
+          "count": 8,
+          "percent": 1.6
+        },
+        {
+          "ngram": [
+            " of",
+            " the",
+            " space",
+            "."
+          ],
+          "ngram_str": " of the space.",
+          "count": 7,
+          "percent": 1.4
+        }
+      ]
+    }
+  },
+  "coactivation": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 39700000,
+      "corpus_coverage": 0.7678
+    },
+    "coactivated_features": [
+      {
+        "feature_idx": 13985,
+        "count": 6242,
+        "percent": 62.42
+      },
+      {
+        "feature_idx": 1318,
+        "count": 5713,
+        "percent": 57.13
+      },
+      {
+        "feature_idx": 21504,
+        "count": 5697,
+        "percent": 56.97
+      },
+      {
+        "feature_idx": 7843,
+        "count": 5684,
+        "percent": 56.84
+      },
+      {
+        "feature_idx": 17175,
+        "count": 5488,
+        "percent": 54.88
+      },
+      {
+        "feature_idx": 18704,
+        "count": 4966,
+        "percent": 49.66
+      },
+      {
+        "feature_idx": 6408,
+        "count": 3446,
+        "percent": 34.46
+      },
+      {
+        "feature_idx": 21898,
+        "count": 3321,
+        "percent": 33.21
+      },
+      {
+        "feature_idx": 1227,
+        "count": 3173,
+        "percent": 31.73
+      },
+      {
+        "feature_idx": 22001,
+        "count": 2978,
+        "percent": 29.78
+      },
+      {
+        "feature_idx": 20172,
+        "count": 2961,
+        "percent": 29.61
+      },
+      {
+        "feature_idx": 22894,
+        "count": 2917,
+        "percent": 29.17
+      },
+      {
+        "feature_idx": 22650,
+        "count": 2778,
+        "percent": 27.78
+      },
+      {
+        "feature_idx": 9115,
+        "count": 2762,
+        "percent": 27.62
+      },
+      {
+        "feature_idx": 14918,
+        "count": 2722,
+        "percent": 27.22
+      },
+      {
+        "feature_idx": 5196,
+        "count": 2292,
+        "percent": 22.92
+      },
+      {
+        "feature_idx": 1938,
+        "count": 2076,
+        "percent": 20.76
+      },
+      {
+        "feature_idx": 15889,
+        "count": 2015,
+        "percent": 20.15
+      },
+      {
+        "feature_idx": 3574,
+        "count": 2008,
+        "percent": 20.08
+      },
+      {
+        "feature_idx": 4011,
+        "count": 1843,
+        "percent": 18.43
+      }
+    ]
+  },
+  "position_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N activations in corpus order",
+      "activations_sampled": 10000,
+      "tokens_scanned": 39700000,
+      "corpus_coverage": 0.7678
+    },
+    "bins": [
+      {
+        "range": "0-20%",
+        "label": "early",
+        "count": 2650,
+        "percent": 26.5
+      },
+      {
+        "range": "20-40%",
+        "label": "early-mid",
+        "count": 2141,
+        "percent": 21.41
+      },
+      {
+        "range": "40-60%",
+        "label": "middle",
+        "count": 1488,
+        "percent": 14.88
+      },
+      {
+        "range": "60-80%",
+        "label": "late-mid",
+        "count": 1621,
+        "percent": 16.21
+      },
+      {
+        "range": "80-100%",
+        "label": "late",
+        "count": 2100,
+        "percent": 21.0
+      }
+    ],
+    "mean_position": 0.4662,
+    "std_position": 0.3075
+  },
+  "activation_distribution": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order",
+      "tokens_scanned": 100000,
+      "n_activations": 28,
+      "corpus_coverage": 0.0019
+    },
+    "percentiles": {
+      "p10": 0.0269,
+      "p25": 0.0359,
+      "p50": 0.0536,
+      "p75": 0.1467,
+      "p90": 0.2508,
+      "p95": 0.2751,
+      "p99": 0.3578
+    },
+    "skewness": 1.3056,
+    "kurtosis": 0.7622,
+    "min": 0.0207,
+    "max": 0.384,
+    "mean": 0.1046,
+    "std": 0.0955
+  },
+  "top_token_contexts": {
+    "sampling": {
+      "method": "sequential_from_start",
+      "description": "First N tokens in corpus order, top activations per token",
+      "tokens_scanned": 100000,
+      "corpus_coverage": 0.0019,
+      "activations_found": 28,
+      "unique_tokens_found": 17
+    },
+    "tokens": [
+      {
+        "token": " space",
+        "count": 6,
+        "mean_activation": 0.2655
+      },
+      {
+        "token": " spaces",
+        "count": 4,
+        "mean_activation": 0.1366
+      },
+      {
+        "token": " sandbox",
+        "count": 3,
+        "mean_activation": 0.0515
+      },
+      {
+        "token": " volume",
+        "count": 2,
+        "mean_activation": 0.032
+      },
+      {
+        "token": " spot",
+        "count": 1,
+        "mean_activation": 0.0227
+      },
+      {
+        "token": "Hub",
+        "count": 1,
+        "mean_activation": 0.0309
+      },
+      {
+        "token": " venue",
+        "count": 1,
+        "mean_activation": 0.0261
+      },
+      {
+        "token": "uum",
+        "count": 1,
+        "mean_activation": 0.0498
+      },
+      {
+        "token": "Sea",
+        "count": 1,
+        "mean_activation": 0.0289
+      },
+      {
+        "token": " span",
+        "count": 1,
+        "mean_activation": 0.0458
+      }
+    ]
+  }
+}
