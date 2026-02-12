@@ -91,9 +91,15 @@ const hasInterpretation = feature.interpretation &&
   )}
 
   <div class="flex items-center justify-between text-xs text-gray-400">
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center flex-wrap gap-x-4 gap-y-1">
       <span title="Rank with control metric">Rank (ctrl): {feature.rank_control.toFixed(0)}</span>
       <span title="Rank without control metric">Rank (no-ctrl): {feature.rank_nocontrol.toFixed(0)}</span>
+      {feature.paralinguistic_score && (
+        <span title="Paralinguistic score">Para: {feature.paralinguistic_score}/10</span>
+      )}
+      {feature.general_interest_score && (
+        <span title="General interest score">Interest: {feature.general_interest_score}/10</span>
+      )}
     </div>
     {feature.hasData && (
       <span class="text-blue-500">View analysis &rarr;</span>

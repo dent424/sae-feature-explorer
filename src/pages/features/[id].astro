@@ -163,11 +163,11 @@ const verifyStatusColor = indexEntry?.verify_status
     </div>
 
     <!-- Summary (Hero) -->
-    {indexEntry?.interpretation && (
+    {(indexEntry?.executive_summary || indexEntry?.interpretation) && (
       <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
         <h2 class="text-lg font-semibold text-blue-900 mb-2">Summary</h2>
         <p class="text-blue-800 text-lg leading-relaxed whitespace-pre-line">
-          {indexEntry.interpretation}
+          {indexEntry.executive_summary || indexEntry.interpretation}
         </p>
         {indexEntry.category && (
           <div class="mt-3 pt-3 border-t border-blue-200">
@@ -226,12 +226,18 @@ const verifyStatusColor = indexEntry?.verify_status
       </section>
     </div>
 
-    <!-- Rank Info -->
+    <!-- Rank Info & Scores -->
     {indexEntry && (
       <div class="mt-8 pt-6 border-t border-gray-200 text-sm text-gray-500">
-        <div class="flex space-x-6">
+        <div class="flex flex-wrap gap-x-6 gap-y-2">
           <span>Rank (control): {indexEntry.rank_control.toFixed(0)}</span>
           <span>Rank (no control): {indexEntry.rank_nocontrol.toFixed(0)}</span>
+          {indexEntry.paralinguistic_score && (
+            <span>Paralinguistic Score: {indexEntry.paralinguistic_score}/10</span>
+          )}
+          {indexEntry.general_interest_score && (
+            <span>General Interest Score: {indexEntry.general_interest_score}/10</span>
+          )}
         </div>
       </div>
     )}

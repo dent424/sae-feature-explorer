@@ -14,6 +14,9 @@ export interface FeatureIndexEntry {
   category?: string;
   verify_status?: string;
   paralinguistic?: string;
+  executive_summary?: string;
+  paralinguistic_score?: string;
+  general_interest_score?: string;
   hasData: boolean;
 }
 
@@ -125,7 +128,7 @@ export function paginateFeatures(
 }
 
 // Sort options
-export type SortOption = 'rank-ctrl' | 'rank-ctrl-desc' | 'rank-noctrl' | 'rank-noctrl-desc' | 'id' | 'id-desc' | 'has-data';
+export type SortOption = 'rank-ctrl' | 'rank-ctrl-desc' | 'rank-noctrl' | 'rank-noctrl-desc' | 'id' | 'id-desc' | 'has-data' | 'paralinguistic' | 'paralinguistic-desc' | 'general-interest' | 'general-interest-desc';
 
 export const SORT_OPTIONS: { value: SortOption; label: string }[] = [
   { value: 'rank-ctrl', label: 'Rank Control (Best)' },
@@ -135,6 +138,10 @@ export const SORT_OPTIONS: { value: SortOption; label: string }[] = [
   { value: 'id', label: 'Feature ID (Ascending)' },
   { value: 'id-desc', label: 'Feature ID (Descending)' },
   { value: 'has-data', label: 'Has Analysis Data' },
+  { value: 'paralinguistic', label: 'Paralinguistic Score (Low to High)' },
+  { value: 'paralinguistic-desc', label: 'Paralinguistic Score (High to Low)' },
+  { value: 'general-interest', label: 'General Interest (Low to High)' },
+  { value: 'general-interest-desc', label: 'General Interest (High to Low)' },
 ];
 
 // Sort features by given option
@@ -157,6 +164,30 @@ export function sortFeatures(features: FeatureIndexEntry[], sort: SortOption): F
       return sorted.sort((a, b) => {
         if (a.hasData === b.hasData) return a.rank_control - b.rank_control;
         return a.hasData ? -1 : 1;
+      });
+    case 'paralinguistic':
+      return sorted.sort((a, b) => {
+        const aVal = parseFloat(a.paralinguistic_score || '') || 0;
+        const bVal = parseFloat(b.paralinguistic_score || '') || 0;
+        return aVal - bVal;
+      });
+    case 'paralinguistic-desc':
+      return sorted.sort((a, b) => {
+        const aVal = parseFloat(a.paralinguistic_score || '') || 0;
+        const bVal = parseFloat(b.paralinguistic_score || '') || 0;
+        return bVal - aVal;
+      });
+    case 'general-interest':
+      return sorted.sort((a, b) => {
+        const aVal = parseFloat(a.general_interest_score || '') || 0;
+        const bVal = parseFloat(b.general_interest_score || '') || 0;
+        return aVal - bVal;
+      });
+    case 'general-interest-desc':
+      return sorted.sort((a, b) => {
+        const aVal = parseFloat(a.general_interest_score || '') || 0;
+        const bVal = parseFloat(b.general_interest_score || '') || 0;
+        return bVal - aVal;
       });
     default:
       return sorted;

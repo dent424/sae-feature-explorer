@@ -30,6 +30,30 @@ const featuresWithDataList = featuresWithData;
       </p>
     </div>
 
+    <!-- Jump to Feature -->
+    <div class="mb-12">
+      <div class="max-w-md mx-auto">
+        <label for="feature-search" class="block text-sm font-medium text-gray-700 mb-2 text-center">Jump to a Feature by ID</label>
+        <div class="flex items-center gap-2">
+          <input
+            type="number"
+            id="feature-search"
+            min="0"
+            max="24575"
+            placeholder="Enter feature ID (0-24575)"
+            class="flex-1 px-4 py-3 text-base border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          />
+          <button
+            id="feature-search-btn"
+            class="px-5 py-3 text-base font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Go
+          </button>
+        </div>
+        <p id="feature-search-error" class="mt-2 text-sm text-red-600 hidden">Please enter a valid feature ID (0-24575).</p>
+      </div>
+    </div>
+
     <!-- Stats Section -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
       <div class="bg-gray-50 rounded-lg p-6 text-center">
@@ -119,30 +143,6 @@ const featuresWithDataList = featuresWithData;
             </p>
           </a>
         ))}
-      </div>
-    </div>
-
-    <!-- Jump to Feature -->
-    <div class="mb-12">
-      <div class="max-w-md mx-auto">
-        <label for="feature-search" class="block text-sm font-medium text-gray-700 mb-2 text-center">Jump to a Feature by ID</label>
-        <div class="flex items-center gap-2">
-          <input
-            type="number"
-            id="feature-search"
-            min="0"
-            max="24575"
-            placeholder="Enter feature ID (0-24575)"
-            class="flex-1 px-4 py-3 text-base border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-          />
-          <button
-            id="feature-search-btn"
-            class="px-5 py-3 text-base font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Go
-          </button>
-        </div>
-        <p id="feature-search-error" class="mt-2 text-sm text-red-600 hidden">Please enter a valid feature ID (0-24575).</p>
       </div>
     </div>
 
