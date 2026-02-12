@@ -11,6 +11,7 @@ export interface FeatureIndexEntry {
   rank_control: number;
   rank_nocontrol: number;
   interpretation: string;
+  category?: string;
   verify_status?: string;
   paralinguistic?: string;
   hasData: boolean;

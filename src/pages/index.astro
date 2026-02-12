@@ -122,6 +122,30 @@ const featuresWithDataList = featuresWithData;
       </div>
     </div>
 
+    <!-- Jump to Feature -->
+    <div class="mb-12">
+      <div class="max-w-md mx-auto">
+        <label for="feature-search" class="block text-sm font-medium text-gray-700 mb-2 text-center">Jump to a Feature by ID</label>
+        <div class="flex items-center gap-2">
+          <input
+            type="number"
+            id="feature-search"
+            min="0"
+            max="24575"
+            placeholder="Enter feature ID (0-24575)"
+            class="flex-1 px-4 py-3 text-base border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          />
+          <button
+            id="feature-search-btn"
+            class="px-5 py-3 text-base font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Go
+          </button>
+        </div>
+        <p id="feature-search-error" class="mt-2 text-sm text-red-600 hidden">Please enter a valid feature ID (0-24575).</p>
+      </div>
+    </div>
+
     <!-- CTA -->
     <div class="text-center space-x-4">
       <a
@@ -146,6 +170,35 @@ const featuresWithDataList = featuresWithData;
   </div>
 
   <script define:vars={{ featuresWithDataList }}>
+    // Feature ID search box
+    const searchInput = document.getElementById('feature-search');
+    const searchBtn = document.getElementById('feature-search-btn');
+    const searchError = document.getElementById('feature-search-error');
+
+    function navigateToFeature() {
+      const value = searchInput.value.trim();
+      if (value && !isNaN(Number(value))) {
+        const featureId = Number(value);
+        if (featureId >= 0 && featureId <= 24575) {
+          searchError.classList.add('hidden');
+          window.location.href = `/features/${featureId}`;
+          return;
+        }
+      }
+      searchError.classList.remove('hidden');
+    }
+
+    if (searchBtn) {
+      searchBtn.addEventListener('click', navigateToFeature);
+    }
+    if (searchInput) {
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          navigateToFeature();
+        }
+      });
+    }
+
     // Random feature button
     const randomBtn = document.getElementById('random-feature-btn');
     if (randomBtn) {
